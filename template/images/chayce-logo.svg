@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="290" height="72" viewBox="0 0 290 72">
+  <defs>
+    <radialGradient id="bgGrad" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#2e2b24"/>
+      <stop offset="100%" stop-color="#14120e"/>
+    </radialGradient>
+  </defs>
+
+  <!-- ── Emblem circle ── -->
+  <circle cx="36" cy="36" r="34" fill="url(#bgGrad)"/>
+  <!-- outer gold ring -->
+  <circle cx="36" cy="36" r="33.5" fill="none" stroke="#c8a96e" stroke-width="1.2"/>
+  <!-- inner ring -->
+  <circle cx="36" cy="36" r="28" fill="none" stroke="#c8a96e" stroke-width="0.5" opacity="0.45"/>
+
+  <!-- ── Left laurel branch (leaves radiating from bottom-left up to top-left) ── -->
+  <g transform="translate(36,36)">
+    <line x1="-14" y1="18" x2="-22" y2="-17" stroke="#c8a96e" stroke-width="0.9"/>
+    <!-- 7 leaves, spaced up the stem -->
+    <ellipse rx="5.5" ry="2"  fill="#c8a96e" transform="translate(-15, 18) rotate(-40)"/>
+    <ellipse rx="5.5" ry="2"  fill="#c8a96e" transform="translate(-19, 13) rotate(-52)"/>
+    <ellipse rx="5.5" ry="2"  fill="#c8a96e" transform="translate(-22,  7) rotate(-68)"/>
+    <ellipse rx="5.5" ry="2"  fill="#c8a96e" transform="translate(-23,  1) rotate(-88)"/>
+    <ellipse rx="5.5" ry="2"  fill="#c8a96e" transform="translate(-22, -6) rotate(-108)"/>
+    <ellipse rx="5.5" ry="2"  fill="#c8a96e" transform="translate(-19,-12) rotate(-124)"/>
+    <ellipse rx="5.5" ry="2"  fill="#c8a96e" transform="translate(-14,-18) rotate(-140)"/>
+    <!-- small tip leaf -->
+    <ellipse rx="4"   ry="1.5" fill="#c8a96e" transform="translate(-10,-22) rotate(-155)"/>
+  </g>
+
+  <!-- ── Right laurel branch (mirror) ── -->
+  <g transform="translate(36,36)">
+    <line x1="14" y1="18" x2="22" y2="-17" stroke="#c8a96e" stroke-width="0.9"/>
+    <ellipse rx="5.5" ry="2"  fill="#c8a96e" transform="translate( 15, 18) rotate( 40)"/>
+    <ellipse rx="5.5" ry="2"  fill="#c8a96e" transform="translate( 19, 13) rotate( 52)"/>
+    <ellipse rx="5.5" ry="2"  fill="#c8a96e" transform="translate( 22,  7) rotate( 68)"/>
+    <ellipse rx="5.5" ry="2"  fill="#c8a96e" transform="translate( 23,  1) rotate( 88)"/>
+    <ellipse rx="5.5" ry="2"  fill="#c8a96e" transform="translate( 22, -6) rotate(108)"/>
+    <ellipse rx="5.5" ry="2"  fill="#c8a96e" transform="translate( 19,-12) rotate(124)"/>
+    <ellipse rx="5.5" ry="2"  fill="#c8a96e" transform="translate( 14,-18) rotate(140)"/>
+    <ellipse rx="4"   ry="1.5" fill="#c8a96e" transform="translate( 10,-22) rotate(155)"/>
+  </g>
+
+  <!-- ── Central "C" monogram ── -->
+  <!-- shadow/depth -->
+  <text x="37.5" y="48.5" font-family="Georgia,'Times New Roman',serif"
+        font-size="36" font-weight="700" fill="#0a0906" text-anchor="middle" opacity="0.6">C</text>
+  <!-- main letter -->
+  <text x="36" y="47" font-family="Georgia,'Times New Roman',serif"
+        font-size="36" font-weight="700" fill="#c8a96e" text-anchor="middle">C</text>
+
+  <!-- ── Wordmark: CHAYCE ── -->
+  <text x="80" y="31" font-family="Georgia,'Times New Roman',serif"
+        font-size="25" font-weight="700" fill="#ffffff" letter-spacing="5">CHAYCE</text>
+  <!-- gold rule -->
+  <line x1="80" y1="37" x2="288" y2="37" stroke="#c8a96e" stroke-width="0.8"/>
+  <!-- sub-text -->
+  <text x="80" y="52" font-family="Georgia,'Times New Roman',serif"
+        font-size="10.5" font-weight="400" fill="#c8a96e" letter-spacing="5.5">PROPERTIES LTD</text>
+</svg>

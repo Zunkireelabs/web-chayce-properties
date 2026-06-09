@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Our Services | Chayce Properties Ltd</title>
+<link rel="icon" type="image/png" href="../images/favicon.png">
+<link rel="stylesheet" href="../css/wp-content_themes_hompark_css_bundle.min.css">
+<link rel="stylesheet" href="../css/wp-content_themes_hompark_css_bootstrap.min.css">
+<link rel="stylesheet" href="../css/wp-content_themes_hompark_css_style.css">
+<link rel="stylesheet" href="../css/wp-content_themes_hompark_css_fontawesome.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:400,600,800">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair">
+<style>
+.chayce-logo-link{text-decoration:none!important}
+.navbar .container .upper-side .logo{margin-left:80px!important}
+.page-hero{background:#3d4558;padding:120px 0 80px;text-align:center;position:relative;overflow:hidden}
+.page-hero::before{content:'';position:absolute;inset:0;background:linear-gradient(135deg,rgba(30,35,50,.85),rgba(61,69,88,.7));z-index:1}
+.page-hero .container{position:relative;z-index:2}
+.page-hero h1{color:#fff;font-size:48px;font-weight:700;margin-bottom:10px;font-family:'Playfair',serif}
+.page-hero h1 em{color:#c8a96e;font-style:normal}
+.page-hero .breadcrumb{color:#c8a96e;font-size:13px;letter-spacing:2px;text-transform:uppercase}
+.page-hero .breadcrumb a{color:#fff;text-decoration:none}
+.page-section{padding:80px 0}
+.page-section.grey{background:#f9f9f9}
+.card-box{background:#fff;border:1px solid #eee;padding:36px;margin-bottom:30px;transition:.3s}
+.card-box:hover{box-shadow:0 8px 30px rgba(0,0,0,.08);transform:translateY(-3px)}
+.card-box h4{color:#1a1a1a;font-family:'Playfair',serif;margin-bottom:10px}
+.card-box h4 em{color:#c8a96e;font-style:normal}
+.card-box p{color:#666;line-height:1.7;font-size:15px}
+.card-box .price{font-size:22px;font-weight:700;color:#c8a96e;margin:12px 0}
+.card-box .btn-chayce{display:inline-block;padding:10px 28px;background:#c8a96e;color:#fff;text-decoration:none;font-size:13px;letter-spacing:1px;text-transform:uppercase;margin-top:12px}
+.card-box .btn-chayce:hover{background:#1a1a1a}
+.icon-row{display:flex;flex-wrap:wrap;gap:24px;margin-top:30px}
+.icon-item{flex:0 0 calc(33.333% - 16px);background:#fff;padding:30px 24px;border:1px solid #eee;text-align:center}
+.icon-item img{width:50px;height:50px;object-fit:contain;margin-bottom:14px}
+.icon-item h6{font-size:13px;font-weight:600;color:#1a1a1a;letter-spacing:1px;text-transform:uppercase}
+.quote-block{border-left:4px solid #c8a96e;padding:20px 28px;background:#f9f5ef;font-style:italic;font-size:17px;color:#3d4558;margin:30px 0;font-family:'Playfair',serif}
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px}
+.contact-info h5{color:#c8a96e;text-transform:uppercase;letter-spacing:2px;font-size:12px;margin-bottom:8px}
+.contact-info h3{color:#1a1a1a;font-size:28px;margin-bottom:20px;font-family:'Playfair',serif}
+.contact-info p{color:#666;line-height:1.8}
+.contact-info a{color:#c8a96e}
+.form-group{margin-bottom:18px}
+.form-group input,.form-group textarea,.form-group select{width:100%;padding:12px 16px;border:1px solid #ddd;font-size:14px;font-family:'Poppins',sans-serif;outline:none}
+.form-group input:focus,.form-group textarea:focus{border-color:#c8a96e}
+.form-group textarea{min-height:130px;resize:vertical}
+.btn-submit{background:#c8a96e;color:#fff;border:none;padding:14px 36px;font-size:13px;letter-spacing:2px;text-transform:uppercase;cursor:pointer;width:100%}
+.btn-submit:hover{background:#1a1a1a}
+.news-card figure{overflow:hidden;margin-bottom:16px}
+.news-card figure img{width:100%;height:220px;object-fit:cover;transition:.4s}
+.news-card figure:hover img{transform:scale(1.05)}
+.news-card span{color:#c8a96e;font-size:12px;letter-spacing:1px;text-transform:uppercase}
+.news-card h5{margin:8px 0;font-family:'Playfair',serif}
+.news-card h5 a{color:#1a1a1a;text-decoration:none}
+.news-card h5 a:hover{color:#c8a96e}
+.news-card p{color:#666;font-size:14px;line-height:1.7}
+.team-card{text-align:center;padding:30px 20px;border:1px solid #eee}
+.team-card .avatar{width:90px;height:90px;border-radius:50%;background:#c8a96e;margin:0 auto 16px;display:flex;align-items:center;justify-content:center;font-size:32px;color:#fff;font-family:'Playfair',serif}
+.team-card h5{font-family:'Playfair',serif;color:#1a1a1a;margin-bottom:4px}
+.team-card p{color:#c8a96e;font-size:12px;letter-spacing:2px;text-transform:uppercase}
+.faq-item{border-bottom:1px solid #eee;padding:20px 0}
+.faq-item h5{color:#1a1a1a;font-size:16px;cursor:pointer}
+.faq-item p{color:#666;font-size:14px;line-height:1.7;margin-top:10px}
+table.pkg-table{width:100%;border-collapse:collapse}
+table.pkg-table th{background:#3d4558;color:#fff;padding:12px 16px;font-size:13px;letter-spacing:1px;text-align:left}
+table.pkg-table td{padding:12px 16px;border-bottom:1px solid #eee;font-size:14px;color:#444}
+table.pkg-table tr:hover td{background:#fafafa}
+table.pkg-table td.gold{color:#c8a96e;font-weight:700}
+@media(max-width:768px){.contact-grid{grid-template-columns:1fr}.icon-item{flex:0 0 100%}}
+</style>
+<script src="../js/wp-includes_js_jquery_jquery.min.js"></script>
+<script src="../js/wp-includes_js_jquery_jquery-migrate.min.js"></script>
+</head>
+<body class="page-template page-loaded">
+<nav class="navbar">
+  <div class="container">
+    <div class="upper-side">
+      <div class="logo"><a href="../" style="text-decoration:none;display:inline-flex;align-items:center;gap:10px;"><img src="../images/chayce-logo.png" alt="Chayce Properties Ltd" style="height:58px;width:auto;"><span style="display:flex;flex-direction:column;line-height:1.15;"><span style="font-family:Georgia,serif;font-size:15px;font-weight:700;color:#fff;letter-spacing:2.5px;">CHAYCE</span><span style="font-family:Georgia,serif;font-size:8px;letter-spacing:3px;color:#b49a5e;font-weight:400;">PROPERTIES LTD</span></span></a></div>
+      <div class="phone-email">
+        <h4><a href="tel:07708925432">07708 925 432</a></h4>
+        <small><a href="mailto:joyce@chayceproperties.com">joyce@chayceproperties.com</a></small>
+      </div>
+      <figure class="phone-email-icon"><img src="../images/wp-content_uploads_2020_03_icon-phone.png" alt="Image"></figure>
+      <div class="hamburger"><span></span><span></span><span></span><span></span></div>
+    </div>
+    <div class="menu">
+      <div class="menu-main-menu-container"><ul id="menu-main-menu-1" class="menu-horizontal">
+        <li class="nav-item"><a href="../" class="nav-link" data-text="START">START</a></li>
+        <li class="nav-item"><a href="../about-chayce/" class="nav-link" data-text="ABOUT US">ABOUT US</a></li>
+        <li class="nav-item"><a href="../packages/" class="nav-link" data-text="PACKAGES">PACKAGES</a></li>
+        <li class="nav-item"><a href="../our-services/" class="nav-link" data-text="SERVICES">SERVICES</a></li>
+        <li class="nav-item"><a href="../news/" class="nav-link" data-text="NEWS">NEWS</a></li>
+        <li class="nav-item"><a href="../contact/" class="nav-link" data-text="CONTACT">CONTACT</a></li>
+      </ul></div>
+    </div>
+  </div>
+</nav>
+<div class="page-hero" style="background-image:url(../images/wp-content_uploads_2020_03_slide02.jpg);background-size:cover;background-position:center;">
+  <div class="container">
+    <p class="breadcrumb"><a href="../">Home</a> / <em>Our</em> Services</p>
+    <h1><em>Our</em> Services</h1>
+    <p style="color:#ccc;margin-top:10px;font-size:16px;">Everything managed, so you don't have to</p>
+  </div>
+</div>
+<section class="page-section">
+  <div class="container">
+    <div class="section-titles center wow fadeInUp"><b>01</b><h2><em>Concierge</em> Services</h2><h3>A complete relocation solution</h3></div>
+    <div class="row" style="margin-top:50px">
+      <div class="col-md-4 col-6" style="margin-bottom:30px">
+        <div class="card-box" style="text-align:center;padding:28px 20px">
+          <img src="../images/wp-content_uploads_2020_03_services-icon01.png" alt="Home Sorting" style="width:52px;height:52px;object-fit:contain;margin-bottom:14px">
+          <h4 style="font-size:15px">Home Sorting</h4>
+          <p style="font-size:13px">We carefully sort, categorise and organise the entire contents of your home.</p>
+        </div>
+      </div><div class="col-md-4 col-6" style="margin-bottom:30px">
+        <div class="card-box" style="text-align:center;padding:28px 20px">
+          <img src="../images/wp-content_uploads_2020_03_services-icon02.png" alt="Packing & Removals" style="width:52px;height:52px;object-fit:contain;margin-bottom:14px">
+          <h4 style="font-size:15px">Packing & Removals</h4>
+          <p style="font-size:13px">Professional packing with premium materials. Safe, insured removal to your new home.</p>
+        </div>
+      </div><div class="col-md-4 col-6" style="margin-bottom:30px">
+        <div class="card-box" style="text-align:center;padding:28px 20px">
+          <img src="../images/wp-content_uploads_2020_03_services-icon03.png" alt="Property Staging" style="width:52px;height:52px;object-fit:contain;margin-bottom:14px">
+          <h4 style="font-size:15px">Property Staging</h4>
+          <p style="font-size:13px">Expert staging to maximise your sale price. Furniture arrangement, styling and photography.</p>
+        </div>
+      </div><div class="col-md-4 col-6" style="margin-bottom:30px">
+        <div class="card-box" style="text-align:center;padding:28px 20px">
+          <img src="../images/wp-content_uploads_2020_03_services-icon04.png" alt="Estate Agent Liaison" style="width:52px;height:52px;object-fit:contain;margin-bottom:14px">
+          <h4 style="font-size:15px">Estate Agent Liaison</h4>
+          <p style="font-size:13px">We liaise with agents on your behalf — viewings, negotiations, and sale progression.</p>
+        </div>
+      </div><div class="col-md-4 col-6" style="margin-bottom:30px">
+        <div class="card-box" style="text-align:center;padding:28px 20px">
+          <img src="../images/wp-content_uploads_2020_03_services-icon05.png" alt="Legal Coordination" style="width:52px;height:52px;object-fit:contain;margin-bottom:14px">
+          <h4 style="font-size:15px">Legal Coordination</h4>
+          <p style="font-size:13px">We coordinate with your solicitor to keep your sale on track and stress-free.</p>
+        </div>
+      </div><div class="col-md-4 col-6" style="margin-bottom:30px">
+        <div class="card-box" style="text-align:center;padding:28px 20px">
+          <img src="../images/wp-content_uploads_2020_03_services-icon06.png" alt="Deep Cleaning" style="width:52px;height:52px;object-fit:contain;margin-bottom:14px">
+          <h4 style="font-size:15px">Deep Cleaning</h4>
+          <p style="font-size:13px">Full deep-clean of your old and new property, leaving everything spotless.</p>
+        </div>
+      </div><div class="col-md-4 col-6" style="margin-bottom:30px">
+        <div class="card-box" style="text-align:center;padding:28px 20px">
+          <img src="../images/wp-content_uploads_2020_03_services-icon07.png" alt="Chauffeur Viewings" style="width:52px;height:52px;object-fit:contain;margin-bottom:14px">
+          <h4 style="font-size:15px">Chauffeur Viewings</h4>
+          <p style="font-size:13px">We arrange and accompany you to viewings in comfort and style.</p>
+        </div>
+      </div><div class="col-md-4 col-6" style="margin-bottom:30px">
+        <div class="card-box" style="text-align:center;padding:28px 20px">
+          <img src="../images/wp-content_uploads_2020_03_services-icon08.png" alt="Furniture Placement" style="width:52px;height:52px;object-fit:contain;margin-bottom:14px">
+          <h4 style="font-size:15px">Furniture Placement</h4>
+          <p style="font-size:13px">We place, assemble and arrange your furniture exactly as you wish.</p>
+        </div>
+      </div><div class="col-md-4 col-6" style="margin-bottom:30px">
+        <div class="card-box" style="text-align:center;padding:28px 20px">
+          <img src="../images/wp-content_uploads_2020_03_services-icon09.png" alt="Unpacking & Setup" style="width:52px;height:52px;object-fit:contain;margin-bottom:14px">
+          <h4 style="font-size:15px">Unpacking & Setup</h4>
+          <p style="font-size:13px">Full unpacking and home setup so you can walk in and feel at home immediately.</p>
+        </div>
+      </div><div class="col-md-4 col-6" style="margin-bottom:30px">
+        <div class="card-box" style="text-align:center;padding:28px 20px">
+          <img src="../images/wp-content_uploads_2020_03_services-icon10.png" alt="Utility Transfers" style="width:52px;height:52px;object-fit:contain;margin-bottom:14px">
+          <h4 style="font-size:15px">Utility Transfers</h4>
+          <p style="font-size:13px">We handle all utility transfers, redirections and account changes.</p>
+        </div>
+      </div><div class="col-md-4 col-6" style="margin-bottom:30px">
+        <div class="card-box" style="text-align:center;padding:28px 20px">
+          <img src="../images/wp-content_uploads_2020_03_services-icon11.png" alt="Storage Solutions" style="width:52px;height:52px;object-fit:contain;margin-bottom:14px">
+          <h4 style="font-size:15px">Storage Solutions</h4>
+          <p style="font-size:13px">Secure storage arranged for items you&rsquo;re not ready to part with yet.</p>
+        </div>
+      </div><div class="col-md-4 col-6" style="margin-bottom:30px">
+        <div class="card-box" style="text-align:center;padding:28px 20px">
+          <img src="../images/wp-content_uploads_2020_03_services-icon12.png" alt="Ongoing Concierge" style="width:52px;height:52px;object-fit:contain;margin-bottom:14px">
+          <h4 style="font-size:15px">Ongoing Concierge</h4>
+          <p style="font-size:13px">Post-move support — we&rsquo;re still here after moving day if you need us.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="footer-bar" style="background:#26282b">
+  <div class="container">
+    <div class="inner">
+      <div class="row">
+        <div class="col-lg-4">
+          <figure><img src="../images/wp-content_uploads_2020_03_footer-icon01.png" alt="Address"></figure>
+          <h3>Our Address</h3><p>United Kingdom<br>chayceproperties.com</p>
+        </div>
+        <div class="col-lg-4">
+          <figure><img src="../images/wp-content_uploads_2020_03_footer-icon02.png" alt="Hours"></figure>
+          <h3>Working Hours</h3><p>Monday to Friday <strong>09:00</strong> to <strong>17:30</strong><br>Saturday by appointment</p>
+        </div>
+        <div class="col-lg-4">
+          <figure><img src="../images/wp-content_uploads_2020_03_footer-icon03.png" alt="Contact"></figure>
+          <h3>Contact Us</h3><p>t: 07708 925 432<br>e: joyce@chayceproperties.com</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<footer class="footer" style="background:#26282b">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4">
+        <p style="color:#aaa;line-height:1.8">Guiding your next chapter with grace &amp; ease. Discreet, dignified, designed for you &mdash; The UK&rsquo;s premier luxury senior relocation specialists.</p>
+      </div>
+      <div class="col-lg-2 col-6">
+        <ul class="footer-menu">
+          <li><a href="../about-chayce/">About Us</a></li>
+          <li><a href="../our-services/">Services</a></li>
+          <li><a href="../news/">News</a></li>
+          <li><a href="../contact/">Contact</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-2 col-6">
+        <ul class="footer-menu">
+          <li><a href="../discovery/">Discovery</a></li>
+          <li><a href="../bronze-essentials/">Bronze Essentials</a></li>
+          <li><a href="../silver-comfort/">Silver Comfort</a></li>
+          <li><a href="../gold-prestige/">Gold Prestige</a></li>
+          <li><a href="../platinum-bespoke/">Platinum Bespoke</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-4">
+        <div class="contact-box">
+          <h5>CONTACT US</h5>
+          <h3>07708 925 432</h3>
+          <p><a href="mailto:joyce@chayceproperties.com">joyce@chayceproperties.com</a></p>
+          <ul>
+            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-12">
+        <div class="footer-bottom">
+          <span class="copyright">&copy; 2026 Chayce Properties Ltd &mdash; All rights reserved.</span>
+          <span class="creation">w: <a href="https://chayceproperties.com">chayceproperties.com</a></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="../js/wp-content_themes_hompark_js_popper.min.js"></script>
+<script src="../js/wp-content_themes_hompark_js_bootstrap.min.js"></script>
+<script src="../js/wp-content_themes_hompark_js_bundle.js"></script>
+<script src="../js/wp-content_themes_hompark_js_scripts.js"></script>
+</body></html>

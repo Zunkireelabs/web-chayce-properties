@@ -1,0 +1,191 @@
+/*
+Theme Name: Hompark
+Theme URI: ../
+Author: themezinho
+Author URI: https://themezinho.net
+Description: Real Estate & Luxury Homes
+Version: 1.1.2
+Requires at least: 5.0
+Tested up to: 5.5.2
+Requires PHP: 7.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: Hompark
+Tags: blog, custom-logo, custom-menu, editor-style, featured-images, sticky-post, theme-options
+*/
+
+/*--------------------------------------------------------------
+# Alignments
+--------------------------------------------------------------*/
+body{padding: 0;}
+img{height: auto; max-width: 100%;}
+iframe{ width: 100%; max-width: 100%;}
+
+
+/* RTL SUPPORT */
+.rtl{direction:rtl; text-align:right;}
+.rtl .navbar .container .upper-side .phone-email{margin-left:0; margin-right:auto;}
+.rtl .side-navigation{left:auto; right:-100%;}
+.rtl .side-navigation.active{ right:0;}
+.rtl .slider .slider-container .inner-elements .container .social-media{left:auto; right:15px;}
+.rtl .slider .slider-container .inner-elements .container .button-prev{right:auto; left:0;}
+.rtl .slider .slider-container .inner-elements .container .button-next{ right:auto; left:0;}
+.rtl .slider .slider-container .swiper-slide .container a{float:right;}
+.rtl .slider .slider-container .swiper-slide .container figure{float:right; margin-left:auto; margin-right:40px;}
+.rtl .slider .slider-container .swiper-slide .container{padding-left:0; padding-right:100px;}
+.rtl .slider .slider-container .inner-elements .container .social-media h6{transform: rotate(-90deg); transform-origin: right; margin-left:0; margin-right:9px;}
+.rtl .side-image-right p{ padding-right:0; padding-left:40%;}
+.rtl .side-text-left p{padding-right:0; padding-left:40%;}
+.rtl .side-image-right a img{ margin-left:15px; margin-right:0;}
+.rtl .nav-pills{padding:0;}
+.rtl .nav-pills .nav-item{margin-left:30px; margin-right:0;}
+.rtl .consultation-box p{ padding-right:0; padding-left:40%;}
+.rtl .page-header .container .breadcrumb{left:auto; right:15px;}
+.rtl .content-slider .swiper-button-prev{ left:auto; right:30px;}
+.rtl .content-slider .swiper-button-next{ left:30px; right:auto;}
+.rtl .about-content ul{ padding-left:0; padding-right:20px;}
+.rtl .apartment-content ul{ padding-left:0; padding-right:20px;}
+.rtl .sales-office a i{margin-right:0; margin-left:7px;}
+.rtl .press-release figcaption{padding-left:0; padding-right:20px;}
+.rtl .facilities-box img{float:right;}
+.rtl .facilities-box figcaption{float:left;}
+.rtl .blog-post .post-content .post-author img{margin-right:0; margin-left:10px;}
+.rtl .blog-post .post-content ul{ padding-left:0; padding-right:20px;}
+.rtl .side-navigation .social-media li{float:right;}
+.rtl .wpcf7 input[type="submit"]{float:right; margin-left:15px;}
+.rtl .wpcf7 .wpcf7-response-output{width:80%; margin:0; margin-left:20%; margin-top:30px; float:right;}
+.rtl .map:before{left:-12vw;}
+.rtl .footer-bar .inner figure{float:right; margin-left:30px; margin-right:0;}
+.rtl .footer .footer-menu li a{float:right;}
+.rtl .footer .footer-bottom .copyright{float:right;}
+.rtl .footer .footer-bottom .creation{float:left;}
+
+
+
+.alignleft {
+	display: inline;
+	float: left;
+	margin-right: 1.5em;
+}
+
+.alignright {
+	float:right; margin-left:1em;
+}
+
+.aligncenter {
+	clear: both;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.screen-reader-text{
+    display: block;
+}
+/*--------------------------------------------------------------
+# Widgets
+--------------------------------------------------------------*/
+.widget {
+	margin: 0 0 1.5em;
+	/* Make sure select elements fit in widgets. */
+}
+
+.widget select {
+	max-width: 100%;
+}
+
+
+/* Make sure embeds and iframes fit their containers. */
+embed,
+iframe,
+object {
+	max-width: 100%;
+}
+
+/* Make sure logo link wraps around logo image. */
+.custom-logo-link {
+	display: inline-block;
+}
+
+/*--------------------------------------------------------------
+## Captions
+--------------------------------------------------------------*/
+.wp-caption {
+	margin-bottom: 1.5em;
+	max-width: 100%;
+}
+
+.wp-caption img[class*="wp-image-"] {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.wp-caption .wp-caption-text {
+	margin: 0.8075em 0;
+}
+
+.wp-caption-text {
+	text-align: center;
+}
+
+/*--------------------------------------------------------------
+## Galleries
+--------------------------------------------------------------*/
+.gallery {
+	margin-bottom: 1.5em;
+}
+
+.gallery-item {
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+	width: 100%;
+}
+
+.gallery-columns-2 .gallery-item {
+	max-width: 50%;
+}
+
+.gallery-columns-3 .gallery-item {
+	max-width: 33.33%;
+}
+
+.gallery-columns-4 .gallery-item {
+	max-width: 25%;
+}
+
+.gallery-columns-5 .gallery-item {
+	max-width: 20%;
+}
+
+.gallery-columns-6 .gallery-item {
+	max-width: 16.66%;
+}
+
+.gallery-columns-7 .gallery-item {
+	max-width: 14.28%;
+}
+
+.gallery-columns-8 .gallery-item {
+	max-width: 12.5%;
+}
+
+.gallery-columns-9 .gallery-item {
+	max-width: 11.11%;
+}
+
+.gallery-caption {
+	display: block;
+}
+
+.bypostauthor{
+	display: block;
+}
+
+section.icon-content-block{
+	overflow: visible;
+}
+
+.wp-block-cover, .wp-block-cover-image {
+	height:auto;
+}
