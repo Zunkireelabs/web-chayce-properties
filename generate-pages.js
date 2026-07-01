@@ -11,7 +11,7 @@ function head(title, depth = 1) {
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>${title.replace(/<[^>]+>/g, '')} | Chayce Properties Ltd</title>
+<title>${title.replace(/<[^>]+>/g, '')} | Chayce Properties</title>
 <link rel="icon" type="image/png" href="${p}images/favicon.png">
 <link rel="stylesheet" href="${p}css/wp-content_themes_hompark_css_bundle.min.css">
 <link rel="stylesheet" href="${p}css/wp-content_themes_hompark_css_bootstrap.min.css">
@@ -88,10 +88,10 @@ function navbar(depth = 1) {
   return `<nav class="navbar">
   <div class="container">
     <div class="upper-side">
-      <div class="logo"><a href="${p}" style="text-decoration:none;display:inline-flex;align-items:center;gap:10px;"><img src="${p}images/chayce-logo.png" alt="Chayce Properties Ltd" style="height:58px;width:auto;"><span style="display:flex;flex-direction:column;line-height:1.15;"><span style="font-family:Georgia,serif;font-size:15px;font-weight:700;color:#fff;letter-spacing:2.5px;">CHAYCE</span><span style="font-family:Georgia,serif;font-size:8px;letter-spacing:3px;color:#b49a5e;font-weight:400;">PROPERTIES LTD</span></span></a></div>
+      <div class="logo"><a href="${p}" style="text-decoration:none;display:inline-flex;align-items:center;gap:10px;"><img src="${p}images/chayce-logo.png" alt="Chayce Properties" style="height:58px;width:auto;"><span style="display:flex;flex-direction:column;line-height:1.15;"><span style="font-family:Georgia,serif;font-size:15px;font-weight:700;color:#fff;letter-spacing:2.5px;">CHAYCE</span><span style="font-family:Georgia,serif;font-size:8px;letter-spacing:3px;color:#b49a5e;font-weight:400;">PROPERTIES</span></span></a></div>
       <div class="phone-email">
         <h4><a href="tel:07708925432">07708 925 432</a></h4>
-        <small><a href="mailto:joyce@chayceproperties.com">joyce@chayceproperties.com</a></small>
+        <small><a href="mailto:info@chayceproperties.com">info@chayceproperties.com</a></small>
       </div>
       <figure class="phone-email-icon"><img src="${p}images/wp-content_uploads_2020_03_icon-phone.png" alt="Image"></figure>
       <div class="hamburger"><span></span><span></span><span></span><span></span></div>
@@ -127,7 +127,7 @@ function footer(depth = 1) {
         </div>
         <div class="col-lg-4">
           <figure><img src="${p}images/wp-content_uploads_2020_03_footer-icon03.png" alt="Contact"></figure>
-          <h3>Contact Us</h3><p>t: 07708 925 432<br>e: joyce@chayceproperties.com</p>
+          <h3>Contact Us</h3><p>t: 07708 925 432<br>e: info@chayceproperties.com</p>
         </div>
       </div>
     </div>
@@ -160,7 +160,7 @@ function footer(depth = 1) {
         <div class="contact-box">
           <h5>CONTACT US</h5>
           <h3>07708 925 432</h3>
-          <p><a href="mailto:joyce@chayceproperties.com">joyce@chayceproperties.com</a></p>
+          <p><a href="mailto:info@chayceproperties.com">info@chayceproperties.com</a></p>
           <ul>
             <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
             <li><a href="#"><i class="fab fa-instagram"></i></a></li>
@@ -170,7 +170,7 @@ function footer(depth = 1) {
       </div>
       <div class="col-12">
         <div class="footer-bottom">
-          <span class="copyright">&copy; 2026 Chayce Properties Ltd &mdash; All rights reserved.</span>
+          <span class="copyright">&copy; 2026 Chayce Properties &mdash; All rights reserved.</span>
           <span class="creation">w: <a href="https://chayceproperties.com">chayceproperties.com</a></span>
         </div>
       </div>
@@ -224,7 +224,7 @@ function buildPage(slug, title, subtitle, bgImg, content, depth = 1) {
 // ═══════════════════════════════════════════════════════════════════════════════
 
 // 1. ABOUT CHAYCE
-buildPage('about-chayce', '<em>About</em> Chayce Properties Ltd', 'The UK\'s Premier Luxury Senior Relocation Specialists',
+buildPage('about-chayce', '<em>About</em> Chayce Properties', 'The UK\'s Premier Luxury Senior Relocation Specialists',
   'wp-content_uploads_2020_03_slide01.jpg',
   `<section class="page-section">
   <div class="container">
@@ -235,7 +235,7 @@ buildPage('about-chayce', '<em>About</em> Chayce Properties Ltd', 'The UK\'s Pre
           <h2><em>Who</em> We Are</h2>
           <h3>Moving home, handled with heart</h3>
         </div>
-        <p style="color:#666;line-height:1.9;margin-top:20px">Moving home is one of life&rsquo;s most significant transitions &mdash; and for seniors, it deserves to be handled with the utmost care, dignity, and discretion. At Chayce Properties Ltd, we have built our entire service around that belief.</p>
+        <p style="color:#666;line-height:1.9;margin-top:20px">Moving home is one of life&rsquo;s most significant transitions &mdash; and for seniors, it deserves to be handled with the utmost care, dignity, and discretion. At Chayce Properties, we have built our entire service around that belief.</p>
         <p style="color:#666;line-height:1.9">We are not simply a removal company. We are a full-service relocation partner, dedicated to guiding our clients through their next chapter with grace, compassion, and unparalleled attention to detail.</p>
         <div class="quote-block">&ldquo;From sorting and packing to selling and settling in &mdash; we manage it all, so you don&rsquo;t have to.&rdquo;</div>
       </div>
@@ -297,7 +297,9 @@ buildPage('our-services', '<em>Our</em> Services', 'Everything managed, so you d
         ['Unpacking & Setup','Full unpacking and home setup so you can walk in and feel at home immediately.','wp-content_uploads_2020_03_services-icon09.png'],
         ['Utility Transfers','We handle all utility transfers, redirections and account changes.','wp-content_uploads_2020_03_services-icon10.png'],
         ['Storage Solutions','Secure storage arranged for items you&rsquo;re not ready to part with yet.','wp-content_uploads_2020_03_services-icon11.png'],
+        
         ['Ongoing Concierge','Post-move support — we&rsquo;re still here after moving day if you need us.','wp-content_uploads_2020_03_services-icon12.png'],
+        ['Refurbishment','Coordination of light repairs, decoration, and home improvements to prepare your property for sale.','wp-content_uploads_2020_03_services-icon13.png'],
       ].map(([name, desc, icon]) => `<div class="col-md-4 col-6" style="margin-bottom:30px">
         <div class="card-box" style="text-align:center;padding:28px 20px">
           <img src="../images/${icon}" alt="${name}" style="width:52px;height:52px;object-fit:contain;margin-bottom:14px">
@@ -368,7 +370,7 @@ packages.forEach(pkg => {
 });
 
 // 5. NEWS
-buildPage('news', '<em>News</em> &amp; Updates', 'Insights from Chayce Properties Ltd',
+buildPage('news', '<em>News</em> &amp; Updates', 'Insights from Chayce Properties',
   'wp-content_uploads_2020_03_section-bg01.jpg',
   `<section class="page-section">
   <div class="container">
@@ -403,7 +405,7 @@ buildPage('contact', '<em>Contact</em> Us', 'Get in touch — we\'d love to hear
         <p>Whether you&rsquo;re ready to book or just exploring your options, our team is delighted to answer any questions and guide you through the process.</p>
         <div style="margin-top:32px">
           <p>&#9830; <strong>Phone:</strong> <a href="tel:07708925432">07708 925 432</a></p>
-          <p>&#9830; <strong>Email:</strong> <a href="mailto:joyce@chayceproperties.com">joyce@chayceproperties.com</a></p>
+          <p>&#9830; <strong>Email:</strong> <a href="mailto:info@chayceproperties.com">info@chayceproperties.com</a></p>
           <p>&#9830; <strong>Website:</strong> <a href="https://chayceproperties.com">chayceproperties.com</a></p>
         </div>
         <div class="quote-block" style="margin-top:40px">&ldquo;Guiding your next chapter with grace &amp; ease. Discreet, dignified, designed for you.&rdquo;</div>
@@ -447,6 +449,7 @@ buildPage('photo-gallery', '<em>Photo</em> Gallery', 'A glimpse into the moves w
 </section>`
 );
 
+/*
 // Certificates / Accreditations
 buildPage('certificates', '<em>Our</em> Accreditations', 'Trusted, certified and professionally recognised',
   'wp-content_uploads_2020_03_slide03.jpg',
@@ -465,6 +468,7 @@ buildPage('certificates', '<em>Our</em> Accreditations', 'Trusted, certified and
   </div>
 </section>`
 );
+*/
 
 // FAQ
 buildPage('faq', 'Frequently Asked <em>Questions</em>', 'Everything you need to know',

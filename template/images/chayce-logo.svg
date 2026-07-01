@@ -56,5 +56,5 @@
   <line x1="80" y1="37" x2="288" y2="37" stroke="#c8a96e" stroke-width="0.8"/>
   <!-- sub-text -->
   <text x="80" y="52" font-family="Georgia,'Times New Roman',serif"
-        font-size="10.5" font-weight="400" fill="#c8a96e" letter-spacing="5.5">PROPERTIES LTD</text>
+        font-size="10.5" font-weight="400" fill="#c8a96e" letter-spacing="5.5">PROPERTIES</text>
 </svg>

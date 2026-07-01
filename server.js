@@ -41,8 +41,8 @@ const server = http.createServer((req, res) => {
 
   fs.readFile(filePath, (err, data) => {
     if (err) {
-      if (err.code === 'ENOENT') {
-        // Try index.html for directories
+      if (err.code === 'ENOENT' || err.code === 'EISDIR') {
+        // Try index.html for directories (EISDIR when path is a dir, ENOENT for clean URLs)
         const indexPath = path.join(filePath, 'index.html');
         fs.readFile(indexPath, (err2, data2) => {
           if (err2) {

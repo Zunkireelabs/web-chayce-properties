@@ -3,7 +3,7 @@ const path = require('path');
 const TMPL = path.join(__dirname, 'template');
 
 // ── 1. NEW LOGO SVG ────────────────────────────────────────────────────────────
-// Dark circular heraldic emblem + "CHAYCE / PROPERTIES LTD" wordmark
+// Dark circular heraldic emblem + "CHAYCE / PROPERTIES" wordmark
 const logoSVG = `<svg xmlns="http://www.w3.org/2000/svg" width="290" height="72" viewBox="0 0 290 72">
   <defs>
     <radialGradient id="bgGrad" cx="50%" cy="40%" r="60%">
@@ -62,7 +62,7 @@ const logoSVG = `<svg xmlns="http://www.w3.org/2000/svg" width="290" height="72"
   <line x1="80" y1="37" x2="288" y2="37" stroke="#c8a96e" stroke-width="0.8"/>
   <!-- sub-text -->
   <text x="80" y="52" font-family="Georgia,'Times New Roman',serif"
-        font-size="10.5" font-weight="400" fill="#c8a96e" letter-spacing="5.5">PROPERTIES LTD</text>
+        font-size="10.5" font-weight="400" fill="#c8a96e" letter-spacing="5.5">PROPERTIES</text>
 </svg>`;
 
 fs.writeFileSync(path.join(TMPL, 'images', 'chayce-logo.svg'), logoSVG);
@@ -102,8 +102,8 @@ gpjs = gpjs.replace(
 );
 // Patch the <title> line inside head() to strip tags
 gpjs = gpjs.replace(
-  '<title>${title} | Chayce Properties Ltd</title>',
-  '<title>${title.replace(/<[^>]+>/g, \'\')} | Chayce Properties Ltd</title>'
+  '<title>${title} | Chayce Properties</title>',
+  '<title>${title.replace(/<[^>]+>/g, \'\')} | Chayce Properties</title>'
 );
 
 fs.writeFileSync(path.join(__dirname, 'generate-pages.js'), gpjs);
@@ -115,7 +115,7 @@ console.log('✓ generate-pages.js link patterns & title fixed');
 // Instead, run the page generation inline here:
 
 const PAGES = [
-  { slug:'about-chayce',      title:'<em>About</em> Chayce Properties Ltd',
+  { slug:'about-chayce',      title:'<em>About</em> Chayce Properties',
     sub:'The UK\'s Premier Luxury Senior Relocation Specialists',
     bg:'wp-content_uploads_2020_03_slide01.jpg' },
   { slug:'our-services',      title:'<em>Our</em> Concierge Services',
@@ -140,7 +140,7 @@ const PAGES = [
     sub:'Complete white-glove service for discerning clients — From £6,500',
     bg:'chayce-hero3.jpg' },
   { slug:'news',              title:'<em>Latest</em> News &amp; Insights',
-    sub:'Advice, stories and updates from Chayce Properties Ltd',
+    sub:'Advice, stories and updates from Chayce Properties',
     bg:'chayce-news1.jpg' },
   { slug:'contact',           title:'<em>Contact</em> Us',
     sub:'Book a free consultation or simply get in touch',
@@ -148,9 +148,6 @@ const PAGES = [
   { slug:'photo-gallery',     title:'<em>Photo</em> Gallery',
     sub:'A glimpse into the moves we manage with care',
     bg:'chayce-gallery3.jpg' },
-  { slug:'certificates',      title:'<em>Accreditations</em> &amp; Certificates',
-    sub:'Trusted, qualified and fully insured relocation specialists',
-    bg:'chayce-bg.jpg' },
   { slug:'faq',               title:'Frequently Asked <em>Questions</em>',
     sub:'Everything you need to know about our services',
     bg:'chayce-about2.jpg' },
@@ -168,7 +165,7 @@ function head(title, depth = 1) {
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>${plainTitle} | Chayce Properties Ltd</title>
+<title>${plainTitle} | Chayce Properties</title>
 <link rel="stylesheet" href="${p}css/wp-content_themes_hompark_css_bundle.min.css">
 <link rel="stylesheet" href="${p}css/wp-content_themes_hompark_css_bootstrap.min.css">
 <link rel="stylesheet" href="${p}css/wp-content_themes_hompark_css_style.css">
@@ -242,10 +239,10 @@ function navbar(depth = 1) {
   return `<nav class="navbar">
   <div class="container">
     <div class="upper-side">
-      <div class="logo"><a href="${p || '/'}"><img src="${p}images/chayce-logo.svg" alt="Chayce Properties Ltd" style="height:54px;width:auto;"></a></div>
+      <div class="logo"><a href="${p || '/'}"><img src="${p}images/chayce-logo.svg" alt="Chayce Properties" style="height:54px;width:auto;"></a></div>
       <div class="phone-email">
         <h4><a href="tel:07708925432">07708 925 432</a></h4>
-        <small><a href="mailto:joyce@chayceproperties.com">joyce@chayceproperties.com</a></small>
+        <small><a href="mailto:info@chayceproperties.com">info@chayceproperties.com</a></small>
       </div>
       <figure class="phone-email-icon"><img src="${p}images/wp-content_uploads_2020_03_icon-phone.png" alt="Image"></figure>
       <div class="hamburger"><span></span><span></span><span></span><span></span></div>
@@ -280,7 +277,7 @@ function footer(depth = 1) {
         </div>
         <div class="col-lg-4">
           <figure><img src="${p}images/wp-content_uploads_2020_03_footer-icon03.png" alt="Contact"></figure>
-          <h3>Contact Us</h3><p>t: 07708 925 432<br>e: joyce@chayceproperties.com</p>
+          <h3>Contact Us</h3><p>t: 07708 925 432<br>e: info@chayceproperties.com</p>
         </div>
       </div>
     </div>
@@ -313,7 +310,7 @@ function footer(depth = 1) {
         <div class="contact-box">
           <h5>CONTACT US</h5>
           <h3>07708 925 432</h3>
-          <p><a href="mailto:joyce@chayceproperties.com">joyce@chayceproperties.com</a></p>
+          <p><a href="mailto:info@chayceproperties.com">info@chayceproperties.com</a></p>
           <ul>
             <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
             <li><a href="#"><i class="fab fa-instagram"></i></a></li>
@@ -323,7 +320,7 @@ function footer(depth = 1) {
       </div>
       <div class="col-12">
         <div class="footer-bottom">
-          <span class="copyright">&copy; 2026 Chayce Properties Ltd &mdash; All rights reserved.</span>
+          <span class="copyright">&copy; 2026 Chayce Properties &mdash; All rights reserved.</span>
           <span class="creation">w: <a href="https://chayceproperties.com">chayceproperties.com</a></span>
         </div>
       </div>
@@ -367,7 +364,7 @@ function pageContent(slug, depth) {
       <div class="col-lg-6" style="padding-left:50px;">
         <h5 style="color:#c8a96e;letter-spacing:3px;font-size:12px;text-transform:uppercase;margin-bottom:12px;">Who We Are</h5>
         <h2 style="font-family:'Playfair',serif;font-size:36px;color:#1a1a1a;margin-bottom:20px;">The UK's Premier Luxury Senior Relocation Specialists</h2>
-        <p style="color:#666;line-height:1.8;margin-bottom:16px;">Founded by Joyce Chayce, Chayce Properties Ltd was built on a single belief: that moving home in later life should be handled with the utmost care, dignity and discretion.</p>
+        <p style="color:#666;line-height:1.8;margin-bottom:16px;">Founded by Joyce Chayce, Chayce Properties was built on a single belief: that moving home in later life should be handled with the utmost care, dignity and discretion.</p>
         <p style="color:#666;line-height:1.8;margin-bottom:16px;">We are not simply a removal company. We are a full-service relocation partner — managing everything from sorting and packing to property staging, estate agent coordination, and settling you into your beautiful new home.</p>
         <div class="quote-block">&ldquo;From sorting and packing to selling and settling in &mdash; we manage it all, so you don&rsquo;t have to.&rdquo;</div>
         <a href="${p}contact/" style="display:inline-block;margin-top:20px;padding:13px 32px;background:#c8a96e;color:#fff;text-decoration:none;font-size:12px;letter-spacing:2px;text-transform:uppercase;">Book a Free Consultation</a>
@@ -436,11 +433,11 @@ function pageContent(slug, depth) {
 
     'news': `<section class="page-section"><div class="container"><div class="row"><div class="col-lg-4"><div class="news-card"><figure><img src="${p}images/chayce-news1.jpg" alt="Moving with confidence"></figure><span>June 2026 &mdash; Advice</span><h5><a href="#">Moving with Confidence: A Guide for Seniors &amp; Families</a></h5><p>Practical tips and reassuring advice for navigating the move to a smaller home or care setting.</p></div></div><div class="col-lg-4"><div class="news-card"><figure><img src="${p}images/chayce-news2.jpg" alt="Downsizing guide"></figure><span>May 2026 &mdash; Guide</span><h5><a href="#">The Art of Downsizing: What to Keep, What to Let Go</a></h5><p>Our specialists share their gentle approach to sorting a lifetime of cherished belongings.</p></div></div><div class="col-lg-4"><div class="news-card"><figure><img src="${p}images/chayce-news3.jpg" alt="Property staging"></figure><span>April 2026 &mdash; Tips</span><h5><a href="#">First Impressions: How Staging Sells Your Home Faster</a></h5><p>How professional presentation adds thousands to your sale price and reduces time on the market.</p></div></div></div></div></section>`,
 
-    'contact': `<section class="page-section"><div class="container"><div class="contact-grid"><div class="contact-info"><h5>Get in Touch</h5><h3>Book a Free Discovery Consultation</h3><p>Whether you&rsquo;re just beginning to consider a move or ready to get started, we&rsquo;re here to listen. Call, email or complete the form and one of our senior specialists will be in touch within 24 hours.</p><p style="margin-top:16px;"><strong style="color:#c8a96e;">Telephone:</strong><br><a href="tel:07708925432">07708 925 432</a></p><p style="margin-top:10px;"><strong style="color:#c8a96e;">Email:</strong><br><a href="mailto:joyce@chayceproperties.com">joyce@chayceproperties.com</a></p><p style="margin-top:10px;"><strong style="color:#c8a96e;">Hours:</strong><br>Monday – Friday, 09:00 – 17:30<br>Saturday by appointment</p></div><div><form onsubmit="return false;"><div class="form-group"><input type="text" placeholder="Your Name"></div><div class="form-group"><input type="email" placeholder="Email Address"></div><div class="form-group"><input type="tel" placeholder="Telephone Number"></div><div class="form-group"><select><option>Select a Package</option><option>Discovery Consultation (£150)</option><option>Bronze Essentials (from £995)</option><option>Silver Comfort (from £1,850)</option><option>Gold Prestige (from £3,250)</option><option>Platinum Bespoke (from £6,500)</option></select></div><div class="form-group"><textarea placeholder="Tell us a little about your situation and how we can help…"></textarea></div><button class="btn-submit">Send Enquiry</button></form></div></div></div></section>`,
+    'contact': `<section class="page-section"><div class="container"><div class="contact-grid"><div class="contact-info"><h5>Get in Touch</h5><h3>Book a Free Discovery Consultation</h3><p>Whether you&rsquo;re just beginning to consider a move or ready to get started, we&rsquo;re here to listen. Call, email or complete the form and one of our senior specialists will be in touch within 24 hours.</p><p style="margin-top:16px;"><strong style="color:#c8a96e;">Telephone:</strong><br><a href="tel:07708925432">07708 925 432</a></p><p style="margin-top:10px;"><strong style="color:#c8a96e;">Email:</strong><br><a href="mailto:info@chayceproperties.com">info@chayceproperties.com</a></p><p style="margin-top:10px;"><strong style="color:#c8a96e;">Hours:</strong><br>Monday – Friday, 09:00 – 17:30<br>Saturday by appointment</p></div><div><form onsubmit="return false;"><div class="form-group"><input type="text" placeholder="Your Name"></div><div class="form-group"><input type="email" placeholder="Email Address"></div><div class="form-group"><input type="tel" placeholder="Telephone Number"></div><div class="form-group"><select><option>Select a Package</option><option>Discovery Consultation (£150)</option><option>Bronze Essentials (from £995)</option><option>Silver Comfort (from £1,850)</option><option>Gold Prestige (from £3,250)</option><option>Platinum Bespoke (from £6,500)</option></select></div><div class="form-group"><textarea placeholder="Tell us a little about your situation and how we can help…"></textarea></div><button class="btn-submit">Send Enquiry</button></form></div></div></div></section>`,
 
     'photo-gallery': `<section class="page-section"><div class="container"><div class="row" style="gap:0;"><div class="col-lg-4 col-md-6" style="padding:6px;"><img src="${p}images/chayce-gallery1.jpg" alt="Beautifully staged living room" style="width:100%;height:260px;object-fit:cover;"></div><div class="col-lg-4 col-md-6" style="padding:6px;"><img src="${p}images/chayce-gallery2.jpg" alt="Professional packing" style="width:100%;height:260px;object-fit:cover;"></div><div class="col-lg-4 col-md-6" style="padding:6px;"><img src="${p}images/chayce-gallery3.jpg" alt="Happy senior couple" style="width:100%;height:260px;object-fit:cover;"></div><div class="col-lg-4 col-md-6" style="padding:6px;"><img src="${p}images/chayce-about.jpg" alt="Consultation meeting" style="width:100%;height:260px;object-fit:cover;"></div><div class="col-lg-4 col-md-6" style="padding:6px;"><img src="${p}images/chayce-about2.jpg" alt="Home staging" style="width:100%;height:260px;object-fit:cover;"></div><div class="col-lg-4 col-md-6" style="padding:6px;"><img src="${p}images/chayce-hero2.jpg" alt="Luxury property" style="width:100%;height:260px;object-fit:cover;"></div></div></div></section>`,
 
-    'certificates': `<section class="page-section"><div class="container"><div style="text-align:center;max-width:680px;margin:0 auto 50px;"><h2 style="font-family:'Playfair',serif;font-size:36px;color:#1a1a1a;">Our Accreditations</h2><p style="color:#666;margin-top:14px;line-height:1.8;">Chayce Properties Ltd operates to the highest professional standards. We are proud members of the following organisations:</p></div><div class="row"><div class="col-lg-4"><div class="card-box" style="text-align:center;"><div style="font-size:48px;color:#c8a96e;margin-bottom:16px;">&#9670;</div><h4><em>BAR</em> Member</h4><p>British Association of Removers — the UK&rsquo;s leading trade association for the removals industry.</p></div></div><div class="col-lg-4"><div class="card-box" style="text-align:center;"><div style="font-size:48px;color:#c8a96e;margin-bottom:16px;">&#9670;</div><h4><em>ARLA</em> Affiliated</h4><p>Association of Residential Letting Agents — ensuring the highest lettings and property standards.</p></div></div><div class="col-lg-4"><div class="card-box" style="text-align:center;"><div style="font-size:48px;color:#c8a96e;margin-bottom:16px;">&#9670;</div><h4>Fully <em>Insured</em></h4><p>All moves carried out by Chayce Properties Ltd are covered by comprehensive goods-in-transit insurance.</p></div></div></div></div></section>`,
+    'certificates': `<section class="page-section"><div class="container"><div style="text-align:center;max-width:680px;margin:0 auto 50px;"><h2 style="font-family:'Playfair',serif;font-size:36px;color:#1a1a1a;">Our Accreditations</h2><p style="color:#666;margin-top:14px;line-height:1.8;">Chayce Properties operates to the highest professional standards. We are proud members of the following organisations:</p></div><div class="row"><div class="col-lg-4"><div class="card-box" style="text-align:center;"><div style="font-size:48px;color:#c8a96e;margin-bottom:16px;">&#9670;</div><h4><em>BAR</em> Member</h4><p>British Association of Removers — the UK&rsquo;s leading trade association for the removals industry.</p></div></div><div class="col-lg-4"><div class="card-box" style="text-align:center;"><div style="font-size:48px;color:#c8a96e;margin-bottom:16px;">&#9670;</div><h4><em>ARLA</em> Affiliated</h4><p>Association of Residential Letting Agents — ensuring the highest lettings and property standards.</p></div></div><div class="col-lg-4"><div class="card-box" style="text-align:center;"><div style="font-size:48px;color:#c8a96e;margin-bottom:16px;">&#9670;</div><h4>Fully <em>Insured</em></h4><p>All moves carried out by Chayce Properties are covered by comprehensive goods-in-transit insurance.</p></div></div></div></div></section>`,
 
     'faq': `<section class="page-section"><div class="container"><div style="max-width:760px;margin:0 auto;"><div class="faq-item"><h5>What areas do you cover?</h5><p>We operate across the whole of England, Scotland and Wales. We have successfully completed moves from Cornwall to the Highlands — wherever your next chapter begins, we can help.</p></div><div class="faq-item"><h5>How far in advance should I book?</h5><p>We recommend booking at least 6–8 weeks before your intended move date, though we do our best to accommodate shorter timescales for clients who need to move quickly.</p></div><div class="faq-item"><h5>Can you help if I haven't sold my house yet?</h5><p>Absolutely. A Discovery Consultation is the ideal first step — we can advise on the process, help you prepare your home for sale, and put everything in place for when you are ready.</p></div><div class="faq-item"><h5>What makes Chayce different from a regular removal company?</h5><p>We are a full-service relocation specialist. Unlike a removal company, we handle the entire process: decluttering, property staging, estate agent liaison, legal support, viewings, packing, moving, unpacking and settling you in.</p></div><div class="faq-item"><h5>Are my belongings insured during the move?</h5><p>Yes. All goods are covered by our comprehensive goods-in-transit insurance. Fine art, antiques and items of exceptional value can be additionally covered upon request (Platinum Bespoke package).</p></div><div class="faq-item"><h5>How much does it cost?</h5><p>Our packages start from £150 for a Discovery Consultation, rising to fully bespoke Platinum packages from £6,500. Every quote is tailored to your specific circumstances — please contact us for a no-obligation discussion.</p></div></div></div></section>`,
 

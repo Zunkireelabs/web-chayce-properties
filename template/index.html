@@ -3,11 +3,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="icon" type="image/png" href="images/favicon.png">
 <link rel="profile" href="https://gmpg.org/xfn/11">
-<title>Chayce Properties Ltd | Luxury Senior Relocation Specialists</title>
+<title>Chayce Properties | Luxury Senior Relocation Specialists</title>
 <meta name="robots" content="max-image-preview:large">
 <link rel="dns-prefetch" href="//fonts.googleapis.com">
-<link rel="alternate" type="application/rss+xml" title="Chayce Properties Ltd » Feed" href="feed/">
-<link rel="alternate" type="application/rss+xml" title="Chayce Properties Ltd » Comments Feed" href="comments/feed/">
+<link rel="alternate" type="application/rss+xml" title="Chayce Properties » Feed" href="feed/">
+<link rel="alternate" type="application/rss+xml" title="Chayce Properties » Comments Feed" href="comments/feed/">
 <script>
 window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/hompark.themezinho.net\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.5.8"}};
 /*! This file is auto-generated */
@@ -76,6 +76,47 @@ var comment_data = {"name":"Name is required","email":"Email is required","comme
 .vc_custom_1584953605262 { padding-left: 0 !important; margin-left: -50px !important; }
 .vc_custom_1584954196020 { padding-left: 0 !important; margin-left: -50px !important; }
 .navbar .container .upper-side .logo { margin-left: 80px !important; }
+
+/* ===== MOBILE RESPONSIVE FIXES ===== */
+/* The desktop "overlap" design (negative margins + fixed image widths) breaks
+   once the two-column rows stack on small screens, pushing content off-canvas.
+   Neutralise those desktop-only overrides when the layout is stacked. */
+@media (max-width: 991.98px) {
+  /* Kill the -50px pull that shoved the about/services text off the left edge */
+  .vc_custom_1584953605262,
+  .vc_custom_1584954196020 {
+    margin-left: 0 !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+  /* Side image: drop the negative margins so it no longer overlaps neighbours,
+     and let the image scale fluidly instead of a fixed 400/525px width */
+  .side-image-left {
+    margin-top: 0 !important;
+    margin-bottom: 30px !important;
+    display: block !important;
+  }
+  .side-image-left .holder {
+    transform: none !important;
+    width: 100% !important;
+    float: none !important;
+    padding: 0 !important;
+  }
+  .side-image-left .holder img,
+  .side-image-left img {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+  }
+  /* Body copy: remove the desktop right inset so text uses the full column */
+  .side-image-right p { padding-right: 0 !important; }
+  /* Logo: drop the desktop nudge so it sits correctly in the mobile bar */
+  .navbar .container .upper-side .logo { margin-left: 0 !important; }
+  /* Belt-and-braces: never let a stray element create a horizontal scrollbar */
+  .container, .vc_row, .wpb_column, .vc_column-inner, .wpb_wrapper {
+    max-width: 100%;
+  }
+}
 </style>
 </head>
 <body class="home page-template page-template-page-portfolio page-template-page-portfolio-php page page-id-7 body-horizontal-menu wpb-js-composer js-comp-ver-8.1 vc_responsive page-loaded">
@@ -83,7 +124,7 @@ var comment_data = {"name":"Name is required","email":"Email is required","comme
   <div class="layer"></div>
   <!-- end layer -->
   <div class="inner">
-    <figure> <img src="images/wp-content_uploads_2020_03_preloader.gif" alt="Chayce Properties Ltd"></figure>
+    <figure> <img src="images/wp-content_uploads_2020_03_preloader.gif" alt="Chayce Properties"></figure>
       <div class="text-rotater">
                     <span style="display: none;">Chayce</span>
                     <span style="display: inline;">Properties</span>
@@ -108,7 +149,7 @@ var comment_data = {"name":"Name is required","email":"Email is required","comme
 <li class="nav-item"><a href="contact/" class="nav-link" data-text="CONTACT">CONTACT</a></li>
 </ul></div>  </div>
   <section id="custom_html-7" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"> <div class="side-content">
-    <figure style="padding:10px 0;"><a href="" class="chayce-logo-link" style="text-decoration:none;display:inline-flex;align-items:center;gap:10px;"><img src="images/chayce-logo.png" alt="Chayce Properties Ltd" style="height:52px;width:auto;"><span style="display:flex;flex-direction:column;line-height:1.15;"><span style="font-family:Georgia,serif;font-size:15px;font-weight:700;color:#1a1a1a;letter-spacing:2.5px;">CHAYCE</span><span style="font-family:Georgia,serif;font-size:8px;letter-spacing:3px;color:#b49a5e;font-weight:400;">PROPERTIES LTD</span></span></a></figure>
+    <figure style="padding:10px 0;"><a href="" class="chayce-logo-link" style="text-decoration:none;display:inline-flex;align-items:center;gap:10px;"><img src="images/chayce-logo.png" alt="Chayce Properties" style="height:52px;width:auto;"><span style="display:flex;flex-direction:column;line-height:1.15;"><span style="font-family:Georgia,serif;font-size:15px;font-weight:700;color:#1a1a1a;letter-spacing:2.5px;">CHAYCE</span><span style="font-family:Georgia,serif;font-size:8px;letter-spacing:3px;color:#b49a5e;font-weight:400;">PROPERTIES</span></span></a></figure>
     <p>Guiding your next chapter with grace &amp; ease. Discreet, dignified, designed for you. The UK&rsquo;s premier luxury senior relocation specialists.</p>
     <ul class="gallery">
       <li><a href="images/chayce-gallery1.jpg" data-fancybox=""><img src="images/chayce-gallery1.jpg" alt="Staged living room"></a></li>
@@ -120,22 +161,22 @@ var comment_data = {"name":"Name is required","email":"Email is required","comme
     chayceproperties.com
     </address>
     <h6>07708 925 432</h6>
-    <p><a href="#">joyce@chayceproperties.com</a></p>
+    <p><a href="#">info@chayceproperties.com</a></p>
     <ul class="social-media">
       <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
       <li><a href="#"><i class="fab fa-twitter"></i></a></li>
       <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
       <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
       <li><a href="#"><i class="fab fa-youtube"></i></a></li>
-    </ul></div></div></section>  <small>© 2026 Chayce Properties Ltd — All rights reserved.</small>
+    </ul></div></div></section>  <small>© 2026 Chayce Properties — All rights reserved.</small>
 </div>
 <nav class="navbar">
   <div class="container">
     <div class="upper-side">
-      <div class="logo"><a href="" style="text-decoration:none;display:inline-flex;align-items:center;gap:10px;"><img src="images/chayce-logo.png" alt="Chayce Properties Ltd" style="height:58px;width:auto;"><span style="display:flex;flex-direction:column;line-height:1.15;"><span style="font-family:Georgia,serif;font-size:15px;font-weight:700;color:#fff;letter-spacing:2.5px;">CHAYCE</span><span style="font-family:Georgia,serif;font-size:8px;letter-spacing:3px;color:#b49a5e;font-weight:400;">PROPERTIES LTD</span></span></a></div>
+      <div class="logo"><a href="" style="text-decoration:none;display:inline-flex;align-items:center;gap:10px;"><img src="images/chayce-logo.png" alt="Chayce Properties" style="height:58px;width:auto;"><span style="display:flex;flex-direction:column;line-height:1.15;"><span style="font-family:Georgia,serif;font-size:15px;font-weight:700;color:#fff;letter-spacing:2.5px;">CHAYCE</span><span style="font-family:Georgia,serif;font-size:8px;letter-spacing:3px;color:#b49a5e;font-weight:400;">PROPERTIES</span></span></a></div>
             <div class="phone-email">
                 <h4><a href="tel:07708925432">07708 925 432</a></h4>
-                        <small><a href="mailto:joyce@chayceproperties.com">joyce@chayceproperties.com</a></small>
+                        <small><a href="mailto:info@chayceproperties.com">info@chayceproperties.com</a></small>
               </div>
       <!-- end phone -->
       <figure class="phone-email-icon"><img src="images/wp-content_uploads_2020_03_icon-phone.png" alt="Image"></figure>
@@ -171,7 +212,7 @@ var comment_data = {"name":"Name is required","email":"Email is required","comme
             <div class="swiper-slide swiper-slide-duplicate-next" data-background="images/wp-content_uploads_2020_03_slide01.jpg" data-stellar-background-ratio="1.15" data-swiper-slide-index="0" style="width: 1440px; background-image: url("images/wp-content_uploads_2020_03_slide01.jpg"); background-position: 0% 0%;" role="group" aria-label="1 / 3">
         <div class="container">
           <h1>
-            <span>Chayce</span> Properties Ltd          </h1>
+            <span>Chayce</span> Properties          </h1>
           <h2>
             Guiding your next chapter with grace &amp; ease          </h2>
                     <a href="#" title="GET A FREE CONSULTATION"> GET A FREE CONSULTATION<i class="fas fa-caret-right"></i> </a>
@@ -210,7 +251,7 @@ var comment_data = {"name":"Name is required","email":"Email is required","comme
           <div class="swiper-slide swiper-slide-duplicate swiper-slide-next" data-background="images/wp-content_uploads_2020_03_slide01.jpg" data-stellar-background-ratio="1.15" data-swiper-slide-index="0" role="group" aria-label="1 / 3" style="width: 1440px; background-image: url("images/wp-content_uploads_2020_03_slide01.jpg"); background-position: 0% 0%;">
         <div class="container">
           <h1>
-            <span>Chayce</span> Properties Ltd          </h1>
+            <span>Chayce</span> Properties          </h1>
           <h2>
             Guiding your next chapter with grace &amp; ease          </h2>
                     <a href="#" title="GET A FREE CONSULTATION"> GET A FREE CONSULTATION<i class="fas fa-caret-right"></i> </a>
@@ -269,7 +310,7 @@ var comment_data = {"name":"Name is required","email":"Email is required","comme
 
 
 
-    <h2><em>Chayce</em> Properties Ltd</h2>
+    <h2><em>Chayce</em> Properties</h2>
 
   <h3>
   The UK's Premier Luxury Senior Relocation Specialists  </h3>
@@ -279,7 +320,7 @@ var comment_data = {"name":"Name is required","email":"Email is required","comme
 
 	</div>
 		<div class="side-image-right wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
-			<p>Moving home is one of life's most significant transitions — and for seniors, it deserves to be handled with the utmost care, dignity, and discretion. At Chayce Properties Ltd, we have built our entire service around that belief. We are not simply a removal company. We are a full-service relocation partner, dedicated to guiding our clients through their next chapter with grace, compassion, and unparalleled attention to detail.</p>
+			<p>Moving home is one of life's most significant transitions — and for seniors, it deserves to be handled with the utmost care, dignity, and discretion. At Chayce Properties, we have built our entire service around that belief. We are not simply a removal company. We are a full-service relocation partner, dedicated to guiding our clients through their next chapter with grace, compassion, and unparalleled attention to detail.</p>
 <p>&#9830; Bespoke Moving Plans &nbsp;&nbsp; &#9830; Elegant Home Staging &nbsp;&nbsp; &#9830; Full Concierge Support</p>
 <p>&#9830; Property Preparation, Sales Support and Relocation Concierge Services</p>
 
@@ -329,7 +370,7 @@ var comment_data = {"name":"Name is required","email":"Email is required","comme
   	
 	
   
-    <h2><em>Chayce Properties Ltd</em> Property</h2>
+    <h2><em>Chayce Properties</em> Property</h2>
   	
   <h3>
   Decorated Flats in United Kingdom  </h3>
@@ -503,7 +544,7 @@ var comment_data = {"name":"Name is required","email":"Email is required","comme
   	
 	
   
-    <h2><em>Chayce</em> Properties Ltd</h2>
+    <h2><em>Chayce</em> Properties</h2>
   	
   <h3>
   The UK's Premier Luxury Senior Relocation Specialists  </h3>
@@ -541,7 +582,7 @@ var comment_data = {"name":"Name is required","email":"Email is required","comme
     <div style="flex:1;min-width:280px;max-width:46%;">
       <div class="section-titles wow fadeInUp" style="visibility:visible;animation-name:fadeInUp;">
         <b>05</b>
-        <h2><em>Chayce Properties Ltd</em> Living Spaces</h2>
+        <h2><em>Chayce Properties</em> Living Spaces</h2>
         <h3>We offer five tailored packages so every senior has the right level of support</h3>
       </div>
 
@@ -970,7 +1011,7 @@ var comment_data = {"name":"Name is required","email":"Email is required","comme
   06  </b>
 
 				  <h4>
-  <em>Chayce</em> Properties Ltd  </h4>
+  <em>Chayce</em> Properties  </h4>
 
 				  <h3>
   Guiding Your Next Chapter with Grace &amp; Ease  </h3>
@@ -1091,7 +1132,7 @@ var comment_data = {"name":"Name is required","email":"Email is required","comme
 
 
 
-        </div></div></div></div></div></section><section class="content-section" style="background-color: #303030;"><div class="video-bg"><video src="wp-content/uploads/2020/03/video01.mp4" muted="" autoplay="" playsinline="" loop=""></video></div><div class="container"><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="section-titles    light 						
+        </div></div></div></div></div></section><section class="content-section" style="background-color: #303030; margin-bottom: 60px;"><div class="video-bg"><video src="wp-content/uploads/2020/03/video01.mp4" muted="" autoplay="" playsinline="" loop=""></video></div><div class="container"><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="section-titles    light 						
 			
 			 wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
 	
@@ -1100,7 +1141,7 @@ var comment_data = {"name":"Name is required","email":"Email is required","comme
   	
 	
   
-    <h2><em>Chayce Properties Ltd</em> Living Spaces</h2>
+    <h2><em>Chayce Properties</em> Living Spaces</h2>
   	
   <h3>
   Guiding Your Next Chapter with Grace &amp; Ease  </h3>
@@ -1110,7 +1151,7 @@ var comment_data = {"name":"Name is required","email":"Email is required","comme
 	
 </div>
 <div class="vc_row wpb_row vc_inner vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-4 vc_col-md-2 vc_col-xs-6"><div class="vc_column-inner"><div class="wpb_wrapper">
-<figure class="icon-box wow fadeInUp" data-wow-delay="0s" data-toggle="tooltip" data-placement="top" title="" data-original-title="Professional relocation service by Chayce Properties Ltd" style="visibility: visible; animation-delay: 0s; animation-name: fadeInUp;">
+<figure class="icon-box wow fadeInUp" data-wow-delay="0s" data-toggle="tooltip" data-placement="top" title="" data-original-title="Professional relocation service by Chayce Properties" style="visibility: visible; animation-delay: 0s; animation-name: fadeInUp;">
           
            <img decoding="async" src="images/wp-content_uploads_2020_03_services-icon01.png" alt="">
 			 
@@ -1122,7 +1163,7 @@ var comment_data = {"name":"Name is required","email":"Email is required","comme
            
         </figure>
 		</div></div></div><div class="wpb_column vc_column_container vc_col-sm-4 vc_col-md-2 vc_col-xs-6"><div class="vc_column-inner"><div class="wpb_wrapper">
-<figure class="icon-box wow fadeInUp" data-wow-delay="0.05s" data-toggle="tooltip" data-placement="top" title="" data-original-title="Professional relocation service by Chayce Properties Ltd" style="visibility: visible; animation-delay: 0.05s; animation-name: fadeInUp;">
+<figure class="icon-box wow fadeInUp" data-wow-delay="0.05s" data-toggle="tooltip" data-placement="top" title="" data-original-title="Professional relocation service by Chayce Properties" style="visibility: visible; animation-delay: 0.05s; animation-name: fadeInUp;">
           
            <img decoding="async" src="images/wp-content_uploads_2020_03_services-icon02.png" alt="">
 			 
@@ -1134,7 +1175,7 @@ var comment_data = {"name":"Name is required","email":"Email is required","comme
            
         </figure>
 		</div></div></div><div class="wpb_column vc_column_container vc_col-sm-4 vc_col-md-2 vc_col-xs-6"><div class="vc_column-inner"><div class="wpb_wrapper">
-<figure class="icon-box wow fadeInUp" data-wow-delay="0.10s" data-toggle="tooltip" data-placement="top" title="" data-original-title="Professional relocation service by Chayce Properties Ltd" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
+<figure class="icon-box wow fadeInUp" data-wow-delay="0.10s" data-toggle="tooltip" data-placement="top" title="" data-original-title="Professional relocation service by Chayce Properties" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
           
            <img decoding="async" src="images/wp-content_uploads_2020_03_services-icon03.png" alt="">
 			 
@@ -1146,7 +1187,7 @@ var comment_data = {"name":"Name is required","email":"Email is required","comme
            
         </figure>
 		</div></div></div><div class="wpb_column vc_column_container vc_col-sm-4 vc_col-md-2 vc_col-xs-6"><div class="vc_column-inner"><div class="wpb_wrapper">
-<figure class="icon-box wow fadeInUp" data-wow-delay="0.15s" data-toggle="tooltip" data-placement="top" title="" data-original-title="Professional relocation service by Chayce Properties Ltd" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">
+<figure class="icon-box wow fadeInUp" data-wow-delay="0.15s" data-toggle="tooltip" data-placement="top" title="" data-original-title="Professional relocation service by Chayce Properties" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">
           
            <img decoding="async" src="images/wp-content_uploads_2020_03_services-icon04.png" alt="">
 			 
@@ -1158,7 +1199,7 @@ var comment_data = {"name":"Name is required","email":"Email is required","comme
            
         </figure>
 		</div></div></div><div class="wpb_column vc_column_container vc_col-sm-4 vc_col-md-2 vc_col-xs-6"><div class="vc_column-inner"><div class="wpb_wrapper">
-<figure class="icon-box wow fadeInUp" data-wow-delay="0.20s" data-toggle="tooltip" data-placement="top" title="" data-original-title="Professional relocation service by Chayce Properties Ltd" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+<figure class="icon-box wow fadeInUp" data-wow-delay="0.20s" data-toggle="tooltip" data-placement="top" title="" data-original-title="Professional relocation service by Chayce Properties" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
           
            <img decoding="async" src="images/wp-content_uploads_2020_03_services-icon05.png" alt="">
 			 
@@ -1170,7 +1211,7 @@ var comment_data = {"name":"Name is required","email":"Email is required","comme
            
         </figure>
 		</div></div></div><div class="wpb_column vc_column_container vc_col-sm-4 vc_col-md-2 vc_col-xs-6"><div class="vc_column-inner"><div class="wpb_wrapper">
-<figure class="icon-box wow fadeInUp" data-wow-delay="0.25s" data-toggle="tooltip" data-placement="top" title="" data-original-title="Professional relocation service by Chayce Properties Ltd" style="visibility: visible; animation-delay: 0.25s; animation-name: fadeInUp;">
+<figure class="icon-box wow fadeInUp" data-wow-delay="0.25s" data-toggle="tooltip" data-placement="top" title="" data-original-title="Professional relocation service by Chayce Properties" style="visibility: visible; animation-delay: 0.25s; animation-name: fadeInUp;">
           
            <img decoding="async" src="images/wp-content_uploads_2020_03_services-icon06.png" alt="">
 			 
@@ -1182,7 +1223,7 @@ var comment_data = {"name":"Name is required","email":"Email is required","comme
            
         </figure>
 		</div></div></div></div><div class="vc_row wpb_row vc_inner vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-4 vc_col-md-2 vc_col-xs-6"><div class="vc_column-inner"><div class="wpb_wrapper">
-<figure class="icon-box wow fadeInUp" data-wow-delay="0s" data-toggle="tooltip" data-placement="top" title="" data-original-title="Professional relocation service by Chayce Properties Ltd" style="visibility: visible; animation-delay: 0s; animation-name: fadeInUp;">
+<figure class="icon-box wow fadeInUp" data-wow-delay="0s" data-toggle="tooltip" data-placement="top" title="" data-original-title="Professional relocation service by Chayce Properties" style="visibility: visible; animation-delay: 0s; animation-name: fadeInUp;">
           
            <img decoding="async" src="images/wp-content_uploads_2020_03_services-icon07.png" alt="">
 			 
@@ -1194,7 +1235,7 @@ var comment_data = {"name":"Name is required","email":"Email is required","comme
            
         </figure>
 		</div></div></div><div class="wpb_column vc_column_container vc_col-sm-4 vc_col-md-2 vc_col-xs-6"><div class="vc_column-inner"><div class="wpb_wrapper">
-<figure class="icon-box wow fadeInUp" data-wow-delay="0.05s" data-toggle="tooltip" data-placement="top" title="" data-original-title="Professional relocation service by Chayce Properties Ltd" style="visibility: visible; animation-delay: 0.05s; animation-name: fadeInUp;">
+<figure class="icon-box wow fadeInUp" data-wow-delay="0.05s" data-toggle="tooltip" data-placement="top" title="" data-original-title="Professional relocation service by Chayce Properties" style="visibility: visible; animation-delay: 0.05s; animation-name: fadeInUp;">
           
            <img decoding="async" src="images/wp-content_uploads_2020_03_services-icon08.png" alt="">
 			 
@@ -1206,7 +1247,7 @@ var comment_data = {"name":"Name is required","email":"Email is required","comme
            
         </figure>
 		</div></div></div><div class="wpb_column vc_column_container vc_col-sm-4 vc_col-md-2 vc_col-xs-6"><div class="vc_column-inner"><div class="wpb_wrapper">
-<figure class="icon-box wow fadeInUp" data-wow-delay="0.10s" data-toggle="tooltip" data-placement="top" title="" data-original-title="Professional relocation service by Chayce Properties Ltd" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
+<figure class="icon-box wow fadeInUp" data-wow-delay="0.10s" data-toggle="tooltip" data-placement="top" title="" data-original-title="Professional relocation service by Chayce Properties" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
           
            <img decoding="async" src="images/wp-content_uploads_2020_03_services-icon09.png" alt="">
 			 
@@ -1218,7 +1259,7 @@ var comment_data = {"name":"Name is required","email":"Email is required","comme
            
         </figure>
 		</div></div></div><div class="wpb_column vc_column_container vc_col-sm-4 vc_col-md-2 vc_col-xs-6"><div class="vc_column-inner"><div class="wpb_wrapper">
-<figure class="icon-box wow fadeInUp" data-wow-delay="0.15s" data-toggle="tooltip" data-placement="top" title="" data-original-title="Professional relocation service by Chayce Properties Ltd" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">
+<figure class="icon-box wow fadeInUp" data-wow-delay="0.15s" data-toggle="tooltip" data-placement="top" title="" data-original-title="Professional relocation service by Chayce Properties" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">
           
            <img decoding="async" src="images/wp-content_uploads_2020_03_services-icon10.png" alt="">
 			 
@@ -1230,7 +1271,7 @@ var comment_data = {"name":"Name is required","email":"Email is required","comme
            
         </figure>
 		</div></div></div><div class="wpb_column vc_column_container vc_col-sm-4 vc_col-md-2 vc_col-xs-6"><div class="vc_column-inner"><div class="wpb_wrapper">
-<figure class="icon-box wow fadeInUp" data-wow-delay="0.20s" data-toggle="tooltip" data-placement="top" title="" data-original-title="Professional relocation service by Chayce Properties Ltd" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+<figure class="icon-box wow fadeInUp" data-wow-delay="0.20s" data-toggle="tooltip" data-placement="top" title="" data-original-title="Professional relocation service by Chayce Properties" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
           
            <img decoding="async" src="images/wp-content_uploads_2020_03_services-icon11.png" alt="">
 			 
@@ -1242,7 +1283,7 @@ var comment_data = {"name":"Name is required","email":"Email is required","comme
            
         </figure>
 		</div></div></div><div class="wpb_column vc_column_container vc_col-sm-4 vc_col-md-2 vc_col-xs-6"><div class="vc_column-inner"><div class="wpb_wrapper">
-<figure class="icon-box wow fadeInUp" data-wow-delay="0.25s" data-toggle="tooltip" data-placement="top" title="" data-original-title="Professional relocation service by Chayce Properties Ltd" style="visibility: visible; animation-delay: 0.25s; animation-name: fadeInUp;">
+<figure class="icon-box wow fadeInUp" data-wow-delay="0.25s" data-toggle="tooltip" data-placement="top" title="" data-original-title="Professional relocation service by Chayce Properties" style="visibility: visible; animation-delay: 0.25s; animation-name: fadeInUp;">
           
            <img decoding="async" src="images/wp-content_uploads_2020_03_services-icon12.png" alt="">
 			 
@@ -1253,69 +1294,15 @@ var comment_data = {"name":"Name is required","email":"Email is required","comme
                 
            
         </figure>
-		</div></div></div></div></div></div></div></div></div></section><section class="content-section"><div class="container"><div class="vc_row wpb_row vc_row-fluid vc_row-o-content-middle vc_row-flex"><div class="wpb_column vc_column_container vc_col-sm-12 vc_col-md-4"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="section-titles 						
-			
-			 wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
-	
-	  <b>
-  09  </b>
-  	
-	
-  
-    <h2><em>Our</em> Accreditations</h2>
-  	
-	
-	
-	  <small>
-  UPDATES &amp; INSIGHTS  </small>
-  	
-	
-</div>
-</div></div></div><div class="wpb_column vc_column_container vc_col-sm-3 vc_col-md-2 vc_col-xs-6"><div class="vc_column-inner"><div class="wpb_wrapper">       
-            <figure class="certificates wow fadeInUp" data-wow-delay="0s" style="visibility: visible; animation-delay: 0s; animation-name: fadeInUp;">
-
-               
-                                            <a href="images/wp-content_uploads_2020_03_certificate01.png" data-fancybox="" title="Certificate">
-                                            <img decoding="async" src="images/wp-content_uploads_2020_03_certificate01.png" alt="Certificate">
-                                            </a>
-                                   
-            </figure>
-       
-
-		</div></div></div><div class="wpb_column vc_column_container vc_col-sm-3 vc_col-md-2 vc_col-xs-6"><div class="vc_column-inner"><div class="wpb_wrapper">       
-            <figure class="certificates wow fadeInUp" data-wow-delay="0.05s" style="visibility: visible; animation-delay: 0.05s; animation-name: fadeInUp;">
-
-               
-                                            <a href="images/wp-content_uploads_2020_03_certificate02.png" data-fancybox="" title="Certificate">
-                                            <img decoding="async" src="images/wp-content_uploads_2020_03_certificate02.png" alt="Certificate">
-                                            </a>
-                                   
-            </figure>
-       
-
-		</div></div></div><div class="wpb_column vc_column_container vc_col-sm-3 vc_col-md-2 vc_col-xs-6"><div class="vc_column-inner"><div class="wpb_wrapper">       
-            <figure class="certificates wow fadeInUp" data-wow-delay="0.10s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
-
-               
-                                            <a href="images/wp-content_uploads_2020_03_certificate03.png" data-fancybox="" title="Certificate">
-                                            <img decoding="async" src="images/wp-content_uploads_2020_03_certificate03.png" alt="Certificate">
-                                            </a>
-                                   
-            </figure>
-       
-
-		</div></div></div><div class="wpb_column vc_column_container vc_col-sm-3 vc_col-md-2 vc_col-xs-6"><div class="vc_column-inner"><div class="wpb_wrapper">       
-            <figure class="certificates wow fadeInUp" data-wow-delay="0.15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">
-
-               
-                                            <a href="images/wp-content_uploads_2020_03_certificate04.png" data-fancybox="" title="Certificate">
-                                            <img decoding="async" src="images/wp-content_uploads_2020_03_certificate04.png" alt="Certificate">
-                                            </a>
-                                   
-            </figure>
-       
-
-		</div></div></div></div></div></section>
+		</div></div></div></div>
+<div class="vc_row wpb_row vc_inner vc_row-fluid" style="justify-content: center; display: flex;">
+  <div class="wpb_column vc_column_container vc_col-sm-4 vc_col-md-2 vc_col-xs-6"><div class="vc_column-inner"><div class="wpb_wrapper">
+    <figure class="icon-box wow fadeInUp" data-wow-delay="0s" data-toggle="tooltip" data-placement="top" title="" data-original-title="Professional relocation service by Chayce Properties">
+      <img decoding="async" src="images/wp-content_uploads_2020_03_services-icon13.png" alt="">
+      <figcaption>Refurbishment</figcaption>
+    </figure>
+  </div></div></div>
+</div></div></div></div></div></div></section>
 </div><section class="footer-bar" style="background-color: #26282b">
   <div class="container">
     <div class="inner wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
@@ -1338,7 +1325,7 @@ Saturday by appointment</p>
             <figure><img src="images/wp-content_uploads_2020_03_footer-icon03.png" alt="Sales Office"></figure>
             <h3>Contact Us</h3>
             <p>t: 07708 925 432<br>
-e: joyce@chayceproperties.com</p>
+e: info@chayceproperties.com</p>
     </div>
     <!-- end col-4 -->
           </div>
@@ -1352,7 +1339,7 @@ e: joyce@chayceproperties.com</p>
   <div class="container">
     <div class="row">
                   <div class="col-lg-4 wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
-        <div class="widget_text widget footer-widget"><div class="textwidget custom-html-widget"> <div style="margin-bottom:16px;"><a href="" class="chayce-logo-link" style="text-decoration:none;display:inline-flex;align-items:center;gap:10px;"><img src="images/chayce-logo.png" alt="Chayce Properties Ltd" style="height:52px;width:auto;"><span style="display:flex;flex-direction:column;line-height:1.15;"><span style="font-family:Georgia,serif;font-size:15px;font-weight:700;color:#fff;letter-spacing:2.5px;">CHAYCE</span><span style="font-family:Georgia,serif;font-size:8px;letter-spacing:3px;color:#b49a5e;font-weight:400;">PROPERTIES LTD</span></span></a></div>
+        <div class="widget_text widget footer-widget"><div class="textwidget custom-html-widget"> <div style="margin-bottom:16px;"><a href="" class="chayce-logo-link" style="text-decoration:none;display:inline-flex;align-items:center;gap:10px;"><img src="images/chayce-logo.png" alt="Chayce Properties" style="height:52px;width:auto;"><span style="display:flex;flex-direction:column;line-height:1.15;"><span style="font-family:Georgia,serif;font-size:15px;font-weight:700;color:#fff;letter-spacing:2.5px;">CHAYCE</span><span style="font-family:Georgia,serif;font-size:8px;letter-spacing:3px;color:#b49a5e;font-weight:400;">PROPERTIES</span></span></a></div>
         <p>Guiding your next chapter with grace &amp; ease. Discreet, dignified, designed for you. The UK&rsquo;s premier luxury senior relocation specialists.</p>
          
 </div></div>      </div>
@@ -1376,7 +1363,7 @@ e: joyce@chayceproperties.com</p>
         <div class="widget_text widget footer-widget"><div class="textwidget custom-html-widget"><div class="contact-box">
           <h5>CALL CENTER</h5>
           <h3>07708 925 432</h3>
-          <p><a href="#">joyce@chayceproperties.com</a></p>
+          <p><a href="#">info@chayceproperties.com</a></p>
           <ul>
             <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
             <li><a href="#"><i class="fab fa-twitter"></i></a></li>
@@ -1387,7 +1374,7 @@ e: joyce@chayceproperties.com</p>
         </div></div></div>      </div>
                   <div class="col-12 wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
         <div class="footer-bottom">
-                    <span class="copyright">© 2026 Chayce Properties Ltd — All rights reserved.</span>
+                    <span class="copyright">© 2026 Chayce Properties — All rights reserved.</span>
                     <span class="creation"> w: <a href="https://chayceproperties.com">chayceproperties.com</a> </span> </div>
         <!-- end footer-bottom -->
       </div>
