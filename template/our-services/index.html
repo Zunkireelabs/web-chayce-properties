@@ -14,6 +14,7 @@
 <style>
 .chayce-logo-link{text-decoration:none!important}
 .navbar .container .upper-side .logo{margin-left:80px!important}
+@media(max-width:767px){.navbar .container .upper-side .logo{margin-left:0!important}}
 .page-hero{background:#3d4558;padding:120px 0 80px;text-align:center;position:relative;overflow:hidden}
 .page-hero::before{content:'';position:absolute;inset:0;background:linear-gradient(135deg,rgba(30,35,50,.85),rgba(61,69,88,.7));z-index:1}
 .page-hero .container{position:relative;z-index:2}
@@ -23,7 +24,7 @@
 .page-hero .breadcrumb a{color:#fff;text-decoration:none}
 .page-section{padding:80px 0}
 .page-section.grey{background:#f9f9f9}
-.card-box{background:#fff;border:1px solid #eee;padding:36px;margin-bottom:30px;transition:.3s}
+.card-box{background:#fff;border:1px solid #eee;padding:36px;margin-bottom:30px;transition:.3s;height:calc(100% - 30px);box-sizing:border-box}
 .card-box:hover{box-shadow:0 8px 30px rgba(0,0,0,.08);transform:translateY(-3px)}
 .card-box h4{color:#1a1a1a;font-family:'Playfair',serif;margin-bottom:10px}
 .card-box h4 em{color:#c8a96e;font-style:normal}
@@ -73,6 +74,40 @@ table.pkg-table td.gold{color:#c8a96e;font-weight:700}
 <script src="../js/wp-includes_js_jquery_jquery-migrate.min.js"></script>
 </head>
 <body class="page-template page-loaded">
+<div class="side-navigation">
+  <div class="menu">
+    <div class="menu-main-menu-container"><ul id="menu-main-menu" class="menu-horizontal">
+<li class="nav-item"><a href="../" class="nav-link" data-text="START">START</a></li>
+<li class="nav-item"><a href="../about-chayce/" class="nav-link" data-text="ABOUT US">ABOUT US</a></li>
+<li class="nav-item"><a href="../packages/" class="nav-link" data-text="PACKAGES">PACKAGES</a></li>
+<li class="nav-item"><a href="../our-services/" class="nav-link" data-text="SERVICES">SERVICES</a></li>
+<li class="nav-item"><a href="../news/" class="nav-link" data-text="NEWS">NEWS</a></li>
+<li class="nav-item"><a href="../contact/" class="nav-link" data-text="CONTACT">CONTACT</a></li>
+</ul></div>  </div>
+  <section id="custom_html-7" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"> <div class="side-content">
+    <figure style="padding:10px 0;"><a href="../" class="chayce-logo-link" style="text-decoration:none;display:inline-flex;align-items:center;gap:10px;"><img src="../images/chayce-logo.png" alt="Chayce Properties" style="height:52px;width:auto;"><span style="display:flex;flex-direction:column;line-height:1.15;"><span style="font-family:Georgia,serif;font-size:15px;font-weight:700;color:#1a1a1a;letter-spacing:2.5px;">CHAYCE</span><span style="font-family:Georgia,serif;font-size:8px;letter-spacing:3px;color:#b49a5e;font-weight:400;">PROPERTIES</span></span></a></figure>
+    <p>Guiding your next chapter with grace &amp; ease. Discreet, dignified, designed for you. The UK&rsquo;s premier luxury senior relocation specialists.</p>
+    <ul class="gallery">
+      <li><a href="../images/chayce-gallery1.jpg" data-fancybox=""><img src="../images/chayce-gallery1.jpg" alt="Staged living room"></a></li>
+      <li><a href="../images/chayce-gallery2.jpg" data-fancybox=""><img src="../images/chayce-gallery2.jpg" alt="Professional packing"></a></li>
+      <li><a href="../images/chayce-gallery3.jpg" data-fancybox=""><img src="../images/chayce-gallery3.jpg" alt="Happy senior couple"></a></li>
+    </ul>
+    <address>
+    Unit F2B Barratt House<br>
+    Kingsthorpe Road<br>
+    Northampton<br>
+    NN2 6EZ
+    </address>
+    <h6>07708 925 432</h6>
+    <p><a href="mailto:info@chayceproperties.com">info@chayceproperties.com</a></p>
+    <ul class="social-media">
+      <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+      <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+      <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+      <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+      <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+    </ul></div></div></section>  <small>© 2026 Chayce Properties — All rights reserved.</small>
+</div>
 <nav class="navbar">
   <div class="container">
     <div class="upper-side">
@@ -195,7 +230,7 @@ table.pkg-table td.gold{color:#c8a96e;font-weight:700}
       <div class="row">
         <div class="col-lg-4">
           <figure><img src="../images/wp-content_uploads_2020_03_footer-icon01.png" alt="Address"></figure>
-          <h3>Our Address</h3><p>United Kingdom<br>chayceproperties.com</p>
+          <h3>Our Address</h3><p>Unit F2B Barratt House<br>Kingsthorpe Road Northampton<br>NN2 6EZ</p>
         </div>
         <div class="col-lg-4">
           <figure><img src="../images/wp-content_uploads_2020_03_footer-icon02.png" alt="Hours"></figure>
@@ -203,7 +238,7 @@ table.pkg-table td.gold{color:#c8a96e;font-weight:700}
         </div>
         <div class="col-lg-4">
           <figure><img src="../images/wp-content_uploads_2020_03_footer-icon03.png" alt="Contact"></figure>
-          <h3>Contact Us</h3><p>t: 07708 925 432<br>e: info@chayceproperties.com</p>
+          <h3>Contact Us</h3><p>Tel: 07708 925 432<br>Email: info@chayceproperties.com</p>
         </div>
       </div>
     </div>

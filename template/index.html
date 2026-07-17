@@ -116,6 +116,18 @@ var comment_data = {"name":"Name is required","email":"Email is required","comme
   .container, .vc_row, .wpb_column, .vc_column-inner, .wpb_wrapper {
     max-width: 100%;
   }
+  /* "04" section (kitchen photo + UK's Premier... copy): show the copy first
+     and the photo after it when the columns stack on mobile. */
+  .vc_row-flex:has(.vc_custom_1584954196020) {
+    display: flex;
+    flex-direction: column;
+  }
+  .vc_row-flex:has(.vc_custom_1584954196020) > .wpb_column:has(.side-image-left) {
+    order: 2;
+  }
+  .vc_row-flex:has(.vc_custom_1584954196020) > .wpb_column:has(.vc_custom_1584954196020) {
+    order: 1;
+  }
 }
 </style>
 </head>
@@ -400,9 +412,9 @@ var comment_data = {"name":"Name is required","email":"Email is required","comme
 		   			</div>
 
 		
-		</div></div></div><div class="wpb_column vc_column_container vc_col-sm-6 vc_col-md-1/5"><div class="vc_column-inner"><div class="wpb_wrapper">
+		</div></div></div><div class="wpb_column vc_column_container vc_col-sm-6 vc_col-md-1/5 vc_col-xs-6"><div class="vc_column-inner"><div class="wpb_wrapper">
 	  	<div class="icon-counter wow fadeInUp" data-wow-delay="0.15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">
-		   
+
  			<figure>
 		   		<img decoding="async" src="images/wp-content_uploads_2020_03_icon-benefits04.png" alt="5-Star Reviews">
 				</figure>
@@ -538,12 +550,15 @@ var comment_data = {"name":"Name is required","email":"Email is required","comme
 #section-packages .stat-num{font-size:34px;font-weight:700;color:#B8935A;font-family:'Playfair',Georgia,serif;line-height:1;display:block}
 #section-packages .stat-lbl{font-size:9.5px;letter-spacing:2.5px;text-transform:uppercase;color:#bbb;margin-top:6px;display:block;font-family:'Poppins',sans-serif}
 #section-packages .plan-tab-lnk{font-size:10.5px;letter-spacing:2px;text-transform:uppercase;font-weight:600;font-family:'Poppins',sans-serif;cursor:pointer;transition:color .2s}
+@media(max-width:767px){
+#section-packages .pkg-col-left,#section-packages .pkg-col-right{max-width:100%!important}
+}
 </style>
 <div class="container">
   <div style="display:flex;gap:60px;align-items:flex-start;flex-wrap:wrap;">
 
     <!-- ── LEFT: section header + tabs + packages ── -->
-    <div style="flex:1;min-width:280px;max-width:46%;">
+    <div class="pkg-col-left" style="flex:1;min-width:280px;max-width:46%;">
       <div class="section-titles wow fadeInUp" style="visibility:visible;animation-name:fadeInUp;">
         <b>05</b>
         <h2><em>Chayce Properties</em> Living Spaces</h2>
@@ -589,9 +604,9 @@ var comment_data = {"name":"Name is required","email":"Email is required","comme
     </div>
 
     <!-- ── RIGHT: plan tabs + floor plan + stats ── -->
-    <div style="flex:1;min-width:280px;max-width:50%;">
+    <div class="pkg-col-right" style="flex:1;min-width:280px;max-width:50%;">
       <!-- floor plan panels -->
-      <div style="background:#faf8f4;border:1px solid #e5dfd5;padding:30px 26px;margin-left:20px;">
+      <div class="plan-panel" style="background:#faf8f4;border:1px solid #e5dfd5;padding:30px 26px;">
         <div id="plan-one">
           <svg viewBox="0 0 400 270" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;">
   <rect width="400" height="270" fill="#faf8f4"/>
@@ -1274,8 +1289,9 @@ var comment_data = {"name":"Name is required","email":"Email is required","comme
             <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.05s" style="visibility: visible; animation-delay: 0.05s; animation-name: fadeInUp;">
             <figure><img src="images/wp-content_uploads_2020_03_footer-icon01.png" alt="Address Infos"></figure>
             <h3>Our Address</h3>
-            <p>United Kingdom<br>
-chayceproperties.com</p>
+            <p>Unit F2B Barratt House<br>
+Kingsthorpe Road Northampton<br>
+NN2 6EZ</p>
     </div>
     <!-- end col-4 -->
         <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
@@ -1288,8 +1304,8 @@ Saturday by appointment</p>
         <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">
             <figure><img src="images/wp-content_uploads_2020_03_footer-icon03.png" alt="Sales Office"></figure>
             <h3>Contact Us</h3>
-            <p>t: 07708 925 432<br>
-e: info@chayceproperties.com</p>
+            <p>Tel: 07708 925 432<br>
+Email: info@chayceproperties.com</p>
     </div>
     <!-- end col-4 -->
           </div>

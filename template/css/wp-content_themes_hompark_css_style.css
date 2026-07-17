@@ -769,9 +769,12 @@ button[type=submit], input[type=submit] {
   height: 48px;
 }
 .navbar .container .upper-side .phone-email-icon {
-  display: inline-block;
-  margin-left: 15px;
+  display: inline-flex;
+  align-items: center;
+  margin-left: 20px;
   margin-bottom: 0;
+  padding-left: 20px;
+  border-left: 1px solid rgba(255, 255, 255, 0.25);
 }
 .navbar .container .upper-side .phone-email-icon img {
   display: inline-block;
@@ -784,7 +787,7 @@ button[type=submit], input[type=submit] {
   justify-content: flex-end;
   margin-right: 0;
   margin-left: auto;
-  margin-top: 5px;
+  margin-top: 0;
   text-align: right;
   color: #fff;
 }
@@ -1922,6 +1925,7 @@ button[type=submit], input[type=submit] {
   color: #fff;
   font-size: 13px;
   font-weight: 600;
+  min-width: 0;
 }
 
 /* APARTMENTS */
@@ -3085,10 +3089,6 @@ button[type=submit], input[type=submit] {
     font-size: 15px;
   }
 
-  .footer-bar .inner p br {
-    display: none;
-  }
-
   .photo-gallery li {
     width: 33.33333%;
   }
@@ -3414,12 +3414,92 @@ button[type=submit], input[type=submit] {
     padding: 0;
   }
 
+  .vc_row.vc_row-fluid {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+  }
+
+  .vc_row.vc_row-fluid:has(.icon-box) {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+  }
+
+  .vc_row.vc_inner.vc_row-fluid:has(.icon-box) > .wpb_column {
+    display: flex;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  /* The lone "Refurbishment" box sits by itself on the last row (centered,
+     not paired), so it can be wider than the 50% grid above it without
+     throwing off that grid. Give it the extra room "Refurbishment" needs
+     to avoid an ugly mid-word break. */
+  .vc_row.vc_inner.vc_row-fluid[style*="justify-content: center"] > .wpb_column {
+    flex: 0 0 66%;
+    max-width: 66%;
+  }
+
+  /* That extra room left the icon+label pinned to the left edge with a
+     dead gap on the right (box centered on the page, but its content
+     wasn't centered inside the box). Center the content too. */
+  .vc_row.vc_inner.vc_row-fluid[style*="justify-content: center"] .icon-box {
+    justify-content: center;
+  }
+
+  .vc_row.vc_row-fluid:has(.icon-box) > .wpb_column > .vc_column-inner {
+    width: 100%;
+    height: 100%;
+  }
+
+  .vc_row.vc_row-fluid:has(.icon-box) .wpb_wrapper {
+    height: 100%;
+  }
+
+  .icon-box {
+    height: 100%;
+    box-sizing: border-box;
+    padding: 12px 8px;
+  }
+
+  .icon-box img {
+    height: 26px;
+    margin-right: 8px;
+  }
+
+  .icon-box figcaption {
+    font-size: 12px;
+    overflow-wrap: anywhere;
+  }
+
   .side-navigation {
-    width: 80vw;
+    width: 100%;
+    left: 0;
+    top: 130px;
+    height: auto;
+    max-height: calc(100vh - 130px);
+    min-height: 0;
+    overflow-y: auto;
+    justify-content: flex-start;
+    padding: 8px 24px 24px;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25);
+    transform: translateY(-8px);
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: opacity 0.25s ease, transform 0.25s ease, visibility 0.25s;
+  }
+
+  .side-navigation.active {
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
   }
 
   .slider .slider-container .swiper-slide .container h1 {
-    font-size: 14vw;
+    font-size: 10vw;
   }
 
   .page-header .container h1 {
@@ -3431,24 +3511,86 @@ button[type=submit], input[type=submit] {
   }
 
   .navbar .container .upper-side .phone-email {
+    display: flex;
+    margin-left: auto;
+    margin-right: 8px;
+    margin-top: 0;
+    flex: 1 1 auto;
+    min-width: 0;
+    max-width: 60%;
+  }
+
+  .navbar .container .upper-side .phone-email small {
+    display: block;
+    font-size: 9px;
+    white-space: normal;
+    overflow-wrap: break-word;
+    line-height: 1.3;
+  }
+
+  .navbar .container .upper-side .phone-email h4 {
+    font-size: 11px;
+    white-space: nowrap;
+  }
+
+  .navbar .container .upper-side .phone-email h4 a {
+    float: none;
+  }
+
+  .navbar .container .upper-side .phone-email h4 a:before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f095";
+    margin-right: 4px;
+    font-size: 10px;
+  }
+
+  .navbar .container .upper-side .phone-email-icon {
     display: none;
+  }
+
+  .page-hero {
+    padding-top: 145px !important;
   }
 
   .navbar .container .upper-side .language {
     display: none;
   }
 
+  .navbar .container .upper-side .logo {
+    margin-right: 8px;
+  }
+
+  .navbar .container .upper-side .logo img {
+    height: 40px !important;
+  }
+
+  .navbar .container .upper-side .logo span span:first-child {
+    font-size: 13px !important;
+  }
+
   .navbar .container .upper-side .hamburger {
-    margin-left: auto;
+    margin-left: 0;
   }
 
   .slider .slider-container .inner-elements .container .social-media {
     display: none;
   }
 
+  .slider .slider-container .swiper-slide {
+    align-items: flex-start;
+  }
+
+  .consultation-box {
+    width: calc(100% + 60px);
+    max-width: calc(100% + 60px);
+    margin-left: -30px;
+  }
+
   .slider .slider-container .swiper-slide .container {
     padding-left: 15px;
     padding-right: 40px;
+    padding-top: 155px;
   }
 
   .slider .slider-container .swiper-slide .container figure {
@@ -3456,6 +3598,17 @@ button[type=submit], input[type=submit] {
     margin-left: 0;
     margin-top: 30px;
     display: none;
+  }
+
+  .slider .slider-container .swiper-slide .container a {
+    height: auto;
+    min-height: 60px;
+    line-height: 1.3;
+    padding: 12px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
   }
 
   .benefits .col {
@@ -3534,6 +3687,18 @@ button[type=submit], input[type=submit] {
 
   .consultation-box p {
     padding: 0;
+  }
+
+  .consultation-box a {
+    height: auto;
+    min-height: 60px;
+    line-height: 1.3;
+    padding: 12px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    float: none;
   }
 
   .gallery-thumb {

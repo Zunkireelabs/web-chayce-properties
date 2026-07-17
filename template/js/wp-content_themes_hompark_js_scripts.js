@@ -78,11 +78,18 @@
 
 
     // PARALLAX
-    $.stellar({
-      horizontalScrolling: false,
-      verticalOffset: 0,
-      responsive: true
-    });
+    // Skipped on mobile/tablet widths: Stellar recalculates background-position
+    // on scroll, and iOS Safari's collapsing address bar fires spurious
+    // resize/scroll events that throw that math off, leaving bg-image
+    // sections with their photo scrolled out of view. Plain CSS background
+    // (no JS involved) always renders correctly, so just skip Stellar there.
+    if (window.innerWidth > 991) {
+      $.stellar({
+        horizontalScrolling: false,
+        verticalOffset: 0,
+        responsive: true
+      });
+    }
 
 
     // PAGE TRANSITION
