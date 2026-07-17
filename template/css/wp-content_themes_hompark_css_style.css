@@ -3417,6 +3417,30 @@ button[type=submit], input[type=submit] {
     width: 100%;
   }
 
+  .vc_row.vc_row-fluid:has(.icon-box) {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+  }
+
+  .vc_row.vc_row-fluid:has(.icon-box) > .wpb_column {
+    display: flex;
+  }
+
+  .vc_row.vc_row-fluid:has(.icon-box) > .wpb_column > .vc_column-inner {
+    width: 100%;
+    height: 100%;
+  }
+
+  .vc_row.vc_row-fluid:has(.icon-box) .wpb_wrapper {
+    height: 100%;
+  }
+
+  .icon-box {
+    height: 100%;
+    box-sizing: border-box;
+  }
+
   .side-navigation {
     width: 80vw;
   }
