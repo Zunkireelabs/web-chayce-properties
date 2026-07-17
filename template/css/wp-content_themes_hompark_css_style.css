@@ -3444,9 +3444,9 @@ button[type=submit], input[type=submit] {
   .side-navigation {
     width: 100%;
     left: 0;
-    top: 105px;
+    top: 130px;
     height: auto;
-    max-height: calc(100vh - 105px);
+    max-height: calc(100vh - 130px);
     min-height: 0;
     overflow-y: auto;
     justify-content: flex-start;
@@ -3479,7 +3479,31 @@ button[type=submit], input[type=submit] {
   }
 
   .navbar .container .upper-side .phone-email {
+    display: flex;
+    margin-left: auto;
+    margin-right: 12px;
+    margin-top: 0;
+  }
+
+  .navbar .container .upper-side .phone-email small {
     display: none;
+  }
+
+  .navbar .container .upper-side .phone-email h4 {
+    font-size: 13px;
+    white-space: nowrap;
+  }
+
+  .navbar .container .upper-side .phone-email h4 a {
+    float: none;
+  }
+
+  .navbar .container .upper-side .phone-email-icon {
+    display: none;
+  }
+
+  .page-hero {
+    padding-top: 145px !important;
   }
 
   .navbar .container .upper-side .language {
@@ -3505,7 +3529,7 @@ button[type=submit], input[type=submit] {
   .slider .slider-container .swiper-slide .container {
     padding-left: 15px;
     padding-right: 40px;
-    padding-top: 130px;
+    padding-top: 155px;
   }
 
   .slider .slider-container .swiper-slide .container figure {
