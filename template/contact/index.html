@@ -47,6 +47,16 @@
 .form-group textarea{min-height:130px;resize:vertical}
 .btn-submit{background:#c8a96e;color:#fff;border:none;padding:14px 36px;font-size:13px;letter-spacing:2px;text-transform:uppercase;cursor:pointer;width:100%}
 .btn-submit:hover{background:#1a1a1a}
+.custom-select{position:relative}
+.custom-select-trigger{width:100%;padding:12px 16px;border:1px solid #ddd;font-size:14px;font-family:'Poppins',sans-serif;background:#fff;color:#999;display:flex;align-items:center;justify-content:space-between;cursor:pointer;text-align:left}
+.custom-select-trigger.has-value{color:#1a1a1a}
+.custom-select.open .custom-select-trigger,.custom-select-trigger:focus{border-color:#c8a96e;outline:none}
+.custom-select-trigger i{font-size:11px;color:#c8a96e;transition:transform .2s}
+.custom-select.open .custom-select-trigger i{transform:rotate(180deg)}
+.custom-select-panel{display:none;border:1px solid #ddd;border-top:none;max-height:220px;overflow-y:auto;position:relative;z-index:5;background:#fff}
+.custom-select.open .custom-select-panel{display:block}
+.custom-select-option{padding:10px 16px;font-size:14px;font-family:'Poppins',sans-serif;color:#444;cursor:pointer}
+.custom-select-option:hover,.custom-select-option.active{background:#f9f5ef;color:#c8a96e}
 .news-card figure{overflow:hidden;margin-bottom:16px}
 .news-card figure img{width:100%;height:220px;object-fit:cover;transition:.4s}
 .news-card figure:hover img{transform:scale(1.05)}
@@ -156,15 +166,20 @@ table.pkg-table td.gold{color:#c8a96e;font-weight:700}
           <div class="form-group"><input type="text" placeholder="Your Full Name" required></div>
           <div class="form-group"><input type="email" placeholder="Email Address" required></div>
           <div class="form-group"><input type="tel" placeholder="Phone Number"></div>
-          <div class="form-group">
-            <select>
-              <option value="">Interested Package</option>
-              <option>Discovery Consultation — £150</option>
-              <option>Bronze Essentials — £995</option>
-              <option>Silver Comfort — £1,850</option>
-              <option>Gold Prestige — £3,250</option>
-              <option>Platinum Bespoke — £6,500</option>
-            </select>
+          <div class="form-group custom-select">
+            <button type="button" class="custom-select-trigger">
+              <span class="custom-select-value">Interested Package</span>
+              <i class="fas fa-chevron-down"></i>
+            </button>
+            <div class="custom-select-panel">
+              <div class="custom-select-option" data-value="">Interested Package</div>
+              <div class="custom-select-option" data-value="Discovery Consultation — £150">Discovery Consultation — £150</div>
+              <div class="custom-select-option" data-value="Bronze Essentials — £995">Bronze Essentials — £995</div>
+              <div class="custom-select-option" data-value="Silver Comfort — £1,850">Silver Comfort — £1,850</div>
+              <div class="custom-select-option" data-value="Gold Prestige — £3,250">Gold Prestige — £3,250</div>
+              <div class="custom-select-option" data-value="Platinum Bespoke — £6,500">Platinum Bespoke — £6,500</div>
+            </div>
+            <input type="hidden" name="package" value="">
           </div>
           <div class="form-group"><textarea placeholder="How can we help you?"></textarea></div>
           <button type="submit" class="btn-submit">Send Enquiry</button>
@@ -241,4 +256,38 @@ table.pkg-table td.gold{color:#c8a96e;font-weight:700}
 <script src="../js/wp-content_themes_hompark_js_bootstrap.min.js"></script>
 <script src="../js/wp-content_themes_hompark_js_bundle.js"></script>
 <script src="../js/wp-content_themes_hompark_js_scripts.js"></script>
+<script>
+document.querySelectorAll('.custom-select').forEach(function (cs) {
+  var trigger = cs.querySelector('.custom-select-trigger');
+  var valueEl = cs.querySelector('.custom-select-value');
+  var hidden = cs.querySelector('input[type="hidden"]');
+  var options = cs.querySelectorAll('.custom-select-option');
+
+  trigger.addEventListener('click', function (e) {
+    e.stopPropagation();
+    document.querySelectorAll('.custom-select.open').forEach(function (other) {
+      if (other !== cs) other.classList.remove('open');
+    });
+    cs.classList.toggle('open');
+  });
+
+  options.forEach(function (opt) {
+    opt.addEventListener('click', function () {
+      var val = opt.getAttribute('data-value');
+      valueEl.textContent = opt.textContent;
+      hidden.value = val;
+      trigger.classList.toggle('has-value', !!val);
+      options.forEach(function (o) { o.classList.remove('active'); });
+      opt.classList.add('active');
+      cs.classList.remove('open');
+    });
+  });
+});
+
+document.addEventListener('click', function (e) {
+  document.querySelectorAll('.custom-select.open').forEach(function (cs) {
+    if (!cs.contains(e.target)) cs.classList.remove('open');
+  });
+});
+</script>
 </body></html>
