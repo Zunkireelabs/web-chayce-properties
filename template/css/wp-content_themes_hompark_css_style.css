@@ -3486,7 +3486,7 @@ button[type=submit], input[type=submit] {
   .navbar .container .upper-side .phone-email {
     display: flex;
     margin-left: auto;
-    margin-right: 12px;
+    margin-right: 8px;
     margin-top: 0;
   }
 
@@ -3495,12 +3495,20 @@ button[type=submit], input[type=submit] {
   }
 
   .navbar .container .upper-side .phone-email h4 {
-    font-size: 13px;
+    font-size: 11px;
     white-space: nowrap;
   }
 
   .navbar .container .upper-side .phone-email h4 a {
     float: none;
+  }
+
+  .navbar .container .upper-side .phone-email h4 a:before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f095";
+    margin-right: 4px;
+    font-size: 10px;
   }
 
   .navbar .container .upper-side .phone-email-icon {
@@ -3516,7 +3524,15 @@ button[type=submit], input[type=submit] {
   }
 
   .navbar .container .upper-side .logo {
-    margin-right: 16px;
+    margin-right: 8px;
+  }
+
+  .navbar .container .upper-side .logo img {
+    height: 40px !important;
+  }
+
+  .navbar .container .upper-side .logo span span:first-child {
+    font-size: 13px !important;
   }
 
   .navbar .container .upper-side .hamburger {
