@@ -3428,6 +3428,8 @@ button[type=submit], input[type=submit] {
 
   .vc_row.vc_row-fluid:has(.icon-box) > .wpb_column {
     display: flex;
+    flex: 0 0 100%;
+    max-width: 100%;
   }
 
   .vc_row.vc_row-fluid:has(.icon-box) > .wpb_column > .vc_column-inner {
