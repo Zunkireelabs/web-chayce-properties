@@ -3441,8 +3441,12 @@ button[type=submit], input[type=submit] {
     display: none;
   }
 
+  .navbar .container .upper-side .logo {
+    margin-right: 16px;
+  }
+
   .navbar .container .upper-side .hamburger {
-    margin-left: auto;
+    margin-left: 0;
   }
 
   .slider .slider-container .inner-elements .container .social-media {
