@@ -3085,10 +3085,6 @@ button[type=submit], input[type=submit] {
     font-size: 15px;
   }
 
-  .footer-bar .inner p br {
-    display: none;
-  }
-
   .photo-gallery li {
     width: 33.33333%;
   }
