@@ -3426,10 +3426,26 @@ button[type=submit], input[type=submit] {
     align-items: stretch;
   }
 
-  .vc_row.vc_row-fluid:has(.icon-box) > .wpb_column {
+  .vc_row.vc_inner.vc_row-fluid:has(.icon-box) > .wpb_column {
     display: flex;
-    flex: 0 0 100%;
-    max-width: 100%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  /* The lone "Refurbishment" box sits by itself on the last row (centered,
+     not paired), so it can be wider than the 50% grid above it without
+     throwing off that grid. Give it the extra room "Refurbishment" needs
+     to avoid an ugly mid-word break. */
+  .vc_row.vc_inner.vc_row-fluid[style*="justify-content: center"] > .wpb_column {
+    flex: 0 0 66%;
+    max-width: 66%;
+  }
+
+  /* That extra room left the icon+label pinned to the left edge with a
+     dead gap on the right (box centered on the page, but its content
+     wasn't centered inside the box). Center the content too. */
+  .vc_row.vc_inner.vc_row-fluid[style*="justify-content: center"] .icon-box {
+    justify-content: center;
   }
 
   .vc_row.vc_row-fluid:has(.icon-box) > .wpb_column > .vc_column-inner {
@@ -3444,6 +3460,17 @@ button[type=submit], input[type=submit] {
   .icon-box {
     height: 100%;
     box-sizing: border-box;
+    padding: 12px 8px;
+  }
+
+  .icon-box img {
+    height: 26px;
+    margin-right: 8px;
+  }
+
+  .icon-box figcaption {
+    font-size: 12px;
+    overflow-wrap: anywhere;
   }
 
   .side-navigation {
@@ -3488,10 +3515,17 @@ button[type=submit], input[type=submit] {
     margin-left: auto;
     margin-right: 8px;
     margin-top: 0;
+    flex: 1 1 auto;
+    min-width: 0;
+    max-width: 60%;
   }
 
   .navbar .container .upper-side .phone-email small {
-    display: none;
+    display: block;
+    font-size: 9px;
+    white-space: normal;
+    overflow-wrap: break-word;
+    line-height: 1.3;
   }
 
   .navbar .container .upper-side .phone-email h4 {
