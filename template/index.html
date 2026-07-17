@@ -538,12 +538,16 @@ var comment_data = {"name":"Name is required","email":"Email is required","comme
 #section-packages .stat-num{font-size:34px;font-weight:700;color:#B8935A;font-family:'Playfair',Georgia,serif;line-height:1;display:block}
 #section-packages .stat-lbl{font-size:9.5px;letter-spacing:2.5px;text-transform:uppercase;color:#bbb;margin-top:6px;display:block;font-family:'Poppins',sans-serif}
 #section-packages .plan-tab-lnk{font-size:10.5px;letter-spacing:2px;text-transform:uppercase;font-weight:600;font-family:'Poppins',sans-serif;cursor:pointer;transition:color .2s}
+@media(max-width:767px){
+#section-packages .pkg-col-left,#section-packages .pkg-col-right{max-width:100%!important}
+#section-packages .plan-panel{margin-left:0!important}
+}
 </style>
 <div class="container">
   <div style="display:flex;gap:60px;align-items:flex-start;flex-wrap:wrap;">
 
     <!-- ── LEFT: section header + tabs + packages ── -->
-    <div style="flex:1;min-width:280px;max-width:46%;">
+    <div class="pkg-col-left" style="flex:1;min-width:280px;max-width:46%;">
       <div class="section-titles wow fadeInUp" style="visibility:visible;animation-name:fadeInUp;">
         <b>05</b>
         <h2><em>Chayce Properties</em> Living Spaces</h2>
@@ -589,9 +593,9 @@ var comment_data = {"name":"Name is required","email":"Email is required","comme
     </div>
 
     <!-- ── RIGHT: plan tabs + floor plan + stats ── -->
-    <div style="flex:1;min-width:280px;max-width:50%;">
+    <div class="pkg-col-right" style="flex:1;min-width:280px;max-width:50%;">
       <!-- floor plan panels -->
-      <div style="background:#faf8f4;border:1px solid #e5dfd5;padding:30px 26px;margin-left:20px;">
+      <div class="plan-panel" style="background:#faf8f4;border:1px solid #e5dfd5;padding:30px 26px;margin-left:20px;">
         <div id="plan-one">
           <svg viewBox="0 0 400 270" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;">
   <rect width="400" height="270" fill="#faf8f4"/>
