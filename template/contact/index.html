@@ -164,6 +164,14 @@ table.pkg-table td.gold{color:#c8a96e;font-weight:700}
       </div>
       <div>
         <form>
+          <div class="form-group">
+            <select name="situation" id="situation-select">
+              <option value="">Have you already secured your home?</option>
+              <option value="yes">Yes, I&rsquo;ve found my home</option>
+              <option value="no">No, I&rsquo;m still searching</option>
+              <option value="unsure">Not sure yet</option>
+            </select>
+          </div>
           <div class="form-group"><input type="text" placeholder="Your Full Name" required></div>
           <div class="form-group"><input type="email" placeholder="Email Address" required></div>
           <div class="form-group"><input type="tel" placeholder="Phone Number"></div>
@@ -290,5 +298,19 @@ document.addEventListener('click', function (e) {
     if (!cs.contains(e.target)) cs.classList.remove('open');
   });
 });
+
+(function () {
+  var params = new URLSearchParams(window.location.search);
+  var pkg = params.get('package');
+  if (pkg) {
+    var opt = document.querySelector('.pkg-select-option[data-value="' + pkg.replace(/"/g, '') + '"]');
+    if (opt) opt.click();
+  }
+  var situation = params.get('situation');
+  if (situation) {
+    var sel = document.getElementById('situation-select');
+    if (sel) sel.value = situation;
+  }
+})();
 </script>
 </body></html>

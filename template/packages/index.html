@@ -68,6 +68,7 @@ table.pkg-table th{background:#3d4558;color:#fff;padding:12px 16px;font-size:13p
 table.pkg-table td{padding:12px 16px;border-bottom:1px solid #eee;font-size:14px;color:#444}
 table.pkg-table tr:hover td{background:#fafafa}
 table.pkg-table td.gold{color:#c8a96e;font-weight:700}
+tr.pkg-group-header td{background:#3d4558;color:#fff;font-weight:700;letter-spacing:1px;text-transform:uppercase;font-size:12px;padding:10px 16px}
 @media(max-width:768px){.contact-grid{grid-template-columns:1fr}.icon-item{flex:0 0 100%}
 table.pkg-table,table.pkg-table tr,table.pkg-table td{display:block;width:auto}
 table.pkg-table{border-collapse:separate}
@@ -76,6 +77,8 @@ table.pkg-table tr{margin-bottom:16px;border:1px solid #eee;border-radius:6px;pa
 table.pkg-table td{border:none!important;padding:5px 0}
 table.pkg-table td[data-label]:before{content:attr(data-label);display:block;font-size:11px;letter-spacing:1px;text-transform:uppercase;color:#999;margin-bottom:2px}
 table.pkg-table td:last-child{padding-top:10px}
+tr.pkg-group-header{border:none!important;margin-bottom:8px!important;padding:0!important}
+tr.pkg-group-header td{border:none!important}
 }
 </style>
 <script src="../js/wp-includes_js_jquery_jquery.min.js"></script>
@@ -149,12 +152,23 @@ table.pkg-table td:last-child{padding-top:10px}
 <section class="page-section">
   <div class="container">
     <div class="section-titles center wow fadeInUp"><b>01</b><h2><em>Choose</em> Your Package</h2><h3>Five levels of support, one standard of excellence</h3></div>
-    <div style="overflow-x:auto;margin-top:50px">
+    <div style="max-width:760px;margin:36px auto 0;text-align:center;">
+      <p style="font-size:15px;color:#3d4558;font-weight:700;margin-bottom:16px;">Where are you in your move?</p>
+      <div style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;">
+        <a href="../bronze-essentials/" class="btn-chayce" style="margin:0">I&rsquo;ve Found My Home &rarr;</a>
+        <a href="../gold-prestige/" class="btn-chayce" style="margin:0;background:#3d4558">Still Searching &rarr;</a>
+      </div>
+      <p style="margin-top:16px;font-size:13px;color:#999;">Not sure? <a href="../discovery/" style="color:#c8a96e;font-weight:600;">Start with a Discovery Consultation</a></p>
+    </div>
+    <div style="overflow-x:auto;margin-top:40px">
       <table class="pkg-table">
         <tr><th>Package</th><th>What&rsquo;s Included</th><th>Price</th><th></th></tr>
+        <tr class="pkg-group-header"><td colspan="4">Not Sure Where to Start?</td></tr>
         <tr><td class="gold" data-label="Package">Discovery Consultation</td><td data-label="What's Included">Expert guidance &amp; a personalised move plan</td><td class="gold" data-label="Price">From £150</td><td><a href="../discovery/index.html" class="card-box btn-chayce" style="margin:0;padding:8px 18px;font-size:12px">Learn More</a></td></tr>
+        <tr class="pkg-group-header"><td colspan="4">Already Found Your Home</td></tr>
         <tr><td class="gold" data-label="Package">Bronze Essentials</td><td data-label="What's Included">Packing, removals and light cleaning</td><td class="gold" data-label="Price">From £995</td><td><a href="../bronze-essentials/index.html" class="card-box btn-chayce" style="margin:0;padding:8px 18px;font-size:12px">Learn More</a></td></tr>
         <tr><td class="gold" data-label="Package">Silver Comfort</td><td data-label="What's Included">Full-service move with a dedicated coordinator</td><td class="gold" data-label="Price">From £1,850</td><td><a href="../silver-comfort/index.html" class="card-box btn-chayce" style="margin:0;padding:8px 18px;font-size:12px">Learn More</a></td></tr>
+        <tr class="pkg-group-header"><td colspan="4">Still Searching / Need Broader Support</td></tr>
         <tr><td class="gold" data-label="Package">Gold Prestige</td><td data-label="What's Included">Chauffeur viewings, staging, legal coordination &amp; more</td><td class="gold" data-label="Price">From £3,250</td><td><a href="../gold-prestige/index.html" class="card-box btn-chayce" style="margin:0;padding:8px 18px;font-size:12px">Learn More</a></td></tr>
         <tr><td class="gold" data-label="Package">Platinum Bespoke</td><td data-label="What's Included">Complete white-glove service for discerning clients</td><td class="gold" data-label="Price">From £6,500</td><td><a href="../platinum-bespoke/index.html" class="card-box btn-chayce" style="margin:0;padding:8px 18px;font-size:12px">Learn More</a></td></tr>
       </table>
