@@ -59,9 +59,18 @@ theme.
   outline: none !important;
 }
 
+html {
+  height: 100%;
+  width: 100%;
+  overscroll-behavior-y: none;
+}
+
 body {
   margin: 0;
   padding: 0;
+  height: 100%;
+  width: 100%;
+  overscroll-behavior-y: none;
   font-family: var(--primary-font);
   color: var(--color-dark);
   -webkit-font-smoothing: antialiased;
@@ -2873,44 +2882,50 @@ button[type=submit], input[type=submit] {
   display: flex;
   flex-wrap: wrap;
   position: relative;
-  padding-bottom: 100px;
   background: var(--color-dark);
 }
-.footer-bar:before {
-  content: "";
-  width: 100%;
-  height: 100px;
-  background: #fff;
+.footer-bar .inner {
+  background: transparent;
+  padding: 56px 30px;
+  color: #fff;
+  position: relative;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.footer-bar .inner .col-lg-4 {
+  position: relative;
+  min-height: 40px;
+  padding-left: 64px;
+}
+.footer-bar .inner figure {
   position: absolute;
   left: 0;
   top: 0;
-}
-.footer-bar .inner {
-  background: var(--color-brown);
-  padding: 60px 30px;
-  color: #fff;
-  position: relative;
-}
-.footer-bar .inner figure {
-  margin-bottom: 20px;
-  float: left;
-  margin-right: 30px;
+  margin: 0;
 }
 .footer-bar .inner figure img {
-  height: 70px;
+  height: 40px;
+  filter: brightness(0) saturate(100%) invert(76%) sepia(30%) saturate(482%) hue-rotate(357deg) brightness(93%) contrast(89%);
 }
 .footer-bar .inner h3 {
-  font-family: var(--secondary-font);
-  font-size: 22px;
-  margin-bottom: 15px;
+  font-family: var(--font-primary, 'Poppins', sans-serif);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--color-light);
+  margin-bottom: 12px;
 }
 .footer-bar .inner p {
-  font-size: 16px;
+  font-size: 15px;
+  line-height: 1.7;
+  color: #b7b9be;
   margin: 0;
 }
 .footer-bar .inner strong {
   font-weight: 600;
-  text-decoration: underline;
+  color: #fff;
+  text-decoration: none;
 }
 
 /* FOOTER */
@@ -3316,15 +3331,25 @@ button[type=submit], input[type=submit] {
 
   .footer-bar .inner .col-lg-4 {
     margin: 20px 0;
+    text-align: center;
   }
 
   .footer-bar .inner figure {
-    width: 70px;
-    margin-right: 0;
+    width: auto;
+    float: none;
+    margin: 0 auto 16px;
   }
 
   .footer-bar .inner figure img {
     height: 50px;
+  }
+
+  .footer-bar .inner h3 {
+    margin-bottom: 10px;
+  }
+
+  .footer-bar .inner p {
+    line-height: 1.7;
   }
 
   .footer {

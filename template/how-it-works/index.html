@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How Can We Help? | Chayce Properties</title>
+<link rel="icon" type="image/png" href="../images/favicon.png">
+<link rel="stylesheet" href="../css/wp-content_themes_hompark_css_bundle.min.css">
+<link rel="stylesheet" href="../css/wp-content_themes_hompark_css_bootstrap.min.css">
+<link rel="stylesheet" href="../css/wp-content_themes_hompark_css_style.css">
+<link rel="stylesheet" href="../css/wp-content_themes_hompark_css_fontawesome.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:400,600,800">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair">
+<style>
+.chayce-logo-link{text-decoration:none!important}
+:root{--gold:#c8a96e;--gold-light:#d8b878;--ink:#1a1a1a}
+
+/* ===== Hero — full-bleed editorial ===== */
+.hiw-hero{position:relative;min-height:92vh;display:flex;align-items:flex-end;background:#0e0f12 url(../images/hiw2-who-senior-couple-bw.jpg) center 22%/cover no-repeat;overflow:hidden}
+.hiw-hero::before{content:'';position:absolute;inset:0;background:
+  linear-gradient(0deg,rgba(8,9,11,.94) 0%,rgba(8,9,11,.55) 32%,rgba(8,9,11,.15) 60%,rgba(8,9,11,.5) 100%)}
+.hiw-hero .container{position:relative;z-index:2;padding-bottom:86px}
+.hiw-hero .breadcrumb{display:block;color:var(--gold-light);font-family:'Poppins',sans-serif;font-size:12px;letter-spacing:3px;text-transform:uppercase;font-weight:600;margin-bottom:22px}
+.hiw-hero .breadcrumb a{color:#e8e6e0;text-decoration:none}
+.hiw-hero h1{color:#fff;font-family:'Playfair',serif;font-size:clamp(40px,6vw,74px);line-height:1.04;font-weight:700;max-width:900px;margin:0 0 26px;letter-spacing:-.5px}
+.hiw-hero h1 em{color:var(--gold-light);font-style:normal}
+.hiw-hero p.lead{color:#e8e6e0;font-size:18px;line-height:1.7;max-width:480px;margin:0 0 40px;border-left:2px solid var(--gold);padding-left:20px}
+.btn-lg{display:inline-block;padding:17px 36px;font-size:13px;letter-spacing:2px;text-transform:uppercase;text-decoration:none;font-weight:700;border-radius:0;font-family:'Poppins',sans-serif;transition:.25s}
+.btn-lg.primary{background:var(--gold);color:#fff}
+.btn-lg.primary:hover{background:#fff;color:var(--ink)}
+.btn-lg.ghost{background:transparent;color:#fff;border:1px solid rgba(255,255,255,.7)}
+.btn-lg.ghost:hover{background:#fff;color:var(--ink)}
+.scroll-cue{display:inline-flex;align-items:center;gap:12px;color:#cfd0d4;font-family:'Poppins',sans-serif;font-size:11px;letter-spacing:2.5px;text-transform:uppercase}
+.scroll-cue::after{content:'';width:1px;height:38px;background:linear-gradient(#c8a96e,transparent);display:block;animation:cue 2s ease-in-out infinite}
+@keyframes cue{0%{transform:scaleY(0);transform-origin:top}50%{transform:scaleY(1);transform-origin:top}51%{transform-origin:bottom}100%{transform:scaleY(0);transform-origin:bottom}}
+
+/* ===== Path band — dark reassurance strip ===== */
+.path-band{background:var(--ink);padding:0}
+.path-band .row{display:flex;max-width:1180px;margin:0 auto;flex-wrap:wrap}
+.path-band .cell{flex:1;padding:52px 24px;text-align:center;position:relative;min-width:220px}
+.path-band .cell+.cell::before{content:'';position:absolute;left:0;top:26%;bottom:26%;width:1px;background:rgba(255,255,255,.12)}
+.path-band .cell i{color:var(--gold-light);font-size:22px;margin-bottom:16px;display:block}
+.path-band .t{font-family:'Playfair',serif;font-size:19px;color:#fff;display:block}
+.path-band .l{font-size:12px;line-height:1.6;color:#9a9da5;margin-top:8px;display:block}
+
+/* ===== Section shell ===== */
+.kicker{display:block;color:var(--gold);font-family:'Poppins',sans-serif;font-size:11.5px;letter-spacing:3px;text-transform:uppercase;font-weight:700;margin-bottom:14px}
+.kicker.center{text-align:center}
+
+/* ===== Who we help — sticky editorial ===== */
+.who-block{background:#fff;padding:130px 0}
+.who-block .container{display:flex;align-items:flex-start;gap:80px}
+.who-media{flex:0 0 42%;position:sticky;top:110px;align-self:flex-start}
+.who-media img{width:100%;height:560px;object-fit:cover;display:block}
+.who-media .cap{margin-top:16px;font-family:'Poppins',sans-serif;font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:#999;text-align:center}
+.who-copy{flex:1 1 auto;max-width:560px}
+.who-copy h2{font-family:'Playfair',serif;font-size:clamp(30px,3.4vw,44px);color:var(--ink);margin:0 0 26px;line-height:1.15}
+.who-copy h2 em{color:var(--gold);font-style:normal}
+.who-copy>p.lede{font-size:18px;line-height:1.75;color:#333;margin:0 0 42px}
+.who-card{border-top:1px solid #e3e0d8;padding:32px 0}
+.who-card:last-child{border-bottom:1px solid #e3e0d8}
+.who-card h4{font-family:'Playfair',serif;font-size:22px;color:var(--ink);margin:0 0 10px}
+.who-card p{color:#666;font-size:15.5px;line-height:1.8;margin:0 0 16px;max-width:500px}
+.text-link.dark{color:var(--ink);font-family:'Poppins',sans-serif;font-size:13.5px;font-weight:600;letter-spacing:.4px;text-decoration:none}
+.text-link.dark:hover{color:var(--gold)}
+
+/* ===== Full-bleed quote break ===== */
+.quote-break{position:relative;min-height:60vh;display:flex;align-items:center;justify-content:center;background:#0e0f12 url(../images/hiw2-quote-moving-boxes.jpg) center 40%/cover fixed no-repeat;text-align:center}
+.quote-break::before{content:'';position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,11,14,.78),rgba(10,11,14,.62))}
+.quote-break .container{position:relative;z-index:2;max-width:780px}
+.quote-break p{font-family:'Playfair',serif;font-style:normal;font-weight:700;font-size:clamp(22px,3vw,32px);line-height:1.5;color:#fff;margin:0 0 24px}
+.quote-break span.attr{display:block;color:var(--gold-light);font-family:'Poppins',sans-serif;font-size:12px;letter-spacing:3px;text-transform:uppercase}
+
+/* ===== Three stages — alternating statement rows ===== */
+.stages-block{background:#f9f8f6;padding:130px 0}
+.stages-head{max-width:640px;margin:0 auto 90px;text-align:center}
+.stages-head h2{font-family:'Playfair',serif;font-size:clamp(30px,3.4vw,42px);color:var(--ink);margin:14px 0 18px}
+.stages-head h2 em{color:var(--gold);font-style:normal}
+.stages-head p{color:#666;font-size:17px;line-height:1.8;margin:0}
+.stage-rows{max-width:980px;margin:0 auto}
+.stage-row{display:flex;align-items:center;gap:60px;padding:44px 0;border-bottom:1px solid #e3e0d8}
+.stage-rows .stage-row:first-child{border-top:1px solid #e3e0d8}
+.stage-row.rev{flex-direction:row-reverse}
+.stage-row .snum{flex:0 0 auto;font-family:'Playfair',serif;font-size:110px;line-height:1;color:transparent;-webkit-text-stroke:1.5px var(--gold);font-weight:700;min-width:150px;text-align:center}
+.stage-row .scopy{flex:1}
+.stage-row.rev .scopy{text-align:right}
+.stage-row .stage-label{display:block;font-family:'Poppins',sans-serif;font-size:11px;letter-spacing:2.5px;text-transform:uppercase;color:var(--gold);margin-bottom:8px;font-weight:700}
+.stage-row h4{font-family:'Playfair',serif;font-size:26px;color:var(--ink);margin:0 0 10px}
+.stage-row p{color:#666;font-size:16px;line-height:1.8;margin:0;max-width:480px}
+.stage-row.rev p{margin-left:auto}
+.stages-more{text-align:center;margin-top:56px}
+
+/* ===== The process — dark connected timeline ===== */
+.process-band{background:var(--ink);padding:120px 0;position:relative;overflow:hidden}
+.process-band::before{content:'';position:absolute;inset:0;background:radial-gradient(circle at 85% 10%,rgba(200,169,110,.14) 0%,rgba(200,169,110,0) 55%)}
+.process-band .container{position:relative;z-index:2}
+.process-head{max-width:600px;margin:0 auto 76px;text-align:center}
+.process-head h2{font-family:'Playfair',serif;font-size:clamp(30px,3.4vw,42px);color:#fff;margin:14px 0 18px}
+.process-head h2 em{color:var(--gold-light);font-style:normal}
+.process-head p{color:#cfd0d4;font-size:17px;line-height:1.8;margin:0}
+.process-row{display:flex;gap:0;flex-wrap:wrap;position:relative}
+.process-item{flex:1 1 220px;padding:0 30px 0 0;position:relative}
+.process-item::before{content:'';position:absolute;top:23px;left:26px;right:0;height:1px;background:rgba(255,255,255,.14)}
+.process-item:last-child::before{display:none}
+.process-item .num{display:flex;align-items:center;justify-content:center;width:48px;height:48px;border-radius:50%;background:transparent;border:1px solid var(--gold-light);color:var(--gold-light);font-family:'Playfair',serif;font-size:17px;font-weight:700;margin-bottom:26px;position:relative;z-index:2}
+.process-item h4{font-family:'Playfair',serif;font-size:19px;color:#fff;margin:0 0 10px}
+.process-item p{color:#9a9da5;font-size:14.5px;line-height:1.75;margin:0}
+
+/* ===== Not sure / FAQ band ===== */
+.faq-block{background:#fff;padding:130px 0}
+.next-card{max-width:900px;margin:0 auto 100px;background:#f9f8f6;border:1px solid #e6e1d8;padding:56px;text-align:center}
+.next-card h2{font-family:'Playfair',serif;font-size:clamp(26px,3vw,34px);color:var(--ink);margin:14px 0 16px}
+.next-card h2 em{color:var(--gold);font-style:normal}
+.next-card p{color:#666;font-size:16px;line-height:1.8;max-width:600px;margin:0 auto 28px}
+.next-actions{display:flex;align-items:center;justify-content:center;gap:26px;flex-wrap:wrap}
+.hiw-faq{max-width:760px;margin:0 auto}
+.hiw-faq details{border-bottom:1px solid #e6e1d8;padding:22px 0}
+.hiw-faq details:first-child{border-top:1px solid #e6e1d8}
+.hiw-faq summary{list-style:none;cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:20px;font-family:'Playfair',serif;font-size:18px;color:var(--ink);font-weight:700}
+.hiw-faq summary::-webkit-details-marker{display:none}
+.hiw-faq summary::after{content:'+';flex-shrink:0;font-family:'Poppins',sans-serif;font-size:20px;font-weight:400;color:var(--gold);transition:transform .2s ease}
+.hiw-faq details[open] summary::after{content:'\2212'}
+.hiw-faq p{color:#666;font-size:15.5px;line-height:1.8;margin:14px 0 0}
+.hiw-faq-more{text-align:center;margin-top:36px}
+
+/* ===== Split CTA ===== */
+.split-cta{display:flex;min-height:480px}
+.split-cta .panel{flex:1 1 50%;display:flex;align-items:center}
+.split-cta .text{background:var(--ink);position:relative;overflow:hidden}
+.split-cta .text::before{content:'';position:absolute;inset:0;background:radial-gradient(circle at 100% 0%,rgba(200,169,110,.18) 0%,rgba(200,169,110,0) 55%)}
+.split-cta .text .inner{position:relative;z-index:2;padding:70px 70px;max-width:520px;margin-left:auto}
+.split-cta h3{font-family:'Playfair',serif;font-size:clamp(28px,3vw,38px);color:#fff;margin:0 0 16px;line-height:1.2}
+.split-cta p{color:#cfd0d4;font-size:16px;line-height:1.75;margin:0 0 30px}
+.split-cta .btn-row{display:flex;gap:16px;flex-wrap:wrap}
+.split-cta .cta-alt{margin:22px 0 0;font-size:14px;color:#9a9da5}
+.split-cta .cta-alt a{color:var(--gold-light);text-decoration:none;font-weight:600}
+.split-cta .cta-alt a:hover{color:#fff}
+.split-cta .img{background-color:var(--ink);background-image:url(../images/hiw2-cta-house-keys.jpg);background-size:calc(100% - 64px) calc(100% - 64px);background-position:center;background-repeat:no-repeat}
+
+/* ===== Scroll reveal ===== */
+.reveal{opacity:0;transform:translateY(28px);transition:opacity .8s ease,transform .8s ease}
+.reveal.in{opacity:1;transform:none}
+
+@media(max-width:991px){
+  .hiw-hero{min-height:78vh}
+  .who-block .container{flex-direction:column;gap:36px}
+  .who-media{position:static;flex:0 0 auto}
+  .who-media img{height:340px}
+  .stage-row,.stage-row.rev{flex-direction:column;text-align:center;gap:18px}
+  .stage-row .scopy,.stage-row.rev .scopy{text-align:center}
+  .stage-row.rev p{margin:0 auto}
+  .stage-row .snum{font-size:80px;min-width:0}
+  .split-cta{flex-direction:column}
+  .split-cta .img{min-height:260px}
+  .split-cta .text .inner{margin:0 auto;padding:60px 30px;text-align:center}
+  .split-cta .btn-row{justify-content:center}
+  .process-row{flex-direction:column;gap:36px}
+  .process-item{flex-basis:auto;padding-right:0}
+  .process-item::before{display:none}
+}
+@media(max-width:767px){
+  .hiw-hero{min-height:auto;padding-top:100px}
+  .hiw-hero h1{font-size:32px}
+  .hiw-hero p.lead{font-size:16px;padding-left:16px}
+  .hiw-hero .container{padding-bottom:56px}
+  .btn-lg{padding:15px 30px;font-size:12px}
+  .path-band .row{flex-wrap:wrap}
+  .path-band .cell{flex:1 1 50%;min-width:0;padding:32px 16px}
+  .path-band .cell:nth-child(2)::before{display:none}
+  .who-block{padding:60px 0}
+  .who-copy>p.lede{font-size:16.5px;margin-bottom:30px}
+  .stages-block{padding:60px 0}
+  .stages-head{margin-bottom:40px}
+  .stage-row{padding:32px 0}
+  .quote-break{min-height:auto;padding:70px 0;background-attachment:scroll}
+  .quote-break span.attr{margin-top:4px}
+  .process-band{padding:60px 0}
+  .process-head{margin-bottom:40px}
+  .faq-block{padding:60px 0}
+  .next-card{padding:36px 26px;margin-bottom:56px}
+  .next-actions{gap:14px 24px}
+  .hiw-faq summary{font-size:16px;gap:14px}
+  .split-cta .text .inner{padding:50px 24px}
+  .footer-grid{gap:36px 24px}
+}
+@media(max-width:480px){
+  .hiw-hero{padding-top:88px}
+  .hiw-hero h1{font-size:27px;letter-spacing:0}
+  .hiw-hero .breadcrumb{font-size:10.5px;letter-spacing:2px;margin-bottom:16px}
+  .hiw-hero p.lead{font-size:15px;line-height:1.65;padding-left:14px;margin-bottom:30px}
+  .btn-lg{width:100%;text-align:center;padding:16px 20px}
+  .path-band .cell{flex:1 1 100%;padding:26px 20px}
+  .path-band .cell+.cell::before{display:none}
+  .path-band .cell:not(:first-child){border-top:1px solid rgba(255,255,255,.12)}
+  .kicker{font-size:11px;letter-spacing:2px}
+  .who-block{padding:50px 0}
+  .who-media img{height:260px}
+  .who-copy h2{font-size:25px;margin-bottom:20px}
+  .who-copy>p.lede{font-size:15.5px;margin-bottom:24px}
+  .who-card{padding:24px 0}
+  .who-card h4{font-size:19px}
+  .stages-block{padding:50px 0}
+  .stages-head{margin-bottom:32px}
+  .stages-head h2{font-size:24px}
+  .stage-rows{max-width:100%}
+  .stage-row{padding:26px 0;gap:12px}
+  .stage-row .snum{font-size:56px}
+  .stage-row h4{font-size:21px}
+  .quote-break{padding:56px 0}
+  .quote-break p{font-size:19px}
+  .process-band{padding:50px 0}
+  .process-head h2{font-size:24px}
+  .process-item .num{width:40px;height:40px;font-size:15px;margin-bottom:18px}
+  .process-item h4{font-size:17px}
+  .faq-block{padding:50px 0}
+  .next-card{padding:28px 18px;margin-bottom:44px}
+  .next-card h2{font-size:22px}
+  .next-actions{flex-direction:column;gap:14px}
+  .hiw-faq summary{font-size:15px}
+  .hiw-faq p{font-size:14.5px}
+  .split-cta h3{font-size:24px}
+  .split-cta .text .inner{padding:44px 20px}
+  .split-cta .btn-row{flex-direction:column;width:100%}
+  .split-cta .btn-row .btn-lg{width:100%}
+  .split-cta .img{min-height:200px;background-size:calc(100% - 32px) calc(100% - 32px)}
+}
+</style>
+<link rel="stylesheet" href="../css/chayce-nav.css">
+</head>
+<body class="page-template page-loaded">
+<nav class="site-nav">
+  <div class="site-nav-inner">
+    <a href="../" class="site-nav-logo">
+      <img src="../images/chayce-logo.png" alt="Chayce Properties">
+      <span class="word"><b>CHAYCE</b><span>PROPERTIES</span></span>
+    </a>
+    <button class="site-nav-toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    <div class="site-nav-scrim"></div>
+    <div class="site-nav-links">
+        <a href="../how-it-works/" class="active">How Can We Help?</a>
+        <a href="../our-services/">Services</a>
+        <a href="../about-chayce/">About</a>
+        <span class="site-nav-divider"></span>
+        <a href="../contact/" class="site-nav-contact">Contact</a>
+        <a href="../get-started/" class="site-nav-cta">Get Started</a>
+    </div>
+  </div>
+</nav>
+<script src="../js/chayce-nav.js" defer></script>
+
+<!-- ============ HERO ============ -->
+<header class="hiw-hero">
+  <div class="container">
+    <span class="breadcrumb"><a href="../">Home</a> / How Can We Help?</span>
+    <h1>Whatever stage you&rsquo;re at, <em>Chayce can help.</em></h1>
+    <p class="lead">However far along you are &mdash; still deciding, mid-sale, or already holding keys to a new home &mdash; Chayce fits in at that point and takes over from there.</p>
+    <a href="../get-started/" class="btn-lg primary">Get Started</a>
+  </div>
+</header>
+
+<!-- ============ PATH BAND ============ -->
+<section class="path-band">
+  <div class="row">
+    <div class="cell"><i class="fas fa-map-signs"></i><span class="t">Join at any stage</span><span class="l">Still deciding, mid-sale, or already moved &mdash; we pick up from there</span></div>
+    <div class="cell"><i class="fas fa-users"></i><span class="t">For you, or your family</span><span class="l">We work directly with you, or whoever&rsquo;s helping arrange it</span></div>
+    <div class="cell"><i class="fas fa-route"></i><span class="t">One clear process</span><span class="l">Four steps, organised around your pace &mdash; not a deadline</span></div>
+  </div>
+</section>
+
+<!-- ============ WHO WE HELP (sticky editorial) ============ -->
+<section class="who-block">
+  <div class="container reveal">
+    <div class="who-media">
+      <img src="../images/hiw2-who-grandparents.jpg" alt="A senior couple enjoying time together">
+      <div class="cap">Support for whatever stage you&rsquo;re at</div>
+    </div>
+    <div class="who-copy">
+      <span class="kicker">Who This Is For</span>
+      <h2>Support for you, or the <em>people who love you.</em></h2>
+      <p class="lede">Moving later in life is rarely a one-person job. Chayce works directly with the person moving, and just as often with the son, daughter or family member helping to arrange it &mdash; wherever they happen to be.</p>
+      <div class="who-card">
+        <h4>If you&rsquo;re the one moving</h4>
+        <p>Nothing is rushed and nothing is assumed. We explain each step in plain terms, keep decisions in your hands, and take the physically demanding parts &mdash; sorting, packing, lifting &mdash; off yours.</p>
+        <a href="../contact/" class="text-link dark">Speak to us directly &rarr;</a>
+      </div>
+      <div class="who-card">
+        <h4>If you&rsquo;re arranging it for a parent</h4>
+        <p>You can start this on their behalf, from anywhere. We keep you both in the loop, coordinate around their pace and preferences, and act as the calm, dependable point of contact you don&rsquo;t have time to be yourself.</p>
+        <a href="../get-started/" class="text-link dark">Start on their behalf &rarr;</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ IMAGE QUOTE BREAK ============ -->
+<section class="quote-break">
+  <div class="container reveal">
+    <p>&ldquo;You tell us where you&rsquo;re at. We take over from there &mdash; no rushing, nothing assumed.&rdquo;</p>
+    <span class="attr">The Chayce Properties Team</span>
+  </div>
+</section>
+
+<!-- ============ THE THREE STAGES (alternating rows) ============ -->
+<section class="stages-block">
+  <div class="container">
+    <div class="stages-head reveal">
+      <span class="kicker center">The Journey</span>
+      <h2>One partner, <em>three stages.</em></h2>
+      <p>Rather than a list of services, think of Chayce as support that follows your move through three stages &mdash; preparing, moving, and settling in. You can join at any point.</p>
+    </div>
+    <div class="stage-rows">
+      <div class="stage-row reveal">
+        <span class="snum">01</span>
+        <div class="scopy"><span class="stage-label">Prepare</span><h4>Getting your current home ready</h4><p>Sorting, staging, estate agent liaison and legal coordination &mdash; everything needed to get your current home sold and ready to leave.</p></div>
+      </div>
+      <div class="stage-row rev reveal">
+        <span class="snum">02</span>
+        <div class="scopy"><span class="stage-label">Move</span><h4>Handling moving day, start to finish</h4><p>Packing, insured removals, cleaning and utility transfers &mdash; the physical work of moving, managed so the day itself stays calm.</p></div>
+      </div>
+      <div class="stage-row reveal">
+        <span class="snum">03</span>
+        <div class="scopy"><span class="stage-label">Settle</span><h4>Feeling at home, from day one</h4><p>Furniture placement, unpacking and ongoing concierge support, so your new home feels like yours straight away.</p></div>
+      </div>
+    </div>
+    <div class="stages-more"><a href="../our-services/" class="text-link dark">See every service in each stage &rarr;</a></div>
+  </div>
+</section>
+
+<!-- ============ THE PROCESS (dark timeline) ============ -->
+<section class="process-band">
+  <div class="container">
+    <div class="process-head reveal">
+      <span class="kicker center" style="color:var(--gold-light)">The Process</span>
+      <h2>From first call to <em>settled in.</em></h2>
+      <p>A clear, four-step process &mdash; organised around your pace, not a deadline.</p>
+    </div>
+    <div class="process-row reveal">
+      <div class="process-item">
+        <span class="num">01</span>
+        <h4>Talk to us</h4>
+        <p>A free consultation to understand your situation and where you are in your move.</p>
+      </div>
+      <div class="process-item">
+        <span class="num">02</span>
+        <h4>We build your plan</h4>
+        <p>A personalised move plan covering home sorting, staging and estate agent liaison &mdash; organised around you.</p>
+      </div>
+      <div class="process-item">
+        <span class="num">03</span>
+        <h4>We coordinate the move</h4>
+        <p>Removals, viewings, utility transfers and furniture placement, managed end to end on moving day.</p>
+      </div>
+      <div class="process-item">
+        <span class="num">04</span>
+        <h4>You settle in, we stay close</h4>
+        <p>Unpacking, setup and ongoing concierge support once you&rsquo;re home &mdash; for as long as you need it.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ NOT SURE YET + FAQ ============ -->
+<section class="faq-block">
+  <div class="container">
+    <div class="next-card reveal">
+      <span class="kicker center">Not Sure Yet?</span>
+      <h2>Need more complete <em>support?</em></h2>
+      <p>Chayce offers different levels of support, from focused help with a single stage to a fully managed, white-glove move. Compare the options, or tell us your situation and we&rsquo;ll point you to the right one.</p>
+      <div class="next-actions">
+        <a href="../packages/" class="text-link dark">Explore your options &rarr;</a>
+        <a href="../our-services/" class="text-link dark">See every service &rarr;</a>
+      </div>
+    </div>
+
+    <div style="max-width:640px;margin:0 auto 60px;text-align:center" class="reveal">
+      <span class="kicker center">Common Questions</span>
+      <h2 style="font-family:'Playfair',serif;font-size:clamp(28px,3.2vw,38px);color:var(--ink);margin:14px 0 0">How Chayce <em style="color:var(--gold);font-style:normal">helps.</em></h2>
+    </div>
+    <div class="hiw-faq reveal">
+      <details>
+        <summary>How does Chayce actually help me move?</summary>
+        <p>We act as your single point of contact for the whole move &mdash; sorting and packing, estate agent liaison, removals, utility transfers and settling into your new home. You tell us where you&rsquo;re at, and we take over from there.</p>
+      </details>
+      <details>
+        <summary>Do I need to have sold my house first?</summary>
+        <p>No. We can step in at any stage &mdash; whether you&rsquo;re still deciding, mid-sale, or already holding keys to a new home.</p>
+      </details>
+      <details>
+        <summary>What if I only need help with one part of the move?</summary>
+        <p>That&rsquo;s fine. Support ranges from focused help with a single stage to a fully managed, white-glove move &mdash; you pick the level that fits.</p>
+      </details>
+      <details>
+        <summary>Can you help a parent or family member, not just me?</summary>
+        <p>Yes. We work directly with the person moving, and just as often with the son, daughter or family member helping to arrange it &mdash; wherever they happen to be.</p>
+      </details>
+      <details>
+        <summary>How is Chayce different from a normal removals company?</summary>
+        <p>We&rsquo;re a full relocation partner, not just a removal firm &mdash; managing everything from home sorting and staging through to moving day and ongoing concierge support once you&rsquo;re settled.</p>
+      </details>
+    </div>
+    <div class="hiw-faq-more">
+      <a href="../faq/" class="text-link dark">See all FAQs &rarr;</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SPLIT CTA ============ -->
+<section class="split-cta">
+  <div class="panel text">
+    <div class="inner">
+      <h3>Tell us where you&rsquo;re at.</h3>
+      <p>A free consultation to understand your situation and help you find the right next step.</p>
+      <div class="btn-row">
+        <a href="../get-started/" class="btn-lg primary">Get Started</a>
+        <a href="../contact/" class="btn-lg ghost">Contact Us</a>
+      </div>
+    </div>
+  </div>
+  <div class="panel img"></div>
+</section>
+
+<footer class="chayce-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <span class="brand-name">CHAYCE PROPERTIES</span>
+        <p class="brand-desc">Guiding your next chapter with grace &amp; ease &mdash; the UK&rsquo;s premier luxury senior relocation specialists.</p>
+      </div>
+      <div>
+        <h5>Explore</h5>
+        <ul>
+          <li><a href="../how-it-works/">How Can We Help?</a></li>
+          <li><a href="../our-services/">Services</a></li>
+          <li><a href="../about-chayce/">About</a></li>
+          <li><a href="../contact/">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Packages</h5>
+        <ul>
+          <li><a href="../discovery/">Discovery Consultation</a></li>
+          <li><a href="../bronze-essentials/">Bronze Essentials</a></li>
+          <li><a href="../silver-comfort/">Silver Comfort</a></li>
+          <li><a href="../gold-prestige/">Gold Prestige</a></li>
+          <li><a href="../platinum-bespoke/">Platinum Bespoke</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Get Started</h5>
+        <p class="brand-desc" style="margin-bottom:6px">Not sure where to begin? We&rsquo;ll help you find the right next step.</p>
+        <a href="../get-started/" class="cta-link">Start your journey &rarr;</a>
+      </div>
+      <div>
+        <h5>Contact</h5>
+        <address>Unit F2B Barratt House<br>Kingsthorpe Road, Northampton<br>NN2 6EZ</address>
+        <p class="contact-line"><a href="tel:07708925432">07708 925 432</a></p>
+        <p class="contact-line"><a href="mailto:info@chayceproperties.com">info@chayceproperties.com</a></p>
+      </div>
+    </div>
+    <div class="footer-bottom-row">
+      <span>&copy; 2026 Chayce Properties &mdash; All rights reserved.</span>
+      <span>chayceproperties.com</span>
+    </div>
+  </div>
+</footer>
+<script src="../js/wp-includes_js_jquery_jquery.min.js"></script>
+<script src="../js/wp-includes_js_jquery_jquery-migrate.min.js"></script>
+<script src="../js/wp-content_themes_hompark_js_popper.min.js"></script>
+<script src="../js/wp-content_themes_hompark_js_bootstrap.min.js"></script>
+<script>
+(function(){
+  var els=document.querySelectorAll('.reveal');
+  if(!('IntersectionObserver' in window)){els.forEach(function(el){el.classList.add('in')});return;}
+  var io=new IntersectionObserver(function(entries){
+    entries.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}});
+  },{threshold:.12});
+  els.forEach(function(el){io.observe(el)});
+})();
+</script>
+</body></html>
