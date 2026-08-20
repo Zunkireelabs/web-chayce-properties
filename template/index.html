@@ -71,10 +71,10 @@ body{color:#1a1a1a}
 .stage-cta:hover{background:#1a1a1a;border-color:#1a1a1a;color:#fff;gap:13px}
 
 /* ===== Services preview — refined two-column rows ===== */
-.svc-cols{display:flex;gap:64px;max-width:920px;margin:44px auto 0}
-.svc-col{flex:1 1 0;border-top:1px solid #e6e1d8}
-.svc-col + .svc-col{border-left:1px solid #e6e1d8;padding-left:64px}
+.svc-cols{position:relative;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);grid-template-rows:repeat(3,auto);grid-auto-flow:column;column-gap:64px;max-width:920px;margin:44px auto 0}
+.svc-cols::after{content:'';position:absolute;left:50%;top:0;bottom:0;width:1px;background:#e6e1d8}
 .svc-row{position:relative;padding:24px 0 24px 22px;border-bottom:1px solid #e6e1d8;transition:padding-left .2s ease}
+.svc-row:nth-child(1),.svc-row:nth-child(4){border-top:1px solid #e6e1d8}
 .svc-row::before{content:'';position:absolute;left:0;top:32px;width:9px;height:9px;border-radius:50%;background:#e2ddd2;transition:background .2s ease}
 .svc-row:hover{padding-left:28px}
 .svc-row:hover::before{background:#c8a96e}
@@ -180,8 +180,10 @@ body{color:#1a1a1a}
   .stage-divider{margin:44px 0 36px}
   .pms-row{flex-direction:column;gap:18px}
   .pms-item{padding:30px 26px}
-  .svc-cols{flex-direction:column;gap:0;margin-top:28px}
-  .svc-col + .svc-col{border-left:none;padding-left:0;border-top:none}
+  .svc-cols{display:block;margin-top:28px}
+  .svc-cols::after{display:none}
+  .svc-row:nth-child(4){border-top:none}
+  .svc-row:first-child{border-top:1px solid #e6e1d8}
   .coord-feature{flex-direction:column;gap:30px}
   .coord-feature img,.coord-feature video{height:240px}
   .coord-row{gap:14px}
@@ -333,16 +335,12 @@ body{color:#1a1a1a}
     <h2 class="home-h2" style="text-align:center">What we can <em>take care of.</em></h2>
     <p class="body-copy" style="max-width:600px;margin:0 auto;text-align:center">Every service is delivered by our own vetted team &mdash; not outsourced &mdash; so the same standard of care follows you from start to finish.</p>
     <div class="svc-cols">
-      <div class="svc-col">
-        <div class="svc-row"><span class="svc-name">Home Sorting</span><span class="svc-desc">Careful sorting and organising of your home&rsquo;s contents.</span></div>
-        <div class="svc-row"><span class="svc-name">Property Staging</span><span class="svc-desc">Presenting your home at its best, styled by our experts.</span></div>
-        <div class="svc-row"><span class="svc-name">Refurbishment</span><span class="svc-desc">Light repairs and decoration to prepare your home for sale.</span></div>
-      </div>
-      <div class="svc-col">
-        <div class="svc-row"><span class="svc-name">Packing &amp; Removals</span><span class="svc-desc">Professional packing and safe, insured removal.</span></div>
-        <div class="svc-row"><span class="svc-name">Deep Cleaning</span><span class="svc-desc">A full clean of your old and new property.</span></div>
-        <div class="svc-row"><span class="svc-name">Unpacking &amp; Setup</span><span class="svc-desc">Full unpacking so your new home feels ready immediately.</span></div>
-      </div>
+      <div class="svc-row"><span class="svc-name">Home Sorting</span><span class="svc-desc">Careful sorting and organising of your home&rsquo;s contents.</span></div>
+      <div class="svc-row"><span class="svc-name">Property Staging</span><span class="svc-desc">Presenting your home at its best, styled by our experts.</span></div>
+      <div class="svc-row"><span class="svc-name">Refurbishment</span><span class="svc-desc">Light repairs and decoration to prepare your home for sale.</span></div>
+      <div class="svc-row"><span class="svc-name">Packing &amp; Removals</span><span class="svc-desc">Professional packing and safe, insured removal.</span></div>
+      <div class="svc-row"><span class="svc-name">Deep Cleaning</span><span class="svc-desc">A full clean of your old and new property.</span></div>
+      <div class="svc-row"><span class="svc-name">Unpacking &amp; Setup</span><span class="svc-desc">Full unpacking so your new home feels ready immediately.</span></div>
     </div>
     <div style="text-align:center;margin-top:34px"><a href="our-services/" class="stage-cta">Explore all services &rarr;</a></div>
   </div>
