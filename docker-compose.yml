@@ -24,6 +24,17 @@ services:
       - "traefik.http.routers.chayce-web-prod-http.entrypoints=web"
       - "traefik.http.routers.chayce-web-prod-http.middlewares=chayce-web-prod-redirect"
       - "traefik.http.middlewares.chayce-web-prod-redirect.redirectscheme.scheme=https"
+      - "traefik.http.routers.chayce-web-prod-www.rule=Host(`www.chayceproperties.com`)"
+      - "traefik.http.routers.chayce-web-prod-www.entrypoints=websecure"
+      - "traefik.http.routers.chayce-web-prod-www.tls=true"
+      - "traefik.http.routers.chayce-web-prod-www.tls.certresolver=letsencrypt"
+      - "traefik.http.routers.chayce-web-prod-www.middlewares=chayce-web-prod-www-redirect"
+      - "traefik.http.routers.chayce-web-prod-www-http.rule=Host(`www.chayceproperties.com`)"
+      - "traefik.http.routers.chayce-web-prod-www-http.entrypoints=web"
+      - "traefik.http.routers.chayce-web-prod-www-http.middlewares=chayce-web-prod-www-redirect"
+      - "traefik.http.middlewares.chayce-web-prod-www-redirect.redirectregex.regex=^https?://www\\.chayceproperties\\.com/(.*)"
+      - "traefik.http.middlewares.chayce-web-prod-www-redirect.redirectregex.replacement=https://chayceproperties.com/$${1}"
+      - "traefik.http.middlewares.chayce-web-prod-www-redirect.redirectregex.permanent=true"
       - "traefik.http.services.chayce-web-prod.loadbalancer.server.port=80"
 
 networks:
