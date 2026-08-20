@@ -1,0 +1,31 @@
+services:
+  chayce-web-stage:
+    container_name: chayce-web-stage
+    build:
+      context: .
+      dockerfile: Dockerfile
+    networks:
+      - hosting
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "wget", "--spider", "-q", "http://127.0.0.1:80/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 15s
+    labels:
+      - "traefik.enable=true"
+      - "traefik.docker.network=hosting"
+      - "traefik.http.routers.chayce-web-stage.rule=Host(`dev-web.chayceproperties.com`)"
+      - "traefik.http.routers.chayce-web-stage.entrypoints=websecure"
+      - "traefik.http.routers.chayce-web-stage.tls=true"
+      - "traefik.http.routers.chayce-web-stage.tls.certresolver=letsencrypt"
+      - "traefik.http.routers.chayce-web-stage-http.rule=Host(`dev-web.chayceproperties.com`)"
+      - "traefik.http.routers.chayce-web-stage-http.entrypoints=web"
+      - "traefik.http.routers.chayce-web-stage-http.middlewares=chayce-web-stage-redirect"
+      - "traefik.http.middlewares.chayce-web-stage-redirect.redirectscheme.scheme=https"
+      - "traefik.http.services.chayce-web-stage.loadbalancer.server.port=80"
+
+networks:
+  hosting:
+    external: true
