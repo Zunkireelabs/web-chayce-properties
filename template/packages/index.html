@@ -30,8 +30,8 @@
 .card-box h4 em{color:#c8a96e;font-style:normal}
 .card-box p{color:#666;line-height:1.7;font-size:15px}
 .card-box .price{font-size:22px;font-weight:700;color:#c8a96e;margin:12px 0}
-.card-box .btn-chayce{display:inline-block;padding:10px 28px;background:#c8a96e;color:#fff;text-decoration:none;font-size:13px;letter-spacing:1px;text-transform:uppercase;margin-top:12px}
-.card-box .btn-chayce:hover{background:#1a1a1a}
+.btn-chayce{display:inline-block;padding:10px 28px;background:#c8a96e;color:#fff;text-decoration:none;font-size:13px;letter-spacing:1px;text-transform:uppercase;margin-top:12px}
+.btn-chayce:hover{background:#1a1a1a}
 .icon-row{display:flex;flex-wrap:wrap;gap:24px;margin-top:30px}
 .icon-item{flex:0 0 calc(33.333% - 16px);background:#fff;padding:30px 24px;border:1px solid #eee;text-align:center}
 .icon-item img{width:50px;height:50px;object-fit:contain;margin-bottom:14px}
@@ -63,166 +63,315 @@
 .faq-item{border-bottom:1px solid #eee;padding:20px 0}
 .faq-item h5{color:#1a1a1a;font-size:16px;cursor:pointer}
 .faq-item p{color:#666;font-size:14px;line-height:1.7;margin-top:10px}
-table.pkg-table{width:100%;border-collapse:collapse}
-table.pkg-table th{background:#3d4558;color:#fff;padding:12px 16px;font-size:13px;letter-spacing:1px;text-align:left}
-table.pkg-table td{padding:12px 16px;border-bottom:1px solid #eee;font-size:14px;color:#444}
-table.pkg-table tr:hover td{background:#fafafa}
-table.pkg-table td.gold{color:#c8a96e;font-weight:700}
+/* ===== Premium package cards — replaces the plain navy table ===== */
+.pkg-guide{display:grid;grid-template-columns:1fr 1fr;gap:28px;max-width:980px;margin:40px auto 0}
+.pkg-guide-card{background:#f9f5ef;border-left:3px solid #c8a96e;padding:26px 30px}
+.pkg-guide-card h4{font-family:'Playfair',serif;font-size:17px;color:#1a1a1a;margin:0 0 10px}
+.pkg-guide-card p{font-size:14px;color:#555;line-height:1.75;margin:0}
+.pkg-guide-card p a{color:#c8a96e;font-weight:600;text-decoration:none;border-bottom:1px solid rgba(200,169,110,.4)}
+.pkg-guide-card p a:hover{color:#1a1a1a;border-color:#1a1a1a}
+@media(max-width:768px){.pkg-guide{grid-template-columns:1fr;margin-top:32px}}
+
+.pkg-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:0;margin-top:56px;border:1px solid #e7e2d6;border-top:3px solid #1a1a1a}
+.pkg-card{position:relative;background:#fff;padding:38px 26px 32px;display:flex;flex-direction:column;border-right:1px solid #e7e2d6;transition:box-shadow .3s,transform .3s}
+.pkg-card:last-child{border-right:none}
+.pkg-card:hover,.pkg-card.active{box-shadow:0 24px 48px rgba(26,26,26,.1);transform:translateY(-4px);z-index:2}
+.pkg-card .pkg-level{font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:#999;margin-bottom:14px;min-height:28px;line-height:1.4}
+.pkg-card h4{font-family:'Playfair',serif;font-size:22px;color:#1a1a1a;margin:0 0 10px;line-height:1.25}
+.pkg-card .pkg-price{font-size:20px;font-weight:700;color:#c8a96e;margin-bottom:16px}
+.pkg-card .pkg-desc{font-size:13.5px;color:#666;line-height:1.7;flex:1;margin-bottom:26px}
+.pkg-card .btn-chayce{width:100%;text-align:center;padding:13px 10px;font-size:12px;margin:0 0 12px;box-sizing:border-box}
+.pkg-card .pkg-detail-link{display:block;width:100%;text-align:center;font-size:12.5px;color:#3d4558;text-decoration:underline;text-underline-offset:3px;background:none;border:0;cursor:pointer;font-family:'Poppins',sans-serif;padding:4px 0;margin-top:auto}
+.pkg-card .pkg-detail-link:hover{color:#c8a96e}
+
+/* ===== Package detail card — sits in normal flow below the grid, centered, pushes the quote note down ===== */
+.pkg-modal-overlay{display:none;width:min(640px,94%);margin:28px auto 0}
+.pkg-modal-overlay.open{display:block}
+.pkg-modal{position:relative;background:#fff;max-height:min(70vh,480px);overflow-y:auto;border:1px solid #e7e2d6;border-top:3px solid #1a1a1a;box-shadow:0 20px 50px rgba(20,18,12,.14)}
+.pkg-modal-close{position:absolute;top:16px;right:16px;width:28px;height:28px;border-radius:50%;border:1px solid #e7e2d6;background:#fff;color:#1a1a1a;font-size:16px;line-height:1;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:.2s;z-index:2}
+.pkg-modal-close:hover{background:#1a1a1a;color:#fff;border-color:#1a1a1a}
+.pkg-modal-body{padding:24px 32px 22px}
+.pkg-modal-body>h3{font-family:'Playfair',serif;font-size:20px;color:#1a1a1a;margin:0 0 14px;line-height:1.25;padding-right:30px}
+.pkg-modal-cols{display:flex;gap:36px;align-items:flex-start}
+.pkg-modal-right{flex:1;min-width:0}
+.pkg-modal-included-label{display:block;font-size:10.5px;letter-spacing:1.5px;text-transform:uppercase;color:#999;margin-bottom:12px}
+.pkg-modal-list{list-style:none;margin:0;padding:0}
+.pkg-modal-list li{display:flex;align-items:flex-start;gap:10px;padding:5px 0;font-size:12.5px;color:#3d4558}
+.pkg-modal-list li .ico-wrap{flex:0 0 20px;width:20px;height:20px;border-radius:50%;background:#f9f5ef;display:flex;align-items:center;justify-content:center;margin-top:1px}
+.pkg-modal-list li .ico-wrap svg{width:9.5px;height:9.5px;stroke:#c8a96e;fill:none;stroke-width:2.8;stroke-linecap:round;stroke-linejoin:round}
+.pkg-modal-left{flex:0 0 200px;border-left:1px solid #eee;padding-left:28px;padding-top:2px}
+.pkg-modal-left .btn-chayce{display:block;width:100%;text-align:center;padding:16px 14px;font-size:12px;line-height:1.4;box-sizing:border-box}
+.pkg-modal-readmore{display:block;text-align:center;margin-top:14px;font-size:11.5px;letter-spacing:.5px;color:#8a7548;text-decoration:underline;text-underline-offset:3px}
+.pkg-modal-readmore:hover{color:#1a1a1a}
+@media(max-width:1024px){.pkg-grid{grid-template-columns:repeat(3,1fr)}.pkg-card{border-bottom:1px solid #e7e2d6}.pkg-card:nth-child(3){border-right:none}}
 @media(max-width:768px){.contact-grid{grid-template-columns:1fr}.icon-item{flex:0 0 100%}
-table.pkg-table,table.pkg-table tr,table.pkg-table td{display:block;width:auto}
-table.pkg-table{border-collapse:separate}
-table.pkg-table tr:first-child{display:none}
-table.pkg-table tr{margin-bottom:16px;border:1px solid #eee;border-radius:6px;padding:16px 16px 12px}
-table.pkg-table td{border:none!important;padding:5px 0}
-table.pkg-table td[data-label]:before{content:attr(data-label);display:block;font-size:11px;letter-spacing:1px;text-transform:uppercase;color:#999;margin-bottom:2px}
-table.pkg-table td:last-child{padding-top:10px}
+.pkg-grid{grid-template-columns:1fr;border-top:none}
+.pkg-card{border-right:none!important;border-bottom:1px solid #e7e2d6;padding:34px 28px}
+.pkg-card:first-child{border-top:3px solid #1a1a1a}
+.pkg-card:hover{transform:none}
+.pkg-modal-overlay{width:100%;margin-top:20px}
+.pkg-modal{max-height:80vh}
+.pkg-modal-cols{flex-direction:column-reverse;gap:20px}
+.pkg-modal-left{flex:0 0 auto;border-left:0;padding-left:0;border-top:1px solid #eee;padding-top:18px}
+}
+@media(max-width:600px){
+.page-hero{padding:90px 0 50px}
+.page-hero h1{font-size:30px}
+.pkg-guide-card{padding:22px 20px}
+.pkg-card{padding:28px 20px}
+.quote-block{padding:18px 20px;font-size:15px}
 }
 </style>
 <script src="../js/wp-includes_js_jquery_jquery.min.js"></script>
 <script src="../js/wp-includes_js_jquery_jquery-migrate.min.js"></script>
+<link rel="stylesheet" href="../css/chayce-nav.css">
 </head>
 <body class="page-template page-loaded">
-<div class="side-navigation">
-  <div class="menu">
-    <div class="menu-main-menu-container"><ul id="menu-main-menu" class="menu-horizontal">
-<li class="nav-item"><a href="../" class="nav-link" data-text="START">START</a></li>
-<li class="nav-item"><a href="../about-chayce/" class="nav-link" data-text="ABOUT US">ABOUT US</a></li>
-<li class="nav-item"><a href="../packages/" class="nav-link" data-text="PACKAGES">PACKAGES</a></li>
-<li class="nav-item"><a href="../our-services/" class="nav-link" data-text="SERVICES">SERVICES</a></li>
-<li class="nav-item"><a href="../news/" class="nav-link" data-text="NEWS">NEWS</a></li>
-<li class="nav-item"><a href="../contact/" class="nav-link" data-text="CONTACT">CONTACT</a></li>
-</ul></div>  </div>
-  <section id="custom_html-7" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"> <div class="side-content">
-    <figure style="padding:10px 0;"><a href="../" class="chayce-logo-link" style="text-decoration:none;display:inline-flex;align-items:center;gap:10px;"><img src="../images/chayce-logo.png" alt="Chayce Properties" style="height:52px;width:auto;"><span style="display:flex;flex-direction:column;line-height:1.15;"><span style="font-family:Georgia,serif;font-size:15px;font-weight:700;color:#1a1a1a;letter-spacing:2.5px;">CHAYCE</span><span style="font-family:Georgia,serif;font-size:8px;letter-spacing:3px;color:#b49a5e;font-weight:400;">PROPERTIES</span></span></a></figure>
-    <p>Guiding your next chapter with grace &amp; ease. Discreet, dignified, designed for you. The UK&rsquo;s premier luxury senior relocation specialists.</p>
-    <ul class="gallery">
-      <li><a href="../images/chayce-gallery1.jpg" data-fancybox=""><img src="../images/chayce-gallery1.jpg" alt="Staged living room"></a></li>
-      <li><a href="../images/chayce-gallery2.jpg" data-fancybox=""><img src="../images/chayce-gallery2.jpg" alt="Professional packing"></a></li>
-      <li><a href="../images/chayce-gallery3.jpg" data-fancybox=""><img src="../images/chayce-gallery3.jpg" alt="Happy senior couple"></a></li>
-    </ul>
-    <address>
-    Unit F2B Barratt House<br>
-    Kingsthorpe Road<br>
-    Northampton<br>
-    NN2 6EZ
-    </address>
-    <h6>07708 925 432</h6>
-    <p><a href="mailto:info@chayceproperties.com">info@chayceproperties.com</a></p>
-    <ul class="social-media">
-      <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-      <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-      <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-      <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
-      <li><a href="#"><i class="fab fa-youtube"></i></a></li>
-    </ul></div></div></section>  <small>© 2026 Chayce Properties — All rights reserved.</small>
-</div>
-<nav class="navbar">
-  <div class="container">
-    <div class="upper-side">
-      <div class="logo"><a href="../" style="text-decoration:none;display:inline-flex;align-items:center;gap:10px;"><img src="../images/chayce-logo.png" alt="Chayce Properties" style="height:58px;width:auto;"><span style="display:flex;flex-direction:column;line-height:1.15;"><span style="font-family:Georgia,serif;font-size:15px;font-weight:700;color:#fff;letter-spacing:2.5px;">CHAYCE</span><span style="font-family:Georgia,serif;font-size:8px;letter-spacing:3px;color:#b49a5e;font-weight:400;">PROPERTIES</span></span></a></div>
-      <div class="phone-email">
-        <h4><a href="tel:07708925432">07708 925 432</a></h4>
-        <small><a href="mailto:info@chayceproperties.com">info@chayceproperties.com</a></small>
-      </div>
-      <figure class="phone-email-icon"><img src="../images/wp-content_uploads_2020_03_icon-phone.png" alt="Image"></figure>
-      <div class="hamburger"><span></span><span></span><span></span><span></span></div>
-    </div>
-    <div class="menu">
-      <div class="menu-main-menu-container"><ul id="menu-main-menu-1" class="menu-horizontal">
-        <li class="nav-item"><a href="../" class="nav-link" data-text="START">START</a></li>
-        <li class="nav-item"><a href="../about-chayce/" class="nav-link" data-text="ABOUT US">ABOUT US</a></li>
-        <li class="nav-item"><a href="../packages/" class="nav-link" data-text="PACKAGES">PACKAGES</a></li>
-        <li class="nav-item"><a href="../our-services/" class="nav-link" data-text="SERVICES">SERVICES</a></li>
-        <li class="nav-item"><a href="../news/" class="nav-link" data-text="NEWS">NEWS</a></li>
-        <li class="nav-item"><a href="../contact/" class="nav-link" data-text="CONTACT">CONTACT</a></li>
-      </ul></div>
+<nav class="site-nav">
+  <div class="site-nav-inner">
+    <a href="../" class="site-nav-logo">
+      <img src="../images/chayce-logo.png" alt="Chayce Properties">
+      <span class="word"><b>CHAYCE</b><span>PROPERTIES</span></span>
+    </a>
+    <button class="site-nav-toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    <div class="site-nav-scrim"></div>
+    <div class="site-nav-links">
+        <a href="../how-it-works/">How Can We Help?</a>
+        <a href="../our-services/">Services</a>
+        <a href="../about-chayce/">About</a>
+        <span class="site-nav-divider"></span>
+        <a href="../contact/" class="site-nav-contact">Contact</a>
+        <a href="../get-started/" class="site-nav-cta">Get Started</a>
     </div>
   </div>
 </nav>
-<div class="page-hero" style="background-image:url(../images/wp-content_uploads_2020_03_slide03.jpg);background-size:cover;background-position:center;">
+<script src="../js/chayce-nav.js" defer></script>
+
+<div class="page-hero" style="background-image:url(../images/chayce-packages-hero-uk.jpg);background-size:cover;background-position:center;">
   <div class="container">
-    <p class="breadcrumb"><a href="../">Home</a> / <em>Our</em> Relocation Packages</p>
     <h1><em>Our</em> Relocation Packages</h1>
     <p style="color:#ccc;margin-top:10px;font-size:16px;">Crafted precisely for your needs</p>
   </div>
 </div>
 <section class="page-section">
   <div class="container">
-    <div class="section-titles center wow fadeInUp"><b>01</b><h2><em>Choose</em> Your Package</h2><h3>Five levels of support, one standard of excellence</h3></div>
-    <div style="overflow-x:auto;margin-top:50px">
-      <table class="pkg-table">
-        <tr><th>Package</th><th>What&rsquo;s Included</th><th>Price</th><th></th></tr>
-        <tr><td class="gold" data-label="Package">Discovery Consultation</td><td data-label="What's Included">Expert guidance &amp; a personalised move plan</td><td class="gold" data-label="Price">From £150</td><td><a href="../discovery/index.html" class="card-box btn-chayce" style="margin:0;padding:8px 18px;font-size:12px">Learn More</a></td></tr>
-        <tr><td class="gold" data-label="Package">Bronze Essentials</td><td data-label="What's Included">Packing, removals and light cleaning</td><td class="gold" data-label="Price">From £995</td><td><a href="../bronze-essentials/index.html" class="card-box btn-chayce" style="margin:0;padding:8px 18px;font-size:12px">Learn More</a></td></tr>
-        <tr><td class="gold" data-label="Package">Silver Comfort</td><td data-label="What's Included">Full-service move with a dedicated coordinator</td><td class="gold" data-label="Price">From £1,850</td><td><a href="../silver-comfort/index.html" class="card-box btn-chayce" style="margin:0;padding:8px 18px;font-size:12px">Learn More</a></td></tr>
-        <tr><td class="gold" data-label="Package">Gold Prestige</td><td data-label="What's Included">Chauffeur viewings, staging, legal coordination &amp; more</td><td class="gold" data-label="Price">From £3,250</td><td><a href="../gold-prestige/index.html" class="card-box btn-chayce" style="margin:0;padding:8px 18px;font-size:12px">Learn More</a></td></tr>
-        <tr><td class="gold" data-label="Package">Platinum Bespoke</td><td data-label="What's Included">Complete white-glove service for discerning clients</td><td class="gold" data-label="Price">From £6,500</td><td><a href="../platinum-bespoke/index.html" class="card-box btn-chayce" style="margin:0;padding:8px 18px;font-size:12px">Learn More</a></td></tr>
-      </table>
+    <div class="section-titles center wow fadeInUp"><h2><em>Choose</em> Your Package</h2><h3>Five levels of support, one standard of excellence</h3></div>
+    <div class="pkg-guide">
+      <div class="pkg-guide-card">
+        <h4>Already secured your home?</h4>
+        <p>If you mainly need the physical move handled, <a href="../bronze-essentials/">Bronze Essentials</a> is usually enough. Want someone coordinating the whole move for you? <a href="../silver-comfort/">Silver Comfort</a> adds that. If your move also involves staging, legal coordination or other higher-touch support, <a href="../gold-prestige/">Gold Prestige</a> may still be the better fit.</p>
+      </div>
+      <div class="pkg-guide-card">
+        <h4>Still searching for your next home?</h4>
+        <p><a href="../gold-prestige/">Gold Prestige</a> includes property viewings, staging and legal coordination where that&rsquo;s what you need &mdash; but if you just want the move itself sorted once you&rsquo;re settled, <a href="../bronze-essentials/">Bronze</a> or <a href="../silver-comfort/">Silver</a> may still be the right fit. Not sure? <a href="../discovery/">Start with a Discovery Consultation</a>.</p>
+      </div>
     </div>
+
+    <div class="pkg-grid">
+      <div class="pkg-card">
+        <span class="pkg-level">Not Sure Where to Start?</span>
+        <h4>Discovery Consultation</h4>
+        <div class="pkg-price">From £150</div>
+        <p class="pkg-desc">Expert guidance &amp; a personalised move plan.</p>
+        <a href="../get-started/index.html?package=Discovery%20Consultation%20%E2%80%94%20%C2%A3150" class="btn-chayce">Get Started</a>
+        <button type="button" class="pkg-detail-link" data-pkg="discovery">Full details</button>
+      </div>
+      <div class="pkg-card">
+        <span class="pkg-level">Level 1 &mdash; Straightforward Move</span>
+        <h4>Bronze Essentials</h4>
+        <div class="pkg-price">From £995</div>
+        <p class="pkg-desc">Packing, removals and light cleaning.</p>
+        <a href="../get-started/index.html?package=Bronze%20Essentials%20%E2%80%94%20%C2%A3995" class="btn-chayce">Get Started</a>
+        <button type="button" class="pkg-detail-link" data-pkg="bronze">Full details</button>
+      </div>
+      <div class="pkg-card">
+        <span class="pkg-level">Level 2 &mdash; Managed / Full-Service Move</span>
+        <h4>Silver Comfort</h4>
+        <div class="pkg-price">From £1,850</div>
+        <p class="pkg-desc">Full-service move with a dedicated coordinator.</p>
+        <a href="../get-started/index.html?package=Silver%20Comfort%20%E2%80%94%20%C2%A31%2C850" class="btn-chayce">Get Started</a>
+        <button type="button" class="pkg-detail-link" data-pkg="silver">Full details</button>
+      </div>
+      <div class="pkg-card">
+        <span class="pkg-level">Level 3 &mdash; Broader Relocation &amp; Property Support</span>
+        <h4>Gold Prestige</h4>
+        <div class="pkg-price">From £3,250</div>
+        <p class="pkg-desc">Chauffeur viewings, staging, legal coordination &amp; more.</p>
+        <a href="../get-started/index.html?package=Gold%20Prestige%20%E2%80%94%20%C2%A33%2C250" class="btn-chayce">Get Started</a>
+        <button type="button" class="pkg-detail-link" data-pkg="gold">Full details</button>
+      </div>
+      <div class="pkg-card">
+        <span class="pkg-level">Level 4 &mdash; Complete Bespoke / White-Glove</span>
+        <h4>Platinum Bespoke</h4>
+        <div class="pkg-price">From £6,500</div>
+        <p class="pkg-desc">Complete white-glove service for discerning clients.</p>
+        <a href="../get-started/index.html?package=Platinum%20Bespoke%20%E2%80%94%20%C2%A36%2C500" class="btn-chayce">Get Started</a>
+        <button type="button" class="pkg-detail-link" data-pkg="platinum">Full details</button>
+      </div>
+    </div>
+
+    <!-- ============ PACKAGE DETAIL CARD — normal flow, below the grid, centered ============ -->
+    <div class="pkg-modal-overlay" id="pkgModalOverlay">
+      <div class="pkg-modal" role="dialog" aria-modal="true" aria-labelledby="pkgModalName">
+        <button type="button" class="pkg-modal-close" id="pkgModalClose" aria-label="Close">&times;</button>
+        <div class="pkg-modal-body">
+          <h3 id="pkgModalName"></h3>
+          <div class="pkg-modal-cols">
+            <div class="pkg-modal-right">
+              <span class="pkg-modal-included-label">What&rsquo;s Included</span>
+              <ul class="pkg-modal-list" id="pkgModalList"></ul>
+            </div>
+            <div class="pkg-modal-left">
+              <a href="#" class="btn-chayce" id="pkgModalCta"></a>
+              <a href="#" class="pkg-modal-readmore" id="pkgModalReadMore">Read more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <div class="quote-block" style="margin-top:50px">&ldquo;From sorting and packing to selling and settling in &mdash; we manage it all, so you don&rsquo;t have to.&rdquo;</div>
   </div>
 </section>
-<section class="footer-bar" style="background:#26282b">
+
+<script>
+(function(){
+  var PKG_DATA = {
+    discovery: {
+      name: 'Discovery Consultation', level: 'Not Sure Where to Start?', price: 'From £150',
+      desc: 'Expert guidance & a personalised move plan.',
+      cta: 'Book a Consultation', ctaHref: '../get-started/index.html?package=Discovery%20Consultation%20%E2%80%94%20%C2%A3150',
+      fullHref: '../discovery/index.html',
+      features: ['1-hour telephone or in-person consultation','Full assessment of your relocation needs','Personalised move plan document','Recommended timeline and budget breakdown','Priority access to our full-service packages']
+    },
+    bronze: {
+      name: 'Bronze Essentials', level: 'Level 1 — Straightforward Move', price: 'From £995',
+      desc: 'Packing, removals and light cleaning.',
+      cta: 'Book a Consultation', ctaHref: '../get-started/index.html?package=Bronze%20Essentials%20%E2%80%94%20%C2%A3995',
+      fullHref: '../bronze-essentials/index.html',
+      features: ['Professional packing of all rooms','Fully insured removal to your new home','Furniture reassembly at destination','Light cleaning of vacated property','Dedicated move coordinator']
+    },
+    silver: {
+      name: 'Silver Comfort', level: 'Level 2 — Managed / Full-Service Move', price: 'From £1,850',
+      desc: 'Full-service move with a dedicated coordinator.',
+      cta: 'Book a Consultation', ctaHref: '../get-started/index.html?package=Silver%20Comfort%20%E2%80%94%20%C2%A31%2C850',
+      fullHref: '../silver-comfort/index.html',
+      features: ['Everything in Bronze Essentials','Home sorting and declutter assistance','Property staging for sale','Utility transfer management','Deep clean of vacated property','Post-move unpacking and setup']
+    },
+    gold: {
+      name: 'Gold Prestige', level: 'Level 3 — Broader Relocation & Property Support', price: 'From £3,250',
+      desc: 'Chauffeur viewings, staging, legal coordination & more.',
+      cta: 'Book a Consultation', ctaHref: '../get-started/index.html?package=Gold%20Prestige%20%E2%80%94%20%C2%A33%2C250',
+      fullHref: '../gold-prestige/index.html',
+      features: ['Everything in Silver Comfort','Chauffeur-driven property viewings','Estate agent liaison','Solicitor coordination','Full home staging with photography','Storage solutions (up to 6 weeks)','White-glove unpacking & styling']
+    },
+    platinum: {
+      name: 'Platinum Bespoke', level: 'Level 4 — Complete Bespoke / White-Glove', price: 'From £6,500',
+      desc: 'Complete white-glove service for discerning clients.',
+      cta: 'Book a Consultation', ctaHref: '../get-started/index.html?package=Platinum%20Bespoke%20%E2%80%94%20%C2%A36%2C500',
+      fullHref: '../platinum-bespoke/index.html',
+      features: ['Everything in Gold Prestige','Fully bespoke & unlimited scope','Personal lifestyle concierge','New area orientation & introductions','Interior designer consultation','Ongoing post-move concierge support (3 months)','Dedicated senior coordinator throughout']
+    }
+  };
+  var checkIcon = '<svg viewBox="0 0 24 24"><path d="M4 12l5 5L20 6"/></svg>';
+
+  var overlay = document.getElementById('pkgModalOverlay');
+  var elName = document.getElementById('pkgModalName');
+  var elCta = document.getElementById('pkgModalCta');
+  var elReadMore = document.getElementById('pkgModalReadMore');
+  var elList = document.getElementById('pkgModalList');
+
+  function render(id){
+    var d = PKG_DATA[id];
+    if(!d) return;
+    elName.textContent = d.name;
+    elCta.textContent = d.cta;
+    elCta.href = d.ctaHref;
+    elReadMore.href = d.fullHref;
+    elList.innerHTML = d.features.map(function(f){
+      return '<li><span class="ico-wrap">'+checkIcon+'</span><span>'+f+'</span></li>';
+    }).join('');
+    var modalEl = overlay.querySelector('.pkg-modal');
+    if(modalEl) modalEl.scrollTop = 0;
+  }
+
+  function setActiveCard(btn){
+    document.querySelectorAll('.pkg-card.active').forEach(function(c){ c.classList.remove('active'); });
+    if(btn){
+      var card = btn.closest('.pkg-card');
+      if(card) card.classList.add('active');
+    }
+  }
+
+  function openModal(id, btn){
+    render(id);
+    overlay.classList.add('open');
+    setActiveCard(btn);
+    overlay.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  }
+  function closeModal(){
+    overlay.classList.remove('open');
+    setActiveCard(null);
+  }
+
+  document.querySelectorAll('.pkg-detail-link[data-pkg]').forEach(function(btn){
+    btn.addEventListener('click', function(e){
+      e.stopPropagation();
+      openModal(btn.getAttribute('data-pkg'), btn);
+    });
+  });
+  document.getElementById('pkgModalClose').addEventListener('click', closeModal);
+  document.addEventListener('keydown', function(e){ if(e.key === 'Escape' && overlay.classList.contains('open')) closeModal(); });
+  document.addEventListener('click', function(e){
+    if(!overlay.classList.contains('open')) return;
+    if(overlay.contains(e.target)) return;
+    if(e.target.closest('.pkg-detail-link[data-pkg]')) return;
+    closeModal();
+  });
+})();
+</script>
+
+<footer class="chayce-footer">
   <div class="container">
-    <div class="inner">
-      <div class="row">
-        <div class="col-lg-4">
-          <figure><img src="../images/wp-content_uploads_2020_03_footer-icon01.png" alt="Address"></figure>
-          <h3>Our Address</h3><p>Unit F2B Barratt House<br>Kingsthorpe Road Northampton<br>NN2 6EZ</p>
-        </div>
-        <div class="col-lg-4">
-          <figure><img src="../images/wp-content_uploads_2020_03_footer-icon02.png" alt="Hours"></figure>
-          <h3>Working Hours</h3><p>Monday to Friday <strong>09:00</strong> to <strong>17:30</strong><br>Saturday by appointment</p>
-        </div>
-        <div class="col-lg-4">
-          <figure><img src="../images/wp-content_uploads_2020_03_footer-icon03.png" alt="Contact"></figure>
-          <h3>Contact Us</h3><p>Tel: 07708 925 432<br>Email: info@chayceproperties.com</p>
-        </div>
+    <div class="footer-grid">
+      <div>
+        <span class="brand-name">CHAYCE PROPERTIES</span>
+        <p class="brand-desc">Guiding your next chapter with grace &amp; ease &mdash; the UK&rsquo;s premier luxury senior relocation specialists.</p>
       </div>
-    </div>
-  </div>
-</section>
-<footer class="footer" style="background:#26282b">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-4">
-        <p style="color:#aaa;line-height:1.8">Guiding your next chapter with grace &amp; ease. Discreet, dignified, designed for you &mdash; The UK&rsquo;s premier luxury senior relocation specialists.</p>
-      </div>
-      <div class="col-lg-2 col-6">
-        <ul class="footer-menu">
-          <li><a href="../about-chayce/">About Us</a></li>
+      <div>
+        <h5>Explore</h5>
+        <ul>
+          <li><a href="../how-it-works/">How Can We Help?</a></li>
           <li><a href="../our-services/">Services</a></li>
-          <li><a href="../news/">News</a></li>
+          <li><a href="../about-chayce/">About</a></li>
           <li><a href="../contact/">Contact</a></li>
         </ul>
       </div>
-      <div class="col-lg-2 col-6">
-        <ul class="footer-menu">
-          <li><a href="../discovery/">Discovery</a></li>
+      <div>
+        <h5>Packages</h5>
+        <ul>
+          <li><a href="../discovery/">Discovery Consultation</a></li>
           <li><a href="../bronze-essentials/">Bronze Essentials</a></li>
           <li><a href="../silver-comfort/">Silver Comfort</a></li>
           <li><a href="../gold-prestige/">Gold Prestige</a></li>
           <li><a href="../platinum-bespoke/">Platinum Bespoke</a></li>
         </ul>
       </div>
-      <div class="col-lg-4">
-        <div class="contact-box">
-          <h5>CONTACT US</h5>
-          <h3>07708 925 432</h3>
-          <p><a href="mailto:info@chayceproperties.com">info@chayceproperties.com</a></p>
-          <ul>
-            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-          </ul>
-        </div>
+      <div>
+        <h5>Get Started</h5>
+        <p class="brand-desc" style="margin-bottom:6px">Not sure where to begin? We&rsquo;ll help you find the right next step.</p>
+        <a href="../get-started/" class="cta-link">Start your journey &rarr;</a>
       </div>
-      <div class="col-12">
-        <div class="footer-bottom">
-          <span class="copyright">&copy; 2026 Chayce Properties &mdash; All rights reserved.</span>
-          <span class="creation">w: <a href="https://chayceproperties.com">chayceproperties.com</a></span>
-        </div>
+      <div>
+        <h5>Contact</h5>
+        <address>Unit F2B Barratt House<br>Kingsthorpe Road, Northampton<br>NN2 6EZ</address>
+        <p class="contact-line"><a href="tel:07708925432">07708 925 432</a></p>
+        <p class="contact-line"><a href="mailto:info@chayceproperties.com">info@chayceproperties.com</a></p>
       </div>
+    </div>
+    <div class="footer-bottom-row">
+      <span>&copy; 2026 Chayce Properties &mdash; All rights reserved.</span>
+      <span>chayceproperties.com</span>
     </div>
   </div>
 </footer>
