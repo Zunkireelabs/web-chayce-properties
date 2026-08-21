@@ -11,6 +11,19 @@ function head(title, depth = 1) {
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Google Analytics (prod only: chayceproperties.com) -->
+<script>
+if (/^(www\\.)?chayceproperties\\.com$/.test(location.hostname)) {
+  var ga = document.createElement('script');
+  ga.async = true;
+  ga.src = 'https://www.googletagmanager.com/gtag/js?id=G-QL886WKCTL';
+  document.head.appendChild(ga);
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-QL886WKCTL');
+}
+</script>
 <title>${title.replace(/<[^>]+>/g, '')} | Chayce Properties</title>
 <link rel="icon" type="image/png" href="${p}images/favicon.png">
 <link rel="stylesheet" href="${p}css/wp-content_themes_hompark_css_bundle.min.css">
