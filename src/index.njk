@@ -1,0 +1,429 @@
+---
+title: "Chayce Properties | Luxury Senior Relocation Specialists"
+bodyClass: "page-template page-loaded"
+homeNav: true
+footerPackagesId: true
+layout: base.njk
+headExtra: |
+  <link rel="stylesheet" href="/css/chayce-nav.css">
+  <style>
+  .chayce-logo-link{text-decoration:none!important}
+  html{scroll-behavior:smooth}
+  body{color:#1a1a1a}
+  #footer-packages{scroll-margin-top:24px}
+  /* ===== Nav uses the shared glass effect from css/chayce-nav.css (transparent over the hero, blurred glass once scrolled) — same behavior as every other page ===== */
+  /* ===== Hero — moving-home imagery, sliding like the live site, one message, one CTA ===== */
+  .home-hero{position:relative;min-height:100vh;display:flex;align-items:center;background:#1a1a1a;overflow:hidden}
+  .hero-slide{position:absolute;inset:0;background-size:cover;background-position:center;opacity:0;transition:opacity 1.2s ease;z-index:0}
+  .hero-slide.active{opacity:1}
+  .home-hero::before{content:'';position:absolute;inset:0;background:linear-gradient(180deg,rgba(18,20,26,.55) 0%,rgba(18,20,26,.75) 100%);z-index:1}
+  .home-hero .container{position:relative;z-index:2}
+  .home-hero h1,.home-hero p.lead{transition:opacity .5s ease}
+  .hero-dots{display:flex;gap:10px;margin-top:38px}
+  .hero-dots button{width:9px;height:9px;border-radius:50%;border:1px solid rgba(255,255,255,.6);background:transparent;padding:0;cursor:pointer;transition:.2s}
+  .hero-dots button.active{background:#d8b878;border-color:#d8b878}
+  .home-hero h1{color:#fff;font-family:'Playfair',serif;font-size:52px;line-height:1.2;font-weight:700;max-width:680px;margin:0 0 22px}
+  .home-hero h1 em{color:#d8b878;font-style:normal}
+  .home-hero p.lead{color:#eceae4;font-size:18px;line-height:1.75;max-width:520px;margin:0 0 34px}
+  .hero-actions{display:flex;align-items:center;gap:30px;flex-wrap:wrap}
+  .btn-lg{display:inline-block;padding:16px 36px;font-size:14px;letter-spacing:1.5px;text-transform:uppercase;text-decoration:none;font-weight:700;border-radius:2px;font-family:'Poppins',sans-serif;transition:.2s}
+  .btn-lg.primary{background:#c8a96e;color:#fff}
+  .btn-lg.primary:hover{background:#1a1a1a;color:#fff}
+  .text-link{color:#fff;font-family:'Poppins',sans-serif;font-size:13.5px;font-weight:600;letter-spacing:.4px;text-decoration:none;transition:.2s}
+  .text-link:hover{color:#d8b878}
+  .text-link.dark{color:#1a1a1a}
+  .text-link.dark:hover{color:#c8a96e}
+  /* ===== Section rhythm ===== */
+  .home-section{padding:80px 0}
+  .home-section.tight{padding:56px 0}
+  .home-section+.home-section.grey{padding-top:0}
+  .home-section.grey{background:#f9f8f6}
+  .home-eyebrow{display:block;color:#c8a96e;font-family:'Poppins',sans-serif;font-size:11.5px;letter-spacing:3px;text-transform:uppercase;font-weight:700;margin-bottom:16px}
+  .home-h2{font-family:'Playfair',serif;font-size:34px;color:#1a1a1a;margin:0 0 18px;line-height:1.3}
+  .home-h2 em{color:#c8a96e;font-style:normal}
+  .body-copy{color:#555;font-size:16.5px;line-height:1.85;max-width:520px;margin:0}
+  /* ===== Intro (editorial, text + image) ===== */
+  .intro-row{display:flex;align-items:center;gap:70px}
+  .intro-row .copy{flex:1 1 420px}
+  .intro-row figure{flex:1 1 420px;margin:0}
+  .intro-row img{width:100%;height:400px;object-fit:cover;display:block}
+  /* ===== What Chayce does — premium cards ===== */
+  .stage-divider{border-top:1px solid #e2ddd2;margin:70px 0 48px}
+  .pms-row{display:flex;gap:26px}
+  .pms-item{flex:1 1 0;background:#fff;border-radius:12px;padding:38px 32px;box-shadow:0 2px 18px rgba(26,26,26,.05);transition:transform .25s ease,box-shadow .25s ease}
+  .pms-item:hover{transform:translateY(-5px);box-shadow:0 16px 32px rgba(26,26,26,.09)}
+  .pms-item .num{display:inline-flex;align-items:center;justify-content:center;width:38px;height:38px;border-radius:50%;background:#f6ecda;font-family:'Poppins',sans-serif;font-size:13px;letter-spacing:1px;color:#c8a96e;font-weight:700;margin-bottom:20px}
+  .pms-item h4{font-family:'Playfair',serif;font-size:21px;color:#1a1a1a;margin:0 0 12px}
+  .pms-item p{color:#666;font-size:14.5px;line-height:1.75;margin:0}
+  .stage-cta{display:inline-flex;align-items:center;gap:9px;margin-top:44px;padding:15px 32px;border:1.5px solid #c8a96e;border-radius:32px;background:#c8a96e;font-family:'Poppins',sans-serif;font-size:12.5px;font-weight:700;letter-spacing:1px;text-transform:uppercase;text-decoration:none;color:#fff;transition:.25s ease}
+  .stage-cta:hover{background:#1a1a1a;border-color:#1a1a1a;color:#fff;gap:13px}
+  /* ===== Services preview — refined two-column rows ===== */
+  .svc-cols{position:relative;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);grid-template-rows:repeat(3,auto);grid-auto-flow:column;column-gap:64px;max-width:920px;margin:44px auto 0}
+  .svc-cols::after{content:'';position:absolute;left:50%;top:0;bottom:0;width:1px;background:#e6e1d8}
+  .svc-row{position:relative;padding:24px 0 24px 22px;border-bottom:1px solid #e6e1d8;transition:padding-left .2s ease}
+  .svc-row:nth-child(1),.svc-row:nth-child(4){border-top:1px solid #e6e1d8}
+  .svc-row::before{content:'';position:absolute;left:0;top:32px;width:9px;height:9px;border-radius:50%;background:#e2ddd2;transition:background .2s ease}
+  .svc-row:hover{padding-left:28px}
+  .svc-row:hover::before{background:#c8a96e}
+  .svc-row .svc-name{display:block;font-family:'Playfair',serif;font-size:18px;color:#1a1a1a;margin-bottom:7px}
+  .svc-row .svc-desc{display:block;color:#666;font-size:14.5px;line-height:1.6}
+  /* ===== Meet your coordinator ===== */
+  .coord-feature{display:flex;align-items:center;gap:60px;max-width:1040px;margin:0 auto}
+  .coord-feature figure{flex:1 1 46%;margin:0}
+  .coord-feature img,.coord-feature video{width:100%;height:380px;object-fit:cover;display:block;border-radius:8px}
+  .coord-row{flex:1 1 46%;display:flex;flex-direction:column;gap:16px}
+  .coord-card{display:flex;align-items:center;gap:16px;text-align:left;padding:18px 22px;border:1px solid #e6e1d8;border-radius:12px}
+  .coord-card .avatar{width:52px;height:52px;border-radius:50%;background:#c8a96e;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:19px;color:#fff;font-family:'Playfair',serif}
+  .coord-card h5{font-family:'Playfair',serif;color:#1a1a1a;margin:0 0 3px;font-size:16px}
+  .coord-card p{color:#8a8478;font-size:11px;letter-spacing:1.2px;text-transform:uppercase;margin:0;line-height:1.5}
+  /* ===== AI property search — coming soon teaser, highlighted as a featured box ===== */
+  .ai-teaser{background:#f9f8f6}
+  .ai-teaser-box{position:relative;background:#fff;border:1.5px solid #e8d5a8;border-radius:20px;padding:56px;box-shadow:0 24px 60px rgba(200,169,110,.14),0 2px 10px rgba(26,26,26,.04)}
+  .ai-teaser-ribbon{position:absolute;top:-15px;left:56px;background:#1a1a1a;color:#e6c98a;font-family:'Poppins',sans-serif;font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;padding:8px 18px;border-radius:20px;box-shadow:0 6px 16px rgba(26,26,26,.18)}
+  .ai-teaser-box .intro-row{gap:56px}
+  .ai-teaser-box figure img{border-radius:12px}
+  .ai-teaser .body-copy{margin-bottom:28px}
+  .ai-teaser-form{display:flex;gap:14px;max-width:440px}
+  .ai-teaser-form input{flex:1 1 auto;padding:15px 18px;border:1.5px solid #ddd6c8;border-radius:2px;background:#fff;color:#1a1a1a;font-family:'Poppins',sans-serif;font-size:14px}
+  .ai-teaser-form input::placeholder{color:#9a9689}
+  .ai-teaser-form input:focus{outline:none;border-color:#c8a96e}
+  .ai-teaser-form .btn-lg{white-space:nowrap;padding:15px 26px}
+  .ai-teaser-success{color:#8a6f2e;font-family:'Poppins',sans-serif;font-size:14.5px;font-weight:600;margin:0}
+  /* ===== FAQ — native accordion ===== */
+  .home-faq{max-width:760px;margin:40px auto 0}
+  .home-faq details{border-bottom:1px solid #e6e1d8;padding:20px 0}
+  .home-faq summary{cursor:pointer;list-style:none;font-family:'Playfair',serif;font-size:17px;color:#1a1a1a;display:flex;justify-content:space-between;align-items:center;gap:16px}
+  .home-faq summary::-webkit-details-marker{display:none}
+  .home-faq summary::after{content:'+';color:#c8a96e;font-size:22px;font-weight:300;flex-shrink:0}
+  .home-faq details[open] summary::after{content:'\2212'}
+  .home-faq details p{color:#666;font-size:14.5px;line-height:1.75;margin:14px 0 0}
+  /* ===== Packages — editorial teaser, not cards ===== */
+  .pkg-preview{display:flex;max-width:900px;margin:50px auto 0;border-top:1px solid #e2ddd2}
+  .pkg-preview-item{flex:1 1 0;padding:32px 34px 2px;text-align:center}
+  .pkg-preview-item+.pkg-preview-item{border-left:1px solid #e2ddd2}
+  .pkg-preview-item .pkg-num{display:block;font-family:'Playfair',serif;color:#c8a96e;font-size:12.5px;letter-spacing:2px;margin-bottom:14px}
+  .pkg-preview-item h4{font-family:'Playfair',serif;font-size:19px;color:#1a1a1a;margin:0 0 8px;transition:color .2s ease}
+  .pkg-preview-item p{color:#666;font-size:13.5px;letter-spacing:.2px;margin:0}
+  .pkg-preview-item:hover h4{color:#c8a96e}
+  /* ===== Why Chayce — editorial trust layout ===== */
+  .why-grid{display:flex;gap:80px;max-width:1100px;margin:0 auto}
+  .why-statement{flex:1 1 42%}
+  .why-lead{font-family:'Playfair',serif;font-size:25px;line-height:1.45;color:#1a1a1a;margin:0 0 20px}
+  .why-statement .body-copy{max-width:420px}
+  .why-points{flex:1 1 52%;display:flex;flex-direction:column;border-top:1px solid #e2ddd2}
+  .why-point{display:flex;gap:22px;padding:26px 0;border-bottom:1px solid #e2ddd2}
+  .why-point-num{font-family:'Playfair',serif;color:#c8a96e;font-size:14.5px;letter-spacing:1px;flex-shrink:0;padding-top:2px}
+  .why-point h4{font-family:'Playfair',serif;font-size:17px;color:#1a1a1a;margin:0 0 6px}
+  .why-point p{color:#666;font-size:14px;line-height:1.7;margin:0}
+  .why-stats{display:flex;justify-content:center;gap:70px;margin:64px auto 0;padding-top:46px;border-top:1px solid #e2ddd2;max-width:1100px}
+  .why-stats>div{text-align:center}
+  .why-stats strong{display:block;font-family:'Playfair',serif;font-size:32px;font-weight:400;color:#c8a96e;margin-bottom:6px}
+  .why-stats span{display:block;font-family:'Poppins',sans-serif;font-size:11px;letter-spacing:1.6px;text-transform:uppercase;color:#8a8478}
+  /* ===== Final CTA ===== */
+  .final-cta{background:#1e222b;padding:110px 0;text-align:center}
+  .final-cta .home-h2{color:#fff;max-width:640px;margin-left:auto;margin-right:auto}
+  .final-cta p{color:#cfd0d4;font-size:16px;max-width:520px;margin:0 auto 34px;line-height:1.8}
+  /* ===== Footer redesign ===== */
+  .chayce-footer{background:#1a1a1a;color:#c9c7c2;padding:80px 0 0}
+  .chayce-footer .footer-grid{display:grid;grid-template-columns:1.3fr 1fr 1fr 1fr 1.1fr;gap:40px;padding-bottom:60px;border-bottom:1px solid rgba(255,255,255,.1)}
+  .chayce-footer h5{font-family:'Poppins',sans-serif;font-size:11px;letter-spacing:2px;text-transform:uppercase;color:#8a8478;margin:0 0 20px}
+  .chayce-footer .brand-name{font-family:Georgia,serif;font-size:17px;font-weight:700;letter-spacing:2.5px;color:#fff;margin:0 0 14px;display:block}
+  .chayce-footer .brand-desc{font-size:14px;line-height:1.8;color:#a8a49c;max-width:280px}
+  .chayce-footer ul{list-style:none;margin:0;padding:0}
+  .chayce-footer ul li{margin-bottom:12px}
+  .chayce-footer ul a{color:#c9c7c2;text-decoration:none;font-size:14.5px}
+  .chayce-footer ul a:hover{color:#d8b878}
+  .chayce-footer .cta-link{color:#d8b878;font-weight:700;font-size:14.5px;text-decoration:none;display:inline-block;margin-top:4px}
+  .chayce-footer .cta-link:hover{color:#fff}
+  .chayce-footer address{font-style:normal;color:#a8a49c;font-size:14.5px;line-height:1.9;margin-bottom:6px}
+  .chayce-footer .contact-line{color:#c9c7c2;font-size:14.5px;margin:2px 0}
+  .chayce-footer .contact-line a{color:#c9c7c2;text-decoration:none}
+  .chayce-footer .contact-line a:hover{color:#d8b878}
+  .footer-bottom-row{display:flex;justify-content:space-between;align-items:center;padding:26px 0;font-size:12.5px;color:#8a8478;flex-wrap:wrap;gap:10px}
+  @media(max-width:991px){
+    .chayce-footer .footer-grid{grid-template-columns:1fr 1fr;row-gap:36px}
+    .pms-row{flex-wrap:wrap}
+    .pms-item{flex:1 1 45%}
+  }
+  @media(max-width:767px){
+    .home-hero{min-height:90vh}
+    .home-hero h1{font-size:34px}
+    .home-hero p.lead{font-size:16px}
+    .home-h2{font-size:26px}
+    .home-section{padding:64px 0}
+    .home-section.tight{padding:48px 0}
+    .intro-row{flex-direction:column;gap:30px}
+    .intro-row .copy{flex-basis:auto}
+    .intro-row figure{flex-basis:auto}
+    .intro-row img{height:240px}
+    .stage-divider{margin:44px 0 36px}
+    .pms-row{flex-direction:column;gap:18px}
+    .pms-item{padding:30px 26px}
+    .svc-cols{display:block;margin-top:28px}
+    .svc-cols::after{display:none}
+    .svc-row:nth-child(4){border-top:none}
+    .svc-row:first-child{border-top:1px solid #e6e1d8}
+    .coord-feature{flex-direction:column;gap:30px}
+    .coord-feature img,.coord-feature video{height:240px}
+    .coord-row{gap:14px}
+    .ai-teaser-box{padding:32px 24px;border-radius:16px}
+    .ai-teaser-box .intro-row{gap:24px}
+    .ai-teaser-ribbon{left:24px}
+    .ai-teaser-form{flex-direction:column;max-width:100%}
+    .pkg-preview{flex-direction:column;border-top:none}
+    .pkg-preview-item{padding:22px 0;border-top:1px solid #e2ddd2}
+    .pkg-preview-item+.pkg-preview-item{border-left:none}
+    .why-grid{flex-direction:column;gap:40px}
+    .why-statement .body-copy{max-width:none}
+    .why-stats{flex-wrap:wrap;gap:34px 50px;margin-top:44px;padding-top:34px}
+    .final-cta{padding:64px 0}
+    .chayce-footer .footer-grid{grid-template-columns:1fr 1fr;column-gap:24px;row-gap:32px;padding-bottom:36px}
+    .chayce-footer .footer-grid>div:nth-child(1),
+    .chayce-footer .footer-grid>div:nth-child(4),
+    .chayce-footer .footer-grid>div:nth-child(5){grid-column:1/-1}
+    .footer-bottom-row{flex-direction:column;align-items:flex-start}
+  }
+  @media(max-width:480px){
+    .home-hero h1{font-size:28px}
+    .home-hero p.lead{font-size:15px}
+    .hero-actions{gap:20px}
+    .btn-lg{padding:14px 28px;font-size:13px}
+    .home-h2{font-size:22px}
+    .home-section{padding:50px 0}
+    .home-section.tight{padding:36px 0}
+    .intro-row img{height:200px}
+    .pms-item{padding:26px 22px}
+    .coord-feature img,.coord-feature video{height:200px}
+    .coord-card{padding:16px 18px;gap:12px}
+    .ai-teaser-box{padding:24px 18px}
+    .ai-teaser-ribbon{left:18px;font-size:10px;padding:7px 14px}
+    .why-lead{font-size:21px}
+    .why-stats{gap:26px 34px}
+    .why-stats strong{font-size:26px}
+    .final-cta{padding:50px 0}
+    .chayce-footer .footer-grid{grid-template-columns:1fr 1fr;column-gap:16px}
+  }
+  </style>
+footScripts: |
+  <script src="/js/wp-includes_js_jquery_jquery.min.js"></script>
+  <script src="/js/wp-content_themes_hompark_js_popper.min.js"></script>
+  <script src="/js/wp-content_themes_hompark_js_bootstrap.min.js"></script>
+---
+<!-- ============ HERO — sliding, moving-home imagery, one message, one CTA ============ -->
+<header class="home-hero" id="heroSlider">
+  <div class="hero-slide active" style="background-image:url(/images/wp-content_uploads_2020_03_section-bg01.jpg)"></div>
+  <div class="hero-slide" style="background-image:url(/images/chayce-hero-uk.jpg);background-position:center 30%"></div>
+  <div class="hero-slide" style="background-image:url(/images/chayce-contact.jpg)"></div>
+  <div class="container">
+    <h1 id="heroH1">A simpler way to move into <em>your next chapter.</em></h1>
+    <p class="lead" id="heroLead">Chayce helps you manage the journey from preparing your current home, to moving, to settling into your next one &mdash; with every detail taken care of.</p>
+    <div class="hero-actions">
+      <a href="/get-started/" class="btn-lg primary">Get Started</a>
+      <a href="/how-it-works/" class="text-link">How Can We Help? &rarr;</a>
+    </div>
+    <div class="hero-dots" id="heroDots">
+      <button class="active" data-i="0" aria-label="Slide 1"></button>
+      <button data-i="1" aria-label="Slide 2"></button>
+      <button data-i="2" aria-label="Slide 3"></button>
+    </div>
+  </div>
+</header>
+<script>
+(function(){
+  var slides = [
+    { h1: 'A simpler way to move into <em>your next chapter.</em>', lead: 'Chayce helps you manage the journey from preparing your current home, to moving, to settling into your next one &mdash; with every detail taken care of.' },
+    { h1: 'Guiding your family, <em>every step of the way.</em>', lead: 'From sorting and packing to selling and settling in &mdash; we manage it all, so you don&rsquo;t have to.' },
+    { h1: 'Discreet. Dignified. <em>Designed for you.</em>', lead: 'Bespoke relocation support for seniors and the families who love them.' }
+  ];
+  var i = 0;
+  var slideEls = document.querySelectorAll('#heroSlider .hero-slide');
+  var dotEls = document.querySelectorAll('#heroDots button');
+  var h1El = document.getElementById('heroH1');
+  var leadEl = document.getElementById('heroLead');
+  var timer;
+
+  function show(next){
+    i = next;
+    slideEls.forEach(function(s, idx){ s.classList.toggle('active', idx === i); });
+    dotEls.forEach(function(d, idx){ d.classList.toggle('active', idx === i); });
+    h1El.style.opacity = 0;
+    leadEl.style.opacity = 0;
+    setTimeout(function(){
+      h1El.innerHTML = slides[i].h1;
+      leadEl.innerHTML = slides[i].lead;
+      h1El.style.opacity = 1;
+      leadEl.style.opacity = 1;
+    }, 250);
+  }
+  function next(){ show((i + 1) % slides.length); }
+  function restart(){ clearInterval(timer); timer = setInterval(next, 5500); }
+
+  dotEls.forEach(function(d){
+    d.addEventListener('click', function(){ show(parseInt(d.dataset.i, 10)); restart(); });
+  });
+  restart();
+})();
+</script>
+
+<!-- ============ SHORT INTRODUCTION (also answers "whatever stage you're at" — nav already owns that link) ============ -->
+<section class="home-section grey">
+  <div class="container">
+    <div class="intro-row">
+      <div class="copy">
+        <span class="home-eyebrow">Why Chayce Exists</span>
+        <h2 class="home-h2">Moving home should <em>feel simpler.</em></h2>
+        <p class="body-copy">Moving home is one of life&rsquo;s most significant transitions. Chayce is a full-service relocation partner &mdash; guiding you through every stage with care, discretion and attention to detail, so you&rsquo;re never managing it alone.</p>
+      </div>
+      <figure><img src="/images/chayce-hero2.jpg" alt="A home Chayce has helped a client move into"></figure>
+    </div>
+
+    <div class="stage-divider"></div>
+
+    <!-- ============ WHAT CHAYCE DOES ============ -->
+    <div class="pms-row">
+      <div class="pms-item"><span class="num">01</span><h4>Prepare</h4><p>Getting the current home ready to sort, sell or move on from.</p></div>
+      <div class="pms-item"><span class="num">02</span><h4>Move</h4><p>Managing the practical details of the move itself.</p></div>
+      <div class="pms-item"><span class="num">03</span><h4>Settle</h4><p>Helping make the next home feel ready and lived-in.</p></div>
+    </div>
+
+    <div style="text-align:center"><a href="/how-it-works/" class="stage-cta">See how we help &rarr;</a></div>
+  </div>
+</section>
+
+<!-- ============ SERVICES PREVIEW ============ -->
+<section class="home-section grey">
+  <div class="container">
+    <span class="home-eyebrow" style="display:block;text-align:center">Services</span>
+    <h2 class="home-h2" style="text-align:center">What we can <em>take care of.</em></h2>
+    <p class="body-copy" style="max-width:600px;margin:0 auto;text-align:center">Every service is delivered by our own vetted team &mdash; not outsourced &mdash; so the same standard of care follows you from start to finish.</p>
+    <div class="svc-cols">
+      <div class="svc-row"><span class="svc-name">Home Sorting</span><span class="svc-desc">Careful sorting and organising of your home&rsquo;s contents.</span></div>
+      <div class="svc-row"><span class="svc-name">Property Staging</span><span class="svc-desc">Presenting your home at its best, styled by our experts.</span></div>
+      <div class="svc-row"><span class="svc-name">Refurbishment</span><span class="svc-desc">Light repairs and decoration to prepare your home for sale.</span></div>
+      <div class="svc-row"><span class="svc-name">Packing &amp; Removals</span><span class="svc-desc">Professional packing and safe, insured removal.</span></div>
+      <div class="svc-row"><span class="svc-name">Deep Cleaning</span><span class="svc-desc">A full clean of your old and new property.</span></div>
+      <div class="svc-row"><span class="svc-name">Unpacking &amp; Setup</span><span class="svc-desc">Full unpacking so your new home feels ready immediately.</span></div>
+    </div>
+    <div style="text-align:center;margin-top:34px"><a href="/our-services/" class="stage-cta">Explore all services &rarr;</a></div>
+  </div>
+</section>
+
+<!-- ============ MEET YOUR COORDINATOR ============ -->
+<section class="home-section">
+  <div class="container">
+    <div style="text-align:center;max-width:640px;margin:0 auto 50px">
+      <span class="home-eyebrow" style="text-align:center">Your Dedicated Team</span>
+      <h2 class="home-h2" style="text-align:center">You&rsquo;re never navigating this <em>alone.</em></h2>
+      <p class="body-copy" style="max-width:none;margin:0 auto;text-align:center">From your first conversation to the day you&rsquo;re settled in, one dedicated coordinator guides your move &mdash; backed by the full Chayce team of specialists.</p>
+    </div>
+    <div class="coord-feature">
+      <figure><video autoplay muted loop playsinline preload="metadata" aria-label="Chayce movers carrying boxes into a client's new home"><source src="/videos/chayce-coordinator.mp4" type="video/mp4"></video></figure>
+      <div class="coord-row">
+        <div class="coord-card"><div class="avatar"><i class="fa fa-user"></i></div><div><h5>Lead Consultant</h5><p>Your first point of contact</p></div></div>
+        <div class="coord-card"><div class="avatar"><i class="fa fa-user"></i></div><div><h5>Move Coordinator</h5><p>Manages every detail of your move</p></div></div>
+        <div class="coord-card"><div class="avatar"><i class="fa fa-user"></i></div><div><h5>Staging Specialist</h5><p>Presents your home at its best</p></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ AI PROPERTY SEARCH — coming soon teaser ============ -->
+<section class="home-section ai-teaser">
+  <div class="container">
+    <div class="ai-teaser-box">
+      <span class="ai-teaser-ribbon">Coming Soon</span>
+      <div class="intro-row">
+        <figure><img src="/images/chayce-about2.jpg" alt="A bright, move-in ready home"></figure>
+        <div class="copy">
+          <h2 class="home-h2">Let AI help you find <em>your dream home.</em></h2>
+          <p class="body-copy">We&rsquo;re building an assistant that learns what you&rsquo;re looking for and surfaces the right properties for you &mdash; making the search itself as effortless as the move. Be the first to know when it&rsquo;s ready.</p>
+
+          <form class="ai-teaser-form" id="aiWaitlistForm">
+            <input type="email" required placeholder="Your email address" aria-label="Email address" id="aiWaitlistEmail">
+            <button type="submit" class="btn-lg primary">Join the Waitlist</button>
+          </form>
+          <p class="ai-teaser-success" id="aiWaitlistSuccess" hidden>You&rsquo;re on the list &mdash; we&rsquo;ll be in touch when it&rsquo;s ready.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<script>
+(function(){
+  var form = document.getElementById('aiWaitlistForm');
+  var success = document.getElementById('aiWaitlistSuccess');
+  if(!form) return;
+  form.addEventListener('submit', function(e){
+    e.preventDefault();
+    form.hidden = true;
+    success.hidden = false;
+  });
+})();
+</script>
+
+<!-- ============ PACKAGES — editorial teaser, not full comparison ============ -->
+<section class="home-section grey">
+  <div class="container">
+    <div style="text-align:center;max-width:640px;margin:0 auto">
+      <span class="home-eyebrow" style="text-align:center">Packages</span>
+      <h2 class="home-h2" style="text-align:center">Your move. <em>Your level of support.</em></h2>
+      <p class="body-copy" style="max-width:none;margin:0 auto;text-align:center">Every relocation is different. Whether you need help finding the right home, coordinating your move, or complete relocation support, there&rsquo;s an option designed around your needs.</p>
+      <div style="margin-top:30px"><a href="/packages/" class="stage-cta">Explore our packages &rarr;</a></div>
+    </div>
+    <div class="pkg-preview">
+      <div class="pkg-preview-item"><span class="pkg-num">01</span><h4>Home Search</h4><p>Finding the right place.</p></div>
+      <div class="pkg-preview-item"><span class="pkg-num">02</span><h4>Moving Support</h4><p>Making moving day simpler.</p></div>
+      <div class="pkg-preview-item"><span class="pkg-num">03</span><h4>Complete Relocation</h4><p>From search to settled.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ WHY CHAYCE — editorial trust layout ============ -->
+<section class="home-section">
+  <div class="container">
+    <span class="home-eyebrow" style="display:block;text-align:center">Why Chayce</span>
+    <h2 class="home-h2" style="text-align:center;max-width:640px;margin:0 auto 54px">A team you can <em>trust.</em></h2>
+    <div class="why-grid">
+      <div class="why-statement">
+        <p class="why-lead">Local expertise. Personal support. Every move thoughtfully managed.</p>
+        <p class="body-copy">Every client works with a dedicated relocation coordinator who provides discreet, tailored support throughout the journey &mdash; from the first conversation to the day you&rsquo;re settled in.</p>
+      </div>
+      <div class="why-points">
+        <div class="why-point"><span class="why-point-num">01</span><div><h4>Dedicated coordinator</h4><p>One trusted point of contact from beginning to end.</p></div></div>
+        <div class="why-point"><span class="why-point-num">02</span><div><h4>Local expertise</h4><p>Insight into homes, neighbourhoods, and relocation decisions that help clients move with confidence.</p></div></div>
+        <div class="why-point"><span class="why-point-num">03</span><div><h4>Tailored support</h4><p>Every relocation is shaped around the client&rsquo;s lifestyle, priorities, and individual requirements.</p></div></div>
+      </div>
+    </div>
+    <div class="why-stats">
+      <div><strong>12+</strong><span>Years Experience</span></div>
+      <div><strong>650+</strong><span>Clients Relocated</span></div>
+      <div><strong>98%</strong><span>Happy Clients</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FINAL CTA ============ -->
+<section class="final-cta">
+  <div class="container">
+    <h2 class="home-h2">Ready to make your <em>next move simpler?</em></h2>
+    <p>Tell us about your situation and we&rsquo;ll help you understand the right next step.</p>
+    <a href="/get-started/" class="btn-lg primary">Get Started</a>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section class="home-section grey tight">
+  <div class="container" style="max-width:760px">
+    <span class="home-eyebrow center" style="display:block;text-align:center">FAQ</span>
+    <h2 class="home-h2" style="text-align:center">Common <em>questions.</em></h2>
+    <div class="home-faq">
+      <details><summary>What areas do you cover?</summary><p>We operate across the UK. Please contact us to confirm availability in your specific area.</p></details>
+      <details><summary>How early should I get in touch?</summary><p>As early as possible &mdash; ideally 3 to 6 months before your intended move date. However, we can accommodate shorter timescales where needed.</p></details>
+      <details><summary>What makes Chayce different from a regular removal company?</summary><p>We are a full-service relocation partner, not just a removal company. We manage every aspect of your move &mdash; from sorting and packing to estate agent liaison, legal coordination, and post-move setup.</p></details>
+      <details><summary>Is my move fully insured?</summary><p>Yes. All removals carried out by Chayce are fully insured. Full details are provided in your service agreement.</p></details>
+      <details><summary>How does the Discovery Consultation work?</summary><p>We conduct a detailed 1-hour consultation (in person or by telephone) to understand your needs and deliver a personalised move plan, timeline and budget.</p></details>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER — redesigned ============ -->

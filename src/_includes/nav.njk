@@ -1,0 +1,26 @@
+{% macro navLink(href, label, key, activeKey, extraClass) %}<a href="{{ href }}"{% if extraClass or key == activeKey %} class="{{ extraClass }}{% if key == activeKey %}{% if extraClass %} {% endif %}active{% endif %}"{% endif %}>{{ label }}</a>{% endmacro %}
+<nav class="site-nav">
+  <div class="site-nav-inner">
+    <a href="/" class="site-nav-logo">
+      <img src="/images/chayce-logo.png" alt="Chayce Properties">
+      <span class="word"><b>CHAYCE</b><span>PROPERTIES</span></span>
+    </a>
+    <button class="site-nav-toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    <div class="site-nav-scrim"></div>
+    <div class="site-nav-links">
+        {{ navLink("/how-it-works/", "How Can We Help?", "how-it-works", activeKey) }}
+        {{ navLink("/our-services/", "Services", "our-services", activeKey) }}
+        {{ navLink("/about-chayce/", "About", "about-chayce", activeKey) }}
+        {% if homeNav %}
+        {{ navLink("/contact/", "Contact", "contact", activeKey, "site-nav-contact") }}
+        <span class="site-nav-divider"></span>
+        {{ navLink("/get-started/", "Get Started", "get-started", activeKey, "site-nav-cta") }}
+        {% else %}
+        <span class="site-nav-divider"></span>
+        {{ navLink("/contact/", "Contact", "contact", activeKey, "site-nav-contact") }}
+        {{ navLink("/get-started/", "Get Started", "get-started", activeKey, "site-nav-cta") }}
+        {% endif %}
+    </div>
+  </div>
+</nav>
+<script src="/js/chayce-nav.js" defer></script>
