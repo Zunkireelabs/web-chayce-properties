@@ -1,0 +1,153 @@
+---
+title: "Discovery Consultation | Chayce Properties"
+bodyClass: "page-template page-loaded"
+homeNav: false
+layout: base.njk
+headExtra: |
+  <style>
+  .chayce-logo-link{text-decoration:none!important}
+  .navbar .container .upper-side .logo{margin-left:80px!important}
+  @media(max-width:767px){.navbar .container .upper-side .logo{margin-left:0!important}}
+  .page-hero{background:#3d4558;padding:120px 0 80px;text-align:center;position:relative;overflow:hidden}
+  .page-hero::before{content:'';position:absolute;inset:0;background:linear-gradient(135deg,rgba(30,35,50,.85),rgba(61,69,88,.7));z-index:1}
+  .page-hero .container{position:relative;z-index:2}
+  .page-hero h1{color:#fff;font-size:48px;font-weight:700;margin-bottom:10px;font-family:'Playfair',serif}
+  .page-hero h1 em{color:#c8a96e;font-style:normal}
+  .page-hero .breadcrumb{color:#c8a96e;font-size:13px;letter-spacing:2px;text-transform:uppercase}
+  .page-hero .breadcrumb a{color:#fff;text-decoration:none}
+  .page-section{padding:80px 0}
+  .page-section.grey{background:#f9f9f9}
+  .card-box{background:#fff;border:1px solid #eee;padding:36px;margin-bottom:30px;transition:.3s;box-sizing:border-box}
+  .card-box:hover{box-shadow:0 8px 30px rgba(0,0,0,.08);transform:translateY(-3px)}
+  .card-box h4{color:#1a1a1a;font-family:'Playfair',serif;margin-bottom:10px}
+  .card-box h4 em{color:#c8a96e;font-style:normal}
+  .card-box p{color:#666;line-height:1.7;font-size:15px}
+  .card-box .price{font-size:22px;font-weight:700;color:#c8a96e;margin:12px 0}
+  .card-box .btn-chayce{display:inline-block;padding:16px 36px;background:#c8a96e;color:#fff;text-decoration:none;font-size:14px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;margin-top:12px;border-radius:2px}
+  .card-box .btn-chayce:hover{background:#1a1a1a}
+  .icon-row{display:flex;flex-wrap:wrap;gap:24px;margin-top:30px}
+  .icon-item{flex:0 0 calc(33.333% - 16px);background:#fff;padding:30px 24px;border:1px solid #eee;text-align:center}
+  .icon-item img{width:50px;height:50px;object-fit:contain;margin-bottom:14px}
+  .icon-item h6{font-size:13px;font-weight:600;color:#1a1a1a;letter-spacing:1px;text-transform:uppercase}
+  .quote-block{border-left:4px solid #c8a96e;padding:20px 28px;background:#f9f5ef;font-style:italic;font-size:17px;color:#3d4558;margin:30px 0;font-family:'Playfair',serif}
+  .contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px}
+  .contact-info h5{color:#c8a96e;text-transform:uppercase;letter-spacing:2px;font-size:12px;margin-bottom:8px}
+  .contact-info h3{color:#1a1a1a;font-size:28px;margin-bottom:20px;font-family:'Playfair',serif}
+  .contact-info p{color:#666;line-height:1.8}
+  .contact-info a{color:#c8a96e}
+  .form-group{margin-bottom:18px}
+  .form-group input,.form-group textarea,.form-group select{width:100%;padding:12px 16px;border:1px solid #ddd;font-size:14px;font-family:'Poppins',sans-serif;outline:none}
+  .form-group input:focus,.form-group textarea:focus{border-color:#c8a96e}
+  .form-group textarea{min-height:130px;resize:vertical}
+  .btn-submit{background:#c8a96e;color:#fff;border:none;padding:14px 36px;font-size:13px;letter-spacing:2px;text-transform:uppercase;cursor:pointer;width:100%}
+  .btn-submit:hover{background:#1a1a1a}
+  .news-card figure{overflow:hidden;margin-bottom:16px}
+  .news-card figure img{width:100%;height:220px;object-fit:cover;transition:.4s}
+  .news-card figure:hover img{transform:scale(1.05)}
+  .news-card span{color:#c8a96e;font-size:12px;letter-spacing:1px;text-transform:uppercase}
+  .news-card h5{margin:8px 0;font-family:'Playfair',serif}
+  .news-card h5 a{color:#1a1a1a;text-decoration:none}
+  .news-card h5 a:hover{color:#c8a96e}
+  .news-card p{color:#666;font-size:14px;line-height:1.7}
+  .team-card{text-align:center;padding:30px 20px;border:1px solid #eee}
+  .team-card .avatar{width:90px;height:90px;border-radius:50%;background:#c8a96e;margin:0 auto 16px;display:flex;align-items:center;justify-content:center;font-size:32px;color:#fff;font-family:'Playfair',serif}
+  .team-card h5{font-family:'Playfair',serif;color:#1a1a1a;margin-bottom:4px}
+  .team-card p{color:#c8a96e;font-size:12px;letter-spacing:2px;text-transform:uppercase}
+  .faq-item{border-bottom:1px solid #eee;padding:20px 0}
+  .faq-item h5{color:#1a1a1a;font-size:16px;cursor:pointer}
+  .faq-item p{color:#666;font-size:14px;line-height:1.7;margin-top:10px}
+  table.pkg-table{width:100%;border-collapse:collapse}
+  table.pkg-table th{background:#3d4558;color:#fff;padding:12px 16px;font-size:13px;letter-spacing:1px;text-align:left}
+  table.pkg-table td{padding:12px 16px;border-bottom:1px solid #eee;font-size:14px;color:#444}
+  table.pkg-table tr:hover td{background:#fafafa}
+  table.pkg-table td.gold{color:#c8a96e;font-weight:700}
+  .pkg-detail-head{max-width:640px;margin:0 auto 64px;text-align:center}
+  .pkg-detail-eyebrow{font-size:12px;letter-spacing:2.5px;text-transform:uppercase;color:#c8a96e;font-weight:600;margin:0 0 14px}
+  .pkg-detail-title{font-family:'Playfair',serif;font-size:44px;color:#1a1a1a;margin:0 0 12px;line-height:1.2}
+  .pkg-detail-sub{font-size:17px;color:#666;line-height:1.7;margin:0}
+  .pkg-detail-banner{margin-bottom:64px;box-shadow:0 40px 80px rgba(26,26,26,.14);overflow:hidden}
+  .pkg-detail-banner img{width:100%;max-height:520px;object-fit:cover;display:block}
+  .pkg-detail-grid{display:grid;grid-template-columns:1.6fr 1fr;gap:64px;align-items:start}
+  .pkg-section-label{font-size:12px;letter-spacing:2px;text-transform:uppercase;color:#999;font-weight:600;margin:0 0 22px}
+  .pkg-feature-list{list-style:none;padding:0;margin:0 0 40px}
+  .pkg-feature-list li{display:flex;align-items:center;gap:16px;padding:14px 0;border-bottom:1px solid #eee;color:#3d4558;font-size:15px}
+  .pkg-feature-list li .badge{flex:0 0 34px;width:34px;height:34px;border-radius:50%;background:#f9f5ef;display:flex;align-items:center;justify-content:center}
+  .pkg-feature-list li .badge svg{width:15px;height:15px;stroke:#c8a96e;fill:none;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}
+  .pkg-ideal-box{background:#f9f5ef;border-left:3px solid #c8a96e;padding:30px 34px;margin-bottom:8px}
+  .pkg-ideal-box h4{font-family:'Playfair',serif;font-size:16px;color:#1a1a1a;margin:0 0 10px}
+  .pkg-ideal-box p{margin:0;font-size:14.5px;color:#555;line-height:1.8}
+  .pkg-order-card{position:sticky;top:112px;background:#fff;border:1px solid #e7e2d6;border-top:3px solid #1a1a1a;padding:40px 34px;box-shadow:0 30px 70px rgba(26,26,26,.1)}
+  .pkg-order-card .oc-name{font-family:'Playfair',serif;font-size:24px;color:#1a1a1a;margin:0 0 14px}
+  .pkg-order-card .oc-price{font-size:34px;font-weight:700;color:#c8a96e;margin-bottom:26px}
+  .btn-chayce{display:block;text-align:center;padding:16px 20px;background:#c8a96e;color:#fff;text-decoration:none;font-size:13px;font-weight:600;letter-spacing:2px;text-transform:uppercase}
+  .btn-chayce:hover{background:#1a1a1a}
+  .pkg-order-card .oc-steps{margin:26px 0 0;padding:22px 0 0;border-top:1px solid #eee}
+  .pkg-order-card .oc-step{display:flex;gap:12px;align-items:flex-start;font-size:13px;color:#666;line-height:1.6;margin-bottom:12px}
+  .pkg-order-card .oc-step:last-child{margin-bottom:0}
+  .pkg-order-card .oc-step .n{flex:0 0 20px;width:20px;height:20px;border-radius:50%;border:1px solid #c8a96e;color:#c8a96e;font-size:11px;font-weight:700;display:flex;align-items:center;justify-content:center}
+  .pkg-cross-link{margin-top:22px;padding-top:18px;border-top:1px solid #eee;font-size:13px;color:#999;line-height:1.6}
+  .pkg-cross-link a{color:#c8a96e;font-weight:600;text-decoration:none}
+  .pkg-cross-link a:hover{color:#1a1a1a}
+  @media(max-width:900px){.pkg-detail-grid{grid-template-columns:1fr}.pkg-order-card{position:static}}
+  @media(max-width:768px){.contact-grid{grid-template-columns:1fr}.icon-item{flex:0 0 100%}}
+  @media(max-width:600px){
+  .page-hero{padding:90px 0 50px}
+  .page-hero h1{font-size:28px}
+  .pkg-detail-title{font-size:28px}
+  .pkg-detail-sub{font-size:15px}
+  .pkg-ideal-box{padding:22px 20px}
+  .pkg-order-card{padding:28px 22px}
+  .pkg-feature-list li{font-size:14px;gap:12px}
+  }
+  </style>
+  <script src="/js/wp-includes_js_jquery_jquery.min.js"></script>
+  <script src="/js/wp-includes_js_jquery_jquery-migrate.min.js"></script>
+  <link rel="stylesheet" href="/css/chayce-nav.css">
+footScripts: |
+  <script src="/js/wp-content_themes_hompark_js_popper.min.js"></script>
+  <script src="/js/wp-content_themes_hompark_js_bootstrap.min.js"></script>
+  <script src="/js/wp-content_themes_hompark_js_bundle.js"></script>
+  <script src="/js/wp-content_themes_hompark_js_scripts.js"></script>
+---
+<div class="page-hero" style="background-image:url(/images/chayce-discovery-hero.jpg);background-size:cover;background-position:center;">
+  <div class="container">
+    <p class="breadcrumb"><a href="/">Home</a> / <em>Discovery Consultation</em></p>
+    <h1><em>Discovery Consultation</em></h1>
+    <p style="color:#ccc;margin-top:10px;font-size:16px;">Expert guidance and a personalised move plan</p>
+  </div>
+</div>
+<section class="page-section">
+  <div class="container">
+    <div class="pkg-detail-head">
+      <p class="pkg-detail-eyebrow">Not Sure Where to Start?</p>
+      <h2 class="pkg-detail-title">Discovery Consultation</h2>
+      <p class="pkg-detail-sub">Expert guidance and a personalised move plan</p>
+    </div>
+    <div class="pkg-detail-grid">
+      <div class="pkg-narrative">
+        <p class="pkg-section-label">What&rsquo;s Included</p>
+        <ul class="pkg-feature-list">
+          <li><span class="badge"><svg viewBox="0 0 24 24"><path d="M4 12l5 5L20 6"/></svg></span><span>1-hour telephone or in-person consultation</span></li>
+          <li><span class="badge"><svg viewBox="0 0 24 24"><path d="M4 12l5 5L20 6"/></svg></span><span>Full assessment of your relocation needs</span></li>
+          <li><span class="badge"><svg viewBox="0 0 24 24"><path d="M4 12l5 5L20 6"/></svg></span><span>Personalised move plan document</span></li>
+          <li><span class="badge"><svg viewBox="0 0 24 24"><path d="M4 12l5 5L20 6"/></svg></span><span>Recommended timeline and budget breakdown</span></li>
+          <li><span class="badge"><svg viewBox="0 0 24 24"><path d="M4 12l5 5L20 6"/></svg></span><span>Priority access to our full-service packages</span></li>
+        </ul>
+        <div class="pkg-ideal-box">
+          <h4>Ideal for</h4>
+          <p>The natural starting point if you&rsquo;re not sure which level of support you need &mdash; we&rsquo;ll help determine the right approach, with no obligation to book anything further.</p>
+        </div>
+      </div>
+      <aside class="pkg-order-card">
+        <h3 class="oc-name">Discovery Consultation</h3>
+        <div class="oc-price">From £150</div>
+        <a href="/get-started/index.html?package=Discovery%20Consultation%20%E2%80%94%20%C2%A3150" class="btn-chayce">Book a Consultation</a>
+        <div class="oc-steps">
+          <div class="oc-step"><span class="n">1</span><span>Send your details</span></div>
+          <div class="oc-step"><span class="n">2</span><span>We&rsquo;ll call within one working day to arrange your consultation.</span></div>
+        </div>
+        <p class="pkg-cross-link">Already know what you need? <a href="/packages/">Compare all packages &rarr;</a></p>
+      </aside>
+    </div>
+  </div>
+</section>
