@@ -1,0 +1,10 @@
+node_modules/
+_site/
+template/
+.git/
+.github/
+docs/
+*.log
+.DS_Store
+.env
+.env.local

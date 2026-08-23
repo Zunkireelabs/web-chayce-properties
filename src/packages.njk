@@ -1,0 +1,307 @@
+---
+title: "Our Relocation Packages | Chayce Properties"
+bodyClass: "page-template page-loaded"
+homeNav: false
+layout: base.njk
+headExtra: |
+  <style>
+  .chayce-logo-link{text-decoration:none!important}
+  .navbar .container .upper-side .logo{margin-left:80px!important}
+  @media(max-width:767px){.navbar .container .upper-side .logo{margin-left:0!important}}
+  .page-hero{background:#3d4558;padding:120px 0 80px;text-align:center;position:relative;overflow:hidden}
+  .page-hero::before{content:'';position:absolute;inset:0;background:linear-gradient(135deg,rgba(30,35,50,.85),rgba(61,69,88,.7));z-index:1}
+  .page-hero .container{position:relative;z-index:2}
+  .page-hero h1{color:#fff;font-size:48px;font-weight:700;margin-bottom:10px;font-family:'Playfair',serif}
+  .page-hero h1 em{color:#c8a96e;font-style:normal}
+  .page-hero .breadcrumb{color:#c8a96e;font-size:13px;letter-spacing:2px;text-transform:uppercase}
+  .page-hero .breadcrumb a{color:#fff;text-decoration:none}
+  .page-section{padding:80px 0}
+  .page-section.grey{background:#f9f9f9}
+  .card-box{background:#fff;border:1px solid #eee;padding:36px;margin-bottom:30px;transition:.3s;height:calc(100% - 30px);box-sizing:border-box}
+  .card-box:hover{box-shadow:0 8px 30px rgba(0,0,0,.08);transform:translateY(-3px)}
+  .card-box h4{color:#1a1a1a;font-family:'Playfair',serif;margin-bottom:10px}
+  .card-box h4 em{color:#c8a96e;font-style:normal}
+  .card-box p{color:#666;line-height:1.7;font-size:15px}
+  .card-box .price{font-size:22px;font-weight:700;color:#c8a96e;margin:12px 0}
+  .btn-chayce{display:inline-block;padding:10px 28px;background:#c8a96e;color:#fff;text-decoration:none;font-size:13px;letter-spacing:1px;text-transform:uppercase;margin-top:12px}
+  .btn-chayce:hover{background:#1a1a1a}
+  .icon-row{display:flex;flex-wrap:wrap;gap:24px;margin-top:30px}
+  .icon-item{flex:0 0 calc(33.333% - 16px);background:#fff;padding:30px 24px;border:1px solid #eee;text-align:center}
+  .icon-item img{width:50px;height:50px;object-fit:contain;margin-bottom:14px}
+  .icon-item h6{font-size:13px;font-weight:600;color:#1a1a1a;letter-spacing:1px;text-transform:uppercase}
+  .quote-block{border-left:4px solid #c8a96e;padding:20px 28px;background:#f9f5ef;font-style:italic;font-size:17px;color:#3d4558;margin:30px 0;font-family:'Playfair',serif}
+  .contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px}
+  .contact-info h5{color:#c8a96e;text-transform:uppercase;letter-spacing:2px;font-size:12px;margin-bottom:8px}
+  .contact-info h3{color:#1a1a1a;font-size:28px;margin-bottom:20px;font-family:'Playfair',serif}
+  .contact-info p{color:#666;line-height:1.8}
+  .contact-info a{color:#c8a96e}
+  .form-group{margin-bottom:18px}
+  .form-group input,.form-group textarea,.form-group select{width:100%;padding:12px 16px;border:1px solid #ddd;font-size:14px;font-family:'Poppins',sans-serif;outline:none}
+  .form-group input:focus,.form-group textarea:focus{border-color:#c8a96e}
+  .form-group textarea{min-height:130px;resize:vertical}
+  .btn-submit{background:#c8a96e;color:#fff;border:none;padding:14px 36px;font-size:13px;letter-spacing:2px;text-transform:uppercase;cursor:pointer;width:100%}
+  .btn-submit:hover{background:#1a1a1a}
+  .news-card figure{overflow:hidden;margin-bottom:16px}
+  .news-card figure img{width:100%;height:220px;object-fit:cover;transition:.4s}
+  .news-card figure:hover img{transform:scale(1.05)}
+  .news-card span{color:#c8a96e;font-size:12px;letter-spacing:1px;text-transform:uppercase}
+  .news-card h5{margin:8px 0;font-family:'Playfair',serif}
+  .news-card h5 a{color:#1a1a1a;text-decoration:none}
+  .news-card h5 a:hover{color:#c8a96e}
+  .news-card p{color:#666;font-size:14px;line-height:1.7}
+  .team-card{text-align:center;padding:30px 20px;border:1px solid #eee}
+  .team-card .avatar{width:90px;height:90px;border-radius:50%;background:#c8a96e;margin:0 auto 16px;display:flex;align-items:center;justify-content:center;font-size:32px;color:#fff;font-family:'Playfair',serif}
+  .team-card h5{font-family:'Playfair',serif;color:#1a1a1a;margin-bottom:4px}
+  .team-card p{color:#c8a96e;font-size:12px;letter-spacing:2px;text-transform:uppercase}
+  .faq-item{border-bottom:1px solid #eee;padding:20px 0}
+  .faq-item h5{color:#1a1a1a;font-size:16px;cursor:pointer}
+  .faq-item p{color:#666;font-size:14px;line-height:1.7;margin-top:10px}
+  /* ===== Premium package cards — replaces the plain navy table ===== */
+  .pkg-guide{display:grid;grid-template-columns:1fr 1fr;gap:28px;max-width:980px;margin:40px auto 0}
+  .pkg-guide-card{background:#f9f5ef;border-left:3px solid #c8a96e;padding:26px 30px}
+  .pkg-guide-card h4{font-family:'Playfair',serif;font-size:17px;color:#1a1a1a;margin:0 0 10px}
+  .pkg-guide-card p{font-size:14px;color:#555;line-height:1.75;margin:0}
+  .pkg-guide-card p a{color:#c8a96e;font-weight:600;text-decoration:none;border-bottom:1px solid rgba(200,169,110,.4)}
+  .pkg-guide-card p a:hover{color:#1a1a1a;border-color:#1a1a1a}
+  @media(max-width:768px){.pkg-guide{grid-template-columns:1fr;margin-top:32px}}
+  .pkg-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:0;margin-top:56px;border:1px solid #e7e2d6;border-top:3px solid #1a1a1a}
+  .pkg-card{position:relative;background:#fff;padding:38px 26px 32px;display:flex;flex-direction:column;border-right:1px solid #e7e2d6;transition:box-shadow .3s,transform .3s}
+  .pkg-card:last-child{border-right:none}
+  .pkg-card:hover,.pkg-card.active{box-shadow:0 24px 48px rgba(26,26,26,.1);transform:translateY(-4px);z-index:2}
+  .pkg-card .pkg-level{font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:#999;margin-bottom:14px;min-height:28px;line-height:1.4}
+  .pkg-card h4{font-family:'Playfair',serif;font-size:22px;color:#1a1a1a;margin:0 0 10px;line-height:1.25}
+  .pkg-card .pkg-price{font-size:20px;font-weight:700;color:#c8a96e;margin-bottom:16px}
+  .pkg-card .pkg-desc{font-size:13.5px;color:#666;line-height:1.7;flex:1;margin-bottom:26px}
+  .pkg-card .btn-chayce{width:100%;text-align:center;padding:13px 10px;font-size:12px;margin:0 0 12px;box-sizing:border-box}
+  .pkg-card .pkg-detail-link{display:block;width:100%;text-align:center;font-size:12.5px;color:#3d4558;text-decoration:underline;text-underline-offset:3px;background:none;border:0;cursor:pointer;font-family:'Poppins',sans-serif;padding:4px 0;margin-top:auto}
+  .pkg-card .pkg-detail-link:hover{color:#c8a96e}
+  /* ===== Package detail card — sits in normal flow below the grid, centered, pushes the quote note down ===== */
+  .pkg-modal-overlay{display:none;width:min(640px,94%);margin:28px auto 0}
+  .pkg-modal-overlay.open{display:block}
+  .pkg-modal{position:relative;background:#fff;max-height:min(70vh,480px);overflow-y:auto;border:1px solid #e7e2d6;border-top:3px solid #1a1a1a;box-shadow:0 20px 50px rgba(20,18,12,.14)}
+  .pkg-modal-close{position:absolute;top:16px;right:16px;width:28px;height:28px;border-radius:50%;border:1px solid #e7e2d6;background:#fff;color:#1a1a1a;font-size:16px;line-height:1;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:.2s;z-index:2}
+  .pkg-modal-close:hover{background:#1a1a1a;color:#fff;border-color:#1a1a1a}
+  .pkg-modal-body{padding:24px 32px 22px}
+  .pkg-modal-body>h3{font-family:'Playfair',serif;font-size:20px;color:#1a1a1a;margin:0 0 14px;line-height:1.25;padding-right:30px}
+  .pkg-modal-cols{display:flex;gap:36px;align-items:flex-start}
+  .pkg-modal-right{flex:1;min-width:0}
+  .pkg-modal-included-label{display:block;font-size:10.5px;letter-spacing:1.5px;text-transform:uppercase;color:#999;margin-bottom:12px}
+  .pkg-modal-list{list-style:none;margin:0;padding:0}
+  .pkg-modal-list li{display:flex;align-items:flex-start;gap:10px;padding:5px 0;font-size:12.5px;color:#3d4558}
+  .pkg-modal-list li .ico-wrap{flex:0 0 20px;width:20px;height:20px;border-radius:50%;background:#f9f5ef;display:flex;align-items:center;justify-content:center;margin-top:1px}
+  .pkg-modal-list li .ico-wrap svg{width:9.5px;height:9.5px;stroke:#c8a96e;fill:none;stroke-width:2.8;stroke-linecap:round;stroke-linejoin:round}
+  .pkg-modal-left{flex:0 0 200px;border-left:1px solid #eee;padding-left:28px;padding-top:2px}
+  .pkg-modal-left .btn-chayce{display:block;width:100%;text-align:center;padding:16px 14px;font-size:12px;line-height:1.4;box-sizing:border-box}
+  .pkg-modal-readmore{display:block;text-align:center;margin-top:14px;font-size:11.5px;letter-spacing:.5px;color:#8a7548;text-decoration:underline;text-underline-offset:3px}
+  .pkg-modal-readmore:hover{color:#1a1a1a}
+  @media(max-width:1024px){.pkg-grid{grid-template-columns:repeat(3,1fr)}.pkg-card{border-bottom:1px solid #e7e2d6}.pkg-card:nth-child(3){border-right:none}}
+  @media(max-width:768px){.contact-grid{grid-template-columns:1fr}.icon-item{flex:0 0 100%}
+  .pkg-grid{grid-template-columns:1fr;border-top:none}
+  .pkg-card{border-right:none!important;border-bottom:1px solid #e7e2d6;padding:34px 28px}
+  .pkg-card:first-child{border-top:3px solid #1a1a1a}
+  .pkg-card:hover{transform:none}
+  .pkg-modal-overlay{width:100%;margin-top:20px}
+  .pkg-modal{max-height:80vh}
+  .pkg-modal-cols{flex-direction:column-reverse;gap:20px}
+  .pkg-modal-left{flex:0 0 auto;border-left:0;padding-left:0;border-top:1px solid #eee;padding-top:18px}
+  }
+  @media(max-width:600px){
+  .page-hero{padding:90px 0 50px}
+  .page-hero h1{font-size:30px}
+  .pkg-guide-card{padding:22px 20px}
+  .pkg-card{padding:28px 20px}
+  .quote-block{padding:18px 20px;font-size:15px}
+  }
+  </style>
+  <script src="/js/wp-includes_js_jquery_jquery.min.js"></script>
+  <script src="/js/wp-includes_js_jquery_jquery-migrate.min.js"></script>
+  <link rel="stylesheet" href="/css/chayce-nav.css">
+footScripts: |
+  <script src="/js/wp-content_themes_hompark_js_popper.min.js"></script>
+  <script src="/js/wp-content_themes_hompark_js_bootstrap.min.js"></script>
+  <script src="/js/wp-content_themes_hompark_js_bundle.js"></script>
+  <script src="/js/wp-content_themes_hompark_js_scripts.js"></script>
+---
+<div class="page-hero" style="background-image:url(/images/chayce-packages-hero-uk.jpg);background-size:cover;background-position:center;">
+  <div class="container">
+    <h1><em>Our</em> Relocation Packages</h1>
+    <p style="color:#ccc;margin-top:10px;font-size:16px;">Crafted precisely for your needs</p>
+  </div>
+</div>
+<section class="page-section">
+  <div class="container">
+    <div class="section-titles center wow fadeInUp"><h2><em>Choose</em> Your Package</h2><h3>Five levels of support, one standard of excellence</h3></div>
+    <div class="pkg-guide">
+      <div class="pkg-guide-card">
+        <h4>Already secured your home?</h4>
+        <p>If you mainly need the physical move handled, <a href="/bronze-essentials/">Bronze Essentials</a> is usually enough. Want someone coordinating the whole move for you? <a href="/silver-comfort/">Silver Comfort</a> adds that. If your move also involves staging, legal coordination or other higher-touch support, <a href="/gold-prestige/">Gold Prestige</a> may still be the better fit.</p>
+      </div>
+      <div class="pkg-guide-card">
+        <h4>Still searching for your next home?</h4>
+        <p><a href="/gold-prestige/">Gold Prestige</a> includes property viewings, staging and legal coordination where that&rsquo;s what you need &mdash; but if you just want the move itself sorted once you&rsquo;re settled, <a href="/bronze-essentials/">Bronze</a> or <a href="/silver-comfort/">Silver</a> may still be the right fit. Not sure? <a href="/discovery/">Start with a Discovery Consultation</a>.</p>
+      </div>
+    </div>
+
+    <div class="pkg-grid">
+      <div class="pkg-card">
+        <span class="pkg-level">Not Sure Where to Start?</span>
+        <h4>Discovery Consultation</h4>
+        <div class="pkg-price">From £150</div>
+        <p class="pkg-desc">Expert guidance &amp; a personalised move plan.</p>
+        <a href="/get-started/index.html?package=Discovery%20Consultation%20%E2%80%94%20%C2%A3150" class="btn-chayce">Get Started</a>
+        <button type="button" class="pkg-detail-link" data-pkg="discovery">Full details</button>
+      </div>
+      <div class="pkg-card">
+        <span class="pkg-level">Level 1 &mdash; Straightforward Move</span>
+        <h4>Bronze Essentials</h4>
+        <div class="pkg-price">From £995</div>
+        <p class="pkg-desc">Packing, removals and light cleaning.</p>
+        <a href="/get-started/index.html?package=Bronze%20Essentials%20%E2%80%94%20%C2%A3995" class="btn-chayce">Get Started</a>
+        <button type="button" class="pkg-detail-link" data-pkg="bronze">Full details</button>
+      </div>
+      <div class="pkg-card">
+        <span class="pkg-level">Level 2 &mdash; Managed / Full-Service Move</span>
+        <h4>Silver Comfort</h4>
+        <div class="pkg-price">From £1,850</div>
+        <p class="pkg-desc">Full-service move with a dedicated coordinator.</p>
+        <a href="/get-started/index.html?package=Silver%20Comfort%20%E2%80%94%20%C2%A31%2C850" class="btn-chayce">Get Started</a>
+        <button type="button" class="pkg-detail-link" data-pkg="silver">Full details</button>
+      </div>
+      <div class="pkg-card">
+        <span class="pkg-level">Level 3 &mdash; Broader Relocation &amp; Property Support</span>
+        <h4>Gold Prestige</h4>
+        <div class="pkg-price">From £3,250</div>
+        <p class="pkg-desc">Chauffeur viewings, staging, legal coordination &amp; more.</p>
+        <a href="/get-started/index.html?package=Gold%20Prestige%20%E2%80%94%20%C2%A33%2C250" class="btn-chayce">Get Started</a>
+        <button type="button" class="pkg-detail-link" data-pkg="gold">Full details</button>
+      </div>
+      <div class="pkg-card">
+        <span class="pkg-level">Level 4 &mdash; Complete Bespoke / White-Glove</span>
+        <h4>Platinum Bespoke</h4>
+        <div class="pkg-price">From £6,500</div>
+        <p class="pkg-desc">Complete white-glove service for discerning clients.</p>
+        <a href="/get-started/index.html?package=Platinum%20Bespoke%20%E2%80%94%20%C2%A36%2C500" class="btn-chayce">Get Started</a>
+        <button type="button" class="pkg-detail-link" data-pkg="platinum">Full details</button>
+      </div>
+    </div>
+
+    <!-- ============ PACKAGE DETAIL CARD — normal flow, below the grid, centered ============ -->
+    <div class="pkg-modal-overlay" id="pkgModalOverlay">
+      <div class="pkg-modal" role="dialog" aria-modal="true" aria-labelledby="pkgModalName">
+        <button type="button" class="pkg-modal-close" id="pkgModalClose" aria-label="Close">&times;</button>
+        <div class="pkg-modal-body">
+          <h3 id="pkgModalName"></h3>
+          <div class="pkg-modal-cols">
+            <div class="pkg-modal-right">
+              <span class="pkg-modal-included-label">What&rsquo;s Included</span>
+              <ul class="pkg-modal-list" id="pkgModalList"></ul>
+            </div>
+            <div class="pkg-modal-left">
+              <a href="#" class="btn-chayce" id="pkgModalCta"></a>
+              <a href="#" class="pkg-modal-readmore" id="pkgModalReadMore">Read more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="quote-block" style="margin-top:50px">&ldquo;From sorting and packing to selling and settling in &mdash; we manage it all, so you don&rsquo;t have to.&rdquo;</div>
+  </div>
+</section>
+
+<script>
+(function(){
+  var PKG_DATA = {
+    discovery: {
+      name: 'Discovery Consultation', level: 'Not Sure Where to Start?', price: 'From £150',
+      desc: 'Expert guidance & a personalised move plan.',
+      cta: 'Book a Consultation', ctaHref: '../get-started/index.html?package=Discovery%20Consultation%20%E2%80%94%20%C2%A3150',
+      fullHref: '../discovery/index.html',
+      features: ['1-hour telephone or in-person consultation','Full assessment of your relocation needs','Personalised move plan document','Recommended timeline and budget breakdown','Priority access to our full-service packages']
+    },
+    bronze: {
+      name: 'Bronze Essentials', level: 'Level 1 — Straightforward Move', price: 'From £995',
+      desc: 'Packing, removals and light cleaning.',
+      cta: 'Book a Consultation', ctaHref: '../get-started/index.html?package=Bronze%20Essentials%20%E2%80%94%20%C2%A3995',
+      fullHref: '../bronze-essentials/index.html',
+      features: ['Professional packing of all rooms','Fully insured removal to your new home','Furniture reassembly at destination','Light cleaning of vacated property','Dedicated move coordinator']
+    },
+    silver: {
+      name: 'Silver Comfort', level: 'Level 2 — Managed / Full-Service Move', price: 'From £1,850',
+      desc: 'Full-service move with a dedicated coordinator.',
+      cta: 'Book a Consultation', ctaHref: '../get-started/index.html?package=Silver%20Comfort%20%E2%80%94%20%C2%A31%2C850',
+      fullHref: '../silver-comfort/index.html',
+      features: ['Everything in Bronze Essentials','Home sorting and declutter assistance','Property staging for sale','Utility transfer management','Deep clean of vacated property','Post-move unpacking and setup']
+    },
+    gold: {
+      name: 'Gold Prestige', level: 'Level 3 — Broader Relocation & Property Support', price: 'From £3,250',
+      desc: 'Chauffeur viewings, staging, legal coordination & more.',
+      cta: 'Book a Consultation', ctaHref: '../get-started/index.html?package=Gold%20Prestige%20%E2%80%94%20%C2%A33%2C250',
+      fullHref: '../gold-prestige/index.html',
+      features: ['Everything in Silver Comfort','Chauffeur-driven property viewings','Estate agent liaison','Solicitor coordination','Full home staging with photography','Storage solutions (up to 6 weeks)','White-glove unpacking & styling']
+    },
+    platinum: {
+      name: 'Platinum Bespoke', level: 'Level 4 — Complete Bespoke / White-Glove', price: 'From £6,500',
+      desc: 'Complete white-glove service for discerning clients.',
+      cta: 'Book a Consultation', ctaHref: '../get-started/index.html?package=Platinum%20Bespoke%20%E2%80%94%20%C2%A36%2C500',
+      fullHref: '../platinum-bespoke/index.html',
+      features: ['Everything in Gold Prestige','Fully bespoke & unlimited scope','Personal lifestyle concierge','New area orientation & introductions','Interior designer consultation','Ongoing post-move concierge support (3 months)','Dedicated senior coordinator throughout']
+    }
+  };
+  var checkIcon = '<svg viewBox="0 0 24 24"><path d="M4 12l5 5L20 6"/></svg>';
+
+  var overlay = document.getElementById('pkgModalOverlay');
+  var elName = document.getElementById('pkgModalName');
+  var elCta = document.getElementById('pkgModalCta');
+  var elReadMore = document.getElementById('pkgModalReadMore');
+  var elList = document.getElementById('pkgModalList');
+
+  function render(id){
+    var d = PKG_DATA[id];
+    if(!d) return;
+    elName.textContent = d.name;
+    elCta.textContent = d.cta;
+    elCta.href = d.ctaHref;
+    elReadMore.href = d.fullHref;
+    elList.innerHTML = d.features.map(function(f){
+      return '<li><span class="ico-wrap">'+checkIcon+'</span><span>'+f+'</span></li>';
+    }).join('');
+    var modalEl = overlay.querySelector('.pkg-modal');
+    if(modalEl) modalEl.scrollTop = 0;
+  }
+
+  function setActiveCard(btn){
+    document.querySelectorAll('.pkg-card.active').forEach(function(c){ c.classList.remove('active'); });
+    if(btn){
+      var card = btn.closest('.pkg-card');
+      if(card) card.classList.add('active');
+    }
+  }
+
+  function openModal(id, btn){
+    render(id);
+    overlay.classList.add('open');
+    setActiveCard(btn);
+    overlay.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  }
+  function closeModal(){
+    overlay.classList.remove('open');
+    setActiveCard(null);
+  }
+
+  document.querySelectorAll('.pkg-detail-link[data-pkg]').forEach(function(btn){
+    btn.addEventListener('click', function(e){
+      e.stopPropagation();
+      openModal(btn.getAttribute('data-pkg'), btn);
+    });
+  });
+  document.getElementById('pkgModalClose').addEventListener('click', closeModal);
+  document.addEventListener('keydown', function(e){ if(e.key === 'Escape' && overlay.classList.contains('open')) closeModal(); });
+  document.addEventListener('click', function(e){
+    if(!overlay.classList.contains('open')) return;
+    if(overlay.contains(e.target)) return;
+    if(e.target.closest('.pkg-detail-link[data-pkg]')) return;
+    closeModal();
+  });
+})();
+</script>
