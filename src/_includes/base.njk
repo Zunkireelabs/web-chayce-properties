@@ -17,6 +17,7 @@ if (/^(www\.)?chayceproperties\.com$/.test(location.hostname)) {
 }
 </script>
 <title>{{ title | safe }}</title>
+{% if canonicalUrl %}<link rel="canonical" href="{{ canonicalUrl }}">{% endif %}
 <link rel="icon" type="image/png" href="/images/favicon.png">
 <link rel="stylesheet" href="/css/wp-content_themes_hompark_css_bundle.min.css">
 <link rel="stylesheet" href="/css/wp-content_themes_hompark_css_bootstrap.min.css">
