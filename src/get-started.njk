@@ -157,6 +157,37 @@ footScripts: |
     {key:'found-next', title:'I&rsquo;ve already found my next home', desc:'I need help managing the move and settling in.', icon:'key'},
     {key:'unsure', title:'I&rsquo;m not sure where to start', desc:'I need help understanding what I need.', icon:'compass'}
   ];
+
+  // EdgeX form-field slugs (see CHAYCE-PROPERTIES-FORM-INTEGRATION.md) — the site's
+  // internal keys above are UI/routing concerns and don't match EdgeX's option values.
+  var EDGEX_SITUATION = {
+    'current-home': 'already_have_home',
+    'new-home': 'looking_for_new_home',
+    'found-next': 'found_next_home',
+    'unsure': 'not_sure_where_to_start'
+  };
+  var EDGEX_SERVICE = {
+    'home-sorting': 'home_sorting',
+    'staging': 'property_staging',
+    'agent-liaison': 'estate_agent_liaison',
+    'legal-coordination': 'legal_coordination',
+    'chauffeur-viewings': 'property_viewings',
+    'refurbishment': 'property_preparation',
+    'packing-removals': 'packing_removals',
+    'deep-cleaning': 'cleaning',
+    'utility-transfers': 'utilities',
+    'storage': 'storage',
+    'furniture-placement': 'furniture_placement',
+    'unpacking': 'unpacking',
+    'concierge': 'ongoing_concierge'
+  };
+  var EDGEX_PACKAGE = {
+    'discovery': 'discovery_consultation',
+    'bronze': 'bronze_essentials',
+    'silver': 'silver_comfort',
+    'gold': 'gold_prestige',
+    'platinum': 'platinum_bespoke'
+  };
   
   var SERVICE_ICONS = {
     'home-sorting':'box','staging':'sparkle','agent-liaison':'scale','legal-coordination':'scale',
@@ -371,9 +402,54 @@ footScripts: |
     go('4');
   });
   stepEls['4'].querySelector('[data-back]').addEventListener('click', function(){ go('3'); });
+  function splitName(full){
+    var parts = full.trim().replace(/\s+/g, ' ').split(' ');
+    return { first_name: parts[0] || '', last_name: parts.length > 1 ? parts.slice(1).join(' ') : '' };
+  }
+
   document.getElementById('gsForm').addEventListener('submit', function(e){
     e.preventDefault();
-    go('done');
+    var form = this;
+    var name = splitName(document.getElementById('gs-name').value);
+    var info = document.getElementById('gs-info').value.trim();
+
+    var body = {
+      first_name: name.first_name,
+      last_name: name.last_name,
+      email: document.getElementById('gs-email').value.trim(),
+      phone: document.getElementById('gs-phone').value.trim(),
+      custom_fields: {
+        situation: EDGEX_SITUATION[state.situation] || state.situation,
+        services: state.services.map(function(k){ return EDGEX_SERVICE[k] || k; }),
+        recommendation: state.recommendation ? (EDGEX_PACKAGE[state.recommendation.key] || state.recommendation.key) : ''
+      },
+      idempotency_key: (window.crypto && crypto.randomUUID) ? crypto.randomUUID() : (Date.now() + '-' + Math.random().toString(36).slice(2))
+    };
+    if (info) body.custom_fields.additional_information = info;
+
+    var submitBtn = form.querySelector('[type="submit"]');
+    var originalLabel = submitBtn ? submitBtn.textContent : '';
+    if (submitBtn) { submitBtn.disabled = true; submitBtn.textContent = 'Sending…'; }
+
+    fetch('/api/lead/get-started', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(body)
+    }).then(function(res){
+      if (!res.ok) throw new Error('submit failed: ' + res.status);
+      go('done');
+    }).catch(function(){
+      if (submitBtn) { submitBtn.disabled = false; submitBtn.textContent = originalLabel; }
+      var err = form.querySelector('.form-error');
+      if (!err) {
+        err = document.createElement('p');
+        err.className = 'form-error';
+        err.style.cssText = 'color:#b3261e;font-size:14px;margin:0 0 16px';
+        form.insertBefore(err, submitBtn);
+      }
+      err.innerHTML = 'Something went wrong sending this. Please try again, or call us on ' +
+        '<a href="tel:07708925432" style="color:#b3261e;font-weight:600">07708&nbsp;925&nbsp;432</a>.';
+    });
   });
   
   renderSituations();

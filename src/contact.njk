@@ -106,20 +106,68 @@ footScripts: |
   <script src="/js/wp-content_themes_hompark_js_bundle.js"></script>
   <script src="/js/wp-content_themes_hompark_js_scripts.js"></script>
   <script>
+  function splitName(full){
+    var parts = full.trim().replace(/\s+/g, ' ').split(' ');
+    return { first_name: parts[0] || '', last_name: parts.length > 1 ? parts.slice(1).join(' ') : '' };
+  }
+
   document.getElementById('contactForm').addEventListener('submit', function(e){
     e.preventDefault();
-    this.closest('.contact-form-panel').innerHTML =
-      '<h3>Thank you &mdash; we&rsquo;ve got it.</h3>' +
-      '<p>Someone from the Chayce team will be in touch shortly. If it&rsquo;s easier to talk sooner, call us on ' +
-      '<a href="tel:07708925432" style="color:#c8a96e;font-weight:600;text-decoration:none">07708&nbsp;925&nbsp;432</a>.</p>';
+    var form = this;
+    var panel = form.closest('.contact-form-panel');
+    var name = splitName(document.getElementById('ct-name').value);
+    var pkg = document.getElementById('ct-package').value;
+    var message = document.getElementById('ct-message').value.trim();
+
+    var body = {
+      first_name: name.first_name,
+      last_name: name.last_name,
+      email: document.getElementById('ct-email').value.trim(),
+      phone: document.getElementById('ct-phone').value.trim(),
+      custom_fields: {},
+      idempotency_key: (window.crypto && crypto.randomUUID) ? crypto.randomUUID() : (Date.now() + '-' + Math.random().toString(36).slice(2))
+    };
+    if (pkg) body.custom_fields.interested_package = pkg;
+    if (message) body.custom_fields.message = message;
+
+    var submitBtn = form.querySelector('.btn-submit');
+    submitBtn.disabled = true;
+    submitBtn.textContent = 'Sending…';
+
+    fetch('/api/lead/contact-us', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(body)
+    }).then(function(res){
+      if (!res.ok) throw new Error('submit failed: ' + res.status);
+      panel.innerHTML =
+        '<h3>Thank you &mdash; we&rsquo;ve got it.</h3>' +
+        '<p>Someone from the Chayce team will be in touch shortly. If it&rsquo;s easier to talk sooner, call us on ' +
+        '<a href="tel:07708925432" style="color:#c8a96e;font-weight:600;text-decoration:none">07708&nbsp;925&nbsp;432</a>.</p>';
+    }).catch(function(){
+      submitBtn.disabled = false;
+      submitBtn.textContent = 'Send Enquiry';
+      var err = form.querySelector('.form-error');
+      if (!err) {
+        err = document.createElement('p');
+        err.className = 'form-error';
+        err.style.cssText = 'color:#b3261e;font-size:14px;margin:0 0 16px';
+        form.insertBefore(err, submitBtn);
+      }
+      err.innerHTML = 'Something went wrong sending your enquiry. Please try again, or call us on ' +
+        '<a href="tel:07708925432" style="color:#b3261e;font-weight:600">07708&nbsp;925&nbsp;432</a>.';
+    });
   });
-  
+
   (function(){
     var params = new URLSearchParams(window.location.search);
     var pkg = params.get('package');
     if (pkg) {
       var sel = document.getElementById('ct-package');
-      var opt = Array.prototype.find.call(sel.options, function(o){ return pkg.indexOf(o.value) === 0 && o.value; });
+      var opt = Array.prototype.find.call(sel.options, function(o){
+        var label = o.getAttribute('data-label');
+        return label && pkg.indexOf(label) === 0;
+      });
       if (opt) sel.value = opt.value;
     }
   })();
@@ -171,11 +219,11 @@ footScripts: |
                 <label for="ct-package">Interested package <span style="font-weight:400;color:#999;text-transform:none;letter-spacing:0">(optional)</span></label>
                 <select id="ct-package">
                   <option value="">Not sure yet</option>
-                  <option value="Discovery Consultation">Discovery Consultation &mdash; £150</option>
-                  <option value="Bronze Essentials">Bronze Essentials &mdash; £995</option>
-                  <option value="Silver Comfort">Silver Comfort &mdash; £1,850</option>
-                  <option value="Gold Prestige">Gold Prestige &mdash; £3,250</option>
-                  <option value="Platinum Bespoke">Platinum Bespoke &mdash; £6,500</option>
+                  <option value="discovery_consultation" data-label="Discovery Consultation">Discovery Consultation &mdash; £150</option>
+                  <option value="bronze_essentials" data-label="Bronze Essentials">Bronze Essentials &mdash; £995</option>
+                  <option value="silver_comfort" data-label="Silver Comfort">Silver Comfort &mdash; £1,850</option>
+                  <option value="gold_prestige" data-label="Gold Prestige">Gold Prestige &mdash; £3,250</option>
+                  <option value="platinum_bespoke" data-label="Platinum Bespoke">Platinum Bespoke &mdash; £6,500</option>
                 </select>
               </div>
             </div>
