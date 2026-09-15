@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# SEOAI:ROBOTS-FIX:START
+# Legacy/spam paths found indexed under this domain that this site
+# never had (see Search Console for details) — blocked so Google stops
+# wasting crawl budget on them.
+Disallow: /?h=*
+Disallow: /shop/*
+# SEOAI:ROBOTS-FIX:END
