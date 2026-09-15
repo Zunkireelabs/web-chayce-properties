@@ -212,9 +212,9 @@ footScripts: |
 ---
 <!-- ============ HERO — sliding, moving-home imagery, one message, one CTA ============ -->
 <header class="home-hero" id="heroSlider">
-  <div class="hero-slide active" style="background-image:url(/images/wp-content_uploads_2020_03_section-bg01.jpg)"></div>
-  <div class="hero-slide" style="background-image:url(/images/chayce-hero-uk.jpg);background-position:center 30%"></div>
-  <div class="hero-slide" style="background-image:url(/images/chayce-contact.jpg)"></div>
+  <div class="hero-slide active" style="background-image:url({% imageUrl "wp-content_uploads_2020_03_section-bg01.jpg" %});{% imageSet "wp-content_uploads_2020_03_section-bg01.jpg" %}"></div>
+  <div class="hero-slide" style="background-image:url({% imageUrl "chayce-hero-uk.jpg" %});{% imageSet "chayce-hero-uk.jpg" %};background-position:center 30%"></div>
+  <div class="hero-slide" style="background-image:url({% imageUrl "chayce-contact.jpg" %});{% imageSet "chayce-contact.jpg" %}"></div>
   <div class="container">
     <h1 id="heroH1">A simpler way to move into <em>your next chapter.</em></h1>
     <p class="lead" id="heroLead">Chayce helps you manage the journey from preparing your current home, to moving, to settling into your next one &mdash; with every detail taken care of.</p>
@@ -275,7 +275,7 @@ footScripts: |
         <h2 class="home-h2">Moving home should <em>feel simpler.</em></h2>
         <p class="body-copy">Moving home is one of life&rsquo;s most significant transitions. Chayce is a full-service relocation partner &mdash; guiding you through every stage with care, discretion and attention to detail, so you&rsquo;re never managing it alone.</p>
       </div>
-      <figure><img src="/images/chayce-hero2.jpg" alt="A home Chayce has helped a client move into"></figure>
+      <figure>{% image "chayce-hero2.jpg", "A home Chayce has helped a client move into" %}</figure>
     </div>
 
     <div class="stage-divider"></div>
@@ -334,7 +334,7 @@ footScripts: |
     <div class="ai-teaser-box">
       <span class="ai-teaser-ribbon">Coming Soon</span>
       <div class="intro-row">
-        <figure><img src="/images/chayce-about2.jpg" alt="A bright, move-in ready home"></figure>
+        <figure>{% image "chayce-about2.jpg", "A bright, move-in ready home" %}</figure>
         <div class="copy">
           <h2 class="home-h2">Let AI help you find <em>your dream home.</em></h2>
           <p class="body-copy">We&rsquo;re building an assistant that learns what you&rsquo;re looking for and surfaces the right properties for you &mdash; making the search itself as effortless as the move. Be the first to know when it&rsquo;s ready.</p>

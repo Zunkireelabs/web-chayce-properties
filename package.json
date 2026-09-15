@@ -16,6 +16,7 @@
     "playwright-core": "^1.60.0"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^3.1.6"
+    "@11ty/eleventy": "^3.1.6",
+    "@11ty/eleventy-img": "^6.0.4"
   }
 }
