@@ -225,6 +225,11 @@ footScripts: |
   })();
   </script>
 ---
+<style>
+.hiw-hero{background-image:url({% imageUrl "hiw2-who-senior-couple-bw.jpg" %});{% imageSet "hiw2-who-senior-couple-bw.jpg" %}}
+.quote-break{background-image:url({% imageUrl "hiw2-quote-moving-boxes.jpg" %});{% imageSet "hiw2-quote-moving-boxes.jpg" %}}
+.split-cta .img{background-image:url({% imageUrl "hiw2-cta-house-keys.jpg" %});{% imageSet "hiw2-cta-house-keys.jpg" %}}
+</style>
 <!-- ============ HERO ============ -->
 <header class="hiw-hero">
   <div class="container">
@@ -248,7 +253,7 @@ footScripts: |
 <section class="who-block">
   <div class="container reveal">
     <div class="who-media">
-      <img src="/images/hiw2-who-grandparents.jpg" alt="A senior couple enjoying time together">
+      {% image "hiw2-who-grandparents.jpg", "A senior couple enjoying time together" %}
       <div class="cap">Support for whatever stage you&rsquo;re at</div>
     </div>
     <div class="who-copy">

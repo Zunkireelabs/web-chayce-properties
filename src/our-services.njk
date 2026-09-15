@@ -146,6 +146,10 @@ footScripts: |
   <script src="/js/wp-content_themes_hompark_js_popper.min.js"></script>
   <script src="/js/wp-content_themes_hompark_js_bootstrap.min.js"></script>
 ---
+<style>
+.svc-hero{background-image:url({% imageUrl "chayce-services-hero.jpg" %});{% imageSet "chayce-services-hero.jpg" %}}
+.final-cta{background-image:url({% imageUrl "chayce-cottage.jpg" %});{% imageSet "chayce-cottage.jpg" %}}
+</style>
 <!-- ============ HERO ============ -->
 <header class="svc-hero">
   <div class="container">
@@ -192,7 +196,7 @@ footScripts: |
   <div class="container">
     <div class="stage-media">
       <span class="num-badge">Stage 01 &middot; Prepare</span>
-      <img src="/images/chayce-gallery1.jpg" alt="A home prepared and staged by Chayce Properties">
+      {% image "chayce-gallery1.jpg", "A home prepared and staged by Chayce Properties" %}
     </div>
     <div class="stage-copy">
       <h2>Getting your <em>current home</em> ready</h2>
@@ -262,7 +266,7 @@ footScripts: |
   <div class="container">
     <div class="stage-media">
       <span class="num-badge">Stage 02 &middot; Move</span>
-      <img src="/images/chayce-gallery2.jpg" alt="Packing and removals handled by Chayce Properties">
+      {% image "chayce-gallery2.jpg", "Packing and removals handled by Chayce Properties" %}
     </div>
     <div class="stage-copy">
       <h2>Handling <em>moving day</em>, start to finish</h2>
@@ -314,7 +318,7 @@ footScripts: |
   <div class="container">
     <div class="stage-media">
       <span class="num-badge">Stage 03 &middot; Settle</span>
-      <img src="/images/chayce-gallery3.jpg" alt="A new home settled and unpacked by Chayce Properties">
+      {% image "chayce-gallery3.jpg", "A new home settled and unpacked by Chayce Properties" %}
     </div>
     <div class="stage-copy">
       <h2>Feeling at home, <em>from day one</em></h2>
