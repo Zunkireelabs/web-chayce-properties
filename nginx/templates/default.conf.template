@@ -71,7 +71,13 @@ add_header Content-Security-Policy-Report-Only "default-src 'self'; report-uri /
     # redirect away outright rather than just canonicalize: a 301 is a much
     # stronger, faster consolidation signal to Google than a canonical tag.
     if ($arg_h) {
-        return 301 $scheme://$host$uri;
+        # Hardcoded https, not $scheme: this container sits behind a proxy/LB
+        # that terminates TLS and forwards plain HTTP internally, so $scheme
+        # here always evaluates to "http" regardless of what the visitor
+        # actually used — confirmed live: this redirect was sending browsers
+        # to http://chayceproperties.com/, a real downgrade bug, not a
+        # theoretical one. This site is always served over https.
+        return 301 https://$host$uri;
     }
 
     # Static site routing — try exact file, then directory, then .html extension.
