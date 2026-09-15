@@ -64,8 +64,32 @@ add_header Content-Security-Policy-Report-Only "default-src 'self'; report-uri /
         add_header Cache-Control "public, max-age=86400";
     }
 
-    # Static site routing — try exact file, then directory, then .html extension, then index
+    # The "h" query param is a confirmed-dead tracking hash inherited from a
+    # prior site on this domain — grepped across every page template and
+    # every script this site actually owns, it's never read by anything real
+    # (unlike ?package=, which get-started.njk genuinely uses). Safe to
+    # redirect away outright rather than just canonicalize: a 301 is a much
+    # stronger, faster consolidation signal to Google than a canonical tag.
+    if ($arg_h) {
+        return 301 $scheme://$host$uri;
+    }
+
+    # Static site routing — try exact file, then directory, then .html extension.
+    # A genuinely unmatched path (a legacy URL from a prior site on this domain,
+    # a typo, a bot probe) must fall through to a REAL 404 here, not silently
+    # serve the homepage with a 200 — that was producing thousands of distinct
+    # URLs that all returned identical homepage content, which Google flagged
+    # as mass duplication and refused to index (see Search Console's own
+    # "Crawled - currently not indexed" count). A real 404/410 is also the only
+    # way Google's crawler ever learns a legacy URL is actually gone and drops
+    # it from the index — a robots.txt block alone can't do that, since it
+    # stops Google from ever recrawling to find out.
     location / {
-        try_files $uri $uri/ $uri.html /index.html;
+        try_files $uri $uri/ $uri.html =404;
+    }
+
+    error_page 404 /404.html;
+    location = /404.html {
+        internal;
     }
 }
