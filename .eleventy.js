@@ -72,6 +72,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "src/fonts": "fonts" });
   eleventyConfig.addPassthroughCopy({ "src/videos": "videos" });
   eleventyConfig.addPassthroughCopy({ "src/preview.png": "preview.png" });
+  eleventyConfig.addPassthroughCopy({ "src/robots.txt": "robots.txt" });
 
   eleventyConfig.addNunjucksAsyncShortcode("image", imageShortcode);
   eleventyConfig.addNunjucksAsyncShortcode("imageUrl", imageUrlShortcode);
