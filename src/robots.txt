@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+
+Sitemap: https://chayceproperties.com/sitemap.xml
