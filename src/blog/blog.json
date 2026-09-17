@@ -1,0 +1,8 @@
+{
+  "layout": "blog-post.njk",
+  "tags": ["blog"],
+  "permalink": "/blog/{{ page.fileSlug }}/",
+  "bodyClass": "page-template page-loaded",
+  "homeNav": false,
+  "headExtra": "<link rel=\"stylesheet\" href=\"/css/chayce-nav.css\">\n<link rel=\"stylesheet\" href=\"/css/chayce-blog.css\">"
+}

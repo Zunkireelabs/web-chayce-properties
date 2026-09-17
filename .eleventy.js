@@ -62,7 +62,18 @@ async function imageSetShortcode(src, width = 1920) {
   const jpeg = metadata.jpeg[0].url;
   const webp = metadata.webp[0].url;
   const avif = metadata.avif[0].url;
-  return `background-image:image-set(url(${avif}) type("image/avif") 1x,url(${webp}) type("image/webp") 1x,url(${jpeg}) type("image/jpeg") 1x)`;
+  // type() takes single OR double quotes — every real call site embeds this
+  // string inside a double-quoted style="..." HTML attribute
+  // (page-hero's style on index.njk/news.njk/blog/index.njk), so double
+  // quotes here close that attribute early. The browser then silently
+  // drops everything after the first "image/avif" — including the
+  // background-size:cover/background-position:center declarations that
+  // follow it in every one of those templates — and falls back to the
+  // browser default (background-size:auto + background-repeat:repeat),
+  // visibly TILING the hero image instead of covering it. Single quotes
+  // avoid the collision without changing anything CSS actually reads
+  // differently.
+  return `background-image:image-set(url(${avif}) type('image/avif') 1x,url(${webp}) type('image/webp') 1x,url(${jpeg}) type('image/jpeg') 1x)`;
 }
 
 module.exports = function (eleventyConfig) {
@@ -77,6 +88,36 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addNunjucksAsyncShortcode("image", imageShortcode);
   eleventyConfig.addNunjucksAsyncShortcode("imageUrl", imageUrlShortcode);
   eleventyConfig.addNunjucksAsyncShortcode("imageSet", imageSetShortcode);
+
+  // This site had no date-formatting filter before the blog — every other
+  // page's dates are hand-written strings ("June 2026" on /news/), never
+  // computed from real front matter. Blog posts DO have a real ISO date
+  // (renderBlogOutlineBody's `date: new Date().toISOString().slice(0,10)`),
+  // so this exists to print that human-readably rather than as raw
+  // "2026-09-17" text.
+  eleventyConfig.addNunjucksFilter("readableDate", (dateStr) => {
+    const d = new Date(dateStr);
+    return Number.isNaN(d.getTime())
+      ? dateStr
+      : d.toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" });
+  });
+
+  // A real, computed number from the post's own rendered body — never a
+  // fabricated/guessed figure — same ~200wpm estimate most publishing
+  // platforms use.
+  eleventyConfig.addNunjucksFilter("readTime", (html) => {
+    const words = String(html || "").replace(/<[^>]*>/g, " ").trim().split(/\s+/).filter(Boolean).length;
+    return Math.max(1, Math.round(words / 200));
+  });
+
+  // Newest-first, same convention every other Eleventy blog collection on
+  // this platform uses (see zunkireelabs-web's own addCollection) — the
+  // "blog" tag comes from src/blog/blog.json's directory data, not from any
+  // individual post's own front matter, so a generated post never needs to
+  // remember to add it itself.
+  eleventyConfig.addCollection("blog", (collectionApi) =>
+    collectionApi.getFilteredByTag("blog").sort((a, b) => b.date - a.date)
+  );
 
   return {
     dir: {

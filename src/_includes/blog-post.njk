@@ -1,0 +1,96 @@
+---
+layout: base.njk
+headExtra: |
+  <link rel="stylesheet" href="/css/chayce-nav.css">
+  <link rel="stylesheet" href="/css/chayce-blog.css">
+---
+{# =====================================================
+   BLOG POST LAYOUT — Chayce Properties
+   Same page-hero / news-card visual language as /news/
+   (src/css/chayce-blog.css, copied from that page's own CSS)
+   ===================================================== #}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://chayceproperties.com{{ page.url }}#article",
+  "headline": {{ title | dump | safe }},
+  "description": {{ description | default('') | dump | safe }},
+  {#- featuredImage is always an absolute remote URL (Pexels) here, never a
+     site-relative path — no schemaImage prefixing needed, unlike a site that
+     mixes hand-written local images with remote ones. #}
+  "image": {{ (featuredImage | default('https://chayceproperties.com/images/chayce-logo.png')) | dump | safe }},
+  "datePublished": "{{ date }}",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Chayce Properties",
+    "logo": { "@type": "ImageObject", "url": "https://chayceproperties.com/images/chayce-logo.png" }
+  },
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://chayceproperties.com{{ page.url }}" }
+}
+</script>
+
+<div class="page-hero">
+  <div class="container">
+    <p class="breadcrumb"><a href="/">Home</a> / <a href="/blog/">Blog</a> / <em>{{ title | truncate(40) }}</em></p>
+    <h1>{{ title }}</h1>
+    {% if description %}<p style="color:#ccc;margin-top:10px;font-size:16px;">{{ description }}</p>{% endif %}
+  </div>
+</div>
+
+<section class="page-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <p class="blog-post-meta">
+          <time datetime="{{ date }}">{{ date | readableDate }}</time>
+          <span>{{ content | readTime }} min read</span>
+        </p>
+
+        {% if featuredImage %}
+        <img class="blog-post-hero-image" src="{{ featuredImage }}" alt="{{ featuredImageAlt | default(title) }}">
+        {% endif %}
+
+        <div class="blog-post-body">
+          {{ content | safe }}
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="blog-sidebar">
+          <div class="card-box">
+            <h4>Ready for Your <em>Next Chapter?</em></h4>
+            <p>Chayce Properties guides senior relocations with grace and ease, from first consultation to final unpack.</p>
+            <a href="/discovery/" class="btn-chayce">Book a Free Discovery Call</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% set relatedPosts = collections.blog | rejectattr("url", "equalto", page.url) | reverse %}
+{% if relatedPosts.length > 0 %}
+<section class="page-section grey">
+  <div class="container">
+    <h3 style="font-family:'Playfair',serif;color:#1a1a1a;margin-bottom:30px;">More from Chayce</h3>
+    <div class="row">
+      {% for post in relatedPosts %}
+      {% if loop.index <= 3 %}
+      <div class="col-md-4">
+        <div class="news-card" style="margin-bottom:40px">
+          {% if post.data.featuredImage %}
+          <figure><img src="{{ post.data.featuredImage }}" alt="{{ post.data.featuredImageAlt | default(post.data.title) }}"></figure>
+          {% endif %}
+          <span>{{ post.date | readableDate }}</span>
+          <h5><a href="{{ post.url }}">{{ post.data.title }}</a></h5>
+          {% if post.data.description %}<p>{{ post.data.description }}</p>{% endif %}
+          <a href="{{ post.url }}" style="color:#c8a96e;font-size:13px;letter-spacing:1px;text-transform:uppercase;text-decoration:none">Read More &rsaquo;</a>
+        </div>
+      </div>
+      {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
