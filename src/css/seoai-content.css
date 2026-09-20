@@ -1,6 +1,25 @@
 /* Shared styling for AI-generated on-page content (comparison blocks),
    built to match the site's existing card/typography language rather
    than a generic table. */
+
+/* Section wrapper for expand-content blocks. Each page's own per-page
+   class on this wrapper div (.container, .who-copy, .contact-intro, ...)
+   was written for a specific parent layout elsewhere on that page (a flex
+   child, a hero region, ...) — reused standalone at the page root it gives
+   zero vertical rhythm or typography, rendering as flat unstyled text. This
+   class is added alongside the page's own class (never replacing it) to
+   give every one of these sections the same real page-section treatment
+   every other section on the site already has: generous padding, a
+   readable measure, and the site's own cream/white alternation. */
+.seoai-content-section{padding:56px 0}
+.seoai-content-section+.seoai-content-section{background:#f9f8f6}
+.seoai-content-section>section{max-width:790px;margin:0 auto;padding:0 15px;box-sizing:border-box}
+.seoai-content-section h1,.seoai-content-section h2{font-family:'Playfair',serif;font-weight:700;font-size:28px;color:#1a1a1a;margin:0 0 16px;line-height:1.3}
+.seoai-content-section p{color:#555;font-size:16px;line-height:1.85;margin:0 0 6px;max-width:none}
+@media(max-width:640px){
+  .seoai-content-section{padding:40px 0}
+  .seoai-content-section h1,.seoai-content-section h2{font-size:23px}
+}
 .seoai-compare{background:#fff;border:1px solid #e7e2d6;border-radius:12px;padding:26px 30px;margin-top:24px;box-shadow:0 2px 18px rgba(26,26,26,.05)}
 .seoai-compare-head{display:grid;grid-template-columns:1.1fr 1fr 1fr;gap:18px;padding-bottom:12px;margin-bottom:6px;border-bottom:1px solid #ece7dc;font-family:'Poppins',sans-serif;font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:#8a8478;font-weight:700}
 .seoai-compare-row{display:grid;grid-template-columns:1.1fr 1fr 1fr;gap:18px;padding:14px 0;border-top:1px solid #ece7dc;align-items:start}
