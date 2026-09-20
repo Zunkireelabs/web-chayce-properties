@@ -2,3 +2,6 @@ User-agent: *
 Allow: /
 
 Sitemap: https://chayceproperties.com/sitemap.xml
+
+# GEO / AI answer-engine context
+# https://llmstxt.org/
