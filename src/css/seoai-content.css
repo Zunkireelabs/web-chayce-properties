@@ -1,0 +1,16 @@
+/* Shared styling for AI-generated on-page content (comparison blocks),
+   built to match the site's existing card/typography language rather
+   than a generic table. */
+.seoai-compare{background:#fff;border:1px solid #e7e2d6;border-radius:12px;padding:26px 30px;margin-top:24px;box-shadow:0 2px 18px rgba(26,26,26,.05)}
+.seoai-compare-head{display:grid;grid-template-columns:1.1fr 1fr 1fr;gap:18px;padding-bottom:12px;margin-bottom:6px;border-bottom:1px solid #ece7dc;font-family:'Poppins',sans-serif;font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:#8a8478;font-weight:700}
+.seoai-compare-row{display:grid;grid-template-columns:1.1fr 1fr 1fr;gap:18px;padding:14px 0;border-top:1px solid #ece7dc;align-items:start}
+.seoai-compare-row:first-of-type{border-top:none}
+.seoai-compare-row .label{font-family:'Poppins',sans-serif;font-size:13px;font-weight:700;color:#1a1a1a}
+.seoai-compare-row .alt{color:#777;font-size:14.5px;line-height:1.6}
+.seoai-compare-row .this{color:#1a1a1a;font-size:14.5px;line-height:1.6;font-weight:600}
+.seoai-compare-row .this::before{content:'';display:inline-block;width:7px;height:7px;border-radius:50%;background:#c8a96e;margin-right:8px;vertical-align:middle}
+@media(max-width:640px){
+  .seoai-compare-head{display:none}
+  .seoai-compare-row{grid-template-columns:1fr;gap:4px;padding:16px 0}
+  .seoai-compare-row .label{margin-bottom:2px}
+}
