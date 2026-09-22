@@ -20,6 +20,21 @@
   .seoai-content-section{padding:40px 0}
   .seoai-content-section h1,.seoai-content-section h2{font-size:23px}
 }
+
+/* Modifier for a section whose content is inherently short (a one-line
+   author byline, not a comparison table or multi-paragraph body) — the
+   base rule's 56px padding was built for substantial content and gives a
+   single sentence the same footprint as a whole page section. Applied
+   alongside .seoai-content-section, never in place of it, so heading/body
+   typography and the container measure above are unchanged; only the
+   vertical padding and the alternating background shrink. Rule order
+   matters here: this must stay after the base rule above to win at equal
+   specificity. */
+.seoai-content-section.seoai-content-section--compact{padding:20px 0}
+.seoai-content-section.seoai-content-section--compact+.seoai-content-section{background:none}
+@media(max-width:640px){
+  .seoai-content-section.seoai-content-section--compact{padding:16px 0}
+}
 .seoai-compare{background:#fff;border:1px solid #e7e2d6;border-radius:12px;padding:26px 30px;margin-top:24px;box-shadow:0 2px 18px rgba(26,26,26,.05)}
 .seoai-compare-head{display:grid;grid-template-columns:1.1fr 1fr 1fr;gap:18px;padding-bottom:12px;margin-bottom:6px;border-bottom:1px solid #ece7dc;font-family:'Poppins',sans-serif;font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:#8a8478;font-weight:700}
 .seoai-compare-row{display:grid;grid-template-columns:1.1fr 1fr 1fr;gap:18px;padding:14px 0;border-top:1px solid #ece7dc;align-items:start}
