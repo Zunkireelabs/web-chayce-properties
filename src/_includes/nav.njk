@@ -8,8 +8,10 @@
     <button class="site-nav-toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
     <div class="site-nav-scrim"></div>
     <div class="site-nav-links">
-        {{ navLink("/how-it-works/", "How Can We Help?", "how-it-works", activeKey) }}
+        {{ navLink("/how-it-works/", "How It Works", "how-it-works", activeKey) }}
         {{ navLink("/our-services/", "Services", "our-services", activeKey) }}
+        {{ navLink("/packages/", "Packages", "packages", activeKey) }}
+        {{ navLink("/faq/", "FAQ", "faq", activeKey) }}
         {{ navLink("/about-chayce/", "About", "about-chayce", activeKey) }}
         {% if homeNav %}
         {{ navLink("/contact/", "Contact", "contact", activeKey, "site-nav-contact") }}
