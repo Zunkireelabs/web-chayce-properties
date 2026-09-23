@@ -9,7 +9,7 @@
     "postalCode": "NN2 6EZ",
     "addressCountry": "GB"
   },
-  "defaultOgImage": "https://chayceproperties.com/images/chayce-logo.png",
+  "defaultOgImage": "https://chayceproperties.com/images/chayce-og-image.jpg",
   "packages": [
     { "key": "discovery", "name": "Discovery Consultation", "price": "150", "url": "/discovery" },
     { "key": "bronze", "name": "Bronze Essentials", "price": "995", "url": "/bronze-essentials" },
