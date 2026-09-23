@@ -1,6 +1,6 @@
 ---
-title: "Chayce Properties | UK Senior Relocation & Downsizing Specialists"
-description: "Chayce Properties is a full-service luxury relocation partner for senior clients across the UK — packing, removals, downsizing support and legal coordination, based in Northampton."
+title: "Chayce Properties | UK Senior Relocation & Downsizing"
+description: "Chayce Properties is a relocation partner for senior clients across the UK — packing, removals, downsizing and legal coordination, based in Northampton."
 bodyClass: "page-template page-loaded"
 homeNav: true
 footerPackagesId: true
@@ -447,8 +447,18 @@ footScripts: |
     "postalCode": "{{ site.address.postalCode }}",
     "addressCountry": "{{ site.address.addressCountry }}"
   },
-  "areaServed": "GB",
-  "description": "Full-service luxury relocation partner for senior clients across the UK — packing, removals, legal coordination, storage and post-move settling-in support."
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": {{ site.geo.latitude }},
+    "longitude": {{ site.geo.longitude }}
+  },
+  "priceRange": "{{ site.priceRange }}",
+  "areaServed": [
+    { "@type": "City", "name": "Northampton" },
+    { "@type": "AdministrativeArea", "name": "Northamptonshire" },
+    { "@type": "Country", "name": "United Kingdom" }
+  ],
+  "description": "Full-service relocation partner across the UK, based in Northampton — packing, removals, legal coordination, storage and post-move settling-in support, designed with senior clients in mind but open to anyone planning a fully-managed move."
 }
 </script>
 <script type="application/ld+json">

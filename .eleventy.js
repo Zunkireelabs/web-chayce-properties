@@ -120,6 +120,14 @@ module.exports = function (eleventyConfig) {
   // (renderBlogOutlineBody's `date: new Date().toISOString().slice(0,10)`),
   // so this exists to print that human-readably rather than as raw
   // "2026-09-17" text.
+  // yyyy-MM-dd for sitemap.xml <lastmod> — Eleventy's page.date is a real JS
+  // Date (front-matter `date` when set, otherwise the file's own mtime/ctime
+  // fallback), never a fabricated value.
+  eleventyConfig.addNunjucksFilter("isoDate", (date) => {
+    const d = date instanceof Date ? date : new Date(date);
+    return Number.isNaN(d.getTime()) ? "" : d.toISOString().slice(0, 10);
+  });
+
   eleventyConfig.addNunjucksFilter("readableDate", (dateStr) => {
     const d = new Date(dateStr);
     return Number.isNaN(d.getTime())

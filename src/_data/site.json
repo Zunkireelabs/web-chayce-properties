@@ -9,6 +9,11 @@
     "postalCode": "NN2 6EZ",
     "addressCountry": "GB"
   },
+  "geo": {
+    "latitude": 52.2509,
+    "longitude": -0.89878
+  },
+  "priceRange": "£150-£6500",
   "defaultOgImage": "https://chayceproperties.com/images/chayce-og-image.jpg",
   "packages": [
     { "key": "discovery", "name": "Discovery Consultation", "price": "150", "url": "/discovery" },
