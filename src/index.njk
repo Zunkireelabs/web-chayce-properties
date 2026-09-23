@@ -430,7 +430,38 @@ footScripts: |
 
 <!-- SEOAI:FAQSCHEMA:START --><script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What areas do you cover?","acceptedAnswer":{"@type":"Answer","text":"We operate across the UK. Please contact us to confirm availability in your specific area."}},{"@type":"Question","name":"How early should I get in touch?","acceptedAnswer":{"@type":"Answer","text":"As early as possible — ideally 3 to 6 months before your intended move date. However, we can accommodate shorter timescales where needed."}},{"@type":"Question","name":"What makes Chayce different from a regular removal company?","acceptedAnswer":{"@type":"Answer","text":"We are a full-service relocation partner, not just a removal company. We manage every aspect of your move — from sorting and packing to estate agent liaison, legal coordination, and post-move setup."}},{"@type":"Question","name":"Is my move fully insured?","acceptedAnswer":{"@type":"Answer","text":"Yes. All removals carried out by Chayce are fully insured. Full details are provided in your service agreement."}},{"@type":"Question","name":"How does the Discovery Consultation work?","acceptedAnswer":{"@type":"Answer","text":"We conduct a detailed 1-hour consultation (in person or by telephone) to understand your needs and deliver a personalised move plan, timeline and budget."}}]}</script><!-- SEOAI:FAQSCHEMA:END -->
 
-<!-- SEOAI:ORGANIZATIONSCHEMA:START --><script type="application/ld+json">{"@context":"https://schema.org","@type":"MovingCompany","name":"Chayce Properties","url":"https://chayceproperties.com/","telephone":"+447708925432","email":"info@chayceproperties.com","address":{"@type":"PostalAddress","streetAddress":"Unit F2B Barratt House, Kingsthorpe Road","addressLocality":"Northampton","postalCode":"NN2 6EZ","addressCountry":"GB"},"areaServed":"GB","description":"Full-service luxury relocation partner for senior clients across the UK — packing, removals, legal coordination, storage and post-move settling-in support."}</script><!-- SEOAI:ORGANIZATIONSCHEMA:END -->
+<!-- SEOAI:ORGANIZATIONSCHEMA:START -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MovingCompany",
+  "@id": "{{ site.url }}/#organization",
+  "name": "{{ site.name }}",
+  "url": "{{ site.url }}/",
+  "telephone": "{{ site.telephone }}",
+  "email": "{{ site.email }}",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "{{ site.address.streetAddress }}",
+    "addressLocality": "{{ site.address.addressLocality }}",
+    "postalCode": "{{ site.address.postalCode }}",
+    "addressCountry": "{{ site.address.addressCountry }}"
+  },
+  "areaServed": "GB",
+  "description": "Full-service luxury relocation partner for senior clients across the UK — packing, removals, legal coordination, storage and post-move settling-in support."
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": "{{ site.url }}/#website",
+  "name": "{{ site.name }}",
+  "url": "{{ site.url }}/",
+  "publisher": { "@id": "{{ site.url }}/#organization" }
+}
+</script>
+<!-- SEOAI:ORGANIZATIONSCHEMA:END -->
 
 <!-- ============ FOOTER — redesigned ============ -->
 

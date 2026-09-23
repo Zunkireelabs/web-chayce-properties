@@ -86,6 +86,13 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "src/robots.txt": "robots.txt" });
   eleventyConfig.addPassthroughCopy({ "src/llms.txt": "llms.txt" });
 
+  // Nunjucks' selectattr only supports its own built-in tests (no "equalto",
+  // unlike Jinja2) — this is a plain, reliable lookup for site.json's
+  // packages array from a page's own front-matter key.
+  eleventyConfig.addNunjucksFilter("findByKey", (arr, key) =>
+    (arr || []).find((item) => item.key === key)
+  );
+
   eleventyConfig.addNunjucksAsyncShortcode("image", imageShortcode);
   eleventyConfig.addNunjucksAsyncShortcode("imageUrl", imageUrlShortcode);
   eleventyConfig.addNunjucksAsyncShortcode("imageSet", imageSetShortcode);
