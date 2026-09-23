@@ -1,5 +1,6 @@
 ---
 title: "Get Started | Chayce Properties"
+description: "Start your relocation journey with Chayce Properties — a guided, no-pressure conversation to help you find the right UK moving or downsizing package."
 bodyClass: "page-template page-loaded"
 homeNav: false
 activeKey: "get-started"
@@ -38,7 +39,7 @@ headExtra: |
   .gs-progress li .num{width:32px;height:32px;border-radius:50%;border:2px solid #ddd;display:flex;align-items:center;justify-content:center;font-size:14px;color:#999;transition:.3s;font-weight:700}
   .gs-progress li.done .num{background:#c8a96e;border-color:#c8a96e;color:#fff}
   .gs-progress li.current{color:#1a1a1a}
-  .gs-progress li.current .num{border-color:#c8a96e;color:#c8a96e;font-weight:700}
+  .gs-progress li.current .num{border-color:#8f6a38;color:#8f6a38;font-weight:700}
   .gs-progress li:not(:last-child)::after{content:'';display:inline-block;width:36px;height:1px;background:#ddd;margin:0 14px}
   @media(max-width:600px){.gs-progress{gap:0}.gs-progress li span:not(.num){display:none}.gs-progress li:not(:last-child)::after{width:16px;margin:0 6px}}
   /* step panels */
@@ -120,6 +121,19 @@ headExtra: |
     .gs-card .gs-choice-title{font-size:19px}
     .gs-card-grid--sm .gs-choice-title{font-size:16px}
   }
+  /* ===== Page FAQ ===== */
+  .pg-faq-band{background:#f9f8f6;padding:80px 0}
+  .pg-faq-band .container{max-width:760px}
+  .pg-faq-band h2{font-family:'Playfair',serif;font-size:28px;color:#1a1a1a;margin:0 0 30px;text-align:center}
+  .pg-faq{margin:0}
+  .pg-faq details{border-bottom:1px solid #e6e1d8;padding:20px 0}
+  .pg-faq details:first-child{border-top:1px solid #e6e1d8}
+  .pg-faq summary{list-style:none;cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:18px;font-family:'Playfair',serif;font-size:17px;color:#1a1a1a;font-weight:700}
+  .pg-faq summary::-webkit-details-marker{display:none}
+  .pg-faq summary::after{content:'+';flex-shrink:0;font-family:'Poppins',sans-serif;font-size:19px;font-weight:400;color:#8f6a38}
+  .pg-faq details[open] summary::after{content:'\2212'}
+  .pg-faq p{color:#666;font-size:15px;line-height:1.8;margin:12px 0 0}
+
   </style>
   <script src="/js/wp-includes_js_jquery_jquery.min.js"></script>
   <script src="/js/wp-includes_js_jquery_jquery-migrate.min.js"></script>
@@ -561,11 +575,20 @@ footScripts: |
   </section>
 </div>
 
+<section class="pg-faq-band">
+  <div class="container">
+    <h2>Frequently Asked Questions</h2>
+    <div class="pg-faq">
+          <details><summary>What happens after I submit my enquiry?</summary><p>Someone from the Chayce team will be in touch shortly to talk through your situation and the support that's right for you — you can expect a response within one working day, usually sooner.</p></details>
+          <details><summary>Do I have to commit to a package right away?</summary><p>No. There's no obligation or pressure to book anything — the conversation is about understanding your situation and finding the right fit.</p></details>
+              <details><summary>How early should I get in touch?</summary><p>As early as possible — ideally 3 to 6 months before your intended move date. However, we can accommodate shorter timescales where needed.</p></details>
+          <details><summary>Can I speak to someone before filling out the form?</summary><p>Yes. Call us on 07708 925432 or use our Contact page if you'd rather talk it through first.</p></details>
+          <details><summary>What areas do you cover?</summary><p>We operate across the UK. Please contact us to confirm availability in your specific area.</p></details>
+</div>
+  </div>
+</section>
+
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What happens after I submit my enquiry?", "acceptedAnswer": {"@type": "Answer", "text": "Someone from the Chayce team will be in touch shortly to talk through your situation and the support that's right for you \u2014 you can expect a response within one working day, usually sooner."}}, {"@type": "Question", "name": "Do I have to commit to a package right away?", "acceptedAnswer": {"@type": "Answer", "text": "No. There's no obligation or pressure to book anything \u2014 the conversation is about understanding your situation and finding the right fit."}}, {"@type": "Question", "name": "How early should I get in touch?", "acceptedAnswer": {"@type": "Answer", "text": "As early as possible \u2014 ideally 3 to 6 months before your intended move date. However, we can accommodate shorter timescales where needed."}}, {"@type": "Question", "name": "Can I speak to someone before filling out the form?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Call us on 07708 925432 or use our Contact page if you'd rather talk it through first."}}, {"@type": "Question", "name": "What areas do you cover?", "acceptedAnswer": {"@type": "Answer", "text": "We operate across the UK. Please contact us to confirm availability in your specific area."}}]}</script>
+
 <!-- SEOAI:BREADCRUMBSCHEMA:START --><script type="application/ld+json">{"@type":"BreadcrumbList","@context":"https://schema.org","itemListElement":[{"item":"https://chayceproperties.com/","name":"Chayceproperties","@type":"ListItem","position":1},{"item":"https://chayceproperties.com/get-started","name":"Get Started","@type":"ListItem","position":2}]}</script><!-- SEOAI:BREADCRUMBSCHEMA:END -->
 
-<!-- SEOAI:EXPANDEDCONTENT:START --><div class="gs-step seoai-content-section">
-  <section>
-    <h2>About the Author</h2>
-    <div class="gs-sub"><p class="body-copy">By the Chayceproperties Team</p></div>
-  </section>
-</div><!-- SEOAI:EXPANDEDCONTENT:END -->

@@ -25,4 +25,4 @@ Moving out of a long-time family home is rarely just a logistics problem — it'
 
 By the time moving day arrives, the goal is for it to feel almost uneventful: everything already planned, every box already labeled, every detail already agreed on in advance. That's the difference a [dedicated relocation coordinator](/our-services/) makes.
 
-Ready to talk through your own move? [Get in touch](/contact/) or [start with a free Discovery consultation](/discovery/).
+Ready to talk through your own move? [Get in touch](/contact/) or [start with a Discovery Consultation](/discovery/).

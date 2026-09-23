@@ -1,6 +1,6 @@
 ---
 title: "Downsizing Your Family Home in the UK: A Step-by-Step Guide"
-description: "A practical, dignity-first guide to downsizing a UK family home — sorting belongings, choosing what to keep, and moving into a space that fits your next chapter."
+description: "A practical, dignity-first guide to downsizing a UK family home — sorting belongings, choosing what to keep, and moving into a space that fits your next chapter"
 date: "2026-09-18"
 featuredImage: "https://images.pexels.com/photos/4246085/pexels-photo-4246085.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 featuredImageAlt: "A couple carrying a moving box down the stairs of a family home."
@@ -13,7 +13,7 @@ Downsizing a long-time family home isn't just about square footage — it's abou
 
 ## Start With What Matters, Not What Fits
 
-Rather than measuring furniture against floor plans first, start by listing what genuinely matters — the items with real use or real meaning. Everything else becomes an easier decision once that list exists.
+Rather than measuring furniture against floor plans first, start by listing what genuinely matters — the items with real use or real meaning. [Age UK's guide to downsizing your home](https://trading.ageuk.org.uk/useful-articles/home/a-guide-to-downsizing-your-home/) suggests working room by room and splitting items into simple "keep" and "go" piles — everything else becomes an easier decision once that list exists.
 
 ## Give Yourself More Time Than You Think You Need
 
@@ -29,4 +29,4 @@ Sorting through decades of belongings is rarely a one-person job, physically or 
 
 Understanding what will actually fit in the new home — and where — before moving day arrives makes settling in far less stressful. Our [How It Works](/how-it-works/) page walks through exactly when that planning happens in a Chayce relocation.
 
-Thinking about downsizing in the UK and not sure where to start? [Get in touch](/contact/) or [book a free Discovery Consultation](/discovery/).
+Thinking about downsizing in the UK and not sure where to start? [Get in touch](/contact/) or [book a Discovery Consultation](/discovery/).

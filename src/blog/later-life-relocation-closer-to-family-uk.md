@@ -9,7 +9,7 @@ featuredImageCredit: "Photo via Pexels"
 
 ## A Different Kind of Move
 
-Moving to be nearer family isn't driven by a job or a bigger garden — it's driven by wanting to be close to the people who matter most. That changes what a good relocation looks like, and what support actually helps.
+Moving to be nearer family isn't driven by a job or a bigger garden — it's driven by wanting to be close to the people who matter most. [Age UK's guidance on relationships and family in later life](https://www.ageuk.org.uk/information-advice/health-wellbeing/relationships-family/) highlights just how much regular contact with loved ones matters for wellbeing — which is exactly why this kind of move changes what a good relocation looks like, and what support actually helps.
 
 ## Involve the Family Early, Not Just at the End
 
@@ -29,4 +29,4 @@ With a move like this, the parts worth focusing energy on are the emotional ones
 
 The support shouldn't stop at the front door. Chayce's [Platinum Bespoke](/platinum-bespoke/) package includes ongoing concierge support after the move, to help the new home — and the new area — start to feel familiar.
 
-Thinking about a move closer to family? [Get in touch](/contact/) or [book a free Discovery Consultation](/discovery/) to start planning.
+Thinking about a move closer to family? [Get in touch](/contact/) or [book a Discovery Consultation](/discovery/) to start planning.
