@@ -100,6 +100,19 @@ headExtra: |
   .pkg-order-card{padding:28px 22px}
   .pkg-feature-list li{font-size:14px;gap:12px}
   }
+  /* ===== Package FAQ ===== */
+  .pkg-faq-band{background:#f9f8f6;padding:70px 0}
+  .pkg-faq-band .container{max-width:760px}
+  .pkg-faq-band h2{font-family:'Playfair',serif;font-size:26px;color:#1a1a1a;margin:0 0 28px}
+  .pkg-faq{margin:0}
+  .pkg-faq details{border-bottom:1px solid #e6e1d8;padding:20px 0}
+  .pkg-faq details:first-child{border-top:1px solid #e6e1d8}
+  .pkg-faq summary{list-style:none;cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:18px;font-family:'Playfair',serif;font-size:17px;color:#1a1a1a;font-weight:700}
+  .pkg-faq summary::-webkit-details-marker{display:none}
+  .pkg-faq summary::after{content:'+';flex-shrink:0;font-family:'Poppins',sans-serif;font-size:19px;font-weight:400;color:#8f6a38}
+  .pkg-faq details[open] summary::after{content:'\2212'}
+  .pkg-faq p{color:#666;font-size:15px;line-height:1.8;margin:12px 0 0}
+
   </style>
   <script src="/js/wp-includes_js_jquery_jquery.min.js"></script>
   <script src="/js/wp-includes_js_jquery_jquery-migrate.min.js"></script>
@@ -149,6 +162,16 @@ footScripts: |
         </div>
         <p class="pkg-cross-link">Already know what you need? <a href="/packages/">Compare all packages &rarr;</a></p>
       </aside>
+    </div>
+  </div>
+</section>
+
+<section class="pkg-faq-band">
+  <div class="container">
+    <h2>Frequently Asked Questions</h2>
+    <div class="pkg-faq">
+          <details><summary>What does the Discovery Consultation include?</summary><p>A 1-hour telephone or in-person consultation, a full assessment of your relocation needs, a personalised move plan document, a recommended timeline and budget breakdown, and priority access to Chayce's full-service packages.</p></details>
+          <details><summary>Do I have to book a full package after the Discovery Consultation?</summary><p>No. It's the natural starting point if you're not sure which level of support you need, with no obligation to book anything further.</p></details>
     </div>
   </div>
 </section>
