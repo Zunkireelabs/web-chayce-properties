@@ -139,6 +139,19 @@ headExtra: |
     .pkg-teaser .panel{padding:34px 18px}
     .pkg-teaser h2{font-size:24px}
   }
+  /* ===== Page FAQ ===== */
+  .pg-faq-band{background:#f9f8f6;padding:80px 0}
+  .pg-faq-band .container{max-width:760px}
+  .pg-faq-band h2{font-family:'Playfair',serif;font-size:28px;color:#1a1a1a;margin:0 0 30px;text-align:center}
+  .pg-faq{margin:0}
+  .pg-faq details{border-bottom:1px solid #e6e1d8;padding:20px 0}
+  .pg-faq details:first-child{border-top:1px solid #e6e1d8}
+  .pg-faq summary{list-style:none;cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:18px;font-family:'Playfair',serif;font-size:17px;color:#1a1a1a;font-weight:700}
+  .pg-faq summary::-webkit-details-marker{display:none}
+  .pg-faq summary::after{content:'+';flex-shrink:0;font-family:'Poppins',sans-serif;font-size:19px;font-weight:400;color:#8f6a38}
+  .pg-faq details[open] summary::after{content:'\2212'}
+  .pg-faq p{color:#666;font-size:15px;line-height:1.8;margin:12px 0 0}
+
   </style>
   <link rel="stylesheet" href="/css/chayce-nav.css">
 footScripts: |
@@ -368,6 +381,18 @@ footScripts: |
     </div>
   </div>
 </section>
+
+<section class="pg-faq-band">
+  <div class="container">
+    <h2>Frequently Asked Questions</h2>
+    <div class="pg-faq">
+          <details><summary>What's included in Chayce's full-service relocation?</summary><p>Packing, removals, downsizing support, estate agent liaison and settling-in support. Every service sits within one of three stages of your move — preparing, moving, and settling in.</p></details>
+          <details><summary>Do I have to book every service, or can I choose specific ones?</summary><p>Every service can be arranged individually, or combined into one of our tailored packages — from light-touch guidance to complete, white-glove support across your entire move.</p></details>
+    </div>
+  </div>
+</section>
+
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What's included in Chayce's full-service relocation?", "acceptedAnswer": {"@type": "Answer", "text": "Packing, removals, downsizing support, estate agent liaison and settling-in support. Every service sits within one of three stages of your move \u2014 preparing, moving, and settling in."}}, {"@type": "Question", "name": "Do I have to book every service, or can I choose specific ones?", "acceptedAnswer": {"@type": "Answer", "text": "Every service can be arranged individually, or combined into one of our tailored packages \u2014 from light-touch guidance to complete, white-glove support across your entire move."}}]}</script>
 
 <!-- SEOAI:BREADCRUMBSCHEMA:START --><script type="application/ld+json">{"@type":"BreadcrumbList","@context":"https://schema.org","itemListElement":[{"item":"https://chayceproperties.com/","name":"Chayceproperties","@type":"ListItem","position":1},{"item":"https://chayceproperties.com/our-services","name":"Our Services","@type":"ListItem","position":2}]}</script><!-- SEOAI:BREADCRUMBSCHEMA:END -->
 
