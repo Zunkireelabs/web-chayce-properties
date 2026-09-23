@@ -16,12 +16,12 @@ function head(title, depth = 1) {
 if (/^(www\\.)?chayceproperties\\.com$/.test(location.hostname)) {
   var ga = document.createElement('script');
   ga.async = true;
-  ga.src = 'https://www.googletagmanager.com/gtag/js?id=G-QL886WKCTL';
+  ga.src = 'https://www.googletagmanager.com/gtag/js?id=G-RXT1PVN3Z0';
   document.head.appendChild(ga);
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', 'G-QL886WKCTL');
+  gtag('config', 'G-RXT1PVN3Z0');
 }
 </script>
 <title>${title.replace(/<[^>]+>/g, '')} | Chayce Properties</title>

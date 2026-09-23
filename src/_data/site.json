@@ -14,6 +14,11 @@
     "longitude": -0.89878
   },
   "priceRange": "£150-£6500",
+  "openingHours": {
+    "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+    "opens": "09:00",
+    "closes": "17:30"
+  },
   "defaultOgImage": "https://chayceproperties.com/images/chayce-og-image.jpg",
   "packages": [
     { "key": "discovery", "name": "Discovery Consultation", "price": "150", "url": "/discovery" },
