@@ -33,7 +33,7 @@ headExtra: |
       <div class="col-md-4">
         <div class="news-card" style="margin-bottom:40px">
           {% if post.data.featuredImage %}
-          <figure><img src="{{ post.data.featuredImage }}" alt="{{ post.data.featuredImageAlt | default(post.data.title) }}"></figure>
+          <figure><img src="{{ post.data.featuredImage }}" alt="{{ post.data.featuredImageAlt | default(post.data.title) }}" width="940" height="650"></figure>
           {% endif %}
           <span>{{ post.date | readableDate }}</span>
           <h5><a href="{{ post.url }}">{{ post.data.title }}</a></h5>
