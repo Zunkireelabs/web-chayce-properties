@@ -68,11 +68,16 @@ headExtra: |
   .svc-row:hover::before{background:#c8a96e}
   .svc-row .svc-name{display:block;font-family:'Playfair',serif;font-size:18px;color:#1a1a1a;margin-bottom:7px}
   .svc-row .svc-desc{display:block;color:#666;font-size:14.5px;line-height:1.6}
-  /* ===== Meet your coordinator ===== */
-  .coord-feature{display:flex;align-items:center;gap:60px;max-width:1040px;margin:0 auto}
-  .coord-feature figure{flex:1 1 46%;margin:0}
-  .coord-feature img,.coord-feature video{width:100%;height:380px;object-fit:cover;display:block;border-radius:8px}
-  .coord-row{flex:1 1 46%;display:flex;flex-direction:column;gap:16px}
+  /* ===== Meet your coordinator — reversed from the intro-row above (media
+     right there, left here), header integrated into the copy column
+     instead of a separate centered block, so this doesn't read as the
+     same "centered intro + row below" formula a third time ===== */
+  .coord-feature{display:flex;align-items:center;gap:64px;max-width:1080px;margin:0 auto}
+  .coord-feature figure{flex:1 1 44%;margin:0}
+  .coord-feature img,.coord-feature video{width:100%;height:420px;object-fit:cover;display:block;border-radius:8px}
+  .coord-copy{flex:1 1 52%}
+  .coord-copy .home-h2,.coord-copy .body-copy{text-align:left;max-width:none}
+  .coord-row{display:flex;flex-direction:column;gap:14px;margin-top:30px}
   .coord-card{display:flex;align-items:center;gap:16px;text-align:left;padding:18px 22px;border:1px solid #e6e1d8;border-radius:12px}
   .coord-card .avatar{width:52px;height:52px;border-radius:50%;background:#c8a96e;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:19px;color:#fff;font-family:'Playfair',serif}
   .coord-card h5{font-family:'Playfair',serif;color:#1a1a1a;margin:0 0 3px;font-size:16px}
@@ -102,7 +107,6 @@ headExtra: |
   .pkg-preview{display:flex;max-width:900px;margin:50px auto 0;border-top:1px solid #e2ddd2}
   .pkg-preview-item{flex:1 1 0;padding:32px 34px 2px;text-align:center}
   .pkg-preview-item+.pkg-preview-item{border-left:1px solid #e2ddd2}
-  .pkg-preview-item .pkg-num{display:block;font-family:'Playfair',serif;color:#8f6a38;font-size:12.5px;letter-spacing:2px;margin-bottom:14px}
   .pkg-preview-item h4{font-family:'Playfair',serif;font-size:19px;color:#1a1a1a;margin:0 0 8px;transition:color .2s ease}
   .pkg-preview-item p{color:#666;font-size:13.5px;letter-spacing:.2px;margin:0}
   .pkg-preview-item:hover h4{color:#c8a96e}
@@ -111,10 +115,11 @@ headExtra: |
   .why-statement{flex:1 1 42%}
   .why-lead{font-family:'Playfair',serif;font-size:25px;line-height:1.45;color:#1a1a1a;margin:0 0 20px}
   .why-statement .body-copy{max-width:420px}
-  .why-points{flex:1 1 52%;display:flex;flex-direction:column;border-top:1px solid #e2ddd2}
-  .why-point{display:flex;gap:22px;padding:26px 0;border-bottom:1px solid #e2ddd2}
-  .why-point-num{font-family:'Playfair',serif;color:#8f6a38;font-size:14.5px;letter-spacing:1px;flex-shrink:0;padding-top:2px}
-  .why-point h4{font-family:'Playfair',serif;font-size:17px;color:#1a1a1a;margin:0 0 6px}
+  .why-points{flex:1 1 52%;display:flex;flex-direction:column}
+  .why-point{padding:22px 0 22px 20px;border-left:2px solid #e2ddd2;transition:border-color .2s ease}
+  .why-point:hover{border-left-color:#c8a96e}
+  .why-point+.why-point{margin-top:4px}
+  .why-point h4{font-family:'Playfair',serif;font-size:17px;color:#1a1a1a;margin:0 0 6px;letter-spacing:.2px}
   .why-point p{color:#666;font-size:14px;line-height:1.7;margin:0}
   .why-stats{display:flex;justify-content:center;gap:70px;margin:64px auto 0;padding-top:46px;border-top:1px solid #e2ddd2;max-width:1100px}
   .why-stats>div{text-align:center}
@@ -313,17 +318,17 @@ footScripts: |
 <!-- ============ MEET YOUR COORDINATOR ============ -->
 <section class="home-section">
   <div class="container">
-    <div style="text-align:center;max-width:640px;margin:0 auto 50px">
-      <span class="home-eyebrow" style="text-align:center">Your Dedicated Team</span>
-      <h2 class="home-h2" style="text-align:center">You&rsquo;re never navigating this <em>alone.</em></h2>
-      <p class="body-copy" style="max-width:none;margin:0 auto;text-align:center">From your first conversation to the day you&rsquo;re settled in, one dedicated coordinator guides your move &mdash; backed by the full Chayce team of specialists.</p>
-    </div>
     <div class="coord-feature">
       <figure><video autoplay muted loop playsinline preload="metadata" aria-label="Chayce movers carrying boxes into a client's new home"><source src="/videos/chayce-coordinator.mp4" type="video/mp4"></video></figure>
-      <div class="coord-row">
-        <div class="coord-card"><div class="avatar"><i class="fa fa-user"></i></div><div><h5>Lead Consultant</h5><p>Your first point of contact</p></div></div>
-        <div class="coord-card"><div class="avatar"><i class="fa fa-user"></i></div><div><h5>Move Coordinator</h5><p>Manages every detail of your move</p></div></div>
-        <div class="coord-card"><div class="avatar"><i class="fa fa-user"></i></div><div><h5>Staging Specialist</h5><p>Presents your home at its best</p></div></div>
+      <div class="coord-copy">
+        <span class="home-eyebrow">Your Dedicated Team</span>
+        <h2 class="home-h2">You&rsquo;re never navigating this <em>alone.</em></h2>
+        <p class="body-copy">From your first conversation to the day you&rsquo;re settled in, one dedicated coordinator guides your move &mdash; backed by the full Chayce team of specialists.</p>
+        <div class="coord-row">
+          <div class="coord-card"><div class="avatar"><i class="fa fa-user"></i></div><div><h5>Lead Consultant</h5><p>Your first point of contact</p></div></div>
+          <div class="coord-card"><div class="avatar"><i class="fa fa-user"></i></div><div><h5>Move Coordinator</h5><p>Manages every detail of your move</p></div></div>
+          <div class="coord-card"><div class="avatar"><i class="fa fa-user"></i></div><div><h5>Staging Specialist</h5><p>Presents your home at its best</p></div></div>
+        </div>
       </div>
     </div>
   </div>
@@ -373,9 +378,9 @@ footScripts: |
       <div style="margin-top:30px"><a href="/packages/" class="stage-cta">Explore our packages &rarr;</a></div>
     </div>
     <div class="pkg-preview">
-      <div class="pkg-preview-item"><span class="pkg-num">01</span><h4>Home Search</h4><p>Finding the right place.</p></div>
-      <div class="pkg-preview-item"><span class="pkg-num">02</span><h4>Moving Support</h4><p>Making moving day simpler.</p></div>
-      <div class="pkg-preview-item"><span class="pkg-num">03</span><h4>Complete Relocation</h4><p>From search to settled.</p></div>
+      <div class="pkg-preview-item"><h4>Home Search</h4><p>Finding the right place.</p></div>
+      <div class="pkg-preview-item"><h4>Moving Support</h4><p>Making moving day simpler.</p></div>
+      <div class="pkg-preview-item"><h4>Complete Relocation</h4><p>From search to settled.</p></div>
     </div>
   </div>
 </section>
@@ -391,9 +396,9 @@ footScripts: |
         <p class="body-copy">Every client works with a dedicated relocation coordinator who provides discreet, tailored support throughout the journey &mdash; from the first conversation to the day you&rsquo;re settled in.</p>
       </div>
       <div class="why-points">
-        <div class="why-point"><span class="why-point-num">01</span><div><h4>Dedicated coordinator</h4><p>One trusted point of contact from beginning to end.</p></div></div>
-        <div class="why-point"><span class="why-point-num">02</span><div><h4>Local expertise</h4><p>Insight into homes, neighbourhoods, and relocation decisions that help clients move with confidence.</p></div></div>
-        <div class="why-point"><span class="why-point-num">03</span><div><h4>Tailored support</h4><p>Every relocation is shaped around the client&rsquo;s lifestyle, priorities, and individual requirements.</p></div></div>
+        <div class="why-point"><h4>Dedicated coordinator</h4><p>One trusted point of contact from beginning to end.</p></div>
+        <div class="why-point"><h4>Local expertise</h4><p>Insight into homes, neighbourhoods, and relocation decisions that help clients move with confidence.</p></div>
+        <div class="why-point"><h4>Tailored support</h4><p>Every relocation is shaped around the client&rsquo;s lifestyle, priorities, and individual requirements.</p></div>
       </div>
     </div>
     <div class="why-stats">
