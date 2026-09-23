@@ -20,6 +20,8 @@ if (/^(www\.)?chayceproperties\.com$/.test(location.hostname)) {
 {% if description %}<meta name="description" content="{{ description | safe }}">{% endif %}
 <link rel="canonical" href="{{ canonicalUrl or ('https://chayceproperties.com' + page.url) }}">
 <link rel="icon" type="image/png" href="/images/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <meta property="og:site_name" content="{{ site.name }}">
 <meta property="og:type" content="{{ ogType or 'website' }}">
 <meta property="og:title" content="{{ ogTitle or title | safe }}">
