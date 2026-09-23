@@ -68,6 +68,19 @@ headExtra: |
   .page-hero h1{font-size:30px}
   .news-card figure img{height:200px}
   }
+  /* ===== Page FAQ ===== */
+  .pg-faq-band{background:#f9f8f6;padding:80px 0}
+  .pg-faq-band .container{max-width:760px}
+  .pg-faq-band h2{font-family:'Playfair',serif;font-size:28px;color:#1a1a1a;margin:0 0 30px;text-align:center}
+  .pg-faq{margin:0}
+  .pg-faq details{border-bottom:1px solid #e6e1d8;padding:20px 0}
+  .pg-faq details:first-child{border-top:1px solid #e6e1d8}
+  .pg-faq summary{list-style:none;cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:18px;font-family:'Playfair',serif;font-size:17px;color:#1a1a1a;font-weight:700}
+  .pg-faq summary::-webkit-details-marker{display:none}
+  .pg-faq summary::after{content:'+';flex-shrink:0;font-family:'Poppins',sans-serif;font-size:19px;font-weight:400;color:#8f6a38}
+  .pg-faq details[open] summary::after{content:'\2212'}
+  .pg-faq p{color:#666;font-size:15px;line-height:1.8;margin:12px 0 0}
+
   </style>
   <script src="/js/wp-includes_js_jquery_jquery.min.js"></script>
   <script src="/js/wp-includes_js_jquery_jquery-migrate.min.js"></script>
@@ -117,5 +130,16 @@ footScripts: |
   </div>
 </section>
 
+<section class="pg-faq-band">
+  <div class="container">
+    <h2>Frequently Asked Questions</h2>
+    <div class="pg-faq">
+          <details><summary>Where can I read more from Chayce Properties?</summary><p>Visit our Blog for in-depth guides on senior relocation, downsizing, and moving well later in life.</p></details>
+          <details><summary>What areas do you cover?</summary><p>We operate across the UK. Please contact us to confirm availability in your specific area.</p></details>
+    </div>
+  </div>
+</section>
+
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Where can I read more from Chayce Properties?", "acceptedAnswer": {"@type": "Answer", "text": "Visit our Blog for in-depth guides on senior relocation, downsizing, and moving well later in life."}}, {"@type": "Question", "name": "What areas do you cover?", "acceptedAnswer": {"@type": "Answer", "text": "We operate across the UK. Please contact us to confirm availability in your specific area."}}]}</script>
 
 <script type="application/ld+json">{"@type":"BreadcrumbList","@context":"https://schema.org","itemListElement":[{"item":"https://chayceproperties.com/","name":"Chayceproperties","@type":"ListItem","position":1},{"item":"https://chayceproperties.com/news","name":"News","@type":"ListItem","position":2}]}</script>

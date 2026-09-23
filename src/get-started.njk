@@ -121,6 +121,19 @@ headExtra: |
     .gs-card .gs-choice-title{font-size:19px}
     .gs-card-grid--sm .gs-choice-title{font-size:16px}
   }
+  /* ===== Page FAQ ===== */
+  .pg-faq-band{background:#f9f8f6;padding:80px 0}
+  .pg-faq-band .container{max-width:760px}
+  .pg-faq-band h2{font-family:'Playfair',serif;font-size:28px;color:#1a1a1a;margin:0 0 30px;text-align:center}
+  .pg-faq{margin:0}
+  .pg-faq details{border-bottom:1px solid #e6e1d8;padding:20px 0}
+  .pg-faq details:first-child{border-top:1px solid #e6e1d8}
+  .pg-faq summary{list-style:none;cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:18px;font-family:'Playfair',serif;font-size:17px;color:#1a1a1a;font-weight:700}
+  .pg-faq summary::-webkit-details-marker{display:none}
+  .pg-faq summary::after{content:'+';flex-shrink:0;font-family:'Poppins',sans-serif;font-size:19px;font-weight:400;color:#8f6a38}
+  .pg-faq details[open] summary::after{content:'\2212'}
+  .pg-faq p{color:#666;font-size:15px;line-height:1.8;margin:12px 0 0}
+
   </style>
   <script src="/js/wp-includes_js_jquery_jquery.min.js"></script>
   <script src="/js/wp-includes_js_jquery_jquery-migrate.min.js"></script>
@@ -561,6 +574,18 @@ footScripts: |
     <p>Someone from the Chayce team will be in touch shortly to talk through your situation and the support that&rsquo;s right for you. If it&rsquo;s easier to talk sooner, call us on <a href="tel:07708925432" style="color:#c8a96e;font-weight:600;text-decoration:none">07708&nbsp;925&nbsp;432</a>.</p>
   </section>
 </div>
+
+<section class="pg-faq-band">
+  <div class="container">
+    <h2>Frequently Asked Questions</h2>
+    <div class="pg-faq">
+          <details><summary>What happens after I submit my enquiry?</summary><p>Someone from the Chayce team will be in touch shortly to talk through your situation and the support that's right for you — you can expect a response within one working day, usually sooner.</p></details>
+          <details><summary>Do I have to commit to a package right away?</summary><p>No. There's no obligation or pressure to book anything — the conversation is about understanding your situation and finding the right fit.</p></details>
+    </div>
+  </div>
+</section>
+
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What happens after I submit my enquiry?", "acceptedAnswer": {"@type": "Answer", "text": "Someone from the Chayce team will be in touch shortly to talk through your situation and the support that's right for you \u2014 you can expect a response within one working day, usually sooner."}}, {"@type": "Question", "name": "Do I have to commit to a package right away?", "acceptedAnswer": {"@type": "Answer", "text": "No. There's no obligation or pressure to book anything \u2014 the conversation is about understanding your situation and finding the right fit."}}]}</script>
 
 <!-- SEOAI:BREADCRUMBSCHEMA:START --><script type="application/ld+json">{"@type":"BreadcrumbList","@context":"https://schema.org","itemListElement":[{"item":"https://chayceproperties.com/","name":"Chayceproperties","@type":"ListItem","position":1},{"item":"https://chayceproperties.com/get-started","name":"Get Started","@type":"ListItem","position":2}]}</script><!-- SEOAI:BREADCRUMBSCHEMA:END -->
 
