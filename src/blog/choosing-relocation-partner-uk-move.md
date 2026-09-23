@@ -29,4 +29,4 @@ Ask whether the company can also help with estate agent liaison, legal coordinat
 
 Different moves need different levels of support. Chayce's [package comparison](/packages/) makes it easier to see what's actually included at each tier, rather than comparing quotes with no context for what they cover.
 
-Ready to ask these questions in person? [Get in touch](/contact/) or [book a free Discovery Consultation](/discovery/).
+Ready to ask these questions in person? [Get in touch](/contact/) or [book a Discovery Consultation](/discovery/).
