@@ -85,6 +85,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "src/preview.png": "preview.png" });
   eleventyConfig.addPassthroughCopy({ "src/robots.txt": "robots.txt" });
   eleventyConfig.addPassthroughCopy({ "src/llms.txt": "llms.txt" });
+  eleventyConfig.addPassthroughCopy({ "src/llms-full.txt": "llms-full.txt" });
 
   // Nunjucks' selectattr only supports its own built-in tests (no "equalto",
   // unlike Jinja2) — this is a plain, reliable lookup for site.json's

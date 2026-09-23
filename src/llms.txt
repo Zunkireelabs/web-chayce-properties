@@ -8,24 +8,34 @@ Chayce Properties is not a standard removal company: every client is assigned on
 
 - [Our Services](https://chayceproperties.com/our-services/): the three-stage process — Preparing, Moving, Settling In.
 - [How It Works](https://chayceproperties.com/how-it-works/): what to expect from first contact through move day.
-- [Discovery Consultation](https://chayceproperties.com/discovery/): the free initial 1-hour consultation (in person or by phone) that produces a personalised move plan, timeline and budget.
+- [Discovery Consultation](https://chayceproperties.com/discovery/) — £150: the initial 1-hour consultation (in person or by phone) that produces a personalised move plan, timeline and budget.
 - [Get Started](https://chayceproperties.com/get-started/): how to begin working with Chayce.
 
-## Packages
+## Packages (see /packages/ for full comparison)
 
-- [Bronze Essentials](https://chayceproperties.com/bronze-essentials/): packing, removals and light cleaning for straightforward moves.
-- [Silver Comfort](https://chayceproperties.com/silver-comfort/): full-service move with a dedicated coordinator.
-- [Gold Prestige](https://chayceproperties.com/gold-prestige/): chauffeur-driven viewings, solicitor coordination, home staging, and up to 6 weeks of storage.
-- [Platinum Bespoke](https://chayceproperties.com/platinum-bespoke/): fully bespoke, unlimited-scope relocation with a personal lifestyle concierge and 3 months of post-move support.
+- [Bronze Essentials](https://chayceproperties.com/bronze-essentials/) — from £995: packing, removals and light cleaning for straightforward moves.
+- [Silver Comfort](https://chayceproperties.com/silver-comfort/) — from £1,850: full-service move with a dedicated coordinator.
+- [Gold Prestige](https://chayceproperties.com/gold-prestige/) — from £3,250: chauffeur-driven viewings, solicitor coordination, home staging, and up to 6 weeks of storage.
+- [Platinum Bespoke](https://chayceproperties.com/platinum-bespoke/) — from £6,500: fully bespoke, unlimited-scope relocation with a personal lifestyle concierge and 3 months of post-move support.
 - [Packages overview](https://chayceproperties.com/packages/): side-by-side comparison of all four tiers.
 
 ## Company
 
 - [About Chayce](https://chayceproperties.com/about-chayce/)
-- [Contact](https://chayceproperties.com/contact/): office at Unit F2B Barratt House, Kingsthorpe Road, Northampton NN2 6EZ. Phone 07708 925432. Email info@chayceproperties.com.
+- [Contact](https://chayceproperties.com/contact/): office at Unit F2B Barratt House, Kingsthorpe Road, Northampton NN2 6EZ. Phone 07708 925432. Email info@chayceproperties.com. Hours: Mon–Fri 09:00–17:30, Saturday by appointment.
+- [FAQ](https://chayceproperties.com/faq/): common questions on coverage area, timing, insurance, pricing and how the Discovery Consultation works.
 - [News](https://chayceproperties.com/news/)
-- [Blog](https://chayceproperties.com/blog/)
 
-## Optional
+## Blog
 
-- [FAQ](https://chayceproperties.com/#faq): common questions on coverage area, timing, insurance and how the Discovery Consultation works.
+- [Blog index](https://chayceproperties.com/blog/)
+- [How to Plan a Stress-Free Senior Move](https://chayceproperties.com/blog/how-to-plan-a-stress-free-senior-move/): practical steps for planning a smooth, dignified relocation.
+- [How Much Does a Full-Service Senior Move Cost in the UK?](https://chayceproperties.com/blog/senior-move-cost-uk/): what drives the cost of a senior relocation and how to compare packages.
+- [Downsizing Your Family Home in the UK: A Step-by-Step Guide](https://chayceproperties.com/blog/downsizing-your-family-home-uk-guide/): sorting belongings and choosing what to keep.
+- [Choosing the Right Relocation Partner for Your UK Move](https://chayceproperties.com/blog/choosing-relocation-partner-uk-move/): questions to ask before hiring a relocation partner.
+- [Moving Closer to Family: A Guide to Later-Life Relocation in the UK](https://chayceproperties.com/blog/later-life-relocation-closer-to-family-uk/): planning a later-life move closer to family.
+- [Settling In: Making Your New Home Feel Like Home After a Move](https://chayceproperties.com/blog/settling-in-after-your-move/): making a new home feel settled after relocation.
+
+## Full content
+
+See [llms-full.txt](https://chayceproperties.com/llms-full.txt) for complete inline content — company facts, package pricing and inclusions, and the full FAQ — formatted for direct AI ingestion.
