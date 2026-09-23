@@ -67,10 +67,10 @@
    class only exists in some pages' per-page <style> blocks, so on pages
    without it this credit was inheriting the footer's dim base grey and
    read as unstyled/invisible text, not a link. */
-.footer-credit{display:inline-flex;align-items:center;gap:8px;color:#c9c7c2;font-weight:600}
-.footer-credit .dot{width:6px;height:6px;border-radius:50%;background:#d8b878;flex-shrink:0}
-.footer-credit a{color:#fff;text-decoration:none;font-weight:700;letter-spacing:.2px}
-.footer-credit a:hover{color:#d8b878}
+.footer-credit{display:inline-flex;align-items:center;gap:8px;color:#8a8478;font-weight:400}
+.footer-credit a{display:inline-flex;align-items:center;gap:8px;color:#fff;text-decoration:none;font-weight:700;letter-spacing:.2px;text-transform:lowercase}
+.footer-credit a:hover .footer-credit-icon{opacity:.85}
+.footer-credit-icon{width:22px;height:22px;border-radius:50%;background:#e5402c;display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;transition:opacity .2s ease}
 @media(max-width:991px){
   .chayce-footer .footer-grid{grid-template-columns:1fr 1fr;column-gap:24px;row-gap:32px;padding-bottom:36px}
   .chayce-footer .footer-grid>div:nth-child(1),
