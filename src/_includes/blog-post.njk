@@ -70,14 +70,13 @@ headExtra: |
   </div>
 </section>
 
-{% set relatedPosts = collections.blog | rejectattr("url", "equalto", page.url) | reverse %}
+{% set relatedPosts = collections.blog | relatedPosts(page.url, 3) %}
 {% if relatedPosts.length > 0 %}
 <section class="page-section grey">
   <div class="container">
     <h3 style="font-family:'Playfair',serif;color:#1a1a1a;margin-bottom:30px;">More from Chayce</h3>
     <div class="row">
       {% for post in relatedPosts %}
-      {% if loop.index <= 3 %}
       <div class="col-md-4">
         <div class="news-card" style="margin-bottom:40px">
           {% if post.data.featuredImage %}
@@ -89,7 +88,6 @@ headExtra: |
           <a href="{{ post.url }}" style="color:#c8a96e;font-size:13px;letter-spacing:1px;text-transform:uppercase;text-decoration:none">Read More &rsaquo;</a>
         </div>
       </div>
-      {% endif %}
       {% endfor %}
     </div>
   </div>

@@ -94,6 +94,22 @@ module.exports = function (eleventyConfig) {
     (arr || []).find((item) => item.key === key)
   );
 
+  // Picks `count` related posts for a "More from Chayce" widget using a
+  // circular rotation from the current post's position in the (newest-first)
+  // collection, rather than always the N oldest posts excluding self — that
+  // naive approach meant the newest 1-2 posts almost never got featured on
+  // anyone else's page, leaving them weakly internally linked.
+  eleventyConfig.addNunjucksFilter("relatedPosts", (arr, currentUrl, count) => {
+    const list = arr || [];
+    const idx = list.findIndex((item) => item.url === currentUrl);
+    if (idx === -1) return [];
+    const related = [];
+    for (let i = 1; related.length < count && i < list.length; i++) {
+      related.push(list[(idx + i) % list.length]);
+    }
+    return related;
+  });
+
   eleventyConfig.addNunjucksAsyncShortcode("image", imageShortcode);
   eleventyConfig.addNunjucksAsyncShortcode("imageUrl", imageUrlShortcode);
   eleventyConfig.addNunjucksAsyncShortcode("imageSet", imageSetShortcode);
