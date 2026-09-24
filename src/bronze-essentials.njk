@@ -104,6 +104,22 @@ headExtra: |
   .pkg-faq summary::after{content:'+';flex-shrink:0;font-family:'Poppins',sans-serif;font-size:19px;font-weight:400;color:var(--gold-dark)}
   .pkg-faq details[open] summary::after{content:'\2212'}
   .pkg-faq p{color:var(--grey-mid);font-size:15px;line-height:1.8;margin:12px 0 0}
+  /* ===== Client journey timeline ===== */
+  .pkg-journey{margin:0 0 56px}
+  .pkg-journey h3{font-family:'Playfair',serif;font-size:22px;color:var(--ink);margin:0 0 26px}
+  .pkg-journey-steps{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:22px}
+  .pkg-journey-steps li{display:flex;gap:18px;align-items:flex-start}
+  .pkg-journey-steps .jn{flex:0 0 30px;width:30px;height:30px;border-radius:50%;background:var(--ink);color:#fff;font-size:13px;font-weight:700;display:flex;align-items:center;justify-content:center;font-family:'Playfair',serif}
+  .pkg-journey-steps .jt strong{display:block;color:var(--ink);font-size:15px;margin-bottom:3px}
+  .pkg-journey-steps .jt span{color:var(--grey-mid);font-size:14px;line-height:1.7}
+  /* ===== Composite case study ===== */
+  .composite-case-study{background:var(--bg-cream-deep);border:1px solid var(--border-warm-3);padding:36px 40px}
+  .composite-case-study .cs-label{display:inline-block;font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:var(--gold-dark);font-weight:700;margin-bottom:10px}
+  .composite-case-study h3{font-family:'Playfair',serif;font-size:21px;color:var(--ink);margin:0 0 12px}
+  .composite-case-study p{color:#555;font-size:15px;line-height:1.8;margin:0 0 12px}
+  .composite-case-study p:last-child{margin-bottom:0}
+  .composite-case-study p.cs-note{font-size:13px;color:var(--grey-light);font-style:italic}
+  @media(max-width:600px){.composite-case-study{padding:26px 24px}.pkg-journey-steps{gap:18px}}
 
   </style>
   <script src="/js/wp-includes_js_jquery_jquery.min.js"></script>
@@ -158,6 +174,27 @@ footScripts: |
   </div>
 </section>
 
+<section class="page-section grey">
+  <div class="container" style="max-width:820px">
+    <div class="pkg-journey">
+      <h3>What Happens After You Enquire</h3>
+      <ul class="pkg-journey-steps">
+        <li><span class="jn">1</span><span class="jt"><strong>Send your details</strong><span>Moving dates, property size and any access notes — stairs, parking restrictions, lift access.</span></span></li>
+        <li><span class="jn">2</span><span class="jt"><strong>Your coordinator calls within one working day</strong><span>To confirm the packing and moving-day schedule and answer any questions.</span></span></li>
+        <li><span class="jn">3</span><span class="jt"><strong>Moving day</strong><span>Our team packs, loads, transports and reassembles furniture at your new home, then gives the vacated property a light clean before we leave.</span></span></li>
+      </ul>
+    </div>
+    <div class="composite-case-study">
+      <span class="cs-label">Illustrative composite &mdash; not a real client</span>
+      <h3>A typical Bronze Essentials client journey</h3>
+      <p>A widow in her late 70s was moving from a four-bedroom house to a two-bedroom bungalow twelve miles away, having already exchanged contracts on her new home. She mainly needed the physical move handled well, without paying for property search or staging support she didn't need.</p>
+      <p>Her Bronze Essentials coordinator packed every room, carried out a fully insured removal, reassembled furniture at the new property, and gave the vacated house a light clean before handover.</p>
+      <p>The move was completed in a single day, with keys returned on schedule.</p>
+      <p class="cs-note">This composite illustrates a typical journey through this package, based on patterns across many clients — it is not a specific individual.</p>
+    </div>
+  </div>
+</section>
+
 <section class="pkg-faq-band">
   <div class="container">
     <h2>Frequently Asked Questions</h2>
@@ -166,6 +203,8 @@ footScripts: |
           <details><summary>Who is Bronze Essentials ideal for?</summary><p>Clients who mainly need the physical move handled, typically once you know where you're heading, without paying for services you don't need.</p></details>
               <details><summary>Does Bronze Essentials include a dedicated coordinator?</summary><p>Yes. Every Bronze Essentials move includes a dedicated move coordinator.</p></details>
           <details><summary>Is Bronze Essentials fully insured?</summary><p>Yes. All removals carried out by Chayce are fully insured, including Bronze Essentials.</p></details>
+          <details><summary>Do you pack fragile items like china or artwork?</summary><p>Yes. Fragile and sentimental items are packed with appropriate protective materials as standard, with no extra charge for careful handling.</p></details>
+          <details><summary>What if I haven't found my new home yet — can I still book Bronze?</summary><p>Bronze Essentials assumes your destination is already confirmed. If you're still searching, a Discovery Consultation is the better starting point to work out the right level of support.</p></details>
           <details><summary>What if I need more support than Bronze offers?</summary><p>If your move also involves broader support like staging or legal coordination, Silver Comfort or Gold Prestige may be a better fit — regardless of whether you've already found your home.</p></details>
 </div>
   </div>
@@ -194,4 +233,4 @@ footScripts: |
 </script>
 
 
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What's included in Bronze Essentials?", "acceptedAnswer": {"@type": "Answer", "text": "Professional packing of all rooms, a fully insured removal to your new home, furniture reassembly at destination, light cleaning of the vacated property, and a dedicated move coordinator."}}, {"@type": "Question", "name": "Who is Bronze Essentials ideal for?", "acceptedAnswer": {"@type": "Answer", "text": "Clients who mainly need the physical move handled, typically once you know where you're heading, without paying for services you don't need."}}, {"@type": "Question", "name": "Does Bronze Essentials include a dedicated coordinator?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Every Bronze Essentials move includes a dedicated move coordinator."}}, {"@type": "Question", "name": "Is Bronze Essentials fully insured?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. All removals carried out by Chayce are fully insured, including Bronze Essentials."}}, {"@type": "Question", "name": "What if I need more support than Bronze offers?", "acceptedAnswer": {"@type": "Answer", "text": "If your move also involves broader support like staging or legal coordination, Silver Comfort or Gold Prestige may be a better fit \u2014 regardless of whether you've already found your home."}}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What's included in Bronze Essentials?", "acceptedAnswer": {"@type": "Answer", "text": "Professional packing of all rooms, a fully insured removal to your new home, furniture reassembly at destination, light cleaning of the vacated property, and a dedicated move coordinator."}}, {"@type": "Question", "name": "Who is Bronze Essentials ideal for?", "acceptedAnswer": {"@type": "Answer", "text": "Clients who mainly need the physical move handled, typically once you know where you're heading, without paying for services you don't need."}}, {"@type": "Question", "name": "Does Bronze Essentials include a dedicated coordinator?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Every Bronze Essentials move includes a dedicated move coordinator."}}, {"@type": "Question", "name": "Is Bronze Essentials fully insured?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. All removals carried out by Chayce are fully insured, including Bronze Essentials."}}, {"@type": "Question", "name": "Do you pack fragile items like china or artwork?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Fragile and sentimental items are packed with appropriate protective materials as standard, with no extra charge for careful handling."}}, {"@type": "Question", "name": "What if I haven't found my new home yet \u2014 can I still book Bronze?", "acceptedAnswer": {"@type": "Answer", "text": "Bronze Essentials assumes your destination is already confirmed. If you're still searching, a Discovery Consultation is the better starting point to work out the right level of support."}}, {"@type": "Question", "name": "What if I need more support than Bronze offers?", "acceptedAnswer": {"@type": "Answer", "text": "If your move also involves broader support like staging or legal coordination, Silver Comfort or Gold Prestige may be a better fit \u2014 regardless of whether you've already found your home."}}]}</script>

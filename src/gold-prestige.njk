@@ -104,6 +104,22 @@ headExtra: |
   .pkg-faq summary::after{content:'+';flex-shrink:0;font-family:'Poppins',sans-serif;font-size:19px;font-weight:400;color:var(--gold-dark)}
   .pkg-faq details[open] summary::after{content:'\2212'}
   .pkg-faq p{color:var(--grey-mid);font-size:15px;line-height:1.8;margin:12px 0 0}
+  /* ===== Client journey timeline ===== */
+  .pkg-journey{margin:0 0 56px}
+  .pkg-journey h3{font-family:'Playfair',serif;font-size:22px;color:var(--ink);margin:0 0 26px}
+  .pkg-journey-steps{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:22px}
+  .pkg-journey-steps li{display:flex;gap:18px;align-items:flex-start}
+  .pkg-journey-steps .jn{flex:0 0 30px;width:30px;height:30px;border-radius:50%;background:var(--ink);color:#fff;font-size:13px;font-weight:700;display:flex;align-items:center;justify-content:center;font-family:'Playfair',serif}
+  .pkg-journey-steps .jt strong{display:block;color:var(--ink);font-size:15px;margin-bottom:3px}
+  .pkg-journey-steps .jt span{color:var(--grey-mid);font-size:14px;line-height:1.7}
+  /* ===== Composite case study ===== */
+  .composite-case-study{background:var(--bg-cream-deep);border:1px solid var(--border-warm-3);padding:36px 40px}
+  .composite-case-study .cs-label{display:inline-block;font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:var(--gold-dark);font-weight:700;margin-bottom:10px}
+  .composite-case-study h3{font-family:'Playfair',serif;font-size:21px;color:var(--ink);margin:0 0 12px}
+  .composite-case-study p{color:#555;font-size:15px;line-height:1.8;margin:0 0 12px}
+  .composite-case-study p:last-child{margin-bottom:0}
+  .composite-case-study p.cs-note{font-size:13px;color:var(--grey-light);font-style:italic}
+  @media(max-width:600px){.composite-case-study{padding:26px 24px}.pkg-journey-steps{gap:18px}}
 
   </style>
   <script src="/js/wp-includes_js_jquery_jquery.min.js"></script>
@@ -160,6 +176,30 @@ footScripts: |
   </div>
 </section>
 
+<section class="page-section grey">
+  <div class="container" style="max-width:820px">
+    <div class="pkg-journey">
+      <h3>What Happens After You Enquire</h3>
+      <ul class="pkg-journey-steps">
+        <li><span class="jn">1</span><span class="jt"><strong>Send your details</strong><span>Including whether you're still searching for a home or have somewhere secured.</span></span></li>
+        <li><span class="jn">2</span><span class="jt"><strong>Coordinator call within one working day</strong><span>To scope out viewings, staging and legal support around your timeline.</span></span></li>
+        <li><span class="jn">3</span><span class="jt"><strong>Property search support</strong><span>Chauffeur-driven viewings and estate agent liaison for any properties still under consideration.</span></span></li>
+        <li><span class="jn">4</span><span class="jt"><strong>Sale-side support</strong><span>Full staging and photography of your current property, plus solicitor coordination on both ends.</span></span></li>
+        <li><span class="jn">5</span><span class="jt"><strong>Move &amp; storage</strong><span>A fully insured removal, with up to 6 weeks of storage if your dates don't line up exactly.</span></span></li>
+        <li><span class="jn">6</span><span class="jt"><strong>Settling in</strong><span>White-glove unpacking and styling at your new home.</span></span></li>
+      </ul>
+    </div>
+    <div class="composite-case-study">
+      <span class="cs-label">Illustrative composite &mdash; not a real client</span>
+      <h3>A typical Gold Prestige client journey</h3>
+      <p>A retired couple were relocating 150 miles to be closer to family, but hadn't yet found their new home and needed to manage both ends of the chain at once — selling their existing property while still searching.</p>
+      <p>Their Gold Prestige coordinator arranged chauffeur-driven viewings and liaised directly with the estate agent, while staging and photographing their current property and coordinating both solicitors. When completion dates didn't quite align, storage bridged the gap between the sale and their move-in date.</p>
+      <p>They found and secured a new home within the viewing window, and moved in with three weeks of storage covering the gap before their new-home completion date.</p>
+      <p class="cs-note">This composite illustrates a typical journey through this package, based on patterns across many clients — it is not a specific individual.</p>
+    </div>
+  </div>
+</section>
+
 <section class="pkg-faq-band">
   <div class="container">
     <h2>Frequently Asked Questions</h2>
@@ -168,6 +208,8 @@ footScripts: |
           <details><summary>Is Gold Prestige only for clients still searching for a home?</summary><p>No. It applies whether you're still searching for your next home or have already secured it but need this extra support with viewings, staging or legal coordination.</p></details>
               <details><summary>Does Gold Prestige include storage?</summary><p>Yes, up to 6 weeks of storage is included, alongside chauffeur-driven viewings, estate agent liaison and solicitor coordination.</p></details>
           <details><summary>Is Gold Prestige fully insured?</summary><p>Yes. All removals carried out by Chayce are fully insured, including Gold Prestige.</p></details>
+          <details><summary>What if I already know the area I want but haven't picked a property?</summary><p>Chauffeur-driven viewings and estate agent liaison can be scoped just to that area, so you're only shown homes that genuinely match your search.</p></details>
+          <details><summary>How does the storage work if my sale and move dates don't line up?</summary><p>Up to 6 weeks of storage is included specifically to bridge that gap, so a mismatch between your sale completion and new-home move-in date doesn't hold up the move.</p></details>
           <details><summary>What if I only need the move itself handled?</summary><p>If you've secured your home and only need the move itself handled, Bronze Essentials or Silver Comfort may be sufficient.</p></details>
 </div>
   </div>
@@ -196,4 +238,4 @@ footScripts: |
 </script>
 
 
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Gold Prestige include?", "acceptedAnswer": {"@type": "Answer", "text": "Everything in Silver Comfort, plus chauffeur-driven property viewings, estate agent liaison, solicitor coordination, full home staging with photography, up to 6 weeks of storage, and white-glove unpacking and styling."}}, {"@type": "Question", "name": "Is Gold Prestige only for clients still searching for a home?", "acceptedAnswer": {"@type": "Answer", "text": "No. It applies whether you're still searching for your next home or have already secured it but need this extra support with viewings, staging or legal coordination."}}, {"@type": "Question", "name": "Does Gold Prestige include storage?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, up to 6 weeks of storage is included, alongside chauffeur-driven viewings, estate agent liaison and solicitor coordination."}}, {"@type": "Question", "name": "Is Gold Prestige fully insured?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. All removals carried out by Chayce are fully insured, including Gold Prestige."}}, {"@type": "Question", "name": "What if I only need the move itself handled?", "acceptedAnswer": {"@type": "Answer", "text": "If you've secured your home and only need the move itself handled, Bronze Essentials or Silver Comfort may be sufficient."}}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Gold Prestige include?", "acceptedAnswer": {"@type": "Answer", "text": "Everything in Silver Comfort, plus chauffeur-driven property viewings, estate agent liaison, solicitor coordination, full home staging with photography, up to 6 weeks of storage, and white-glove unpacking and styling."}}, {"@type": "Question", "name": "Is Gold Prestige only for clients still searching for a home?", "acceptedAnswer": {"@type": "Answer", "text": "No. It applies whether you're still searching for your next home or have already secured it but need this extra support with viewings, staging or legal coordination."}}, {"@type": "Question", "name": "Does Gold Prestige include storage?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, up to 6 weeks of storage is included, alongside chauffeur-driven viewings, estate agent liaison and solicitor coordination."}}, {"@type": "Question", "name": "Is Gold Prestige fully insured?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. All removals carried out by Chayce are fully insured, including Gold Prestige."}}, {"@type": "Question", "name": "What if I already know the area I want but haven't picked a property?", "acceptedAnswer": {"@type": "Answer", "text": "Chauffeur-driven viewings and estate agent liaison can be scoped just to that area, so you're only shown homes that genuinely match your search."}}, {"@type": "Question", "name": "How does the storage work if my sale and move dates don't line up?", "acceptedAnswer": {"@type": "Answer", "text": "Up to 6 weeks of storage is included specifically to bridge that gap, so a mismatch between your sale completion and new-home move-in date doesn't hold up the move."}}, {"@type": "Question", "name": "What if I only need the move itself handled?", "acceptedAnswer": {"@type": "Answer", "text": "If you've secured your home and only need the move itself handled, Bronze Essentials or Silver Comfort may be sufficient."}}]}</script>

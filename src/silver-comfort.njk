@@ -104,6 +104,22 @@ headExtra: |
   .pkg-faq summary::after{content:'+';flex-shrink:0;font-family:'Poppins',sans-serif;font-size:19px;font-weight:400;color:var(--gold-dark)}
   .pkg-faq details[open] summary::after{content:'\2212'}
   .pkg-faq p{color:var(--grey-mid);font-size:15px;line-height:1.8;margin:12px 0 0}
+  /* ===== Client journey timeline ===== */
+  .pkg-journey{margin:0 0 56px}
+  .pkg-journey h3{font-family:'Playfair',serif;font-size:22px;color:var(--ink);margin:0 0 26px}
+  .pkg-journey-steps{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:22px}
+  .pkg-journey-steps li{display:flex;gap:18px;align-items:flex-start}
+  .pkg-journey-steps .jn{flex:0 0 30px;width:30px;height:30px;border-radius:50%;background:var(--ink);color:#fff;font-size:13px;font-weight:700;display:flex;align-items:center;justify-content:center;font-family:'Playfair',serif}
+  .pkg-journey-steps .jt strong{display:block;color:var(--ink);font-size:15px;margin-bottom:3px}
+  .pkg-journey-steps .jt span{color:var(--grey-mid);font-size:14px;line-height:1.7}
+  /* ===== Composite case study ===== */
+  .composite-case-study{background:var(--bg-cream-deep);border:1px solid var(--border-warm-3);padding:36px 40px}
+  .composite-case-study .cs-label{display:inline-block;font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:var(--gold-dark);font-weight:700;margin-bottom:10px}
+  .composite-case-study h3{font-family:'Playfair',serif;font-size:21px;color:var(--ink);margin:0 0 12px}
+  .composite-case-study p{color:#555;font-size:15px;line-height:1.8;margin:0 0 12px}
+  .composite-case-study p:last-child{margin-bottom:0}
+  .composite-case-study p.cs-note{font-size:13px;color:var(--grey-light);font-style:italic}
+  @media(max-width:600px){.composite-case-study{padding:26px 24px}.pkg-journey-steps{gap:18px}}
 
   </style>
   <script src="/js/wp-includes_js_jquery_jquery.min.js"></script>
@@ -159,6 +175,29 @@ footScripts: |
   </div>
 </section>
 
+<section class="page-section grey">
+  <div class="container" style="max-width:820px">
+    <div class="pkg-journey">
+      <h3>What Happens After You Enquire</h3>
+      <ul class="pkg-journey-steps">
+        <li><span class="jn">1</span><span class="jt"><strong>Send your details</strong><span>Including whether your current property still needs to go on the market.</span></span></li>
+        <li><span class="jn">2</span><span class="jt"><strong>Coordinator call within one working day</strong><span>To plan sorting, staging and moving dates around your timeline.</span></span></li>
+        <li><span class="jn">3</span><span class="jt"><strong>Sorting &amp; staging</strong><span>We help declutter and stage rooms ahead of viewings, so the property shows well from day one.</span></span></li>
+        <li><span class="jn">4</span><span class="jt"><strong>Moving day</strong><span>Packing, insured removal, and a handover of utility transfers already arranged on your behalf.</span></span></li>
+        <li><span class="jn">5</span><span class="jt"><strong>Settling in</strong><span>Post-move unpacking and setup, plus a deep clean of the vacated home.</span></span></li>
+      </ul>
+    </div>
+    <div class="composite-case-study">
+      <span class="cs-label">Illustrative composite &mdash; not a real client</span>
+      <h3>A typical Silver Comfort client journey</h3>
+      <p>A couple in their early seventies were downsizing from the four-bedroom family home they'd lived in for thirty years, and needed to sell before they could buy. They wanted the whole process — sorting, staging, the sale-side logistics, and the move itself — managed by one point of contact.</p>
+      <p>Their Silver Comfort coordinator ran a sorting and declutter session, staged the property ahead of viewings, arranged the utility transfers, then handled a fully insured removal on moving day, finishing with post-move unpacking and a deep clean of the vacated home.</p>
+      <p>The property was staged and on the market within two weeks, and the new home was unpacked and functional the same day as the move.</p>
+      <p class="cs-note">This composite illustrates a typical journey through this package, based on patterns across many clients — it is not a specific individual.</p>
+    </div>
+  </div>
+</section>
+
 <section class="pkg-faq-band">
   <div class="container">
     <h2>Frequently Asked Questions</h2>
@@ -167,6 +206,8 @@ footScripts: |
           <details><summary>Who is Silver Comfort ideal for?</summary><p>Clients who want a fully coordinated move, with a dedicated coordinator managing everything from packing to settling in, typically once your destination is secured.</p></details>
               <details><summary>Does Silver Comfort include packing and removals?</summary><p>Yes. Silver Comfort includes everything in Bronze Essentials — packing, insured removals, furniture reassembly and light cleaning — plus home sorting, staging, utility transfers and post-move unpacking.</p></details>
           <details><summary>Is Silver Comfort fully insured?</summary><p>Yes. All removals carried out by Chayce are fully insured, including Silver Comfort.</p></details>
+          <details><summary>Can Silver Comfort help before my current home is even on the market?</summary><p>Yes. Sorting and staging typically starts before your property is listed, so it shows well from the first viewing.</p></details>
+          <details><summary>Who manages the utility transfers?</summary><p>Your dedicated coordinator liaises directly with providers to arrange the handover, so you don't have to make the calls yourself.</p></details>
           <details><summary>What if I need broader support, like property viewings or legal coordination?</summary><p>Gold Prestige may be a better fit — it includes viewings, staging and legal coordination on top of everything in Silver Comfort.</p></details>
 </div>
   </div>
@@ -195,4 +236,4 @@ footScripts: |
 </script>
 
 
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Silver Comfort add beyond Bronze Essentials?", "acceptedAnswer": {"@type": "Answer", "text": "Everything in Bronze Essentials, plus home sorting and declutter assistance, property staging for sale, utility transfer management, a deep clean of the vacated property, and post-move unpacking and setup."}}, {"@type": "Question", "name": "Who is Silver Comfort ideal for?", "acceptedAnswer": {"@type": "Answer", "text": "Clients who want a fully coordinated move, with a dedicated coordinator managing everything from packing to settling in, typically once your destination is secured."}}, {"@type": "Question", "name": "Does Silver Comfort include packing and removals?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Silver Comfort includes everything in Bronze Essentials \u2014 packing, insured removals, furniture reassembly and light cleaning \u2014 plus home sorting, staging, utility transfers and post-move unpacking."}}, {"@type": "Question", "name": "Is Silver Comfort fully insured?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. All removals carried out by Chayce are fully insured, including Silver Comfort."}}, {"@type": "Question", "name": "What if I need broader support, like property viewings or legal coordination?", "acceptedAnswer": {"@type": "Answer", "text": "Gold Prestige may be a better fit \u2014 it includes viewings, staging and legal coordination on top of everything in Silver Comfort."}}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Silver Comfort add beyond Bronze Essentials?", "acceptedAnswer": {"@type": "Answer", "text": "Everything in Bronze Essentials, plus home sorting and declutter assistance, property staging for sale, utility transfer management, a deep clean of the vacated property, and post-move unpacking and setup."}}, {"@type": "Question", "name": "Who is Silver Comfort ideal for?", "acceptedAnswer": {"@type": "Answer", "text": "Clients who want a fully coordinated move, with a dedicated coordinator managing everything from packing to settling in, typically once your destination is secured."}}, {"@type": "Question", "name": "Does Silver Comfort include packing and removals?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Silver Comfort includes everything in Bronze Essentials \u2014 packing, insured removals, furniture reassembly and light cleaning \u2014 plus home sorting, staging, utility transfers and post-move unpacking."}}, {"@type": "Question", "name": "Is Silver Comfort fully insured?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. All removals carried out by Chayce are fully insured, including Silver Comfort."}}, {"@type": "Question", "name": "Can Silver Comfort help before my current home is even on the market?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Sorting and staging typically starts before your property is listed, so it shows well from the first viewing."}}, {"@type": "Question", "name": "Who manages the utility transfers?", "acceptedAnswer": {"@type": "Answer", "text": "Your dedicated coordinator liaises directly with providers to arrange the handover, so you don't have to make the calls yourself."}}, {"@type": "Question", "name": "What if I need broader support, like property viewings or legal coordination?", "acceptedAnswer": {"@type": "Answer", "text": "Gold Prestige may be a better fit \u2014 it includes viewings, staging and legal coordination on top of everything in Silver Comfort."}}]}</script>

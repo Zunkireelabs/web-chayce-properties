@@ -104,6 +104,22 @@ headExtra: |
   .pkg-faq summary::after{content:'+';flex-shrink:0;font-family:'Poppins',sans-serif;font-size:19px;font-weight:400;color:var(--gold-dark)}
   .pkg-faq details[open] summary::after{content:'\2212'}
   .pkg-faq p{color:var(--grey-mid);font-size:15px;line-height:1.8;margin:12px 0 0}
+  /* ===== Client journey timeline ===== */
+  .pkg-journey{margin:0 0 56px}
+  .pkg-journey h3{font-family:'Playfair',serif;font-size:22px;color:var(--ink);margin:0 0 26px}
+  .pkg-journey-steps{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:22px}
+  .pkg-journey-steps li{display:flex;gap:18px;align-items:flex-start}
+  .pkg-journey-steps .jn{flex:0 0 30px;width:30px;height:30px;border-radius:50%;background:var(--ink);color:#fff;font-size:13px;font-weight:700;display:flex;align-items:center;justify-content:center;font-family:'Playfair',serif}
+  .pkg-journey-steps .jt strong{display:block;color:var(--ink);font-size:15px;margin-bottom:3px}
+  .pkg-journey-steps .jt span{color:var(--grey-mid);font-size:14px;line-height:1.7}
+  /* ===== Composite case study ===== */
+  .composite-case-study{background:var(--bg-cream-deep);border:1px solid var(--border-warm-3);padding:36px 40px}
+  .composite-case-study .cs-label{display:inline-block;font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:var(--gold-dark);font-weight:700;margin-bottom:10px}
+  .composite-case-study h3{font-family:'Playfair',serif;font-size:21px;color:var(--ink);margin:0 0 12px}
+  .composite-case-study p{color:#555;font-size:15px;line-height:1.8;margin:0 0 12px}
+  .composite-case-study p:last-child{margin-bottom:0}
+  .composite-case-study p.cs-note{font-size:13px;color:var(--grey-light);font-style:italic}
+  @media(max-width:600px){.composite-case-study{padding:26px 24px}.pkg-journey-steps{gap:18px}}
 
   </style>
   <script src="/js/wp-includes_js_jquery_jquery.min.js"></script>
@@ -160,6 +176,30 @@ footScripts: |
   </div>
 </section>
 
+<section class="page-section grey">
+  <div class="container" style="max-width:820px">
+    <div class="pkg-journey">
+      <h3>What Happens After You Enquire</h3>
+      <ul class="pkg-journey-steps">
+        <li><span class="jn">1</span><span class="jt"><strong>Send your details</strong><span>As much or as little as you already know about your plans.</span></span></li>
+        <li><span class="jn">2</span><span class="jt"><strong>Your dedicated senior coordinator calls within one working day</strong><span>To shape a fully bespoke plan around your situation.</span></span></li>
+        <li><span class="jn">3</span><span class="jt"><strong>Search, sale &amp; legal support</strong><span>Chauffeur-driven viewings, estate agent liaison and solicitor coordination on both ends of the move.</span></span></li>
+        <li><span class="jn">4</span><span class="jt"><strong>Design &amp; preparation</strong><span>An interior designer consultation, plus staging and styling planning for your new home.</span></span></li>
+        <li><span class="jn">5</span><span class="jt"><strong>Move day</strong><span>A fully insured removal with white-glove unpacking at your new property.</span></span></li>
+        <li><span class="jn">6</span><span class="jt"><strong>Settling in</strong><span>New-area orientation, local introductions, and 3 months of ongoing concierge support.</span></span></li>
+      </ul>
+    </div>
+    <div class="composite-case-study">
+      <span class="cs-label">Illustrative composite &mdash; not a real client</span>
+      <h3>A typical Platinum Bespoke client journey</h3>
+      <p>A gentleman in his eighties was relocating from London to a village near family, in an area he'd never lived close to before. He wanted every detail of the move — and the months after it — handled personally, from the property search through to feeling genuinely settled.</p>
+      <p>His dedicated senior coordinator managed chauffeur-driven viewings, estate agent and solicitor coordination, an interior designer consultation to shape his new home, and a fully insured, white-glove move. Afterwards, his personal lifestyle concierge arranged introductions to local services and community groups.</p>
+      <p>He moved in with his new home fully styled and ready, and received three months of ongoing concierge check-ins while he found his feet in the area.</p>
+      <p class="cs-note">This composite illustrates a typical journey through this package, based on patterns across many clients — it is not a specific individual.</p>
+    </div>
+  </div>
+</section>
+
 <section class="pkg-faq-band">
   <div class="container">
     <h2>Frequently Asked Questions</h2>
@@ -168,6 +208,8 @@ footScripts: |
           <details><summary>Who is Platinum Bespoke designed for?</summary><p>Clients who want every detail of their relocation handled at the highest standard, from any remaining search work through to the move and settling in, regardless of what stage they're starting from.</p></details>
               <details><summary>What does "unlimited scope" actually mean?</summary><p>Platinum Bespoke includes everything in Gold Prestige, plus a fully bespoke, unlimited scope of service tailored entirely to your situation.</p></details>
           <details><summary>Does Platinum include ongoing support after the move?</summary><p>Yes. 3 months of ongoing post-move concierge support is included, along with a dedicated senior coordinator throughout.</p></details>
+          <details><summary>What does the 3-month post-move concierge actually involve?</summary><p>Your personal lifestyle concierge stays in touch after the move to help with new-area orientation, introductions to local services and community groups, and anything else that comes up while you settle in.</p></details>
+          <details><summary>Can Platinum be tailored if I only need some of these elements?</summary><p>Yes. Platinum Bespoke is fully bespoke by design — your dedicated senior coordinator shapes the scope around what you actually need.</p></details>
           <details><summary>Is Platinum Bespoke fully insured?</summary><p>Yes. All removals carried out by Chayce are fully insured, including Platinum Bespoke.</p></details>
 </div>
   </div>
@@ -196,4 +238,4 @@ footScripts: |
 </script>
 
 
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What's included in the Platinum Bespoke package?", "acceptedAnswer": {"@type": "Answer", "text": "Everything in Gold Prestige, plus a fully bespoke and unlimited scope of service, a personal lifestyle concierge, new area orientation and introductions, an interior designer consultation, 3 months of ongoing post-move concierge support, and a dedicated senior coordinator throughout."}}, {"@type": "Question", "name": "Who is Platinum Bespoke designed for?", "acceptedAnswer": {"@type": "Answer", "text": "Clients who want every detail of their relocation handled at the highest standard, from any remaining search work through to the move and settling in, regardless of what stage they're starting from."}}, {"@type": "Question", "name": "What does \"unlimited scope\" actually mean?", "acceptedAnswer": {"@type": "Answer", "text": "Platinum Bespoke includes everything in Gold Prestige, plus a fully bespoke, unlimited scope of service tailored entirely to your situation."}}, {"@type": "Question", "name": "Does Platinum include ongoing support after the move?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. 3 months of ongoing post-move concierge support is included, along with a dedicated senior coordinator throughout."}}, {"@type": "Question", "name": "Is Platinum Bespoke fully insured?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. All removals carried out by Chayce are fully insured, including Platinum Bespoke."}}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What's included in the Platinum Bespoke package?", "acceptedAnswer": {"@type": "Answer", "text": "Everything in Gold Prestige, plus a fully bespoke and unlimited scope of service, a personal lifestyle concierge, new area orientation and introductions, an interior designer consultation, 3 months of ongoing post-move concierge support, and a dedicated senior coordinator throughout."}}, {"@type": "Question", "name": "Who is Platinum Bespoke designed for?", "acceptedAnswer": {"@type": "Answer", "text": "Clients who want every detail of their relocation handled at the highest standard, from any remaining search work through to the move and settling in, regardless of what stage they're starting from."}}, {"@type": "Question", "name": "What does \"unlimited scope\" actually mean?", "acceptedAnswer": {"@type": "Answer", "text": "Platinum Bespoke includes everything in Gold Prestige, plus a fully bespoke, unlimited scope of service tailored entirely to your situation."}}, {"@type": "Question", "name": "Does Platinum include ongoing support after the move?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. 3 months of ongoing post-move concierge support is included, along with a dedicated senior coordinator throughout."}}, {"@type": "Question", "name": "What does the 3-month post-move concierge actually involve?", "acceptedAnswer": {"@type": "Answer", "text": "Your personal lifestyle concierge stays in touch after the move to help with new-area orientation, introductions to local services and community groups, and anything else that comes up while you settle in."}}, {"@type": "Question", "name": "Can Platinum be tailored if I only need some of these elements?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Platinum Bespoke is fully bespoke by design — your dedicated senior coordinator shapes the scope around what you actually need."}}, {"@type": "Question", "name": "Is Platinum Bespoke fully insured?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. All removals carried out by Chayce are fully insured, including Platinum Bespoke."}}]}</script>
