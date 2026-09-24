@@ -8,7 +8,6 @@ layout: base.njk
 headExtra: |
   <style>
   .chayce-logo-link{text-decoration:none!important}
-  :root{--gold:#c8a96e;--gold-light:#d8b878;--ink:#1a1a1a}
   /* ===== Hero — full-bleed editorial ===== */
   .hiw-hero{position:relative;min-height:92vh;display:flex;align-items:flex-end;background:#0e0f12 url(/images/hiw2-who-senior-couple-bw.jpg) center 22%/cover no-repeat;overflow:hidden}
   .hiw-hero::before{content:'';position:absolute;inset:0;background:
@@ -25,7 +24,7 @@ headExtra: |
   .btn-lg.ghost{background:transparent;color:#fff;border:1px solid rgba(255,255,255,.7)}
   .btn-lg.ghost:hover{background:#fff;color:var(--ink)}
   .scroll-cue{display:inline-flex;align-items:center;gap:12px;color:#cfd0d4;font-family:'Poppins',sans-serif;font-size:11px;letter-spacing:2.5px;text-transform:uppercase}
-  .scroll-cue::after{content:'';width:1px;height:38px;background:linear-gradient(#c8a96e,transparent);display:block;animation:cue 2s ease-in-out infinite}
+  .scroll-cue::after{content:'';width:1px;height:38px;background:linear-gradient(var(--gold),transparent);display:block;animation:cue 2s ease-in-out infinite}
   @keyframes cue{0%{transform:scaleY(0);transform-origin:top}50%{transform:scaleY(1);transform-origin:top}51%{transform-origin:bottom}100%{transform:scaleY(0);transform-origin:bottom}}
   /* ===== Path band — dark reassurance strip ===== */
   .path-band{background:var(--ink);padding:0}
@@ -43,7 +42,7 @@ headExtra: |
   .who-block .container{display:flex;align-items:flex-start;gap:80px}
   .who-media{flex:0 0 42%;position:sticky;top:110px;align-self:flex-start}
   .who-media img{width:100%;height:560px;object-fit:cover;display:block}
-  .who-media .cap{margin-top:16px;font-family:'Poppins',sans-serif;font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:#999;text-align:center}
+  .who-media .cap{margin-top:16px;font-family:'Poppins',sans-serif;font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:var(--grey-light);text-align:center}
   .who-copy{flex:1 1 auto;max-width:560px}
   .who-copy h2{font-family:'Playfair',serif;font-size:clamp(30px,3.4vw,44px);color:var(--ink);margin:0 0 26px;line-height:1.15}
   .who-copy h2 em{color:var(--gold);font-style:normal}
@@ -51,7 +50,7 @@ headExtra: |
   .who-card{border-top:1px solid #e3e0d8;padding:32px 0}
   .who-card:last-child{border-bottom:1px solid #e3e0d8}
   .who-card h4{font-family:'Playfair',serif;font-size:22px;color:var(--ink);margin:0 0 10px}
-  .who-card p{color:#666;font-size:15.5px;line-height:1.8;margin:0 0 16px;max-width:500px}
+  .who-card p{color:var(--grey-mid);font-size:15.5px;line-height:1.8;margin:0 0 16px;max-width:500px}
   .text-link.dark{color:var(--ink);font-family:'Poppins',sans-serif;font-size:13.5px;font-weight:600;letter-spacing:.4px;text-decoration:none}
   .text-link.dark:hover{color:var(--gold)}
   /* ===== Full-bleed quote break ===== */
@@ -61,11 +60,11 @@ headExtra: |
   .quote-break p{font-family:'Playfair',serif;font-style:normal;font-weight:700;font-size:clamp(22px,3vw,32px);line-height:1.5;color:#fff;margin:0 0 24px}
   .quote-break span.attr{display:block;color:var(--gold-light);font-family:'Poppins',sans-serif;font-size:12px;letter-spacing:3px;text-transform:uppercase}
   /* ===== Three stages — alternating statement rows ===== */
-  .stages-block{background:#f9f8f6;padding:130px 0}
+  .stages-block{background:var(--bg-warm);padding:130px 0}
   .stages-head{max-width:640px;margin:0 auto 90px;text-align:center}
   .stages-head h2{font-family:'Playfair',serif;font-size:clamp(30px,3.4vw,42px);color:var(--ink);margin:14px 0 18px}
   .stages-head h2 em{color:var(--gold);font-style:normal}
-  .stages-head p{color:#666;font-size:17px;line-height:1.8;margin:0}
+  .stages-head p{color:var(--grey-mid);font-size:17px;line-height:1.8;margin:0}
   .stage-rows{max-width:980px;margin:0 auto}
   .stage-row{display:flex;align-items:center;gap:60px;padding:44px 0;border-bottom:1px solid #e3e0d8}
   .stage-rows .stage-row:first-child{border-top:1px solid #e3e0d8}
@@ -75,7 +74,7 @@ headExtra: |
   .stage-row.rev .scopy{text-align:right}
   .stage-row .stage-label{display:block;font-family:'Poppins',sans-serif;font-size:11px;letter-spacing:2.5px;text-transform:uppercase;color:var(--gold);margin-bottom:8px;font-weight:700}
   .stage-row h4{font-family:'Playfair',serif;font-size:26px;color:var(--ink);margin:0 0 10px}
-  .stage-row p{color:#666;font-size:16px;line-height:1.8;margin:0;max-width:480px}
+  .stage-row p{color:var(--grey-mid);font-size:16px;line-height:1.8;margin:0;max-width:480px}
   .stage-row.rev p{margin-left:auto}
   .stages-more{text-align:center;margin-top:56px}
   /* ===== The process — dark connected timeline ===== */
@@ -95,19 +94,19 @@ headExtra: |
   .process-item p{color:#9a9da5;font-size:14.5px;line-height:1.75;margin:0}
   /* ===== Not sure / FAQ band ===== */
   .faq-block{background:#fff;padding:130px 0}
-  .next-card{max-width:900px;margin:0 auto 100px;background:#f9f8f6;border:1px solid #e6e1d8;padding:56px;text-align:center}
+  .next-card{max-width:900px;margin:0 auto 100px;background:var(--bg-warm);border:1px solid var(--border-warm-2);padding:56px;text-align:center}
   .next-card h2{font-family:'Playfair',serif;font-size:clamp(26px,3vw,34px);color:var(--ink);margin:14px 0 16px}
   .next-card h2 em{color:var(--gold);font-style:normal}
-  .next-card p{color:#666;font-size:16px;line-height:1.8;max-width:600px;margin:0 auto 28px}
+  .next-card p{color:var(--grey-mid);font-size:16px;line-height:1.8;max-width:600px;margin:0 auto 28px}
   .next-actions{display:flex;align-items:center;justify-content:center;gap:26px;flex-wrap:wrap}
   .hiw-faq{max-width:760px;margin:0 auto}
-  .hiw-faq details{border-bottom:1px solid #e6e1d8;padding:22px 0}
-  .hiw-faq details:first-child{border-top:1px solid #e6e1d8}
+  .hiw-faq details{border-bottom:1px solid var(--border-warm-2);padding:22px 0}
+  .hiw-faq details:first-child{border-top:1px solid var(--border-warm-2)}
   .hiw-faq summary{list-style:none;cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:20px;font-family:'Playfair',serif;font-size:18px;color:var(--ink);font-weight:700}
   .hiw-faq summary::-webkit-details-marker{display:none}
   .hiw-faq summary::after{content:'+';flex-shrink:0;font-family:'Poppins',sans-serif;font-size:20px;font-weight:400;color:var(--gold);transition:transform .2s ease}
   .hiw-faq details[open] summary::after{content:'\2212'}
-  .hiw-faq p{color:#666;font-size:15.5px;line-height:1.8;margin:14px 0 0}
+  .hiw-faq p{color:var(--grey-mid);font-size:15.5px;line-height:1.8;margin:14px 0 0}
   .hiw-faq-more{text-align:center;margin-top:36px}
   /* ===== Split CTA ===== */
   .split-cta{display:flex;min-height:480px}

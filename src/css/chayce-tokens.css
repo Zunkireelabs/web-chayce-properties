@@ -1,0 +1,41 @@
+/* Chayce brand tokens — single source of truth for the palette already in use
+   across pages. Values are unchanged from what pages already hardcode, except
+   for --bg-cream-deep, a new supporting tone one step warmer than --bg-cream,
+   added for content blocks (case studies, credentials) that should read as a
+   notch more emphasised than an ordinary alternating section. */
+:root{
+  /* Brand accent (gold/brass) */
+  --gold:#c8a96e;
+  --gold-light:#d8b878;
+  --gold-lighter:#e3cb96;
+  --gold-dark:#8f6a38;
+
+  /* Core neutrals */
+  --ink:#1a1a1a;
+  --slate:#3d4558;
+
+  /* Greys / text-on-light */
+  --grey-mid:#666;
+  --grey-light:#999;
+  --grey-warm:#8a8478;
+
+  /* Near-white background family, warmest last */
+  --bg-cool:#f9f9f9;
+  --bg-warm:#f9f8f6;
+  --bg-cream:#f9f5ef;
+  --bg-cream-deep:#f6ecda;
+
+  /* Borders */
+  --border-light:#eee;
+  --border-warm:#e7e2d6;
+  --border-warm-2:#e6e1d8;
+  --border-warm-3:#ece7dc;
+
+  /* Footer-specific text */
+  --footer-text:#c9c7c2;
+  --footer-text-dim:#a8a49c;
+
+  /* Font stacks */
+  --font-body:'Poppins',sans-serif;
+  --font-display:'Playfair',serif;
+}

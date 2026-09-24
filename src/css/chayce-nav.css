@@ -12,15 +12,15 @@
 .site-nav-logo img{height:40px;width:auto;display:block;}
 .site-nav-logo .word{display:flex;flex-direction:column;line-height:1.15;}
 .site-nav-logo .word b{font-family:Georgia,serif;font-size:15px;font-weight:700;color:#fff;letter-spacing:2.5px;text-shadow:0 1px 3px rgba(0,0,0,.4);}
-.site-nav-logo .word span{font-family:Georgia,serif;font-size:8px;letter-spacing:3px;color:#e3cb96;font-weight:400;text-shadow:0 1px 3px rgba(0,0,0,.4);}
+.site-nav-logo .word span{font-family:Georgia,serif;font-size:8px;letter-spacing:3px;color:var(--gold-lighter);font-weight:400;text-shadow:0 1px 3px rgba(0,0,0,.4);}
 .site-nav-links{display:flex;align-items:center;gap:28px;}
 .site-nav-links a{font-family:'Poppins',sans-serif;font-size:13.5px;font-weight:600;color:#fff;text-decoration:none;letter-spacing:.2px;padding:8px 0;position:relative;white-space:nowrap;text-shadow:0 1px 3px rgba(0,0,0,.4);}
-.site-nav-links a:hover,.site-nav-links a.active{color:#e3cb96;}
-.site-nav-links a.active::after{content:'';position:absolute;left:0;right:0;bottom:1px;height:2px;background:#e3cb96;}
+.site-nav-links a:hover,.site-nav-links a.active{color:var(--gold-lighter);}
+.site-nav-links a.active::after{content:'';position:absolute;left:0;right:0;bottom:1px;height:2px;background:var(--gold-lighter);}
 .site-nav-divider{width:1px;height:20px;background:rgba(255,255,255,.3);flex-shrink:0;}
 .site-nav-contact{color:#fff!important;}
-.site-nav-cta{background:#c8a96e;color:#fff!important;padding:11px 26px!important;border-radius:2px;font-weight:700!important;text-shadow:none;transition:background .2s ease;}
-.site-nav-cta:hover{background:#1a1a1a!important;color:#fff!important;}
+.site-nav-cta{background:var(--gold);color:#fff!important;padding:11px 26px!important;border-radius:2px;font-weight:700!important;text-shadow:none;transition:background .2s ease;}
+.site-nav-cta:hover{background:var(--ink)!important;color:#fff!important;}
 .site-nav-toggle{display:none;flex-direction:column;justify-content:center;gap:5px;background:none;border:none;cursor:pointer;padding:8px;flex-shrink:0;}
 .site-nav-toggle span{width:24px;height:2px;background:#fff;display:block;transition:.25s ease;box-shadow:0 1px 3px rgba(0,0,0,.4);}
 .site-nav-toggle.open span:nth-child(1){transform:translateY(7px) rotate(45deg);}
@@ -44,30 +44,30 @@
 }
 
 /* ===== Shared footer (2026 redesign) ===== */
-.chayce-footer{background:#1a1a1a;color:#c9c7c2;padding:80px 0 0}
+.chayce-footer{background:var(--ink);color:var(--footer-text);padding:80px 0 0}
 .chayce-footer .footer-grid{display:grid;grid-template-columns:1.3fr 1fr 1fr 1fr 1.1fr;gap:40px;padding-bottom:60px;border-bottom:1px solid rgba(255,255,255,.1)}
-.chayce-footer h5{font-family:'Poppins',sans-serif;font-size:11px;letter-spacing:2px;text-transform:uppercase;color:#8a8478;margin:0 0 20px}
+.chayce-footer h5{font-family:'Poppins',sans-serif;font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--grey-warm);margin:0 0 20px}
 .chayce-footer .brand-name{font-family:Georgia,serif;font-size:17px;font-weight:700;letter-spacing:2.5px;color:#fff;margin:0 0 14px;display:block}
-.chayce-footer .brand-desc{font-size:14px;line-height:1.8;color:#a8a49c;max-width:280px}
+.chayce-footer .brand-desc{font-size:14px;line-height:1.8;color:var(--footer-text-dim);max-width:280px}
 .chayce-footer ul{list-style:none;margin:0;padding:0}
 .chayce-footer ul li{margin-bottom:12px}
-.chayce-footer ul a{color:#c9c7c2;text-decoration:none;font-size:14.5px}
-.chayce-footer ul a:hover{color:#d8b878}
-.chayce-footer .cta-link{color:#d8b878;font-weight:700;font-size:14.5px;text-decoration:none;display:inline-block;margin-top:4px}
+.chayce-footer ul a{color:var(--footer-text);text-decoration:none;font-size:14.5px}
+.chayce-footer ul a:hover{color:var(--gold-light)}
+.chayce-footer .cta-link{color:var(--gold-light);font-weight:700;font-size:14.5px;text-decoration:none;display:inline-block;margin-top:4px}
 .chayce-footer .cta-link:hover{color:#fff}
-.chayce-footer address{font-style:normal;color:#a8a49c;font-size:14.5px;line-height:1.9;margin-bottom:6px}
-.chayce-footer .contact-line{color:#c9c7c2;font-size:14.5px;margin:2px 0}
-.chayce-footer .contact-line a{color:#c9c7c2;text-decoration:none}
-.chayce-footer .contact-line a:hover{color:#d8b878}
-.footer-bottom-row{display:flex;justify-content:space-between;align-items:center;padding:26px 0;font-size:12.5px;color:#8a8478;flex-wrap:wrap;gap:10px}
+.chayce-footer address{font-style:normal;color:var(--footer-text-dim);font-size:14.5px;line-height:1.9;margin-bottom:6px}
+.chayce-footer .contact-line{color:var(--footer-text);font-size:14.5px;margin:2px 0}
+.chayce-footer .contact-line a{color:var(--footer-text);text-decoration:none}
+.chayce-footer .contact-line a:hover{color:var(--gold-light)}
+.footer-bottom-row{display:flex;justify-content:space-between;align-items:center;padding:26px 0;font-size:12.5px;color:var(--grey-warm);flex-wrap:wrap;gap:10px}
 .footer-legal{display:flex;gap:22px;flex-wrap:wrap}
-.footer-legal a{color:#8a8478;text-decoration:none;font-size:12.5px}
-.footer-legal a:hover{color:#d8b878}
+.footer-legal a{color:var(--grey-warm);text-decoration:none;font-size:12.5px}
+.footer-legal a:hover{color:var(--gold-light)}
 /* Standalone styling, not reliant on any page's own .text-link — that
    class only exists in some pages' per-page <style> blocks, so on pages
    without it this credit was inheriting the footer's dim base grey and
    read as unstyled/invisible text, not a link. */
-.footer-credit{display:inline-flex;align-items:center;gap:8px;color:#8a8478;font-weight:400}
+.footer-credit{display:inline-flex;align-items:center;gap:8px;color:var(--grey-warm);font-weight:400}
 .footer-credit a{display:inline-flex;align-items:center;gap:8px;color:#fff;text-decoration:none;font-weight:700;letter-spacing:.2px;text-transform:lowercase}
 .footer-credit a:hover .footer-credit-icon{opacity:.85}
 .footer-credit-icon{width:22px;height:22px;flex-shrink:0;transition:opacity .2s ease;display:block}
