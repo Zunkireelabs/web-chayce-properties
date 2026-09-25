@@ -5,6 +5,15 @@ date: "2026-09-20"
 featuredImage: "https://images.pexels.com/photos/6969831/pexels-photo-6969831.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 featuredImageAlt: "A furnished living room with two upholstered armchairs in a new home."
 featuredImageCredit: "Photo via Pexels"
+faq:
+  - q: "What's the best way to unpack after a move?"
+    a: "Unpack room by room, with furniture placed the way it's meant to stay, rather than working through boxes in whatever order they happen to be stacked — it gets a new home feeling settled far faster."
+  - q: "How can I make a new house feel like home quickly?"
+    a: "Keep one or two familiar, meaningful objects visible somewhere in the first few days. A few chosen pieces do more to make a space feel like home early on than a fully unpacked kitchen does."
+  - q: "How long does it take to feel settled in a new area?"
+    a: "A few weeks is normal. Feeling settled isn't only about the house — local routines, a regular coffee spot, a familiar walk all take time to build."
+  - q: "Does Chayce offer support after moving day?"
+    a: "Yes. The Platinum Bespoke package includes 3 months of post-move concierge support, since settling in is treated as a process rather than a single afternoon."
 ---
 
 ## Moving Day Isn't the Finish Line

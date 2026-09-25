@@ -1,0 +1,55 @@
+/* Chayce brand tokens — Round 9: White / Navy / Gold / Charcoal.
+   Matches how real, established relocation companies actually use colour
+   (Crown Relocations, International Van Lines): clean white/near-white
+   backgrounds, one confident saturated brand colour (Navy) for buttons and
+   accents, gold reserved for small genuine highlight moments (matches the
+   logo file, which is untouched), true neutral charcoal for headings/dark
+   sections — not a cream/parchment family. */
+:root{
+  /* Brand accent (gold) — logo-exact, used sparingly for small highlights */
+  --gold:#C8A96E;
+  --gold-light:#D8B878;
+  --gold-lighter:#E3CB96;
+  --gold-dark:#8F6A38;
+
+  /* Primary accent — Navy (buttons, CTAs, signature highlight) */
+  --navy:#1B2A4A;
+  --navy-dark:#101A2E;
+
+  /* Aliases so every Round 7 --oxblood/--loden reference (buttons, Gold
+     Prestige's signature accent, Silver Comfort's secondary accent) picks
+     up the new system automatically, with zero per-file edits needed */
+  --oxblood:var(--navy);
+  --oxblood-dark:var(--navy-dark);
+  --loden:#5B6470;
+  --chalk:var(--bg-warm);
+
+  /* Core neutrals — true charcoal, not warm brown */
+  --ink:#23283A;
+  --slate:#23283A;
+
+  /* Greys / text-on-light */
+  --grey-mid:#666B76;
+  --grey-light:#9498A2;
+  --grey-warm:#82868F;
+
+  /* Background family — off-white/near-white, not cream/parchment */
+  --bg-cool:#FFFFFF;
+  --bg-warm:#FAFAFA;
+  --bg-cream:#F6F6F6;
+  --bg-cream-deep:#EEEEEE;
+
+  /* Borders — light neutral greys */
+  --border-light:#EAEAEA;
+  --border-warm:#DFDFDF;
+  --border-warm-2:#D4D4D4;
+  --border-warm-3:#C6C6C6;
+
+  /* Footer-specific text (readable on the Charcoal footer) */
+  --footer-text:#D8D9DB;
+  --footer-text-dim:#9A9DA3;
+
+  /* Font stacks */
+  --font-body:'Poppins',sans-serif;
+  --font-display:'Playfair Display',serif;
+}

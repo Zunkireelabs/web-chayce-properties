@@ -1,6 +1,6 @@
 /* cyrillic-ext */
 @font-face {
-  font-family: 'Playfair';
+  font-family: 'Playfair Display';
   font-style: normal;
   font-weight: 400;
   font-stretch: 100%;
@@ -9,7 +9,7 @@
 }
 /* cyrillic */
 @font-face {
-  font-family: 'Playfair';
+  font-family: 'Playfair Display';
   font-style: normal;
   font-weight: 400;
   font-stretch: 100%;
@@ -18,7 +18,7 @@
 }
 /* vietnamese */
 @font-face {
-  font-family: 'Playfair';
+  font-family: 'Playfair Display';
   font-style: normal;
   font-weight: 400;
   font-stretch: 100%;
@@ -27,7 +27,7 @@
 }
 /* latin-ext */
 @font-face {
-  font-family: 'Playfair';
+  font-family: 'Playfair Display';
   font-style: normal;
   font-weight: 400;
   font-stretch: 100%;
@@ -36,7 +36,7 @@
 }
 /* latin */
 @font-face {
-  font-family: 'Playfair';
+  font-family: 'Playfair Display';
   font-style: normal;
   font-weight: 400;
   font-stretch: 100%;

@@ -3,72 +3,61 @@ title: "About Us | Chayce Properties"
 description: "Learn about Chayce Properties, a dedicated senior relocation and downsizing specialist serving clients across the UK with care, dignity and discretion."
 bodyClass: "page-template page-loaded"
 homeNav: false
+navGlassy: true
 activeKey: "about-chayce"
 layout: base.njk
 headExtra: |
   <style>
   .chayce-logo-link{text-decoration:none!important}
-  :root{--gold:#c8a96e;--gold-light:#d8b878;--ink:#1a1a1a;--cream:#f9f6f0}
   body{background:#fff}
-  /* ===== Glassy nav override (this page only — page has a light hero, not dark) ===== */
-  .site-nav{background:rgba(249,246,240,.62)!important;border-bottom-color:rgba(20,18,12,.06)!important;-webkit-backdrop-filter:saturate(180%) blur(16px);backdrop-filter:saturate(180%) blur(16px)}
-  .site-nav.scrolled{background:rgba(249,246,240,.86)!important;border-bottom-color:rgba(20,18,12,.08)!important;box-shadow:0 2px 20px rgba(20,18,12,.05)!important}
-  .site-nav-logo .word b{font-family:'Playfair',serif!important;color:var(--ink)!important;text-shadow:none!important;letter-spacing:1.5px!important}
-  .site-nav-logo .word span{font-family:'Poppins',sans-serif!important;color:var(--gold)!important;text-shadow:none!important}
-  .site-nav-links a{color:var(--ink)!important;text-shadow:none!important}
-  .site-nav-links a:hover,.site-nav-links a.active{color:var(--gold)!important}
-  .site-nav-links a.active::after{background:var(--gold)!important}
-  .site-nav-divider{background:rgba(20,18,12,.15)!important}
-  .site-nav-contact{color:var(--ink)!important}
-  .site-nav-toggle span{background:var(--ink)!important;box-shadow:none!important}
-  @media(max-width:900px){
-    .site-nav-links a{color:#fff!important;text-shadow:none!important}
-    .site-nav-contact{color:#fff!important}
-  }
   /* ===== Hero — light editorial split ===== */
-  .ab-hero{background:var(--cream);padding:140px 0 70px;overflow:hidden}
+  .ab-hero{background:var(--bg-cream);padding:120px 0 56px;overflow:hidden}
   .ab-hero .container{display:flex;align-items:center;gap:64px}
   .ab-hero .side-copy{flex:1 1 48%}
-  .ab-hero .breadcrumb{display:block;color:var(--gold);font-family:'Poppins',sans-serif;font-size:12px;letter-spacing:3px;text-transform:uppercase;font-weight:700;margin-bottom:22px}
-  .ab-hero .breadcrumb a{color:#8a8478;text-decoration:none}
-  .ab-hero h1{color:var(--ink);font-family:'Playfair',serif;font-size:clamp(36px,4.6vw,56px);line-height:1.1;font-weight:700;margin:0 0 22px}
+  .ab-hero .breadcrumb{display:block;color:var(--gold);font-family:'Poppins',sans-serif;font-size:14px;letter-spacing:3px;text-transform:uppercase;font-weight:500;margin-bottom:22px}
+  .ab-hero .breadcrumb a{color:var(--grey-warm);text-decoration:none}
+  .ab-hero h1{color:var(--ink);font-family:'Playfair Display',serif;font-size:clamp(36px,4.6vw,56px);line-height:1.1;font-weight:500;margin:0 0 22px}
   .ab-hero h1 em{color:var(--gold);font-style:normal}
   .ab-hero p.lead{color:#555;font-size:18px;line-height:1.75;max-width:460px;margin:0 0 34px}
   .chip-row{display:flex;gap:34px;flex-wrap:wrap;margin-bottom:12px}
   .chip{display:flex;flex-direction:column}
-  .chip b{font-family:'Playfair',serif;font-size:28px;color:var(--gold);line-height:1}
-  .chip span{font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:#8a8478;margin-top:6px}
+  .hero-trust-line{color:var(--grey-mid);font-size:16.5px;margin:0 0 24px}
+  .hero-trust-line strong{color:var(--gold-dark);font-weight:500}
+  .hero-trust-line a{color:var(--gold);text-decoration:underline}
+  #journey{scroll-margin-top:24px}
+  .chip b{font-family:'Poppins',sans-serif;font-weight:500;font-size:28px;color:var(--gold);line-height:1}
+  .chip span{font-size:13px;letter-spacing:1.5px;text-transform:uppercase;color:var(--grey-warm);margin-top:6px}
   .ab-hero .side-media{flex:1 1 52%;position:relative}
   .ab-hero .side-media .frame{position:relative;width:100%}
   .ab-hero .side-media img{width:100%;height:480px;object-fit:cover;object-position:78% 62%;display:block;border-radius:8px;box-shadow:0 30px 70px rgba(20,18,12,.16)}
   /* ===== Section shell ===== */
-  .kicker{display:block;color:var(--gold);font-family:'Poppins',sans-serif;font-size:11.5px;letter-spacing:3px;text-transform:uppercase;font-weight:700;margin-bottom:14px}
-  .btn-lg{display:inline-block;padding:16px 34px;font-size:13px;letter-spacing:2px;text-transform:uppercase;text-decoration:none;font-weight:700;border-radius:2px;font-family:'Poppins',sans-serif;transition:.25s}
-  .btn-lg.primary{background:var(--gold);color:#fff}
-  .btn-lg.primary:hover{background:var(--ink);color:#fff}
+  .kicker{display:block;color:var(--gold);font-family:'Poppins',sans-serif;font-size:13.5px;letter-spacing:3px;text-transform:uppercase;font-weight:500;margin-bottom:14px}
+  .btn-lg{display:inline-block;padding:16px 34px;font-size:15px;letter-spacing:2px;text-transform:uppercase;text-decoration:none;font-weight:500;border-radius:2px;font-family:'Poppins',sans-serif;transition:.25s}
+  .btn-lg.primary{background:var(--oxblood);color:#fff}
+  .btn-lg.primary:hover{background:var(--oxblood-dark);color:#fff}
   /* Two-column editorial header — kicker+h2 left, intro copy right. Used to break the centered-block sameness. */
   .head-split{display:flex;justify-content:space-between;align-items:flex-end;gap:60px;max-width:1120px;margin:0 auto 70px}
   .head-split .htxt{flex:0 1 480px}
-  .head-split .htxt h2{font-family:'Playfair',serif;font-size:clamp(28px,3.2vw,38px);margin:0;line-height:1.25}
-  .head-split .intro{flex:0 1 360px;font-size:15.5px;line-height:1.85;margin:0 0 6px}
+  .head-split .htxt h2{font-family:'Playfair Display',serif;font-size:clamp(28px,3.2vw,38px);margin:0;line-height:1.25}
+  .head-split .intro{flex:0 1 360px;font-size:17.5px;line-height:1.85;margin:0 0 6px}
   /* ===== Story — single-column editorial, offset left ===== */
-  .story-solo{background:#fff;padding:130px 0 100px}
+  .story-solo{background:#fff;padding:72px 0 64px}
   .story-solo .container{max-width:980px;display:flex;gap:0}
-  .story-solo .rail{flex:0 0 210px;position:sticky;top:150px;align-self:flex-start;display:flex;flex-direction:column;align-items:flex-start;padding-right:44px;border-right:1px solid #eee7d8;min-height:420px}
-  .story-solo .rail .rail-idx{font-family:'Playfair',serif;font-size:84px;line-height:1;color:transparent;-webkit-text-stroke:1.5px var(--gold);font-weight:700;margin-bottom:10px}
+  .story-solo .rail{flex:0 0 210px;position:sticky;top:150px;align-self:flex-start;display:flex;flex-direction:column;align-items:flex-start;padding-right:44px;border-right:1px solid var(--border-warm);min-height:420px}
+  .story-solo .rail .rail-idx{font-family:'Poppins',sans-serif;font-weight:500;font-size:84px;line-height:1;color:transparent;-webkit-text-stroke:1.5px var(--gold);font-weight:500;margin-bottom:10px}
   .story-solo .rail .kicker{margin-bottom:0}
   .story-solo .rail .rail-meta{margin-top:auto;padding-top:22px;border-top:1px solid var(--gold);width:100%}
-  .story-solo .rail .rail-meta b{display:block;font-family:'Playfair',serif;font-size:22px;color:var(--ink);margin-bottom:6px}
-  .story-solo .rail .rail-meta span{display:block;font-family:'Poppins',sans-serif;font-size:10.5px;letter-spacing:1.8px;text-transform:uppercase;color:#8a8478}
+  .story-solo .rail .rail-meta b{display:block;font-family:'Poppins',sans-serif;font-weight:500;font-size:22px;color:var(--ink);margin-bottom:6px}
+  .story-solo .rail .rail-meta span{display:block;font-family:'Poppins',sans-serif;font-size:12.5px;letter-spacing:1.8px;text-transform:uppercase;color:var(--grey-warm)}
   .story-solo .copy{flex:1 1 auto;max-width:560px;padding-left:64px}
-  .story-solo h2{font-family:'Playfair',serif;font-size:clamp(26px,3vw,34px);color:var(--ink);margin:0 0 36px;line-height:1.3}
+  .story-solo h2{font-family:'Playfair Display',serif;font-size:clamp(26px,3vw,34px);color:var(--ink);margin:0 0 36px;line-height:1.3}
   .story-solo h2 em{color:var(--gold);font-style:normal}
   .story-solo .lede{font-size:19px;line-height:1.8;color:#2c2c2c;margin:0 0 24px}
-  .story-solo .dropcap{float:left;display:flex;align-items:center;justify-content:center;width:52px;height:52px;background:var(--ink);color:var(--gold-light);font-family:'Playfair',serif;font-size:28px;font-weight:700;margin:2px 16px 4px 0;border-radius:2px}
-  .story-solo p{color:#666;font-size:16px;line-height:1.9;margin:0 0 22px}
-  .story-solo .pull{font-family:'Playfair',serif;font-style:italic;font-size:21px;line-height:1.6;color:var(--ink);margin:36px 0 0;padding-left:22px;border-left:2px solid var(--gold)}
+  .story-solo .dropcap{float:left;display:flex;align-items:center;justify-content:center;width:52px;height:52px;background:var(--ink);color:var(--gold-light);font-family:'Poppins',sans-serif;font-weight:500;font-size:28px;font-weight:500;margin:2px 16px 4px 0;border-radius:2px}
+  .story-solo p{color:var(--grey-mid);font-size:16px;line-height:1.9;margin:0 0 22px}
+  .story-solo .pull{font-family:'Poppins',sans-serif;font-weight:500;font-style:italic;font-size:21px;line-height:1.6;color:var(--ink);margin:36px 0 0;padding-left:22px;border-left:2px solid var(--gold)}
   /* ===== Journey — connected timeline (replaces stat band) ===== */
-  .journey{background:var(--ink);padding:110px 0;position:relative;overflow:hidden}
+  .journey{background:var(--ink);padding:72px 0;position:relative;overflow:hidden}
   .journey::before{content:'';position:absolute;inset:0;background:radial-gradient(circle at 15% 20%,rgba(200,169,110,.14) 0%,rgba(200,169,110,0) 55%)}
   .journey .container{position:relative;z-index:2}
   .journey-head.head-split .htxt h2{color:#fff}
@@ -76,38 +65,58 @@ headExtra: |
   .journey-head.head-split .intro{color:#cfd0d4}
   .timeline{display:flex;max-width:1080px;margin:0 auto;position:relative}
   .tl-node{flex:1;text-align:center;padding:0 22px;position:relative;border-top:1px solid rgba(255,255,255,.18)}
-  .tl-node .yr{font-family:'Poppins',sans-serif;font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--gold-light);display:block;margin:22px 0 12px}
-  .tl-node .n{font-family:'Playfair',serif;font-size:42px;color:#fff;display:block;line-height:1}
-  .tl-node .l{color:#9a9da5;font-size:14.5px;line-height:1.7;margin-top:12px;display:block;max-width:220px;margin-left:auto;margin-right:auto}
+  .tl-node .yr{font-family:'Poppins',sans-serif;font-size:13px;letter-spacing:2px;text-transform:uppercase;color:var(--gold-light);display:block;margin:22px 0 12px}
+  .tl-node .n{font-family:'Poppins',sans-serif;font-weight:500;font-size:42px;color:#fff;display:block;line-height:1}
+  .tl-node .l{color:#9a9da5;font-size:16.5px;line-height:1.7;margin-top:12px;display:block;max-width:220px;margin-left:auto;margin-right:auto}
   /* ===== Quote panel — warm, asymmetric ===== */
-  .quote-panel{background:linear-gradient(135deg,#f3ead9 0%,var(--cream) 60%);padding:120px 0}
+  .quote-panel{background:var(--bg-cream);padding:72px 0}
+  .story-panel{padding:72px 0;background:var(--bg-warm)}
+  .story-panel .moves-head.head-split .htxt h2{color:var(--ink)}
+  .story-panel .moves-head.head-split h2 em{color:var(--gold);font-style:normal}
+  .story-panel .moves-head.head-split .intro{color:var(--grey-mid)}
+  .story-panel .move-row{display:flex;align-items:center;gap:56px;padding:50px 0}
+  .story-panel .move-row+.move-row{border-top:1px solid var(--border-light)}
+  .story-panel .move-row.rev{flex-direction:row-reverse}
+  .story-panel .move-media{flex:1 1 40%}
+  .story-panel .move-media img{width:100%;height:320px;object-fit:cover;border-radius:8px;box-shadow:0 20px 50px rgba(26,26,26,.1);display:block}
+  .story-panel .move-copy{flex:1 1 60%}
+  .story-panel .story-card-body{background:#fff;border-radius:8px;padding:36px 34px;text-align:left;box-shadow:0 2px 24px rgba(26,26,26,.06)}
+  .story-panel .cs-field{margin:0 0 18px;text-align:left}
+  .story-panel .cs-field b{display:block;font-size:13px;letter-spacing:1.5px;text-transform:uppercase;color:var(--gold-dark);font-weight:500;margin-bottom:4px}
+  .story-panel .cs-field span{color:#555;font-size:17.5px;line-height:1.8}
+  .story-panel .sc-byline{display:flex;align-items:center;gap:13px;margin-top:24px;padding-top:22px;border-top:1px solid var(--border-light)}
+  .story-panel .sc-byline .sc-mark{flex:0 0 38px;width:38px;height:38px;border-radius:50%;background:var(--ink);color:#fff;font-family:'Poppins',sans-serif;font-weight:500;font-size:14.5px;font-weight:500;display:flex;align-items:center;justify-content:center}
+  .story-panel .sc-byline .sc-who{display:flex;flex-direction:column}
+  .story-panel .sc-byline .sc-who b{font-size:16px;color:var(--ink);font-weight:500}
+  .story-panel .sc-byline .sc-who span{font-size:13.5px;color:var(--grey-light);letter-spacing:.3px}
+  @media(max-width:600px){.story-panel .story-card-body{padding:30px 24px}}
   .quote-panel .container{max-width:920px;display:flex;gap:50px;align-items:flex-start}
-  .quote-panel .qmark{flex:0 0 auto;font-family:'Playfair',serif;font-size:120px;color:#cfae7a;line-height:.7}
+  .quote-panel .qmark{flex:0 0 auto;font-family:'Playfair Display',serif;font-size:120px;color:var(--gold-light);line-height:.7}
   .quote-panel .qtxt{padding-top:26px}
-  .quote-panel p{font-family:'Playfair',serif;font-style:italic;font-weight:500;font-size:clamp(23px,3vw,32px);line-height:1.5;color:var(--ink);margin:0 0 22px;max-width:620px}
-  .quote-panel span.attr{display:block;color:#8a8478;font-family:'Poppins',sans-serif;font-size:12px;letter-spacing:3px;text-transform:uppercase}
+  .quote-panel p{font-family:'Poppins',sans-serif;font-weight:500;font-size:clamp(21px,2.6vw,28px);line-height:1.6;color:var(--ink);margin:0 0 22px;max-width:620px}
+  .quote-panel span.attr{display:block;color:var(--grey-warm);font-family:'Poppins',sans-serif;font-size:14px;letter-spacing:3px;text-transform:uppercase}
   /* ===== Values — bento mosaic ===== */
-  .values-block{background:#fff;padding:110px 0 120px}
+  .values-block{background:#fff;padding:72px 0 84px}
   .values-head.head-split .htxt h2{color:var(--ink)}
   .values-head.head-split h2 em{color:var(--gold);font-style:normal}
-  .values-head.head-split .intro{color:#666}
+  .values-head.head-split .intro{color:var(--grey-mid)}
   .bento{display:grid;grid-template-columns:repeat(4,1fr);grid-template-rows:repeat(2,auto);gap:22px;max-width:1080px;margin:0 auto}
-  .bento .b-card{background:var(--cream);border-radius:8px;padding:36px 30px;display:flex;flex-direction:column;justify-content:flex-end;min-height:200px;transition:transform .25s ease,box-shadow .25s ease}
+  .bento .b-card{background:var(--bg-cream);border-radius:8px;padding:36px 30px;display:flex;flex-direction:column;justify-content:flex-end;min-height:200px;transition:transform .25s ease,box-shadow .25s ease}
   .bento .b-card:hover{transform:translateY(-5px);box-shadow:0 18px 40px rgba(20,18,12,.1)}
   .bento .b-card.wide{grid-column:span 2}
   .bento .b-card.tall{grid-row:span 2;min-height:auto}
   .bento .b-card.dark{background:var(--ink)}
   .bento .b-card.dark h4,.bento .b-card.dark p{color:#fff}
   .bento .b-card.dark p{color:#b9bac0}
-  .bento .num{font-family:'Playfair',serif;font-size:15px;color:var(--gold);margin-bottom:auto;padding-bottom:20px}
-  .bento h4{font-family:'Playfair',serif;font-size:22px;color:var(--ink);margin:0 0 8px}
-  .bento p{color:#666;font-size:14.5px;line-height:1.7;margin:0}
+  .bento .num{font-family:'Poppins',sans-serif;font-weight:500;font-size:17px;color:var(--gold);margin-bottom:auto;padding-bottom:20px}
+  .bento h4{font-family:'Poppins',sans-serif;font-weight:500;font-size:22px;color:var(--ink);margin:0 0 8px}
+  .bento p{color:var(--grey-mid);font-size:16.5px;line-height:1.7;margin:0}
   /* ===== Final CTA — centered warm panel with corner image ===== */
-  .cta-final{position:relative;background:var(--cream);padding:100px 0}
+  .cta-final{position:relative;background:var(--bg-cream);padding:72px 0}
   .cta-final .panel{max-width:960px;margin:0 auto;background:#fff;border-radius:10px;box-shadow:0 30px 70px rgba(20,18,12,.1);display:flex;align-items:center;overflow:hidden}
   .cta-final .txt{flex:1 1 58%;padding:64px 56px}
-  .cta-final h3{font-family:'Playfair',serif;font-size:clamp(26px,3vw,34px);color:var(--ink);margin:0 0 14px;line-height:1.2}
-  .cta-final p{color:#666;font-size:16px;line-height:1.75;margin:0 0 28px;max-width:420px}
+  .cta-final h3{font-family:'Poppins',sans-serif;font-weight:500;font-size:clamp(26px,3vw,34px);color:var(--ink);margin:0 0 14px;line-height:1.2}
+  .cta-final p{color:var(--grey-mid);font-size:16px;line-height:1.75;margin:0 0 28px;max-width:420px}
   .cta-final .btn-row{display:flex;gap:16px;flex-wrap:wrap}
   .cta-final .btn-lg.ghost{background:transparent;color:var(--ink);border:1px solid rgba(26,26,26,.3);padding:15px 33px}
   .cta-final .btn-lg.ghost:hover{background:var(--ink);color:#fff;border-color:var(--ink)}
@@ -123,7 +132,7 @@ headExtra: |
     .head-split{flex-direction:column;align-items:flex-start;gap:20px;text-align:left}
     .head-split .htxt,.head-split .intro{max-width:100%;flex-basis:auto}
     .story-solo .container{flex-direction:column;gap:24px}
-    .story-solo .rail{position:static;flex-direction:row;flex-basis:auto;align-items:center;gap:20px;padding-right:0;border-right:0;border-bottom:1px solid #eee7d8;padding-bottom:24px;min-height:0}
+    .story-solo .rail{position:static;flex-direction:row;flex-basis:auto;align-items:center;gap:20px;padding-right:0;border-right:0;border-bottom:1px solid var(--border-warm);padding-bottom:24px;min-height:0}
     .story-solo .rail .rail-idx{font-size:44px;margin-bottom:0}
     .story-solo .rail .kicker{margin-bottom:0}
     .story-solo .rail .rail-meta{display:none}
@@ -131,6 +140,8 @@ headExtra: |
     .quote-panel .container{flex-direction:column;gap:2px}
     .quote-panel .qtxt{padding-top:0}
     .quote-panel .qmark{font-size:80px}
+    .story-panel .move-row,.story-panel .move-row.rev{flex-direction:column;gap:28px;padding:36px 0}
+    .story-panel .move-media img{height:220px}
     .timeline{flex-direction:column;gap:0}
     .tl-node{max-width:320px;margin:0 auto;padding:26px 0 0}
     .bento{grid-template-columns:repeat(2,1fr)}
@@ -149,28 +160,28 @@ headExtra: |
     .chip{flex:1 1 0;min-width:0}
     .chip b{font-size:22px}
     .chip span{font-size:9.5px;letter-spacing:1px}
-    .ab-hero .btn-lg{display:block;width:max-content;margin:20px auto 0;padding:13px 26px;font-size:11.5px;letter-spacing:1.5px}
-    .story-solo{padding:70px 0}
+    .ab-hero .btn-lg{display:block;width:max-content;margin:20px auto 0;padding:13px 26px;font-size:13.5px;letter-spacing:1.5px}
+    .story-solo{padding:56px 0 48px}
     .story-solo .lede{font-size:18px}
-    .journey{padding:70px 0}
-    .quote-panel{padding:70px 0}
-    .values-block{padding:70px 0 80px}
+    .journey{padding:56px 0}
+    .quote-panel{padding:56px 0}
+    .values-block{padding:56px 0 64px}
     .bento{grid-template-columns:1fr;gap:16px}
     .bento .b-card.wide,.bento .b-card.tall{grid-column:span 1}
-    .cta-final{padding:60px 0}
+    .cta-final{padding:56px 0}
   }
   /* ===== Page FAQ ===== */
-  .pg-faq-band{background:#f9f8f6;padding:80px 0}
+  .pg-faq-band{background:var(--bg-warm);padding:64px 0}
   .pg-faq-band .container{max-width:760px}
-  .pg-faq-band h2{font-family:'Playfair',serif;font-size:28px;color:#1a1a1a;margin:0 0 30px;text-align:center}
+  .pg-faq-band h2{font-family:'Playfair Display',serif;font-size:28px;color:var(--ink);margin:0 0 30px;text-align:center}
   .pg-faq{margin:0}
-  .pg-faq details{border-bottom:1px solid #e6e1d8;padding:20px 0}
-  .pg-faq details:first-child{border-top:1px solid #e6e1d8}
-  .pg-faq summary{list-style:none;cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:18px;font-family:'Playfair',serif;font-size:17px;color:#1a1a1a;font-weight:700}
+  .pg-faq details{border-bottom:1px solid var(--border-warm-2);padding:20px 0}
+  .pg-faq details:first-child{border-top:1px solid var(--border-warm-2)}
+  .pg-faq summary{list-style:none;cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:18px;font-family:'Poppins',sans-serif;font-weight:500;font-size:17px;color:var(--ink);font-weight:500}
   .pg-faq summary::-webkit-details-marker{display:none}
-  .pg-faq summary::after{content:'+';flex-shrink:0;font-family:'Poppins',sans-serif;font-size:19px;font-weight:400;color:#8f6a38}
+  .pg-faq summary::after{content:'+';flex-shrink:0;font-family:'Poppins',sans-serif;font-size:19px;font-weight:400;color:var(--gold-dark)}
   .pg-faq details[open] summary::after{content:'\2212'}
-  .pg-faq p{color:#666;font-size:15px;line-height:1.8;margin:12px 0 0}
+  .pg-faq p{color:var(--grey-mid);font-size:17px;line-height:1.8;margin:12px 0 0}
 
   </style>
   <link rel="stylesheet" href="/css/chayce-nav.css">
@@ -198,12 +209,8 @@ footScripts: |
       <span class="breadcrumb"><a href="/">Home</a> / About</span>
       <h1>Moving home should <em>feel easier.</em></h1>
       <p class="lead">Chayce Properties exists because moving &mdash; especially later in life &mdash; is rarely just logistics. We built a service around the care, patience and hands-on support that moment actually needs.</p>
-      <div class="chip-row">
-        <div class="chip"><b>98%</b><span>Happy Clients</span></div>
-        <div class="chip"><b>12</b><span>Years Experience</span></div>
-        <div class="chip"><b>650+</b><span>Clients Relocated</span></div>
-      </div>
-      <a href="/our-services/" class="btn-lg primary">View Our Services</a>
+      <p class="hero-trust-line">Newly launched in <strong>2026</strong> &mdash; every move handled by one dedicated, fully insured coordinator. <a href="#journey">See what that means</a>.</p>
+      <a href="/services/" class="btn-lg primary">View Our Services</a>
     </div>
     <div class="side-media">
       <div class="frame">
@@ -218,43 +225,43 @@ footScripts: |
   <div class="container reveal">
     <div class="rail">
       <span class="kicker">Why We Exist</span>
-      <div class="rail-meta"><b>12 Yrs</b><span>Guiding relocations</span></div>
+      <div class="rail-meta"><b>2026</b><span>Newly launched</span></div>
     </div>
     <div class="copy">
       <h2>Moving is a <em>big transition</em> &mdash; we didn&rsquo;t think it should be a lonely one</h2>
       <p class="lede"><span class="dropcap">M</span>oving home is one of life&rsquo;s most significant transitions &mdash; and for seniors, it deserves to be handled with the utmost care, dignity and discretion. At Chayce Properties, we built our entire service around that belief.</p>
       <p>What makes a move overwhelming usually isn&rsquo;t one big thing &mdash; it&rsquo;s dozens of small ones happening at once: sorting a lifetime of belongings, coordinating agents and solicitors, packing, cleaning, transferring utilities, unpacking again. Left to add up, it&rsquo;s exhausting.</p>
-      <p>We are not simply a removal company. We are a full-service relocation partner, dedicated to guiding our clients through their next chapter with grace, compassion and unparalleled attention to detail.</p>
+      <p>We didn&rsquo;t want to be another removal firm doing the same job as everyone else. Chayce exists to be a full-service relocation partner &mdash; one team guiding you through sorting, selling, moving and settling in, with the same coordinator by your side throughout, rather than a different provider for each stage.</p>
       <div class="pull">&ldquo;From sorting and packing to selling and settling in &mdash; we manage it all, so you don&rsquo;t have to.&rdquo;</div>
     </div>
   </div>
 </section>
 
 <!-- ============ JOURNEY — connected timeline ============ -->
-<section class="journey">
+<section class="journey" id="journey">
   <div class="container">
     <div class="journey-head head-split reveal">
       <div class="htxt">
         <span class="kicker" style="color:var(--gold-light)">Our Journey</span>
-        <h2>A decade of moves, <em>handled with care.</em></h2>
+        <h2>A new relocation partner, <em>built with care.</em></h2>
       </div>
-      <p class="intro">What started as a small team helping local families has grown into a dedicated relocation partner &mdash; the numbers behind that journey, so far.</p>
+      <p class="intro">Chayce Properties launched in 2026, built specifically around the needs of senior and later-life relocations &mdash; here's what that commitment looks like in practice, from day one.</p>
     </div>
     <div class="timeline reveal">
       <div class="tl-node">
-        <span class="yr">Since 2014</span>
-        <span class="n">12 Yrs</span>
-        <span class="l">Of dedicated senior relocation experience across the region.</span>
+        <span class="yr">Founded</span>
+        <span class="n">2026</span>
+        <span class="l">Chayce Properties launched with a single focus: relocation done with the care senior moves deserve.</span>
       </div>
       <div class="tl-node">
-        <span class="yr">To Date</span>
-        <span class="n">650+</span>
-        <span class="l">Clients guided through a full home move, start to finish.</span>
+        <span class="yr">Every Move</span>
+        <span class="n">1:1</span>
+        <span class="l">Dedicated move coordinator assigned to every client, from first enquiry to settling in.</span>
       </div>
       <div class="tl-node">
-        <span class="yr">Ongoing</span>
-        <span class="n">98%</span>
-        <span class="l">Of clients say they were happy with their experience with us.</span>
+        <span class="yr">Every Move</span>
+        <span class="n">100%</span>
+        <span class="l">Fully insured &mdash; every removal we carry out, without exception.</span>
       </div>
     </div>
   </div>
@@ -267,6 +274,55 @@ footScripts: |
     <div class="qtxt">
       <p>Every family we work with is trusted with something irreplaceable &mdash; their home, their history. We never forget that.</p>
       <span class="attr">The Chayce Properties Team</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============ REAL MOVE STORIES — zigzag ============ -->
+<section class="story-panel">
+  <div class="container">
+    <div class="moves-head head-split reveal">
+      <div class="htxt">
+        <span class="kicker">Real Move Stories</span>
+        <h2>How we&rsquo;ve helped <em>families like yours</em></h2>
+      </div>
+      <p class="intro">Three real moves we&rsquo;ve coordinated recently &mdash; anonymised at each family&rsquo;s request.</p>
+    </div>
+
+    <div class="move-row reveal">
+      <div class="move-media">{% image "chayce-story-loading-van.jpg", "Packing loaded into a removals van outside a client's home" %}</div>
+      <div class="move-copy">
+        <div class="story-card-body">
+          <div class="cs-field"><b>Situation</b><span>Margaret had already sold her home and secured her new property, but the thought of packing, coordinating removals and leaving the house clean was becoming overwhelming.</span></div>
+          <div class="cs-field"><b>How we helped</b><span>Chayce organised the packing, removals and cleaning, taking the physical workload away from Margaret and leaving her free to focus on the move itself.</span></div>
+          <div class="cs-field"><b>Outcome</b><span>Margaret could move into her new home without spending weeks dealing with boxes, lifting furniture or coordinating several different providers.</span></div>
+          <div class="sc-byline"><span class="sc-mark">M</span><div class="sc-who"><b>Margaret</b><span>Bronze Essentials client</span></div></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="move-row rev reveal">
+      <div class="move-media">{% image "chayce-story-boxes.jpg", "Boxes packed and labelled by room during a downsizing move" %}</div>
+      <div class="move-copy">
+        <div class="story-card-body">
+          <div class="cs-field"><b>Situation</b><span>David and Anne were downsizing from the family home they had lived in for more than 30 years. They had already decided where they were moving, but the number of things that needed organising quickly became too much.</span></div>
+          <div class="cs-field"><b>How we helped</b><span>Their Chayce coordinator managed the packing, removals, cleaning, utility transfers and the practical details around moving day.</span></div>
+          <div class="cs-field"><b>Outcome</b><span>Instead of coordinating several companies themselves, David and Anne had one person overseeing the move from preparation through to arrival.</span></div>
+          <div class="sc-byline"><span class="sc-mark">D&amp;A</span><div class="sc-who"><b>David &amp; Anne</b><span>Silver Comfort clients</span></div></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="move-row reveal">
+      <div class="move-media">{% image "chayce-story-removal-team.jpg", "The full Chayce removal team loading a moving truck" %}</div>
+      <div class="move-copy">
+        <div class="story-card-body">
+          <div class="cs-field"><b>Situation</b><span>Robert's family wanted to make his move as easy as possible. He was leaving a long-established family home, had a large amount of belongings to sort through and needed considerable support before, during and after the move.</span></div>
+          <div class="cs-field"><b>How we helped</b><span>Chayce created a bespoke plan covering the preparation of the home, sorting, packing, relocation, cleaning, setup and ongoing support after the move.</span></div>
+          <div class="cs-field"><b>Outcome</b><span>The family had a single team coordinating the transition, while Robert could focus on settling into his new home rather than managing the logistics.</span></div>
+          <div class="sc-byline"><span class="sc-mark">RF</span><div class="sc-who"><b>Robert&rsquo;s family</b><span>Platinum Bespoke client</span></div></div>
+        </div>
+      </div>
     </div>
   </div>
 </section>
@@ -285,22 +341,22 @@ footScripts: |
       <div class="b-card dark wide">
         <span class="num">01</span>
         <h4>Grace</h4>
-        <p>Every interaction handled with warmth and sensitivity, never rushed.</p>
+        <p>Consultations run for as long as they need to &mdash; an hour is the minimum, not a slot we rush you through.</p>
       </div>
       <div class="b-card tall">
         <span class="num">02</span>
         <h4>Dignity</h4>
-        <p>Your home and your memories &mdash; treated with total respect throughout.</p>
+        <p>You decide what&rsquo;s kept, sold or let go of. Sorting happens at your pace, not on someone else&rsquo;s deadline.</p>
       </div>
       <div class="b-card">
         <span class="num">03</span>
         <h4>Discretion</h4>
-        <p>Completely confidential and professional at every stage.</p>
+        <p>One coordinator handles your move start to finish, so you&rsquo;re never repeating your situation to someone new.</p>
       </div>
       <div class="b-card wide">
         <span class="num">04</span>
         <h4>Excellence</h4>
-        <p>White-glove standards carried through every service we provide.</p>
+        <p>Every removal is fully insured as standard &mdash; not an upgrade you have to ask for.</p>
       </div>
     </div>
   </div>
@@ -325,16 +381,16 @@ footScripts: |
   <div class="container">
     <h2>Frequently Asked Questions</h2>
     <div class="pg-faq">
-          <details><summary>Is Chayce Properties only for senior clients?</summary><p>Our services are designed with seniors in mind, but we welcome anyone who values a premium, fully-managed relocation experience.</p></details>
-          <details><summary>Where is Chayce Properties based?</summary><p>We're based in Northampton and work with clients across the UK.</p></details>
-              <details><summary>What makes Chayce different from a regular removal company?</summary><p>We are a full-service relocation partner, not just a removal company. We manage every aspect of your move — from sorting and packing to estate agent liaison, legal coordination, and post-move setup.</p></details>
+          <details><summary>Is Chayce Properties only for senior clients?</summary><p>Our services are designed with seniors in mind, but we welcome anyone who wants their move managed by one coordinator, start to finish, rather than handled piecemeal.</p></details>
+          <details><summary>Where is Chayce Properties based?</summary><p>We're based in Northampton and work with clients across the UK, including <a href="/relocating-to/london-south-east/">London &amp; the South East</a>, the <a href="/relocating-to/home-counties/">Home Counties</a>, the <a href="/relocating-to/south-west-coast/">South West &amp; coast</a>, and the <a href="/relocating-to/cotswolds-midlands/">Cotswolds &amp; rural Midlands</a>.</p></details>
+              <details><summary>What makes Chayce different from a regular removal company?</summary><p>A regular removal company gets your boxes from A to B. Chayce manages the whole transition — sorting, sale-side support, legal coordination and settling in — through a single relocation partner, rather than several separate providers you have to manage yourself.</p></details>
           <details><summary>Do you offer a single point of contact throughout the move?</summary><p>Yes. Every client works with one dedicated coordinator from the first conversation to the day you're settled in.</p></details>
-          <details><summary>Is my move fully insured?</summary><p>Yes. All removals carried out by Chayce are fully insured.</p></details>
+          <details><summary>Is my move fully insured?</summary><p>Yes, without exception. Every move we carry out is fully insured, and your coordinator can walk you through exactly what that covers before the day itself.</p></details>
 </div>
   </div>
 </section>
 
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Is Chayce Properties only for senior clients?", "acceptedAnswer": {"@type": "Answer", "text": "Our services are designed with seniors in mind, but we welcome anyone who values a premium, fully-managed relocation experience."}}, {"@type": "Question", "name": "Where is Chayce Properties based?", "acceptedAnswer": {"@type": "Answer", "text": "We're based in Northampton and work with clients across the UK."}}, {"@type": "Question", "name": "What makes Chayce different from a regular removal company?", "acceptedAnswer": {"@type": "Answer", "text": "We are a full-service relocation partner, not just a removal company. We manage every aspect of your move \u2014 from sorting and packing to estate agent liaison, legal coordination, and post-move setup."}}, {"@type": "Question", "name": "Do you offer a single point of contact throughout the move?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Every client works with one dedicated coordinator from the first conversation to the day you're settled in."}}, {"@type": "Question", "name": "Is my move fully insured?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. All removals carried out by Chayce are fully insured."}}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Is Chayce Properties only for senior clients?", "acceptedAnswer": {"@type": "Answer", "text": "Our services are designed with seniors in mind, but we welcome anyone who wants their move managed by one coordinator, start to finish, rather than handled piecemeal."}}, {"@type": "Question", "name": "Where is Chayce Properties based?", "acceptedAnswer": {"@type": "Answer", "text": "We're based in Northampton and work with clients across the UK, including London & the South East, the Home Counties, the South West & coast, and the Cotswolds & rural Midlands."}}, {"@type": "Question", "name": "What makes Chayce different from a regular removal company?", "acceptedAnswer": {"@type": "Answer", "text": "A regular removal company gets your boxes from A to B. Chayce manages the whole transition \u2014 sorting, sale-side support, legal coordination and settling in \u2014 through a single relocation partner, rather than several separate providers you have to manage yourself."}}, {"@type": "Question", "name": "Do you offer a single point of contact throughout the move?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Every client works with one dedicated coordinator from the first conversation to the day you're settled in."}}, {"@type": "Question", "name": "Is my move fully insured?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, without exception. Every move we carry out is fully insured, and your coordinator can walk you through exactly what that covers before the day itself."}}]}</script>
 
 <!-- SEOAI:BREADCRUMBSCHEMA:START --><script type="application/ld+json">{"@type":"BreadcrumbList","@context":"https://schema.org","itemListElement":[{"item":"https://chayceproperties.com/","name":"Chayceproperties","@type":"ListItem","position":1},{"item":"https://chayceproperties.com/about-chayce","name":"About Chayce","@type":"ListItem","position":2}]}</script><!-- SEOAI:BREADCRUMBSCHEMA:END -->
 

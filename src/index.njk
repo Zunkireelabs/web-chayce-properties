@@ -10,64 +10,116 @@ headExtra: |
   <style>
   .chayce-logo-link{text-decoration:none!important}
   html{scroll-behavior:smooth}
-  body{color:#1a1a1a}
+  body{color:var(--ink)}
   #footer-packages{scroll-margin-top:24px}
   /* ===== Nav uses the shared glass effect from css/chayce-nav.css (transparent over the hero, blurred glass once scrolled) — same behavior as every other page ===== */
   /* ===== Hero — moving-home imagery, sliding like the live site, one message, one CTA ===== */
-  .home-hero{position:relative;min-height:100vh;display:flex;align-items:center;background:#1a1a1a;overflow:hidden}
+  .home-hero{position:relative;min-height:100vh;display:flex;align-items:center;background:var(--ink);overflow:hidden}
   .hero-slide{position:absolute;inset:0;background-size:cover;background-position:center;opacity:0;transition:opacity 1.2s ease;z-index:0}
   .hero-slide.active{opacity:1}
-  .home-hero::before{content:'';position:absolute;inset:0;background:linear-gradient(180deg,rgba(18,20,26,.55) 0%,rgba(18,20,26,.75) 100%);z-index:1}
-  .home-hero .container{position:relative;z-index:2}
+  .home-hero::before{content:'';position:absolute;inset:0;background:linear-gradient(180deg,rgba(18,20,26,.4) 0%,rgba(18,20,26,.6) 100%),radial-gradient(60% 65% at 50% 45%,rgba(10,11,15,.62) 0%,rgba(10,11,15,.28) 60%,rgba(10,11,15,0) 100%);z-index:1}
+  .home-hero .container{position:relative;z-index:2;text-align:center;display:flex;flex-direction:column;align-items:center;margin-top:160px}
   .home-hero h1,.home-hero p.lead{transition:opacity .5s ease}
-  .hero-dots{display:flex;gap:10px;margin-top:38px}
+  .hero-dots{display:flex;gap:10px;margin-top:38px;justify-content:center}
   .hero-dots button{width:9px;height:9px;border-radius:50%;border:1px solid rgba(255,255,255,.6);background:transparent;padding:0;cursor:pointer;transition:.2s}
-  .hero-dots button.active{background:#d8b878;border-color:#d8b878}
-  .home-hero h1{color:#fff;font-family:'Playfair',serif;font-size:52px;line-height:1.2;font-weight:700;max-width:680px;margin:0 0 22px}
-  .home-hero h1 em{color:#d8b878;font-style:normal}
-  .home-hero p.lead{color:#eceae4;font-size:18px;line-height:1.75;max-width:520px;margin:0 0 34px}
-  .hero-actions{display:flex;align-items:center;gap:30px;flex-wrap:wrap}
-  .btn-lg{display:inline-block;padding:16px 36px;font-size:14px;letter-spacing:1.5px;text-transform:uppercase;text-decoration:none;font-weight:700;border-radius:2px;font-family:'Poppins',sans-serif;transition:.2s}
-  .btn-lg.primary{background:#c8a96e;color:#fff}
-  .btn-lg.primary:hover{background:#1a1a1a;color:#fff}
-  .text-link{color:#fff;font-family:'Poppins',sans-serif;font-size:13.5px;font-weight:600;letter-spacing:.4px;text-decoration:none;transition:.2s}
-  .text-link:hover{color:#d8b878}
-  .text-link.dark{color:#1a1a1a}
-  .text-link.dark:hover{color:#c8a96e}
+  .hero-dots button.active{background:var(--gold-light);border-color:var(--gold-light)}
+  .home-hero h1{color:#fff;font-family:'Playfair Display',serif;font-size:60px;line-height:1.18;font-weight:500;max-width:1020px;margin:0 0 22px;text-shadow:0 3px 18px rgba(0,0,0,.45)}
+  .home-hero h1 em{color:var(--gold-light);font-style:normal}
+  .home-hero p.lead{color:#f1efe9;font-size:18px;line-height:1.95;max-width:620px;margin:0 auto 48px;text-shadow:0 2px 10px rgba(0,0,0,.4)}
+  .hero-actions{display:flex;align-items:center;justify-content:center;gap:30px;flex-wrap:wrap;width:100%}
+  .btn-lg{display:inline-block;padding:16px 36px;font-size:16px;letter-spacing:1.5px;text-transform:uppercase;text-decoration:none;font-weight:500;border-radius:2px;font-family:'Poppins',sans-serif;transition:.2s}
+  .btn-lg.primary{background:var(--oxblood);color:#fff}
+  .btn-lg.primary:hover{background:var(--oxblood-dark);color:#fff}
+  .text-link{color:#fff;font-family:'Poppins',sans-serif;font-size:15.5px;font-weight:500;letter-spacing:.4px;text-decoration:none;transition:.2s}
+  .text-link i{margin-right:7px}
+  .text-link:hover{color:var(--gold-light)}
+  .text-link.dark{color:var(--ink)}
+  .text-link.dark:hover{color:var(--gold)}
   /* ===== Section rhythm ===== */
   .home-section{padding:80px 0}
   .home-section.tight{padding:56px 0}
-  .home-section+.home-section.grey{padding-top:0}
-  .home-section.grey{background:#f9f8f6}
-  .home-eyebrow{display:block;color:#8f6a38;font-family:'Poppins',sans-serif;font-size:11.5px;letter-spacing:3px;text-transform:uppercase;font-weight:700;margin-bottom:16px}
-  .home-h2{font-family:'Playfair',serif;font-size:34px;color:#1a1a1a;margin:0 0 18px;line-height:1.3}
-  .home-h2 em{color:#c8a96e;font-style:normal}
+  .home-section+.home-section,.home-section+.start-band,.start-band+.home-section,.home-section+.final-cta{padding-top:0}
+  .home-section.grey{background:var(--bg-warm)}
+  .home-eyebrow{display:block;color:var(--gold-dark);font-family:'Poppins',sans-serif;font-size:13.5px;letter-spacing:3px;text-transform:uppercase;font-weight:500;margin-bottom:16px}
+  .home-h2{font-family:'Playfair Display',serif;font-size:38px;color:var(--ink);margin:0 0 18px;line-height:1.3}
+  .home-h2 em{color:var(--gold);font-style:normal}
   .body-copy{color:#555;font-size:16.5px;line-height:1.85;max-width:520px;margin:0}
+  /* ===== Real client stories ===== */
+  .stories-band{background:var(--oxblood)}
+  .stories-band .home-eyebrow{color:var(--gold-light)}
+  .stories-band .home-h2{color:#fff}
+  .stories-grid{display:grid;grid-template-columns:1fr 1fr;gap:26px;margin-top:44px}
+  .story-card{position:relative;background:rgba(255,255,255,.045);border:1px solid rgba(255,255,255,.12);padding:38px 36px;display:flex;flex-direction:column;overflow:hidden}
+  .story-card.featured{grid-column:1 / -1}
+  .story-card .qmark{position:absolute;top:8px;right:24px;font-family:'Playfair Display',serif;font-size:76px;color:rgba(200,169,110,.16);line-height:1;pointer-events:none}
+  .story-card p.sc-quote{position:relative;font-family:'Poppins',sans-serif;font-size:16px;line-height:1.85;color:#f2f0eb;margin:0 0 22px;flex:1}
+  .story-card.featured p.sc-quote{font-size:18px;max-width:640px}
+  .sc-byline{display:flex;align-items:center;gap:13px;margin-bottom:16px}
+  .sc-byline .sc-mark{flex:0 0 36px;width:36px;height:36px;border-radius:50%;background:var(--gold);color:var(--ink);font-family:'Poppins',sans-serif;font-weight:500;font-size:14px;font-weight:500;display:flex;align-items:center;justify-content:center}
+  .sc-byline .sc-who{display:flex;flex-direction:column}
+  .sc-byline .sc-who b{font-size:15.5px;color:#fff;font-weight:500}
+  .sc-byline .sc-who span{font-size:13px;color:#a39d92;letter-spacing:.3px}
+  .story-card a{font-size:15px;color:var(--gold-light);font-weight:500;text-decoration:none;margin-top:auto;align-self:flex-start}
+  .story-card a:hover{color:#fff}
+  @media(max-width:900px){.stories-grid{grid-template-columns:1fr}.story-card.featured{grid-column:auto}.story-card.featured p.sc-quote{font-size:17px}}
   /* ===== Intro (editorial, text + image) ===== */
   .intro-row{display:flex;align-items:center;gap:70px}
   .intro-row .copy{flex:1 1 420px}
   .intro-row figure{flex:1 1 420px;margin:0}
-  .intro-row img{width:100%;height:400px;object-fit:cover;display:block}
-  /* ===== What Chayce does — premium cards ===== */
-  .stage-divider{border-top:1px solid #e2ddd2;margin:70px 0 48px}
-  .pms-row{display:flex;gap:26px}
-  .pms-item{flex:1 1 0;background:#fff;border-radius:12px;padding:38px 32px;box-shadow:0 2px 18px rgba(26,26,26,.05);transition:transform .25s ease,box-shadow .25s ease}
-  .pms-item:hover{transform:translateY(-5px);box-shadow:0 16px 32px rgba(26,26,26,.09)}
-  .pms-item .num{display:inline-flex;align-items:center;justify-content:center;width:38px;height:38px;border-radius:50%;background:#f6ecda;font-family:'Poppins',sans-serif;font-size:13px;letter-spacing:1px;color:#8f6a38;font-weight:700;margin-bottom:20px}
-  .pms-item h4{font-family:'Playfair',serif;font-size:21px;color:#1a1a1a;margin:0 0 12px}
-  .pms-item p{color:#666;font-size:14.5px;line-height:1.75;margin:0}
-  .stage-cta{display:inline-flex;align-items:center;gap:9px;margin-top:44px;padding:15px 32px;border:1.5px solid #c8a96e;border-radius:32px;background:#c8a96e;font-family:'Poppins',sans-serif;font-size:12.5px;font-weight:700;letter-spacing:1px;text-transform:uppercase;text-decoration:none;color:#fff;transition:.25s ease}
-  .stage-cta:hover{background:#1a1a1a;border-color:#1a1a1a;color:#fff;gap:13px}
+  .intro-row img{width:100%;height:300px;object-fit:cover;display:block}
+  /* ===== Trust bar — restyled as a badge/pill row (denser trust signal than a thin text line) ===== */
+  .trust-bar{background:#fff;border-bottom:1px solid var(--border-light);padding:30px 0}
+  .trust-bar .container{display:flex;justify-content:center;align-items:center;gap:16px;flex-wrap:wrap}
+  .trust-bar .tb-item{display:flex;align-items:center;gap:10px;padding:11px 22px;border:1px solid var(--border-warm-2);border-radius:30px}
+  .trust-bar .tb-item i{color:var(--gold-dark);font-size:15px}
+  .trust-bar .tb-item span{font-family:'Poppins',sans-serif;font-size:14px;font-weight:500;color:var(--ink);letter-spacing:.2px}
+  /* ===== Value statement — Bishop's Move shape: left-accent heading column + right copy column, a centered contact line, then a dark CTA bar ===== */
+  .value-columns{display:flex;gap:24px;align-items:flex-start}
+  .value-heading{flex:0 0 auto;border-left:2px solid var(--gold);padding-left:26px}
+  .value-heading .home-h2{text-align:left;margin:0;white-space:nowrap;font-size:32px}
+  .value-copy{flex:0 1 620px;padding-top:50px}
+  .value-copy .body-copy{text-align:left;max-width:none}
+  .value-contact{text-align:center;margin-top:32px;color:var(--grey-mid);font-size:16px}
+  .value-contact a{color:var(--gold-dark);text-decoration:none;font-weight:500}
+  .value-contact a:hover{color:var(--ink)}
+  .value-cta-bar{display:flex;align-items:center;justify-content:space-between;gap:24px;max-width:900px;margin:24px auto 0;background:var(--bg-cream-deep);padding:26px 40px}
+  .value-cta-bar span{color:var(--ink);font-family:'Poppins',sans-serif;font-size:19px;font-weight:500}
+  .value-cta-bar a{flex-shrink:0;background:var(--navy);color:#fff;padding:13px 28px;font-family:'Poppins',sans-serif;font-size:13.5px;font-weight:500;letter-spacing:1.5px;text-transform:uppercase;text-decoration:none}
+  .value-cta-bar a:hover{background:var(--navy-dark)}
+  /* ===== Service snapshot — bordered tile grid (Bishop's Move's service-card shape), replaces the three-in-a-row-with-connector ===== */
+  .svc-tile-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:0;margin-top:56px;border-top:1px solid var(--border-warm);border-left:1px solid var(--border-warm)}
+  .svc-tile{padding:40px 34px;border-right:1px solid var(--border-warm);border-bottom:1px solid var(--border-warm)}
+  .svc-tile .num{display:flex;align-items:center;justify-content:center;width:52px;height:52px;border-radius:50%;background:transparent;border:1.5px solid var(--gold);font-family:'Poppins',sans-serif;font-size:17px;letter-spacing:1px;color:var(--gold-dark);font-weight:500;margin-bottom:24px}
+  .svc-tile h4{font-family:'Poppins',sans-serif;font-weight:500;font-size:23px;color:var(--ink);margin:0 0 12px}
+  .svc-tile p{color:var(--grey-mid);font-size:16.5px;line-height:1.8;margin:0}
+  /* ===== Areas We Cover — new homepage section (Bishop's Move's local-presence pattern), reusing the site's already-published area pages ===== */
+  .areas-grid{display:flex;justify-content:center;gap:0;margin-top:56px}
+  .areas-item{flex:1 1 0;max-width:260px;padding:0 28px;text-align:center;border-left:1px solid var(--border-warm)}
+  .areas-item:first-child{border-left:none}
+  .areas-item .pin{display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;border-radius:50%;background:var(--ink);color:var(--gold-light);font-size:16px;margin-bottom:16px;transition:background .2s ease}
+  .areas-item:hover .pin{background:var(--gold-dark)}
+  .areas-item h4{font-family:'Poppins',sans-serif;font-weight:500;font-size:17px;color:var(--ink);margin:0 0 8px;line-height:1.35}
+  .areas-item a{color:var(--grey-mid);font-size:15px;text-decoration:none}
+  .areas-item a:hover{color:var(--gold)}
+
+  /* ===== Get Started connector — 3-step, right after the process section ===== */
+  .start-band{background:var(--bg-warm);padding:64px 0}
+  .start-row{display:flex;gap:26px;max-width:980px;margin:36px auto 0}
+  .start-item{flex:1 1 0;text-align:center;padding:0 12px}
+  .start-item .num{display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;border-radius:50%;background:var(--ink);color:var(--gold-light);font-family:'Poppins',sans-serif;font-weight:500;font-size:17px;margin-bottom:18px}
+  .start-item h4{font-family:'Poppins',sans-serif;font-weight:500;font-size:19px;color:var(--ink);margin:0 0 10px}
+  .start-item p{color:var(--grey-mid);font-size:15.5px;line-height:1.65;margin:0}
+  .stage-cta{display:inline-flex;align-items:center;gap:9px;margin-top:44px;padding:15px 32px;border:1.5px solid var(--gold);border-radius:32px;background:var(--oxblood);font-family:'Poppins',sans-serif;font-size:14.5px;font-weight:500;letter-spacing:1px;text-transform:uppercase;text-decoration:none;color:#fff;transition:.25s ease}
+  .stage-cta:hover{background:var(--oxblood-dark);border-color:var(--ink);color:#fff;gap:13px}
   /* ===== Services preview — refined two-column rows ===== */
-  .svc-cols{position:relative;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);grid-template-rows:repeat(3,auto);grid-auto-flow:column;column-gap:64px;max-width:920px;margin:44px auto 0}
-  .svc-cols::after{content:'';position:absolute;left:50%;top:0;bottom:0;width:1px;background:#e6e1d8}
-  .svc-row{position:relative;padding:24px 0 24px 22px;border-bottom:1px solid #e6e1d8;transition:padding-left .2s ease}
-  .svc-row:nth-child(1),.svc-row:nth-child(4){border-top:1px solid #e6e1d8}
-  .svc-row::before{content:'';position:absolute;left:0;top:32px;width:9px;height:9px;border-radius:50%;background:#e2ddd2;transition:background .2s ease}
-  .svc-row:hover{padding-left:28px}
-  .svc-row:hover::before{background:#c8a96e}
-  .svc-row .svc-name{display:block;font-family:'Playfair',serif;font-size:18px;color:#1a1a1a;margin-bottom:7px}
-  .svc-row .svc-desc{display:block;color:#666;font-size:14.5px;line-height:1.6}
+  .svc-grid{display:grid;grid-template-columns:1fr 1fr;max-width:900px;margin:44px auto 0;border-top:1px solid var(--border-warm)}
+  .svc-card{display:flex;align-items:flex-start;gap:18px;padding:30px 22px;border-bottom:1px solid var(--border-warm)}
+  .svc-card:nth-child(odd){border-right:1px solid var(--border-warm)}
+  .svc-card .num{flex:0 0 auto;display:flex;align-items:center;justify-content:center;width:42px;height:42px;border-radius:50%;background:transparent;border:1px solid var(--gold);font-family:'Poppins',sans-serif;font-size:14.5px;letter-spacing:1px;color:var(--gold-dark);font-weight:500}
+  .svc-card .svc-text{display:flex;flex-direction:column}
+  .svc-card .svc-name{display:block;font-family:'Poppins',sans-serif;font-weight:500;font-size:19px;color:var(--ink);margin-bottom:6px}
+  .svc-card .svc-desc{display:block;color:var(--grey-mid);font-size:16.5px;line-height:1.7}
+  @media(max-width:480px){.svc-grid{grid-template-columns:1fr}.svc-card:nth-child(odd){border-right:none}}
   /* ===== Meet your coordinator — reversed from the intro-row above (media
      right there, left here), header integrated into the copy column
      instead of a separate centered block, so this doesn't read as the
@@ -78,78 +130,93 @@ headExtra: |
   .coord-copy{flex:1 1 52%}
   .coord-copy .home-h2,.coord-copy .body-copy{text-align:left;max-width:none}
   .coord-row{display:flex;flex-direction:column;gap:14px;margin-top:30px}
-  .coord-card{display:flex;align-items:center;gap:16px;text-align:left;padding:18px 22px;border:1px solid #e6e1d8;border-radius:12px}
-  .coord-card .avatar{width:52px;height:52px;border-radius:50%;background:#c8a96e;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:19px;color:#fff;font-family:'Playfair',serif}
-  .coord-card h5{font-family:'Playfair',serif;color:#1a1a1a;margin:0 0 3px;font-size:16px}
-  .coord-card p{color:#8a8478;font-size:11px;letter-spacing:1.2px;text-transform:uppercase;margin:0;line-height:1.5}
+  .coord-card{display:flex;align-items:center;gap:16px;text-align:left;padding:18px 22px;border:1px solid var(--border-warm-2);border-radius:12px}
+  .coord-card .avatar{width:52px;height:52px;border-radius:50%;background:var(--gold);flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:17px;font-weight:500;color:#fff;font-family:'Poppins',sans-serif;font-weight:500}
+  .coord-card h5{font-family:'Poppins',sans-serif;font-weight:500;color:var(--ink);margin:0 0 3px;font-size:16px}
+  .coord-card p{color:var(--grey-warm);font-size:13px;letter-spacing:1.2px;text-transform:uppercase;margin:0;line-height:1.5}
   /* ===== AI property search — coming soon teaser, highlighted as a featured box ===== */
-  .ai-teaser{background:#f9f8f6}
+  .ai-teaser{background:var(--bg-warm)}
+  .home-section.ai-teaser{padding-top:72px}
   .ai-teaser-box{position:relative;background:#fff;border:1.5px solid #e8d5a8;border-radius:20px;padding:56px;box-shadow:0 24px 60px rgba(200,169,110,.14),0 2px 10px rgba(26,26,26,.04)}
-  .ai-teaser-ribbon{position:absolute;top:-15px;left:56px;background:#1a1a1a;color:#e6c98a;font-family:'Poppins',sans-serif;font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;padding:8px 18px;border-radius:20px;box-shadow:0 6px 16px rgba(26,26,26,.18)}
+  .ai-teaser-ribbon{position:absolute;top:-15px;left:56px;background:var(--ink);color:#e6c98a;font-family:'Poppins',sans-serif;font-size:13px;font-weight:500;letter-spacing:2px;text-transform:uppercase;padding:8px 18px;border-radius:20px;box-shadow:0 6px 16px rgba(26,26,26,.18)}
   .ai-teaser-box .intro-row{gap:56px}
+  .ai-teaser-box .copy{padding-top:16px}
   .ai-teaser-box figure img{border-radius:12px}
   .ai-teaser .body-copy{margin-bottom:28px}
   .ai-teaser-form{display:flex;gap:14px;max-width:440px}
-  .ai-teaser-form input{flex:1 1 auto;padding:15px 18px;border:1.5px solid #ddd6c8;border-radius:2px;background:#fff;color:#1a1a1a;font-family:'Poppins',sans-serif;font-size:14px}
+  .ai-teaser-form input{flex:1 1 auto;padding:15px 18px;border:1.5px solid #ddd6c8;border-radius:2px;background:#fff;color:var(--ink);font-family:'Poppins',sans-serif;font-size:16px}
   .ai-teaser-form input::placeholder{color:#9a9689}
-  .ai-teaser-form input:focus{outline:none;border-color:#c8a96e}
+  .ai-teaser-form input:focus{outline:none;border-color:var(--gold)}
   .ai-teaser-form .btn-lg{white-space:nowrap;padding:15px 26px}
-  .ai-teaser-success{color:#8a6f2e;font-family:'Poppins',sans-serif;font-size:14.5px;font-weight:600;margin:0}
+  .ai-teaser-success{color:#8a6f2e;font-family:'Poppins',sans-serif;font-size:16.5px;font-weight:500;margin:0}
   /* ===== FAQ — native accordion ===== */
   .home-faq{max-width:760px;margin:40px auto 0}
-  .home-faq details{border-bottom:1px solid #e6e1d8;padding:20px 0}
-  .home-faq summary{cursor:pointer;list-style:none;font-family:'Playfair',serif;font-size:17px;color:#1a1a1a;display:flex;justify-content:space-between;align-items:center;gap:16px}
+  .home-faq details{border-bottom:1px solid var(--border-warm-2);padding:20px 0}
+  .home-faq summary{cursor:pointer;list-style:none;font-family:'Poppins',sans-serif;font-weight:500;font-size:17px;color:var(--ink);display:flex;justify-content:space-between;align-items:center;gap:16px}
   .home-faq summary::-webkit-details-marker{display:none}
-  .home-faq summary::after{content:'+';color:#c8a96e;font-size:22px;font-weight:300;flex-shrink:0}
+  .home-faq summary::after{content:'+';color:var(--gold);font-size:22px;font-weight:300;flex-shrink:0}
   .home-faq details[open] summary::after{content:'\2212'}
-  .home-faq details p{color:#666;font-size:14.5px;line-height:1.75;margin:14px 0 0}
+  .home-faq details p{color:var(--grey-mid);font-size:16.5px;line-height:1.75;margin:14px 0 0}
   /* ===== Packages — editorial teaser, not cards ===== */
-  .pkg-preview{display:flex;max-width:900px;margin:50px auto 0;border-top:1px solid #e2ddd2}
+  .pkg-preview{display:flex;max-width:900px;margin:50px auto 0;border-top:1px solid var(--border-warm)}
   .pkg-preview-item{flex:1 1 0;padding:32px 34px 2px;text-align:center}
-  .pkg-preview-item+.pkg-preview-item{border-left:1px solid #e2ddd2}
-  .pkg-preview-item h4{font-family:'Playfair',serif;font-size:19px;color:#1a1a1a;margin:0 0 8px;transition:color .2s ease}
-  .pkg-preview-item p{color:#666;font-size:13.5px;letter-spacing:.2px;margin:0}
-  .pkg-preview-item:hover h4{color:#c8a96e}
+  .pkg-preview-item+.pkg-preview-item{border-left:1px solid var(--border-warm)}
+  .pkg-preview-item h4{font-family:'Poppins',sans-serif;font-weight:500;font-size:19px;color:var(--ink);margin:0 0 8px;transition:color .2s ease}
+  .pkg-preview-item p{color:var(--grey-mid);font-size:15.5px;letter-spacing:.2px;margin:0}
+  .pkg-preview-item:hover h4{color:var(--gold)}
   /* ===== Why Chayce — editorial trust layout ===== */
   .why-grid{display:flex;gap:80px;max-width:1100px;margin:0 auto}
   .why-statement{flex:1 1 42%}
-  .why-lead{font-family:'Playfair',serif;font-size:25px;line-height:1.45;color:#1a1a1a;margin:0 0 20px}
+  .why-lead{font-family:'Poppins',sans-serif;font-weight:500;font-size:27px;line-height:1.5;color:var(--ink);margin:0 0 20px}
   .why-statement .body-copy{max-width:420px}
   .why-points{flex:1 1 52%;display:flex;flex-direction:column}
-  .why-point{padding:22px 0 22px 20px;border-left:2px solid #e2ddd2;transition:border-color .2s ease}
-  .why-point:hover{border-left-color:#c8a96e}
+  .why-point{padding:22px 0 22px 20px;border-left:2px solid var(--border-warm);transition:border-color .2s ease}
+  .why-point:hover{border-left-color:var(--gold)}
   .why-point+.why-point{margin-top:4px}
-  .why-point h4{font-family:'Playfair',serif;font-size:17px;color:#1a1a1a;margin:0 0 6px;letter-spacing:.2px}
-  .why-point p{color:#666;font-size:14px;line-height:1.7;margin:0}
-  .why-stats{display:flex;justify-content:center;gap:70px;margin:64px auto 0;padding-top:46px;border-top:1px solid #e2ddd2;max-width:1100px}
+  .why-point h4{font-family:'Poppins',sans-serif;font-weight:500;font-size:17px;color:var(--ink);margin:0 0 6px;letter-spacing:.2px}
+  .why-point p{color:var(--grey-mid);font-size:16px;line-height:1.7;margin:0}
+  .why-stats{display:flex;justify-content:center;gap:70px;margin:0 auto;max-width:1100px}
   .why-stats>div{text-align:center}
-  .why-stats strong{display:block;font-family:'Playfair',serif;font-size:32px;font-weight:400;color:#c8a96e;margin-bottom:6px}
-  .why-stats span{display:block;font-family:'Poppins',sans-serif;font-size:11px;letter-spacing:1.6px;text-transform:uppercase;color:#8a8478}
+  .why-stats strong{display:block;font-family:'Poppins',sans-serif;font-weight:500;font-size:34px;color:var(--gold);margin-bottom:6px}
+  .why-stats span{display:block;font-family:'Poppins',sans-serif;font-size:13px;letter-spacing:1.6px;text-transform:uppercase;color:var(--grey-warm)}
   /* ===== Final CTA ===== */
-  .final-cta{background:#1e222b;padding:110px 0;text-align:center}
-  .final-cta .home-h2{color:#fff;max-width:640px;margin-left:auto;margin-right:auto}
-  .final-cta p{color:#cfd0d4;font-size:16px;max-width:520px;margin:0 auto 34px;line-height:1.8}
+  .final-cta{background:var(--bg-cream);padding:72px 0}
+  .home-section+.final-cta{padding-top:72px}
+  .final-cta .panel{max-width:1120px;margin:0 auto;background:#fff;border-radius:10px;box-shadow:0 30px 70px rgba(20,18,12,.1);display:flex;align-items:center;overflow:hidden}
+  .final-cta .txt{flex:1 1 58%;padding:80px 56px 56px}
+  .final-cta .home-h2{color:var(--ink);text-align:left;margin:0 0 14px}
+  .final-cta p{color:var(--grey-mid);font-size:16px;line-height:1.75;margin:0 0 28px;max-width:420px}
+  .final-cta .btn-row{display:flex;gap:16px;flex-wrap:wrap}
+  .final-cta .btn-lg.primary{background:var(--oxblood);color:#fff}
+  .final-cta .btn-lg.primary:hover{background:var(--oxblood-dark);color:#fff}
+  .final-cta .btn-lg.ghost{background:transparent;color:var(--ink);border:1px solid rgba(26,26,26,.3)}
+  .final-cta .btn-lg.ghost:hover{background:var(--ink);color:#fff;border-color:var(--ink)}
+  .final-cta .img{flex:1 1 42%;align-self:stretch;min-height:420px;background:#111 url(/images/chayce-hero2.jpg) center/cover no-repeat}
   /* ===== Footer redesign ===== */
-  .chayce-footer{background:#1a1a1a;color:#c9c7c2;padding:80px 0 0}
+  .chayce-footer{background:var(--ink);color:var(--footer-text);padding:80px 0 0}
   .chayce-footer .footer-grid{display:grid;grid-template-columns:1.3fr 1fr 1fr 1fr 1.1fr;gap:40px;padding-bottom:60px;border-bottom:1px solid rgba(255,255,255,.1)}
-  .chayce-footer h5{font-family:'Poppins',sans-serif;font-size:11px;letter-spacing:2px;text-transform:uppercase;color:#8a8478;margin:0 0 20px}
-  .chayce-footer .brand-name{font-family:Georgia,serif;font-size:17px;font-weight:700;letter-spacing:2.5px;color:#fff;margin:0 0 14px;display:block}
-  .chayce-footer .brand-desc{font-size:14px;line-height:1.8;color:#a8a49c;max-width:280px}
+  .chayce-footer h5{font-family:'Poppins',sans-serif;font-size:13px;letter-spacing:2px;text-transform:uppercase;color:var(--grey-warm);margin:0 0 20px}
+  .chayce-footer .brand-name{font-family:Georgia,serif;font-size:17px;font-weight:500;letter-spacing:2.5px;color:#fff;margin:0 0 14px;display:block}
+  .chayce-footer .brand-desc{font-size:16px;line-height:1.8;color:var(--footer-text-dim);max-width:280px}
   .chayce-footer ul{list-style:none;margin:0;padding:0}
   .chayce-footer ul li{margin-bottom:12px}
-  .chayce-footer ul a{color:#c9c7c2;text-decoration:none;font-size:14.5px}
-  .chayce-footer ul a:hover{color:#d8b878}
-  .chayce-footer .cta-link{color:#d8b878;font-weight:700;font-size:14.5px;text-decoration:none;display:inline-block;margin-top:4px}
-  .chayce-footer .cta-link:hover{color:#fff}
-  .chayce-footer address{font-style:normal;color:#a8a49c;font-size:14.5px;line-height:1.9;margin-bottom:6px}
-  .chayce-footer .contact-line{color:#c9c7c2;font-size:14.5px;margin:2px 0}
-  .chayce-footer .contact-line a{color:#c9c7c2;text-decoration:none}
-  .chayce-footer .contact-line a:hover{color:#d8b878}
-  .footer-bottom-row{display:flex;justify-content:space-between;align-items:center;padding:26px 0;font-size:12.5px;color:#8a8478;flex-wrap:wrap;gap:10px}
+  .chayce-footer ul a{color:var(--footer-text);text-decoration:none;font-size:16.5px}
+  .chayce-footer ul a:hover{color:var(--gold-light)}
+  .chayce-footer .cta-link{color:var(--gold-light);font-weight:500;font-size:16.5px;text-decoration:none;display:inline-block;margin-top:4px}
+  .chayce-footer .cta-link:hover{color:var(--gold-light)}
+  .chayce-footer address{font-style:normal;color:var(--footer-text-dim);font-size:16.5px;line-height:1.9;margin-bottom:6px}
+  .chayce-footer .contact-line{color:var(--footer-text);font-size:16.5px;margin:2px 0}
+  .chayce-footer .contact-line a{color:var(--footer-text);text-decoration:none}
+  .chayce-footer .contact-line a:hover{color:var(--gold-light)}
+  .footer-bottom-row{display:flex;justify-content:space-between;align-items:center;padding:26px 0;font-size:14.5px;color:var(--grey-warm);flex-wrap:wrap;gap:10px}
   @media(max-width:991px){
     .chayce-footer .footer-grid{grid-template-columns:1fr 1fr;row-gap:36px}
-    .pms-row{flex-wrap:wrap}
-    .pms-item{flex:1 1 45%}
+    .svc-tile-grid{grid-template-columns:1fr 1fr}
+    .svc-tile:nth-child(2n){border-right:none}
+    .areas-grid{flex-wrap:wrap;row-gap:32px}
+    .areas-item{flex:1 1 40%;border-left:none}
+    .svc-grid{grid-template-columns:1fr}
+    .svc-card:nth-child(odd){border-right:none}
   }
   @media(max-width:767px){
     .home-hero{min-height:90vh}
@@ -162,13 +229,15 @@ headExtra: |
     .intro-row .copy{flex-basis:auto}
     .intro-row figure{flex-basis:auto}
     .intro-row img{height:240px}
-    .stage-divider{margin:44px 0 36px}
-    .pms-row{flex-direction:column;gap:18px}
-    .pms-item{padding:30px 26px}
-    .svc-cols{display:block;margin-top:28px}
-    .svc-cols::after{display:none}
-    .svc-row:nth-child(4){border-top:none}
-    .svc-row:first-child{border-top:1px solid #e6e1d8}
+    .svc-tile-grid{grid-template-columns:1fr;margin-top:36px}
+    .svc-tile:nth-child(2n){border-right:1px solid var(--border-warm)}
+    .value-columns{flex-direction:column;gap:28px}
+    .value-heading .home-h2{font-size:24px;white-space:normal}
+    .value-cta-bar{flex-direction:column;text-align:center;padding:26px 24px}
+    .areas-grid{margin-top:32px}
+    .svc-grid{margin-top:28px}
+    .trust-bar .container{gap:22px 28px}
+    .start-row{flex-direction:column;gap:30px}
     .coord-feature{flex-direction:column;gap:30px}
     .coord-feature img,.coord-feature video{height:240px}
     .coord-row{gap:14px}
@@ -177,12 +246,16 @@ headExtra: |
     .ai-teaser-ribbon{left:24px}
     .ai-teaser-form{flex-direction:column;max-width:100%}
     .pkg-preview{flex-direction:column;border-top:none}
-    .pkg-preview-item{padding:22px 0;border-top:1px solid #e2ddd2}
+    .pkg-preview-item{padding:22px 0;border-top:1px solid var(--border-warm)}
     .pkg-preview-item+.pkg-preview-item{border-left:none}
     .why-grid{flex-direction:column;gap:40px}
     .why-statement .body-copy{max-width:none}
-    .why-stats{flex-wrap:wrap;gap:34px 50px;margin-top:44px;padding-top:34px}
+    .why-stats{flex-wrap:wrap;gap:34px 50px}
     .final-cta{padding:64px 0}
+    .home-section+.final-cta{padding-top:64px}
+    .final-cta .panel{flex-direction:column;border-radius:8px}
+    .final-cta .img{width:100%;min-height:240px}
+    .final-cta .txt{padding:40px 34px;text-align:left}
     .chayce-footer .footer-grid{grid-template-columns:1fr 1fr;column-gap:24px;row-gap:32px;padding-bottom:36px}
     .chayce-footer .footer-grid>div:nth-child(1),
     .chayce-footer .footer-grid>div:nth-child(4),
@@ -191,26 +264,30 @@ headExtra: |
   }
   @media(max-width:480px){
     .home-hero h1{font-size:28px}
-    .home-hero p.lead{font-size:15px}
+    .home-hero p.lead{font-size:17px}
     .hero-actions{gap:20px}
-    .btn-lg{padding:14px 28px;font-size:13px}
+    .btn-lg{padding:14px 28px;font-size:15px}
     .home-h2{font-size:22px}
     .home-section{padding:50px 0}
     .home-section.tight{padding:36px 0}
     .intro-row img{height:200px}
-    .pms-item{padding:26px 22px}
+    .areas-grid{flex-direction:column;row-gap:28px}
+    .areas-item{flex:1 1 auto;max-width:none;border-left:none!important}
     .coord-feature img,.coord-feature video{height:200px}
     .coord-card{padding:16px 18px;gap:12px}
     .ai-teaser-box{padding:24px 18px}
-    .ai-teaser-ribbon{left:18px;font-size:10px;padding:7px 14px}
+    .ai-teaser-ribbon{left:18px;font-size:12px;padding:7px 14px}
     .why-lead{font-size:21px}
     .why-stats{gap:26px 34px}
     .why-stats strong{font-size:26px}
-    .final-cta{padding:50px 0}
+    .final-cta{padding:36px 0}
+    .home-section+.final-cta{padding-top:36px}
+    .final-cta .txt{padding:32px 24px}
+    .final-cta .btn-row{flex-direction:column;width:100%}
+    .final-cta .btn-row .btn-lg{width:100%;text-align:center;box-sizing:border-box}
     .chayce-footer .footer-grid{grid-template-columns:1fr 1fr;column-gap:16px}
   }
   </style>
-  <!-- SEOAI:HEAD:START --><!-- SEOAI:HEAD:END -->
 footScripts: |
   <script src="/js/wp-includes_js_jquery_jquery.min.js"></script>
   <script src="/js/wp-content_themes_hompark_js_popper.min.js"></script>
@@ -223,10 +300,10 @@ footScripts: |
   <div class="hero-slide" style="background-image:url({% imageUrl "chayce-contact.jpg" %});{% imageSet "chayce-contact.jpg" %}"></div>
   <div class="container">
     <h1 id="heroH1">A simpler way to move into <em>your next chapter.</em></h1>
-    <p class="lead" id="heroLead">Chayce helps you manage the journey from preparing your current home, to moving, to settling into your next one &mdash; with every detail taken care of.</p>
+    <p class="lead" id="heroLead">Chayce manages the journey from preparing your current home to settling into your next one &mdash; every detail taken care of.</p>
     <div class="hero-actions">
       <a href="/get-started/" class="btn-lg primary">Get Started</a>
-      <a href="/how-it-works/" class="text-link">How Can We Help? &rarr;</a>
+      <a href="https://wa.me/447708925432" class="text-link" target="_blank" rel="noopener"><i class="fab fa-whatsapp"></i> WhatsApp Us</a>
     </div>
     <div class="hero-dots" id="heroDots">
       <button class="active" data-i="0" aria-label="Slide 1"></button>
@@ -235,12 +312,21 @@ footScripts: |
     </div>
   </div>
 </header>
+
+<!-- ============ TRUST BAR — short, honest, already-published facts ============ -->
+<div class="trust-bar">
+  <div class="container">
+    <span class="tb-item"><i class="fas fa-user-check"></i><span>One Coordinator, Every Move</span></span>
+    <span class="tb-item"><i class="fas fa-shield-alt"></i><span>Fully Insured</span></span>
+    <span class="tb-item"><i class="fas fa-comments"></i><span>Discovery Consultation from &pound;150</span></span>
+  </div>
+</div>
 <script>
 (function(){
   var slides = [
-    { h1: 'A simpler way to move into <em>your next chapter.</em>', lead: 'Chayce helps you manage the journey from preparing your current home, to moving, to settling into your next one &mdash; with every detail taken care of.' },
+    { h1: 'A simpler way to move into <em>your next chapter.</em>', lead: 'Chayce manages the journey from preparing your current home to settling into your next one &mdash; every detail taken care of.' },
     { h1: 'Guiding your family, <em>every step of the way.</em>', lead: 'From sorting and packing to selling and settling in &mdash; we manage it all, so you don&rsquo;t have to.' },
-    { h1: 'Discreet. Dignified. <em>Designed for you.</em>', lead: 'Bespoke relocation support for seniors and the families who love them.' }
+    { h1: 'One coordinator, <em>start to finish.</em>', lead: 'The same person handles your move from first enquiry to settling in &mdash; not a different team at every stage.' }
   ];
   var i = 0;
   var slideEls = document.querySelectorAll('#heroSlider .hero-slide');
@@ -272,51 +358,169 @@ footScripts: |
 })();
 </script>
 
-<!-- ============ SHORT INTRODUCTION (also answers "whatever stage you're at" — nav already owns that link) ============ -->
-<section class="home-section grey">
+<!-- ============ VALUE STATEMENT — Bishop's Move shape: left-accent heading + right copy column, a contact line, then a dark CTA bar; same copy/facts as before, no side image (the image moves to the Journey section below) ============ -->
+<section class="home-section grey" style="padding:52px 0 56px">
   <div class="container">
-    <div class="intro-row">
-      <div class="copy">
-        <span class="home-eyebrow">Why Chayce Exists</span>
+    <span class="home-eyebrow">Why Chayce Exists</span>
+    <div class="value-columns">
+      <div class="value-heading">
         <h2 class="home-h2">Moving home should <em>feel simpler.</em></h2>
+      </div>
+      <div class="value-copy">
         <p class="body-copy">Moving home is one of life&rsquo;s most significant transitions. Chayce is a full-service relocation partner &mdash; guiding you through every stage with care, discretion and attention to detail, so you&rsquo;re never managing it alone.</p>
       </div>
-      <figure>{% image "chayce-hero2.jpg", "A home Chayce has helped a client move into" %}</figure>
     </div>
-
-    <div class="stage-divider"></div>
-
-    <!-- ============ WHAT CHAYCE DOES ============ -->
-    <div class="pms-row">
-      <div class="pms-item"><span class="num">01</span><h4>Prepare</h4><p>Getting the current home ready to sort, sell or move on from.</p></div>
-      <div class="pms-item"><span class="num">02</span><h4>Move</h4><p>Managing the practical details of the move itself.</p></div>
-      <div class="pms-item"><span class="num">03</span><h4>Settle</h4><p>Helping make the next home feel ready and lived-in.</p></div>
+    <p class="value-contact">Call us on <a href="tel:+447708925432">07708 925 432</a> or <a href="/get-started/">get started online</a> &mdash; a Discovery Consultation from &pound;150 maps out your move before you commit to anything.</p>
+    <div class="value-cta-bar">
+      <span>Ready to make your next move simpler?</span>
+      <a href="/get-started/">Get Started</a>
     </div>
-
-    <div style="text-align:center"><a href="/how-it-works/" class="stage-cta">See how we help &rarr;</a></div>
   </div>
 </section>
 
-<!-- ============ SERVICES PREVIEW ============ -->
-<section class="home-section grey">
+<!-- ============ STATS — sits directly under the value statement, proving scale right after the opening line (Bishop's Move pattern) ============ -->
+<section class="home-section tight" style="padding:40px 0">
+  <div class="container">
+    <div class="why-stats">
+      <div><strong>2026</strong><span>Founded This Year</span></div>
+      <div><strong>1:1</strong><span>Dedicated Coordinator, Every Move</span></div>
+      <div><strong>100%</strong><span>Fully Insured Moves</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SERVICE SNAPSHOT — text+image row (the image moved here from the Value Statement above), then a bordered tile grid (Bishop's Move's service-card shape) for the same Prepare/Move/Settle copy as before ============ -->
+<section class="home-section grey" style="padding-top:48px">
+  <div class="container">
+    <div class="intro-row">
+      <div class="copy">
+        <span class="home-eyebrow">The Journey</span>
+        <h2 class="home-h2">One partner, <em>three stages.</em></h2>
+      </div>
+      <figure style="margin:0">{% image "chayce-hero2.jpg", "A home Chayce has helped a client move into" %}</figure>
+    </div>
+    <div class="svc-tile-grid">
+      <div class="svc-tile"><span class="num">01</span><h4>Prepare</h4><p>Getting the current home ready to sort, sell or move on from.</p></div>
+      <div class="svc-tile"><span class="num">02</span><h4>Move</h4><p>Managing the practical details of the move itself.</p></div>
+      <div class="svc-tile"><span class="num">03</span><h4>Settle</h4><p>Helping make the next home feel ready and lived-in.</p></div>
+    </div>
+    <div style="text-align:center;margin-top:34px"><a href="/how-it-works/" class="stage-cta">See how we help &rarr;</a></div>
+  </div>
+</section>
+
+<!-- ============ HOW TO GET STARTED — kept directly after the section above, so the two process explanations (life-stages, then literal next steps) read as one continuous flow instead of two separate re-orienting stops ============ -->
+<section class="start-band">
+  <div class="container">
+    <span class="home-eyebrow" style="display:block;text-align:center">How To Get Started</span>
+    <h2 class="home-h2" style="text-align:center">Three steps to <em>a plan you trust.</em></h2>
+    <div class="start-row">
+      <div class="start-item"><span class="num">01</span><h4>Discovery Consultation</h4><p>A single session covering your home, timeline and budget, from &pound;150.</p></div>
+      <div class="start-item"><span class="num">02</span><h4>A tailored plan</h4><p>Your coordinator recommends the services and package that actually fit &mdash; not a generic checklist.</p></div>
+      <div class="start-item"><span class="num">03</span><h4>One coordinator, start to finish</h4><p>The same person sees your move through, from first enquiry to settling in.</p></div>
+    </div>
+    <div style="text-align:center;margin-top:32px"><a href="/get-started/" class="stage-cta">Get started &rarr;</a></div>
+  </div>
+</section>
+
+<!-- ============ WHY CHAYCE — differentiator points, moved up to sit right after the process (Bishop's Move's differentiation-block position) ============ -->
+<section class="home-section" style="padding-top:48px">
+  <div class="container">
+    <span class="home-eyebrow" style="display:block;text-align:center">Why Chayce</span>
+    <h2 class="home-h2" style="text-align:center;max-width:640px;margin:0 auto 54px">A team you can <em>trust.</em></h2>
+    <div class="why-grid">
+      <div class="why-statement">
+        <p class="why-lead">&ldquo;Whichever package you choose, the same person stays with you from your first enquiry to the day you&rsquo;re settled in, every removal we carry out is fully insured as standard, and we work with clients right across the UK, not only close to our Northampton office.&rdquo;</p>
+        <p class="body-copy">Every client works with a dedicated relocation coordinator who provides discreet, tailored support throughout the journey &mdash; from the first conversation to the day you&rsquo;re settled in.</p>
+      </div>
+      <div class="why-points">
+        <div class="why-point"><h4>One coordinator, start to finish</h4><p>The same person handles your move from first enquiry to the day you&rsquo;re settled in &mdash; no handoffs between departments.</p></div>
+        <div class="why-point"><h4>Fully insured, no exceptions</h4><p>Every removal is fully insured as standard, whichever package you choose &mdash; not an upgrade you have to ask for.</p></div>
+        <div class="why-point"><h4>A plan before you commit</h4><p>A Discovery Consultation maps your actual move &mdash; timeline, budget, scope &mdash; before you choose a package, not after.</p></div>
+        <div class="why-point"><h4>Nationwide, from one team</h4><p>We manage your move wherever in the UK you&rsquo;re relocating to or from &mdash; not a network of local franchises.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ AREAS WE COVER — new homepage section (Bishop's Move's local-presence pattern), reusing the exact area names/links already published in the nav and at /relocating-to/ ============ -->
+<section class="home-section grey" style="padding-top:56px">
+  <div class="container">
+    <span class="home-eyebrow" style="display:block;text-align:center">Areas We Cover</span>
+    <h2 class="home-h2" style="text-align:center">Working with clients <em>right across the UK.</em></h2>
+    <div class="areas-grid">
+      <div class="areas-item"><span class="pin"><i class="fas fa-map-marker-alt"></i></span><h4>London &amp; South East</h4><a href="/relocating-to/london-south-east/">View this area &rarr;</a></div>
+      <div class="areas-item"><span class="pin"><i class="fas fa-map-marker-alt"></i></span><h4>Home Counties</h4><a href="/relocating-to/home-counties/">View this area &rarr;</a></div>
+      <div class="areas-item"><span class="pin"><i class="fas fa-map-marker-alt"></i></span><h4>South West &amp; Coast</h4><a href="/relocating-to/south-west-coast/">View this area &rarr;</a></div>
+      <div class="areas-item"><span class="pin"><i class="fas fa-map-marker-alt"></i></span><h4>Cotswolds &amp; Rural Midlands</h4><a href="/relocating-to/cotswolds-midlands/">View this area &rarr;</a></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ REAL CLIENT STORIES — kept directly after Areas We Cover, so the proof (testimonials) follows the differentiation + reach claims ============ -->
+<section class="home-section stories-band" style="padding-top:32px">
+  <div class="container">
+    <span class="home-eyebrow" style="display:block;text-align:center">In Their Own Words</span>
+    <h2 class="home-h2" style="text-align:center;max-width:640px;margin:0 auto">What it&rsquo;s actually <em>like to work with us.</em></h2>
+    <div class="stories-grid">
+      <div class="story-card featured">
+        <span class="qmark">&rdquo;</span>
+        <p class="sc-quote">&ldquo;We had lived in the same house for more than three decades, so the thought of deciding what came with us was much harder than we expected. Chayce helped us create a realistic plan around the move, rather than trying to do everything at once.&rdquo;</p>
+        <div class="sc-byline"><span class="sc-mark">D&amp;A</span><div class="sc-who"><b>David &amp; Anne</b><span>Silver Comfort clients</span></div></div>
+        <a href="/silver-comfort/">Read their story &rarr;</a>
+      </div>
+      <div class="story-card">
+        <span class="qmark">&rdquo;</span>
+        <p class="sc-quote">&ldquo;My brother and I live in different parts of the country, while Mum was still living alone in the family home. Chayce helped us break the process into manageable stages.&rdquo;</p>
+        <div class="sc-byline"><span class="sc-mark">GP</span><div class="sc-who"><b>A Gold Prestige family</b><span>Client&rsquo;s family</span></div></div>
+        <a href="/gold-prestige/">Read their story &rarr;</a>
+      </div>
+      <div class="story-card">
+        <span class="qmark">&rdquo;</span>
+        <p class="sc-quote">&ldquo;After so many years in the same house, we hadn&rsquo;t worked out exactly what we wanted. We used our consultation to talk it through, rather than rushing into a decision.&rdquo;</p>
+        <div class="sc-byline"><span class="sc-mark">DC</span><div class="sc-who"><b>A Discovery client</b><span>Discovery Consultation</span></div></div>
+        <a href="/discovery/">Read their story &rarr;</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SERVICES PREVIEW — kept directly after the testimonials, alongside Packages below (both answer "what am I actually buying") ============ -->
+<section class="home-section grey" style="padding-top:32px">
   <div class="container">
     <span class="home-eyebrow" style="display:block;text-align:center">Services</span>
     <h2 class="home-h2" style="text-align:center">What we can <em>take care of.</em></h2>
     <p class="body-copy" style="max-width:600px;margin:0 auto;text-align:center">Every service is delivered by our own vetted team &mdash; not outsourced &mdash; so the same standard of care follows you from start to finish.</p>
-    <div class="svc-cols">
-      <div class="svc-row"><span class="svc-name">Home Sorting</span><span class="svc-desc">Careful sorting and organising of your home&rsquo;s contents.</span></div>
-      <div class="svc-row"><span class="svc-name">Property Staging</span><span class="svc-desc">Presenting your home at its best, styled by our experts.</span></div>
-      <div class="svc-row"><span class="svc-name">Refurbishment</span><span class="svc-desc">Light repairs and decoration to prepare your home for sale.</span></div>
-      <div class="svc-row"><span class="svc-name">Packing &amp; Removals</span><span class="svc-desc">Professional packing and safe, insured removal.</span></div>
-      <div class="svc-row"><span class="svc-name">Deep Cleaning</span><span class="svc-desc">A full clean of your old and new property.</span></div>
-      <div class="svc-row"><span class="svc-name">Unpacking &amp; Setup</span><span class="svc-desc">Full unpacking so your new home feels ready immediately.</span></div>
+    <div class="svc-grid">
+      <div class="svc-card"><span class="num">01</span><span class="svc-text"><span class="svc-name">Home Sorting</span><span class="svc-desc">Careful sorting and organising of your home&rsquo;s contents.</span></span></div>
+      <div class="svc-card"><span class="num">02</span><span class="svc-text"><span class="svc-name">Property Staging</span><span class="svc-desc">Presenting your home at its best, styled by our experts.</span></span></div>
+      <div class="svc-card"><span class="num">03</span><span class="svc-text"><span class="svc-name">Refurbishment</span><span class="svc-desc">Light repairs and decoration to prepare your home for sale.</span></span></div>
+      <div class="svc-card"><span class="num">04</span><span class="svc-text"><span class="svc-name">Packing &amp; Removals</span><span class="svc-desc">Professional packing and safe, insured removal.</span></span></div>
+      <div class="svc-card"><span class="num">05</span><span class="svc-text"><span class="svc-name">Deep Cleaning</span><span class="svc-desc">A full clean of your old and new property.</span></span></div>
+      <div class="svc-card"><span class="num">06</span><span class="svc-text"><span class="svc-name">Unpacking &amp; Setup</span><span class="svc-desc">Full unpacking so your new home feels ready immediately.</span></span></div>
     </div>
-    <div style="text-align:center;margin-top:34px"><a href="/our-services/" class="stage-cta">Explore all services &rarr;</a></div>
+    <div style="text-align:center;margin-top:34px"><a href="/services/" class="stage-cta">Explore all services &rarr;</a></div>
   </div>
 </section>
 
-<!-- ============ MEET YOUR COORDINATOR ============ -->
-<section class="home-section">
+<!-- ============ PACKAGES — kept directly after Services preview above ============ -->
+<section class="home-section grey">
+  <div class="container">
+    <div style="text-align:center;max-width:640px;margin:0 auto">
+      <span class="home-eyebrow" style="text-align:center">Packages</span>
+      <h2 class="home-h2" style="text-align:center">Your move. <em>Your level of support.</em></h2>
+      <p class="body-copy" style="max-width:none;margin:0 auto;text-align:center">Every relocation is different. Whether you need help finding the right home, coordinating your move, or complete relocation support, there&rsquo;s an option designed around your needs.</p>
+      <div style="margin-top:30px"><a href="/packages/" class="stage-cta">Explore our packages &rarr;</a></div>
+    </div>
+    <div class="pkg-preview">
+      <div class="pkg-preview-item"><h4>Just the Move</h4><p>Packing, removals and a light clean, fully coordinated for you &mdash; Bronze Essentials and Silver Comfort.</p></div>
+      <div class="pkg-preview-item"><h4>Full Property Support</h4><p>Chauffeur-driven viewings, staging and legal coordination alongside the move itself &mdash; Gold Prestige.</p></div>
+      <div class="pkg-preview-item"><h4>Fully Bespoke</h4><p>Unlimited scope, a personal concierge and 3 months of post-move support &mdash; Platinum Bespoke.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ MEET YOUR COORDINATOR — supporting content, moved later so it doesn't interrupt the core services/packages/proof case above ============ -->
+<section class="home-section" style="padding-top:32px">
   <div class="container">
     <div class="coord-feature">
       <figure><video autoplay muted loop playsinline preload="metadata" aria-label="Chayce movers carrying boxes into a client's new home"><source src="/videos/chayce-coordinator.mp4" type="video/mp4"></video></figure>
@@ -325,20 +529,19 @@ footScripts: |
         <h2 class="home-h2">You&rsquo;re never navigating this <em>alone.</em></h2>
         <p class="body-copy">From your first conversation to the day you&rsquo;re settled in, one dedicated coordinator guides your move &mdash; backed by the full Chayce team of specialists.</p>
         <div class="coord-row">
-          <div class="coord-card"><div class="avatar"><i class="fa fa-user"></i></div><div><h5>Lead Consultant</h5><p>Your first point of contact</p></div></div>
-          <div class="coord-card"><div class="avatar"><i class="fa fa-user"></i></div><div><h5>Move Coordinator</h5><p>Manages every detail of your move</p></div></div>
-          <div class="coord-card"><div class="avatar"><i class="fa fa-user"></i></div><div><h5>Staging Specialist</h5><p>Presents your home at its best</p></div></div>
+          <div class="coord-card"><div class="avatar">01</div><div><h5>Lead Consultant</h5><p>Your first point of contact</p></div></div>
+          <div class="coord-card"><div class="avatar">02</div><div><h5>Move Coordinator</h5><p>Manages every detail of your move</p></div></div>
+          <div class="coord-card"><div class="avatar">03</div><div><h5>Staging Specialist</h5><p>Presents your home at its best</p></div></div>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ============ AI PROPERTY SEARCH — coming soon teaser ============ -->
+<!-- ============ AI PROPERTY SEARCH — coming soon teaser, kept right after the coordinator section as supporting content ============ -->
 <section class="home-section ai-teaser">
   <div class="container">
     <div class="ai-teaser-box">
-      <span class="ai-teaser-ribbon">Coming Soon</span>
       <div class="intro-row">
         <figure>{% image "chayce-about2.jpg", "A bright, move-in ready home" %}</figure>
         <div class="copy">
@@ -368,43 +571,17 @@ footScripts: |
 })();
 </script>
 
-<!-- ============ PACKAGES — editorial teaser, not full comparison ============ -->
-<section class="home-section grey">
-  <div class="container">
-    <div style="text-align:center;max-width:640px;margin:0 auto">
-      <span class="home-eyebrow" style="text-align:center">Packages</span>
-      <h2 class="home-h2" style="text-align:center">Your move. <em>Your level of support.</em></h2>
-      <p class="body-copy" style="max-width:none;margin:0 auto;text-align:center">Every relocation is different. Whether you need help finding the right home, coordinating your move, or complete relocation support, there&rsquo;s an option designed around your needs.</p>
-      <div style="margin-top:30px"><a href="/packages/" class="stage-cta">Explore our packages &rarr;</a></div>
-    </div>
-    <div class="pkg-preview">
-      <div class="pkg-preview-item"><h4>Home Search</h4><p>Finding the right place.</p></div>
-      <div class="pkg-preview-item"><h4>Moving Support</h4><p>Making moving day simpler.</p></div>
-      <div class="pkg-preview-item"><h4>Complete Relocation</h4><p>From search to settled.</p></div>
-    </div>
-  </div>
-</section>
-
-<!-- ============ WHY CHAYCE — editorial trust layout ============ -->
-<section class="home-section">
-  <div class="container">
-    <span class="home-eyebrow" style="display:block;text-align:center">Why Chayce</span>
-    <h2 class="home-h2" style="text-align:center;max-width:640px;margin:0 auto 54px">A team you can <em>trust.</em></h2>
-    <div class="why-grid">
-      <div class="why-statement">
-        <p class="why-lead">Local expertise. Personal support. Every move thoughtfully managed.</p>
-        <p class="body-copy">Every client works with a dedicated relocation coordinator who provides discreet, tailored support throughout the journey &mdash; from the first conversation to the day you&rsquo;re settled in.</p>
-      </div>
-      <div class="why-points">
-        <div class="why-point"><h4>Dedicated coordinator</h4><p>One trusted point of contact from beginning to end.</p></div>
-        <div class="why-point"><h4>Local expertise</h4><p>Insight into homes, neighbourhoods, and relocation decisions that help clients move with confidence.</p></div>
-        <div class="why-point"><h4>Tailored support</h4><p>Every relocation is shaped around the client&rsquo;s lifestyle, priorities, and individual requirements.</p></div>
-      </div>
-    </div>
-    <div class="why-stats">
-      <div><strong>12+</strong><span>Years Experience</span></div>
-      <div><strong>650+</strong><span>Clients Relocated</span></div>
-      <div><strong>98%</strong><span>Happy Clients</span></div>
+<!-- ============ FAQ — moved up to sit right before the final CTA, so hesitation gets addressed right before the ask ============ -->
+<section class="home-section grey tight">
+  <div class="container" style="max-width:760px">
+    <span class="home-eyebrow center" style="display:block;text-align:center">FAQ</span>
+    <h2 class="home-h2" style="text-align:center">Common <em>questions.</em></h2>
+    <div class="home-faq">
+      <details><summary>What areas do you cover?</summary><p>We work with clients across the whole UK, including <a href="/relocating-to/london-south-east/">London &amp; the South East</a>, the <a href="/relocating-to/home-counties/">Home Counties</a>, the <a href="/relocating-to/south-west-coast/">South West &amp; coast</a>, and the <a href="/relocating-to/cotswolds-midlands/">Cotswolds &amp; rural Midlands</a> &mdash; get in touch to confirm the specifics for your area.</p></details>
+      <details><summary>How early should I get in touch?</summary><p>As early as possible &mdash; ideally 3 to 6 months before your intended move date. However, we can accommodate shorter timescales where needed.</p></details>
+      <details><summary>What makes Chayce different from a regular removal company?</summary><p>We coordinate the whole move ourselves &mdash; packing, removals, estate agent liaison and legal coordination &mdash; through one dedicated point of contact, rather than leaving you to manage several separate providers.</p></details>
+      <details><summary>Is my move fully insured?</summary><p>Yes. Every removal is fully insured against loss or damage in transit, with the specifics set out in your service agreement before the move begins.</p></details>
+      <details><summary>How does the Discovery Consultation work?</summary><p>We conduct a detailed 1-hour consultation (in person or by telephone) to understand your needs and deliver a personalised move plan, timeline and budget.</p></details>
     </div>
   </div>
 </section>
@@ -412,28 +589,21 @@ footScripts: |
 <!-- ============ FINAL CTA ============ -->
 <section class="final-cta">
   <div class="container">
-    <h2 class="home-h2">Ready to make your <em>next move simpler?</em></h2>
-    <p>Tell us about your situation and we&rsquo;ll help you understand the right next step.</p>
-    <a href="/get-started/" class="btn-lg primary">Get Started</a>
-  </div>
-</section>
-
-<!-- ============ FAQ ============ -->
-<section class="home-section grey tight">
-  <div class="container" style="max-width:760px">
-    <span class="home-eyebrow center" style="display:block;text-align:center">FAQ</span>
-    <h2 class="home-h2" style="text-align:center">Common <em>questions.</em></h2>
-    <div class="home-faq">
-      <details><summary>What areas do you cover?</summary><p>We operate across the UK. Please contact us to confirm availability in your specific area.</p></details>
-      <details><summary>How early should I get in touch?</summary><p>As early as possible &mdash; ideally 3 to 6 months before your intended move date. However, we can accommodate shorter timescales where needed.</p></details>
-      <details><summary>What makes Chayce different from a regular removal company?</summary><p>We are a full-service relocation partner, not just a removal company. We manage every aspect of your move &mdash; from sorting and packing to estate agent liaison, legal coordination, and post-move setup.</p></details>
-      <details><summary>Is my move fully insured?</summary><p>Yes. All removals carried out by Chayce are fully insured. Full details are provided in your service agreement.</p></details>
-      <details><summary>How does the Discovery Consultation work?</summary><p>We conduct a detailed 1-hour consultation (in person or by telephone) to understand your needs and deliver a personalised move plan, timeline and budget.</p></details>
+    <div class="panel">
+      <div class="txt">
+        <h2 class="home-h2">Ready to make your <em>next move simpler?</em></h2>
+        <p>Tell us about your situation and we&rsquo;ll help you understand the right next step.</p>
+        <div class="btn-row">
+          <a href="/get-started/" class="btn-lg primary">Get Started</a>
+          <a href="/contact/" class="btn-lg ghost">Contact Us</a>
+        </div>
+      </div>
+      <div class="img"></div>
     </div>
   </div>
 </section>
 
-<!-- SEOAI:FAQSCHEMA:START --><script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What areas do you cover?","acceptedAnswer":{"@type":"Answer","text":"We operate across the UK. Please contact us to confirm availability in your specific area."}},{"@type":"Question","name":"How early should I get in touch?","acceptedAnswer":{"@type":"Answer","text":"As early as possible — ideally 3 to 6 months before your intended move date. However, we can accommodate shorter timescales where needed."}},{"@type":"Question","name":"What makes Chayce different from a regular removal company?","acceptedAnswer":{"@type":"Answer","text":"We are a full-service relocation partner, not just a removal company. We manage every aspect of your move — from sorting and packing to estate agent liaison, legal coordination, and post-move setup."}},{"@type":"Question","name":"Is my move fully insured?","acceptedAnswer":{"@type":"Answer","text":"Yes. All removals carried out by Chayce are fully insured. Full details are provided in your service agreement."}},{"@type":"Question","name":"How does the Discovery Consultation work?","acceptedAnswer":{"@type":"Answer","text":"We conduct a detailed 1-hour consultation (in person or by telephone) to understand your needs and deliver a personalised move plan, timeline and budget."}}]}</script><!-- SEOAI:FAQSCHEMA:END -->
+<!-- SEOAI:FAQSCHEMA:START --><script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What areas do you cover?","acceptedAnswer":{"@type":"Answer","text":"We work with clients across the whole UK, including London & the South East, the Home Counties, the South West & coast, and the Cotswolds & rural Midlands — get in touch to confirm the specifics for your area."}},{"@type":"Question","name":"How early should I get in touch?","acceptedAnswer":{"@type":"Answer","text":"As early as possible — ideally 3 to 6 months before your intended move date. However, we can accommodate shorter timescales where needed."}},{"@type":"Question","name":"What makes Chayce different from a regular removal company?","acceptedAnswer":{"@type":"Answer","text":"We coordinate the whole move ourselves — packing, removals, estate agent liaison and legal coordination — through one dedicated point of contact, rather than leaving you to manage several separate providers."}},{"@type":"Question","name":"Is my move fully insured?","acceptedAnswer":{"@type":"Answer","text":"Yes. Every removal is fully insured against loss or damage in transit, with the specifics set out in your service agreement before the move begins."}},{"@type":"Question","name":"How does the Discovery Consultation work?","acceptedAnswer":{"@type":"Answer","text":"We conduct a detailed 1-hour consultation (in person or by telephone) to understand your needs and deliver a personalised move plan, timeline and budget."}}]}</script><!-- SEOAI:FAQSCHEMA:END -->
 
 <!-- SEOAI:ORGANIZATIONSCHEMA:START -->
 <script type="application/ld+json">
@@ -469,6 +639,7 @@ footScripts: |
     { "@type": "AdministrativeArea", "name": "Northamptonshire" },
     { "@type": "Country", "name": "United Kingdom" }
   ],
+  "knowsAbout": ["Senior relocation", "Downsizing", "House removals", "UK home moving", "Estate agent liaison", "Property staging"],
   "description": "Full-service relocation partner across the UK, based in Northampton — packing, removals, legal coordination, storage and post-move settling-in support, designed with senior clients in mind but open to anyone planning a fully-managed move."
 }
 </script>
@@ -483,7 +654,3 @@ footScripts: |
 }
 </script>
 <!-- SEOAI:ORGANIZATIONSCHEMA:END -->
-
-<!-- ============ FOOTER — redesigned ============ -->
-
-

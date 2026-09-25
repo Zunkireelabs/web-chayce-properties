@@ -25,6 +25,8 @@ headExtra: |
      mixes hand-written local images with remote ones. #}
   "image": {{ (featuredImage | default('https://chayceproperties.com/images/chayce-logo.png')) | dump | safe }},
   "datePublished": "{{ date }}",
+  "dateModified": "{{ dateModified | default(date) }}",
+  "author": { "@type": "Organization", "@id": "{{ site.url }}/#organization" },
   "publisher": {
     "@type": "Organization",
     "name": "Chayce Properties",
@@ -33,12 +35,22 @@ headExtra: |
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://chayceproperties.com{{ page.url }}" }
 }
 </script>
+{% if faq %}
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{% for item in faq %}{"@type":"Question","name":{{ item.q | dump | safe }},"acceptedAnswer":{"@type":"Answer","text":{{ item.a | dump | safe }}}}{% if not loop.last %},{% endif %}{% endfor %}]}
+</script>
+{% endif %}
+{% if howTo %}
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"HowTo","name":{{ howTo.name | dump | safe }},"step":[{% for s in howTo.steps %}{"@type":"HowToStep","name":{{ s.name | dump | safe }},"text":{{ s.text | dump | safe }}}{% if not loop.last %},{% endif %}{% endfor %}]}
+</script>
+{% endif %}
 
-<div class="page-hero">
+<div class="page-hero--article">
   <div class="container">
     <p class="breadcrumb"><a href="/">Home</a> / <a href="/blog/">Blog</a> / <em>{{ title | truncate(40) }}</em></p>
     <h1>{{ title }}</h1>
-    {% if description %}<p style="color:#ccc;margin-top:10px;font-size:16px;">{{ description }}</p>{% endif %}
+    {% if description %}<p style="color:var(--grey-mid);margin-top:10px;font-size:16px;max-width:640px">{{ description }}</p>{% endif %}
   </div>
 </div>
 
@@ -59,7 +71,7 @@ headExtra: |
           {{ content | safe }}
         </div>
 
-        <p class="blog-post-byline" style="color:#999;font-size:13px;margin-top:30px;padding-top:20px;border-top:1px solid #eee;display:flex;align-items:center;gap:6px;">Website and content growth by <a href="https://zunkireelabs.com" style="color:#8f6a38;font-weight:700;text-decoration:none;display:inline-flex;align-items:center;gap:6px;text-transform:lowercase"><img src="/images/zunkireelabs-icon.svg" alt="" width="18" height="18">zunkireelabs</a></p>
+        <p class="blog-post-byline" style="color:#999;font-size:13px;margin-top:30px;padding-top:20px;border-top:1px solid #eee;display:flex;align-items:center;gap:6px;">Website and content growth by <a href="https://zunkireelabs.com" style="color:#8f6a38;font-weight:500;text-decoration:none;display:inline-flex;align-items:center;gap:6px;text-transform:lowercase"><img src="/images/zunkireelabs-icon.svg" alt="" width="18" height="18">zunkireelabs</a></p>
       </div>
 
       <div class="col-md-4">
@@ -79,7 +91,7 @@ headExtra: |
 {% if relatedPosts.length > 0 %}
 <section class="page-section grey">
   <div class="container">
-    <h3 style="font-family:'Playfair',serif;color:#1a1a1a;margin-bottom:30px;">More from Chayce</h3>
+    <h3 style="font-family:'Playfair Display',serif;color:#1a1a1a;margin-bottom:30px;">More from Chayce</h3>
     <div class="row">
       {% for post in relatedPosts %}
       <div class="col-md-4">

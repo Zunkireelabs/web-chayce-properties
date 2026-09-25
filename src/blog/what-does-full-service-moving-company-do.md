@@ -2,9 +2,17 @@
 title: "What Does a Full-Service Moving Company Actually Do?"
 description: "What a full-service relocation company covers beyond a standard removal — packing, coordination, storage and settling in — and who it's actually for."
 date: "2026-09-23"
+dateModified: "2026-09-24"
 featuredImage: "https://images.pexels.com/photos/4489417/pexels-photo-4489417.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 featuredImageAlt: "Removal porters carrying boxes from a moving truck."
 featuredImageCredit: "Photo via Pexels"
+faq:
+  - q: "Is full-service moving only for large or complicated moves?"
+    a: "No — even a straightforward move benefits from not managing packing, coordination and logistics yourself; the scope of support can be matched to what's actually needed."
+  - q: "What's the difference between full-service and just hiring a removal van?"
+    a: "A removal van moves your things. Full-service relocation manages the planning, packing, coordination and often the settling-in around that move too."
+  - q: "How do I know which level of support I need?"
+    a: "A Discovery Consultation (from £150) assesses your specific situation and recommends the right level of support, rather than assuming the biggest package is always the right one."
 ---
 
 ## More Than a Van and Two People
@@ -38,7 +46,7 @@ A DIY move is usually cheaper up front, but the hidden cost is everything you ha
 
 Chayce Properties builds full-service relocation around a single dedicated coordinator for the whole move, not a different contact for each part of the process. Services range from [Bronze Essentials](/bronze-essentials/) — packing, removal and a light clean for a straightforward move — through to [Platinum Bespoke](/platinum-bespoke/), a fully bespoke, unlimited-scope service with an ongoing lifestyle concierge. Every package is fully insured, and support is designed with senior clients in mind but genuinely open to anyone who wants a fully-managed move, whatever stage of life it's happening at.
 
-## Frequently Asked Questions
+## A Few More Things Worth Knowing
 
 **Is full-service moving only for large or complicated moves?**
 No — even a straightforward move benefits from not managing packing, coordination and logistics yourself; the scope of support can be matched to what's actually needed.
@@ -51,4 +59,4 @@ A [Discovery Consultation](/discovery/) (from £150) assesses your specific situ
 
 ---
 
-Curious what a fully-managed move would actually involve for your situation? [Get in touch](/contact/) or [book a Discovery Consultation](/discovery/) to find out.
+The best way to see what this looks like for your own situation is a [Discovery Consultation](/discovery/) — [get in touch](/contact/) first if you have questions.

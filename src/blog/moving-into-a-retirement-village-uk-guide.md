@@ -2,9 +2,17 @@
 title: "Moving Into a Retirement Village: What to Expect"
 description: "What UK retirement villages actually offer, how they differ from assisted living, and how to prepare for the move — from choosing a village to settling in."
 date: "2026-09-22"
+dateModified: "2026-09-24"
 featuredImage: "https://images.pexels.com/photos/7728055/pexels-photo-7728055.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 featuredImageAlt: "A senior couple spending time together outdoors on a sunny day."
 featuredImageCredit: "Photo via Pexels"
+faq:
+  - q: "Is a retirement village the same as a care home?"
+    a: "No. Residents in a retirement village live independently in their own home, with support available on-site if needed — it isn't the same as full-time residential care."
+  - q: "Can care needs change after moving in?"
+    a: "Often, yes — many villages offer a range of support levels on the same site, so care can increase without a second move, though this varies by provider and should be checked before committing."
+  - q: "How far in advance should I start planning the move?"
+    a: "As early as possible — ideally 3 to 6 months ahead, to allow time for sorting belongings and choosing what to bring, alongside the practical move itself."
 ---
 
 ## What a Retirement Village Actually Is
@@ -36,9 +44,9 @@ Most villages are built around a mix of:
 
 A retirement village home is almost always smaller than a long-time family house, which means this move usually comes with a downsizing decision attached — working out what fits, what to let go of, and what matters enough to bring. That's a very different job from a standard house move, and rushing it tends to cause the most regret.
 
-Chayce's [Silver Comfort](/silver-comfort/) and [Gold Prestige](/gold-prestige/) packages are built around exactly this kind of move — sorting and decluttering support, a fully insured removal, and help settling into the new space once you're there, all coordinated by [one dedicated point of contact](/our-services/) rather than juggling several tradespeople yourself.
+Chayce's [Silver Comfort](/silver-comfort/) and [Gold Prestige](/gold-prestige/) packages are built around exactly this kind of move — sorting and decluttering support, a fully insured removal, and help settling into the new space once you're there, all coordinated by [one dedicated point of contact](/services/) rather than juggling several tradespeople yourself. Retirement villages are especially common along the [South West coast](/relocating-to/south-west-coast/), where we're familiar with the application process most of these developments involve.
 
-## Frequently Asked Questions
+## Questions People Often Ask Us
 
 **Is a retirement village the same as a care home?**
 No. Residents in a retirement village live independently in their own home, with support available on-site if needed — it isn't the same as full-time residential care.
@@ -51,4 +59,4 @@ As early as possible — ideally 3 to 6 months ahead, to allow time for sorting 
 
 ---
 
-Thinking about a move to a retirement village or similar community? [Get in touch](/contact/) or [book a Discovery Consultation](/discovery/) to start planning.
+Whichever stage you're at with choosing a village, [get in touch](/contact/) — or book a [Discovery Consultation](/discovery/) once you're ready to plan the move itself.

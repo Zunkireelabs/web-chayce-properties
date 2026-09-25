@@ -1,0 +1,45 @@
+/* Chayce hero variants — shared, reusable alternatives to the single centered
+   dark-gradient .page-hero (defined per-page) that used to be stamped
+   identically across ~23 pages. Each variant adapts a treatment that already
+   existed somewhere on the site (svc-hero, hiw-hero) rather than inventing a
+   new look. No new colors — same tokens throughout. */
+
+/* ===== --left: product-family pages (packages, discovery, the 4 tiers) =====
+   Adapted from our-services.njk's .svc-hero: left-aligned, image visible on
+   the right rather than dimmed uniformly behind centered text. */
+.page-hero--left{position:relative;min-height:460px;display:flex;align-items:center;background-color:var(--ink);background-size:cover;background-position:center;overflow:hidden;text-align:left;padding:0}
+.page-hero--left::before{content:'';position:absolute;inset:0;background:
+  linear-gradient(100deg,rgba(14,16,20,.92) 0%,rgba(14,16,20,.7) 42%,rgba(14,16,20,.4) 100%),
+  linear-gradient(0deg,rgba(10,12,16,.45) 0%,rgba(10,12,16,0) 40%)}
+.page-hero--left .container{position:relative;z-index:2;padding:60px 0}
+.page-hero--left .breadcrumb{display:block;color:var(--gold-light);font-size:12px;letter-spacing:2px;text-transform:uppercase;margin-bottom:16px;text-align:left}
+.page-hero--left .breadcrumb a{color:#e8e6e0;text-decoration:none}
+.page-hero--left h1{color:#fff;font-size:44px;font-weight:500;font-family:'Playfair Display',serif;max-width:640px;margin:0 0 10px;text-align:left}
+.page-hero--left h1 em{color:var(--gold-light);font-style:normal}
+.page-hero--left p.sub{color:#e8e6e0;margin-top:6px;font-size:16px;max-width:520px;text-align:left}
+@media(max-width:600px){.page-hero--left{min-height:auto;padding:100px 0 50px}.page-hero--left h1{font-size:28px}}
+
+/* ===== --region: the 4 relocating-to/ pages =====
+   Adapted from how-it-works.njk's .hiw-hero: full-bleed, taller, caption
+   bottom-anchored rather than centered mid-banner — a more immersive,
+   photographic treatment appropriate for pages about real UK geography. */
+.page-hero--region{position:relative;min-height:64vh;display:flex;align-items:flex-end;background-color:var(--ink);background-size:cover;background-position:center;overflow:hidden;text-align:left}
+.page-hero--region::before{content:'';position:absolute;inset:0;background:
+  linear-gradient(0deg,rgba(8,9,11,.92) 0%,rgba(8,9,11,.5) 38%,rgba(8,9,11,.15) 62%,rgba(8,9,11,.45) 100%)}
+.page-hero--region .container{position:relative;z-index:2;padding-bottom:64px}
+.page-hero--region .breadcrumb{display:block;color:var(--gold-light);font-size:12px;letter-spacing:2px;text-transform:uppercase;margin-bottom:16px;text-align:left}
+.page-hero--region .breadcrumb a{color:#e8e6e0;text-decoration:none}
+.page-hero--region h1{color:#fff;font-size:clamp(30px,4vw,46px);font-weight:500;font-family:'Playfair Display',serif;line-height:1.15;max-width:760px;margin:0 0 10px;text-align:left}
+.page-hero--region h1 em{color:var(--gold-light);font-style:normal}
+.page-hero--region p.sub{color:#e8e6e0;margin-top:6px;font-size:16px;max-width:520px;text-align:left}
+@media(max-width:600px){.page-hero--region{min-height:50vh}.page-hero--region h1{font-size:26px}}
+
+/* ===== --article: all blog posts =====
+   Light, minimal — no photographic overlay at all, since the real featured
+   image already renders directly below in the post body. Removes the
+   previous photo-less dark-gradient banner that had nothing behind it. */
+.page-hero--article{background:var(--bg-warm);padding:110px 0 40px;text-align:left}
+.page-hero--article .breadcrumb{display:block;color:var(--gold-dark);font-size:12px;letter-spacing:2px;text-transform:uppercase;margin-bottom:14px;text-align:left}
+.page-hero--article .breadcrumb a{color:var(--ink);text-decoration:none}
+.page-hero--article h1{color:var(--ink);font-size:clamp(26px,3.4vw,38px);font-weight:500;font-family:'Playfair Display',serif;line-height:1.2;max-width:760px;margin:0;text-align:left}
+@media(max-width:600px){.page-hero--article{padding:90px 0 30px}.page-hero--article h1{font-size:24px}}

@@ -1,17 +1,17 @@
 # Chayce Properties
 
-> Chayce Properties is a full-service relocation partner across the UK, based in Northampton. We manage every stage of a move — sorting, packing, removals, estate agent liaison, legal coordination, storage, and post-move settling-in support — through a single dedicated coordinator. Services are designed with senior clients in mind but are open to anyone planning a fully-managed move.
+> Chayce Properties is a full-service relocation partner across the UK, based in Northampton and founded in 2026. We manage every stage of a move — sorting, packing, removals, estate agent liaison, legal coordination, storage, and post-move settling-in support — through a single dedicated coordinator. Services are designed with senior clients in mind but are open to anyone planning a fully-managed move.
 
-Chayce Properties is not a standard removal company: every client is assigned one coordinator for the full journey, all services are fully insured, and packages range from essential packing/removals through to a fully bespoke, unlimited-scope relocation with an ongoing lifestyle concierge.
+Chayce Properties is not a standard removal company: every client is assigned one coordinator for the full journey, every move is fully insured, and packages range from essential packing/removals through to a fully bespoke, unlimited-scope relocation with an ongoing lifestyle concierge.
 
 ## Services
 
-- [Our Services](https://chayceproperties.com/our-services/): the three-stage process — Preparing, Moving, Settling In.
+- [Our Services](https://chayceproperties.com/services/): the three-stage process — Preparing, Moving, Settling In.
 - [How It Works](https://chayceproperties.com/how-it-works/): what to expect from first contact through move day.
 - [Discovery Consultation](https://chayceproperties.com/discovery/) — £150: the initial 1-hour consultation (in person or by phone) that produces a personalised move plan, timeline and budget.
 - [Get Started](https://chayceproperties.com/get-started/): how to begin working with Chayce.
 
-## Packages (see /packages/ for full comparison)
+## Packages (see /packages/ for the full side-by-side comparison table)
 
 - [Bronze Essentials](https://chayceproperties.com/bronze-essentials/) — from £995: packing, removals and light cleaning for straightforward moves.
 - [Silver Comfort](https://chayceproperties.com/silver-comfort/) — from £1,850: full-service move with a dedicated coordinator.
@@ -19,22 +19,32 @@ Chayce Properties is not a standard removal company: every client is assigned on
 - [Platinum Bespoke](https://chayceproperties.com/platinum-bespoke/) — from £6,500: fully bespoke, unlimited-scope relocation with a personal lifestyle concierge and 3 months of post-move support.
 - [Packages overview](https://chayceproperties.com/packages/): side-by-side comparison of all four tiers.
 
+Each package page includes a real, anonymized client story describing that tier's actual journey.
+
+## Areas Covered
+
+Chayce is a nationwide UK service based in Northampton — not a network of local branches. Region-specific guidance:
+
+- [London & the South East](https://chayceproperties.com/relocating-to/london-south-east/)
+- [The Home Counties](https://chayceproperties.com/relocating-to/home-counties/)
+- [South West & the Coast](https://chayceproperties.com/relocating-to/south-west-coast/)
+- [Cotswolds & Rural Midlands](https://chayceproperties.com/relocating-to/cotswolds-midlands/)
+
 ## Company
 
-- [About Chayce](https://chayceproperties.com/about-chayce/)
+- [About Chayce](https://chayceproperties.com/about-chayce/): founded in 2026, based in Northampton.
 - [Contact](https://chayceproperties.com/contact/): office at Unit F2B Barratt House, Kingsthorpe Road, Northampton NN2 6EZ. Phone 07708 925432. Email info@chayceproperties.com. Hours: Mon–Fri 09:00–17:30, Saturday by appointment.
-- [News](https://chayceproperties.com/news/)
 
 ## Blog
 
-- [Blog index](https://chayceproperties.com/blog/)
-- [How to Plan a Stress-Free Senior Move](https://chayceproperties.com/blog/how-to-plan-a-stress-free-senior-move/): practical steps for planning a smooth, dignified relocation.
-- [How Much Does a Full-Service Senior Move Cost in the UK?](https://chayceproperties.com/blog/senior-move-cost-uk/): what drives the cost of a senior relocation and how to compare packages.
-- [Downsizing Your Family Home in the UK: A Step-by-Step Guide](https://chayceproperties.com/blog/downsizing-your-family-home-uk-guide/): sorting belongings and choosing what to keep.
-- [Choosing the Right Relocation Partner for Your UK Move](https://chayceproperties.com/blog/choosing-relocation-partner-uk-move/): questions to ask before hiring a relocation partner.
-- [Moving Closer to Family: A Guide to Later-Life Relocation in the UK](https://chayceproperties.com/blog/later-life-relocation-closer-to-family-uk/): planning a later-life move closer to family.
-- [Settling In: Making Your New Home Feel Like Home After a Move](https://chayceproperties.com/blog/settling-in-after-your-move/): making a new home feel settled after relocation.
+- [Blog index](https://chayceproperties.com/blog/) — 13 guides on senior relocation, downsizing and moving well later in life.
+- [The UK House Moving Checklist](https://chayceproperties.com/blog/uk-house-moving-checklist/): a 7-stage timeline from 8 weeks out to moving day.
+- [How Much Does a Full-Service Senior Move Cost in the UK?](https://chayceproperties.com/blog/senior-move-cost-uk/)
+- [Selling Your Home to Relocate: A Realistic UK Timeline](https://chayceproperties.com/blog/selling-your-home-to-relocate-uk-timeline/)
+- [Moving a Parent: A Guide for Adult Children](https://chayceproperties.com/blog/moving-a-parent-guide-for-adult-children/)
+- [What to Do With Sentimental Belongings When You Downsize](https://chayceproperties.com/blog/sentimental-belongings-when-downsizing/)
+- [Moving Into a Retirement Village: What to Expect](https://chayceproperties.com/blog/moving-into-a-retirement-village-uk-guide/)
 
 ## Full content
 
-See [llms-full.txt](https://chayceproperties.com/llms-full.txt) for complete inline content — company facts, package pricing and inclusions, and the full FAQ — formatted for direct AI ingestion.
+See [llms-full.txt](https://chayceproperties.com/llms-full.txt) for complete inline content — company facts, package pricing and inclusions, the full FAQ, and every blog post link — formatted for direct AI ingestion.
