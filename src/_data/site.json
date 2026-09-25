@@ -1,0 +1,30 @@
+{
+  "name": "Chayce Properties",
+  "url": "https://chayceproperties.com",
+  "telephone": "+447708925432",
+  "email": "info@chayceproperties.com",
+  "address": {
+    "streetAddress": "Unit F2B Barratt House, Kingsthorpe Road",
+    "addressLocality": "Northampton",
+    "postalCode": "NN2 6EZ",
+    "addressCountry": "GB"
+  },
+  "geo": {
+    "latitude": 52.2509,
+    "longitude": -0.89878
+  },
+  "priceRange": "£150-£6500",
+  "openingHours": {
+    "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+    "opens": "09:00",
+    "closes": "17:30"
+  },
+  "defaultOgImage": "https://chayceproperties.com/images/chayce-og-image.jpg",
+  "packages": [
+    { "key": "discovery", "name": "Discovery Consultation", "price": "150", "url": "/discovery" },
+    { "key": "bronze", "name": "Bronze Essentials", "price": "995", "url": "/bronze-essentials" },
+    { "key": "silver", "name": "Silver Comfort", "price": "1850", "url": "/silver-comfort" },
+    { "key": "gold", "name": "Gold Prestige", "price": "3250", "url": "/gold-prestige" },
+    { "key": "platinum", "name": "Platinum Bespoke", "price": "6500", "url": "/platinum-bespoke" }
+  ]
+}

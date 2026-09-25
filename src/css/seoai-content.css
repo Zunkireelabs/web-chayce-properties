@@ -16,9 +16,31 @@
 .seoai-content-section>section{max-width:790px;margin:0 auto;padding:0 15px;box-sizing:border-box}
 .seoai-content-section h1,.seoai-content-section h2{font-family:'Playfair',serif;font-weight:700;font-size:28px;color:#1a1a1a;margin:0 0 16px;line-height:1.3}
 .seoai-content-section p{color:#555;font-size:16px;line-height:1.85;margin:0 0 6px;max-width:none}
+/* .body-copy carries a 520px max-width elsewhere on the homepage (intro
+   text alongside an image, where that measure is correct). Reused inside
+   this wrapper it also caps the comparison table nested inside it, well
+   short of the 790px column this section actually has — producing a
+   narrow block with a large empty gap beside it. Scoped to this wrapper
+   only, so .body-copy's own 520px default is untouched everywhere else. */
+.seoai-content-section .body-copy{max-width:none}
 @media(max-width:640px){
   .seoai-content-section{padding:40px 0}
   .seoai-content-section h1,.seoai-content-section h2{font-size:23px}
+}
+
+/* Modifier for a section whose content is inherently short (a one-line
+   author byline, not a comparison table or multi-paragraph body) — the
+   base rule's 56px padding was built for substantial content and gives a
+   single sentence the same footprint as a whole page section. Applied
+   alongside .seoai-content-section, never in place of it, so heading/body
+   typography and the container measure above are unchanged; only the
+   vertical padding and the alternating background shrink. Rule order
+   matters here: this must stay after the base rule above to win at equal
+   specificity. */
+.seoai-content-section.seoai-content-section--compact{padding:20px 0}
+.seoai-content-section.seoai-content-section--compact+.seoai-content-section{background:none}
+@media(max-width:640px){
+  .seoai-content-section.seoai-content-section--compact{padding:16px 0}
 }
 .seoai-compare{background:#fff;border:1px solid #e7e2d6;border-radius:12px;padding:26px 30px;margin-top:24px;box-shadow:0 2px 18px rgba(26,26,26,.05)}
 .seoai-compare-head{display:grid;grid-template-columns:1.1fr 1fr 1fr;gap:18px;padding-bottom:12px;margin-bottom:6px;border-bottom:1px solid #ece7dc;font-family:'Poppins',sans-serif;font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:#8a8478;font-weight:700}

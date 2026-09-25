@@ -5,3 +5,35 @@ Sitemap: https://chayceproperties.com/sitemap.xml
 
 # GEO / AI answer-engine context
 # https://llmstxt.org/
+# See /llms.txt (index) and /llms-full.txt (full content) for AI-readable
+# site content.
+
+# AI crawler policy — Chayce Properties intentionally allows all AI
+# crawlers (training and live-answer/citation) to maximize visibility in
+# AI-generated answers and search overviews. Last reviewed: 2026-09-23.
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Bytespider
+Allow: /

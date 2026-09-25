@@ -85,6 +85,30 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "src/preview.png": "preview.png" });
   eleventyConfig.addPassthroughCopy({ "src/robots.txt": "robots.txt" });
   eleventyConfig.addPassthroughCopy({ "src/llms.txt": "llms.txt" });
+  eleventyConfig.addPassthroughCopy({ "src/llms-full.txt": "llms-full.txt" });
+
+  // Nunjucks' selectattr only supports its own built-in tests (no "equalto",
+  // unlike Jinja2) — this is a plain, reliable lookup for site.json's
+  // packages array from a page's own front-matter key.
+  eleventyConfig.addNunjucksFilter("findByKey", (arr, key) =>
+    (arr || []).find((item) => item.key === key)
+  );
+
+  // Picks `count` related posts for a "More from Chayce" widget using a
+  // circular rotation from the current post's position in the (newest-first)
+  // collection, rather than always the N oldest posts excluding self — that
+  // naive approach meant the newest 1-2 posts almost never got featured on
+  // anyone else's page, leaving them weakly internally linked.
+  eleventyConfig.addNunjucksFilter("relatedPosts", (arr, currentUrl, count) => {
+    const list = arr || [];
+    const idx = list.findIndex((item) => item.url === currentUrl);
+    if (idx === -1) return [];
+    const related = [];
+    for (let i = 1; related.length < count && i < list.length; i++) {
+      related.push(list[(idx + i) % list.length]);
+    }
+    return related;
+  });
 
   eleventyConfig.addNunjucksAsyncShortcode("image", imageShortcode);
   eleventyConfig.addNunjucksAsyncShortcode("imageUrl", imageUrlShortcode);
@@ -96,6 +120,14 @@ module.exports = function (eleventyConfig) {
   // (renderBlogOutlineBody's `date: new Date().toISOString().slice(0,10)`),
   // so this exists to print that human-readably rather than as raw
   // "2026-09-17" text.
+  // yyyy-MM-dd for sitemap.xml <lastmod> — Eleventy's page.date is a real JS
+  // Date (front-matter `date` when set, otherwise the file's own mtime/ctime
+  // fallback), never a fabricated value.
+  eleventyConfig.addNunjucksFilter("isoDate", (date) => {
+    const d = date instanceof Date ? date : new Date(date);
+    return Number.isNaN(d.getTime()) ? "" : d.toISOString().slice(0, 10);
+  });
+
   eleventyConfig.addNunjucksFilter("readableDate", (dateStr) => {
     const d = new Date(dateStr);
     return Number.isNaN(d.getTime())

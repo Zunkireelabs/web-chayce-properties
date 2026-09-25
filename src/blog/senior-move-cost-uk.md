@@ -26,8 +26,8 @@ Chayce Properties prices its [relocation packages](/packages/) around exactly th
 
 ## Why a Consultation Comes Before a Quote
 
-Rather than quoting from a room count alone, Chayce starts every relocation with a free [Discovery Consultation](/discovery/) — a proper look at what's actually involved, so the recommended package reflects the real scope of the move, not a guess.
+Rather than quoting from a room count alone, Chayce starts every relocation with a [Discovery Consultation](/discovery/) (from £150) — a proper look at what's actually involved, so the recommended package reflects the real scope of the move, not a guess.
 
 > The right package isn't the cheapest one or the most comprehensive one — it's the one that matches the support your move actually needs.
 
-Want a clearer picture of what your own move would cost? [Get in touch](/contact/) or [book a free Discovery Consultation](/discovery/).
+Want a clearer picture of what your own move would cost? [Get in touch](/contact/) or [book a Discovery Consultation](/discovery/).

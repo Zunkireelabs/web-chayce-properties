@@ -1,5 +1,6 @@
 ---
 title: "Blog | Chayce Properties"
+description: "Guidance, tips and stories on senior relocation, downsizing and moving well later in life, from the Chayce Properties team."
 bodyClass: "page-template page-loaded"
 homeNav: false
 layout: base.njk
@@ -14,6 +15,9 @@ headExtra: |
    today (3 static teasers, no real post pages). Same page-hero + news-card
    visual language as /news/ (src/css/chayce-blog.css), but this one is
    data-driven from collections.blog, so every card here is a real page. #}
+<script type="application/ld+json">
+{"@type":"BreadcrumbList","@context":"https://schema.org","itemListElement":[{"item":"https://chayceproperties.com/","name":"Chayceproperties","@type":"ListItem","position":1},{"item":"https://chayceproperties.com/blog","name":"Blog","@type":"ListItem","position":2}]}
+</script>
 <div class="page-hero" style="background-image:url({% imageUrl "chayce-blog-hero.webp" %});{% imageSet "chayce-blog-hero.webp" %};background-size:cover;background-position:center;">
   <div class="container">
     <p class="breadcrumb"><a href="/">Home</a> / <em>Blog</em></p>
@@ -30,7 +34,7 @@ headExtra: |
       <div class="col-md-4">
         <div class="news-card" style="margin-bottom:40px">
           {% if post.data.featuredImage %}
-          <figure><img src="{{ post.data.featuredImage }}" alt="{{ post.data.featuredImageAlt | default(post.data.title) }}"></figure>
+          <figure><img src="{{ post.data.featuredImage }}" alt="{{ post.data.featuredImageAlt | default(post.data.title) }}" width="940" height="650"></figure>
           {% endif %}
           <span>{{ post.date | readableDate }}</span>
           <h5><a href="{{ post.url }}">{{ post.data.title }}</a></h5>
