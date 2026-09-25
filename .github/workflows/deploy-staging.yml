@@ -21,11 +21,13 @@ jobs:
           username: ${{ secrets.VPS_USER }}
           key: ${{ secrets.VPS_SSH_KEY }}
           script: |
+            set -e
             DIR="/home/websites/joyce"
             cd "$DIR"
             git fetch origin
             git checkout stage
-            git pull origin stage
+            git reset --hard origin/stage
+            git clean -fd
 
             docker compose -f docker-compose.dev.yml up -d --build
 
