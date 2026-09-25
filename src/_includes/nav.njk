@@ -1,5 +1,6 @@
 {% macro navLink(href, label, key, activeKey, extraClass) %}<a href="{{ href }}"{% if extraClass or key == activeKey %} class="{{ extraClass }}{% if key == activeKey %}{% if extraClass %} {% endif %}active{% endif %}"{% endif %}>{{ label }}</a>{% endmacro %}
-<nav class="site-nav">
+{% macro navDropdown(label, key, activeKey, items) %}<div class="site-nav-drop{% if key == activeKey %} active{% endif %}"><span class="site-nav-drop-label">{{ label }}</span><div class="site-nav-drop-menu">{% for item in items %}<a href="{{ item.href }}">{{ item.label }}</a>{% endfor %}</div></div>{% endmacro %}
+<nav class="site-nav{% if navGlassy %} site-nav--glassy{% endif %}">
   <div class="site-nav-inner">
     <a href="/" class="site-nav-logo">
       <img src="/images/chayce-logo.png" alt="Chayce Properties" width="240" height="160">
@@ -9,16 +10,34 @@
     <div class="site-nav-scrim"></div>
     <div class="site-nav-links">
         {{ navLink("/how-it-works/", "How It Works", "how-it-works", activeKey) }}
-        {{ navLink("/our-services/", "Services", "our-services", activeKey) }}
-        {{ navLink("/packages/", "Packages", "packages", activeKey) }}
-        {{ navLink("/about-chayce/", "About", "about-chayce", activeKey) }}
+        {{ navDropdown("Services", "services", activeKey, [
+          {"href": "/services/", "label": "Our Services"},
+          {"href": "/discovery/", "label": "Discovery Consultation"}
+        ]) }}
+        {{ navDropdown("Packages", "packages", activeKey, [
+          {"href": "/packages/", "label": "Compare All Packages"},
+          {"href": "/bronze-essentials/", "label": "Bronze Essentials"},
+          {"href": "/silver-comfort/", "label": "Silver Comfort"},
+          {"href": "/gold-prestige/", "label": "Gold Prestige"},
+          {"href": "/platinum-bespoke/", "label": "Platinum Bespoke"}
+        ]) }}
+        {{ navDropdown("Areas We Cover", "areas", activeKey, [
+          {"href": "/relocating-to/london-south-east/", "label": "London & South East"},
+          {"href": "/relocating-to/home-counties/", "label": "Home Counties"},
+          {"href": "/relocating-to/south-west-coast/", "label": "South West & Coast"},
+          {"href": "/relocating-to/cotswolds-midlands/", "label": "Cotswolds & Rural Midlands"}
+        ]) }}
+        {{ navLink("/about-chayce/", "About Chayce", "about-chayce", activeKey) }}
+        {{ navLink("/blog/", "Blog", "blog", activeKey) }}
         {% if homeNav %}
         {{ navLink("/contact/", "Contact", "contact", activeKey, "site-nav-contact") }}
         <span class="site-nav-divider"></span>
+        <a href="tel:+447708925432" class="site-nav-phone">07708 925 432</a>
         {{ navLink("/get-started/", "Get Started", "get-started", activeKey, "site-nav-cta") }}
         {% else %}
         <span class="site-nav-divider"></span>
         {{ navLink("/contact/", "Contact", "contact", activeKey, "site-nav-contact") }}
+        <a href="tel:+447708925432" class="site-nav-phone">07708 925 432</a>
         {{ navLink("/get-started/", "Get Started", "get-started", activeKey, "site-nav-cta") }}
         {% endif %}
     </div>

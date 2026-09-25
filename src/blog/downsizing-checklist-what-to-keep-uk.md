@@ -2,9 +2,17 @@
 title: "The Downsizing Checklist: What to Keep, Sell or Donate"
 description: "A practical UK downsizing checklist — how to sort belongings into keep, sell, donate and let go piles, and how long to give yourself before moving day."
 date: "2026-09-21"
+dateModified: "2026-09-24"
 featuredImage: "https://images.pexels.com/photos/7203815/pexels-photo-7203815.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 featuredImageAlt: "A woman sorting belongings into a cardboard box while packing for a move."
 featuredImageCredit: "Photo via Pexels"
+faq:
+  - q: "How long should I give myself to declutter before a move?"
+    a: "Ideally 6 to 8 weeks, working through categories a little at a time rather than all at once."
+  - q: "What should I do with items I can't decide on?"
+    a: "Set them aside in a separate \"decide later\" box rather than letting indecision slow down the rest of the sort — you can revisit them once the easier decisions are out of the way."
+  - q: "Do I have to do this myself?"
+    a: "No. Chayce's Silver Comfort and Gold Prestige packages include hands-on sorting and decluttering support as part of the move."
 ---
 
 ## Why a Checklist Helps More Than a Deadline
@@ -52,4 +60,4 @@ No. Chayce's Silver Comfort and Gold Prestige packages include hands-on sorting 
 
 ---
 
-Not sure where to start with your own sort? [Get in touch](/contact/) or [book a Discovery Consultation](/discovery/) for a realistic plan before you begin.
+A [Discovery Consultation](/discovery/) can turn this into a realistic plan before you start sorting — or [get in touch](/contact/) with any questions first.

@@ -1,41 +1,55 @@
-/* Chayce brand tokens — single source of truth for the palette already in use
-   across pages. Values are unchanged from what pages already hardcode, except
-   for --bg-cream-deep, a new supporting tone one step warmer than --bg-cream,
-   added for content blocks (case studies, credentials) that should read as a
-   notch more emphasised than an ordinary alternating section. */
+/* Chayce brand tokens — Round 9: White / Navy / Gold / Charcoal.
+   Matches how real, established relocation companies actually use colour
+   (Crown Relocations, International Van Lines): clean white/near-white
+   backgrounds, one confident saturated brand colour (Navy) for buttons and
+   accents, gold reserved for small genuine highlight moments (matches the
+   logo file, which is untouched), true neutral charcoal for headings/dark
+   sections — not a cream/parchment family. */
 :root{
-  /* Brand accent (gold/brass) */
-  --gold:#c8a96e;
-  --gold-light:#d8b878;
-  --gold-lighter:#e3cb96;
-  --gold-dark:#8f6a38;
+  /* Brand accent (gold) — logo-exact, used sparingly for small highlights */
+  --gold:#C8A96E;
+  --gold-light:#D8B878;
+  --gold-lighter:#E3CB96;
+  --gold-dark:#8F6A38;
 
-  /* Core neutrals */
-  --ink:#1a1a1a;
-  --slate:#3d4558;
+  /* Primary accent — Navy (buttons, CTAs, signature highlight) */
+  --navy:#1B2A4A;
+  --navy-dark:#101A2E;
+
+  /* Aliases so every Round 7 --oxblood/--loden reference (buttons, Gold
+     Prestige's signature accent, Silver Comfort's secondary accent) picks
+     up the new system automatically, with zero per-file edits needed */
+  --oxblood:var(--navy);
+  --oxblood-dark:var(--navy-dark);
+  --loden:#5B6470;
+  --chalk:var(--bg-warm);
+
+  /* Core neutrals — true charcoal, not warm brown */
+  --ink:#23283A;
+  --slate:#23283A;
 
   /* Greys / text-on-light */
-  --grey-mid:#666;
-  --grey-light:#999;
-  --grey-warm:#8a8478;
+  --grey-mid:#666B76;
+  --grey-light:#9498A2;
+  --grey-warm:#82868F;
 
-  /* Near-white background family, warmest last */
-  --bg-cool:#f9f9f9;
-  --bg-warm:#f9f8f6;
-  --bg-cream:#f9f5ef;
-  --bg-cream-deep:#f6ecda;
+  /* Background family — off-white/near-white, not cream/parchment */
+  --bg-cool:#FFFFFF;
+  --bg-warm:#FAFAFA;
+  --bg-cream:#F6F6F6;
+  --bg-cream-deep:#EEEEEE;
 
-  /* Borders */
-  --border-light:#eee;
-  --border-warm:#e7e2d6;
-  --border-warm-2:#e6e1d8;
-  --border-warm-3:#ece7dc;
+  /* Borders — light neutral greys */
+  --border-light:#EAEAEA;
+  --border-warm:#DFDFDF;
+  --border-warm-2:#D4D4D4;
+  --border-warm-3:#C6C6C6;
 
-  /* Footer-specific text */
-  --footer-text:#c9c7c2;
-  --footer-text-dim:#a8a49c;
+  /* Footer-specific text (readable on the Charcoal footer) */
+  --footer-text:#D8D9DB;
+  --footer-text-dim:#9A9DA3;
 
   /* Font stacks */
   --font-body:'Poppins',sans-serif;
-  --font-display:'Playfair',serif;
+  --font-display:'Playfair Display',serif;
 }

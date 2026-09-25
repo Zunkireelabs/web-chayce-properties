@@ -4,77 +4,85 @@ description: "Compare Chayce Properties' UK relocation packages — from Bronze 
 bodyClass: "page-template page-loaded"
 homeNav: false
 layout: base.njk
+activeKey: "packages"
 headExtra: |
   <style>
   .chayce-logo-link{text-decoration:none!important}
   .navbar .container .upper-side .logo{margin-left:80px!important}
   @media(max-width:767px){.navbar .container .upper-side .logo{margin-left:0!important}}
-  .page-hero{background:var(--slate);padding:120px 0 80px;text-align:center;position:relative;overflow:hidden}
-  .page-hero::before{content:'';position:absolute;inset:0;background:linear-gradient(135deg,rgba(30,35,50,.85),rgba(61,69,88,.7));z-index:1}
-  .page-hero .container{position:relative;z-index:2}
-  .page-hero h1{color:#fff;font-size:48px;font-weight:700;margin-bottom:10px;font-family:'Playfair',serif}
-  .page-hero h1 em{color:var(--gold);font-style:normal}
-  .page-hero .breadcrumb{color:var(--gold);font-size:13px;letter-spacing:2px;text-transform:uppercase}
-  .page-hero .breadcrumb a{color:#fff;text-decoration:none}
   .page-section{padding:80px 0}
   .page-section.grey{background:var(--bg-cool)}
   .card-box{background:#fff;border:1px solid var(--border-light);padding:36px;margin-bottom:30px;transition:.3s;height:calc(100% - 30px);box-sizing:border-box}
   .card-box:hover{box-shadow:0 8px 30px rgba(0,0,0,.08);transform:translateY(-3px)}
-  .card-box h4{color:var(--ink);font-family:'Playfair',serif;margin-bottom:10px}
+  .card-box h4{color:var(--ink);font-family:'Poppins',sans-serif;font-weight:500;margin-bottom:10px}
   .card-box h4 em{color:var(--gold);font-style:normal}
-  .card-box p{color:var(--grey-mid);line-height:1.7;font-size:15px}
-  .card-box .price{font-size:22px;font-weight:700;color:var(--gold);margin:12px 0}
-  .btn-chayce{display:inline-block;padding:10px 28px;background:var(--gold);color:#fff;text-decoration:none;font-size:13px;letter-spacing:1px;text-transform:uppercase;margin-top:12px}
-  .btn-chayce:hover{background:var(--ink)}
+  .card-box p{color:var(--grey-mid);line-height:1.7;font-size:17px}
+  .card-box .price{font-size:22px;font-weight:500;color:var(--gold);margin:12px 0}
+  .btn-chayce{display:inline-block;padding:10px 28px;background:var(--oxblood);color:#fff;text-decoration:none;font-size:15px;letter-spacing:1px;text-transform:uppercase;margin-top:12px}
+  .btn-chayce:hover{background:var(--oxblood-dark)}
   .icon-row{display:flex;flex-wrap:wrap;gap:24px;margin-top:30px}
   .icon-item{flex:0 0 calc(33.333% - 16px);background:#fff;padding:30px 24px;border:1px solid var(--border-light);text-align:center}
   .icon-item img{width:50px;height:50px;object-fit:contain;margin-bottom:14px}
-  .icon-item h6{font-size:13px;font-weight:600;color:var(--ink);letter-spacing:1px;text-transform:uppercase}
-  .quote-block{border-left:4px solid var(--gold);padding:20px 28px;background:var(--bg-cream);font-style:italic;font-size:17px;color:var(--slate);margin:30px 0;font-family:'Playfair',serif}
+  .icon-item h6{font-size:15px;font-weight:500;color:var(--ink);letter-spacing:1px;text-transform:uppercase}
+  .quote-block{border-left:4px solid var(--gold);padding:20px 28px;background:var(--bg-cream);font-style:italic;font-size:17px;color:var(--slate);margin:30px 0;font-family:'Poppins',sans-serif;font-weight:500}
+  .compare-wrap{overflow-x:auto;margin-top:50px}
+  table.pkg-compare{width:100%;border-collapse:collapse;min-width:720px}
+  table.pkg-compare th{background:var(--slate);color:#fff;padding:14px 16px;font-size:14.5px;letter-spacing:.5px;text-align:center;font-family:'Poppins',sans-serif}
+  table.pkg-compare th:first-child{text-align:left;background:var(--ink)}
+  table.pkg-compare td{padding:13px 16px;border-bottom:1px solid var(--border-light);font-size:15.5px;text-align:center}
+  table.pkg-compare td.feat{text-align:left;color:var(--ink);font-weight:500}
+  table.pkg-compare tr:hover td{background:#fafafa}
+  table.pkg-compare .yes{color:var(--gold);font-weight:500}
+  table.pkg-compare .no{color:var(--border-warm-2)}
+  .compare-note{font-size:15px;color:var(--grey-light);margin-top:14px}
   .contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px}
-  .contact-info h5{color:var(--gold);text-transform:uppercase;letter-spacing:2px;font-size:12px;margin-bottom:8px}
-  .contact-info h3{color:var(--ink);font-size:28px;margin-bottom:20px;font-family:'Playfair',serif}
+  .contact-info h5{color:var(--gold);text-transform:uppercase;letter-spacing:2px;font-size:14px;margin-bottom:8px}
+  .contact-info h3{color:var(--ink);font-size:28px;margin-bottom:20px;font-family:'Poppins',sans-serif;font-weight:500}
   .contact-info p{color:var(--grey-mid);line-height:1.8}
   .contact-info a{color:var(--gold)}
   .form-group{margin-bottom:18px}
-  .form-group input,.form-group textarea,.form-group select{width:100%;padding:12px 16px;border:1px solid #ddd;font-size:14px;font-family:'Poppins',sans-serif;outline:none}
+  .form-group input,.form-group textarea,.form-group select{width:100%;padding:12px 16px;border:1px solid #ddd;font-size:16px;font-family:'Poppins',sans-serif;outline:none}
   .form-group input:focus,.form-group textarea:focus{border-color:var(--gold)}
   .form-group textarea{min-height:130px;resize:vertical}
-  .btn-submit{background:var(--gold);color:#fff;border:none;padding:14px 36px;font-size:13px;letter-spacing:2px;text-transform:uppercase;cursor:pointer;width:100%}
-  .btn-submit:hover{background:var(--ink)}
+  .btn-submit{background:var(--oxblood);color:#fff;border:none;padding:14px 36px;font-size:15px;letter-spacing:2px;text-transform:uppercase;cursor:pointer;width:100%}
+  .btn-submit:hover{background:var(--oxblood-dark)}
   .news-card figure{overflow:hidden;margin-bottom:16px}
   .news-card figure img{width:100%;height:220px;object-fit:cover;transition:.4s}
   .news-card figure:hover img{transform:scale(1.05)}
-  .news-card span{color:var(--gold);font-size:12px;letter-spacing:1px;text-transform:uppercase}
-  .news-card h5{margin:8px 0;font-family:'Playfair',serif}
+  .news-card span{color:var(--gold);font-size:14px;letter-spacing:1px;text-transform:uppercase}
+  .news-card h5{margin:8px 0;font-family:'Poppins',sans-serif;font-weight:500}
   .news-card h5 a{color:var(--ink);text-decoration:none}
   .news-card h5 a:hover{color:var(--gold)}
-  .news-card p{color:var(--grey-mid);font-size:14px;line-height:1.7}
+  .news-card p{color:var(--grey-mid);font-size:16px;line-height:1.7}
   .team-card{text-align:center;padding:30px 20px;border:1px solid var(--border-light)}
-  .team-card .avatar{width:90px;height:90px;border-radius:50%;background:var(--gold);margin:0 auto 16px;display:flex;align-items:center;justify-content:center;font-size:32px;color:#fff;font-family:'Playfair',serif}
-  .team-card h5{font-family:'Playfair',serif;color:var(--ink);margin-bottom:4px}
-  .team-card p{color:var(--gold);font-size:12px;letter-spacing:2px;text-transform:uppercase}
+  .team-card .avatar{width:90px;height:90px;border-radius:50%;background:var(--gold);margin:0 auto 16px;display:flex;align-items:center;justify-content:center;font-size:32px;color:#fff;font-family:'Poppins',sans-serif;font-weight:500}
+  .team-card h5{font-family:'Poppins',sans-serif;font-weight:500;color:var(--ink);margin-bottom:4px}
+  .team-card p{color:var(--gold);font-size:14px;letter-spacing:2px;text-transform:uppercase}
   .faq-item{border-bottom:1px solid var(--border-light);padding:20px 0}
   .faq-item h5{color:var(--ink);font-size:16px;cursor:pointer}
-  .faq-item p{color:var(--grey-mid);font-size:14px;line-height:1.7;margin-top:10px}
+  .faq-item p{color:var(--grey-mid);font-size:16px;line-height:1.7;margin-top:10px}
   /* ===== Premium package cards — replaces the plain navy table ===== */
-  .pkg-guide{display:grid;grid-template-columns:1fr 1fr;gap:28px;max-width:980px;margin:40px auto 0}
+  .pkg-intro-copy{max-width:760px;margin:0 auto 48px;text-align:center;color:var(--grey-mid);font-size:16px;line-height:1.85}
+  .pkg-choose-head{display:flex;gap:48px;align-items:flex-start;max-width:1100px;margin:0 auto}
+  .pkg-choose-head .head-text{flex:0 0 280px}
+  .pkg-guide{display:grid;grid-template-columns:1fr 1fr;gap:28px;flex:1;margin:0}
+  @media(max-width:900px){.pkg-choose-head{flex-direction:column;gap:28px}.pkg-choose-head .head-text{flex:0 0 auto}}
   .pkg-guide-card{background:var(--bg-cream);border-left:3px solid var(--gold);padding:26px 30px}
-  .pkg-guide-card h4{font-family:'Playfair',serif;font-size:17px;color:var(--ink);margin:0 0 10px}
-  .pkg-guide-card p{font-size:14px;color:#555;line-height:1.75;margin:0}
-  .pkg-guide-card p a{color:var(--gold);font-weight:600;text-decoration:none;border-bottom:1px solid rgba(200,169,110,.4)}
+  .pkg-guide-card h4{font-family:'Poppins',sans-serif;font-weight:500;font-size:17px;color:var(--ink);margin:0 0 10px}
+  .pkg-guide-card p{font-size:16px;color:#555;line-height:1.75;margin:0}
+  .pkg-guide-card p a{color:var(--gold);font-weight:500;text-decoration:none;border-bottom:1px solid rgba(200,169,110,.4)}
   .pkg-guide-card p a:hover{color:var(--ink);border-color:var(--ink)}
   @media(max-width:768px){.pkg-guide{grid-template-columns:1fr;margin-top:32px}}
   .pkg-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:0;margin-top:56px;border:1px solid var(--border-warm);border-top:3px solid var(--ink)}
   .pkg-card{position:relative;background:#fff;padding:38px 26px 32px;display:flex;flex-direction:column;border-right:1px solid var(--border-warm);transition:box-shadow .3s,transform .3s}
   .pkg-card:last-child{border-right:none}
   .pkg-card:hover,.pkg-card.active{box-shadow:0 24px 48px rgba(26,26,26,.1);transform:translateY(-4px);z-index:2}
-  .pkg-card .pkg-level{font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:var(--grey-light);margin-bottom:14px;min-height:28px;line-height:1.4}
-  .pkg-card h4{font-family:'Playfair',serif;font-size:22px;color:var(--ink);margin:0 0 10px;line-height:1.25}
-  .pkg-card .pkg-price{font-size:20px;font-weight:700;color:var(--gold);margin-bottom:16px}
-  .pkg-card .pkg-desc{font-size:13.5px;color:var(--grey-mid);line-height:1.7;flex:1;margin-bottom:26px}
-  .pkg-card .btn-chayce{width:100%;text-align:center;padding:13px 10px;font-size:12px;margin:0 0 12px;box-sizing:border-box}
-  .pkg-card .pkg-detail-link{display:block;width:100%;text-align:center;font-size:12.5px;color:var(--slate);text-decoration:underline;text-underline-offset:3px;background:none;border:0;cursor:pointer;font-family:'Poppins',sans-serif;padding:4px 0;margin-top:auto}
+  .pkg-card .pkg-level{font-size:13px;letter-spacing:1.5px;text-transform:uppercase;color:var(--grey-light);margin-bottom:14px;min-height:28px;line-height:1.4}
+  .pkg-card h4{font-family:'Poppins',sans-serif;font-weight:500;font-size:22px;color:var(--ink);margin:0 0 10px;line-height:1.25}
+  .pkg-card .pkg-price{font-size:20px;font-weight:500;color:var(--gold);margin-bottom:16px}
+  .pkg-card .pkg-desc{font-size:15.5px;color:var(--grey-mid);line-height:1.7;flex:1;margin-bottom:26px}
+  .pkg-card .btn-chayce{width:100%;text-align:center;padding:13px 10px;font-size:14px;margin:0 0 12px;box-sizing:border-box}
+  .pkg-card .pkg-detail-link{display:block;width:100%;text-align:center;font-size:14.5px;color:var(--slate);text-decoration:underline;text-underline-offset:3px;background:none;border:0;cursor:pointer;font-family:'Poppins',sans-serif;padding:4px 0;margin-top:auto}
   .pkg-card .pkg-detail-link:hover{color:var(--gold)}
   /* ===== Package detail card — sits in normal flow below the grid, centered, pushes the quote note down ===== */
   .pkg-modal-overlay{display:none;width:min(640px,94%);margin:28px auto 0}
@@ -83,17 +91,17 @@ headExtra: |
   .pkg-modal-close{position:absolute;top:16px;right:16px;width:28px;height:28px;border-radius:50%;border:1px solid var(--border-warm);background:#fff;color:var(--ink);font-size:16px;line-height:1;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:.2s;z-index:2}
   .pkg-modal-close:hover{background:var(--ink);color:#fff;border-color:var(--ink)}
   .pkg-modal-body{padding:24px 32px 22px}
-  .pkg-modal-body>h3{font-family:'Playfair',serif;font-size:20px;color:var(--ink);margin:0 0 14px;line-height:1.25;padding-right:30px}
+  .pkg-modal-body>h3{font-family:'Poppins',sans-serif;font-weight:500;font-size:20px;color:var(--ink);margin:0 0 14px;line-height:1.25;padding-right:30px}
   .pkg-modal-cols{display:flex;gap:36px;align-items:flex-start}
   .pkg-modal-right{flex:1;min-width:0}
-  .pkg-modal-included-label{display:block;font-size:10.5px;letter-spacing:1.5px;text-transform:uppercase;color:var(--grey-light);margin-bottom:12px}
+  .pkg-modal-included-label{display:block;font-size:12.5px;letter-spacing:1.5px;text-transform:uppercase;color:var(--grey-light);margin-bottom:12px}
   .pkg-modal-list{list-style:none;margin:0;padding:0}
-  .pkg-modal-list li{display:flex;align-items:flex-start;gap:10px;padding:5px 0;font-size:12.5px;color:var(--slate)}
+  .pkg-modal-list li{display:flex;align-items:flex-start;gap:10px;padding:5px 0;font-size:14.5px;color:var(--slate)}
   .pkg-modal-list li .ico-wrap{flex:0 0 20px;width:20px;height:20px;border-radius:50%;background:var(--bg-cream);display:flex;align-items:center;justify-content:center;margin-top:1px}
   .pkg-modal-list li .ico-wrap svg{width:9.5px;height:9.5px;stroke:var(--gold);fill:none;stroke-width:2.8;stroke-linecap:round;stroke-linejoin:round}
   .pkg-modal-left{flex:0 0 200px;border-left:1px solid var(--border-light);padding-left:28px;padding-top:2px}
-  .pkg-modal-left .btn-chayce{display:block;width:100%;text-align:center;padding:16px 14px;font-size:12px;line-height:1.4;box-sizing:border-box}
-  .pkg-modal-readmore{display:block;text-align:center;margin-top:14px;font-size:11.5px;letter-spacing:.5px;color:#8a7548;text-decoration:underline;text-underline-offset:3px}
+  .pkg-modal-left .btn-chayce{display:block;width:100%;text-align:center;padding:16px 14px;font-size:14px;line-height:1.4;box-sizing:border-box}
+  .pkg-modal-readmore{display:block;text-align:center;margin-top:14px;font-size:13.5px;letter-spacing:.5px;color:#8a7548;text-decoration:underline;text-underline-offset:3px}
   .pkg-modal-readmore:hover{color:var(--ink)}
   @media(max-width:1024px){.pkg-grid{grid-template-columns:repeat(3,1fr)}.pkg-card{border-bottom:1px solid var(--border-warm)}.pkg-card:nth-child(3){border-right:none}}
   @media(max-width:768px){.contact-grid{grid-template-columns:1fr}.icon-item{flex:0 0 100%}
@@ -107,24 +115,33 @@ headExtra: |
   .pkg-modal-left{flex:0 0 auto;border-left:0;padding-left:0;border-top:1px solid var(--border-light);padding-top:18px}
   }
   @media(max-width:600px){
-  .page-hero{padding:90px 0 50px}
-  .page-hero h1{font-size:30px}
   .pkg-guide-card{padding:22px 20px}
   .pkg-card{padding:28px 20px}
-  .quote-block{padding:18px 20px;font-size:15px}
+  .quote-block{padding:18px 20px;font-size:17px}
   }
   /* ===== Page FAQ ===== */
   .pg-faq-band{background:var(--bg-warm);padding:80px 0}
   .pg-faq-band .container{max-width:760px}
-  .pg-faq-band h2{font-family:'Playfair',serif;font-size:28px;color:var(--ink);margin:0 0 30px;text-align:center}
+  .pg-faq-band h2{font-family:'Playfair Display',serif;font-size:28px;color:var(--ink);margin:0 0 30px;text-align:center}
   .pg-faq{margin:0}
   .pg-faq details{border-bottom:1px solid var(--border-warm-2);padding:20px 0}
   .pg-faq details:first-child{border-top:1px solid var(--border-warm-2)}
-  .pg-faq summary{list-style:none;cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:18px;font-family:'Playfair',serif;font-size:17px;color:var(--ink);font-weight:700}
+  .pg-faq summary{list-style:none;cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:18px;font-family:'Poppins',sans-serif;font-weight:500;font-size:17px;color:var(--ink);font-weight:500}
   .pg-faq summary::-webkit-details-marker{display:none}
   .pg-faq summary::after{content:'+';flex-shrink:0;font-family:'Poppins',sans-serif;font-size:19px;font-weight:400;color:var(--gold-dark)}
   .pg-faq details[open] summary::after{content:'\2212'}
-  .pg-faq p{color:var(--grey-mid);font-size:15px;line-height:1.8;margin:12px 0 0}
+  .pg-faq p{color:var(--grey-mid);font-size:17px;line-height:1.8;margin:12px 0 0}
+  /* ===== Closing CTA ===== */
+  .pkg-close-cta{background:var(--bg-cream);padding:70px 0;text-align:center}
+  .pkg-close-cta h2{font-family:'Playfair Display',serif;font-size:28px;color:var(--ink);margin:0 0 12px}
+  .pkg-close-cta p{color:var(--grey-mid);font-size:17px;margin:0 0 26px}
+  .pkg-close-cta .btn-row{display:flex;gap:16px;flex-wrap:wrap;justify-content:center}
+  .pkg-close-cta .btn-row a{display:inline-block;padding:15px 32px;font-size:15px;font-weight:500;letter-spacing:1.5px;text-transform:uppercase;text-decoration:none;border-radius:2px}
+  .pkg-close-cta .btn-row .primary{background:var(--oxblood);color:#fff}
+  .pkg-close-cta .btn-row .primary:hover{background:var(--oxblood-dark)}
+  .pkg-close-cta .btn-row .ghost{background:transparent;color:var(--ink);border:1px solid var(--ink)}
+  .pkg-close-cta .btn-row .ghost:hover{background:var(--ink);color:#fff}
+  @media(max-width:480px){.pkg-close-cta .btn-row{flex-direction:column}.pkg-close-cta .btn-row a{width:100%;box-sizing:border-box}}
 
   </style>
   <script src="/js/wp-includes_js_jquery_jquery.min.js"></script>
@@ -136,23 +153,28 @@ footScripts: |
   <script src="/js/wp-content_themes_hompark_js_bundle.js"></script>
   <script src="/js/wp-content_themes_hompark_js_scripts.js"></script>
 ---
-<div class="page-hero" style="background-image:url({% imageUrl "chayce-packages-hero-uk.jpg" %});{% imageSet "chayce-packages-hero-uk.jpg" %};background-size:cover;background-position:center;">
+<div class="page-hero--left" style="background-image:url({% imageUrl "chayce-packages-hero-uk.jpg" %});{% imageSet "chayce-packages-hero-uk.jpg" %};background-size:cover;background-position:center;">
   <div class="container">
     <h1><em>Our</em> Relocation Packages</h1>
-    <p style="color:#ccc;margin-top:10px;font-size:16px;">Crafted precisely for your needs</p>
+    <p style="color:#ccc;margin-top:10px;font-size:16px;">Five levels of support, from a &pound;150 consultation to a fully bespoke relocation</p>
   </div>
 </div>
 <section class="page-section">
   <div class="container">
-    <div class="section-titles center wow fadeInUp"><h2><em>Choose</em> Your Package</h2><h3>Five levels of support, one standard of excellence</h3></div>
-    <div class="pkg-guide">
-      <div class="pkg-guide-card">
-        <h4>Already secured your home?</h4>
-        <p>If you mainly need the physical move handled, <a href="/bronze-essentials/">Bronze Essentials</a> is usually enough. Want someone coordinating the whole move for you? <a href="/silver-comfort/">Silver Comfort</a> adds that. If your move also involves staging, legal coordination or other higher-touch support, <a href="/gold-prestige/">Gold Prestige</a> may still be the better fit.</p>
-      </div>
-      <div class="pkg-guide-card">
-        <h4>Still searching for your next home?</h4>
-        <p><a href="/gold-prestige/">Gold Prestige</a> includes property viewings, staging and legal coordination where that&rsquo;s what you need &mdash; but if you just want the move itself sorted once you&rsquo;re settled, <a href="/bronze-essentials/">Bronze</a> or <a href="/silver-comfort/">Silver</a> may still be the right fit. Not sure? <a href="/discovery/">Start with a Discovery Consultation</a>.</p>
+    <p class="pkg-intro-copy">Every package builds on the one below it, so moving up a tier doesn&rsquo;t mean a different kind of service &mdash; it means we take more of the process off your hands, from the physical move itself in Bronze Essentials through to viewings, staging and legal coordination in Gold Prestige and Platinum Bespoke. If you&rsquo;re not sure where your own move sits on that scale, that&rsquo;s exactly what the Discovery Consultation is for, and there&rsquo;s no obligation to book anything further once you&rsquo;ve had it.</p>
+    <!-- ============ TRUST QUOTE — moved up next to the package-choosing guide instead of trailing after the comparison table, so the claim sits near the decision it's meant to support ============ -->
+    <div class="quote-block">&ldquo;From sorting and packing to selling and settling in &mdash; we manage it all, so you don&rsquo;t have to.&rdquo;</div>
+    <div class="pkg-choose-head">
+      <div class="head-text section-titles wow fadeInUp"><h2><em>Choose</em> Your Package</h2><h3>Five levels of support, one standard of excellence</h3></div>
+      <div class="pkg-guide">
+        <div class="pkg-guide-card">
+          <h4>Already secured your home?</h4>
+          <p>If you mainly need the physical move handled, <a href="/bronze-essentials/">Bronze Essentials</a> is usually enough. Want someone coordinating the whole move for you? <a href="/silver-comfort/">Silver Comfort</a> adds that. If your move also involves staging, legal coordination or other higher-touch support, <a href="/gold-prestige/">Gold Prestige</a> may still be the better fit.</p>
+        </div>
+        <div class="pkg-guide-card">
+          <h4>Still searching for your next home?</h4>
+          <p><a href="/gold-prestige/">Gold Prestige</a> includes property viewings, staging and legal coordination where that&rsquo;s what you need &mdash; but if you just want the move itself sorted once you&rsquo;re settled, <a href="/bronze-essentials/">Bronze</a> or <a href="/silver-comfort/">Silver</a> may still be the right fit. Not sure? <a href="/discovery/">Start with a Discovery Consultation</a>.</p>
+        </div>
       </div>
     </div>
 
@@ -193,7 +215,7 @@ footScripts: |
         <span class="pkg-level">Level 4 &mdash; Complete Bespoke / White-Glove</span>
         <h4>Platinum Bespoke</h4>
         <div class="pkg-price">From £6,500</div>
-        <p class="pkg-desc">Complete white-glove service for discerning clients.</p>
+        <p class="pkg-desc">Fully bespoke relocation with a dedicated senior coordinator and 3 months of post-move support.</p>
         <a href="/get-started/index.html?package=Platinum%20Bespoke%20%E2%80%94%20%C2%A36%2C500" class="btn-chayce">Get Started</a>
         <button type="button" class="pkg-detail-link" data-pkg="platinum">Full details</button>
       </div>
@@ -219,7 +241,32 @@ footScripts: |
       </div>
     </div>
 
-    <div class="quote-block" style="margin-top:50px">&ldquo;From sorting and packing to selling and settling in &mdash; we manage it all, so you don&rsquo;t have to.&rdquo;</div>
+    <p class="compare-intro" style="text-align:center;max-width:640px;margin:50px auto 0;color:var(--grey-mid);font-size:17px">The table below shows exactly what's included at each tier, feature by feature &mdash; each package includes everything in the one to its left, plus the rows marked below it.</p>
+    <div class="compare-wrap">
+      <table class="pkg-compare">
+        <thead>
+          <tr><th>Included</th><th>Bronze</th><th>Silver</th><th>Gold</th><th>Platinum</th></tr>
+        </thead>
+        <tbody>
+          <tr><td class="feat">Professional packing, all rooms</td><td class="yes">&#10003;</td><td class="yes">&#10003;</td><td class="yes">&#10003;</td><td class="yes">&#10003;</td></tr>
+          <tr><td class="feat">Fully insured removal</td><td class="yes">&#10003;</td><td class="yes">&#10003;</td><td class="yes">&#10003;</td><td class="yes">&#10003;</td></tr>
+          <tr><td class="feat">Dedicated move coordinator</td><td class="yes">&#10003;</td><td class="yes">&#10003;</td><td class="yes">&#10003;</td><td class="yes">&#10003;</td></tr>
+          <tr><td class="feat">Home sorting &amp; declutter assistance</td><td class="no">&mdash;</td><td class="yes">&#10003;</td><td class="yes">&#10003;</td><td class="yes">&#10003;</td></tr>
+          <tr><td class="feat">Property staging for sale</td><td class="no">&mdash;</td><td class="yes">&#10003;</td><td class="yes">&#10003;</td><td class="yes">&#10003;</td></tr>
+          <tr><td class="feat">Utility transfer management</td><td class="no">&mdash;</td><td class="yes">&#10003;</td><td class="yes">&#10003;</td><td class="yes">&#10003;</td></tr>
+          <tr><td class="feat">Deep clean of vacated property</td><td class="no">Light clean</td><td class="yes">&#10003;</td><td class="yes">&#10003;</td><td class="yes">&#10003;</td></tr>
+          <tr><td class="feat">Post-move unpacking &amp; setup</td><td class="no">&mdash;</td><td class="yes">&#10003;</td><td class="yes">White-glove</td><td class="yes">White-glove</td></tr>
+          <tr><td class="feat">Chauffeur-driven viewings</td><td class="no">&mdash;</td><td class="no">&mdash;</td><td class="yes">&#10003;</td><td class="yes">&#10003;</td></tr>
+          <tr><td class="feat">Estate agent liaison</td><td class="no">&mdash;</td><td class="no">&mdash;</td><td class="yes">&#10003;</td><td class="yes">&#10003;</td></tr>
+          <tr><td class="feat">Solicitor coordination</td><td class="no">&mdash;</td><td class="no">&mdash;</td><td class="yes">&#10003;</td><td class="yes">&#10003;</td></tr>
+          <tr><td class="feat">Storage (up to 6 weeks)</td><td class="no">&mdash;</td><td class="no">&mdash;</td><td class="yes">&#10003;</td><td class="yes">&#10003;</td></tr>
+          <tr><td class="feat">Personal lifestyle concierge</td><td class="no">&mdash;</td><td class="no">&mdash;</td><td class="no">&mdash;</td><td class="yes">&#10003;</td></tr>
+          <tr><td class="feat">Interior designer consultation</td><td class="no">&mdash;</td><td class="no">&mdash;</td><td class="no">&mdash;</td><td class="yes">&#10003;</td></tr>
+          <tr><td class="feat">Ongoing post-move concierge (3 months)</td><td class="no">&mdash;</td><td class="no">&mdash;</td><td class="no">&mdash;</td><td class="yes">&#10003;</td></tr>
+        </tbody>
+      </table>
+      <p class="compare-note">Not sure which level of support you need? A <a href="/discovery/">Discovery Consultation</a> (from &pound;150) is a standalone assessment that helps you choose &mdash; it isn&rsquo;t one of the four tiers above.</p>
+    </div>
   </div>
 </section>
 
@@ -256,7 +303,7 @@ footScripts: |
     },
     platinum: {
       name: 'Platinum Bespoke', level: 'Level 4 — Complete Bespoke / White-Glove', price: 'From £6,500',
-      desc: 'Complete white-glove service for discerning clients.',
+      desc: 'Fully bespoke relocation with a dedicated senior coordinator and 3 months of post-move support.',
       cta: 'Book a Consultation', ctaHref: '../get-started/index.html?package=Platinum%20Bespoke%20%E2%80%94%20%C2%A36%2C500',
       fullHref: '../platinum-bespoke/index.html',
       features: ['Everything in Gold Prestige','Fully bespoke & unlimited scope','Personal lifestyle concierge','New area orientation & introductions','Interior designer consultation','Ongoing post-move concierge support (3 months)','Dedicated senior coordinator throughout']
@@ -334,6 +381,17 @@ footScripts: |
 </section>
 
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How do I know which package is right for me?", "acceptedAnswer": {"@type": "Answer", "text": "Start with a Discovery Consultation (from \u00a3150) \u2014 a personalised assessment that helps determine the right level of support for your situation, with no obligation to book anything further."}}, {"@type": "Question", "name": "Are all packages fully insured?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. All removals carried out by Chayce are fully insured, regardless of which package you choose."}}, {"@type": "Question", "name": "Can I book individual services instead of a full package?", "acceptedAnswer": {"@type": "Answer", "text": "Our packages are designed to give you the best value and experience, but we can discuss bespoke requirements. Contact us to find out more."}}, {"@type": "Question", "name": "What's the difference between the packages?", "acceptedAnswer": {"@type": "Answer", "text": "Packages are additive \u2014 each tier includes everything in the one below it, plus more support. Bronze covers a straightforward move; Platinum is a fully bespoke, unlimited-scope service."}}, {"@type": "Question", "name": "Do you offer a consultation before I commit to a package?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. A Discovery Consultation (from \u00a3150) assesses your situation before you choose a package."}}]}</script>
+
+<section class="pkg-close-cta">
+  <div class="container">
+    <h2>Ready to find the right level of support?</h2>
+    <p>Tell us a little about your situation and we&rsquo;ll help you find the right next step.</p>
+    <div class="btn-row">
+      <a href="/get-started/" class="primary">Get Started</a>
+      <a href="/contact/" class="ghost">Contact Us</a>
+    </div>
+  </div>
+</section>
 
 <!-- SEOAI:BREADCRUMBSCHEMA:START --><script type="application/ld+json">{"@type":"BreadcrumbList","@context":"https://schema.org","itemListElement":[{"item":"https://chayceproperties.com/","name":"Chayceproperties","@type":"ListItem","position":1},{"item":"https://chayceproperties.com/packages","name":"Packages","@type":"ListItem","position":2}]}</script><!-- SEOAI:BREADCRUMBSCHEMA:END -->
 

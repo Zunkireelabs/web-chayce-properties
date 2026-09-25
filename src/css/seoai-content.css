@@ -14,7 +14,7 @@
 .seoai-content-section{padding:56px 0}
 .seoai-content-section+.seoai-content-section{background:#f9f8f6}
 .seoai-content-section>section{max-width:790px;margin:0 auto;padding:0 15px;box-sizing:border-box}
-.seoai-content-section h1,.seoai-content-section h2{font-family:'Playfair',serif;font-weight:700;font-size:28px;color:#1a1a1a;margin:0 0 16px;line-height:1.3}
+.seoai-content-section h1,.seoai-content-section h2{font-family:'Playfair Display',serif;font-weight:500;font-size:30px;color:#1a1a1a;margin:0 0 16px;line-height:1.3}
 .seoai-content-section p{color:#555;font-size:16px;line-height:1.85;margin:0 0 6px;max-width:none}
 /* .body-copy carries a 520px max-width elsewhere on the homepage (intro
    text alongside an image, where that measure is correct). Reused inside
@@ -43,12 +43,12 @@
   .seoai-content-section.seoai-content-section--compact{padding:16px 0}
 }
 .seoai-compare{background:#fff;border:1px solid #e7e2d6;border-radius:12px;padding:26px 30px;margin-top:24px;box-shadow:0 2px 18px rgba(26,26,26,.05)}
-.seoai-compare-head{display:grid;grid-template-columns:1.1fr 1fr 1fr;gap:18px;padding-bottom:12px;margin-bottom:6px;border-bottom:1px solid #ece7dc;font-family:'Poppins',sans-serif;font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:#8a8478;font-weight:700}
+.seoai-compare-head{display:grid;grid-template-columns:1.1fr 1fr 1fr;gap:18px;padding-bottom:12px;margin-bottom:6px;border-bottom:1px solid #ece7dc;font-family:'Poppins',sans-serif;font-size:11.5px;letter-spacing:1.5px;text-transform:uppercase;color:#8a8478;font-weight:500}
 .seoai-compare-row{display:grid;grid-template-columns:1.1fr 1fr 1fr;gap:18px;padding:14px 0;border-top:1px solid #ece7dc;align-items:start}
 .seoai-compare-row:first-of-type{border-top:none}
-.seoai-compare-row .label{font-family:'Poppins',sans-serif;font-size:13px;font-weight:700;color:#1a1a1a}
+.seoai-compare-row .label{font-family:'Poppins',sans-serif;font-size:13.5px;font-weight:500;color:#1a1a1a}
 .seoai-compare-row .alt{color:#777;font-size:14.5px;line-height:1.6}
-.seoai-compare-row .this{color:#1a1a1a;font-size:14.5px;line-height:1.6;font-weight:600}
+.seoai-compare-row .this{color:#1a1a1a;font-size:14.5px;line-height:1.6;font-weight:500}
 .seoai-compare-row .this::before{content:'';display:inline-block;width:7px;height:7px;border-radius:50%;background:#c8a96e;margin-right:8px;vertical-align:middle}
 @media(max-width:640px){
   .seoai-compare-head{display:none}

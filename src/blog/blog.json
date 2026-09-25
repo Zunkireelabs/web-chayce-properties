@@ -4,5 +4,7 @@
   "permalink": "/blog/{{ page.fileSlug }}/",
   "bodyClass": "page-template page-loaded",
   "homeNav": false,
+  "navGlassy": true,
+  "activeKey": "blog",
   "headExtra": "<link rel=\"stylesheet\" href=\"/css/chayce-nav.css\">\n<link rel=\"stylesheet\" href=\"/css/chayce-blog.css\">"
 }

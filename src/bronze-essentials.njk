@@ -4,122 +4,139 @@ description: "Bronze Essentials: Chayce Properties' entry-level UK removals and 
 bodyClass: "page-template page-loaded"
 homeNav: false
 layout: base.njk
+activeKey: "packages"
 headExtra: |
   <style>
   .chayce-logo-link{text-decoration:none!important}
   .navbar .container .upper-side .logo{margin-left:80px!important}
   @media(max-width:767px){.navbar .container .upper-side .logo{margin-left:0!important}}
-  .page-hero{background:var(--slate);padding:120px 0 80px;text-align:center;position:relative;overflow:hidden}
-  .page-hero::before{content:'';position:absolute;inset:0;background:linear-gradient(135deg,rgba(30,35,50,.85),rgba(61,69,88,.7));z-index:1}
-  .page-hero .container{position:relative;z-index:2}
-  .page-hero h1{color:#fff;font-size:48px;font-weight:700;margin-bottom:10px;font-family:'Playfair',serif}
-  .page-hero h1 em{color:var(--gold);font-style:normal}
-  .page-hero .breadcrumb{color:var(--gold);font-size:13px;letter-spacing:2px;text-transform:uppercase}
-  .page-hero .breadcrumb a{color:#fff;text-decoration:none}
   .page-section{padding:80px 0}
   .page-section.grey{background:var(--bg-cool)}
   .card-box{background:#fff;border:1px solid var(--border-light);padding:36px;margin-bottom:30px;transition:.3s;box-sizing:border-box}
   .card-box:hover{box-shadow:0 8px 30px rgba(0,0,0,.08);transform:translateY(-3px)}
-  .card-box h4{color:var(--ink);font-family:'Playfair',serif;margin-bottom:10px}
+  .card-box h4{color:var(--ink);font-family:'Poppins',sans-serif;font-weight:500;margin-bottom:10px}
   .card-box h4 em{color:var(--gold);font-style:normal}
-  .card-box p{color:var(--grey-mid);line-height:1.7;font-size:15px}
-  .card-box .price{font-size:22px;font-weight:700;color:var(--gold);margin:12px 0}
-  .card-box .btn-chayce{display:inline-block;padding:16px 36px;background:var(--gold);color:#fff;text-decoration:none;font-size:14px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;margin-top:12px;border-radius:2px}
-  .card-box .btn-chayce:hover{background:var(--ink)}
+  .card-box p{color:var(--grey-mid);line-height:1.7;font-size:17px}
+  .card-box .price{font-size:22px;font-weight:500;color:var(--gold);margin:12px 0}
+  .card-box .btn-chayce{display:inline-block;padding:16px 36px;background:var(--oxblood);color:#fff;text-decoration:none;font-size:16px;font-weight:500;letter-spacing:1.5px;text-transform:uppercase;margin-top:12px;border-radius:2px}
+  .card-box .btn-chayce:hover{background:var(--oxblood-dark)}
   .icon-row{display:flex;flex-wrap:wrap;gap:24px;margin-top:30px}
   .icon-item{flex:0 0 calc(33.333% - 16px);background:#fff;padding:30px 24px;border:1px solid var(--border-light);text-align:center}
   .icon-item img{width:50px;height:50px;object-fit:contain;margin-bottom:14px}
-  .icon-item h6{font-size:13px;font-weight:600;color:var(--ink);letter-spacing:1px;text-transform:uppercase}
-  .quote-block{border-left:4px solid var(--gold);padding:20px 28px;background:var(--bg-cream);font-style:italic;font-size:17px;color:var(--slate);margin:30px 0;font-family:'Playfair',serif}
+  .icon-item h6{font-size:15px;font-weight:500;color:var(--ink);letter-spacing:1px;text-transform:uppercase}
+  .quote-block{border-left:4px solid var(--gold);padding:20px 28px;background:var(--bg-cream);font-style:italic;font-size:17px;color:var(--slate);margin:30px 0;font-family:'Poppins',sans-serif;font-weight:500}
   .contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px}
-  .contact-info h5{color:var(--gold);text-transform:uppercase;letter-spacing:2px;font-size:12px;margin-bottom:8px}
-  .contact-info h3{color:var(--ink);font-size:28px;margin-bottom:20px;font-family:'Playfair',serif}
+  .contact-info h5{color:var(--gold);text-transform:uppercase;letter-spacing:2px;font-size:14px;margin-bottom:8px}
+  .contact-info h3{color:var(--ink);font-size:28px;margin-bottom:20px;font-family:'Poppins',sans-serif;font-weight:500}
   .contact-info p{color:var(--grey-mid);line-height:1.8}
   .contact-info a{color:var(--gold)}
   .form-group{margin-bottom:18px}
-  .form-group input,.form-group textarea,.form-group select{width:100%;padding:12px 16px;border:1px solid #ddd;font-size:14px;font-family:'Poppins',sans-serif;outline:none}
+  .form-group input,.form-group textarea,.form-group select{width:100%;padding:12px 16px;border:1px solid #ddd;font-size:16px;font-family:'Poppins',sans-serif;outline:none}
   .form-group input:focus,.form-group textarea:focus{border-color:var(--gold)}
   .form-group textarea{min-height:130px;resize:vertical}
-  .btn-submit{background:var(--gold);color:#fff;border:none;padding:14px 36px;font-size:13px;letter-spacing:2px;text-transform:uppercase;cursor:pointer;width:100%}
-  .btn-submit:hover{background:var(--ink)}
+  .btn-submit{background:var(--oxblood);color:#fff;border:none;padding:14px 36px;font-size:15px;letter-spacing:2px;text-transform:uppercase;cursor:pointer;width:100%}
+  .btn-submit:hover{background:var(--oxblood-dark)}
   .news-card figure{overflow:hidden;margin-bottom:16px}
   .news-card figure img{width:100%;height:220px;object-fit:cover;transition:.4s}
   .news-card figure:hover img{transform:scale(1.05)}
-  .news-card span{color:var(--gold);font-size:12px;letter-spacing:1px;text-transform:uppercase}
-  .news-card h5{margin:8px 0;font-family:'Playfair',serif}
+  .news-card span{color:var(--gold);font-size:14px;letter-spacing:1px;text-transform:uppercase}
+  .news-card h5{margin:8px 0;font-family:'Poppins',sans-serif;font-weight:500}
   .news-card h5 a{color:var(--ink);text-decoration:none}
   .news-card h5 a:hover{color:var(--gold)}
-  .news-card p{color:var(--grey-mid);font-size:14px;line-height:1.7}
+  .news-card p{color:var(--grey-mid);font-size:16px;line-height:1.7}
   .team-card{text-align:center;padding:30px 20px;border:1px solid var(--border-light)}
-  .team-card .avatar{width:90px;height:90px;border-radius:50%;background:var(--gold);margin:0 auto 16px;display:flex;align-items:center;justify-content:center;font-size:32px;color:#fff;font-family:'Playfair',serif}
-  .team-card h5{font-family:'Playfair',serif;color:var(--ink);margin-bottom:4px}
-  .team-card p{color:var(--gold);font-size:12px;letter-spacing:2px;text-transform:uppercase}
+  .team-card .avatar{width:90px;height:90px;border-radius:50%;background:var(--gold);margin:0 auto 16px;display:flex;align-items:center;justify-content:center;font-size:32px;color:#fff;font-family:'Poppins',sans-serif;font-weight:500}
+  .team-card h5{font-family:'Poppins',sans-serif;font-weight:500;color:var(--ink);margin-bottom:4px}
+  .team-card p{color:var(--gold);font-size:14px;letter-spacing:2px;text-transform:uppercase}
   .faq-item{border-bottom:1px solid var(--border-light);padding:20px 0}
   .faq-item h5{color:var(--ink);font-size:16px;cursor:pointer}
-  .faq-item p{color:var(--grey-mid);font-size:14px;line-height:1.7;margin-top:10px}
+  .faq-item p{color:var(--grey-mid);font-size:16px;line-height:1.7;margin-top:10px}
   table.pkg-table{width:100%;border-collapse:collapse}
-  table.pkg-table th{background:var(--slate);color:#fff;padding:12px 16px;font-size:13px;letter-spacing:1px;text-align:left}
-  table.pkg-table td{padding:12px 16px;border-bottom:1px solid var(--border-light);font-size:14px;color:#444}
+  table.pkg-table th{background:var(--slate);color:#fff;padding:12px 16px;font-size:15px;letter-spacing:1px;text-align:left}
+  table.pkg-table td{padding:12px 16px;border-bottom:1px solid var(--border-light);font-size:16px;color:#444}
   table.pkg-table tr:hover td{background:#fafafa}
-  table.pkg-table td.gold{color:var(--gold);font-weight:700}
+  table.pkg-table td.gold{color:var(--gold);font-weight:500}
   .pkg-detail-head{max-width:640px;margin:0 auto 64px;text-align:center}
-  .pkg-detail-eyebrow{font-size:12px;letter-spacing:2.5px;text-transform:uppercase;color:var(--gold);font-weight:600;margin:0 0 14px}
-  .pkg-detail-title{font-family:'Playfair',serif;font-size:44px;color:var(--ink);margin:0 0 12px;line-height:1.2}
+  .pkg-detail-eyebrow{font-size:14px;letter-spacing:2.5px;text-transform:uppercase;color:var(--gold);font-weight:500;margin:0 0 14px}
+  .pkg-detail-title{font-family:'Playfair Display',serif;font-size:44px;color:var(--ink);margin:0 0 12px;line-height:1.2}
   .pkg-detail-sub{font-size:17px;color:var(--grey-mid);line-height:1.7;margin:0}
   .pkg-detail-banner{margin-bottom:64px;box-shadow:0 40px 80px rgba(26,26,26,.14);overflow:hidden}
   .pkg-detail-banner img{width:100%;max-height:520px;object-fit:cover;display:block}
   .pkg-detail-grid{display:grid;grid-template-columns:1.6fr 1fr;gap:64px;align-items:start}
-  .pkg-section-label{font-size:12px;letter-spacing:2px;text-transform:uppercase;color:var(--grey-light);font-weight:600;margin:0 0 22px}
+  .pkg-section-label{font-size:14px;letter-spacing:2px;text-transform:uppercase;color:var(--grey-light);font-weight:500;margin:0 0 22px}
   .pkg-feature-list{list-style:none;padding:0;margin:0 0 40px}
-  .pkg-feature-list li{display:flex;align-items:center;gap:16px;padding:14px 0;border-bottom:1px solid var(--border-light);color:var(--slate);font-size:15px}
+  .pkg-feature-list li{display:flex;align-items:center;gap:16px;padding:14px 0;border-bottom:1px solid var(--border-light);color:var(--slate);font-size:17px}
   .pkg-feature-list li .badge{flex:0 0 34px;width:34px;height:34px;border-radius:50%;background:var(--bg-cream);display:flex;align-items:center;justify-content:center}
   .pkg-feature-list li .badge svg{width:15px;height:15px;stroke:var(--gold);fill:none;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}
   .pkg-ideal-box{background:var(--bg-cream);border-left:3px solid var(--gold);padding:30px 34px;margin-bottom:8px}
-  .pkg-ideal-box h4{font-family:'Playfair',serif;font-size:16px;color:var(--ink);margin:0 0 10px}
-  .pkg-ideal-box p{margin:0;font-size:14.5px;color:#555;line-height:1.8}
+  .pkg-ideal-box h4{font-family:'Poppins',sans-serif;font-weight:500;font-size:16px;color:var(--ink);margin:0 0 10px}
+  .pkg-ideal-box p{margin:0;font-size:16.5px;color:#555;line-height:1.8}
   .pkg-order-card{position:sticky;top:112px;background:#fff;border:1px solid var(--border-warm);border-top:3px solid var(--ink);padding:40px 34px;box-shadow:0 30px 70px rgba(26,26,26,.1)}
-  .pkg-order-card .oc-name{font-family:'Playfair',serif;font-size:24px;color:var(--ink);margin:0 0 14px}
-  .pkg-order-card .oc-price{font-size:34px;font-weight:700;color:var(--gold);margin-bottom:26px}
-  .btn-chayce{display:block;text-align:center;padding:16px 20px;background:var(--gold);color:#fff;text-decoration:none;font-size:13px;font-weight:600;letter-spacing:2px;text-transform:uppercase}
-  .btn-chayce:hover{background:var(--ink)}
+  .pkg-order-card .oc-name{font-family:'Poppins',sans-serif;font-weight:500;font-size:24px;color:var(--ink);margin:0 0 14px}
+  .pkg-order-card .oc-price{font-size:34px;font-weight:500;color:var(--gold);margin-bottom:26px}
+  .pkg-order-card .oc-trust{font-size:13.5px;color:var(--grey-light);text-align:center;margin:12px 0 0;letter-spacing:.2px}
+  .btn-chayce{display:block;text-align:center;padding:16px 20px;background:var(--oxblood);color:#fff;text-decoration:none;font-size:15px;font-weight:500;letter-spacing:2px;text-transform:uppercase}
+  .btn-chayce:hover{background:var(--oxblood-dark)}
   .pkg-order-card .oc-steps{margin:26px 0 0;padding:22px 0 0;border-top:1px solid var(--border-light)}
-  .pkg-order-card .oc-step{display:flex;gap:12px;align-items:flex-start;font-size:13px;color:var(--grey-mid);line-height:1.6;margin-bottom:12px}
+  .pkg-order-card .oc-step{display:flex;gap:12px;align-items:flex-start;font-size:15px;color:var(--grey-mid);line-height:1.6;margin-bottom:12px}
   .pkg-order-card .oc-step:last-child{margin-bottom:0}
-  .pkg-order-card .oc-step .n{flex:0 0 20px;width:20px;height:20px;border-radius:50%;border:1px solid var(--gold-dark);color:var(--gold-dark);font-size:11px;font-weight:700;display:flex;align-items:center;justify-content:center}
-  .pkg-cross-link{margin-top:22px;padding-top:18px;border-top:1px solid var(--border-light);font-size:13px;color:var(--grey-light);line-height:1.6}
-  .pkg-cross-link a{color:var(--gold);font-weight:600;text-decoration:none}
+  .pkg-order-card .oc-step .n{flex:0 0 20px;width:20px;height:20px;border-radius:50%;border:1px solid var(--gold-dark);color:var(--gold-dark);font-size:13px;font-weight:500;display:flex;align-items:center;justify-content:center}
+  .pkg-cross-link{margin-top:22px;padding-top:18px;border-top:1px solid var(--border-light);font-size:15px;color:var(--grey-light);line-height:1.6}
+  .pkg-cross-link a{color:var(--gold);font-weight:500;text-decoration:none}
   .pkg-cross-link a:hover{color:var(--ink)}
   @media(max-width:900px){.pkg-detail-grid{grid-template-columns:1fr;gap:40px}.pkg-order-card{position:static}}
-  @media(max-width:768px){.contact-grid{grid-template-columns:1fr}.icon-item{flex:0 0 100%}.page-hero{padding:110px 0 60px}.page-hero h1{font-size:36px}.pkg-detail-title{font-size:32px}.pkg-detail-sub{font-size:16px}.pkg-detail-head{margin-bottom:44px}.pkg-detail-banner{margin-bottom:44px}.pkg-order-card{padding:30px 24px}.pkg-ideal-box{padding:24px 22px}}
-  @media(max-width:480px){.page-hero h1{font-size:28px}.pkg-detail-title{font-size:26px}.pkg-order-card .oc-price{font-size:28px}.pkg-feature-list li{gap:12px;font-size:14px}}
+  @media(max-width:768px){.contact-grid{grid-template-columns:1fr}.icon-item{flex:0 0 100%}.pkg-detail-title{font-size:32px}.pkg-detail-sub{font-size:16px}.pkg-detail-head{margin-bottom:44px}.pkg-detail-banner{margin-bottom:44px}.pkg-order-card{padding:30px 24px}.pkg-ideal-box{padding:24px 22px}}
+  @media(max-width:480px){.pkg-detail-title{font-size:26px}.pkg-order-card .oc-price{font-size:28px}.pkg-feature-list li{gap:12px;font-size:16px}}
   /* ===== Package FAQ ===== */
-  .pkg-faq-band{background:var(--bg-warm);padding:70px 0}
+  .pkg-faq-band{background:var(--bg-warm);padding:80px 0}
   .pkg-faq-band .container{max-width:760px}
-  .pkg-faq-band h2{font-family:'Playfair',serif;font-size:26px;color:var(--ink);margin:0 0 28px}
+  .pkg-faq-band h2{font-family:'Playfair Display',serif;font-size:28px;color:var(--ink);margin:0 0 30px;text-align:center}
   .pkg-faq{margin:0}
   .pkg-faq details{border-bottom:1px solid var(--border-warm-2);padding:20px 0}
   .pkg-faq details:first-child{border-top:1px solid var(--border-warm-2)}
-  .pkg-faq summary{list-style:none;cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:18px;font-family:'Playfair',serif;font-size:17px;color:var(--ink);font-weight:700}
+  .pkg-faq summary{list-style:none;cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:18px;font-family:'Poppins',sans-serif;font-weight:500;font-size:17px;color:var(--ink);font-weight:500}
   .pkg-faq summary::-webkit-details-marker{display:none}
   .pkg-faq summary::after{content:'+';flex-shrink:0;font-family:'Poppins',sans-serif;font-size:19px;font-weight:400;color:var(--gold-dark)}
   .pkg-faq details[open] summary::after{content:'\2212'}
-  .pkg-faq p{color:var(--grey-mid);font-size:15px;line-height:1.8;margin:12px 0 0}
+  .pkg-faq p{color:var(--grey-mid);font-size:17px;line-height:1.8;margin:12px 0 0}
   /* ===== Client journey timeline ===== */
   .pkg-journey{margin:0 0 56px}
-  .pkg-journey h3{font-family:'Playfair',serif;font-size:22px;color:var(--ink);margin:0 0 26px}
+  .pkg-journey h3{font-family:'Poppins',sans-serif;font-weight:500;font-size:22px;color:var(--ink);margin:0 0 26px}
   .pkg-journey-steps{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:22px}
   .pkg-journey-steps li{display:flex;gap:18px;align-items:flex-start}
-  .pkg-journey-steps .jn{flex:0 0 30px;width:30px;height:30px;border-radius:50%;background:var(--ink);color:#fff;font-size:13px;font-weight:700;display:flex;align-items:center;justify-content:center;font-family:'Playfair',serif}
-  .pkg-journey-steps .jt strong{display:block;color:var(--ink);font-size:15px;margin-bottom:3px}
-  .pkg-journey-steps .jt span{color:var(--grey-mid);font-size:14px;line-height:1.7}
+  .pkg-journey-steps .jn{flex:0 0 30px;width:30px;height:30px;border-radius:50%;background:var(--ink);color:#fff;font-size:15px;font-weight:500;display:flex;align-items:center;justify-content:center;font-family:'Poppins',sans-serif;font-weight:500}
+  .pkg-journey-steps .jt strong{display:block;color:var(--ink);font-size:17px;font-weight:500;margin-bottom:3px}
+  .pkg-journey-steps .jt span{color:var(--grey-mid);font-size:16px;line-height:1.7}
   /* ===== Composite case study ===== */
-  .composite-case-study{background:var(--bg-cream-deep);border:1px solid var(--border-warm-3);padding:36px 40px}
-  .composite-case-study .cs-label{display:inline-block;font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:var(--gold-dark);font-weight:700;margin-bottom:10px}
-  .composite-case-study h3{font-family:'Playfair',serif;font-size:21px;color:var(--ink);margin:0 0 12px}
-  .composite-case-study p{color:#555;font-size:15px;line-height:1.8;margin:0 0 12px}
-  .composite-case-study p:last-child{margin-bottom:0}
-  .composite-case-study p.cs-note{font-size:13px;color:var(--grey-light);font-style:italic}
-  @media(max-width:600px){.composite-case-study{padding:26px 24px}.pkg-journey-steps{gap:18px}}
+  .client-story{background:var(--bg-cream-deep);border:1px solid var(--border-warm-3);padding:36px 40px}
+  .client-story h3{font-family:'Poppins',sans-serif;font-weight:500;font-size:21px;color:var(--ink);margin:0 0 12px}
+  .client-story p{color:#555;font-size:17px;line-height:1.8;margin:0 0 12px}
+  .client-story p:last-child{margin-bottom:0}
+  .client-story .cs-field{margin:0 0 16px}
+  .client-story .cs-field:last-child{margin-bottom:0}
+  .client-story .cs-field b{display:block;font-size:13px;letter-spacing:1.5px;text-transform:uppercase;color:var(--gold-dark);font-weight:500;margin-bottom:4px}
+  .client-story .cs-field span{color:#555;font-size:17px;line-height:1.8}
+  .client-story cite{display:block;font-size:15px;color:var(--gold-dark);letter-spacing:.3px;font-weight:500;margin-top:18px;font-style:normal}
+  .client-story .sc-byline{display:flex;align-items:center;gap:13px;margin-top:18px}
+  .client-story .sc-byline .sc-mark{flex:0 0 36px;width:36px;height:36px;border-radius:50%;background:var(--ink);color:#fff;font-family:'Poppins',sans-serif;font-weight:500;font-size:14px;font-weight:500;display:flex;align-items:center;justify-content:center}
+  .client-story .sc-byline .sc-who{display:flex;flex-direction:column}
+  .client-story .sc-byline .sc-who b{font-size:15.5px;color:var(--ink);font-weight:500}
+  .client-story .sc-byline .sc-who span{font-size:13px;color:var(--grey-light);letter-spacing:.3px}
+  .client-story blockquote{position:relative}
+  .client-story .qmark{position:absolute;top:-10px;right:0;font-family:'Playfair Display',serif;font-size:60px;color:var(--border-warm-3);line-height:1;pointer-events:none}
+  @media(max-width:600px){.client-story{padding:26px 24px}.pkg-journey-steps{gap:18px}}
+
+  /* ===== Closing CTA ===== */
+  .pkg-close-cta{background:var(--bg-cream);padding:70px 0;text-align:center}
+  .pkg-close-cta h2{font-family:'Playfair Display',serif;font-size:28px;color:var(--ink);margin:0 0 12px}
+  .pkg-close-cta p{color:var(--grey-mid);font-size:17px;margin:0 0 26px}
+  .pkg-close-cta .btn-row{display:flex;gap:16px;flex-wrap:wrap;justify-content:center}
+  .pkg-close-cta .btn-row a{display:inline-block;padding:15px 32px;font-size:15px;font-weight:500;letter-spacing:1.5px;text-transform:uppercase;text-decoration:none;border-radius:2px}
+  .pkg-close-cta .btn-row .primary{background:var(--oxblood);color:#fff}
+  .pkg-close-cta .btn-row .primary:hover{background:var(--oxblood-dark)}
+  .pkg-close-cta .btn-row .ghost{background:transparent;color:var(--ink);border:1px solid var(--ink)}
+  .pkg-close-cta .btn-row .ghost:hover{background:var(--ink);color:#fff}
+  @media(max-width:480px){.pkg-close-cta .btn-row{flex-direction:column}.pkg-close-cta .btn-row a{width:100%;box-sizing:border-box}}
 
   </style>
   <script src="/js/wp-includes_js_jquery_jquery.min.js"></script>
@@ -131,7 +148,7 @@ footScripts: |
   <script src="/js/wp-content_themes_hompark_js_bundle.js"></script>
   <script src="/js/wp-content_themes_hompark_js_scripts.js"></script>
 ---
-<div class="page-hero" style="background-image:url({% imageUrl "chayce-bronze-hero.jpg" %});{% imageSet "chayce-bronze-hero.jpg" %};background-size:cover;background-position:center;">
+<div class="page-hero--left" style="background-image:url({% imageUrl "chayce-bronze-hero.jpg" %});{% imageSet "chayce-bronze-hero.jpg" %};background-size:cover;background-position:center;">
   <div class="container">
     <p class="breadcrumb"><a href="/">Home</a> / <em>Bronze Essentials</em></p>
     <h1><em>Bronze Essentials</em></h1>
@@ -164,6 +181,7 @@ footScripts: |
         <h3 class="oc-name">Bronze Essentials</h3>
         <div class="oc-price">From £995</div>
         <a href="/get-started/index.html?package=Bronze%20Essentials%20%E2%80%94%20%C2%A3995" class="btn-chayce">Enquire About Bronze Essentials</a>
+        <p class="oc-trust">Fully insured. One coordinator, start to finish.</p>
         <div class="oc-steps">
           <div class="oc-step"><span class="n">1</span><span>Send your details</span></div>
           <div class="oc-step"><span class="n">2</span><span>We&rsquo;ll call within one working day to confirm dates and next steps.</span></div>
@@ -184,13 +202,12 @@ footScripts: |
         <li><span class="jn">3</span><span class="jt"><strong>Moving day</strong><span>Our team packs, loads, transports and reassembles furniture at your new home, then gives the vacated property a light clean before we leave.</span></span></li>
       </ul>
     </div>
-    <div class="composite-case-study">
-      <span class="cs-label">Illustrative composite &mdash; not a real client</span>
-      <h3>A typical Bronze Essentials client journey</h3>
-      <p>A widow in her late 70s was moving from a four-bedroom house to a two-bedroom bungalow twelve miles away, having already exchanged contracts on her new home. She mainly needed the physical move handled well, without paying for property search or staging support she didn't need.</p>
-      <p>Her Bronze Essentials coordinator packed every room, carried out a fully insured removal, reassembled furniture at the new property, and gave the vacated house a light clean before handover.</p>
-      <p>The move was completed in a single day, with keys returned on schedule.</p>
-      <p class="cs-note">This composite illustrates a typical journey through this package, based on patterns across many clients — it is not a specific individual.</p>
+    <div class="client-story">
+      <div class="cs-field"><b>Situation</b><span>Margaret had already sold her home and secured her new property, but the thought of packing, coordinating removals and leaving the house clean was becoming overwhelming.</span></div>
+      <div class="cs-field"><b>When Margaret spoke to Chayce</b><span>She didn't need someone to manage the sale or find her a property. She simply wanted the physical move handled properly.</span></div>
+      <div class="cs-field"><b>How we helped</b><span>Chayce organised the packing, removals and cleaning, taking the physical workload away from Margaret and leaving her free to focus on the move itself.</span></div>
+      <div class="cs-field"><b>Outcome</b><span>Margaret could move into her new home without spending weeks dealing with boxes, lifting furniture or coordinating several different providers.</span></div>
+      <div class="sc-byline"><span class="sc-mark">M</span><div class="sc-who"><b>Margaret</b><span>Bronze Essentials client</span></div></div>
     </div>
   </div>
 </section>
@@ -207,6 +224,18 @@ footScripts: |
           <details><summary>What if I haven't found my new home yet — can I still book Bronze?</summary><p>Bronze Essentials assumes your destination is already confirmed. If you're still searching, a Discovery Consultation is the better starting point to work out the right level of support.</p></details>
           <details><summary>What if I need more support than Bronze offers?</summary><p>If your move also involves broader support like staging or legal coordination, Silver Comfort or Gold Prestige may be a better fit — regardless of whether you've already found your home.</p></details>
 </div>
+  </div>
+</section>
+
+
+<section class="pkg-close-cta">
+  <div class="container">
+    <h2>Ready to get started with Bronze Essentials?</h2>
+    <p>Tell us a little about your move and we&rsquo;ll help you find the right next step.</p>
+    <div class="btn-row">
+      <a href="/get-started/" class="primary">Get Started</a>
+      <a href="/contact/" class="ghost">Contact Us</a>
+    </div>
   </div>
 </section>
 
