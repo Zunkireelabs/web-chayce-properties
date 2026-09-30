@@ -54,3 +54,9 @@ jobs:
             echo "Production health check failed (HTTP $HTTP_CODE)"
             exit 1
           fi
+
+      - name: Checkout (for IndexNow script)
+        uses: actions/checkout@v4
+      - name: Submit URLs to IndexNow (Bing and others)
+        continue-on-error: true
+        run: node scripts/indexnow.js
