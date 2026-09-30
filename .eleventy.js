@@ -132,7 +132,7 @@ module.exports = function (eleventyConfig) {
     const d = new Date(dateStr);
     return Number.isNaN(d.getTime())
       ? dateStr
-      : d.toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" });
+      : d.toLocaleDateString("en-GB", { year: "numeric", month: "long", day: "numeric" });
   });
 
   // A real, computed number from the post's own rendered body — never a

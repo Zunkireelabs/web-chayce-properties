@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en-GB">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -19,9 +19,13 @@ if (/^(www\.)?chayceproperties\.com$/.test(location.hostname)) {
 <title>{{ title | safe }}</title>
 {% if description %}<meta name="description" content="{{ description | safe }}">{% endif %}
 <link rel="canonical" href="{{ canonicalUrl or ('https://chayceproperties.com' + page.url) }}">
+<link rel="alternate" hreflang="en-GB" href="{{ canonicalUrl or (site.url + page.url) }}">
+<link rel="alternate" hreflang="x-default" href="{{ canonicalUrl or (site.url + page.url) }}">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 <link rel="icon" type="image/png" href="/images/favicon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<meta property="og:locale" content="en_GB">
 <meta property="og:site_name" content="{{ site.name }}">
 <meta property="og:type" content="{{ ogType or 'website' }}">
 <meta property="og:title" content="{{ ogTitle or title | safe }}">
@@ -29,6 +33,7 @@ if (/^(www\.)?chayceproperties\.com$/.test(location.hostname)) {
 <meta property="og:url" content="{{ canonicalUrl or (site.url + page.url) }}">
 <meta property="og:image" content="{{ ogImage or featuredImage or site.defaultOgImage }}">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="{{ ogImage or featuredImage or site.defaultOgImage }}">
 <meta name="twitter:title" content="{{ ogTitle or title | safe }}">
 {% if description %}<meta name="twitter:description" content="{{ description | safe }}">{% endif %}
 <link rel="stylesheet" href="/css/wp-content_themes_hompark_css_bundle.min.css">

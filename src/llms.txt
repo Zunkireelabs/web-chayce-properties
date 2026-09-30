@@ -25,6 +25,7 @@ Each package page includes a real, anonymized client story describing that tier'
 
 Chayce is a nationwide UK service based in Northampton — not a network of local branches. Region-specific guidance:
 
+- [Northampton & Northamptonshire](https://chayceproperties.com/northampton/): local office and coordinators, with Kettering, Wellingborough, Daventry, Towcester, Rugby and Milton Keynes nearby.
 - [London & the South East](https://chayceproperties.com/relocating-to/london-south-east/)
 - [The Home Counties](https://chayceproperties.com/relocating-to/home-counties/)
 - [South West & the Coast](https://chayceproperties.com/relocating-to/south-west-coast/)

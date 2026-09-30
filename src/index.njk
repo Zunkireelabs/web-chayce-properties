@@ -1,6 +1,6 @@
 ---
-title: "Chayce Properties | UK Senior Relocation & Downsizing"
-description: "Chayce Properties is a relocation partner for senior clients across the UK — packing, removals, downsizing and legal coordination, based in Northampton."
+title: "Senior Relocation & Downsizing Service UK | Chayce"
+description: "Full-service moving for older people across the UK: downsizing help, packing, removals and solicitor liaison with one coordinator. Based in Northampton."
 bodyClass: "page-template page-loaded"
 homeNav: true
 footerPackagesId: true
@@ -615,6 +615,8 @@ footScripts: |
   "url": "{{ site.url }}/",
   "telephone": "{{ site.telephone }}",
   "email": "{{ site.email }}",
+  "logo": "{{ site.url }}/images/chayce-logo.png",
+  "image": "{{ site.defaultOgImage }}",
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "{{ site.address.streetAddress }}",
@@ -634,12 +636,24 @@ footScripts: |
     "closes": "{{ site.openingHours.closes }}"
   },
   "priceRange": "{{ site.priceRange }}",
+  "alternateName": "Chayce Properties Ltd",
+  "foundingDate": "2026",
+  "slogan": "Later-life moving and downsizing across the UK",
+  "contactPoint": { "@type": "ContactPoint", "telephone": "{{ site.telephone }}", "email": "{{ site.email }}", "contactType": "customer service", "areaServed": "GB", "availableLanguage": "English" },
   "areaServed": [
     { "@type": "City", "name": "Northampton" },
     { "@type": "AdministrativeArea", "name": "Northamptonshire" },
+    { "@type": "AdministrativeArea", "name": "East Midlands" },
     { "@type": "Country", "name": "United Kingdom" }
   ],
-  "knowsAbout": ["Senior relocation", "Downsizing", "House removals", "UK home moving", "Estate agent liaison", "Property staging"],
+  "knowsAbout": ["Senior relocation", "Downsizing help for older people", "Moving an elderly parent", "Later-life moving", "Retirement village moves", "House removals", "Packing service", "Estate agent liaison", "Property staging"],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Relocation packages",
+    "itemListElement": [{% for p in site.packages %}
+      { "@type": "Offer", "priceCurrency": "GBP", "price": "{{ p.price }}", "itemOffered": { "@type": "Service", "name": "{{ p.name }}", "url": "{{ site.url }}{{ p.url }}/" } }{% if not loop.last %},{% endif %}{% endfor %}
+    ]
+  },
   "description": "Full-service relocation partner across the UK, based in Northampton — packing, removals, legal coordination, storage and post-move settling-in support, designed with senior clients in mind but open to anyone planning a fully-managed move."
 }
 </script>
