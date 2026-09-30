@@ -85,6 +85,8 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "src/preview.png": "preview.png" });
   eleventyConfig.addPassthroughCopy({ "src/robots.txt": "robots.txt" });
   eleventyConfig.addPassthroughCopy({ "src/llms.txt": "llms.txt" });
+  eleventyConfig.addPassthroughCopy({ "src/BingSiteAuth.xml": "BingSiteAuth.xml" });
+  eleventyConfig.addPassthroughCopy({ "src/817223a2cbfaa13daf2386d59fc5a6c2.txt": "817223a2cbfaa13daf2386d59fc5a6c2.txt" });
   eleventyConfig.addPassthroughCopy({ "src/llms-full.txt": "llms-full.txt" });
 
   // Nunjucks' selectattr only supports its own built-in tests (no "equalto",

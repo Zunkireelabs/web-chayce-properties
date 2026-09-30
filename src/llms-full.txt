@@ -68,6 +68,7 @@ Each package page (and the Discovery Consultation page) includes a real, anonymi
 
 Chayce is a nationwide UK relocation service based in Northampton — it does not operate local branches, but has specific guidance for regions it serves most often:
 
+- Downsizing help for older people (https://chayceproperties.com/downsizing-help-for-elderly/) and moving an elderly parent (https://chayceproperties.com/moving-elderly-parent/): service pages for later-life downsizing and family-arranged moves.
 - Northampton & Northamptonshire (https://chayceproperties.com/northampton/): our home office at Unit F2B Barratt House, Kingsthorpe Road, NN2 6EZ, with local coverage of Kettering, Wellingborough, Daventry, Towcester, Rugby, Milton Keynes and Bedford.
 - London & the South East (https://chayceproperties.com/relocating-to/london-south-east/): longer property chains, leasehold sale considerations, congestion/ULEZ and building-access logistics.
 - The Home Counties (https://chayceproperties.com/relocating-to/home-counties/): village and rural access logistics, closest region to Chayce's Northampton base alongside the Cotswolds & Midlands.
