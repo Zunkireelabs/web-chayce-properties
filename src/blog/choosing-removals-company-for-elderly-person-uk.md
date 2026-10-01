@@ -31,4 +31,4 @@ A standard removals firm collects and delivers. A full-service move also covers 
 
 ## Where Chayce Properties fits
 
-We arrange [insured removals for older people](/home-removals-for-elderly/) across the UK, with [packing and unpacking](/packing-and-unpacking-service/) and one dedicated coordinator. Bronze Essentials starts at £995 and Silver Comfort, a full-service move, at £1,850. A [Discovery Consultation](/discovery/), £150, gives you a plan and budget before you commit.
+We arrange [insured removals for older people](/downsizing-help-for-elderly/) across the UK, with [packing and unpacking](/downsizing-help-for-elderly/) and one dedicated coordinator. Bronze Essentials starts at £995 and Silver Comfort, a full-service move, at £1,850. A [Discovery Consultation](/discovery/), £150, gives you a plan and budget before you commit.

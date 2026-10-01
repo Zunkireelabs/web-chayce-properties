@@ -67,6 +67,11 @@ add_header Content-Security-Policy-Report-Only "default-src 'self'; report-uri /
     location ~ ^/news/?$         { return 301 https://$host/blog/; }
     location ~ ^/faq/?$          { return 301 https://$host/senior-moving-faq/; }
 
+    # Pages merged into existing ones (no separate page any more).
+    location ~ ^/(home-moving-service-uk|home-removals-for-elderly|packing-and-unpacking-service|declutter-and-sorting-service)/?$ { return 301 https://$host/downsizing-help-for-elderly/; }
+    location ~ ^/(what-is-chayce-properties|chayce-vs-standard-removals-company|press)/?$ { return 301 https://$host/about-chayce/; }
+    location ~ ^/later-life-moving-glossary/?$ { return 301 https://$host/senior-moving-faq/; }
+
     # Duplicate-URL consolidation: try_files below also serves /page.html and
     # /page/index.html, so the same page was reachable at several URLs.
     # $request_uri is the ORIGINAL request, so this never fires on nginx's own

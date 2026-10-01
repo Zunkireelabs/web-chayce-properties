@@ -42,6 +42,6 @@ Sale and purchase dates often move. Ask how the company handles date changes and
 
 ## About the support around the move
 
-A standard removals firm covers only the transport. If you also want help with sorting, packing, estate agent and solicitor liaison and settling in, see [what a full-service moving company does](/blog/what-does-full-service-moving-company-do/) and [how to choose a relocation partner](/blog/choosing-relocation-partner-uk-move/). We explain our own process at [how it works](/how-it-works/), and our [home moving service](/home-moving-service-uk/) page lists what is included at each level.
+A standard removals firm covers only the transport. If you also want help with sorting, packing, estate agent and solicitor liaison and settling in, see [what a full-service moving company does](/blog/what-does-full-service-moving-company-do/) and [how to choose a relocation partner](/blog/choosing-relocation-partner-uk-move/). We explain our own process at [how it works](/how-it-works/), and our [home moving service](/downsizing-help-for-elderly/) page lists what is included at each level.
 
 For older people in particular, see [how to choose a removals company for an elderly person](/blog/choosing-removals-company-for-elderly-person-uk/).

@@ -39,4 +39,4 @@ A move to a bungalow usually depends on selling your current home. Dates can mov
 
 ## Where Chayce Properties helps
 
-We help older people downsize to bungalows, flats and retirement housing across the UK, with one coordinator for [sorting and decluttering](/declutter-and-sorting-service/), packing, a [fully insured removal](/home-removals-for-elderly/) and setting up the new home. A [Discovery Consultation](/discovery/), £150, gives you a plan, timeline and budget first.
+We help older people downsize to bungalows, flats and retirement housing across the UK, with one coordinator for [sorting and decluttering](/downsizing-help-for-elderly/), packing, a [fully insured removal](/downsizing-help-for-elderly/) and setting up the new home. A [Discovery Consultation](/discovery/), £150, gives you a plan, timeline and budget first.

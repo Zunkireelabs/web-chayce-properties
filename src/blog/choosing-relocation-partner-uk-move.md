@@ -41,4 +41,4 @@ Different moves need different levels of support. Chayce's [package comparison](
 
 These are exactly the questions a [Discovery Consultation](/discovery/) is built to answer — or [get in touch](/contact/) if you'd rather talk it through first.
 
-Related: [choosing a removals company for an elderly person](/blog/choosing-removals-company-for-elderly-person-uk/) and our [home removals for older people](/home-removals-for-elderly/).
+Related: [choosing a removals company for an elderly person](/blog/choosing-removals-company-for-elderly-person-uk/) and our [home removals for older people](/downsizing-help-for-elderly/).

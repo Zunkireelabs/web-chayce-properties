@@ -43,4 +43,4 @@ Use the four-pile method: keep, sell or pass on, donate, let go. Our [downsizing
 
 ## Help with the whole process
 
-Our [decluttering and sorting service](/declutter-and-sorting-service/) helps you decide room by room, and nothing is disposed of without your agreement. See also [downsizing help for older people](/downsizing-help-for-elderly/) and [planning furniture for a smaller home](/blog/planning-furniture-and-floor-plan-for-a-smaller-home/).
+Our [decluttering and sorting service](/downsizing-help-for-elderly/) helps you decide room by room, and nothing is disposed of without your agreement. See also [downsizing help for older people](/downsizing-help-for-elderly/) and [planning furniture for a smaller home](/blog/planning-furniture-and-floor-plan-for-a-smaller-home/).

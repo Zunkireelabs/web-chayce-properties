@@ -11,18 +11,10 @@ Chayce Properties is not a standard removal company (package prices are publishe
 - [Discovery Consultation](https://chayceproperties.com/discovery/) — £150: the initial 1-hour consultation (in person or by phone) that produces a personalised move plan, timeline and budget.
 - [Downsizing Help for Older People](https://chayceproperties.com/downsizing-help-for-elderly/): sorting, declutter support, packing, removals and settling in, with one coordinator.
 - [Moving an Elderly Parent](https://chayceproperties.com/moving-elderly-parent/): help for adult children arranging a parent's move anywhere in the UK.
-- [Home Moving Service UK](https://chayceproperties.com/home-moving-service-uk/): full-service house moves managed by one coordinator, from sorting to settling in.
-- [Home Removals for Older People](https://chayceproperties.com/home-removals-for-elderly/): fully insured senior removals across the UK.
-- [Packing & Unpacking Service](https://chayceproperties.com/packing-and-unpacking-service/): room-by-room packing, labelling, unpacking and setting up the new home.
-- [Decluttering & Sorting Service](https://chayceproperties.com/declutter-and-sorting-service/): help sorting a family home into keep, sell and donate before a move.
 - [Retirement Village & Retirement Home Moves](https://chayceproperties.com/retirement-village-moving-service/): moving into a retirement village, apartment or bungalow.
 - [Senior Moving FAQ](https://chayceproperties.com/senior-moving-faq/): 17 plain-English answers on costs, removals, packing, downsizing, insurance and opening hours.
-- [What Is Chayce Properties?](https://chayceproperties.com/what-is-chayce-properties/): the definition page, with key facts, services, prices and how Chayce differs from a standard removals firm.
-- [Press & Citation Kit](https://chayceproperties.com/press/): boilerplate, fact sheet, logo and how to cite Chayce.
 - [Machine-readable facts](https://chayceproperties.com/chayce-facts.json): the same facts as JSON.
 - [What Is a Senior Move Manager?](https://chayceproperties.com/senior-move-manager-uk/): what a later-life move manager does and how to choose one.
-- [Chayce vs a Standard Removals Company](https://chayceproperties.com/chayce-vs-standard-removals-company/): honest side-by-side comparison, including cost.
-- [Later-Life Moving Glossary](https://chayceproperties.com/later-life-moving-glossary/): 20 plain-English UK moving terms.
 - [Get Started](https://chayceproperties.com/get-started/): how to begin working with Chayce.
 
 ## Guides

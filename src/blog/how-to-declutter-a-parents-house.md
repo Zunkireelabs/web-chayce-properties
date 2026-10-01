@@ -31,6 +31,6 @@ It is your parent's home and their belongings. Offer choices, never take over, a
 
 ## When to ask for help
 
-If the house is large, the timescale is short, or distance makes it hard to be there, hands-on help makes a big difference. Our [decluttering and sorting service](/declutter-and-sorting-service/) works room by room at your parent's pace, and our guide to [moving a parent](/blog/moving-a-parent-guide-for-adult-children/) covers the wider picture for families.
+If the house is large, the timescale is short, or distance makes it hard to be there, hands-on help makes a big difference. Our [decluttering and sorting service](/downsizing-help-for-elderly/) works room by room at your parent's pace, and our guide to [moving a parent](/blog/moving-a-parent-guide-for-adult-children/) covers the wider picture for families.
 
 A [Discovery Consultation](/discovery/), £150, gives you a sorting plan and timeline. Declutter support is included in Silver Comfort, from £1,850.

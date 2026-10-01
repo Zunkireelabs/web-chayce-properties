@@ -37,8 +37,8 @@ Set up the room first so it feels familiar: bed made, photographs in place, favo
 
 ## The home they are leaving
 
-Sorting a lifetime of belongings can wait until after the move, and it is easier at a gentler pace. See our guide on [how to declutter a parent's house](/blog/how-to-declutter-a-parents-house/) and our [decluttering and sorting service](/declutter-and-sorting-service/).
+Sorting a lifetime of belongings can wait until after the move, and it is easier at a gentler pace. See our guide on [how to declutter a parent's house](/blog/how-to-declutter-a-parents-house/) and our [decluttering and sorting service](/downsizing-help-for-elderly/).
 
 ## Where Chayce Properties helps
 
-We help families with the practical side of a move, including [moving an elderly parent](/moving-elderly-parent/), [packing and unpacking](/packing-and-unpacking-service/) and a [fully insured removal](/home-removals-for-elderly/). We do not provide care, medical or legal advice. A [Discovery Consultation](/discovery/), £150, gives you a plan and timeline.
+We help families with the practical side of a move, including [moving an elderly parent](/moving-elderly-parent/), [packing and unpacking](/downsizing-help-for-elderly/) and a [fully insured removal](/downsizing-help-for-elderly/). We do not provide care, medical or legal advice. A [Discovery Consultation](/discovery/), £150, gives you a plan and timeline.

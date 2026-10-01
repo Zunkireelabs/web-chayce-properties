@@ -40,4 +40,4 @@ Confirm access times and lift or parking arrangements in advance. Set up the bed
 
 ## Where Chayce Properties helps
 
-We help with [sorting and decluttering](/declutter-and-sorting-service/), packing, a [fully insured removal](/home-removals-for-elderly/) and setting up the new home, planned around the scheme's rules. We do not recommend or sell housing, so the choice stays with you. See also our [retirement village moving service](/retirement-village-moving-service/).
+We help with [sorting and decluttering](/downsizing-help-for-elderly/), packing, a [fully insured removal](/downsizing-help-for-elderly/) and setting up the new home, planned around the scheme's rules. We do not recommend or sell housing, so the choice stays with you. See also our [retirement village moving service](/retirement-village-moving-service/).
