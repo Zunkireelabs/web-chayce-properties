@@ -60,3 +60,5 @@ As early as possible — ideally 3 to 6 months ahead, to allow time for sorting 
 ---
 
 Whichever stage you're at with choosing a village, [get in touch](/contact/) — or book a [Discovery Consultation](/discovery/) once you're ready to plan the move itself.
+
+Related: the [retirement flat move checklist](/blog/retirement-flat-move-checklist-uk/) and our [retirement village moving service](/retirement-village-moving-service/).

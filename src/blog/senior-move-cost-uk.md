@@ -41,3 +41,5 @@ Rather than quoting from a room count alone, Chayce starts every relocation with
 > The right package isn't the cheapest one or the most comprehensive one — it's the one that matches the support your move actually needs.
 
 The clearest way to get an accurate figure for your own move is a [Discovery Consultation](/discovery/) — or [get in touch](/contact/) with any questions before then.
+
+Related: [removals cost for older people](/blog/removals-cost-for-older-people-uk/) and [questions to ask a removals company](/blog/questions-to-ask-a-removals-company-uk/).

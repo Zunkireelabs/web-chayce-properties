@@ -61,3 +61,5 @@ No. Chayce's Silver Comfort and Gold Prestige packages include hands-on sorting 
 ---
 
 A [Discovery Consultation](/discovery/) can turn this into a realistic plan before you start sorting — or [get in touch](/contact/) with any questions first.
+
+Related: [how to declutter a parent's house](/blog/how-to-declutter-a-parents-house/) and our [decluttering and sorting service](/declutter-and-sorting-service/).
