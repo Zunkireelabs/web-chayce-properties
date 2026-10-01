@@ -46,6 +46,40 @@ add_header Content-Security-Policy-Report-Only "default-src 'self'; report-uri /
         proxy_set_header Content-Type "application/json";
     }
 
+    # ---- Legacy URL clean-up (prior site on this domain) -------------------
+    # Google keeps retrying a 404 for weeks; a 410 says "permanently gone" and
+    # it drops the URL (and the unrelated queries it ranked for) much faster.
+    # These paths belong to the previous WordPress/WooCommerce site and never
+    # existed in this one. Do NOT also Disallow them in robots.txt: a blocked
+    # URL can't be recrawled, so Google would never see the 410.
+    # Placed before the static-asset block so /shop/x.jpg is also a 410.
+    location ~* ^/(shop|product|products|product-category|product-tag|cart|checkout|my-account|wp-admin|wp-content|wp-includes|wp-json|tag|category|author|feed|comments|sales-team|certificates|photo-gallery|about-chayce-v2)(/|$) {
+        return 410;
+    }
+    location ~* \.php$ {
+        return 410;
+    }
+    error_page 410 /404.html;
+
+    # Old HTML-template paths that now have a direct equivalent: 301 so any
+    # ranking signal and backlinks carry over to the new page.
+    location ~ ^/our-services/?$ { return 301 https://$host/services/; }
+    location ~ ^/news/?$         { return 301 https://$host/blog/; }
+    location ~ ^/faq/?$          { return 301 https://$host/senior-moving-faq/; }
+
+    # Pages merged into existing ones (no separate page any more).
+    location ~ ^/(home-moving-service-uk|home-removals-for-elderly|packing-and-unpacking-service|declutter-and-sorting-service)/?$ { return 301 https://$host/downsizing-help-for-elderly/; }
+    location ~ ^/(what-is-chayce-properties|chayce-vs-standard-removals-company|press)/?$ { return 301 https://$host/about-chayce/; }
+    location ~ ^/later-life-moving-glossary/?$ { return 301 https://$host/senior-moving-faq/; }
+
+    # Duplicate-URL consolidation: try_files below also serves /page.html and
+    # /page/index.html, so the same page was reachable at several URLs.
+    # $request_uri is the ORIGINAL request, so this never fires on nginx's own
+    # internal /page/ -> /page/index.html hop (which would loop).
+    if ($request_uri ~ "^/index\.html(\?.*)?$")            { return 301 https://$host/; }
+    if ($request_uri ~ "^/(.+)/index\.html(\?.*)?$")       { return 301 https://$host/$1/; }
+    if ($request_uri ~ "^/([A-Za-z0-9_/-]+)\.html(\?.*)?$") { return 301 https://$host/$1/; }
+
     # Static assets — cache aggressively
     location ~* \.(js|css|png|jpg|jpeg|gif|ico|svg|woff|woff2|ttf|eot|webp|avif)$ {
         expires 30d;

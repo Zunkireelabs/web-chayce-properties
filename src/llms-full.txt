@@ -132,6 +132,22 @@ The plan is built to flex. If dates shift, the coordinator adjusts bookings and 
 - [The UK House Moving Checklist: 10 Steps for a Smooth Move](https://chayceproperties.com/blog/uk-house-moving-checklist/): a 7-stage timeline from 8 weeks out to moving day itself.
 - [What Does a Full-Service Moving Company Actually Do?](https://chayceproperties.com/blog/what-does-full-service-moving-company-do/): what full-service relocation covers beyond a standard removal, and who it's for.
 
+## More guides
+
+- When Is the Right Time to Downsize?: https://chayceproperties.com/blog/when-to-downsize-uk/
+- Downsizing to a Bungalow in the UK: https://chayceproperties.com/blog/downsizing-to-a-bungalow-uk/
+- How to Declutter a Parent's House: https://chayceproperties.com/blog/how-to-declutter-a-parents-house/
+- How Much Do Removals Cost for Older People?: https://chayceproperties.com/blog/removals-cost-for-older-people-uk/
+- Choosing a Removals Company for an Elderly Person: https://chayceproperties.com/blog/choosing-removals-company-for-elderly-person-uk/
+- Questions to Ask a Removals Company: https://chayceproperties.com/blog/questions-to-ask-a-removals-company-uk/
+- Retirement Flat Move Checklist: https://chayceproperties.com/blog/retirement-flat-move-checklist-uk/
+- Moving House When a Family Member Has Dementia: https://chayceproperties.com/blog/moving-house-with-dementia-in-the-family/
+
+- Moving an Elderly Person Into a Care Home: https://chayceproperties.com/blog/moving-an-elderly-person-into-a-care-home-checklist/
+- Planning Furniture and a Floor Plan for a Smaller Home: https://chayceproperties.com/blog/planning-furniture-and-floor-plan-for-a-smaller-home/
+- What to Do With Unwanted Furniture When Downsizing: https://chayceproperties.com/blog/what-to-do-with-unwanted-furniture-downsizing-uk/
+- Moving Into Sheltered Housing: https://chayceproperties.com/blog/moving-into-sheltered-housing-what-to-expect/
+
 ## Pages
 
 - Homepage: https://chayceproperties.com/
@@ -142,4 +158,8 @@ The plan is built to flex. If dates shift, the coordinator adjusts bookings and 
 - Contact: https://chayceproperties.com/contact/
 - Get Started: https://chayceproperties.com/get-started/
 - Blog: https://chayceproperties.com/blog/
+- Retirement Village Moving Service: https://chayceproperties.com/retirement-village-moving-service/
+- Senior Moving FAQ: https://chayceproperties.com/senior-moving-faq/
+- What Is a Senior Move Manager: https://chayceproperties.com/senior-move-manager-uk/
+- Facts (JSON): https://chayceproperties.com/chayce-facts.json
 - Areas: https://chayceproperties.com/northampton/, https://chayceproperties.com/relocating-to/london-south-east/, /home-counties/, /south-west-coast/, /cotswolds-midlands/

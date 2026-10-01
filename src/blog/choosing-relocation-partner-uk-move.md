@@ -40,3 +40,5 @@ Ask whether the company can also help with estate agent liaison, legal coordinat
 Different moves need different levels of support. Chayce's [package comparison](/packages/) makes it easier to see what's actually included at each tier, rather than comparing quotes with no context for what they cover.
 
 These are exactly the questions a [Discovery Consultation](/discovery/) is built to answer — or [get in touch](/contact/) if you'd rather talk it through first.
+
+Related: [choosing a removals company for an elderly person](/blog/choosing-removals-company-for-elderly-person-uk/) and our [home removals for older people](/downsizing-help-for-elderly/).

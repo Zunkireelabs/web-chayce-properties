@@ -18,6 +18,14 @@ Search engines and AI assistants trust a business more when the same name, addre
 4. Companies House details should match the NAP above.
 5. Facebook page and LinkedIn company page. Once they exist, add the URLs to `sameAs` in the organisation schema in `src/index.njk`.
 
+## Directories UK senior-move competitors rely on (added after competitor review)
+Specialist senior-move firms are found mostly through directories, not their own sites, so these matter:
+- housingcare.org (run by the Elderly Accommodation Counsel, EAC): lists later-life services and move support providers. Apply to be listed as a "home moving service".
+- Autumna (autumna.co.uk): later-living directory with moving-home support and senior-move listings. Ask about a provider listing.
+- reallymoving.com and sirelo.co.uk: removals comparison sites that generate quote requests. Check terms and fees before joining.
+- Trustpilot: claim the free profile and invite real clients only.
+Use the exact NAP above. Mention the published package prices, own vetted team, fully insured removals and one coordinator, and link to https://chayceproperties.com/senior-move-manager-uk/ where a site allows a link.
+
 ## UK directories (free listings)
 Yell.com, Thomson Local, Cylex UK, Hotfrog UK, FreeIndex, Scoot, Brown Pages, 192.com business listing, Northampton Chronicle / local business directory, Northamptonshire Chamber of Commerce (paid membership, strong local link).
 

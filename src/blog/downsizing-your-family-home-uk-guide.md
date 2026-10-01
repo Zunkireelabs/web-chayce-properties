@@ -1,6 +1,6 @@
 ---
 title: "Downsizing Your Family Home in the UK: A Step-by-Step Guide"
-description: "A practical, dignity-first guide to downsizing a UK family home — sorting belongings, choosing what to keep, and moving into a space that fits your next chapter"
+description: "A practical, dignity-first guide to downsizing a UK family home: sorting belongings, choosing what to keep and moving into a space that fits."
 date: "2026-09-18"
 dateModified: "2026-09-24"
 featuredImage: "https://images.pexels.com/photos/4246085/pexels-photo-4246085.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
@@ -40,3 +40,5 @@ Sorting through decades of belongings is rarely a one-person job, physically or 
 Understanding what will actually fit in the new home — and where — before moving day arrives makes settling in far less stressful. Our [How It Works](/how-it-works/) page walks through exactly when that planning happens in a Chayce relocation.
 
 [Get in touch](/contact/) whenever you're ready to talk through your own downsize, or go straight to a [Discovery Consultation](/discovery/) if you'd like a plan first.
+
+Related: [when is the right time to downsize](/blog/when-to-downsize-uk/) and [downsizing to a bungalow](/blog/downsizing-to-a-bungalow-uk/).

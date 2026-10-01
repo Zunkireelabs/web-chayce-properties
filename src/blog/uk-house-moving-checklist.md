@@ -66,3 +66,5 @@ A few practical points worth knowing alongside the checklist above: 6 to 8 weeks
 ---
 
 Planning a move and want the logistics handled for you? [Get in touch](/contact/) or [compare Chayce's packages](/packages/) to find the right level of support.
+
+Related: [questions to ask a removals company](/blog/questions-to-ask-a-removals-company-uk/) and our [home moving service](/downsizing-help-for-elderly/).

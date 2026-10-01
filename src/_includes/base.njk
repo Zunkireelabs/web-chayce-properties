@@ -27,6 +27,7 @@ if (/^(www\.)?chayceproperties\.com$/.test(location.hostname)) {
 <meta name="geo.position" content="{{ site.geo.latitude }};{{ site.geo.longitude }}">
 <meta name="ICBM" content="{{ site.geo.latitude }}, {{ site.geo.longitude }}">
 <link rel="icon" type="image/png" href="/images/favicon.png">
+<link rel="alternate" type="application/atom+xml" title="Chayce Properties Blog" href="/feed.xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <meta property="og:locale" content="en_GB">
@@ -49,6 +50,7 @@ if (/^(www\.)?chayceproperties\.com$/.test(location.hostname)) {
 <link rel="stylesheet" href="/css/seoai-content.css">
 <link rel="stylesheet" href="/css/chayce-tokens.css">
 <link rel="stylesheet" href="/css/chayce-hero-variants.css">
+<link rel="stylesheet" href="/css/chayce-sticky-cta.css">
 {{ headExtra | safe }}
 <!-- SEOAI:HEAD:START --><!-- SEOAI:HEAD:END -->
 </head>
@@ -58,5 +60,19 @@ if (/^(www\.)?chayceproperties\.com$/.test(location.hostname)) {
 {{ content | safe }}
 
 {% include "footer.njk" %}
+<div class="sticky-cta" role="navigation" aria-label="Quick contact">
+  <a href="tel:+447708925432" data-cta="call">Call</a>
+  <a href="https://wa.me/447708925432" data-cta="whatsapp" rel="noopener">WhatsApp</a>
+  <a href="/get-started/" data-cta="get-started">Get Started</a>
+</div>
+<script>
+document.addEventListener('click', function (e) {
+  var a = e.target.closest && e.target.closest('a[href^="tel:"],a[href*="wa.me/"],a[href="/get-started/"]');
+  if (!a || typeof gtag !== 'function') return;
+  var h = a.getAttribute('href');
+  var method = h.indexOf('tel:') === 0 ? 'call' : (h.indexOf('wa.me') > -1 ? 'whatsapp' : 'get_started');
+  gtag('event', 'contact_click', { method: method, page_path: location.pathname });
+});
+</script>
 {{ footScripts | safe }}
 </body></html>

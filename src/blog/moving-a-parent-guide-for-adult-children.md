@@ -44,3 +44,5 @@ Yes. The move coordinator works directly with the person moving, and keeps famil
 A [Discovery Consultation](/discovery/) (from £150) is designed for exactly this — an honest assessment of the situation before committing to a package.
 
 If you're at the start of arranging a parent's move, a [Discovery Consultation](/discovery/) is a good first step — or [contact us](/contact/) with any questions along the way.
+
+Related: [moving house when a family member has dementia](/blog/moving-house-with-dementia-in-the-family/) and [how to declutter a parent's house](/blog/how-to-declutter-a-parents-house/).

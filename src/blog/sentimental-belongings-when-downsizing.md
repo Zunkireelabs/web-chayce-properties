@@ -1,6 +1,6 @@
 ---
 title: "What to Do With Sentimental Belongings When You Downsize"
-description: "A practical, unhurried way to work through sentimental items during a downsize — what to keep, what to pass on, and how to avoid rushing decisions you'll regret."
+description: "An unhurried way to work through sentimental items when downsizing: what to keep, what to pass on, and how to avoid rushing decisions."
 date: "2026-09-24"
 dateModified: "2026-09-24"
 featuredImage: "https://images.pexels.com/photos/7203815/pexels-photo-7203815.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
