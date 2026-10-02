@@ -24,6 +24,19 @@ headExtra: |
   .legal-body blockquote{border-left:3px solid #c8a96e;padding:14px 22px;background:#f9f5ef;color:#555;font-size:15px;line-height:1.7;margin:0 0 32px}
   .legal-body .updated{color:#8a8478;font-size:13px;letter-spacing:.5px;text-transform:uppercase;margin-bottom:36px}
   </style>
+policyFaq:
+  - q: "What information do you collect on your website?"
+    a: "On our website, we use Google Analytics (GA4) for tracking purposes. Google Analytics collects information about your usage of our site, which may include IP addresses, page views, and other related data to help us understand website traffic."
+  - q: "How is the information collected used?"
+    a: "The information we collect through Google Analytics is used to improve our website and enhance user experience by understanding how visitors interact with the site."
+  - q: "What privacy rights do I have?"
+    a: "You have the right to access, correct, or delete personal information we may hold about you."
+  - q: "How long do you keep my information?"
+    a: "We retain your information for as long as necessary to fulfil the purposes for which it was collected, as outlined in this policy."
+  - q: "Do you collect information from children?"
+    a: "Our services are not intended for children under the age of 13. We do not knowingly collect personal information from children. If we become aware that we have collected such information, we will take steps to delete it."
+  - q: "How will I know if this policy changes?"
+    a: "We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated effective date."
 ---
 <div class="page-hero">
   <div class="container">
@@ -60,6 +73,8 @@ headExtra: |
 
       <h2>Contact Us</h2>
       <p>If you have any questions about this Privacy Policy, please <a href="/contact/" style="color:#c8a96e">contact us</a> or email <a href="mailto:info@chayceproperties.com" style="color:#c8a96e">info@chayceproperties.com</a>.</p>
+
+      {% include "policy-faq.njk" %}
     </div>
   </div>
 </section>
