@@ -1,0 +1,20 @@
+{# Policy-page FAQ. Questions/answers come from the page's own `policyFaq` front matter and every answer is taken word-for-word from the policy text on the same page — never paraphrased — so the visible FAQ and the FAQPage JSON-LD below (both rendered from the same list) cannot drift from each other or from the policy. Styling mirrors the .pkg-faq accordion on /discovery/. #}
+{% if policyFaq and policyFaq.length %}
+<style>
+  .policy-faq{margin:0}
+  .policy-faq details{border-bottom:1px solid var(--border-warm-2);padding:20px 0}
+  .policy-faq details:first-child{border-top:1px solid var(--border-warm-2)}
+  .policy-faq summary{list-style:none;cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:18px;font-family:'Poppins',sans-serif;font-weight:500;font-size:17px;color:var(--ink)}
+  .policy-faq summary::-webkit-details-marker{display:none}
+  .policy-faq summary::after{content:'+';flex-shrink:0;font-family:'Poppins',sans-serif;font-size:19px;font-weight:400;color:var(--gold-dark)}
+  .policy-faq details[open] summary::after{content:'\2212'}
+  .legal-body .policy-faq p{color:var(--grey-mid);font-size:16px;line-height:1.85;margin:12px 0 0}
+</style>
+<h2>Frequently Asked Questions</h2>
+<div class="policy-faq">
+{% for item in policyFaq %}  <details><summary>{{ item.q }}</summary><p>{{ item.a }}</p></details>
+{% endfor %}</div>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{% for item in policyFaq %}{"@type":"Question","name":{{ item.q | dump | safe }},"acceptedAnswer":{"@type":"Answer","text":{{ item.a | dump | safe }}}}{% if not loop.last %},{% endif %}{% endfor %}]}
+</script>
+{% endif %}

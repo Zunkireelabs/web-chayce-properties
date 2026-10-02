@@ -23,6 +23,15 @@ headExtra: |
   .legal-body p{color:#555;font-size:16px;line-height:1.85;margin:0 0 16px}
   .legal-body .updated{color:#8a8478;font-size:13px;letter-spacing:.5px;text-transform:uppercase;margin-bottom:36px}
   </style>
+policyFaq:
+  - q: "What are cookies?"
+    a: "Cookies are small text files used to store small pieces of information. They are stored on your device when this website is loaded in your browser. Cookies help us make the website function properly, make it more secure, provide a better user experience, and understand how the website performs."
+  - q: "Does Chayce Properties use third-party tracking cookies?"
+    a: "Chayce Properties does not use third-party tracking cookies. We use Google Analytics (GA4) to help us understand how our website is being used."
+  - q: "How can I control or disable cookies?"
+    a: "If you prefer to avoid the use of cookies, you can disable them in your browser settings and delete any cookies already set. Please visit your browser’s help section to learn more about managing cookies."
+  - q: "How will I be told about changes to this policy?"
+    a: "We may update our Cookie Policy from time to time. We will notify you of any changes by posting the new policy on this page."
 ---
 <div class="page-hero">
   <div class="container">
@@ -50,6 +59,8 @@ headExtra: |
 
       <h2>Contact Us</h2>
       <p>If you have any questions about this Cookie Policy, please <a href="/contact/" style="color:#c8a96e">contact us</a> or email <a href="mailto:info@chayceproperties.com" style="color:#c8a96e">info@chayceproperties.com</a>.</p>
+
+      {% include "policy-faq.njk" %}
     </div>
   </div>
 </section>
