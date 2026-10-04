@@ -84,10 +84,8 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "src/videos": "videos" });
   eleventyConfig.addPassthroughCopy({ "src/preview.png": "preview.png" });
   eleventyConfig.addPassthroughCopy({ "src/robots.txt": "robots.txt" });
-  eleventyConfig.addPassthroughCopy({ "src/llms.txt": "llms.txt" });
   eleventyConfig.addPassthroughCopy({ "src/BingSiteAuth.xml": "BingSiteAuth.xml" });
   eleventyConfig.addPassthroughCopy({ "src/817223a2cbfaa13daf2386d59fc5a6c2.txt": "817223a2cbfaa13daf2386d59fc5a6c2.txt" });
-  eleventyConfig.addPassthroughCopy({ "src/llms-full.txt": "llms-full.txt" });
 
   // Nunjucks' selectattr only supports its own built-in tests (no "equalto",
   // unlike Jinja2) — this is a plain, reliable lookup for site.json's
@@ -112,6 +110,11 @@ module.exports = function (eleventyConfig) {
     return related;
   });
 
+  // "1850" -> "1,850" so prices read the same everywhere they are generated.
+  eleventyConfig.addNunjucksFilter("gbp", (n) =>
+    Number(n).toLocaleString("en-GB")
+  );
+
   eleventyConfig.addNunjucksAsyncShortcode("image", imageShortcode);
   eleventyConfig.addNunjucksAsyncShortcode("imageUrl", imageUrlShortcode);
   eleventyConfig.addNunjucksAsyncShortcode("imageSet", imageSetShortcode);
@@ -128,6 +131,16 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addNunjucksFilter("isoDate", (date) => {
     const d = date instanceof Date ? date : new Date(date);
     return Number.isNaN(d.getTime()) ? "" : d.toISOString().slice(0, 10);
+  });
+
+  // Newest dateModified (falling back to date) across a collection, as
+  // yyyy-MM-dd — used for the /blog/ index lastmod so it reflects the most
+  // recently updated post rather than the oldest or the build time.
+  eleventyConfig.addNunjucksFilter("latestModified", (items) => {
+    const times = (items || [])
+      .map((i) => new Date(i.data.dateModified || i.date).getTime())
+      .filter((t) => !Number.isNaN(t));
+    return times.length ? new Date(Math.max(...times)).toISOString().slice(0, 10) : "";
   });
 
   eleventyConfig.addNunjucksFilter("readableDate", (dateStr) => {

@@ -1,6 +1,0 @@
-(function () {
-    BizTrackingA.XdcCallback({
-        xdc: ""
-    });
-})();
-;

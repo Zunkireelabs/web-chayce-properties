@@ -7,7 +7,7 @@ Search engines and AI assistants trust a business more when the same name, addre
 - Phone: 07708 925432 (+44 7708 925432)
 - Email: info@chayceproperties.com
 - Website: https://chayceproperties.com/
-- Hours: Mon to Fri 09:00 to 17:30
+- Hours: Mon to Fri 09:00 to 17:30, Saturday by appointment
 - Category: Relocation service / Moving company (secondary: Packing service, Senior citizen services)
 - Short description: Later-life moving and downsizing service for older people across the UK. Sorting, packing, removals, estate agent and solicitor liaison, and settling-in support with one dedicated coordinator. Based in Northampton.
 

@@ -6,6 +6,9 @@ dateModified: "2026-10-01"
 featuredImage: "https://images.pexels.com/photos/4246085/pexels-photo-4246085.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 featuredImageAlt: "A couple carrying a moving box down the stairs of a family home."
 featuredImageCredit: "Photo via Pexels"
+about:
+  - name: "Dementia"
+    url: "https://en.wikipedia.org/wiki/Dementia"
 faq:
   - q: "How can I make a move easier for someone with dementia?"
     a: "Keep routines familiar, change as little as possible at once, set up their main room first with familiar items, and avoid long days of packing around them. Ask their GP or care team for advice specific to their needs."
@@ -35,4 +38,4 @@ Where it helps, let them do small, familiar tasks, such as choosing a favourite 
 
 ## Where practical help matters
 
-The sorting, packing, removal and setting up are where families tend to be stretched. Our coordinators handle the practical side, from [packing and unpacking](/downsizing-help-for-elderly/) to a [fully insured removal](/downsizing-help-for-elderly/) and [setting up the new home](/blog/settling-in-after-your-move/), so family can focus on the person. Our guides on [moving a parent](/blog/moving-a-parent-guide-for-adult-children/) and [moving an elderly parent](/moving-elderly-parent/) cover the wider picture. We do not provide medical or care advice.
+The sorting, packing, removal and setting up are where families tend to be stretched. Our coordinators handle the practical side, from [packing and unpacking](/downsizing-help-for-elderly/) to a [fully insured removal](/downsizing-help-for-elderly/) and [setting up the new home](/blog/settling-in-after-your-move/), so family can focus on the person. Our guides on [moving a parent](/moving-elderly-parent/) and [moving an elderly parent](/moving-elderly-parent/) cover the wider picture. We do not provide medical or care advice.

@@ -6,12 +6,15 @@ eleventyExcludeFromCollections: true
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://chayceproperties.com/blog/</loc>
-    <lastmod>{{ (collections.blog | last).date | isoDate }}</lastmod>
+    <lastmod>{{ collections.blog | latestModified }}</lastmod>
   </url>
 {%- for page in collections.all %}
+{%- set lastmod = page.data.modified or page.data.dateModified %}
   <url>
     <loc>https://chayceproperties.com{{ page.url }}</loc>
-    <lastmod>{{ page.date | isoDate }}</lastmod>
+{%- if lastmod %}
+    <lastmod>{{ lastmod | isoDate }}</lastmod>
+{%- endif %}
   </url>
 {%- endfor %}
 </urlset>

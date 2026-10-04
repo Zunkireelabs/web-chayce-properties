@@ -1,0 +1,51 @@
+---
+permalink: "llms.txt"
+eleventyExcludeFromCollections: true
+---
+# {{ site.name }}
+
+> {{ site.name }} is a later-life moving, downsizing and relocation service based in Northampton, UK, founded in 2026. One dedicated coordinator manages every stage of a move: sorting and decluttering, packing, removals, estate agent and solicitor liaison, storage, and settling-in support. Services are designed with older people and their families in mind, and are open to anyone who wants a fully managed move. Chayce arranges moves across the UK and is not a network of local branches.
+
+Package prices are published on the website. Every removal is fully insured against loss or damage in transit, with details set out in the service agreement before the move begins. Contact: WhatsApp or phone {{ site.telephoneDisplay }}, email {{ site.email }}.
+
+## Core pages
+
+- [What Is a Senior Move Manager?]({{ site.url }}/senior-move-manager-uk/): what a later-life move manager does and how to choose one.
+- [How It Works]({{ site.url }}/how-it-works/): what to expect from first contact to settling in.
+- [Our Services]({{ site.url }}/services/): the services Chayce provides.
+- [Packages and prices]({{ site.url }}/packages/): side-by-side comparison of every package.
+- [Discovery Consultation]({{ site.url }}/discovery/) — £{{ (site.packages | findByKey("discovery")).price | gbp }}: the one-hour consultation (in person or by phone) that produces a personalised move plan, timeline and budget.
+- [Senior Moving FAQ]({{ site.url }}/senior-moving-faq/): plain-English answers on costs, removals, packing, downsizing, insurance and opening hours.
+- [Case Studies and Examples]({{ site.url }}/case-studies/): genuine case studies and clearly labelled example scenarios.
+- [Get Started]({{ site.url }}/get-started/)
+
+## Packages
+
+{% for p in site.packages %}{% if p.key != "discovery" %}- [{{ p.name }}]({{ site.url }}{{ p.url }}/) — from £{{ p.price | gbp }}
+{% endif %}{% endfor %}
+## Specialist service pages
+
+- [Downsizing Help for Older People]({{ site.url }}/downsizing-help-for-elderly/)
+- [Moving an Elderly Parent]({{ site.url }}/moving-elderly-parent/)
+- [Retirement Village and Retirement Home Moves]({{ site.url }}/retirement-village-moving-service/)
+
+## Areas
+
+Chayce is based in Northampton and arranges moves across the UK.
+
+- [Northampton and Northamptonshire]({{ site.url }}/northampton/)
+- [Areas We Cover]({{ site.url }}/areas-we-cover/): regional considerations for London and the South East, the Home Counties, the South West and coast, and the Cotswolds and rural Midlands.
+
+## Guides ({{ collections.blog | length }})
+
+{% for post in collections.blog %}- [{{ post.data.title | safe }}]({{ site.url }}{{ post.url }}): {{ post.data.description | safe }}
+{% endfor %}
+## Company
+
+- [About Chayce]({{ site.url }}/about-chayce/)
+- [Contact]({{ site.url }}/contact/): {{ site.address.streetAddress }}, {{ site.address.addressLocality }} {{ site.address.postalCode }}. Phone {{ site.telephoneDisplay }}. Email {{ site.email }}. Hours: {{ site.openingHoursText }}.
+- [Machine-readable facts (JSON)]({{ site.url }}/chayce-facts.json)
+
+## Full content
+
+See [llms-full.txt]({{ site.url }}/llms-full.txt) for company facts, package details and the main questions answered inline.

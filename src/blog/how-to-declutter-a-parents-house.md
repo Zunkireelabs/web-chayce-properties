@@ -2,7 +2,7 @@
 title: "How to Declutter a Parent's House Before a Move (UK Guide)"
 description: "A gentle, practical way to declutter a parent's house before a move: where to start, how to handle sentimental items and when to ask for help."
 date: "2026-10-01"
-dateModified: "2026-10-01"
+dateModified: "2026-10-04"
 featuredImage: "https://images.pexels.com/photos/7203815/pexels-photo-7203815.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 featuredImageAlt: "A woman sorting belongings into a cardboard box while packing for a move."
 featuredImageCredit: "Photo via Pexels"
@@ -31,6 +31,8 @@ It is your parent's home and their belongings. Offer choices, never take over, a
 
 ## When to ask for help
 
-If the house is large, the timescale is short, or distance makes it hard to be there, hands-on help makes a big difference. Our [decluttering and sorting service](/downsizing-help-for-elderly/) works room by room at your parent's pace, and our guide to [moving a parent](/blog/moving-a-parent-guide-for-adult-children/) covers the wider picture for families.
+If the house is large, the timescale is short, or distance makes it hard to be there, hands-on help makes a big difference. Our [decluttering and sorting service](/downsizing-help-for-elderly/) works room by room at your parent's pace, and our guide to [moving a parent](/moving-elderly-parent/) covers the wider picture for families.
+
+For the full process, see our [downsizing guide and checklist](/blog/downsizing-checklist-what-to-keep-uk/); for furniture that will not fit, see [planning furniture for a smaller home](/blog/planning-furniture-and-floor-plan-for-a-smaller-home/).
 
 A [Discovery Consultation](/discovery/), £150, gives you a sorting plan and timeline. Declutter support is included in Silver Comfort, from £1,850.

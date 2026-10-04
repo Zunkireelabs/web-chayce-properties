@@ -5,11 +5,7 @@ server {
     root /usr/share/nginx/html;
     index index.html;
 
-    # Security headers
-    add_header X-Frame-Options "SAMEORIGIN";
-    add_header X-Content-Type-Options "nosniff";
-    add_header X-XSS-Protection "1; mode=block";
-    add_header Referrer-Policy "strict-origin-when-cross-origin";
+    # Security headers (single set; X-XSS-Protection is deprecated and omitted)
     # SEOAI:SECURITY-HEADERS:START
 add_header X-Frame-Options "SAMEORIGIN" always;
 add_header X-Content-Type-Options "nosniff" always;
@@ -71,6 +67,24 @@ add_header Content-Security-Policy-Report-Only "default-src 'self'; report-uri /
     location ~ ^/(home-moving-service-uk|home-removals-for-elderly|packing-and-unpacking-service|declutter-and-sorting-service)/?$ { return 301 https://$host/downsizing-help-for-elderly/; }
     location ~ ^/(what-is-chayce-properties|chayce-vs-standard-removals-company|press)/?$ { return 301 https://$host/about-chayce/; }
     location ~ ^/later-life-moving-glossary/?$ { return 301 https://$host/senior-moving-faq/; }
+
+    # Four regional pages consolidated into one "Areas We Cover" page; each
+    # old URL lands on its own section.
+    location ~ ^/relocating-to/london-south-east/?$   { return 301 "https://$host/areas-we-cover/#london-south-east"; }
+    location ~ ^/relocating-to/home-counties/?$       { return 301 "https://$host/areas-we-cover/#home-counties"; }
+    location ~ ^/relocating-to/south-west-coast/?$    { return 301 "https://$host/areas-we-cover/#south-west-coast"; }
+    location ~ ^/relocating-to/cotswolds-midlands/?$  { return 301 "https://$host/areas-we-cover/#cotswolds-midlands"; }
+    location ~ ^/relocating-to/?$                     { return 301 https://$host/areas-we-cover/; }
+
+    # Overlapping blog posts merged into a single owner post.
+    location ~ ^/blog/removals-cost-for-older-people-uk/?$ { return 301 https://$host/blog/senior-move-cost-uk/; }
+    location ~ ^/blog/questions-to-ask-a-removals-company-uk/?$ { return 301 https://$host/blog/choosing-removals-company-for-elderly-person-uk/; }
+    location ~ ^/blog/choosing-relocation-partner-uk-move/?$ { return 301 https://$host/blog/choosing-removals-company-for-elderly-person-uk/; }
+    location ~ ^/blog/downsizing-your-family-home-uk-guide/?$ { return 301 https://$host/blog/downsizing-checklist-what-to-keep-uk/; }
+    location ~ ^/blog/what-to-do-with-unwanted-furniture-downsizing-uk/?$ { return 301 https://$host/blog/planning-furniture-and-floor-plan-for-a-smaller-home/; }
+    location ~ ^/blog/moving-a-parent-guide-for-adult-children/?$ { return 301 https://$host/moving-elderly-parent/; }
+    location ~ ^/blog/retirement-flat-move-checklist-uk/?$ { return 301 https://$host/blog/moving-into-a-retirement-village-uk-guide/; }
+    location ~ ^/blog/moving-into-sheltered-housing-what-to-expect/?$ { return 301 https://$host/blog/moving-into-a-retirement-village-uk-guide/; }
 
     # Duplicate-URL consolidation: try_files below also serves /page.html and
     # /page/index.html, so the same page was reachable at several URLs.
