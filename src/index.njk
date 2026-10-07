@@ -74,6 +74,13 @@ headExtra: |
   .trust-bar .tb-item{display:flex;align-items:center;gap:10px;padding:11px 22px;border:1px solid var(--border-warm-2);border-radius:30px}
   .trust-bar .tb-item i{color:var(--gold-dark);font-size:15px}
   .trust-bar .tb-item span{font-family:'Poppins',sans-serif;font-size:14px;font-weight:500;color:var(--ink);letter-spacing:.2px}
+  @media(max-width:600px){
+    .trust-bar{padding:20px 0}
+    .trust-bar .container{display:grid!important;grid-template-columns:repeat(3,1fr);align-items:stretch!important;gap:8px!important;padding-left:12px;padding-right:12px}
+    .trust-bar .tb-item{flex-direction:column;justify-content:center;text-align:center;gap:6px;padding:12px 6px;border-radius:14px}
+    .trust-bar .tb-item i{font-size:16px}
+    .trust-bar .tb-item span{font-size:12px;line-height:1.35;letter-spacing:0}
+  }
   /* ===== Value statement — Bishop's Move shape: left-accent heading column + right copy column, a centered contact line, then a dark CTA bar ===== */
   .value-columns{display:flex;gap:24px;align-items:flex-start}
   .value-heading{flex:0 0 auto;border-left:2px solid var(--gold);padding-left:26px}
@@ -180,6 +187,11 @@ headExtra: |
   .why-stats>div{text-align:center}
   .why-stats strong{display:block;font-family:'Poppins',sans-serif;font-weight:500;font-size:34px;color:var(--gold);margin-bottom:6px}
   .why-stats span{display:block;font-family:'Poppins',sans-serif;font-size:13px;letter-spacing:1.6px;text-transform:uppercase;color:var(--grey-warm)}
+  @media(max-width:600px){
+    .why-stats{display:grid!important;grid-template-columns:repeat(3,1fr);gap:8px!important;align-items:start}
+    .why-stats strong{font-size:24px!important;margin-bottom:4px}
+    .why-stats span{font-size:10.5px;letter-spacing:.9px;line-height:1.45}
+  }
   /* ===== Final CTA ===== */
   .final-cta{background:var(--bg-cream);padding:72px 0}
   .home-section+.final-cta{padding-top:72px}

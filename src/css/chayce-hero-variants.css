@@ -17,6 +17,7 @@
 .page-hero--left h1{color:#fff;font-size:46px;font-weight:500;font-family:'Playfair Display',serif;max-width:640px;margin:0 0 10px;text-align:left}
 .page-hero--left h1 em{color:var(--gold-light);font-style:normal}
 .page-hero--left p.sub{color:#e8e6e0;margin-top:6px;font-size:16px;max-width:520px;text-align:left}
+@media(max-width:900px){.page-hero--left .container{padding-left:20px;padding-right:20px}}
 @media(max-width:600px){.page-hero--left{min-height:auto;padding:100px 0 50px}.page-hero--left h1{font-size:28px}}
 
 /* ===== --region: the 4 relocating-to/ pages =====

@@ -5,4 +5,6 @@
   .sticky-cta a{flex:1;text-align:center;padding:14px 8px;font-family:'Poppins',sans-serif;font-size:14px;letter-spacing:1px;text-transform:uppercase;text-decoration:none;color:#1a1a1a;border-right:1px solid #e3e0d8}
   .sticky-cta a:last-child{border-right:none;background:#1a1a1a;color:#fff}
   body{padding-bottom:52px}
+  /* keep the footer's last lines clear of the fixed bar (some pages set their own footer padding inline) */
+  .chayce-footer{padding-bottom:calc(64px + env(safe-area-inset-bottom,0px))!important}
 }

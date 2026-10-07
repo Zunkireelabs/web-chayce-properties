@@ -1,0 +1,38 @@
+/* Phones only: tighten oversized vertical spacing so no page has dead space between sections.
+   !important is deliberate: page templates set their own section padding in inline <style> blocks that load after this file. */
+@media (max-width: 767px) {
+  /* ordinary content sections (were 80px top and bottom) */
+  .page-section,
+  .page-section.grey { padding-top: 44px !important; padding-bottom: 44px !important; }
+  .page-section.dc-top { padding-bottom: 44px !important; }
+  #packages { padding-bottom: 44px !important; }
+
+  /* FAQ bands, promise block, closing call-to-action bands */
+  .pkg-faq-band, .pg-faq-band { padding-top: 40px !important; padding-bottom: 40px !important; }
+  .pkg-close-cta { padding-top: 40px !important; padding-bottom: 40px !important; }
+  .promise { padding-top: 40px !important; padding-bottom: 40px !important; }
+
+  /* homepage / About bands that were 72px */
+  .story-panel, .home-section.ai-teaser { padding-top: 44px !important; padding-bottom: 44px !important; }
+
+  /* top banners: clear the fixed header, then stop */
+  .page-hero { padding-top: 112px !important; padding-bottom: 40px !important; }
+  .page-hero--left { padding-top: 96px !important; padding-bottom: 20px !important; }
+  .page-hero--left .container { padding-top: 12px !important; padding-bottom: 12px !important; }
+
+  /* stacked headings: smaller space under section headings */
+  .pkg-detail-head { margin-bottom: 36px !important; }
+
+  /* footer: less air above the first row of links */
+  .chayce-footer { padding-top: 44px !important; }
+
+  /* area / article banners: shorter tail under the text */
+  .page-hero--region .container { padding-bottom: 28px !important; }
+  .page-hero--region { min-height: 0 !important; padding-top: 110px; }
+
+  /* redesigned bands */
+  .pkg-band, .dc-band, .csx-intro, .ab-glance { padding-top: 44px !important; padding-bottom: 44px !important; }
+
+  /* package detail order card: slimmer */
+  .pkg-order-card { padding: 24px 20px !important; }
+}

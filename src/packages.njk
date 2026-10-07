@@ -144,6 +144,17 @@ headExtra: |
   .pkg-close-cta .btn-row .ghost:hover{background:var(--ink);color:#fff}
   @media(max-width:480px){.pkg-close-cta .btn-row{flex-direction:column}.pkg-close-cta .btn-row a{width:100%;box-sizing:border-box}}
 
+
+  /* ===== Mobile polish ===== */
+  .compare-hint{display:none}
+  @media(max-width:900px){
+    .compare-hint{display:block;text-align:right;margin:0 0 8px;font-size:12.5px;letter-spacing:1.4px;text-transform:uppercase;color:var(--gold-dark);font-family:'Poppins',sans-serif}
+    .pkg-band .compare-wrap{-webkit-overflow-scrolling:touch}
+    table.pkg-compare{min-width:600px}
+    table.pkg-compare td.feat,table.pkg-compare th:first-child{position:sticky;left:0;z-index:1;background:#fff;box-shadow:1px 0 0 var(--border-light)}
+    table.pkg-compare th:first-child{background:var(--ink);z-index:2}
+    table.pkg-compare tr.grp td{position:static}
+  }
   /* ===== Page structure: jump nav, intro panel, section bands ===== */
   html{scroll-behavior:smooth}
   .pkg-jump{background:#fff;border-bottom:1px solid var(--border-warm)}
@@ -307,6 +318,7 @@ footScripts: |
 <section class="pkg-band pkg-band--cool" id="compare">
   <div class="container">
     <div class="pkg-sec-head"><span class="pkg-eyebrow">Compare</span><h2>What&rsquo;s included at each level</h2><p>The table shows exactly what&rsquo;s included at each tier, feature by feature &mdash; each package includes everything in the one to its left, plus the rows marked below it.</p></div>
+    <p class="compare-hint">Swipe to compare &rarr;</p>
     <div class="compare-wrap">
       <table class="pkg-compare">
         <thead>
