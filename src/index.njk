@@ -652,7 +652,7 @@ footScripts: |
   {%- endif %}
   "legalName": "Chayce Properties Ltd",
   "alternateName": "Chayce Properties Ltd",
-  "hasMap": "https://www.google.com/maps?q={{ site.geo.latitude }},{{ site.geo.longitude }}",
+  "hasMap": "{{ site.gbpUrl or ('https://www.google.com/maps?q=' + site.geo.latitude + ',' + site.geo.longitude) }}",
   "foundingDate": "2026",
   "slogan": "Later-life moving and downsizing across the UK",
   "contactPoint": { "@type": "ContactPoint", "telephone": "{{ site.telephone }}", "email": "{{ site.email }}", "contactType": "customer service", "areaServed": "GB", "availableLanguage": "English" },
