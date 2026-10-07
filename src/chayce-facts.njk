@@ -10,21 +10,21 @@ eleventyExcludeFromCollections: true
   "url": "https://chayceproperties.com/",
   "description": "Northampton-based later-life moving and downsizing service helping older people and their families move home across the UK with one dedicated coordinator.",
   "address": {
-    "streetAddress": "Unit F2B Barratt House, Kingsthorpe Road",
-    "locality": "Northampton",
-    "postalCode": "NN2 6EZ",
+    "streetAddress": "{{ site.address.streetAddress }}",
+    "locality": "{{ site.address.addressLocality }}",
+    "postalCode": "{{ site.address.postalCode }}",
     "country": "GB"
   },
-  "telephone": "+447708925432",
-  "email": "info@chayceproperties.com",
-  "openingHours": "Mo-Fr 09:00-17:30",
+  "telephone": "{{ site.telephone }}",
+  "email": "{{ site.email }}",
+  "openingHours": "Mo-Fr 09:00-17:30; Sa by appointment",
   "areaServed": [
     "Northampton",
     "Northamptonshire",
     "East Midlands",
     "United Kingdom"
   ],
-  "insured": "Every removal is fully insured against loss or damage in transit.",
+  "insured": "Every removal is fully insured against loss or damage in transit. Details are set out in the service agreement before the move begins.",
   "pricing": "Package prices are published on the website at https://chayceproperties.com/packages/.",
   "team": "Our own vetted team, not outsourced.",
   "whatsapp": "https://wa.me/447708925432",
@@ -40,37 +40,16 @@ eleventyExcludeFromCollections: true
     "Settling-in support"
   ],
   "packages": [
-    {
-      "name": "Discovery Consultation",
-      "fromPriceGBP": 150,
-      "url": "https://chayceproperties.com/discovery/"
-    },
-    {
-      "name": "Bronze Essentials",
-      "fromPriceGBP": 995,
-      "url": "https://chayceproperties.com/bronze-essentials/"
-    },
-    {
-      "name": "Silver Comfort",
-      "fromPriceGBP": 1850,
-      "url": "https://chayceproperties.com/silver-comfort/"
-    },
-    {
-      "name": "Gold Prestige",
-      "fromPriceGBP": 3250,
-      "url": "https://chayceproperties.com/gold-prestige/"
-    },
-    {
-      "name": "Platinum Bespoke",
-      "fromPriceGBP": 6500,
-      "url": "https://chayceproperties.com/platinum-bespoke/"
-    }
+{%- for p in site.packages %}
+    { "name": "{{ p.name }}", "fromPriceGBP": {{ p.price }}, "url": "{{ site.url }}{{ p.url }}/" }{% if not loop.last %},{% endif %}
+{%- endfor %}
   ],
   "keyPages": {
+    "caseStudies": "https://chayceproperties.com/case-studies/",
     "seniorMoveManager": "https://chayceproperties.com/senior-move-manager-uk/",
     "about": "https://chayceproperties.com/about-chayce/",
     "faq": "https://chayceproperties.com/senior-moving-faq/",
     "llms": "https://chayceproperties.com/llms.txt"
   },
-  "lastUpdated": "2026-10-01"
+  "blogGuides": {{ collections.blog | length }}
 }

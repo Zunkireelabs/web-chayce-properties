@@ -1,0 +1,116 @@
+---
+permalink: "llms-full.txt"
+eleventyExcludeFromCollections: true
+---
+# {{ site.name }} — Full Content
+
+> {{ site.name }} is a later-life moving, downsizing and relocation service based in Northampton, UK, founded in 2026. One dedicated coordinator manages every stage of a move: sorting and decluttering, packing, removals, estate agent and solicitor liaison, storage and settling-in support. Services are designed with older people and their families in mind and are open to anyone who wants a fully managed move.
+
+## Company facts
+
+- Name: {{ site.name }} (legal name: Chayce Properties Ltd)
+- Founded: 2026
+- Website: {{ site.url }}
+- Address: {{ site.address.streetAddress }}, {{ site.address.addressLocality }}, {{ site.address.postalCode }}, United Kingdom
+- Phone / WhatsApp: {{ site.telephoneDisplay }}
+- Email: {{ site.email }}
+- Hours: {{ site.openingHoursText }}
+- Area served: United Kingdom (nationwide, from one Northampton office; not a network of local branches)
+- Not an estate agent. Chayce coordinates with your estate agent and solicitor; it does not give legal, financial or medical advice.
+- Insurance: every removal is fully insured against loss or damage in transit. Details are set out in your service agreement before the move begins.
+
+## Packages and prices
+
+Prices are published and are "from" prices. Each higher tier includes everything in the tier below it. Comparison: {{ site.url }}/packages/
+
+### Discovery Consultation — £{{ (site.packages | findByKey("discovery")).price | gbp }}
+A standalone consultation, not one of the four move packages.
+- 1-hour telephone or in-person consultation
+- Assessment of your relocation needs
+- Personalised move plan document
+- Recommended timeline and budget breakdown
+
+### Bronze Essentials — from £{{ (site.packages | findByKey("bronze")).price | gbp }}
+For straightforward moves once the destination is confirmed.
+- Professional packing of all rooms
+- Insured removal to the new home
+- Furniture reassembly at destination
+- Light cleaning of the vacated property
+- Dedicated move coordinator
+
+### Silver Comfort — from £{{ (site.packages | findByKey("silver")).price | gbp }}
+Everything in Bronze Essentials, plus:
+- Home sorting and declutter assistance
+- Property staging for sale
+- Utility transfer management
+- Deep clean of the vacated property
+- Post-move unpacking and setup
+
+### Gold Prestige — from £{{ (site.packages | findByKey("gold")).price | gbp }}
+Everything in Silver Comfort, plus:
+- Chauffeur-driven property viewings
+- Estate agent liaison
+- Solicitor coordination
+- Full home staging with photography
+- Storage (up to 6 weeks)
+- White-glove unpacking and styling
+
+### Platinum Bespoke — from £{{ (site.packages | findByKey("platinum")).price | gbp }}
+Everything in Gold Prestige, plus:
+- Bespoke, unlimited scope
+- Personal lifestyle concierge
+- New area orientation and introductions
+- Interior designer consultation
+- Ongoing post-move concierge support (3 months)
+- Dedicated senior coordinator throughout
+
+## Examples and evidence
+
+Package pages include clearly labelled example scenarios, which are illustrative and not descriptions of specific clients. Genuine case studies and testimonials are listed separately at {{ site.url }}/case-studies/ and, where client identity is withheld at their request, say so.
+
+## Areas
+
+- Northampton and Northamptonshire: {{ site.url }}/northampton/ — the home office, with local coverage of Kettering, Wellingborough, Daventry, Towcester, Brackley, Rugby, Market Harborough, Milton Keynes and Bedford.
+- Areas We Cover: {{ site.url }}/areas-we-cover/ — practical considerations for London and the South East, the Home Counties, the South West and coast, and the Cotswolds and rural Midlands.
+
+## Frequently asked questions
+
+The full set of answers is at {{ site.url }}/senior-moving-faq/. The most common:
+
+**What is a senior moving service?**
+A service that helps older people move home from start to finish, not just transport belongings: sorting, packing, removal, sale-side coordination and settling in, with one coordinator.
+
+**How much does it cost?**
+The Discovery Consultation is £{{ (site.packages | findByKey("discovery")).price | gbp }}. Move packages start from £{{ (site.packages | findByKey("bronze")).price | gbp }}, with full-service moves from £{{ (site.packages | findByKey("silver")).price | gbp }}.
+
+**How early should I get in touch?**
+Ideally 3 to 6 months before the intended move date, though shorter timescales can be accommodated where possible.
+
+**Do I need to choose a package before contacting Chayce?**
+No. The Discovery Consultation (in person or by phone) produces a personalised plan, timeline and budget before you commit to a package.
+
+**Will I have the same coordinator throughout?**
+Yes. One coordinator stays with the client from first conversation to settling in.
+
+**Is my move insured?**
+Every removal is fully insured against loss or damage in transit. Details are set out in the service agreement before the move begins.
+
+## Guides ({{ collections.blog | length }})
+
+{% for post in collections.blog %}- [{{ post.data.title | safe }}]({{ site.url }}{{ post.url }}): {{ post.data.description | safe }}
+{% endfor %}
+## Key pages
+
+- Homepage: {{ site.url }}/
+- What Is a Senior Move Manager: {{ site.url }}/senior-move-manager-uk/
+- How It Works: {{ site.url }}/how-it-works/
+- Services: {{ site.url }}/services/
+- Packages: {{ site.url }}/packages/
+- Downsizing Help for Older People: {{ site.url }}/downsizing-help-for-elderly/
+- Moving an Elderly Parent: {{ site.url }}/moving-elderly-parent/
+- Retirement Village Moving Service: {{ site.url }}/retirement-village-moving-service/
+- Senior Moving FAQ: {{ site.url }}/senior-moving-faq/
+- Case Studies and Examples: {{ site.url }}/case-studies/
+- About: {{ site.url }}/about-chayce/
+- Contact: {{ site.url }}/contact/
+- Machine-readable facts: {{ site.url }}/chayce-facts.json

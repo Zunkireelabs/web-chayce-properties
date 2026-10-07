@@ -26,12 +26,10 @@ headExtra: |
   "image": {{ (featuredImage | default('https://chayceproperties.com/images/chayce-logo.png')) | dump | safe }},
   "datePublished": "{{ date }}",
   "dateModified": "{{ dateModified | default(date) }}",
-  "author": { "@type": "Organization", "@id": "{{ site.url }}/#organization" },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Chayce Properties",
-    "logo": { "@type": "ImageObject", "url": "https://chayceproperties.com/images/chayce-logo.png" }
-  },
+{% if about %}  "about": [{% for e in about %}{"@type":"Thing","name":{{ e.name | dump | safe }},"sameAs":{{ e.url | dump | safe }}}{% if not loop.last %},{% endif %}{% endfor %}],
+{% endif %}{% if sources %}  "citation": [{% for c in sources %}{"@type":"CreativeWork","name":{{ c.name | dump | safe }},"url":{{ c.url | dump | safe }}}{% if not loop.last %},{% endif %}{% endfor %}],
+{% endif %}  "author": { "@type": "Organization", "@id": "{{ site.url }}/#organization", "name": "{{ site.name }}", "url": "{{ site.url }}/about-chayce/" },
+  "publisher": { "@type": "Organization", "@id": "{{ site.url }}/#organization", "name": "{{ site.name }}" },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://chayceproperties.com{{ page.url }}" }
 }
 </script>
@@ -61,6 +59,7 @@ headExtra: |
         <p class="blog-post-meta">
           <time datetime="{{ date }}">{{ date | readableDate }}</time>
           <span>{{ content | readTime }} min read</span>
+          {% if dateModified and dateModified != date %}<span>Updated <time datetime="{{ dateModified }}">{{ dateModified | readableDate }}</time></span>{% endif %}
         </p>
 
         {% if featuredImage %}
@@ -71,14 +70,22 @@ headExtra: |
           {{ content | safe }}
         </div>
 
-        <p class="blog-post-byline" style="color:#999;font-size:13px;margin-top:30px;padding-top:20px;border-top:1px solid #eee;display:flex;align-items:center;gap:6px;">Website and content growth by <a href="https://zunkireelabs.com" style="color:#8f6a38;font-weight:500;text-decoration:none;display:inline-flex;align-items:center;gap:6px;text-transform:lowercase"><img src="/images/zunkireelabs-icon.svg" alt="" width="18" height="18">zunkireelabs</a></p>
+        {% if faq %}
+        <div class="blog-post-faq">
+          <h2 style="color:var(--ink);font-family:'Playfair Display',serif;font-size:28px;margin:44px 0 18px">Common questions</h2>
+          {% for item in faq %}
+          <h3 style="color:var(--ink);font-family:'Poppins',sans-serif;font-weight:500;font-size:18px;margin:22px 0 8px">{{ item.q }}</h3>
+          <p style="color:#444;font-size:16px;line-height:1.8;margin:0">{{ item.a }}</p>
+          {% endfor %}
+        </div>
+        {% endif %}
       </div>
 
       <div class="col-md-4">
         <div class="blog-sidebar">
           <div class="card-box">
-            <h4>Ready for Your <em>Next Chapter?</em></h4>
-            <p>Chayce Properties guides senior relocations with grace and ease, from first consultation to final unpack. Read more about <a href="/downsizing-help-for-elderly/">downsizing help for older people</a> or <a href="/moving-elderly-parent/">moving an elderly parent</a>. New here? See <a href="/about-chayce/">what Chayce Properties is</a> or the <a href="/senior-moving-faq/">senior moving FAQ</a>.</p>
+            <h4>Planning a <em>move?</em></h4>
+            <p>Chayce Properties is a Northampton-based later-life moving service. New here? See <a href="/senior-move-manager-uk/">what a senior move manager does</a>, <a href="/downsizing-help-for-elderly/">downsizing help for older people</a>, or <a href="/moving-elderly-parent/">moving an elderly parent</a>. Prices are on the <a href="/packages/">packages page</a>.</p>
             <a href="/discovery/" class="btn-chayce">Book a Discovery Consultation</a>
           </div>
         </div>

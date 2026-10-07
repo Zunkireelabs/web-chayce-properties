@@ -1,8 +1,8 @@
 ---
 title: "What to Do With Sentimental Belongings When You Downsize"
-description: "An unhurried way to work through sentimental items when downsizing: what to keep, what to pass on, and how to avoid rushing decisions."
+description: "A gentle way to work through sentimental items when downsizing: what to keep, photograph or pass on, and how to avoid rushed decisions."
 date: "2026-09-24"
-dateModified: "2026-09-24"
+dateModified: "2026-10-04"
 featuredImage: "https://images.pexels.com/photos/7203815/pexels-photo-7203815.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 featuredImageAlt: "A woman sorting belongings into a cardboard box while packing for a move."
 featuredImageCredit: "Photo via Pexels"
@@ -14,6 +14,8 @@ faq:
   - q: "What happens to items family members don't want and I don't want to throw away?"
     a: "Donation, sale and specialist collection are all options your coordinator can arrange, so nothing has to go straight in a skip because there's no other plan for it."
 ---
+
+**Short answer:** sort first, decide later. Group sentimental items by category without deciding anything, then go back through each group slowly, ideally starting 2 to 3 months before moving. Photograph what you cannot keep, and ask family early. For the full process, see our [downsizing guide and checklist](/blog/downsizing-checklist-what-to-keep-uk/).
 
 ## The Part That Isn't Really About Packing
 
@@ -38,7 +40,6 @@ Adult children and grandchildren are often glad to take specific items, and aski
 
 A downsize almost always comes with a smaller new home attached, which means this decision is happening under some form of time pressure already. [Silver Comfort](/silver-comfort/) and [Gold Prestige](/gold-prestige/) both include dedicated home sorting and declutter support specifically so this stage can happen at a considered pace, rather than being squeezed into the days before a removal van arrives.
 
-> "It wasn't really about packing boxes — it was deciding what to keep, what to pass on and what we could finally let go of. Chayce helped us create a realistic plan around the move, rather than trying to do everything at once." — David & Anne, Silver Comfort clients
 
 ## Frequently Asked Questions
 
@@ -51,4 +52,4 @@ Yes. Home sorting and declutter support can begin well ahead of a confirmed date
 **What happens to items family members don't want and I don't want to throw away?**
 Donation, sale and specialist collection are all options your coordinator can arrange, so nothing has to go straight in a skip because there's no other plan for it.
 
-[Get in touch](/contact/) if you'd like to talk this stage through, or book a [Discovery Consultation](/discovery/) to build a proper plan around it.
+If you are helping a parent, [how to declutter a parent's house](/blog/how-to-declutter-a-parents-house/) covers pacing. [Downsizing help for older people](/downsizing-help-for-elderly/) explains how we support this stage. [Get in touch](/contact/) if you'd like to talk this stage through, or book a [Discovery Consultation](/discovery/) to build a proper plan around it.

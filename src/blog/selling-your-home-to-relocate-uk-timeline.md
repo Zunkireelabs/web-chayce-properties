@@ -48,3 +48,5 @@ Storage is included in [Gold Prestige](/gold-prestige/) for exactly this situati
 It's exactly why ongoing estate agent and solicitor liaison matters — having someone tracking the chain daily means a problem gets caught and worked around early, rather than discovered at the last minute.
 
 A realistic timeline starts with an honest conversation — [get in touch](/contact/) or head straight to a [Discovery Consultation](/discovery/).
+
+**Related:** see [the cost of moving house in the UK](/blog/cost-of-moving-house-uk/) for what to budget alongside the timeline.

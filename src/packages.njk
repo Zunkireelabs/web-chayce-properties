@@ -1,4 +1,5 @@
 ---
+modified: "2026-10-04"
 title: "Senior Moving Packages & Prices UK, From £995 | Chayce"
 description: "Compare senior moving packages from £995: packing and removals, full-service moves, premium relocation and bespoke concierge. Based in Northampton."
 bodyClass: "page-template page-loaded"
@@ -161,6 +162,7 @@ footScripts: |
 </div>
 <section class="page-section">
   <div class="container">
+    <p class="pkg-intro-copy"><strong>In short:</strong> Chayce Properties is a Northampton-based later-life moving service that arranges moves across the UK. Packages start from &pound;{{ (site.packages | findByKey("bronze")).price | gbp }} for packing and removals, and rise to a fully bespoke relocation from &pound;{{ (site.packages | findByKey("platinum")).price | gbp }}. If you are not sure what you need, the simplest first step is the <a href="/discovery/">Discovery Consultation (&pound;{{ (site.packages | findByKey("discovery")).price | gbp }})</a>: one hour, in person or by phone, ending in a plan, timeline and budget. Package prices are &ldquo;from&rdquo; prices; the final price depends on the scope agreed with you.</p>
     <p class="pkg-intro-copy">Every package builds on the one below it, so moving up a tier doesn&rsquo;t mean a different kind of service &mdash; it means we take more of the process off your hands, from the physical move itself in Bronze Essentials through to viewings, staging and legal coordination in Gold Prestige and Platinum Bespoke. If you&rsquo;re not sure where your own move sits on that scale, that&rsquo;s exactly what the Discovery Consultation is for, and there&rsquo;s no obligation to book anything further once you&rsquo;ve had it.</p>
     <!-- ============ TRUST QUOTE — moved up next to the package-choosing guide instead of trailing after the comparison table, so the claim sits near the decision it's meant to support ============ -->
     <div class="quote-block">&ldquo;From sorting and packing to selling and settling in &mdash; we manage it all, so you don&rsquo;t have to.&rdquo;</div>
@@ -267,6 +269,29 @@ footScripts: |
       </table>
       <p class="compare-note">Not sure which level of support you need? A <a href="/discovery/">Discovery Consultation</a> (from &pound;150) is a standalone assessment that helps you choose &mdash; it isn&rsquo;t one of the four tiers above.</p>
     </div>
+    <div class="compare-wrap" style="margin-top:50px">
+      <h2 style="font-family:'Playfair Display',serif;font-size:28px;color:var(--ink);text-align:center;margin:0 0 10px">Who each package is for</h2>
+      <p style="text-align:center;max-width:640px;margin:0 auto 26px;color:var(--grey-mid);font-size:17px">What each package is built for, what it does not cover, and what to do next.</p>
+      <table class="pkg-compare">
+        <thead>
+          <tr><th>Package</th><th>Best suited to</th><th>Not included</th><th>Next step</th></tr>
+        </thead>
+        <tbody>
+          <tr><td class="feat"><a href="/discovery/">Discovery Consultation</a><br>&pound;{{ (site.packages | findByKey("discovery")).price | gbp }}</td><td>Anyone unsure what help they need, or how a move would work, before committing.</td><td>No packing, removals or moving services. It produces a plan, timeline and budget.</td><td><a href="/discovery/">Book a consultation</a></td></tr>
+          <tr><td class="feat"><a href="/bronze-essentials/">Bronze Essentials</a><br>from &pound;{{ (site.packages | findByKey("bronze")).price | gbp }}</td><td>A straightforward move where the destination is already confirmed and you mainly need the physical move handled.</td><td>Sorting and declutter help, staging, utility transfers, deep clean (light clean only), unpacking and setup, viewings, agent and solicitor coordination, storage.</td><td><a href="/bronze-essentials/">See Bronze Essentials</a></td></tr>
+          <tr><td class="feat"><a href="/silver-comfort/">Silver Comfort</a><br>from &pound;{{ (site.packages | findByKey("silver")).price | gbp }}</td><td>A managed move where you want help sorting and preparing the home, with one coordinator running the whole process.</td><td>Chauffeur-driven viewings, estate agent liaison, solicitor coordination, storage, white-glove unpacking.</td><td><a href="/silver-comfort/">See Silver Comfort</a></td></tr>
+          <tr><td class="feat"><a href="/gold-prestige/">Gold Prestige</a><br>from &pound;{{ (site.packages | findByKey("gold")).price | gbp }}</td><td>A move that also involves finding a home, selling the current one, or coordinating the legal side.</td><td>Personal lifestyle concierge, interior designer consultation, new-area orientation, post-move concierge support.</td><td><a href="/gold-prestige/">See Gold Prestige</a></td></tr>
+          <tr><td class="feat"><a href="/platinum-bespoke/">Platinum Bespoke</a><br>from &pound;{{ (site.packages | findByKey("platinum")).price | gbp }}</td><td>A complex or high-support move where the scope is agreed individually, with support continuing after the move.</td><td>Scope is agreed with your coordinator. Chayce does not give legal, financial or medical advice.</td><td><a href="/platinum-bespoke/">See Platinum Bespoke</a></td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div style="max-width:760px;margin:50px auto 0;background:var(--bg-cream);border-left:3px solid var(--gold);padding:26px 30px">
+      <span style="display:inline-block;font-size:12.5px;letter-spacing:2px;text-transform:uppercase;font-weight:500;color:var(--gold-dark);margin-bottom:10px">Example scenario &middot; illustrative, not a real client</span>
+      <p style="color:#555;font-size:17px;line-height:1.8;margin:0 0 12px">A couple are moving from a four-bedroom family home to a smaller bungalow and have not decided how much help they need. They begin with a Discovery Consultation (&pound;{{ (site.packages | findByKey("discovery")).price | gbp }}) to agree what the move involves. If they mainly want sorting, packing and a managed move, Silver Comfort (from &pound;{{ (site.packages | findByKey("silver")).price | gbp }}) is the package built for that; if they also need the sale and legal side coordinated, Gold Prestige (from &pound;{{ (site.packages | findByKey("gold")).price | gbp }}) adds it.</p>
+      <p style="color:#555;font-size:17px;line-height:1.8;margin:0">The final price depends on the scope agreed. See genuine <a href="/case-studies/" style="color:var(--gold-dark);text-decoration:underline">client stories and examples</a> on our case studies page.</p>
+    </div>
+
   </div>
 </section>
 
