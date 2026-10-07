@@ -144,6 +144,68 @@ headExtra: |
   .pkg-close-cta .btn-row .ghost:hover{background:var(--ink);color:#fff}
   @media(max-width:480px){.pkg-close-cta .btn-row{flex-direction:column}.pkg-close-cta .btn-row a{width:100%;box-sizing:border-box}}
 
+
+  /* ===== Mobile polish ===== */
+  .compare-hint{display:none}
+  @media(max-width:900px){
+    .compare-hint{display:block;text-align:right;margin:0 0 8px;font-size:12.5px;letter-spacing:1.4px;text-transform:uppercase;color:var(--gold-dark);font-family:'Poppins',sans-serif}
+    .pkg-band .compare-wrap{-webkit-overflow-scrolling:touch}
+    table.pkg-compare{min-width:600px}
+    table.pkg-compare td.feat,table.pkg-compare th:first-child{position:sticky;left:0;z-index:1;background:#fff;box-shadow:1px 0 0 var(--border-light)}
+    table.pkg-compare th:first-child{background:var(--ink);z-index:2}
+    table.pkg-compare tr.grp td{position:static}
+  }
+  /* ===== Page structure: jump nav, intro panel, section bands ===== */
+  html{scroll-behavior:smooth}
+  .pkg-jump{background:#fff;border-bottom:1px solid var(--border-warm)}
+  .pkg-jump .container{display:flex;gap:6px;flex-wrap:wrap;justify-content:center;padding-top:14px;padding-bottom:14px}
+  .pkg-jump a{font-family:'Poppins',sans-serif;font-size:14px;letter-spacing:.5px;color:var(--slate);text-decoration:none;padding:7px 18px;border:1px solid var(--border-warm);border-radius:999px;transition:.2s}
+  .pkg-jump a:hover{background:var(--ink);border-color:var(--ink);color:#fff}
+  #packages,#compare,#who-for,#example,#faq{scroll-margin-top:20px}
+  .pkg-intro-panel{display:grid;grid-template-columns:1.6fr 1fr;gap:40px;align-items:center;max-width:1100px;margin:0 auto 18px;background:var(--bg-cream);border-left:3px solid var(--gold);padding:34px 40px}
+  .pkg-intro-main{margin:0;color:#555;font-size:16.5px;line-height:1.85}
+  .pkg-facts{list-style:none;margin:0;padding:0;display:grid;gap:14px}
+  .pkg-facts li{display:flex;flex-direction:column;padding-left:16px;border-left:2px solid var(--gold)}
+  .pkg-facts strong{font-family:'Poppins',sans-serif;font-weight:500;font-size:20px;color:var(--ink);line-height:1.3}
+  .pkg-facts span{font-size:14px;letter-spacing:1px;text-transform:uppercase;color:var(--grey-light)}
+  .pkg-how{max-width:1100px;margin:0 auto 10px}
+  .pkg-how summary{cursor:pointer;list-style:none;display:inline-flex;align-items:center;gap:10px;font-family:'Poppins',sans-serif;font-size:15px;color:var(--gold-dark);padding:6px 0}
+  .pkg-how summary::-webkit-details-marker{display:none}
+  .pkg-how summary::after{content:'+';font-size:18px}
+  .pkg-how[open] summary::after{content:'\2212'}
+  .pkg-how-copy{margin:8px 0 0;color:#555;font-size:16px;line-height:1.85;max-width:820px}
+  .pkg-band{padding:80px 0}
+  .pkg-band--cool{background:var(--bg-cool)}
+  .pkg-band--cream{background:var(--bg-cream)}
+  .pkg-sec-head{max-width:720px;margin:0 auto 36px;text-align:center}
+  .pkg-eyebrow{display:inline-block;font-size:12.5px;letter-spacing:2.5px;text-transform:uppercase;font-weight:500;color:var(--gold-dark);margin-bottom:10px}
+  .pkg-sec-head h2{font-family:'Playfair Display',serif;font-size:32px;color:var(--ink);margin:0 0 12px;line-height:1.25}
+  .pkg-sec-head p{margin:0;color:var(--grey-mid);font-size:17px;line-height:1.75}
+  #packages{padding-bottom:70px}
+  .pkg-band .compare-wrap{margin-top:0;background:#fff;border:1px solid var(--border-warm);border-top:3px solid var(--ink);box-shadow:0 14px 36px rgba(20,18,12,.06);padding:0 0 4px}
+  .pkg-band .compare-note{padding:0 24px 16px}
+  table.pkg-compare tr.grp td{background:var(--bg-cream);color:var(--gold-dark);font-family:'Poppins',sans-serif;font-size:12.5px;letter-spacing:2px;text-transform:uppercase;font-weight:500;text-align:left;padding:11px 16px;border-bottom:1px solid var(--border-warm)}
+  table.pkg-compare tr.grp:hover td{background:var(--bg-cream)}
+  /* ===== Who it's for cards ===== */
+  .pkg-fit-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:24px;max-width:1100px;margin:0 auto}
+  .pkg-fit-card{grid-column:span 2}
+  .pkg-fit-card:nth-child(4){grid-column:2/span 2}
+  .pkg-fit-card:nth-child(5){grid-column:4/span 2}
+  .pkg-fit-card{background:#fff;border:1px solid var(--border-warm);border-top:3px solid var(--gold);padding:30px 28px;display:flex;flex-direction:column}
+  .pkg-fit-card h3{font-family:'Poppins',sans-serif;font-weight:500;font-size:20px;margin:0 0 4px;line-height:1.3}
+  .pkg-fit-card h3 a{color:var(--ink);text-decoration:none}
+  .pkg-fit-card h3 a:hover{color:var(--gold-dark)}
+  .pkg-fit-price{color:var(--gold-dark);font-weight:500;font-size:17px;margin-bottom:16px}
+  .pkg-fit-card h4{font-size:12.5px;letter-spacing:1.5px;text-transform:uppercase;color:var(--grey-light);font-family:'Poppins',sans-serif;font-weight:500;margin:0 0 6px}
+  .pkg-fit-card p{color:var(--grey-mid);font-size:15.5px;line-height:1.7;margin:0 0 16px}
+  .pkg-fit-link{margin-top:auto;font-size:14.5px;font-weight:500;color:var(--oxblood);text-decoration:none;border-bottom:1px solid currentColor;align-self:flex-start;padding-bottom:2px}
+  .pkg-fit-link:hover{color:var(--ink)}
+  /* ===== Example scenario ===== */
+  .pkg-example{max-width:760px;margin:0 auto;background:#fff;border-left:3px solid var(--gold);padding:30px 34px;box-shadow:0 10px 30px rgba(20,18,12,.05)}
+  @media(max-width:1024px){.pkg-fit-grid{grid-template-columns:repeat(2,1fr)}.pkg-fit-card,.pkg-fit-card:nth-child(4),.pkg-fit-card:nth-child(5){grid-column:auto}}
+  @media(max-width:900px){.pkg-intro-panel{grid-template-columns:1fr;gap:26px;padding:28px 26px}.pkg-facts{grid-template-columns:repeat(3,1fr)}}
+  @media(max-width:768px){.pkg-band,.pg-faq-band{padding:56px 0}.pkg-sec-head h2{font-size:27px}.pkg-fit-grid{grid-template-columns:1fr}.pkg-facts{grid-template-columns:1fr}.pkg-jump .container{justify-content:flex-start;overflow-x:auto;flex-wrap:nowrap}.pkg-jump a{white-space:nowrap}.pkg-example{padding:24px 22px}}
+
   </style>
   <script src="/js/wp-includes_js_jquery_jquery.min.js"></script>
   <script src="/js/wp-includes_js_jquery_jquery-migrate.min.js"></script>
@@ -160,10 +222,18 @@ footScripts: |
     <p style="color:#ccc;margin-top:10px;font-size:16px;">Five levels of support, from a &pound;150 consultation to a fully bespoke relocation</p>
   </div>
 </div>
-<section class="page-section">
+<nav class="pkg-jump" aria-label="On this page"><div class="container"><a href="#packages">Packages</a><a href="#compare">Compare</a><a href="#who-for">Who it&rsquo;s for</a><a href="#example">Example</a><a href="#faq">FAQ</a></div></nav>
+<section class="page-section" id="packages">
   <div class="container">
-    <p class="pkg-intro-copy"><strong>In short:</strong> Chayce Properties is a Northampton-based later-life moving service that arranges moves across the UK. Packages start from &pound;{{ (site.packages | findByKey("bronze")).price | gbp }} for packing and removals, and rise to a fully bespoke relocation from &pound;{{ (site.packages | findByKey("platinum")).price | gbp }}. If you are not sure what you need, the simplest first step is the <a href="/discovery/">Discovery Consultation (&pound;{{ (site.packages | findByKey("discovery")).price | gbp }})</a>: one hour, in person or by phone, ending in a plan, timeline and budget. Package prices are &ldquo;from&rdquo; prices; the final price depends on the scope agreed with you.</p>
-    <p class="pkg-intro-copy">Every package builds on the one below it, so moving up a tier doesn&rsquo;t mean a different kind of service &mdash; it means we take more of the process off your hands, from the physical move itself in Bronze Essentials through to viewings, staging and legal coordination in Gold Prestige and Platinum Bespoke. If you&rsquo;re not sure where your own move sits on that scale, that&rsquo;s exactly what the Discovery Consultation is for, and there&rsquo;s no obligation to book anything further once you&rsquo;ve had it.</p>
+    <div class="pkg-intro-panel">
+      <p class="pkg-intro-main"><strong>In short:</strong> Chayce Properties is a Northampton-based later-life moving service that arranges moves across the UK. Packages start from &pound;{{ (site.packages | findByKey("bronze")).price | gbp }} for packing and removals, and rise to a fully bespoke relocation from &pound;{{ (site.packages | findByKey("platinum")).price | gbp }}. If you are not sure what you need, the simplest first step is the <a href="/discovery/">Discovery Consultation (&pound;{{ (site.packages | findByKey("discovery")).price | gbp }})</a>: one hour, in person or by phone, ending in a plan, timeline and budget. Package prices are &ldquo;from&rdquo; prices; the final price depends on the scope agreed with you.</p>
+      <ul class="pkg-facts">
+        <li><strong>From &pound;{{ (site.packages | findByKey("bronze")).price | gbp }}</strong><span>packing and removals</span></li>
+        <li><strong>Fully insured</strong><span>every removal</span></li>
+        <li><strong>One coordinator</strong><span>start to finish</span></li>
+      </ul>
+    </div>
+    <details class="pkg-how"><summary>How the tiers build on each other</summary><p class="pkg-how-copy">Every package builds on the one below it, so moving up a tier doesn&rsquo;t mean a different kind of service &mdash; it means we take more of the process off your hands, from the physical move itself in Bronze Essentials through to viewings, staging and legal coordination in Gold Prestige and Platinum Bespoke. If you&rsquo;re not sure where your own move sits on that scale, that&rsquo;s exactly what the Discovery Consultation is for, and there&rsquo;s no obligation to book anything further once you&rsquo;ve had it.</p></details>
     <!-- ============ TRUST QUOTE — moved up next to the package-choosing guide instead of trailing after the comparison table, so the claim sits near the decision it's meant to support ============ -->
     <div class="quote-block">&ldquo;From sorting and packing to selling and settling in &mdash; we manage it all, so you don&rsquo;t have to.&rdquo;</div>
     <div class="pkg-choose-head">
@@ -242,26 +312,35 @@ footScripts: |
         </div>
       </div>
     </div>
+  </div>
+</section>
 
-    <p class="compare-intro" style="text-align:center;max-width:640px;margin:50px auto 0;color:var(--grey-mid);font-size:17px">The table below shows exactly what's included at each tier, feature by feature &mdash; each package includes everything in the one to its left, plus the rows marked below it.</p>
+<section class="pkg-band pkg-band--cool" id="compare">
+  <div class="container">
+    <div class="pkg-sec-head"><span class="pkg-eyebrow">Compare</span><h2>What&rsquo;s included at each level</h2><p>The table shows exactly what&rsquo;s included at each tier, feature by feature &mdash; each package includes everything in the one to its left, plus the rows marked below it.</p></div>
+    <p class="compare-hint">Swipe to compare &rarr;</p>
     <div class="compare-wrap">
       <table class="pkg-compare">
         <thead>
           <tr><th>Included</th><th>Bronze</th><th>Silver</th><th>Gold</th><th>Platinum</th></tr>
         </thead>
         <tbody>
+          <tr class="grp"><td colspan="5">The move</td></tr>
           <tr><td class="feat">Professional packing, all rooms</td><td class="yes">&#10003;</td><td class="yes">&#10003;</td><td class="yes">&#10003;</td><td class="yes">&#10003;</td></tr>
           <tr><td class="feat">Fully insured removal</td><td class="yes">&#10003;</td><td class="yes">&#10003;</td><td class="yes">&#10003;</td><td class="yes">&#10003;</td></tr>
           <tr><td class="feat">Dedicated move coordinator</td><td class="yes">&#10003;</td><td class="yes">&#10003;</td><td class="yes">&#10003;</td><td class="yes">&#10003;</td></tr>
+          <tr class="grp"><td colspan="5">Preparing &amp; settling in</td></tr>
           <tr><td class="feat">Home sorting &amp; declutter assistance</td><td class="no">&mdash;</td><td class="yes">&#10003;</td><td class="yes">&#10003;</td><td class="yes">&#10003;</td></tr>
           <tr><td class="feat">Property staging for sale</td><td class="no">&mdash;</td><td class="yes">&#10003;</td><td class="yes">&#10003;</td><td class="yes">&#10003;</td></tr>
           <tr><td class="feat">Utility transfer management</td><td class="no">&mdash;</td><td class="yes">&#10003;</td><td class="yes">&#10003;</td><td class="yes">&#10003;</td></tr>
           <tr><td class="feat">Deep clean of vacated property</td><td class="no">Light clean</td><td class="yes">&#10003;</td><td class="yes">&#10003;</td><td class="yes">&#10003;</td></tr>
           <tr><td class="feat">Post-move unpacking &amp; setup</td><td class="no">&mdash;</td><td class="yes">&#10003;</td><td class="yes">White-glove</td><td class="yes">White-glove</td></tr>
+          <tr class="grp"><td colspan="5">Property &amp; legal</td></tr>
           <tr><td class="feat">Chauffeur-driven viewings</td><td class="no">&mdash;</td><td class="no">&mdash;</td><td class="yes">&#10003;</td><td class="yes">&#10003;</td></tr>
           <tr><td class="feat">Estate agent liaison</td><td class="no">&mdash;</td><td class="no">&mdash;</td><td class="yes">&#10003;</td><td class="yes">&#10003;</td></tr>
           <tr><td class="feat">Solicitor coordination</td><td class="no">&mdash;</td><td class="no">&mdash;</td><td class="yes">&#10003;</td><td class="yes">&#10003;</td></tr>
           <tr><td class="feat">Storage (up to 6 weeks)</td><td class="no">&mdash;</td><td class="no">&mdash;</td><td class="yes">&#10003;</td><td class="yes">&#10003;</td></tr>
+          <tr class="grp"><td colspan="5">Concierge &amp; ongoing support</td></tr>
           <tr><td class="feat">Personal lifestyle concierge</td><td class="no">&mdash;</td><td class="no">&mdash;</td><td class="no">&mdash;</td><td class="yes">&#10003;</td></tr>
           <tr><td class="feat">Interior designer consultation</td><td class="no">&mdash;</td><td class="no">&mdash;</td><td class="no">&mdash;</td><td class="yes">&#10003;</td></tr>
           <tr><td class="feat">Ongoing post-move concierge (3 months)</td><td class="no">&mdash;</td><td class="no">&mdash;</td><td class="no">&mdash;</td><td class="yes">&#10003;</td></tr>
@@ -269,31 +348,62 @@ footScripts: |
       </table>
       <p class="compare-note">Not sure which level of support you need? A <a href="/discovery/">Discovery Consultation</a> (from &pound;150) is a standalone assessment that helps you choose &mdash; it isn&rsquo;t one of the four tiers above.</p>
     </div>
-    <div class="compare-wrap" style="margin-top:50px">
-      <h2 style="font-family:'Playfair Display',serif;font-size:28px;color:var(--ink);text-align:center;margin:0 0 10px">Who each package is for</h2>
-      <p style="text-align:center;max-width:640px;margin:0 auto 26px;color:var(--grey-mid);font-size:17px">What each package is built for, what it does not cover, and what to do next.</p>
-      <table class="pkg-compare">
-        <thead>
-          <tr><th>Package</th><th>Best suited to</th><th>Not included</th><th>Next step</th></tr>
-        </thead>
-        <tbody>
-          <tr><td class="feat"><a href="/discovery/">Discovery Consultation</a><br>&pound;{{ (site.packages | findByKey("discovery")).price | gbp }}</td><td>Anyone unsure what help they need, or how a move would work, before committing.</td><td>No packing, removals or moving services. It produces a plan, timeline and budget.</td><td><a href="/discovery/">Book a consultation</a></td></tr>
-          <tr><td class="feat"><a href="/bronze-essentials/">Bronze Essentials</a><br>from &pound;{{ (site.packages | findByKey("bronze")).price | gbp }}</td><td>A straightforward move where the destination is already confirmed and you mainly need the physical move handled.</td><td>Sorting and declutter help, staging, utility transfers, deep clean (light clean only), unpacking and setup, viewings, agent and solicitor coordination, storage.</td><td><a href="/bronze-essentials/">See Bronze Essentials</a></td></tr>
-          <tr><td class="feat"><a href="/silver-comfort/">Silver Comfort</a><br>from &pound;{{ (site.packages | findByKey("silver")).price | gbp }}</td><td>A managed move where you want help sorting and preparing the home, with one coordinator running the whole process.</td><td>Chauffeur-driven viewings, estate agent liaison, solicitor coordination, storage, white-glove unpacking.</td><td><a href="/silver-comfort/">See Silver Comfort</a></td></tr>
-          <tr><td class="feat"><a href="/gold-prestige/">Gold Prestige</a><br>from &pound;{{ (site.packages | findByKey("gold")).price | gbp }}</td><td>A move that also involves finding a home, selling the current one, or coordinating the legal side.</td><td>Personal lifestyle concierge, interior designer consultation, new-area orientation, post-move concierge support.</td><td><a href="/gold-prestige/">See Gold Prestige</a></td></tr>
-          <tr><td class="feat"><a href="/platinum-bespoke/">Platinum Bespoke</a><br>from &pound;{{ (site.packages | findByKey("platinum")).price | gbp }}</td><td>A complex or high-support move where the scope is agreed individually, with support continuing after the move.</td><td>Scope is agreed with your coordinator. Chayce does not give legal, financial or medical advice.</td><td><a href="/platinum-bespoke/">See Platinum Bespoke</a></td></tr>
-        </tbody>
-      </table>
-    </div>
+  </div>
+</section>
 
-    <div style="max-width:760px;margin:50px auto 0;background:var(--bg-cream);border-left:3px solid var(--gold);padding:26px 30px">
+<section class="page-section" id="who-for">
+  <div class="container">
+    <div class="pkg-sec-head"><span class="pkg-eyebrow">Who it&rsquo;s for</span><h2>Who each package is for</h2><p>What each package is built for, what it does not cover, and what to do next.</p></div>
+    <div class="pkg-fit-grid">
+      <div class="pkg-fit-card">
+        <h3><a href="/discovery/">Discovery Consultation</a></h3>
+        <div class="pkg-fit-price">&pound;{{ (site.packages | findByKey("discovery")).price | gbp }}</div>
+        <h4>Best suited to</h4><p>Anyone unsure what help they need, or how a move would work, before committing.</p>
+        <h4>Not included</h4><p>No packing, removals or moving services. It produces a plan, timeline and budget.</p>
+        <a class="pkg-fit-link" href="/discovery/">Book a consultation</a>
+      </div>
+      <div class="pkg-fit-card">
+        <h3><a href="/bronze-essentials/">Bronze Essentials</a></h3>
+        <div class="pkg-fit-price">from &pound;{{ (site.packages | findByKey("bronze")).price | gbp }}</div>
+        <h4>Best suited to</h4><p>A straightforward move where the destination is already confirmed and you mainly need the physical move handled.</p>
+        <h4>Not included</h4><p>Sorting and declutter help, staging, utility transfers, deep clean (light clean only), unpacking and setup, viewings, agent and solicitor coordination, storage.</p>
+        <a class="pkg-fit-link" href="/bronze-essentials/">See Bronze Essentials</a>
+      </div>
+      <div class="pkg-fit-card">
+        <h3><a href="/silver-comfort/">Silver Comfort</a></h3>
+        <div class="pkg-fit-price">from &pound;{{ (site.packages | findByKey("silver")).price | gbp }}</div>
+        <h4>Best suited to</h4><p>A managed move where you want help sorting and preparing the home, with one coordinator running the whole process.</p>
+        <h4>Not included</h4><p>Chauffeur-driven viewings, estate agent liaison, solicitor coordination, storage, white-glove unpacking.</p>
+        <a class="pkg-fit-link" href="/silver-comfort/">See Silver Comfort</a>
+      </div>
+      <div class="pkg-fit-card">
+        <h3><a href="/gold-prestige/">Gold Prestige</a></h3>
+        <div class="pkg-fit-price">from &pound;{{ (site.packages | findByKey("gold")).price | gbp }}</div>
+        <h4>Best suited to</h4><p>A move that also involves finding a home, selling the current one, or coordinating the legal side.</p>
+        <h4>Not included</h4><p>Personal lifestyle concierge, interior designer consultation, new-area orientation, post-move concierge support.</p>
+        <a class="pkg-fit-link" href="/gold-prestige/">See Gold Prestige</a>
+      </div>
+      <div class="pkg-fit-card">
+        <h3><a href="/platinum-bespoke/">Platinum Bespoke</a></h3>
+        <div class="pkg-fit-price">from &pound;{{ (site.packages | findByKey("platinum")).price | gbp }}</div>
+        <h4>Best suited to</h4><p>A complex or high-support move where the scope is agreed individually, with support continuing after the move.</p>
+        <h4>Not included</h4><p>Scope is agreed with your coordinator. Chayce does not give legal, financial or medical advice.</p>
+        <a class="pkg-fit-link" href="/platinum-bespoke/">See Platinum Bespoke</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="pkg-band pkg-band--cream" id="example">
+  <div class="container">
+    <div class="pkg-example">
       <span style="display:inline-block;font-size:12.5px;letter-spacing:2px;text-transform:uppercase;font-weight:500;color:var(--gold-dark);margin-bottom:10px">Example scenario &middot; illustrative, not a real client</span>
       <p style="color:#555;font-size:17px;line-height:1.8;margin:0 0 12px">A couple are moving from a four-bedroom family home to a smaller bungalow and have not decided how much help they need. They begin with a Discovery Consultation (&pound;{{ (site.packages | findByKey("discovery")).price | gbp }}) to agree what the move involves. If they mainly want sorting, packing and a managed move, Silver Comfort (from &pound;{{ (site.packages | findByKey("silver")).price | gbp }}) is the package built for that; if they also need the sale and legal side coordinated, Gold Prestige (from &pound;{{ (site.packages | findByKey("gold")).price | gbp }}) adds it.</p>
       <p style="color:#555;font-size:17px;line-height:1.8;margin:0">The final price depends on the scope agreed. See genuine <a href="/case-studies/" style="color:var(--gold-dark);text-decoration:underline">client stories and examples</a> on our case studies page.</p>
     </div>
-
   </div>
 </section>
+
 
 <script>
 (function(){
@@ -393,7 +503,7 @@ footScripts: |
 </script>
 
 {% include "promise.njk" %}
-<section class="pg-faq-band">
+<section class="pg-faq-band" id="faq">
   <div class="container">
     <h2>Frequently Asked Questions</h2>
     <div class="pg-faq">

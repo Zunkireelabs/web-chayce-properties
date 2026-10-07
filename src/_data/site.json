@@ -58,8 +58,16 @@
       "url": "/platinum-bespoke"
     }
   ],
-  "openingHoursNote": "Saturday by appointment",
-  "openingHoursText": "Monday to Friday 09:00 to 17:30, Saturday by appointment",
+  "openingHoursNote": "Closed Saturday and Sunday",
+  "openingHoursText": "Monday to Friday 09:00 to 17:30, closed Saturday and Sunday",
   "whatsapp": "https://wa.me/447708925432",
-  "telephoneDisplay": "07708 925432"
+  "telephoneDisplay": "07708 925432",
+  "companiesHouseNumber": "13523724",
+  "gbpUrl": "https://share.google/Z2DQPiqlxdynZQwuL",
+  "sameAs": [
+    "https://share.google/Z2DQPiqlxdynZQwuL",
+    "https://www.yell.com/biz/chayce-properties-ltd-northampton-11058103/",
+    "https://www.brownbook.net/business/55572255/chayce-properties-ltd",
+    "https://www.hotfrog.co.uk/company/AaEVT9cfcqWPhdn2aAu_cA/chayce-properties-ltd/northampton/moving-storage"
+  ]
 }

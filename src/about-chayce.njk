@@ -184,6 +184,34 @@ headExtra: |
   .pg-faq details[open] summary::after{content:'\2212'}
   .pg-faq p{color:var(--grey-mid);font-size:17px;line-height:1.8;margin:12px 0 0}
 
+  
+  /* ===== About: client stories teaser + at a glance ===== */
+  .story-panel .moves-head.head-split{margin-bottom:34px}
+  .ab-stories-lead{max-width:1120px;margin:0 auto 34px;color:#555;font-size:17.5px;line-height:1.85}
+  .ab-stories-lead a{color:var(--gold-dark);text-decoration:underline}
+  .ab-stories{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;max-width:1120px;margin:0 auto}
+  .ab-story{position:relative;display:flex;flex-direction:column;background:#fff;border:1px solid var(--border-warm);border-top:3px solid var(--gold);padding:26px 24px 24px;text-decoration:none;transition:box-shadow .25s,transform .25s}
+  .ab-story:hover{box-shadow:0 18px 40px rgba(20,18,12,.09);transform:translateY(-3px)}
+  .ab-story b{font-family:'Poppins',sans-serif;font-weight:500;font-size:16.5px;line-height:1.5;color:var(--ink);margin:14px 0 18px;flex:1}
+  .ab-story i{font-style:normal;color:var(--gold-dark);font-size:20px}
+  .ab-pkg{align-self:flex-start;font-family:'Poppins',sans-serif;font-size:11.5px;letter-spacing:1.6px;text-transform:uppercase;font-weight:500;padding:4px 11px;border:1px solid currentColor}
+  .ab-pkg--bronze{color:#9a6a3c}.ab-pkg--silver{color:#6f7682}.ab-pkg--platinum{color:#3d4256}
+  .ab-stories-cta{text-align:center;margin:40px 0 0}
+  .ab-btn{display:inline-block;background:var(--oxblood);color:#fff;text-decoration:none;font-family:'Poppins',sans-serif;font-size:14px;font-weight:500;letter-spacing:1.5px;text-transform:uppercase;padding:15px 32px}
+  .ab-btn:hover{background:var(--oxblood-dark);color:#fff}
+  .ab-glance{padding:80px 0;background:#fff}
+  .ab-glance-card{max-width:900px;margin:0 auto;background:var(--bg-cream);border-top:3px solid var(--gold);padding:46px 52px 40px}
+  .ab-eyebrow{display:inline-block;font-size:12.5px;letter-spacing:2.5px;text-transform:uppercase;font-weight:500;color:var(--gold-dark);margin-bottom:8px}
+  .ab-glance-card h2{font-family:'Playfair Display',serif;font-size:32px;color:var(--ink);margin:0 0 26px;line-height:1.25}
+  .ab-facts{margin:0}
+  .ab-facts>div{display:grid;grid-template-columns:170px 1fr;gap:24px;padding:18px 0;border-top:1px solid var(--border-warm)}
+  .ab-facts dt{font-family:'Poppins',sans-serif;font-size:12.5px;letter-spacing:1.6px;text-transform:uppercase;font-weight:500;color:var(--gold-dark);padding-top:3px}
+  .ab-facts dd{margin:0;color:#444;font-size:16.5px;line-height:1.75}
+  .ab-facts dd a{color:var(--ink);text-decoration:underline;text-decoration-color:var(--gold)}
+  .ab-glance-more{margin:22px 0 0;padding-top:22px;border-top:1px solid var(--border-warm);color:#555;font-size:16.5px;line-height:1.8}
+  .ab-glance-more a{color:var(--gold-dark);text-decoration:underline}
+  @media(max-width:1000px){.ab-stories{grid-template-columns:repeat(2,1fr)}}
+  @media(max-width:700px){.ab-stories{grid-template-columns:1fr}.ab-glance{padding:56px 0}.ab-glance-card{padding:32px 24px 28px}.ab-glance-card h2{font-size:26px}.ab-facts>div{grid-template-columns:1fr;gap:4px;padding:16px 0}}
   </style>
   <link rel="stylesheet" href="/css/chayce-nav.css">
 footScripts: |
@@ -289,7 +317,14 @@ footScripts: |
       </div>
       <p class="intro">Chayce was founded in 2026. We share client stories with permission and withhold identifying details at the client&rsquo;s request. Anything illustrative is labelled as an example.</p>
     </div>
-    <p style="max-width:760px;margin:0 auto;color:#555;font-size:17.5px;line-height:1.85">Read what we did for clients at different levels of support, from packing and removals to finding a new home and a fully bespoke relocation, on our <a href="/case-studies/" style="color:var(--gold-dark);text-decoration:underline">case studies and examples</a> page.</p>
+    <p class="ab-stories-lead">Read what we did for clients at different levels of support, from packing and removals to finding a new home and a fully bespoke relocation, on our <a href="/case-studies/">case studies</a> page.</p>
+    <div class="ab-stories">
+      <a class="ab-story" href="/case-studies/#stories"><span class="ab-pkg ab-pkg--platinum">Platinum Bespoke</span><b>Finding a smaller home and relocating, with the children living abroad</b><i aria-hidden="true">&rarr;</i></a>
+      <a class="ab-story" href="/case-studies/#stories"><span class="ab-pkg ab-pkg--bronze">Bronze Essentials</span><b>Packing, removals and cleaning once the sale was done</b><i aria-hidden="true">&rarr;</i></a>
+      <a class="ab-story" href="/case-studies/#stories"><span class="ab-pkg ab-pkg--silver">Silver Comfort</span><b>Downsizing from a home of more than 30 years</b><i aria-hidden="true">&rarr;</i></a>
+      <a class="ab-story" href="/case-studies/#stories"><span class="ab-pkg ab-pkg--platinum">Platinum Bespoke</span><b>A family arranging a long-established home move with full support</b><i aria-hidden="true">&rarr;</i></a>
+    </div>
+    <p class="ab-stories-cta"><a href="/case-studies/" class="ab-btn">Read all case studies</a></p>
   </div>
 </section>
 
@@ -343,18 +378,21 @@ footScripts: |
   </div>
 </section>
 
-<section style="padding:70px 0">
-  <div class="container" style="max-width:760px">
-    <h2 style="font-family:'Playfair Display',serif;font-size:30px;margin:0 0 22px;line-height:1.3">Chayce Properties at a glance</h2>
-    <ul style="list-style:none;padding:0;margin:0;color:#555;font-size:17px;line-height:1.9">
-      <li>What we do: later-life moving and downsizing for older people and their families, including sorting, packing, removals, estate agent and solicitor liaison, storage and settling in.</li>
-      <li>Where: based at Unit F2B Barratt House, Kingsthorpe Road, Northampton NN2 6EZ, serving Northamptonshire, the East Midlands and the whole UK.</li>
-      <li>Company: Chayce Properties Ltd, founded in 2026.</li>
-      <li>How it works: one dedicated coordinator for the whole move, and every removal is fully insured.</li>
-      <li>Prices: Discovery Consultation &pound;150, Bronze Essentials from &pound;995, Silver Comfort from &pound;1,850, Gold Prestige from &pound;3,250, Platinum Bespoke from &pound;6,500.</li>
-      <li>Contact: <a href="tel:+447708925432">07708 925432</a>, info@chayceproperties.com, Monday to Friday 09:00 to 17:30 (Saturday by appointment).</li>
-    </ul>
-    <p style="margin-top:22px;color:#555;font-size:17px;line-height:1.8">More answers are in our <a href="/senior-moving-faq/">senior moving FAQ</a>, and you can compare every option on the <a href="/packages/">packages page</a>.</p>
+<section class="ab-glance">
+  <div class="container">
+    <div class="ab-glance-card">
+      <span class="ab-eyebrow">The essentials</span>
+      <h2>Chayce Properties at a glance</h2>
+      <dl class="ab-facts">
+        <div><dt>What we do</dt><dd>Later-life moving and downsizing for older people and their families, including sorting, packing, removals, estate agent and solicitor liaison, storage and settling in.</dd></div>
+        <div><dt>Where</dt><dd>Based at Unit F2B Barratt House, Kingsthorpe Road, Northampton NN2&nbsp;6EZ, serving Northamptonshire, the East Midlands and the whole UK.</dd></div>
+        <div><dt>Company</dt><dd>Chayce Properties Ltd, founded in 2026.</dd></div>
+        <div><dt>How it works</dt><dd>One dedicated coordinator for the whole move, and every removal is fully insured.</dd></div>
+        <div><dt>Prices</dt><dd>Discovery Consultation &pound;150, Bronze Essentials from &pound;995, Silver Comfort from &pound;1,850, Gold Prestige from &pound;3,250, Platinum Bespoke from &pound;6,500.</dd></div>
+        <div><dt>Contact</dt><dd><a href="tel:+447708925432">07708 925432</a>, info@chayceproperties.com, Monday to Friday 09:00 to 17:30 (closed Saturday and Sunday).</dd></div>
+      </dl>
+      <p class="ab-glance-more">More answers are in our <a href="/senior-moving-faq/">senior moving FAQ</a>, and you can compare every option on the <a href="/packages/">packages page</a>.</p>
+    </div>
   </div>
 </section>
 

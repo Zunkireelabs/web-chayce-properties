@@ -11,7 +11,7 @@ Paste these exactly. Do not reformat the name, address or phone on any site.
 - Phone: 07708 925432
 - Email: info@chayceproperties.com
 - Website: https://chayceproperties.com/
-- Opening hours: Mon to Fri 09:00 to 17:30. Saturday by appointment. Sunday closed.
+- Opening hours: Mon to Fri 09:00 to 17:30. Closed Saturday and Sunday.
 - Year founded: 2026
 - Service area: Northampton, Northamptonshire, East Midlands and the whole UK
 
@@ -61,6 +61,10 @@ Thank you for trusting us with your move. If you were happy with our service, a 
 ## Log
 | Listing | URL | Date live | Verified |
 |---|---|---|---|
+| Google Business Profile | https://share.google/Z2DQPiqlxdynZQwuL | 2026-10-07 | |
+| Yell | https://www.yell.com/biz/chayce-properties-ltd-northampton-11058103/ | 2026-10-07 | |
+| Brownbook | https://www.brownbook.net/business/55572255/chayce-properties-ltd | 2026-10-07 | Claimed |
+| Hotfrog | https://www.hotfrog.co.uk/company/AaEVT9cfcqWPhdn2aAu_cA/chayce-properties-ltd/northampton/moving-storage | 2026-10-07 | Claimed |
 
 ## Senior move manager description (for later-life directories)
 Chayce Properties is a Northampton-based senior move manager serving the whole UK. One dedicated coordinator plans and manages the move: sorting and decluttering, packing, a fully insured removal, estate agent and solicitor liaison, and settling in. Our own vetted team delivers every service, package prices are published on our website, and packages start at 995 pounds. Call or WhatsApp 07708 925432.
