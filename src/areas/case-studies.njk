@@ -1,164 +1,277 @@
 ---
 modified: "2026-10-04"
 title: "Senior Move & Downsizing Case Studies UK | Chayce"
-description: "Anonymised UK senior move and downsizing client stories, client feedback and example scenarios from Chayce Properties, clearly labelled."
+description: "Anonymised UK senior move and downsizing client stories and client feedback from Chayce Properties, clearly labelled."
 permalink: "/case-studies/"
 activeKey: "about-chayce"
 ---
 <style>
-.cs-intro{max-width:760px;margin:0 auto;text-align:left}
-.cs-intro p{color:#555;font-size:17px;line-height:1.85;margin:0 0 16px}
-.cs-key{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px;max-width:900px;margin:30px auto 0}
-.cs-key div{background:#fff;border:1px solid var(--border-light);padding:20px 22px}
-.cs-key b{display:block;font-family:'Poppins',sans-serif;font-weight:500;font-size:15px;color:var(--ink);margin-bottom:6px}
-.cs-key span{color:var(--grey-mid);font-size:15px;line-height:1.7}
-.cs-block{max-width:820px;margin:0 auto}
-.cs-block>h2{font-family:'Playfair Display',serif;font-size:28px;color:var(--ink);margin:0 0 10px;line-height:1.3}
-.cs-block>.cs-lede{color:#555;font-size:17px;line-height:1.8;margin:0 0 30px}
-.cs-card{background:#fff;border:1px solid var(--border-light);padding:34px 36px;margin:0 0 26px}
-.cs-card h3{font-family:'Poppins',sans-serif;font-weight:500;font-size:20px;color:var(--ink);margin:0 0 4px}
-.cs-card .cs-meta{display:block;color:var(--gold-dark);font-size:13px;letter-spacing:1.5px;text-transform:uppercase;font-weight:500;margin:0 0 20px}
-.cs-card .cs-field{margin:0 0 16px}
-.cs-card .cs-field b{display:block;font-size:13px;letter-spacing:1.5px;text-transform:uppercase;color:var(--gold-dark);font-weight:500;margin-bottom:4px}
-.cs-card .cs-field span{color:#555;font-size:17px;line-height:1.8}
-.cs-card .cs-field a{color:var(--gold-dark)}
-.cs-card .cs-privacy{margin:22px 0 0;padding-top:16px;border-top:1px solid var(--border-light);color:var(--grey-light);font-size:14px;line-height:1.6}
-.cs-card blockquote{margin:0 0 14px;padding:0;border:0}
-.cs-card blockquote p{color:#444;font-size:18px;line-height:1.85;font-style:italic;margin:0}
-.cs-card .cs-from{color:var(--ink);font-weight:500;font-size:15px}
-.cs-card .cs-from a{color:var(--gold-dark)}
-.cs-sit{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px}
-.cs-sit a{display:block;background:#fff;border:1px solid var(--border-light);padding:22px 24px;text-decoration:none}
-.cs-sit a b{display:block;font-family:'Poppins',sans-serif;font-weight:500;font-size:16px;color:var(--ink);margin-bottom:6px}
-.cs-sit a span{display:block;color:var(--grey-mid);font-size:15px;line-height:1.7}
-.cs-sit a:hover{border-color:var(--gold)}
-.cs-example{background:var(--bg-cream);border-left:3px solid var(--gold);padding:26px 30px}
-.cs-example .cs-tag{display:inline-block;font-size:12.5px;letter-spacing:2px;text-transform:uppercase;font-weight:500;color:var(--gold-dark);margin-bottom:10px}
-.cs-example p{color:#555;font-size:17px;line-height:1.8;margin:0 0 12px}
-.cs-example p:last-child{margin-bottom:0}
-@media(max-width:600px){.cs-card{padding:26px 22px}}
+html{scroll-behavior:smooth}
+.csx-jump{background:#fff;border-bottom:1px solid var(--border-warm)}
+.csx-jump .container{display:flex;gap:6px;flex-wrap:wrap;justify-content:center;padding-top:14px;padding-bottom:14px}
+.csx-jump a{font-family:'Poppins',sans-serif;font-size:14px;letter-spacing:.5px;color:var(--slate);text-decoration:none;padding:7px 18px;border:1px solid var(--border-warm);border-radius:999px;transition:.2s}
+.csx-jump a:hover{background:var(--ink);border-color:var(--ink);color:#fff}
+#stories,#feedback,#situations{scroll-margin-top:20px}
+/* intro + legend (open strip, no boxes) */
+.csx-intro{padding:64px 0 56px;background:#fff}
+.csx-intro-lead{max-width:760px;margin:0 auto 40px;text-align:center;color:#555;font-size:18px;line-height:1.85}
+.csx-legend{display:grid;grid-template-columns:repeat(2,1fr);max-width:760px;margin:0 auto;border-top:1px solid var(--border-warm);border-bottom:1px solid var(--border-warm)}
+.csx-legend>div{padding:26px 30px;border-right:1px solid var(--border-warm)}
+.csx-legend>div:last-child{border-right:none}
+.csx-legend p{margin:12px 0 0;color:var(--grey-mid);font-size:15.5px;line-height:1.7}
+.csx-tag{display:inline-block;font-family:'Poppins',sans-serif;font-size:12px;letter-spacing:1.6px;text-transform:uppercase;font-weight:500;color:#fff;background:var(--ink);padding:5px 12px}
+.csx-tag--fb{background:var(--gold-dark)}
+/* section scaffolding */
+.csx-band{padding:90px 0;background:#fff}
+.csx-band--cool{background:var(--bg-cool)}
+.csx-sec-head{max-width:720px;margin:0 auto 56px;text-align:center}
+.csx-eyebrow{display:inline-block;font-size:12.5px;letter-spacing:2.5px;text-transform:uppercase;font-weight:500;color:var(--gold-dark);margin-bottom:10px}
+.csx-sec-head h2{font-family:'Playfair Display',serif;font-size:36px;color:var(--ink);margin:0 0 12px;line-height:1.25}
+.csx-sec-head p{margin:0;color:var(--grey-mid);font-size:17px;line-height:1.75}
+/* stories: editorial, left rail + narrative */
+.csx-num{display:block;font-family:'Playfair Display',serif;font-size:96px;line-height:.95;color:var(--gold);opacity:.7;margin-bottom:24px}
+.csx-chips{display:flex;flex-direction:column;align-items:flex-start;gap:8px;margin-bottom:22px}
+.csx-pkg{font-family:'Poppins',sans-serif;font-size:12px;letter-spacing:1.6px;text-transform:uppercase;font-weight:500;padding:4px 12px;border:1px solid currentColor}
+.csx-pkg--bronze{color:#9a6a3c}
+.csx-pkg--silver{color:#6f7682}
+.csx-pkg--gold{color:var(--gold-dark)}
+.csx-pkg--platinum{color:#3d4256}
+.csx-svc a{color:var(--oxblood);font-weight:500;text-decoration:none;border-bottom:1px solid currentColor}
+.csx-svc a:hover{color:var(--ink)}
+/* stories: one band per story, sticky panel like /services/ */
+.csx-band--head{padding-bottom:30px}
+.csx-story{padding:72px 0;background:#fff}
+.csx-story--alt{background:var(--bg-warm)}
+.csx-story-in{display:flex;align-items:flex-start;gap:80px}
+.csx-media{flex:0 0 26%;position:sticky;top:110px}
+.csx-media-in{display:flex;flex-direction:column}
+.csx-media-foot{margin-top:30px;padding-top:22px;border-top:1px solid var(--border-warm)}
+.csx-media-foot .csx-svc{margin:0 0 8px;font-size:14.5px;color:var(--grey-light)}
+.csx-media-foot .csx-priv{margin:0;font-size:13px;line-height:1.6;color:var(--grey-light)}
+.csx-main{flex:1 1 66%;min-width:0}
+.csx-main h3{font-family:'Playfair Display',serif;font-weight:400;font-size:32px;line-height:1.3;color:var(--ink);margin:0 0 30px}
+.csx-rows{margin:0 0 44px}
+.csx-row{display:grid;grid-template-columns:150px 1fr;gap:24px;align-items:start;padding:38px 0;min-height:clamp(150px,21vh,250px);border-top:1px solid var(--border-light)}
+.csx-row:last-child{border-bottom:1px solid var(--border-light)}
+.csx-row b{font-family:'Poppins',sans-serif;font-size:12.5px;letter-spacing:1.6px;text-transform:uppercase;font-weight:500;color:var(--gold-dark);padding-top:4px}
+.csx-row p{margin:0;color:#555;font-size:18px;line-height:1.85}
+.csx-outcome{border-left:3px solid var(--gold);padding:4px 0 4px 26px}
+.csx-outcome b{display:block;font-family:'Poppins',sans-serif;font-size:12.5px;letter-spacing:1.6px;text-transform:uppercase;font-weight:500;color:var(--gold-dark);margin-bottom:8px}
+.csx-outcome p{margin:0;color:var(--ink);font-size:20px;line-height:1.7}
+/* feedback: editorial pull-quotes on a dark band */
+.csx-band--dark{background:var(--ink);color:#fff;padding:100px 0}
+.csx-band--dark .csx-eyebrow{color:var(--gold-light)}
+.csx-sec-head--left{max-width:1040px;text-align:left;margin:0 auto 64px}
+.csx-sec-head--left h2{color:#fff}
+.csx-sec-head--left p{color:#b9bcc8}
+.csx-quotes{max-width:1040px;margin:0 auto;border-bottom:1px solid rgba(255,255,255,.14)}
+.csx-q{margin:0;display:grid;grid-template-columns:1.15fr 1fr;gap:72px;align-items:start;padding:64px 0;border-top:1px solid rgba(255,255,255,.14)}
+.csx-pull{position:relative;margin:0;font-family:'Playfair Display',serif;font-size:36px;line-height:1.3;font-weight:400;color:#fff;padding-left:0}
+.csx-pull::before{content:'\201C';position:absolute;left:-.62em;top:-.06em;font-size:1.5em;line-height:1;color:var(--gold-light)}
+.csx-qbody{padding-top:6px}
+.csx-q blockquote{margin:0 0 24px;padding:0;border:0}
+.csx-q blockquote p{margin:0;font-family:'Poppins',sans-serif;font-style:normal;font-weight:300;font-size:16px;line-height:1.95;color:#c9ccd6}
+.csx-q figcaption{display:flex;align-items:center;gap:14px;font-family:'Poppins',sans-serif;font-size:13.5px;letter-spacing:.4px;color:#9a9eae}
+.csx-q figcaption::before{content:'';flex:0 0 28px;height:1px;background:var(--gold-light)}
+.csx-q figcaption a{color:var(--gold-light);font-weight:500;text-decoration:none;border-bottom:1px solid rgba(216,184,120,.45)}
+.csx-q figcaption a:hover{color:#fff;border-color:#fff}
+/* situations: link rows */
+.csx-sit{max-width:900px;margin:0 auto;border-bottom:1px solid var(--border-warm)}
+.csx-sit a{position:relative;display:grid;grid-template-columns:1fr 1.2fr 24px;align-items:center;gap:32px;padding:26px 6px;border-top:1px solid var(--border-warm);text-decoration:none;transition:padding .25s,background .25s}
+.csx-sit a:hover{padding-left:20px;background:rgba(255,255,255,.7)}
+.csx-sit b{font-family:'Poppins',sans-serif;font-weight:500;font-size:18px;line-height:1.4;color:var(--ink)}
+.csx-sit span{color:var(--grey-mid);font-size:15.5px;line-height:1.7}
+.csx-arrow{font-style:normal;color:var(--gold-dark);font-size:22px;text-align:right}
+@media(max-width:900px){
+  .csx-story{padding:52px 0}
+  .csx-story-in{flex-direction:column;gap:28px}
+  .csx-media{position:static;flex:none;width:100%}
+  .csx-media-in{flex-direction:row;flex-wrap:wrap;align-items:center;gap:10px 18px}
+  .csx-num{font-size:48px;margin:0}
+  .csx-chips{flex-direction:row;flex-wrap:wrap;margin:0}
+  .csx-media-foot{flex:1 1 100%;margin:6px 0 0;padding-top:14px}
+  .csx-q{grid-template-columns:1fr;gap:26px;padding:48px 0}
+  .csx-pull{font-size:28px;padding-left:.7em}
+  .csx-pull::before{left:0}
+  .csx-legend{grid-template-columns:1fr;max-width:560px}
+  .csx-legend>div{border-right:none;border-bottom:1px solid var(--border-warm)}
+  .csx-legend>div:last-child{border-bottom:none}
+  .csx-row{grid-template-columns:1fr;gap:6px;min-height:0;padding:22px 0}
+}
+@media(max-width:700px){
+  .csx-band--dark{padding:64px 0}
+  .csx-pull{font-size:24px}
+  .csx-band{padding:60px 0}
+  .csx-sec-head{margin-bottom:38px}
+  .csx-sec-head h2{font-size:28px}
+  .csx-main h3{font-size:25px}
+  .csx-outcome p{font-size:18px}
+  .csx-sit a{grid-template-columns:1fr 24px;gap:6px 16px}
+  .csx-sit a span{grid-column:1}
+  .csx-sit .csx-arrow{grid-row:1/3;grid-column:2}
+  .csx-jump .container{justify-content:flex-start;overflow-x:auto;flex-wrap:nowrap}
+  .csx-jump a{white-space:nowrap}
+}
 </style>
 
 <div class="page-hero--region" style="background-image:url({% imageUrl "chayce-hero1.jpg" %});{% imageSet "chayce-hero1.jpg" %};background-size:cover;background-position:center;">
   <div class="container">
-    <p class="breadcrumb"><a href="/">Home</a> / <a href="/about-chayce/">About</a> / <em>Case Studies &amp; Examples</em></p>
-    <h1>Case Studies <em>&amp; Examples</em></h1>
-    <p class="sub">What we have actually done, and what a typical move can look like</p>
+    <p class="breadcrumb"><a href="/">Home</a> / <a href="/about-chayce/">About</a> / <em>Case Studies</em></p>
+    <h1>Case <em>Studies</em></h1>
+    <p class="sub">What we have actually done for our clients</p>
   </div>
 </div>
 
-<section class="page-section">
+<nav class="csx-jump" aria-label="On this page"><div class="container"><a href="#stories">Client stories</a><a href="#feedback">Client feedback</a><a href="#situations">Situations</a></div></nav>
+<section class="csx-intro">
   <div class="container">
-    <div class="cs-intro">
-      <p>Chayce Properties was founded in 2026, so this page is short and we want it to stay honest. Each item below is labelled by what it is, so you can tell client experience from illustration.</p>
-      <div class="cs-key">
-        <div><b>Client story</b><span>A move Chayce coordinated. Shared with the client&rsquo;s permission; identifying details withheld at their request.</span></div>
-        <div><b>Client feedback</b><span>A comment from a client, in their words, shared with permission.</span></div>
-        <div><b>Example scenario</b><span>An illustration of how a move can work. Not a description of a specific client.</span></div>
-      </div>
+    <p class="csx-intro-lead">Chayce Properties was founded in 2026, so this page is short and we want it to stay honest. Each item below is labelled by what it is.</p>
+    <div class="csx-legend">
+      <div><span class="csx-tag">Client story</span><p>A move Chayce coordinated. Shared with the client&rsquo;s permission; identifying details withheld at their request.</p></div>
+      <div><span class="csx-tag csx-tag--fb">Client feedback</span><p>A comment from a client, in their words, shared with permission.</p></div>
     </div>
   </div>
 </section>
 
-<section class="page-section grey">
+<section class="csx-band csx-band--head" id="stories">
   <div class="container">
-    <div class="cs-block">
-      <h2>Client stories</h2>
-      <p class="cs-lede">Moves Chayce coordinated, from packing and removals to a full relocation including finding the new home.</p>
+    <div class="csx-sec-head"><span class="csx-eyebrow">Client stories</span><h2>Moves we coordinated</h2><p>Moves Chayce coordinated, from packing and removals to a full relocation including finding the new home.</p></div>
+  </div>
+</section>
 
-      <div class="cs-card">
-        <h3>Finding a smaller home and relocating, with the children living abroad</h3>
-        <span class="cs-meta">Client story &middot; Platinum Bespoke</span>
-        <div class="cs-field"><b>Situation</b><span>Henry and Sofia were getting older and living in a large house that had become more than they needed. Their children had moved to another country, so there was no family nearby to help with a move.</span></div>
-        <div class="cs-field"><b>What they needed</b><span>Help with the whole move, starting with finding a smaller, more manageable home.</span></div>
-        <div class="cs-field"><b>How Chayce helped</b><span>They contacted Chayce, which helped them find a smaller home and then coordinated the full relocation under the Platinum Bespoke package.</span></div>
-        <div class="cs-field"><b>Outcome</b><span>After the move, the couple were happy in their new home and wanted to stay.</span></div>
-        <div class="cs-field"><b>Service</b><span><a href="/platinum-bespoke/">Platinum Bespoke</a></span></div>
-        <p class="cs-privacy">Client identity withheld at their request.</p>
+<section class="csx-story" id="story-1">
+  <div class="container csx-story-in">
+    <aside class="csx-media">
+      <div class="csx-media-in">
+        <span class="csx-num" aria-hidden="true">01</span>
+        <div class="csx-chips"><span class="csx-tag">Client story</span><span class="csx-pkg csx-pkg--platinum">Platinum Bespoke</span></div>
+        <div class="csx-media-foot">
+          <p class="csx-svc">Service: <a href="/platinum-bespoke/">Platinum Bespoke</a></p>
+          <p class="csx-priv">Client identity withheld at their request.</p>
+        </div>
       </div>
+    </aside>
+    <div class="csx-main">
+          <h3>Finding a smaller home and relocating, with the children living abroad</h3>
+          <div class="csx-rows">
+          <div class="csx-row"><b>Situation</b><p>Henry and Sofia were getting older and living in a large house that had become more than they needed. Their children had moved to another country, so there was no family nearby to help with a move.</p></div>
+          <div class="csx-row"><b>What they needed</b><p>Help with the whole move, starting with finding a smaller, more manageable home.</p></div>
+          <div class="csx-row"><b>How Chayce helped</b><p>They contacted Chayce, which helped them find a smaller home and then coordinated the full relocation under the Platinum Bespoke package.</p></div>
+          </div>
+          <div class="csx-outcome"><b>Outcome</b><p>After the move, the couple were happy in their new home and wanted to stay.</p></div>
+        </div>
+  </div>
+</section>
 
-      <div class="cs-card">
-        <h3>Packing, removals and cleaning once the sale was done</h3>
-        <span class="cs-meta">Client story &middot; Bronze Essentials</span>
-        <div class="cs-field"><b>Situation</b><span>Margaret had already sold her home and secured her new property, but the thought of packing, coordinating removals and leaving the house clean was becoming overwhelming.</span></div>
-        <div class="cs-field"><b>What she needed</b><span>She did not need someone to manage the sale or find her a property. She wanted the physical move handled properly.</span></div>
-        <div class="cs-field"><b>How Chayce helped</b><span>Chayce organised the packing, removals and cleaning, taking the physical workload away and leaving her free to focus on the move itself.</span></div>
-        <div class="cs-field"><b>Outcome</b><span>Margaret could move into her new home without spending weeks dealing with boxes, lifting furniture or coordinating several different providers.</span></div>
-        <div class="cs-field"><b>Service</b><span><a href="/bronze-essentials/">Bronze Essentials</a></span></div>
-        <p class="cs-privacy">Client identity withheld at their request.</p>
+<section class="csx-story csx-story--alt" id="story-2">
+  <div class="container csx-story-in">
+    <aside class="csx-media">
+      <div class="csx-media-in">
+        <span class="csx-num" aria-hidden="true">02</span>
+        <div class="csx-chips"><span class="csx-tag">Client story</span><span class="csx-pkg csx-pkg--bronze">Bronze Essentials</span></div>
+        <div class="csx-media-foot">
+          <p class="csx-svc">Service: <a href="/bronze-essentials/">Bronze Essentials</a></p>
+          <p class="csx-priv">Client identity withheld at their request.</p>
+        </div>
       </div>
+    </aside>
+    <div class="csx-main">
+          <h3>Packing, removals and cleaning once the sale was done</h3>
+          <div class="csx-rows">
+          <div class="csx-row"><b>Situation</b><p>Margaret had already sold her home and secured her new property, but the thought of packing, coordinating removals and leaving the house clean was becoming overwhelming.</p></div>
+          <div class="csx-row"><b>What she needed</b><p>She did not need someone to manage the sale or find her a property. She wanted the physical move handled properly.</p></div>
+          <div class="csx-row"><b>How Chayce helped</b><p>Chayce organised the packing, removals and cleaning, taking the physical workload away and leaving her free to focus on the move itself.</p></div>
+          </div>
+          <div class="csx-outcome"><b>Outcome</b><p>Margaret could move into her new home without spending weeks dealing with boxes, lifting furniture or coordinating several different providers.</p></div>
+        </div>
+  </div>
+</section>
 
-      <div class="cs-card">
-        <h3>Downsizing from a home of more than 30 years</h3>
-        <span class="cs-meta">Client story &middot; Silver Comfort</span>
-        <div class="cs-field"><b>Situation</b><span>David and Anne were downsizing from the family home they had lived in for more than 30 years. They had already decided where they were moving, but the number of things that needed organising quickly became too much.</span></div>
-        <div class="cs-field"><b>What they needed</b><span>Someone to take responsibility for the moving process rather than simply provide a removal van.</span></div>
-        <div class="cs-field"><b>How Chayce helped</b><span>Their coordinator managed the packing, removals, cleaning, utility transfers and the practical details around moving day.</span></div>
-        <div class="cs-field"><b>Outcome</b><span>Instead of coordinating several companies themselves, they had one person overseeing the move from preparation through to arrival.</span></div>
-        <div class="cs-field"><b>Service</b><span><a href="/silver-comfort/">Silver Comfort</a></span></div>
-        <p class="cs-privacy">Client identity withheld at their request.</p>
+<section class="csx-story" id="story-3">
+  <div class="container csx-story-in">
+    <aside class="csx-media">
+      <div class="csx-media-in">
+        <span class="csx-num" aria-hidden="true">03</span>
+        <div class="csx-chips"><span class="csx-tag">Client story</span><span class="csx-pkg csx-pkg--silver">Silver Comfort</span></div>
+        <div class="csx-media-foot">
+          <p class="csx-svc">Service: <a href="/silver-comfort/">Silver Comfort</a></p>
+          <p class="csx-priv">Client identity withheld at their request.</p>
+        </div>
       </div>
+    </aside>
+    <div class="csx-main">
+          <h3>Downsizing from a home of more than 30 years</h3>
+          <div class="csx-rows">
+          <div class="csx-row"><b>Situation</b><p>David and Anne were downsizing from the family home they had lived in for more than 30 years. They had already decided where they were moving, but the number of things that needed organising quickly became too much.</p></div>
+          <div class="csx-row"><b>What they needed</b><p>Someone to take responsibility for the moving process rather than simply provide a removal van.</p></div>
+          <div class="csx-row"><b>How Chayce helped</b><p>Their coordinator managed the packing, removals, cleaning, utility transfers and the practical details around moving day.</p></div>
+          </div>
+          <div class="csx-outcome"><b>Outcome</b><p>Instead of coordinating several companies themselves, they had one person overseeing the move from preparation through to arrival.</p></div>
+        </div>
+  </div>
+</section>
 
-      <div class="cs-card">
-        <h3>A family arranging a long-established home move with full support</h3>
-        <span class="cs-meta">Client story &middot; Platinum Bespoke</span>
-        <div class="cs-field"><b>Situation</b><span>Robert&rsquo;s family wanted to make his move as easy as possible. He was leaving a long-established family home, had a large amount of belongings to sort through and needed considerable support before, during and after the move.</span></div>
-        <div class="cs-field"><b>What the family needed</b><span>They were not looking for individual services. They wanted one team to coordinate the entire transition.</span></div>
-        <div class="cs-field"><b>How Chayce helped</b><span>Chayce created a bespoke plan covering preparation of the home, sorting, packing, relocation, cleaning, setup and ongoing support after the move.</span></div>
-        <div class="cs-field"><b>Outcome</b><span>The family had a single team coordinating the transition, while Robert could focus on settling into his new home rather than managing the logistics.</span></div>
-        <div class="cs-field"><b>Service</b><span><a href="/platinum-bespoke/">Platinum Bespoke</a></span></div>
-        <p class="cs-privacy">Client identity withheld at their request.</p>
+<section class="csx-story csx-story--alt" id="story-4">
+  <div class="container csx-story-in">
+    <aside class="csx-media">
+      <div class="csx-media-in">
+        <span class="csx-num" aria-hidden="true">04</span>
+        <div class="csx-chips"><span class="csx-tag">Client story</span><span class="csx-pkg csx-pkg--platinum">Platinum Bespoke</span></div>
+        <div class="csx-media-foot">
+          <p class="csx-svc">Service: <a href="/platinum-bespoke/">Platinum Bespoke</a></p>
+          <p class="csx-priv">Client identity withheld at their request.</p>
+        </div>
       </div>
+    </aside>
+    <div class="csx-main">
+          <h3>A family arranging a long-established home move with full support</h3>
+          <div class="csx-rows">
+          <div class="csx-row"><b>Situation</b><p>Robert&rsquo;s family wanted to make his move as easy as possible. He was leaving a long-established family home, had a large amount of belongings to sort through and needed considerable support before, during and after the move.</p></div>
+          <div class="csx-row"><b>What the family needed</b><p>They were not looking for individual services. They wanted one team to coordinate the entire transition.</p></div>
+          <div class="csx-row"><b>How Chayce helped</b><p>Chayce created a bespoke plan covering preparation of the home, sorting, packing, relocation, cleaning, setup and ongoing support after the move.</p></div>
+          </div>
+          <div class="csx-outcome"><b>Outcome</b><p>The family had a single team coordinating the transition, while Robert could focus on settling into his new home rather than managing the logistics.</p></div>
+        </div>
+  </div>
+</section>
+
+<section class="csx-band csx-band--dark" id="feedback">
+  <div class="container">
+    <div class="csx-sec-head csx-sec-head--left"><span class="csx-eyebrow">Client feedback</span><h2>In their own words</h2><p>Comments shared with permission.</p></div>
+    <div class="csx-quotes">
+      <figure class="csx-q">
+        <p class="csx-pull">That made the whole process feel much more manageable.</p>
+        <div class="csx-qbody">
+          <blockquote><p>&ldquo;We had lived in the same house for more than three decades, so the thought of deciding what came with us was much harder than we expected. It wasn't really about packing boxes &mdash; it was deciding what to keep, what to pass on and what we could finally let go of. Chayce helped us create a realistic plan around the move, rather than trying to do everything at once. That made the whole process feel much more manageable.&rdquo;</p></blockquote>
+          <figcaption>Silver Comfort clients &middot; <a href="/silver-comfort/">Silver Comfort</a></figcaption>
+        </div>
+      </figure>
+      <figure class="csx-q">
+        <p class="csx-pull">For the first time, everyone knew what was happening and when.</p>
+        <div class="csx-qbody">
+          <blockquote><p>&ldquo;My brother and I live in different parts of the country, while Mum was still living alone in the family home. We knew a move would eventually make sense, but coordinating everything from a distance felt impossible. Chayce helped us break the process into manageable stages, from preparing the house to planning the move itself. For the first time, everyone knew what was happening and when.&rdquo;</p></blockquote>
+          <figcaption>A Gold Prestige family &middot; <a href="/gold-prestige/">Gold Prestige</a></figcaption>
+        </div>
+      </figure>
+      <figure class="csx-q">
+        <p class="csx-pull">Rather than rushing into a decision, we came away with a clearer picture of what the next chapter could look like.</p>
+        <div class="csx-qbody">
+          <blockquote><p>&ldquo;After so many years in the same house, we knew the next move would be different, but we hadn't worked out exactly what we wanted from it. We used our consultation to talk through the type of home we were looking for, what we actually used in our current house and what the move would involve. Rather than rushing into a decision, we came away with a clearer picture of what the next chapter could look like.&rdquo;</p></blockquote>
+          <figcaption>A Discovery client &middot; <a href="/discovery/">Discovery Consultation</a></figcaption>
+        </div>
+      </figure>
     </div>
   </div>
 </section>
 
-<section class="page-section">
+<section class="csx-band csx-band--cool" id="situations">
   <div class="container">
-    <div class="cs-block">
-      <h2>Client feedback</h2>
-      <p class="cs-lede">Comments shared with permission.</p>
-
-      <div class="cs-card">
-        <blockquote><p>&ldquo;We had lived in the same house for more than three decades, so the thought of deciding what came with us was much harder than we expected. It wasn't really about packing boxes &mdash; it was deciding what to keep, what to pass on and what we could finally let go of. Chayce helped us create a realistic plan around the move, rather than trying to do everything at once. That made the whole process feel much more manageable.&rdquo;</p></blockquote>
-        <span class="cs-from">Silver Comfort clients &middot; <a href="/silver-comfort/">Silver Comfort</a></span>
-      </div>
-      <div class="cs-card">
-        <blockquote><p>&ldquo;My brother and I live in different parts of the country, while Mum was still living alone in the family home. We knew a move would eventually make sense, but coordinating everything from a distance felt impossible. Chayce helped us break the process into manageable stages, from preparing the house to planning the move itself. For the first time, everyone knew what was happening and when.&rdquo;</p></blockquote>
-        <span class="cs-from">A Gold Prestige family &middot; <a href="/gold-prestige/">Gold Prestige</a></span>
-      </div>
-      <div class="cs-card">
-        <blockquote><p>&ldquo;After so many years in the same house, we knew the next move would be different, but we hadn't worked out exactly what we wanted from it. We used our consultation to talk through the type of home we were looking for, what we actually used in our current house and what the move would involve. Rather than rushing into a decision, we came away with a clearer picture of what the next chapter could look like.&rdquo;</p></blockquote>
-        <span class="cs-from">A Discovery client &middot; <a href="/discovery/">Discovery Consultation</a></span>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="page-section grey">
-  <div class="container">
-    <div class="cs-block">
-      <h2>Situations we help families with</h2>
-      <p class="cs-lede">These are the situations Chayce is set up for. They describe the kind of help available, not specific client histories.</p>
-      <div class="cs-sit">
-        <a href="/downsizing-help-for-elderly/"><b>Downsizing from a large family home</b><span>Deciding what to keep, sell or pass on, then packing, moving and settling in.</span></a>
-        <a href="/moving-elderly-parent/"><b>Helping a parent relocate</b><span>For adult children arranging a move, including when family live in different parts of the country.</span></a>
-        <a href="/retirement-village-moving-service/"><b>Moving to a retirement village or smaller home</b><span>Planning around application steps, space and access in the new property.</span></a>
-        <a href="/senior-move-manager-uk/"><b>Coordinating one move with one point of contact</b><span>What a senior move manager does and how Chayce works.</span></a>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="page-section">
-  <div class="container">
-    <div class="cs-block">
-      <h2>Example scenario</h2>
-      <div class="cs-example">
-        <span class="cs-tag">Example scenario &middot; illustrative, not a real client</span>
-        <p>A couple in their seventies are moving from a four-bedroom family home to a two-bedroom bungalow. They have not yet decided how much help they need.</p>
-        <p>They would typically begin with a <a href="/discovery/">Discovery Consultation</a> (&pound;{{ (site.packages | findByKey("discovery")).price | gbp }}) to agree what the move involves and which package fits. If the main need is sorting, packing and a managed move, <a href="/silver-comfort/">Silver Comfort</a> (from &pound;{{ (site.packages | findByKey("silver")).price | gbp }}) is the package built around that kind of move; if the sale and legal side also need coordinating, <a href="/gold-prestige/">Gold Prestige</a> (from &pound;{{ (site.packages | findByKey("gold")).price | gbp }}) adds it. The final price depends on the scope agreed.</p>
-      </div>
+    <div class="csx-sec-head"><span class="csx-eyebrow">Situations</span><h2>Situations we help families with</h2><p>These are the situations Chayce is set up for. They describe the kind of help available, not specific client histories.</p></div>
+    <div class="csx-sit">
+      <a href="/downsizing-help-for-elderly/"><b>Downsizing from a large family home</b><span>Deciding what to keep, sell or pass on, then packing, moving and settling in.</span><i class="csx-arrow" aria-hidden="true">&rarr;</i></a>
+      <a href="/moving-elderly-parent/"><b>Helping a parent relocate</b><span>For adult children arranging a move, including when family live in different parts of the country.</span><i class="csx-arrow" aria-hidden="true">&rarr;</i></a>
+      <a href="/retirement-village-moving-service/"><b>Moving to a retirement village or smaller home</b><span>Planning around application steps, space and access in the new property.</span><i class="csx-arrow" aria-hidden="true">&rarr;</i></a>
+      <a href="/senior-move-manager-uk/"><b>Coordinating one move with one point of contact</b><span>What a senior move manager does and how Chayce works.</span><i class="csx-arrow" aria-hidden="true">&rarr;</i></a>
     </div>
   </div>
 </section>
@@ -174,4 +287,4 @@ activeKey: "about-chayce"
   </div>
 </section>
 
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://chayceproperties.com/"},{"@type":"ListItem","position":2,"name":"About","item":"https://chayceproperties.com/about-chayce/"},{"@type":"ListItem","position":3,"name":"Case Studies & Examples","item":"https://chayceproperties.com/case-studies/"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://chayceproperties.com/"},{"@type":"ListItem","position":2,"name":"About","item":"https://chayceproperties.com/about-chayce/"},{"@type":"ListItem","position":3,"name":"Case Studies","item":"https://chayceproperties.com/case-studies/"}]}</script>
