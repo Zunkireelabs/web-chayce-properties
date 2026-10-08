@@ -21,9 +21,19 @@ eleventyExcludeFromCollections: true
   "areaServed": [
     "Northampton",
     "Northamptonshire",
-    "East Midlands",
+    "East Midlands",{% for area in localAreas %}
+    "{{ area.name }}",{% endfor %}
     "United Kingdom"
   ],
+  "companyNumber": "{{ site.companiesHouseNumber }}",
+  "registeredIn": "{{ site.registeredCountry }}",
+  "lastReviewed": "{{ site.lastReviewed }}",
+  "trust": {
+    "dbsCheckedStaff": {{ "true" if site.trust.dbsCheckedStaff else "false" }},
+    "dbsLevel": "{{ site.trust.dbsLevel }}{% if site.trust.dbsBarredList %} including barred list check{% endif %}",
+    "insurance": {{ site.trust.insurance | dump | safe }},
+    "page": "https://chayceproperties.com/trust-and-safeguarding/"
+  },
   "insured": "Every removal is fully insured against loss or damage in transit. Details are set out in the service agreement before the move begins.",
   "pricing": "Package prices are published on the website at https://chayceproperties.com/packages/.",
   "team": "Our own vetted team, not outsourced.",
@@ -49,7 +59,9 @@ eleventyExcludeFromCollections: true
     "seniorMoveManager": "https://chayceproperties.com/senior-move-manager-uk/",
     "about": "https://chayceproperties.com/about-chayce/",
     "faq": "https://chayceproperties.com/senior-moving-faq/",
-    "llms": "https://chayceproperties.com/llms.txt"
+    "llms": "https://chayceproperties.com/llms.txt",
+    "trustAndSafeguarding": "https://chayceproperties.com/trust-and-safeguarding/",
+    "storage": "https://chayceproperties.com/storage-during-your-move/"
   },
   "blogGuides": {{ collections.blog | length }}
 }

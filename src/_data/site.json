@@ -69,5 +69,18 @@
     "https://www.yell.com/biz/chayce-properties-ltd-northampton-11058103/",
     "https://www.brownbook.net/business/55572255/chayce-properties-ltd",
     "https://www.hotfrog.co.uk/company/AaEVT9cfcqWPhdn2aAu_cA/chayce-properties-ltd/northampton/moving-storage"
-  ]
+  ],
+  "trust": {
+    "dbsCheckedStaff": true,
+    "dbsLevel": "Enhanced",
+    "dbsBarredList": true,
+    "complaintsResponseDays": "",
+    "insurance": [
+      "Goods in transit",
+      "Public liability"
+    ]
+  },
+  "legalName": "Chayce Properties Ltd",
+  "registeredCountry": "England and Wales",
+  "lastReviewed": "2026-10-08"
 }

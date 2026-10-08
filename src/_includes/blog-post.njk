@@ -29,7 +29,8 @@ headExtra: |
 {% if about %}  "about": [{% for e in about %}{"@type":"Thing","name":{{ e.name | dump | safe }},"sameAs":{{ e.url | dump | safe }}}{% if not loop.last %},{% endif %}{% endfor %}],
 {% endif %}{% if sources %}  "citation": [{% for c in sources %}{"@type":"CreativeWork","name":{{ c.name | dump | safe }},"url":{{ c.url | dump | safe }}}{% if not loop.last %},{% endif %}{% endfor %}],
 {% endif %}  "author": { "@type": "Organization", "@id": "{{ site.url }}/#organization", "name": "{{ site.name }}", "url": "{{ site.url }}/about-chayce/" },
-  "publisher": { "@type": "Organization", "@id": "{{ site.url }}/#organization", "name": "{{ site.name }}" },
+  "publisher": { "@type": "Organization", "@id": "{{ site.url }}/#organization", "name": "{{ site.name }}", "logo": { "@type": "ImageObject", "url": "{{ site.url }}/images/chayce-logo.png", "width": 240, "height": 160 } },
+  "inLanguage": "en-GB",
   "mainEntityOfPage": { "@type": "WebPage", "@id": "https://chayceproperties.com{{ page.url }}" }
 }
 </script>

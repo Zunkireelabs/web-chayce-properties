@@ -1,5 +1,5 @@
 ---
-title: "The Cost of Moving House in the UK: What to Budget For Beyond the Removal Van"
+title: "Cost of Moving House in the UK: What to Budget For"
 description: "The main costs of selling and buying a home in the UK, what makes each one vary, and a simple way to build a moving budget, with notes for downsizers."
 date: "2026-10-04"
 dateModified: "2026-10-04"
@@ -42,7 +42,7 @@ faq:
 
 ### When you buy
 
-- **Stamp Duty Land Tax, or its equivalent.** In England and Northern Ireland this is Stamp Duty Land Tax; Scotland has Land and Buildings Transaction Tax and Wales has Land Transaction Tax. Amounts depend on the price, your circumstances and whether you own other property, and the rules change, so use the official pages rather than a rule of thumb: the [GOV.UK Stamp Duty Land Tax guide](https://www.gov.uk/stamp-duty-land-tax) and [calculator](https://www.tax.service.gov.uk/calculate-stamp-duty-land-tax/#/intro), [Revenue Scotland's LBTT page](https://revenue.scot/taxes/land-buildings-transaction-tax) and the [Welsh Revenue Authority's LTT guide](https://www.gov.wales/land-transaction-tax-guide).
+- **Stamp Duty Land Tax, or its equivalent.** In England and Northern Ireland this is Stamp Duty Land Tax; Scotland has Land and Buildings Transaction Tax and Wales has Land Transaction Tax. Amounts depend on the price, your circumstances and whether you own other property, and the rules change, so use the official pages rather than a rule of thumb: the [GOV.UK Stamp Duty Land Tax guide](https://www.gov.uk/stamp-duty-land-tax) and [calculator](https://www.tax.service.gov.uk/calculate-stamp-duty-land-tax/#/intro), [Revenue Scotland's LBTT page](https://revenue.scot/taxes/land-buildings-transaction-tax) and the [Welsh Revenue Authority's LTT guide](https://www.gov.wales/land-transaction-tax-guide). See our guide to [Stamp Duty when downsizing](/blog/stamp-duty-when-downsizing-uk/).
 - **Solicitor or conveyancer fees.** Include searches, Land Registry registration and, for leasehold homes, extra checks on the lease and management company.
 - **Survey.** From a basic valuation for the lender to a fuller survey of an older or unusual property. The type you choose, and the age and condition of the home, drive the price.
 - **Mortgage fees.** Arrangement or product fees, valuation fees and any broker fee. Some can be added to the loan, which changes the total you repay.
@@ -130,6 +130,8 @@ Our guide to [senior move costs](/blog/senior-move-cost-uk/) explains what is in
 Chayce Properties helps older people and their families plan and manage the practical side of a later-life move. Published prices are on our [packages page](/packages/): Discovery is £150, Bronze starts from £995, Silver from £1,850, Gold from £3,250 and Platinum from £6,500. If you are not sure where to start, the [Discovery consultation](/discovery/) is a low-pressure first step.
 
 *This article is general information only and is not financial, tax or legal advice. Costs, tax rules and thresholds change and differ across England, Scotland, Wales and Northern Ireland, so check the official sources linked above and speak to a solicitor, mortgage adviser or other regulated professional about your own circumstances.*
+
+Related reading: [downsizing or equity release](/blog/downsizing-and-equity-release-what-to-know/), [Lasting Power of Attorney and moving a parent](/blog/lasting-power-of-attorney-moving-a-parent/) and [moving after a bereavement](/blog/moving-after-probate-clearing-a-loved-ones-home/).
 
 ## Sources
 

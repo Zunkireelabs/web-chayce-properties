@@ -1,0 +1,62 @@
+[
+  {
+    "slug": "kettering",
+    "name": "Kettering",
+    "county": "Northamptonshire",
+    "council": "North Northamptonshire Council",
+    "postcodes": "NN15 or NN16",
+    "distance": "around 16 miles",
+    "direction": "north-east",
+    "road": "the A43",
+    "rail": "Kettering station is on the Midland Main Line, with direct trains to London St Pancras",
+    "hospital": "Kettering General Hospital",
+    "context": "Kettering is a market town with a long history in boot and shoe making, and its streets mix older terraced homes near the centre with family houses built in later decades.",
+    "planFor": [
+      "Older terraced homes can mean steep stairs, narrow doorways and limited parking, all of which affect how a removal is planned.",
+      "Family houses on the outskirts often hold decades of belongings, so sorting time is worth building into the plan early.",
+      "If you are moving closer to family, the direct rail link to London can make visits easier after the move."
+    ],
+    "faqTitle": "Do you help people moving out of Kettering to other parts of the UK?",
+    "faqAnswer": "Yes. Chayce arranges later-life moves from Kettering to anywhere in the UK, as well as moves within Kettering and the surrounding area. We coordinate sorting, packing, the removal and settling in at the new home."
+  },
+  {
+    "slug": "wellingborough",
+    "name": "Wellingborough",
+    "county": "Northamptonshire",
+    "council": "North Northamptonshire Council",
+    "postcodes": "NN8",
+    "distance": "around 11 miles",
+    "direction": "east",
+    "road": "the A45",
+    "rail": "Wellingborough station is on the Midland Main Line, with direct trains to London St Pancras",
+    "hospital": "Kettering General Hospital and Northampton General Hospital are both within easy reach",
+    "context": "Wellingborough is a Northamptonshire market town on the River Nene, with a mix of established residential streets and newer estates around it.",
+    "planFor": [
+      "Because Wellingborough is close to our Northampton office, local moves are straightforward to coordinate and visit in person.",
+      "A move out of a long-held family home usually involves sorting and decluttering first, which we can help you plan.",
+      "If your move depends on a house sale, we liaise with your estate agent and solicitor so dates stay in step."
+    ],
+    "faqTitle": "How close is Chayce to Wellingborough?",
+    "faqAnswer": "Our office is in Northampton, around 11 miles from Wellingborough, so we can arrange an in-person Discovery Consultation locally or by phone, whichever you prefer."
+  },
+  {
+    "slug": "daventry",
+    "name": "Daventry",
+    "county": "Northamptonshire",
+    "council": "West Northamptonshire Council",
+    "postcodes": "NN11",
+    "distance": "around 13 miles",
+    "direction": "west",
+    "road": "the A45 and A361",
+    "rail": "Daventry has no railway station; the nearest stations include Long Buckby and Northampton",
+    "hospital": "Danetre Hospital is in the town, and Northampton General Hospital is the nearest large acute hospital",
+    "context": "Daventry is a Northamptonshire town close to the Warwickshire border, with villages and rural homes around it as well as the town itself.",
+    "planFor": [
+      "Rural and village properties can mean narrow lanes and long driveways, so access is checked before a removal day is planned.",
+      "With no railway station in the town, many families rely on road travel, so we plan moving dates around practical access.",
+      "Moving from a village home into a smaller property in town or elsewhere is a common reason people ask for downsizing help."
+    ],
+    "faqTitle": "Do you cover villages around Daventry?",
+    "faqAnswer": "Yes. We work in Daventry and the surrounding villages as well as across the rest of Northamptonshire and the UK. Tell us your postcode when you contact us and we will confirm the details."
+  }
+]

@@ -1,7 +1,7 @@
 ---
 modified: "2026-10-04"
 title: "Areas We Cover: Senior Moves Across the UK | Chayce"
-description: "Chayce is based in Northampton and arranges later-life moves across the UK. What to plan for in London and the South East, the Home Counties, the South West and the Cotswolds."
+description: "Based in Northampton, Chayce arranges later-life moves across the UK: London and the South East, Home Counties, South West and Cotswolds."
 permalink: "/areas-we-cover/"
 ---
 <div class="page-hero--region" style="background-image:url({% imageUrl "chayce-hero1.jpg" %});{% imageSet "chayce-hero1.jpg" %};background-size:cover;background-position:center;">
@@ -93,6 +93,22 @@ permalink: "/areas-we-cover/"
       <details><summary>Do you only work near Northampton?</summary><p>No. We are based in Northampton and arrange moves across the UK. Local moves in Northamptonshire are covered on our <a href="/northampton/">Northampton page</a>.</p></details>
       <details><summary>How do viewings and moving day work if I live a long way from Northampton?</summary><p>Where possible, viewings and key moving-day tasks are scheduled together, and your coordinator manages the rest of the process remotely, so nothing depends on a short-notice site visit.</p></details>
       <details><summary>Can you help with retirement developments and age-restricted communities?</summary><p>We can plan the move around the application steps, service charges and access rules a development involves. See our page on <a href="/retirement-village-moving-service/">moving to a retirement village or home</a>.</p></details>
+    </div>
+  </div>
+</section>
+
+<section class="page-section grey">
+  <div class="container">
+    <div class="area-copy">
+      <div class="area-rail"><p class="area-eyebrow">Local pages</p></div>
+      <div class="area-body">
+      <h2>Towns and cities near our Northampton base</h2>
+      <p>We are based in <a href="/northampton/">Northampton</a> and have local guides for nearby towns and cities. Each page covers the local council, transport links and what to plan for.</p>
+      <ul>
+        {% for area in localAreas %}<li><a href="/senior-movers-{{ area.slug }}/">Senior movers in {{ area.name }}</a> ({{ area.county }})</li>
+        {% endfor %}
+      </ul>
+      </div>
     </div>
   </div>
 </section>

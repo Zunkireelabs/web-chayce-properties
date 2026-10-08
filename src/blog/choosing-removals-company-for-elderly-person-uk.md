@@ -1,6 +1,6 @@
 ---
 title: "How to Choose a Removals Company for an Elderly Person (UK)"
-description: "How to choose removals for an elderly person in the UK: the questions to ask on insurance, packing, pricing and timing, and when a relocation partner suits better."
+description: "How to choose removals for an elderly person in the UK: questions to ask on insurance, packing, pricing and timing, and when a relocation partner suits better."
 date: "2026-10-01"
 dateModified: "2026-10-04"
 featuredImage: "https://images.pexels.com/photos/4489417/pexels-photo-4489417.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"

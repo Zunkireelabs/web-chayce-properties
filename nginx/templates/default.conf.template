@@ -112,20 +112,22 @@ add_header Content-Security-Policy-Report-Only "default-src 'self'; report-uri /
         add_header Cache-Control "public, max-age=86400";
     }
 
-    # The "h" query param is a confirmed-dead tracking hash inherited from a
-    # prior site on this domain — grepped across every page template and
-    # every script this site actually owns, it's never read by anything real
-    # (unlike ?package=, which get-started.njk genuinely uses). Safe to
-    # redirect away outright rather than just canonicalize: a 301 is a much
-    # stronger, faster consolidation signal to Google than a canonical tag.
-    if ($arg_h) {
-        # Hardcoded https, not $scheme: this container sits behind a proxy/LB
-        # that terminates TLS and forwards plain HTTP internally, so $scheme
-        # here always evaluates to "http" regardless of what the visitor
-        # actually used — confirmed live: this redirect was sending browsers
-        # to http://chayceproperties.com/, a real downgrade bug, not a
-        # theoretical one. This site is always served over https.
-        return 301 https://$host$uri;
+    # Leftovers from the previous owner of this domain (a casino/spam site):
+    # ?h=<hash> (1.3M URLs in Search Console), WordPress ?p=<id> / ?page_id= /
+    # ?s= / ?cat= / ?replytocom=, and the ASP.NET "transition" probe URLs.
+    # None of these is read by any page of this site (grepped every template
+    # and script; ?package= IS used by get-started and is deliberately NOT
+    # listed). Answer 410 Gone, not a redirect: these are not our URLs, and
+    # 410 gets them dropped from Google's crawl queue far faster than a 301.
+    if ($args ~* "(^|&)(h|p|page_id|s|cat|replytocom|transition)=") {
+        return 410;
+    }
+
+    # Old casino/shop paths from the same previous owner. Anything else not
+    # backed by a real file already falls through to 410 below; this just
+    # makes the intent explicit for the known bulk groups.
+    location ~* ^/(shop/|roulette-|online-casino|gambling-|casino|how-to-find-the-best-united-kingdom-free-spins|wp-(content|includes|admin|login)|xmlrpc\.php) {
+        return 410;
     }
 
     # Static site routing — try exact file, then directory, then .html extension.
@@ -142,7 +144,9 @@ add_header Content-Security-Policy-Report-Only "default-src 'self'; report-uri /
         try_files $uri $uri/ $uri.html =404;
     }
 
-    error_page 404 /404.html;
+    # 410 (not 404) for anything that isn't a real page: Google drops 410s
+    # from its crawl queue faster, so only the sitemap URLs keep being crawled.
+    error_page 404 =410 /404.html;
     location = /404.html {
         internal;
     }

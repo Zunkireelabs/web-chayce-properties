@@ -503,7 +503,7 @@ footScripts: |
   <div class="container">
     <span class="home-eyebrow" style="display:block;text-align:center">Services</span>
     <h2 class="home-h2" style="text-align:center">What we can <em>take care of.</em></h2>
-    <p class="body-copy" style="max-width:600px;margin:0 auto;text-align:center">Every service is delivered by our own vetted team &mdash; not outsourced &mdash; so the same standard of care follows you from start to finish.</p>
+    <p class="body-copy" style="max-width:600px;margin:0 auto;text-align:center">Every service is delivered by our own vetted, DBS-checked team &mdash; not outsourced &mdash; so the same standard of care follows you from start to finish. <a href="/trust-and-safeguarding/">See how we protect our clients</a>.</p>
     <div class="svc-grid">
       <div class="svc-card"><span class="num">01</span><span class="svc-text"><span class="svc-name">Home Sorting</span><span class="svc-desc">Careful sorting and organising of your home&rsquo;s contents.</span></span></div>
       <div class="svc-card"><span class="num">02</span><span class="svc-text"><span class="svc-name">Property Staging</span><span class="svc-desc">Presenting your home at its best, styled by our experts.</span></span></div>
@@ -625,74 +625,5 @@ footScripts: |
 <!-- SEOAI:FAQSCHEMA:START --><script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What areas do you cover?","acceptedAnswer":{"@type":"Answer","text":"We work with clients across the whole UK, including London & the South East, the Home Counties, the South West & coast, and the Cotswolds & rural Midlands — get in touch to confirm the specifics for your area."}},{"@type":"Question","name":"How early should I get in touch?","acceptedAnswer":{"@type":"Answer","text":"As early as possible — ideally 3 to 6 months before your intended move date. However, we can accommodate shorter timescales where needed."}},{"@type":"Question","name":"What makes Chayce different from a regular removal company?","acceptedAnswer":{"@type":"Answer","text":"We coordinate the whole move ourselves — packing, removals, estate agent liaison and legal coordination — through one dedicated point of contact, rather than leaving you to manage several separate providers."}},{"@type":"Question","name":"Is my move fully insured?","acceptedAnswer":{"@type":"Answer","text":"Yes. Every removal is fully insured against loss or damage in transit, with the specifics set out in your service agreement before the move begins."}},{"@type":"Question","name":"How does the Discovery Consultation work?","acceptedAnswer":{"@type":"Answer","text":"We conduct a detailed 1-hour consultation (in person or by telephone) to understand your needs and deliver a personalised move plan, timeline and budget."}},{"@type":"Question","name":"Do you do house removals for older people?","acceptedAnswer":{"@type":"Answer","text":"Yes. Fully insured removals are part of every package, from Bronze Essentials at £995. Unlike a standard removals firm we also manage the sorting, packing, estate agent and solicitor liaison and settling in through one coordinator."}},{"@type":"Question","name":"Can you help me downsize to a bungalow or retirement flat?","acceptedAnswer":{"@type":"Answer","text":"Yes. We help you decide what fits, sort and declutter, pack, move and set up a bungalow, flat, retirement apartment or smaller home anywhere in the UK."}},{"@type":"Question","name":"Where are you based?","acceptedAnswer":{"@type":"Answer","text":"We are based on Kingsthorpe Road in Northampton and arrange moves for older people across the whole UK. Call 07708 925432 or see our senior moving FAQ for more answers."}}]}</script><!-- SEOAI:FAQSCHEMA:END -->
 
 <!-- SEOAI:ORGANIZATIONSCHEMA:START -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "MovingCompany",
-  "@id": "{{ site.url }}/#organization",
-  "name": "{{ site.name }}",
-  "url": "{{ site.url }}/",
-  "telephone": "{{ site.telephone }}",
-  "email": "{{ site.email }}",
-  "logo": "{{ site.url }}/images/chayce-logo.png",
-  "image": "{{ site.defaultOgImage }}",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "{{ site.address.streetAddress }}",
-    "addressLocality": "{{ site.address.addressLocality }}",
-    "postalCode": "{{ site.address.postalCode }}",
-    "addressCountry": "{{ site.address.addressCountry }}"
-  },
-  "geo": {
-    "@type": "GeoCoordinates",
-    "latitude": {{ site.geo.latitude }},
-    "longitude": {{ site.geo.longitude }}
-  },
-  "openingHoursSpecification": {
-    "@type": "OpeningHoursSpecification",
-    "dayOfWeek": {{ site.openingHours.days | dump | safe }},
-    "opens": "{{ site.openingHours.opens }}",
-    "closes": "{{ site.openingHours.closes }}"
-  },
-  "priceRange": "{{ site.priceRange }}",
-  {#- sameAs / identifier: add ONLY real, existing profile URLs (Google Business Profile, Facebook, LinkedIn, Bing, Apple) and the Companies House number, via site.sameAs / site.companiesHouseNumber in src/_data/site.json. Never add placeholders. -#}
-  {%- if site.sameAs and site.sameAs.length %}
-  "sameAs": {{ site.sameAs | dump | safe }},
-  {%- endif %}
-  {%- if site.companiesHouseNumber %}
-  "identifier": { "@type": "PropertyValue", "propertyID": "Companies House number", "value": "{{ site.companiesHouseNumber }}" },
-  {%- endif %}
-  "legalName": "Chayce Properties Ltd",
-  "alternateName": "Chayce Properties Ltd",
-  "hasMap": "{{ site.gbpUrl or ('https://www.google.com/maps?q=' + site.geo.latitude + ',' + site.geo.longitude) }}",
-  "foundingDate": "2026",
-  "slogan": "Later-life moving and downsizing across the UK",
-  "contactPoint": { "@type": "ContactPoint", "telephone": "{{ site.telephone }}", "email": "{{ site.email }}", "contactType": "customer service", "areaServed": "GB", "availableLanguage": "English" },
-  "areaServed": [
-    { "@type": "City", "name": "Northampton" },
-    { "@type": "AdministrativeArea", "name": "Northamptonshire" },
-    { "@type": "AdministrativeArea", "name": "East Midlands" },
-    { "@type": "Country", "name": "United Kingdom" }
-  ],
-  "knowsAbout": ["Senior relocation", "Downsizing help for older people", "Moving an elderly parent", "Later-life moving", "Retirement village moves", "House removals", "Packing service", "Estate agent liaison", "Property staging"],
-  "hasOfferCatalog": {
-    "@type": "OfferCatalog",
-    "name": "Relocation packages",
-    "itemListElement": [{% for p in site.packages %}
-      { "@type": "Offer", "priceCurrency": "GBP", "priceSpecification": { "@type": "PriceSpecification", "priceCurrency": "GBP", "minPrice": "{{ p.price }}" }, "itemOffered": { "@type": "Service", "name": "{{ p.name }}", "url": "{{ site.url }}{{ p.url }}/" } }{% if not loop.last %},{% endif %}{% endfor %}
-    ]
-  },
-  "description": "Full-service relocation partner across the UK, based in Northampton — packing, removals, legal coordination, storage and post-move settling-in support, designed with senior clients in mind but open to anyone planning a fully-managed move."
-}
-</script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebSite",
-  "@id": "{{ site.url }}/#website",
-  "name": "{{ site.name }}",
-  "url": "{{ site.url }}/",
-  "publisher": { "@id": "{{ site.url }}/#organization" }
-}
-</script>
+{% include "schema-org.njk" %}
 <!-- SEOAI:ORGANIZATIONSCHEMA:END -->
