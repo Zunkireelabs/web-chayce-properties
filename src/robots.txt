@@ -12,7 +12,7 @@ Sitemap: https://chayceproperties.com/sitemap.xml
 
 # AI crawler policy — Chayce Properties intentionally allows all AI
 # crawlers (training and live-answer/citation) to maximize visibility in
-# AI-generated answers and search overviews. Last reviewed: 2026-09-24.
+# AI-generated answers and search overviews. Last reviewed: 2026-10-08.
 User-agent: GPTBot
 Allow: /
 
@@ -38,4 +38,25 @@ User-agent: CCBot
 Allow: /
 
 User-agent: Bytespider
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: cohere-ai
 Allow: /

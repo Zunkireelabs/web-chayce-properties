@@ -1,0 +1,72 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": ["MovingCompany", "ProfessionalService"],
+  "@id": "{{ site.url }}/#organization",
+  "name": "{{ site.name }}",
+  "url": "{{ site.url }}/",
+  "telephone": "{{ site.telephone }}",
+  "email": "{{ site.email }}",
+  "logo": "{{ site.url }}/images/chayce-logo.png",
+  "image": "{{ site.defaultOgImage }}",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "{{ site.address.streetAddress }}",
+    "addressLocality": "{{ site.address.addressLocality }}",
+    "postalCode": "{{ site.address.postalCode }}",
+    "addressCountry": "{{ site.address.addressCountry }}"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": {{ site.geo.latitude }},
+    "longitude": {{ site.geo.longitude }}
+  },
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": {{ site.openingHours.days | dump | safe }},
+    "opens": "{{ site.openingHours.opens }}",
+    "closes": "{{ site.openingHours.closes }}"
+  },
+  "priceRange": "{{ site.priceRange }}",
+  {#- sameAs / identifier: add ONLY real, existing profile URLs (Google Business Profile, Facebook, LinkedIn, Bing, Apple) and the Companies House number, via site.sameAs / site.companiesHouseNumber in src/_data/site.json. Never add placeholders. -#}
+  {%- if site.sameAs and site.sameAs.length %}
+  "sameAs": {{ site.sameAs | dump | safe }},
+  {%- endif %}
+  {%- if site.companiesHouseNumber %}
+  "identifier": { "@type": "PropertyValue", "propertyID": "Companies House number", "value": "{{ site.companiesHouseNumber }}" },
+  {%- endif %}
+  "legalName": "{{ site.legalName }}",
+  "alternateName": "{{ site.legalName }}",
+  "hasMap": "{{ site.gbpUrl or ('https://www.google.com/maps?q=' + site.geo.latitude + ',' + site.geo.longitude) }}",
+  "foundingDate": "2026",
+  "slogan": "Later-life moving and downsizing across the UK",
+  "knowsLanguage": "en-GB",
+  "contactPoint": { "@type": "ContactPoint", "telephone": "{{ site.telephone }}", "email": "{{ site.email }}", "contactType": "customer service", "areaServed": "GB", "availableLanguage": "English" },
+  "areaServed": [
+    { "@type": "City", "name": "Northampton" },
+    { "@type": "AdministrativeArea", "name": "Northamptonshire" },
+    { "@type": "AdministrativeArea", "name": "East Midlands" },{% for area in localAreas %}
+    { "@type": "City", "name": "{{ area.name }}" },{% endfor %}
+    { "@type": "Country", "name": "United Kingdom" }
+  ],
+  "knowsAbout": ["Senior relocation", "Downsizing help for older people", "Moving an elderly parent", "Later-life moving", "Retirement village moves", "House removals", "Packing service", "Estate agent liaison", "Property staging", "Storage between house moves"],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Relocation packages",
+    "itemListElement": [{% for p in site.packages %}
+      { "@type": "Offer", "priceCurrency": "GBP", "priceSpecification": { "@type": "PriceSpecification", "priceCurrency": "GBP", "minPrice": "{{ p.price }}" }, "itemOffered": { "@type": "Service", "name": "{{ p.name }}", "url": "{{ site.url }}{{ p.url }}/" } }{% if not loop.last %},{% endif %}{% endfor %}
+    ]
+  },
+  "description": "Full-service relocation partner across the UK, based in Northampton — packing, removals, legal coordination, storage and post-move settling-in support, designed with senior clients in mind but open to anyone planning a fully-managed move."
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": "{{ site.url }}/#website",
+  "name": "{{ site.name }}",
+  "url": "{{ site.url }}/",
+  "publisher": { "@id": "{{ site.url }}/#organization" }
+}
+</script>

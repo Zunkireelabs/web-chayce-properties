@@ -35,6 +35,12 @@ Chayce is based in Northampton and arranges moves across the UK.
 
 - [Northampton and Northamptonshire]({{ site.url }}/northampton/)
 - [Areas We Cover]({{ site.url }}/areas-we-cover/): regional considerations for London and the South East, the Home Counties, the South West and coast, and the Cotswolds and rural Midlands.
+{% for area in localAreas %}- [Senior movers in {{ area.name }}]({{ site.url }}/senior-movers-{{ area.slug }}/): local later-life moving help for {{ area.name }}, {{ area.county }}.
+{% endfor %}
+## Trust and services
+
+- [Trust and safeguarding]({{ site.url }}/trust-and-safeguarding/): DBS-checked staff, insurance, support for older and vulnerable clients and how to complain.
+- [Storage between house moves]({{ site.url }}/storage-during-your-move/): secure, insured storage booked and arranged by Chayce.
 
 ## Guides ({{ collections.blog | length }})
 
@@ -45,6 +51,8 @@ Chayce is based in Northampton and arranges moves across the UK.
 - [About Chayce]({{ site.url }}/about-chayce/)
 - [Contact]({{ site.url }}/contact/): {{ site.address.streetAddress }}, {{ site.address.addressLocality }} {{ site.address.postalCode }}. Phone {{ site.telephoneDisplay }}. Email {{ site.email }}. Hours: {{ site.openingHoursText }}.
 - [Machine-readable facts (JSON)]({{ site.url }}/chayce-facts.json)
+- Company: {{ site.legalName }}, company number {{ site.companiesHouseNumber }}, registered in {{ site.registeredCountry }}.
+- Last reviewed: {{ site.lastReviewed }}.
 
 ## Full content
 

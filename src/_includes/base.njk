@@ -19,7 +19,7 @@ if (/^(www\.)?chayceproperties\.com$/.test(location.hostname)) {
 </script>
 <title>{{ title | safe }}</title>
 {% if description %}<meta name="description" content="{{ description | safe }}">{% endif %}
-<link rel="canonical" href="{{ canonicalUrl or ('https://chayceproperties.com' + page.url) }}">
+<link rel="canonical" href="{{ canonicalUrl or (site.url + page.url) }}">
 <link rel="alternate" hreflang="en-GB" href="{{ canonicalUrl or (site.url + page.url) }}">
 <link rel="alternate" hreflang="x-default" href="{{ canonicalUrl or (site.url + page.url) }}">
 <meta name="robots" content="{{ robots or 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' }}">
@@ -29,6 +29,8 @@ if (/^(www\.)?chayceproperties\.com$/.test(location.hostname)) {
 <meta name="ICBM" content="{{ site.geo.latitude }}, {{ site.geo.longitude }}">
 <link rel="icon" type="image/png" href="/images/favicon.png">
 <link rel="alternate" type="application/atom+xml" title="Chayce Properties Blog" href="/feed.xml">
+<link rel="alternate" type="text/plain" title="llms.txt" href="/llms.txt">
+<link rel="alternate" type="application/json" title="Chayce Properties facts" href="/chayce-facts.json">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <meta property="og:locale" content="en_GB">
@@ -38,6 +40,12 @@ if (/^(www\.)?chayceproperties\.com$/.test(location.hostname)) {
 {% if description %}<meta property="og:description" content="{{ description | safe }}">{% endif %}
 <meta property="og:url" content="{{ canonicalUrl or (site.url + page.url) }}">
 <meta property="og:image" content="{{ ogImage or featuredImage or site.defaultOgImage }}">
+{% if not ogImage and not featuredImage %}<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Chayce Properties: later-life moving and downsizing across the UK">
+{% endif %}{% if ogType == "article" %}<meta property="article:published_time" content="{{ page.date | isoDate }}">
+<meta property="article:modified_time" content="{{ dateModified or (page.date | isoDate) }}">
+{% endif %}
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="{{ ogImage or featuredImage or site.defaultOgImage }}">
 <meta name="twitter:title" content="{{ ogTitle or title | safe }}">
@@ -54,6 +62,7 @@ if (/^(www\.)?chayceproperties\.com$/.test(location.hostname)) {
 <link rel="stylesheet" href="/css/chayce-sticky-cta.css">
 <link rel="stylesheet" href="/css/chayce-mobile-spacing.css">
 {{ headExtra | safe }}
+{% if page.url != "/" %}{% include "schema-org.njk" %}{% endif %}
 <!-- SEOAI:HEAD:START --><!-- SEOAI:HEAD:END -->
 </head>
 <body class="{{ bodyClass }}">

@@ -47,3 +47,31 @@ Yell.com, Thomson Local, Cylex UK, Hotfrog UK, FreeIndex, Scoot, Brown Pages, 19
 
 | Listing | URL | Date live | NAP matches |
 |---|---|---|---|
+| Google Business Profile | https://share.google/Z2DQPiqlxdynZQwuL | 2026-10-07 | Yes (swap the share link for the canonical Maps URL) |
+| Yell | https://www.yell.com/biz/chayce-properties-ltd-northampton-11058103/ | 2026-10-07 | Yes |
+| Brownbook | https://www.brownbook.net/business/55572255/chayce-properties-ltd | 2026-10-07 | Yes |
+| Hotfrog | https://www.hotfrog.co.uk/company/AaEVT9cfcqWPhdn2aAu_cA/chayce-properties-ltd/northampton/moving-storage | 2026-10-07 | Yes |
+
+## Still to do (owner: needs your accounts or verification, in priority order)
+| Listing | Why it matters | Status |
+|---|---|---|
+| Bing Places | Feeds Bing, Copilot and several AI assistants | Not started |
+| Apple Business Connect | Apple Maps and Siri | Not started |
+| Facebook page | Common `sameAs` and local trust signal | Not started |
+| LinkedIn company page | `sameAs` and brand entity | Not started |
+| housingcare.org (EAC) | Strongest topical fit for later-life services | Not started |
+| Autumna | Later-living directory | Not started |
+| Trustpilot (claim profile) | Domain tag is already on the homepage; invite real clients only | Verify status |
+| Cylex UK, FreeIndex, Thomson Local, Scoot, 192.com | General UK citations | Not started |
+| Northamptonshire Chamber of Commerce | Strong local link (paid) | Consider |
+| Age UK Northamptonshire resource page | Relevant local link | Ask |
+| BAR / Removals Industry Ombudsman, Buy With Confidence | Trust signal. Check eligibility first; add to the site only once confirmed | Check |
+
+## Pages to link from each listing (where the directory allows a link)
+Give each listing the most relevant page rather than only the homepage:
+- Main listing: https://chayceproperties.com/
+- Later-life directories: https://chayceproperties.com/senior-move-manager-uk/
+- Trust: https://chayceproperties.com/trust-and-safeguarding/
+- Storage: https://chayceproperties.com/storage-during-your-move/
+- Local: https://chayceproperties.com/northampton/, /senior-movers-kettering/, /senior-movers-wellingborough/, /senior-movers-daventry/
+

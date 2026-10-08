@@ -1,0 +1,113 @@
+---
+pagination:
+  data: localAreas
+  size: 1
+  alias: area
+  addAllPagesToCollections: true
+permalink: "/senior-movers-{{ area.slug }}/"
+modified: "2026-10-08"
+eleventyComputed:
+  title: "Senior Movers & Downsizing Help in {{ area.name }}, UK | Chayce"
+  description: "Chayce arranges downsizing, packing and removals for older people in {{ area.name }} and across the UK. Based in Northampton. Call {{ site.telephoneDisplay }}."
+---
+<div class="page-hero--region" style="background-image:url({% imageUrl "chayce-hero1.jpg" %});{% imageSet "chayce-hero1.jpg" %};background-size:cover;background-position:center;">
+  <div class="container">
+    <p class="breadcrumb"><a href="/">Home</a> / <a href="/areas-we-cover/">Areas We Cover</a> / <em>{{ area.name }}</em></p>
+    <h1>Senior Movers &amp; Downsizing Help in <em>{{ area.name }}</em></h1>
+    <p class="sub">Later-life moving support for {{ area.name }} and {{ area.county }}, from our Northampton base</p>
+  </div>
+</div>
+
+<section class="page-section">
+  <div class="container">
+    <div class="area-copy">
+      <div class="area-rail"><p class="area-eyebrow">{{ area.name }}, {{ area.county }}</p></div>
+      <div class="area-body">
+      <h2>Downsizing help and elderly removals in {{ area.name }}</h2>
+      <p><strong>Short answer:</strong> Chayce Properties arranges downsizing help, careful packing, fully insured removals for older people and settling-in support in {{ area.name }}, {{ area.county }}, with one dedicated coordinator. We are based in Northampton, {{ area.distance }} {{ area.direction }} of {{ area.name }}, and packages start from &pound;{{ (site.packages | findByKey("bronze")).price | gbp }}.</p>
+      <p>{{ area.context }}</p>
+      <p>{{ area.name }} is {{ area.distance }} {{ area.direction }} of Chayce Properties&rsquo; Northampton office, via {{ area.road }}. We help older people and their families with downsizing, packing, removals and settling in when leaving a long-held home, whether that is a move within {{ area.name }} or to another part of the UK. One dedicated coordinator looks after the whole journey, so you are not juggling several separate companies.</p>
+
+      <h2>Things to plan for in {{ area.name }}</h2>
+      <ul>
+        {% for item in area.planFor %}<li>{{ item }}</li>
+        {% endfor %}
+      </ul>
+
+      <h2>Local information</h2>
+      <p>A move in {{ area.name }} falls under {{ area.council }}, and local postcodes start with {{ area.postcodes }}. {{ area.rail }}. For hospital care, {{ area.hospital }}. You can find your local council, and its adult social care services, on <a href="https://www.gov.uk/find-local-council" rel="noopener">GOV.UK</a>.</p>
+      <p>Where to start: <a href="/downsizing-help-for-elderly/">downsizing help for older people</a>, <a href="/storage-during-your-move/">storage between house moves</a>, <a href="/moving-elderly-parent/">moving an elderly parent</a>, <a href="/senior-move-manager-uk/">what a senior move manager does</a> and our <a href="/services/">services</a>. See also <a href="/northampton/">senior movers in Northampton</a> and <a href="/areas-we-cover/">all the areas we cover</a>.</p>
+      <div class="area-honest">
+        <p>Our office is at Unit F2B Barratt House, Kingsthorpe Road, Northampton NN2 6EZ, open {{ site.openingHoursText }}. Call <a href="tel:+447708925432">{{ site.telephoneDisplay }}</a> or email {{ site.email }} to arrange a phone consultation or a visit.</p>
+      </div></div>
+    </div>
+  </div>
+</section>
+
+<section class="page-section grey">
+  <div class="container">
+    <div class="area-pkg-grid">
+      <div class="area-pkg-card">
+        <span class="num">01</span>
+        <h4>Discovery Consultation</h4>
+        <p>An hour with us, in person or by phone, to plan your move, timeline and budget. From &pound;{{ (site.packages | findByKey("discovery")).price | gbp }}.</p>
+        <a href="/discovery/">See Discovery Consultation &rarr;</a>
+      </div>
+      <div class="area-pkg-card">
+        <span class="num">02</span>
+        <h4>Bronze Essentials</h4>
+        <p>Packing, removals and light cleaning for a straightforward move. From &pound;{{ (site.packages | findByKey("bronze")).price | gbp }}.</p>
+        <a href="/bronze-essentials/">See Bronze Essentials &rarr;</a>
+      </div>
+      <div class="area-pkg-card">
+        <span class="num">03</span>
+        <h4>Silver Comfort</h4>
+        <p>A full-service move with a dedicated coordinator, from sorting to unpacking. From &pound;{{ (site.packages | findByKey("silver")).price | gbp }}.</p>
+        <a href="/silver-comfort/">See Silver Comfort &rarr;</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="pkg-faq-band">
+  <div class="container">
+    <h2>Frequently Asked Questions</h2>
+    <div class="pkg-faq">
+      <details><summary>{{ area.faqTitle }}</summary><p>{{ area.faqAnswer }}</p></details>
+      <details><summary>Do you offer downsizing help for older people in {{ area.name }}?</summary><p>Yes. We help older people in {{ area.name }} decide what to keep, sell or pass on, pack with care, arrange the removal and settle in at the new home.</p></details>
+      <details><summary>How much does a move from {{ area.name }} cost?</summary><p>Packages start at &pound;{{ (site.packages | findByKey("bronze")).price | gbp }} for packing and removals, with full-service moves from &pound;{{ (site.packages | findByKey("silver")).price | gbp }}. A Discovery Consultation costs &pound;{{ (site.packages | findByKey("discovery")).price | gbp }} and gives you a personalised plan, timeline and budget before you commit to anything.</p></details>
+      <details><summary>What does a senior move manager do in {{ area.name }}?</summary><p>A senior move manager plans and coordinates a later-life move from start to finish. In {{ area.name }}, Chayce provides this with one dedicated coordinator for sorting, packing, the removal and settling in. See <a href="/senior-move-manager-uk/">what a senior move manager does</a>.</p></details>
+      <details><summary>Do you offer removals for elderly people in {{ area.name }}?</summary><p>Yes. Removals for older people are part of our service in {{ area.name }}. Every removal is fully insured against loss or damage in transit, and a dedicated coordinator looks after the whole move.</p></details>
+      <details><summary>Are your staff DBS-checked?</summary><p>Yes. See our <a href="/trust-and-safeguarding/">trust and safeguarding page</a> for how we protect clients.</p></details>
+    </div>
+  </div>
+</section>
+
+<section class="pkg-close-cta">
+  <div class="container">
+    <h2>Planning a move in or around {{ area.name }}?</h2>
+    <p>Tell us a little about your situation and we&rsquo;ll help you find the right next step.</p>
+    <div class="btn-row">
+      <a href="/discovery/" class="primary">Book a Discovery Consultation</a>
+      <a href="/contact/" class="ghost">Contact Us</a>
+    </div>
+  </div>
+</section>
+
+<script type="application/ld+json">{"@type":"BreadcrumbList","@context":"https://schema.org","itemListElement":[{"item":"{{ site.url }}/","name":"Home","@type":"ListItem","position":1},{"item":"{{ site.url }}/areas-we-cover/","name":"Areas We Cover","@type":"ListItem","position":2},{"item":"{{ site.url }}/senior-movers-{{ area.slug }}/","name":"{{ area.name }}","@type":"ListItem","position":3}]}</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Senior relocation and downsizing",
+  "name": "Senior Movers and Downsizing Help in {{ area.name }}",
+  "description": "{{ description }}",
+  "url": "{{ site.url }}/senior-movers-{{ area.slug }}/",
+  "provider": { "@id": "{{ site.url }}/#organization" },
+  "areaServed": [
+    { "@type": "City", "name": "{{ area.name }}" },
+    { "@type": "AdministrativeArea", "name": "{{ area.county }}" }
+  ]
+}
+</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "{{ area.faqTitle }}", "acceptedAnswer": {"@type": "Answer", "text": "{{ area.faqAnswer }}"}}, {"@type": "Question", "name": "Do you offer downsizing help for older people in {{ area.name }}?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. We help older people in {{ area.name }} decide what to keep, sell or pass on, pack with care, arrange the removal and settle in at the new home."}}, {"@type": "Question", "name": "What does a senior move manager do in {{ area.name }}?", "acceptedAnswer": {"@type": "Answer", "text": "A senior move manager plans and coordinates a later-life move from start to finish. In {{ area.name }}, Chayce provides this with one dedicated coordinator for sorting, packing, the removal and settling in."}}, {"@type": "Question", "name": "Do you offer removals for elderly people in {{ area.name }}?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Removals for older people are part of our service in {{ area.name }}. Every removal is fully insured against loss or damage in transit, and a dedicated coordinator looks after the whole move."}}, {"@type": "Question", "name": "Are your staff DBS-checked?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. See our trust and safeguarding page for how we protect clients."}}]}</script>

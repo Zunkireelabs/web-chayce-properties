@@ -1,5 +1,5 @@
 ---
-title: "Moving Into Retirement Housing in the UK: Village, Flat or Sheltered Housing"
+title: "Moving Into Retirement Housing in the UK: Your Options"
 description: "How retirement villages, retirement flats and sheltered housing differ in the UK, what to ask before you commit, and a practical checklist for the move."
 date: "2026-09-22"
 dateModified: "2026-10-04"

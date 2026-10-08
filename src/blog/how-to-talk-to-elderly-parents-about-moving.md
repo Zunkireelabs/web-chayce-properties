@@ -1,5 +1,5 @@
 ---
-title: "How to Talk to Elderly Parents About Moving (and What If They Refuse?)"
+title: "How to Talk to Elderly Parents About Moving"
 description: "How to bring up moving with an elderly parent in the UK, what to do if they say no, and how to support a decision that is theirs to make."
 date: "2026-10-04"
 dateModified: "2026-10-04"

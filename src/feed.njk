@@ -19,6 +19,7 @@ eleventyExcludeFromCollections: true
     <published>{{ post.date | isoDate }}</published>
     <updated>{{ (post.data.dateModified or post.date) | isoDate }}</updated>
     <summary>{{ post.data.description | escape }}</summary>
+    <content type="html">{{ post.templateContent | escape }}</content>
   </entry>
 {%- endfor %}
 </feed>

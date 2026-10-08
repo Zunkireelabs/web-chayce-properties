@@ -73,6 +73,16 @@ Package pages include clearly labelled example scenarios, which are illustrative
 - Northampton and Northamptonshire: {{ site.url }}/northampton/ — the home office, with local coverage of Kettering, Wellingborough, Daventry, Towcester, Brackley, Rugby, Market Harborough, Milton Keynes and Bedford.
 - Areas We Cover: {{ site.url }}/areas-we-cover/ — practical considerations for London and the South East, the Home Counties, the South West and coast, and the Cotswolds and rural Midlands.
 
+## Local pages
+
+{% for area in localAreas %}- Senior movers in {{ area.name }} ({{ area.county }}): {{ site.url }}/senior-movers-{{ area.slug }}/
+{% endfor %}
+## Trust, safeguarding and storage
+
+- Trust and safeguarding: {{ site.url }}/trust-and-safeguarding/ — the people who work in clients' homes for Chayce are DBS-checked; every removal is fully insured against loss or damage in transit; how to make a complaint.
+- Storage between house moves: {{ site.url }}/storage-during-your-move/ — secure, insured storage booked and arranged by Chayce; Gold Prestige includes up to 6 weeks of storage.
+- Company: {{ site.legalName }}, company number {{ site.companiesHouseNumber }}, registered in {{ site.registeredCountry }}. Last reviewed: {{ site.lastReviewed }}.
+
 ## Frequently asked questions
 
 The full set of answers is at {{ site.url }}/senior-moving-faq/. The most common:
@@ -113,4 +123,6 @@ Every removal is fully insured against loss or damage in transit. Details are se
 - Case Studies: {{ site.url }}/case-studies/
 - About: {{ site.url }}/about-chayce/
 - Contact: {{ site.url }}/contact/
+- Trust and safeguarding: {{ site.url }}/trust-and-safeguarding/
+- Storage between house moves: {{ site.url }}/storage-during-your-move/
 - Machine-readable facts: {{ site.url }}/chayce-facts.json

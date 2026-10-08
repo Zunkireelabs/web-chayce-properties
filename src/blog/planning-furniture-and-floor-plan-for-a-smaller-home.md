@@ -1,5 +1,5 @@
 ---
-title: "Furniture for a Smaller Home: Plan What Fits and What to Do With the Rest"
+title: "Furniture for a Smaller Home: What Fits and What Next"
 description: "Measure and sketch a floor plan to see which furniture fits a smaller home, then sell, donate, recycle or arrange collection for what doesn't."
 date: "2026-10-01"
 dateModified: "2026-10-04"
