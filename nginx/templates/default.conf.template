@@ -70,10 +70,10 @@ add_header Content-Security-Policy-Report-Only "default-src 'self'; report-uri /
 
     # Four regional pages consolidated into one "Areas We Cover" page; each
     # old URL lands on its own section.
-    location ~ ^/relocating-to/london-south-east/?$   { return 301 "https://$host/areas-we-cover/#london-south-east"; }
-    location ~ ^/relocating-to/home-counties/?$       { return 301 "https://$host/areas-we-cover/#home-counties"; }
-    location ~ ^/relocating-to/south-west-coast/?$    { return 301 "https://$host/areas-we-cover/#south-west-coast"; }
-    location ~ ^/relocating-to/cotswolds-midlands/?$  { return 301 "https://$host/areas-we-cover/#cotswolds-midlands"; }
+    location ~ ^/relocating-to/london-south-east/?$   { return 301 "https://$host/london-south-east/"; }
+    location ~ ^/relocating-to/home-counties/?$       { return 301 "https://$host/home-counties/"; }
+    location ~ ^/relocating-to/south-west-coast/?$    { return 301 "https://$host/south-west-coast/"; }
+    location ~ ^/relocating-to/cotswolds-midlands/?$  { return 301 "https://$host/cotswolds-midlands/"; }
     location ~ ^/relocating-to/?$                     { return 301 https://$host/areas-we-cover/; }
 
     # Overlapping blog posts merged into a single owner post.

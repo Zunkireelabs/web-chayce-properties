@@ -59,14 +59,14 @@
 .pg-note{max-width:760px;margin:0 auto;padding:0 20px 44px;text-align:center;color:var(--grey-mid);font-size:15px;line-height:1.7}
 .btn-lg{display:inline-block;padding:17px 36px;font-size:16px;letter-spacing:1.5px;text-transform:uppercase;text-decoration:none;font-weight:500;border-radius:2px;font-family:'Poppins',sans-serif;transition:.2s}
 .btn-lg.primary{background:var(--oxblood);color:#fff}
-.final-cta{position:relative;background:var(--ink) url(/images/chayce-cottage.jpg) center/cover no-repeat;padding:88px 0 96px;text-align:center;overflow:hidden}
-.final-cta::before{content:'';position:absolute;inset:0;background:linear-gradient(180deg,rgba(20,22,29,.93) 0%,rgba(20,22,29,.87) 60%,var(--ink) 100%)}
-.final-cta .container{position:relative;z-index:2}
-.final-cta h3{font-family:'Poppins',sans-serif;font-weight:500;font-size:32px;color:#fff;margin:0 0 12px}
-.final-cta p{color:#cfd0d4;font-size:16px;margin:0 auto 30px;max-width:520px}
-.final-cta .btn-row{display:flex;gap:16px;justify-content:center;flex-wrap:wrap}
-.final-cta .btn-lg.primary{background:var(--gold);color:var(--ink)}
-.final-cta .btn-lg.primary:hover{background:var(--gold-light);color:var(--ink)}
+.final-cta:not(.home-final){position:relative;background:var(--ink) url(/images/chayce-cottage.jpg) center/cover no-repeat;padding:88px 0 96px;text-align:center;overflow:hidden}
+.final-cta:not(.home-final)::before{content:'';position:absolute;inset:0;background:linear-gradient(180deg,rgba(20,22,29,.93) 0%,rgba(20,22,29,.87) 60%,var(--ink) 100%)}
+.final-cta:not(.home-final) .container{position:relative;z-index:2}
+.final-cta:not(.home-final) h3{font-family:'Poppins',sans-serif;font-weight:500;font-size:32px;color:#fff;margin:0 0 12px}
+.final-cta:not(.home-final) p{color:#cfd0d4;font-size:16px;margin:0 auto 30px;max-width:520px}
+.final-cta:not(.home-final) .btn-row{display:flex;gap:16px;justify-content:center;flex-wrap:wrap}
+.final-cta:not(.home-final) .btn-lg.primary{background:var(--gold);color:var(--ink)}
+.final-cta:not(.home-final) .btn-lg.primary:hover{background:var(--gold-light);color:var(--ink)}
 .final-cta .cta-alt{margin:22px 0 0;font-size:16px;color:#9a9da5}
 .final-cta .cta-alt a{color:var(--gold-light);text-decoration:none;font-weight:500}
 .final-cta + .chayce-footer{padding-top:0}
