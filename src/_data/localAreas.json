@@ -17,7 +17,10 @@
       "If you are moving closer to family, the direct rail link to London can make visits easier after the move."
     ],
     "faqTitle": "Do you help people moving out of Kettering to other parts of the UK?",
-    "faqAnswer": "Yes. Chayce arranges later-life moves from Kettering to anywhere in the UK, as well as moves within Kettering and the surrounding area. We coordinate sorting, packing, the removal and settling in at the new home."
+    "faqAnswer": "Yes. Chayce arranges later-life moves from Kettering to anywhere in the UK, as well as moves within Kettering and the surrounding area. We coordinate sorting, packing, the removal and settling in at the new home.",
+    "heroImage": "chayce-gallery1.jpg",
+    "image": "chayce-about2.jpg",
+    "image2": "chayce-cottage.jpg"
   },
   {
     "slug": "wellingborough",
@@ -37,7 +40,10 @@
       "If your move depends on a house sale, we liaise with your estate agent and solicitor so dates stay in step."
     ],
     "faqTitle": "How close is Chayce to Wellingborough?",
-    "faqAnswer": "Our office is in Northampton, around 11 miles from Wellingborough, so we can arrange an in-person Discovery Consultation locally or by phone, whichever you prefer."
+    "faqAnswer": "Our office is in Northampton, around 11 miles from Wellingborough, so we can arrange an in-person Discovery Consultation locally or by phone, whichever you prefer.",
+    "heroImage": "chayce-platinum-hero.jpg",
+    "image": "chayce-gallery2.jpg",
+    "image2": "chayce-hero-uk.jpg"
   },
   {
     "slug": "daventry",
@@ -57,6 +63,9 @@
       "Moving from a village home into a smaller property in town or elsewhere is a common reason people ask for downsizing help."
     ],
     "faqTitle": "Do you cover villages around Daventry?",
-    "faqAnswer": "Yes. We work in Daventry and the surrounding villages as well as across the rest of Northamptonshire and the UK. Tell us your postcode when you contact us and we will confirm the details."
+    "faqAnswer": "Yes. We work in Daventry and the surrounding villages as well as across the rest of Northamptonshire and the UK. Tell us your postcode when you contact us and we will confirm the details.",
+    "heroImage": "chayce-contact.jpg",
+    "image": "chayce-hero2.jpg",
+    "image2": "chayce-about2.jpg"
   }
 ]

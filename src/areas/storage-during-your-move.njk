@@ -5,34 +5,47 @@ description: "Secure, insured storage for belongings that are not moving straigh
 permalink: "/storage-during-your-move/"
 activeKey: "services"
 ---
-<div class="page-hero--region" style="background-image:url({% imageUrl "chayce-hero1.jpg" %});{% imageSet "chayce-hero1.jpg" %};background-size:cover;background-position:center;">
+<div class="pg-hero" style="background-image:url({% imageUrl "hiw2-quote-moving-boxes.jpg" %});{% imageSet "hiw2-quote-moving-boxes.jpg" %}">
   <div class="container">
     <p class="breadcrumb"><a href="/">Home</a> / <a href="/services/">Services</a> / <em>Storage</em></p>
-    <h1>Storage Between House Moves</h1>
-    <p class="sub">Secure, insured storage when your sale and your new home do not line up</p>
+    <h1>Storage <em>Between House Moves</em></h1>
+    <p class="lead">Secure, insured storage when your sale and your new home do not line up.</p>
+    <div class="pg-chips"><span><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V8a4 4 0 018 0v3"/></svg>Secure and insured</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h11v10H3zM14 9h4l3 3v4h-7"/><circle cx="7" cy="18" r="1.8"/><circle cx="17" cy="18" r="1.8"/></svg>Collection and delivery arranged</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>Up to 6 weeks in Gold Prestige</span></div>
   </div>
 </div>
 
-<section class="page-section">
+<section class="stage-block">
   <div class="container">
-    <div class="area-copy">
-      <div class="area-rail"><p class="area-eyebrow">Storage solutions</p></div>
-      <div class="area-body">
-      <h2>Short-term storage when downsizing or moving house</h2>
-      <p><strong>Short answer:</strong> storage lets older people and their families move out of a home on one date and into the next on another, or keep furniture and belongings that will not fit in a smaller property, without rushing either decision. Chayce books secure, insured storage for belongings not moving straight into your new home, and arranges collection and delivery alongside your fully insured removal.</p>
-      <p>Storage is useful in a few common situations: you are downsizing and are not yet sure what will fit, your sale completes before your new home is ready, or you want to stage your current home for sale with some furniture removed.</p>
-
-      <h2>How it works with Chayce</h2>
-      <p>Chayce handles the booking, and arranges collection from your home and delivery when you are ready. You do not need to find, compare or manage a storage provider yourself. Storage sits alongside the rest of your move, so the same coordinator who plans your sorting, packing and removal also plans when your belongings go in and when they come back out.</p>
-
-      <h2>Which packages include storage</h2>
-      <p>Our <a href="/gold-prestige/">Gold Prestige</a> package, from &pound;{{ (site.packages | findByKey("gold")).price | gbp }}, includes up to 6 weeks of storage, specifically to bridge the gap when your sale completion and your new-home move-in date do not match. See <a href="/packages/">all packages and prices</a> to compare what each includes.</p>
-
-      <h2>Storage near Northampton and across the UK</h2>
-      <p>We are based in Northampton and arrange later-life moves across the UK. Tell us where you are moving from and to when you contact us, and we will explain how storage would fit around your dates. See also <a href="/northampton/">senior movers in Northampton</a> and our <a href="/areas-we-cover/">areas we cover</a>.</p>
-      <div class="area-honest">
-        <p>Ask us about your dates. Call <a href="tel:+447708925432">{{ site.telephoneDisplay }}</a> or email {{ site.email }}, open {{ site.openingHoursText }}.</p>
-      </div></div>
+    <div class="stage-media">
+      <span class="num-badge">Storage solutions</span>
+      {% image "chayce-gallery3.jpg", "A family relaxing in a comfortable home" %}
+    </div>
+    <div class="stage-copy">
+      <h2>Short-term storage when <em>downsizing or moving house</em></h2>
+      <div class="stage-practice"><p><strong>Short answer</strong>Storage lets older people and their families move out of a home on one date and into the next on another, or keep furniture and belongings that will not fit in a smaller property, without rushing either decision. Chayce books secure, insured storage for belongings not moving straight into your new home, and arranges collection and delivery alongside your fully insured removal.</p></div>
+      <p class="stage-intro">Storage is useful in a few common situations: you are downsizing and are not yet sure what will fit, your sale completes before your new home is ready, or you want to stage your current home for sale with some furniture removed.</p>
+      <div class="svc-grid">
+        <div class="svc-card">
+          <span class="svc-icon"><i class="fas fa-truck"></i></span>
+          <h3 class="svc-name">How it works with Chayce</h3>
+          <p class="svc-desc">Chayce handles the booking, and arranges collection from your home and delivery when you are ready. You do not need to find, compare or manage a storage provider yourself. Storage sits alongside the rest of your move, so the same coordinator who plans your sorting, packing and removal also plans when your belongings go in and when they come back out.</p>
+        </div>
+        <div class="svc-card">
+          <span class="svc-icon"><i class="fas fa-boxes"></i></span>
+          <h3 class="svc-name">Which packages include storage</h3>
+          <p class="svc-desc">Our <a href="/gold-prestige/">Gold Prestige</a> package, from &pound;{{ (site.packages | findByKey("gold")).price | gbp }}, includes up to 6 weeks of storage, specifically to bridge the gap when your sale completion and your new-home move-in date do not match. See <a href="/packages/">all packages and prices</a> to compare what each includes.</p>
+        </div>
+        <div class="svc-card">
+          <span class="svc-icon"><i class="fas fa-map-marker-alt"></i></span>
+          <h3 class="svc-name">Storage near Northampton and across the UK</h3>
+          <p class="svc-desc">We are based in Northampton and arrange later-life moves across the UK. Tell us where you are moving from and to when you contact us, and we will explain how storage would fit around your dates. See also <a href="/northampton/">senior movers in Northampton</a> and our <a href="/areas-we-cover/">areas we cover</a>.</p>
+        </div>
+        <div class="svc-card">
+          <span class="svc-icon"><i class="fas fa-phone-alt"></i></span>
+          <h3 class="svc-name">Ask us about your dates</h3>
+          <p class="svc-desc">Call <a href="tel:+447708925432">{{ site.telephoneDisplay }}</a> or email {{ site.email }}, open {{ site.openingHoursText }}.</p>
+        </div>
+      </div>
     </div>
   </div>
 </section>
@@ -50,13 +63,14 @@ activeKey: "services"
   </div>
 </section>
 
-<section class="pkg-close-cta">
+<section class="pkg-teaser">
   <div class="container">
-    <h2>Not sure how storage fits your move?</h2>
-    <p>A Discovery Consultation maps out your dates and what needs storing.</p>
-    <div class="btn-row">
-      <a href="/discovery/" class="primary">Book a Discovery Consultation</a>
-      <a href="/contact/" class="ghost">Contact Us</a>
+    <div class="panel">
+      <span class="home-eyebrow">Not sure how storage fits?</span>
+      <h2>A Discovery Consultation maps out <em>your dates</em></h2>
+      <p>It covers your timeline and what needs storing, with no obligation.</p>
+      <ul class="pkg-links"><li><a href="/gold-prestige/">Gold Prestige</a></li><li><a href="/packages/">All packages</a></li></ul>
+      <a class="explore" href="/discovery/">Book a Discovery Consultation &rarr;</a>
     </div>
   </div>
 </section>
