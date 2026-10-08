@@ -5,42 +5,58 @@ description: "Chayce's DBS-checked team, insurance, how we support older and vul
 permalink: "/trust-and-safeguarding/"
 activeKey: "about-chayce"
 ---
-<div class="page-hero--region" style="background-image:url({% imageUrl "chayce-hero1.jpg" %});{% imageSet "chayce-hero1.jpg" %};background-size:cover;background-position:center;">
+<div class="pg-hero" style="background-image:url({% imageUrl "chayce-welcome-hero.jpg" %});{% imageSet "chayce-welcome-hero.jpg" %}">
   <div class="container">
     <p class="breadcrumb"><a href="/">Home</a> / <em>Trust &amp; Safeguarding</em></p>
-    <h1>Safeguarding, DBS Checks and How We Protect Our Clients</h1>
-    <p class="sub">What you can expect when we are in your home or your parent&rsquo;s home</p>
+    <h1>Safeguarding, DBS Checks and <em>How We Protect Our Clients</em></h1>
+    <p class="lead">What you can expect when we are in your home or your parent&rsquo;s home.</p>
+    <div class="pg-chips"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l7 3v5c0 4.5-3 8-7 10-4-2-7-5.5-7-10V6l7-3z"/><path d="M9 12l2 2 4-4"/></svg>DBS-checked staff</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 8l9-5 9 5v8l-9 5-9-5V8z"/><path d="M3 8l9 5 9-5M12 13v8"/></svg>Goods in transit insured</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V8a4 4 0 018 0v3"/></svg>Public liability insured</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.2-7-11a7 7 0 0114 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>Based in Northampton</span></div>
   </div>
 </div>
 
-<section class="page-section">
+<section class="stage-block">
   <div class="container">
-    <div class="area-copy">
-      <div class="area-rail"><p class="area-eyebrow">Trust &amp; safeguarding</p></div>
-      <div class="area-body">
-      <h2>Why this matters when you are moving an older person</h2>
-      <p>A later-life move means people coming into a home that has often been lived in for decades, and handling belongings that matter deeply. It is reasonable to ask who is coming, how they have been checked and what happens if something goes wrong. This page sets out our answers plainly.</p>
-
-      {% if site.trust.dbsCheckedStaff %}
-      <h2>DBS-checked staff</h2>
-      <p>The people who work in clients&rsquo; homes for Chayce are DBS-checked{% if site.trust.dbsLevel %} to {{ site.trust.dbsLevel }} level{% if site.trust.dbsBarredList %}, including the barred list check{% endif %}{% endif %}. A DBS check is a criminal record check carried out through the Disclosure and Barring Service, which covers England and Wales. That covers the team doing packing, removals and downsizing support for older people. We work with our own vetted team rather than outsourcing your move to unknown subcontractors.</p>
-      {% endif %}
-
-      <h2>Insurance</h2>
-      <p>Every removal is fully insured against loss or damage in transit. Chayce holds goods in transit insurance and public liability insurance. The details are set out in the service agreement before the move begins, so you can read them before you commit. See our <a href="/terms-of-service/">terms of service</a>.</p>
-
-      <h2>Supporting older and vulnerable clients</h2>
-      <p>Many of the people we help are older, and some are being helped by a son, daughter or other family member. If someone else holds a Lasting Power of Attorney or is helping to make decisions, please tell us at the start so that decisions are made by the right person. Our <a href="/blog/lasting-power-of-attorney-moving-a-parent/">guide to Lasting Power of Attorney and moving a parent</a> explains the basics.</p>
-
-      <h2>If something goes wrong</h2>
-      <p>If you are unhappy with any part of your move, tell us as soon as you can by phone on <a href="tel:+447708925432">{{ site.telephoneDisplay }}</a> or by email at {{ site.email }}.{% if site.trust.complaintsResponseDays %} We will acknowledge your complaint within {{ site.trust.complaintsResponseDays }} working days.{% endif %} We will look into what happened and tell you what we will do about it.</p>
-
-      <h2>Your information</h2>
-      <p>We only use your personal information to plan and carry out your move. See our <a href="/privacy-policy/">privacy policy</a> for exactly what we collect, why, and your rights.</p>
-
-      <div class="area-honest">
-        <p>{{ site.legalName }}, company number {{ site.companiesHouseNumber }}, registered in {{ site.registeredCountry }}. Registered office and office: Unit F2B Barratt House, Kingsthorpe Road, Northampton NN2 6EZ, open {{ site.openingHoursText }}.</p>
-      </div></div>
+    <div class="stage-media">
+      <span class="num-badge">Trust &amp; safeguarding</span>
+      {% image "hiw2-who-grandparents.jpg", "An older couple sitting together outdoors" %}
+    </div>
+    <div class="stage-copy">
+      <h2>Why this matters when you are <em>moving an older person</em></h2>
+      <p class="stage-intro">A later-life move means people coming into a home that has often been lived in for decades, and handling belongings that matter deeply. It is reasonable to ask who is coming, how they have been checked and what happens if something goes wrong. This page sets out our answers plainly.</p>
+      <div class="svc-grid">
+        {% if site.trust.dbsCheckedStaff %}
+        <div class="svc-card wide">
+          <span class="svc-icon"><i class="fas fa-user-shield"></i></span>
+          <h3 class="svc-name">DBS-checked staff</h3>
+          <p class="svc-desc">The people who work in clients&rsquo; homes for Chayce are DBS-checked{% if site.trust.dbsLevel %} to {{ site.trust.dbsLevel }} level{% if site.trust.dbsBarredList %}, including the barred list check{% endif %}{% endif %}. A DBS check is a criminal record check carried out through the Disclosure and Barring Service, which covers England and Wales. That covers the team doing packing, removals and downsizing support for older people. We work with our own vetted team rather than outsourcing your move to unknown subcontractors.</p>
+        </div>
+        {% endif %}
+        <div class="svc-card">
+          <span class="svc-icon"><i class="fas fa-boxes"></i></span>
+          <h3 class="svc-name">Insurance</h3>
+          <p class="svc-desc">Every removal is fully insured against loss or damage in transit. Chayce holds goods in transit insurance and public liability insurance. The details are set out in the service agreement before the move begins, so you can read them before you commit. See our <a href="/terms-of-service/">terms of service</a>.</p>
+        </div>
+        <div class="svc-card">
+          <span class="svc-icon"><i class="fas fa-hand-holding-heart"></i></span>
+          <h3 class="svc-name">Supporting older and vulnerable clients</h3>
+          <p class="svc-desc">Many of the people we help are older, and some are being helped by a son, daughter or other family member. If someone else holds a Lasting Power of Attorney or is helping to make decisions, please tell us at the start so that decisions are made by the right person. Our <a href="/blog/lasting-power-of-attorney-moving-a-parent/">guide to Lasting Power of Attorney and moving a parent</a> explains the basics.</p>
+        </div>
+        <div class="svc-card">
+          <span class="svc-icon"><i class="fas fa-comments"></i></span>
+          <h3 class="svc-name">If something goes wrong</h3>
+          <p class="svc-desc">If you are unhappy with any part of your move, tell us as soon as you can by phone on <a href="tel:+447708925432">{{ site.telephoneDisplay }}</a> or by email at {{ site.email }}.{% if site.trust.complaintsResponseDays %} We will acknowledge your complaint within {{ site.trust.complaintsResponseDays }} working days.{% endif %} We will look into what happened and tell you what we will do about it.</p>
+        </div>
+        <div class="svc-card">
+          <span class="svc-icon"><i class="fas fa-lock"></i></span>
+          <h3 class="svc-name">Your information</h3>
+          <p class="svc-desc">We only use your personal information to plan and carry out your move. See our <a href="/privacy-policy/">privacy policy</a> for exactly what we collect, why, and your rights.</p>
+        </div>
+        <div class="svc-card wide">
+          <span class="svc-icon"><i class="fas fa-building"></i></span>
+          <h3 class="svc-name">Company details</h3>
+          <p class="svc-desc">{{ site.legalName }}, company number {{ site.companiesHouseNumber }}, registered in {{ site.registeredCountry }}. Registered office and office: Unit F2B Barratt House, Kingsthorpe Road, Northampton NN2 6EZ, open {{ site.openingHoursText }}.</p>
+        </div>
+      </div>
     </div>
   </div>
 </section>
@@ -57,13 +73,14 @@ activeKey: "about-chayce"
   </div>
 </section>
 
-<section class="pkg-close-cta">
+<section class="pkg-teaser">
   <div class="container">
-    <h2>Questions before you decide?</h2>
-    <p>Ask us anything about how we work. There is no obligation.</p>
-    <div class="btn-row">
-      <a href="/discovery/" class="primary">Book a Discovery Consultation</a>
-      <a href="/contact/" class="ghost">Contact Us</a>
+    <div class="panel">
+      <span class="home-eyebrow">Questions before you decide</span>
+      <h2>Ask us <em>anything</em> about how we work</h2>
+      <p>There is no obligation. Book a Discovery Consultation or get in touch and we will answer plainly.</p>
+      <ul class="pkg-links"><li><a href="/contact/">Contact us</a></li><li><a href="/services/">Our services</a></li></ul>
+      <a class="explore" href="/discovery/">Book a Discovery Consultation &rarr;</a>
     </div>
   </div>
 </section>

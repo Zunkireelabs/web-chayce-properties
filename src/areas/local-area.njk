@@ -10,61 +10,84 @@ eleventyComputed:
   title: "Senior Movers & Downsizing Help in {{ area.name }}, UK | Chayce"
   description: "Chayce arranges downsizing, packing and removals for older people in {{ area.name }} and across the UK. Based in Northampton. Call {{ site.telephoneDisplay }}."
 ---
-<div class="page-hero--region" style="background-image:url({% imageUrl "chayce-hero1.jpg" %});{% imageSet "chayce-hero1.jpg" %};background-size:cover;background-position:center;">
+
+<div class="pg-hero" style="background-image:url({% imageUrl area.heroImage %});{% imageSet area.heroImage %}">
   <div class="container">
     <p class="breadcrumb"><a href="/">Home</a> / <a href="/areas-we-cover/">Areas We Cover</a> / <em>{{ area.name }}</em></p>
     <h1>Senior Movers &amp; Downsizing Help in <em>{{ area.name }}</em></h1>
-    <p class="sub">Later-life moving support for {{ area.name }} and {{ area.county }}, from our Northampton base</p>
+    <p class="lead">Later-life moving support for {{ area.name }} and {{ area.county }}, from our Northampton base</p>
+    <div class="pg-chips">
+      <span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.2-7-11a7 7 0 0114 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>{{ area.distance }} from our office</span>
+      <span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l7 3v5c0 4.5-3 8-7 10-4-2-7-5.5-7-10V6l7-3z"/><path d="M9 12l2 2 4-4"/></svg>DBS-checked staff</span>
+      <span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 8l9-5 9 5v8l-9 5-9-5V8z"/><path d="M3 8l9 5 9-5M12 13v8"/></svg>Fully insured removals</span>
+    </div>
   </div>
 </div>
 
-<section class="page-section">
+<section class="stage-block">
   <div class="container">
-    <div class="area-copy">
-      <div class="area-rail"><p class="area-eyebrow">{{ area.name }}, {{ area.county }}</p></div>
-      <div class="area-body">
-      <h2>Downsizing help and elderly removals in {{ area.name }}</h2>
-      <p><strong>Short answer:</strong> Chayce Properties arranges downsizing help, careful packing, fully insured removals for older people and settling-in support in {{ area.name }}, {{ area.county }}, with one dedicated coordinator. We are based in Northampton, {{ area.distance }} {{ area.direction }} of {{ area.name }}, and packages start from &pound;{{ (site.packages | findByKey("bronze")).price | gbp }}.</p>
-      <p>{{ area.context }}</p>
-      <p>{{ area.name }} is {{ area.distance }} {{ area.direction }} of Chayce Properties&rsquo; Northampton office, via {{ area.road }}. We help older people and their families with downsizing, packing, removals and settling in when leaving a long-held home, whether that is a move within {{ area.name }} or to another part of the UK. One dedicated coordinator looks after the whole journey, so you are not juggling several separate companies.</p>
-
-      <h2>Things to plan for in {{ area.name }}</h2>
-      <ul>
-        {% for item in area.planFor %}<li>{{ item }}</li>
-        {% endfor %}
-      </ul>
-
-      <h2>Local information</h2>
-      <p>A move in {{ area.name }} falls under {{ area.council }}, and local postcodes start with {{ area.postcodes }}. {{ area.rail }}. For hospital care, {{ area.hospital }}. You can find your local council, and its adult social care services, on <a href="https://www.gov.uk/find-local-council" rel="noopener">GOV.UK</a>.</p>
-      <p>Where to start: <a href="/downsizing-help-for-elderly/">downsizing help for older people</a>, <a href="/storage-during-your-move/">storage between house moves</a>, <a href="/moving-elderly-parent/">moving an elderly parent</a>, <a href="/senior-move-manager-uk/">what a senior move manager does</a> and our <a href="/services/">services</a>. See also <a href="/northampton/">senior movers in Northampton</a> and <a href="/areas-we-cover/">all the areas we cover</a>.</p>
-      <div class="area-honest">
-        <p>Our office is at Unit F2B Barratt House, Kingsthorpe Road, Northampton NN2 6EZ, open {{ site.openingHoursText }}. Call <a href="tel:+447708925432">{{ site.telephoneDisplay }}</a> or email {{ site.email }} to arrange a phone consultation or a visit.</p>
-      </div></div>
+    <div class="stage-media">
+      <span class="num-badge">{{ area.name }} &middot; {{ area.county }}</span>
+      {% image area.image, "Homes and interiors in and around " + area.name %}
+    </div>
+    <div class="stage-copy">
+      <h2>Downsizing help and elderly removals <em>in {{ area.name }}</em></h2>
+      <div class="stage-practice"><p><strong>Short answer</strong>Chayce Properties arranges downsizing help, careful packing, fully insured removals for older people and settling-in support in {{ area.name }}, {{ area.county }}, with one dedicated coordinator. We are based in Northampton, {{ area.distance }} {{ area.direction }} of {{ area.name }}, and packages start from &pound;{{ (site.packages | findByKey("bronze")).price | gbp }}.</p></div>
+      <p class="stage-intro">{{ area.context }}</p>
+      <div class="svc-grid svc-facts">
+        <div class="svc-card">
+          <span class="svc-icon"><i class="fas fa-map"></i></span>
+          <h3 class="svc-name">County</h3>
+          <p class="svc-desc">{{ area.county }}</p>
+        </div>
+        <div class="svc-card">
+          <span class="svc-icon"><i class="fas fa-landmark"></i></span>
+          <h3 class="svc-name">Council</h3>
+          <p class="svc-desc">{{ area.council }}</p>
+        </div>
+        <div class="svc-card">
+          <span class="svc-icon"><i class="fas fa-envelope"></i></span>
+          <h3 class="svc-name">Postcodes</h3>
+          <p class="svc-desc">{{ area.postcodes }}</p>
+        </div>
+        <div class="svc-card">
+          <span class="svc-icon"><i class="fas fa-road"></i></span>
+          <h3 class="svc-name">From our office</h3>
+          <p class="svc-desc">{{ area.distance }} {{ area.direction }}, via {{ area.road }}</p>
+        </div>
+        <div class="svc-card">
+          <span class="svc-icon"><i class="fas fa-hospital"></i></span>
+          <h3 class="svc-name">Hospital</h3>
+          <p class="svc-desc">{{ area.hospital }}</p>
+        </div>
+        <div class="svc-card">
+          <span class="svc-icon"><i class="fas fa-train"></i></span>
+          <h3 class="svc-name">Getting around</h3>
+          <p class="svc-desc">{{ area.rail }}</p>
+        </div>
+      </div>
     </div>
   </div>
 </section>
 
-<section class="page-section grey">
+<section class="stage-block alt reverse">
   <div class="container">
-    <div class="area-pkg-grid">
-      <div class="area-pkg-card">
-        <span class="num">01</span>
-        <h4>Discovery Consultation</h4>
-        <p>An hour with us, in person or by phone, to plan your move, timeline and budget. From &pound;{{ (site.packages | findByKey("discovery")).price | gbp }}.</p>
-        <a href="/discovery/">See Discovery Consultation &rarr;</a>
+    <div class="stage-media">
+      <span class="num-badge">Planning your move</span>
+      {% image area.image2, "A home near " + area.name + " ready for a move" %}
+    </div>
+    <div class="stage-copy">
+      <h2>Things to plan for <em>in {{ area.name }}</em></h2>
+      <p class="stage-intro">{{ area.name }} is {{ area.distance }} {{ area.direction }} of Chayce Properties&rsquo; Northampton office, via {{ area.road }}. We help older people and their families with downsizing, packing, removals and settling in when leaving a long-held home, whether that is a move within {{ area.name }} or to another part of the UK. One dedicated coordinator looks after the whole journey, so you are not juggling several separate companies.</p>
+      <div class="svc-grid">
+        {% for item in area.planFor %}<div class="svc-card{% if loop.last and loop.length % 2 == 1 %} wide{% endif %}">
+          <span class="svc-icon"><i class="fas fa-check"></i></span>
+          <p class="svc-desc">{{ item }}</p>
+        </div>
+        {% endfor %}
       </div>
-      <div class="area-pkg-card">
-        <span class="num">02</span>
-        <h4>Bronze Essentials</h4>
-        <p>Packing, removals and light cleaning for a straightforward move. From &pound;{{ (site.packages | findByKey("bronze")).price | gbp }}.</p>
-        <a href="/bronze-essentials/">See Bronze Essentials &rarr;</a>
-      </div>
-      <div class="area-pkg-card">
-        <span class="num">03</span>
-        <h4>Silver Comfort</h4>
-        <p>A full-service move with a dedicated coordinator, from sorting to unpacking. From &pound;{{ (site.packages | findByKey("silver")).price | gbp }}.</p>
-        <a href="/silver-comfort/">See Silver Comfort &rarr;</a>
-      </div>
+      <p class="stage-intro" style="margin-top:28px">A move in {{ area.name }} falls under {{ area.council }}. You can find your local council, and its adult social care services, on <a href="https://www.gov.uk/find-local-council" rel="noopener">GOV.UK</a>.</p>
+      <p class="stage-intro">Where to start: <a href="/downsizing-help-for-elderly/">downsizing help for older people</a>, <a href="/storage-during-your-move/">storage between house moves</a>, <a href="/moving-elderly-parent/">moving an elderly parent</a>, <a href="/senior-move-manager-uk/">what a senior move manager does</a> and our <a href="/services/">services</a>. See also <a href="/northampton/">senior movers in Northampton</a> and <a href="/areas-we-cover/">all the areas we cover</a>.</p>
     </div>
   </div>
 </section>
@@ -83,16 +106,19 @@ eleventyComputed:
   </div>
 </section>
 
-<section class="pkg-close-cta">
+<section class="pkg-teaser">
   <div class="container">
-    <h2>Planning a move in or around {{ area.name }}?</h2>
-    <p>Tell us a little about your situation and we&rsquo;ll help you find the right next step.</p>
-    <div class="btn-row">
-      <a href="/discovery/" class="primary">Book a Discovery Consultation</a>
-      <a href="/contact/" class="ghost">Contact Us</a>
+    <div class="panel">
+      <span class="home-eyebrow">Our packages</span>
+      <h2>Choose the <em>level of help</em> you need</h2>
+      <p>From an hour&rsquo;s planning to a complete, coordinated move, with packages starting from &pound;{{ (site.packages | findByKey("bronze")).price | gbp }}.</p>
+      <ul class="pkg-links"><li><a href="/discovery/">Discovery Consultation</a></li><li><a href="/bronze-essentials/">Bronze Essentials</a></li><li><a href="/silver-comfort/">Silver Comfort</a></li></ul>
+      <a class="explore" href="/packages/">Compare all packages &rarr;</a>
     </div>
   </div>
 </section>
+
+<p class="pg-note">Our office is at Unit F2B Barratt House, Kingsthorpe Road, Northampton NN2 6EZ, open {{ site.openingHoursText }}. Call <a href="tel:+447708925432">{{ site.telephoneDisplay }}</a> or email {{ site.email }} to arrange a phone consultation or a visit.</p>
 
 <script type="application/ld+json">{"@type":"BreadcrumbList","@context":"https://schema.org","itemListElement":[{"item":"{{ site.url }}/","name":"Home","@type":"ListItem","position":1},{"item":"{{ site.url }}/areas-we-cover/","name":"Areas We Cover","@type":"ListItem","position":2},{"item":"{{ site.url }}/senior-movers-{{ area.slug }}/","name":"{{ area.name }}","@type":"ListItem","position":3}]}</script>
 <script type="application/ld+json">

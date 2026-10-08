@@ -106,10 +106,12 @@ add_header Content-Security-Policy-Report-Only "default-src 'self'; report-uri /
         add_header Cache-Control "no-cache, no-store, must-revalidate";
     }
 
-    # Sitemap and robots — short cache
+    # Sitemap and robots — always revalidate, so Google never works from a
+    # day-old copy after a deploy (a stale cached sitemap kept Search Console
+    # at the old URL count). ETag/Last-Modified still give cheap 304s.
     location ~* (sitemap\.xml|robots\.txt)$ {
-        expires 1d;
-        add_header Cache-Control "public, max-age=86400";
+        expires -1;
+        add_header Cache-Control "no-cache";
     }
 
     # Leftovers from the previous owner of this domain (a casino/spam site):
