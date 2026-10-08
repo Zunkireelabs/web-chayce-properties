@@ -1,0 +1,66 @@
+---
+pagination:
+  data: regions
+  size: 1
+  alias: region
+  addAllPagesToCollections: true
+permalink: "/{{ region.slug }}/"
+modified: "2026-10-08"
+eleventyComputed:
+  title: "Senior Moves in {{ region.name }} | Chayce"
+  description: "Later-life moving, downsizing and removals in {{ region.name }}, arranged by Chayce from our Northampton base with one dedicated coordinator."
+---
+<div class="pg-hero" style="background-image:url({% imageUrl region.img %});{% imageSet region.img %}">
+  <div class="container">
+    <p class="breadcrumb"><a href="/">Home</a> / <a href="/areas-we-cover/">Areas We Cover</a> / <em>{{ region.short }}</em></p>
+    <h1>Senior Moves in <em>{{ region.name }}</em></h1>
+    <p class="lead">Later-life moving support from our Northampton base, with one coordinator from first call to settling in</p>
+    <div class="pg-chips">
+      <span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.2-7-11a7 7 0 0114 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>Northampton base</span>
+      <span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l7 3v5c0 4.5-3 8-7 10-4-2-7-5.5-7-10V6l7-3z"/><path d="M9 12l2 2 4-4"/></svg>DBS-checked staff</span>
+      <span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 8l9-5 9 5v8l-9 5-9-5V8z"/><path d="M3 8l9 5 9-5M12 13v8"/></svg>Fully insured removals</span>
+    </div>
+  </div>
+</div>
+
+<section class="stage-block">
+  <div class="container">
+    <div class="stage-media">
+      <span class="num-badge">{{ region.name }}</span>
+      {% image region.img, "A home in " + region.name + " ready for a later-life move" %}
+    </div>
+    <div class="stage-copy">
+      <h2>{{ region.h2 | safe }}</h2>
+      <p class="stage-intro">{{ region.intro }}</p>
+      <div class="svc-grid">
+        {% for c in region.cards %}<div class="svc-card{% if loop.last and loop.length % 2 == 1 %} wide{% endif %}"><span class="svc-icon"><i class="fas {{ c.icon }}"></i></span><h3 class="svc-name">{{ c.title }}</h3><p class="svc-desc">{{ c.text }}</p></div>
+        {% endfor %}
+      </div>
+      <div class="stage-practice" style="margin-top:32px"><p><strong>Getting there from Northampton</strong>{{ region.note }}</p></div>
+      <p class="stage-intro" style="margin-top:24px">Start with a <a href="/discovery/">Discovery Consultation (&pound;150)</a>, or see <a href="/packages/">packages and prices</a>, <a href="/downsizing-help-for-elderly/">downsizing help</a> and <a href="/areas-we-cover/">all the areas we cover</a>.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ac-intro" style="background:var(--bg-warm)">
+  <div class="container">
+    <div class="ac-intro-copy" style="margin-bottom:32px"><span class="ac-eyebrow">Other regions</span><h2>Moving somewhere <em>else?</em></h2></div>
+    <div class="ac-tiles">
+      {% for r in regions %}{% if r.slug != region.slug %}<a href="/{{ r.slug }}/" class="ac-tile" style="background-image:url({% imageUrl r.img %})"><span class="ac-tile-n">{{ r.n }}</span><span class="ac-tile-t">{{ r.short }}</span></a>
+      {% endif %}{% endfor %}<a href="/northampton/" class="ac-tile" style="background-image:url({% imageUrl "chayce-uk-northampton.jpg" %})"><span class="ac-tile-n">HQ</span><span class="ac-tile-t">Northampton</span></a>
+    </div>
+  </div>
+</section>
+
+<section class="pkg-close-cta">
+  <div class="container">
+    <h2>Planning a move in {{ region.short }}?</h2>
+    <p>Tell us a little about your situation and we&rsquo;ll help you find the right next step.</p>
+    <div class="btn-row">
+      <a href="/discovery/" class="primary">Book a Discovery Consultation</a>
+      <a href="/contact/" class="ghost">Contact Us</a>
+    </div>
+  </div>
+</section>
+
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"{{ site.url }}/"},{"@type":"ListItem","position":2,"name":"Areas We Cover","item":"{{ site.url }}/areas-we-cover/"},{"@type":"ListItem","position":3,"name":"{{ region.short }}","item":"{{ site.url }}/{{ region.slug }}/"}]}</script>

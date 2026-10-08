@@ -1,0 +1,105 @@
+[
+ {
+  "slug": "london-south-east",
+  "name": "London & the South East",
+  "short": "London & South East",
+  "img": "chayce-uk-london.jpg",
+  "h2": "What tends to matter in a London or <em>South East move</em>",
+  "intro": "Property chains can run long, so timing a sale against a purchase elsewhere takes careful management. This is where chauffeur-driven viewings and estate agent liaison (from Gold Prestige) are most useful.",
+  "cards": [
+   {
+    "icon": "fa-building",
+    "title": "Leasehold flats",
+    "text": "Service charges, managing agents and remaining lease length sit alongside the usual sale process."
+   },
+   {
+    "icon": "fa-coins",
+    "title": "Higher values",
+    "text": "Downsizing, releasing equity or moving closer to family can be more financially complex. We help you plan around it; we do not give financial or legal advice."
+   },
+   {
+    "icon": "fa-truck",
+    "title": "Moving-day rules",
+    "text": "Parking suspensions, loading restrictions, the Congestion Charge and ULEZ in central London, plus building rules on lift booking and vehicle access hours. We plan around these before moving day, not on it."
+   }
+  ],
+  "note": "Your coordinator can manage the move remotely and in person as needed, including viewings, staging visits and moving day, wherever in the region you are moving from or to.",
+  "n": "01"
+ },
+ {
+  "slug": "home-counties",
+  "name": "The Home Counties",
+  "short": "Home Counties",
+  "img": "chayce-uk-homecounties.jpg",
+  "h2": "What tends to matter in a <em>Home Counties</em> move",
+  "intro": "A mix of village, market-town and commuter-belt properties, often with access considerations a city move does not have. We plan around these details from the first conversation.",
+  "cards": [
+   {
+    "icon": "fa-road",
+    "title": "Access",
+    "text": "Long driveways, narrow lanes, or limited parking near the property."
+   },
+   {
+    "icon": "fa-home",
+    "title": "Village to village",
+    "text": "Many moves are from a larger rural property into something more manageable nearby, close to a community, GP surgery or family."
+   },
+   {
+    "icon": "fa-key",
+    "title": "Sale and move together",
+    "text": "Where a family home is sold to fund a smaller one, staging and estate agent liaison can run alongside sorting and packing."
+   }
+  ],
+  "note": "Northampton is within practical road reach of much of the Home Counties, so viewings and moving day can be planned with realistic travel times.",
+  "n": "02"
+ },
+ {
+  "slug": "south-west-coast",
+  "name": "The South West & the coast",
+  "short": "South West & Coast",
+  "img": "chayce-uk-coast.jpg",
+  "h2": "What tends to matter in a South West or <em>coastal move</em>",
+  "intro": "The South West and England's coastal towns have a high concentration of retirement developments and age-restricted communities. Each has its own application process, service charges and eligibility rules.",
+  "cards": [
+   {
+    "icon": "fa-water",
+    "title": "Coastal properties",
+    "text": "Damp and structural surveys are more often part of the sale, and nearby holiday lets can affect viewings and moving-day access."
+   },
+   {
+    "icon": "fa-sun",
+    "title": "Seasonal planning",
+    "text": "Summer traffic and tighter vehicle availability in popular coastal towns mean moving dates often benefit from being planned around the season."
+   },
+   {
+    "icon": "fa-building",
+    "title": "Retirement developments",
+    "text": "Application steps, service charges and eligibility rules to work through alongside the move."
+   }
+  ],
+  "note": "Given the distance from Northampton, viewings and key moving-day tasks can be scheduled together where possible, with your coordinator managing the rest remotely.",
+  "n": "03"
+ },
+ {
+  "slug": "cotswolds-midlands",
+  "name": "The Cotswolds & rural Midlands",
+  "short": "Cotswolds & Rural Midlands",
+  "img": "chayce-uk-cotswolds.jpg",
+  "h2": "What tends to matter in a Cotswolds or <em>rural Midlands move</em>",
+  "intro": "Many properties are period or listed buildings (stone cottages, converted barns, farmhouses), often with narrow doorways, uneven access and conservation-area restrictions on things like skip placement or parking.",
+  "cards": [
+   {
+    "icon": "fa-landmark",
+    "title": "Period & listed homes",
+    "text": "Narrow doorways and uneven access shape how furniture and crew are planned."
+   },
+   {
+    "icon": "fa-walking",
+    "title": "Longer carries",
+    "text": "A farmhouse set back from the road or a cottage down a shared track means a longer carry to the vehicle. Flagging this in your consultation lets us plan crew size and timing."
+   }
+  ],
+  "note": "The Midlands are the closest part of the country to our Northampton base, so travel for viewings, staging visits and moving day is shortest here. We still work with clients across the whole UK.",
+  "n": "04"
+ }
+]
