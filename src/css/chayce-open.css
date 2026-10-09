@@ -1,0 +1,41 @@
+/* Open editorial style: thin rules and white space instead of tinted boxes,
+   accent stripes and shadowed cards. `body` in each selector lets these win over
+   the page-level <style> blocks regardless of load order. Delete a rule here to
+   restore that component's original boxed look. */
+
+/* Callout notes: a hairline above, no fill or stripe */
+body .area-honest,
+body .mep-note,
+body .gs-note,
+body .gs-summary,
+body .legal-body blockquote,
+body .pkg-ideal-box,
+body .pkg-example{background:none;border:0;border-top:1px solid var(--border-warm);box-shadow:none;border-radius:0;padding:22px 0 0}
+body .area-honest{margin:36px 0 0}
+body .pkg-example{max-width:760px}
+
+/* Pull quotes: centred serif between two hairlines */
+body .quote-block,
+body .blog-post-body blockquote{background:none;border:0;border-top:1px solid var(--border-warm);border-bottom:1px solid var(--border-warm);box-shadow:none;padding:28px 12px;text-align:center;font-family:'Poppins',sans-serif;font-style:normal;font-weight:400;font-size:21px;line-height:1.6;color:var(--ink);margin:36px 0}
+body .dc-quote{background:none;border:0;border-top:1px solid var(--border-warm);border-bottom:1px solid var(--border-warm);box-shadow:none;padding:40px 0}
+
+/* Panels and story blocks: open, separated by rules */
+body .client-story,
+body .smm-panel,
+body .seoai-compare,
+body .pkg-teaser .panel{background:none;border:0;border-top:1px solid var(--border-warm);border-bottom:1px solid var(--border-warm);border-radius:0;box-shadow:none;padding-left:0;padding-right:0}
+body .client-story{padding-top:34px;padding-bottom:34px}
+body .smm-panel{padding-top:12px;padding-bottom:12px}
+body .seoai-compare{padding-top:26px;padding-bottom:26px}
+body .pkg-teaser .panel{padding-top:56px;padding-bottom:56px}
+
+/* Link row */
+body .mep-guide{background:none;border:0;border-bottom:1px solid var(--border-warm);border-radius:0;padding:20px 0}
+
+/* Card grids: columns divided by a thin top rule, no card chrome */
+body .area-pkg-card,
+body .pkg-fit-card,
+body .why-start-item,
+body .icon-item,
+body .ab-story{background:none;border:0;border-top:1px solid var(--border-warm);border-radius:0;box-shadow:none;padding:24px 0 0}
+body .icon-item{padding:24px 12px 0}

@@ -11,7 +11,7 @@
 .page-hero--left::before{content:'';position:absolute;inset:0;background:
   linear-gradient(100deg,rgba(14,16,20,.92) 0%,rgba(14,16,20,.7) 42%,rgba(14,16,20,.4) 100%),
   linear-gradient(0deg,rgba(10,12,16,.45) 0%,rgba(10,12,16,0) 40%)}
-.page-hero--left .container{position:relative;z-index:2;padding:60px 0}
+.page-hero--left .container{position:relative;z-index:2;padding:60px 15px}
 .page-hero--left .breadcrumb{display:block;color:var(--gold-light);font-size:12px;letter-spacing:2px;text-transform:uppercase;margin-bottom:16px;text-align:left}
 .page-hero--left .breadcrumb a{color:#e8e6e0;text-decoration:none}
 .page-hero--left h1{color:#fff;font-size:46px;font-weight:500;font-family:'Playfair Display',serif;max-width:640px;margin:0 0 10px;text-align:left}

@@ -1,6 +1,6 @@
 ---
-title: "How Much Does a Senior Move Cost in the UK? What Drives the Price"
-description: "What drives the cost of a senior move or removal for an older person in the UK, how to compare quotes fairly, and Chayce's published package prices."
+title: "Elderly Removals Cost UK: What Affects the Price?"
+description: "What drives the cost of elderly removals or a later-life move in the UK, how to compare quotes fairly, and Chayce's published package prices."
 date: "2026-09-18"
 dateModified: "2026-10-04"
 featuredImage: "https://images.pexels.com/photos/4498136/pexels-photo-4498136.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"

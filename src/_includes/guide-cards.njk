@@ -1,0 +1,1 @@
+{% macro guideCards(posts, urls) %}<div class="rx-guides">{% for u in urls %}{% for p in posts %}{% if p.url == u %}<a class="rx-guide" href="{{ p.url }}"><img src="{{ p.data.featuredImage }}" alt="{{ p.data.featuredImageAlt or p.data.title }}" loading="lazy" width="470" height="150"><span>{{ p.data.title }}</span></a>{% endif %}{% endfor %}{% endfor %}</div>{% endmacro %}

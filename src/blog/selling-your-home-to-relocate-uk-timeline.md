@@ -1,6 +1,6 @@
 ---
 title: "Selling Your Home to Relocate: A Realistic UK Timeline"
-description: "How long selling and relocating takes in the UK, what slows it down, and how to plan a senior move around a realistic timeline."
+description: "How long selling and relocating takes in the UK, what slows it down, and how to plan a later-life move around a realistic timeline."
 date: "2026-09-24"
 dateModified: "2026-09-24"
 featuredImage: "https://images.pexels.com/photos/6474478/pexels-photo-6474478.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"

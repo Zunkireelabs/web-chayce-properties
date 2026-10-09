@@ -9,7 +9,7 @@ Search engines and AI assistants trust a business more when the same name, addre
 - Website: https://chayceproperties.com/
 - Hours: Mon to Fri 09:00 to 17:30, closed Saturday and Sunday
 - Category: Relocation service / Moving company (secondary: Packing service, Senior citizen services)
-- Short description: Later-life moving and downsizing service for older people across the UK. Sorting, packing, removals, estate agent and solicitor liaison, and settling-in support with one dedicated coordinator. Based in Northampton.
+- Short description: Elderly removals and downsizing service for older people across the UK. Sorting, packing, removals, estate agent and solicitor liaison, and settling-in support with one dedicated coordinator. Based in Northampton.
 
 ## Do first (free, highest impact)
 1. Google Business Profile (done by the owner, verify by postcard or video). Add services, packages with prices, photos, opening hours, and ask for reviews once there are real clients.
@@ -24,7 +24,7 @@ Specialist senior-move firms are found mostly through directories, not their own
 - Autumna (autumna.co.uk): later-living directory with moving-home support and senior-move listings. Ask about a provider listing.
 - reallymoving.com and sirelo.co.uk: removals comparison sites that generate quote requests. Check terms and fees before joining.
 - Trustpilot: claim the free profile and invite real clients only.
-Use the exact NAP above. Mention the published package prices, own vetted team, fully insured removals and one coordinator, and link to https://chayceproperties.com/senior-move-manager-uk/ where a site allows a link.
+Use the exact NAP above. Mention the published package prices, own vetted team, fully insured removals and one coordinator, and link to https://chayceproperties.com/elderly-move-manager-uk/ where a site allows a link.
 
 ## UK directories (free listings)
 Yell.com, Thomson Local, Cylex UK, Hotfrog UK, FreeIndex, Scoot, Brown Pages, 192.com business listing, Northampton Chronicle / local business directory, Northamptonshire Chamber of Commerce (paid membership, strong local link).
@@ -51,6 +51,7 @@ Yell.com, Thomson Local, Cylex UK, Hotfrog UK, FreeIndex, Scoot, Brown Pages, 19
 | Yell | https://www.yell.com/biz/chayce-properties-ltd-northampton-11058103/ | 2026-10-07 | Yes |
 | Brownbook | https://www.brownbook.net/business/55572255/chayce-properties-ltd | 2026-10-07 | Yes |
 | Hotfrog | https://www.hotfrog.co.uk/company/AaEVT9cfcqWPhdn2aAu_cA/chayce-properties-ltd/northampton/moving-storage | 2026-10-07 | Yes |
+| Trustpilot | https://www.trustpilot.com/review/chayceproperties.com | 2026-10-09 | Yes (name set to Chayce Properties Ltd) |
 
 ## Still to do (owner: needs your accounts or verification, in priority order)
 | Listing | Why it matters | Status |
@@ -61,7 +62,7 @@ Yell.com, Thomson Local, Cylex UK, Hotfrog UK, FreeIndex, Scoot, Brown Pages, 19
 | LinkedIn company page | `sameAs` and brand entity | Not started |
 | housingcare.org (EAC) | Strongest topical fit for later-life services | Not started |
 | Autumna | Later-living directory | Not started |
-| Trustpilot (claim profile) | Domain tag is already on the homepage; invite real clients only | Verify status |
+| Trustpilot (reviews) | Profile is live and claimed; invite real clients only | Invite first clients |
 | Cylex UK, FreeIndex, Thomson Local, Scoot, 192.com | General UK citations | Not started |
 | Northamptonshire Chamber of Commerce | Strong local link (paid) | Consider |
 | Age UK Northamptonshire resource page | Relevant local link | Ask |
@@ -70,8 +71,8 @@ Yell.com, Thomson Local, Cylex UK, Hotfrog UK, FreeIndex, Scoot, Brown Pages, 19
 ## Pages to link from each listing (where the directory allows a link)
 Give each listing the most relevant page rather than only the homepage:
 - Main listing: https://chayceproperties.com/
-- Later-life directories: https://chayceproperties.com/senior-move-manager-uk/
+- Later-life directories: https://chayceproperties.com/elderly-move-manager-uk/
 - Trust: https://chayceproperties.com/trust-and-safeguarding/
 - Storage: https://chayceproperties.com/storage-during-your-move/
-- Local: https://chayceproperties.com/northampton/, /senior-movers-kettering/, /senior-movers-wellingborough/, /senior-movers-daventry/
+- Local: https://chayceproperties.com/elderly-removals-northampton/, /elderly-removals-kettering/, /elderly-removals-wellingborough/, /elderly-removals-daventry/ (and the newer town pages: Corby, Rushden, Towcester, Market Harborough, Rugby, Milton Keynes, Bedford)
 

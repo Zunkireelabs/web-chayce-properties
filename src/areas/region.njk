@@ -7,13 +7,13 @@ pagination:
 permalink: "/{{ region.slug }}/"
 modified: "2026-10-08"
 eleventyComputed:
-  title: "Senior Moves in {{ region.name }} | Chayce"
-  description: "Later-life moving, downsizing and removals in {{ region.name }}, arranged by Chayce from our Northampton base with one dedicated coordinator."
+  title: "Elderly Removals in {{ region.short }} | Chayce"
+  description: "Elderly removals, downsizing help and later-life moving in {{ region.short }}, arranged from Northampton with one coordinator. Packages from £995."
 ---
 <div class="pg-hero" style="background-image:url({% imageUrl region.img %});{% imageSet region.img %}">
   <div class="container">
     <p class="breadcrumb"><a href="/">Home</a> / <a href="/areas-we-cover/">Areas We Cover</a> / <em>{{ region.short }}</em></p>
-    <h1>Senior Moves in <em>{{ region.name }}</em></h1>
+    <h1>Elderly Removals &amp; Downsizing Help in <em>{{ region.name }}</em></h1>
     <p class="lead">Later-life moving support from our Northampton base, with one coordinator from first call to settling in</p>
     <div class="pg-chips">
       <span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.2-7-11a7 7 0 0114 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>Northampton base</span>
@@ -23,21 +23,39 @@ eleventyComputed:
   </div>
 </div>
 
-<section class="stage-block">
+<section class="sa-block" style="padding:48px 0 12px;background:#fff">
   <div class="container">
-    <div class="stage-media">
-      <span class="num-badge">{{ region.name }}</span>
-      {% image region.img, "A home in " + region.name + " ready for a later-life move" %}
-    </div>
-    <div class="stage-copy">
-      <h2>{{ region.h2 | safe }}</h2>
-      <p class="stage-intro">{{ region.intro }}</p>
-      <div class="svc-grid">
-        {% for c in region.cards %}<div class="svc-card{% if loop.last and loop.length % 2 == 1 %} wide{% endif %}"><span class="svc-icon"><i class="fas {{ c.icon }}"></i></span><h3 class="svc-name">{{ c.title }}</h3><p class="svc-desc">{{ c.text }}</p></div>
-        {% endfor %}
+    <div class="stage-practice" style="max-width:820px;margin:0 auto"><p><strong>Short answer</strong>Chayce Properties arranges elderly removals, downsizing help, careful packing and settling-in support in {{ region.name | replace('The ', 'the ') }}, with one dedicated coordinator and DBS-checked staff. We are based in Northampton, and packages start from &pound;{{ (site.packages | findByKey("bronze")).price | gbp }}.</p></div>
+  </div>
+</section>
+
+<section class="gd-sec">
+  <div class="container">
+    <div class="rx-lead">
+      <div class="rx-photo">{% image region.img, "A home in " + region.name + " ready for a later-life move" %}<div class="rx-tag">based in<strong>Northampton</strong>working UK-wide</div></div>
+      <div class="rx-copy">
+        <span class="gd-eyebrow" style="text-align:left">{{ region.short }}</span>
+        <h2>{{ region.h2 | safe }}</h2>
+        <p class="rx-sub">{{ region.intro }}</p>
+        <ul class="rx-points">
+          {% for c in region.cards %}<li><i class="fas {{ c.icon }}" aria-hidden="true"></i><h3>{{ c.title }}</h3><p>{{ c.text }}</p></li>
+          {% endfor %}
+        </ul>
       </div>
-      <div class="stage-practice" style="margin-top:32px"><p><strong>Getting there from Northampton</strong>{{ region.note }}</p></div>
-      <p class="stage-intro" style="margin-top:24px">Start with a <a href="/discovery/">Discovery Consultation (&pound;150)</a>, or see <a href="/packages/">packages and prices</a>, <a href="/downsizing-help-for-elderly/">downsizing help</a> and <a href="/areas-we-cover/">all the areas we cover</a>.</p>
+    </div>
+  </div>
+</section>
+
+<section class="rx-band" style="background-image:url({% imageUrl region.img %});{% imageSet region.img %}">
+  <div class="container"><span class="gd-eyebrow">Getting there from Northampton</span><h2>Planned around <em style="font-style:italic;color:var(--gold-light)">realistic travel times</em></h2><p style="margin-bottom:18px">{{ region.note }}</p><p class="rx-bandlinks">Start with a <a href="/discovery/">Discovery Consultation (&pound;150)</a>, or see <a href="/packages/">packages and prices</a>, <a href="/downsizing-help-for-elderly/">downsizing help</a> and <a href="/areas-we-cover/">all the areas we cover</a>.</p></div>
+</section>
+
+<section class="pkg-faq-band">
+  <div class="container">
+    <h2>{{ region.short }}: your questions answered</h2>
+    <div class="pkg-faq">
+      {% for f in region.faqs %}<details><summary>{{ f.q }}</summary><p>{{ f.a }}</p></details>
+      {% endfor %}
     </div>
   </div>
 </section>
@@ -47,7 +65,7 @@ eleventyComputed:
     <div class="ac-intro-copy" style="margin-bottom:32px"><span class="ac-eyebrow">Other regions</span><h2>Moving somewhere <em>else?</em></h2></div>
     <div class="ac-tiles">
       {% for r in regions %}{% if r.slug != region.slug %}<a href="/{{ r.slug }}/" class="ac-tile" style="background-image:url({% imageUrl r.img %})"><span class="ac-tile-n">{{ r.n }}</span><span class="ac-tile-t">{{ r.short }}</span></a>
-      {% endif %}{% endfor %}<a href="/northampton/" class="ac-tile" style="background-image:url({% imageUrl "chayce-uk-northampton.jpg" %})"><span class="ac-tile-n">HQ</span><span class="ac-tile-t">Northampton</span></a>
+      {% endif %}{% endfor %}<a href="/elderly-removals-northampton/" class="ac-tile" style="background-image:url({% imageUrl "chayce-uk-northampton.jpg" %})"><span class="ac-tile-n">HQ</span><span class="ac-tile-t">Northampton</span></a>
     </div>
   </div>
 </section>
@@ -64,3 +82,5 @@ eleventyComputed:
 </section>
 
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"{{ site.url }}/"},{"@type":"ListItem","position":2,"name":"Areas We Cover","item":"{{ site.url }}/areas-we-cover/"},{"@type":"ListItem","position":3,"name":"{{ region.short }}","item":"{{ site.url }}/{{ region.slug }}/"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{% for f in region.faqs %}{"@type":"Question","name":{{ f.q | dump | safe }},"acceptedAnswer":{"@type":"Answer","text":{{ f.a | dump | safe }}}}{% if not loop.last %},{% endif %}{% endfor %}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","url":"{{ site.url }}{{ page.url }}","inLanguage":"en-GB","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".sa-block p"]}}</script>

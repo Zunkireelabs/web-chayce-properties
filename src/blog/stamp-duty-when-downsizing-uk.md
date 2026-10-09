@@ -44,7 +44,7 @@ If you are timing a sale and a purchase, tell your solicitor early so they can p
 
 ## Other costs to budget for
 
-Stamp duty is only one cost. Estate agent and solicitor fees and removals all add up, so see our guide to [what to budget for when moving house](/blog/cost-of-moving-house-uk/) and [how much a senior move costs](/blog/senior-move-cost-uk/).
+Stamp duty is only one cost. Estate agent and solicitor fees and removals all add up, so see our guide to [what to budget for when moving house](/blog/cost-of-moving-house-uk/) and [how much a senior move costs](/blog/elderly-removals-cost-uk/).
 
 ## Where Chayce fits
 

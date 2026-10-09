@@ -121,7 +121,7 @@ Most retirement homes are smaller than a long-time family house, so this move ne
 
 ## Where Chayce can help
 
-Chayce Properties helps with the move itself: sorting, packing, insured removals and setting up the new home, planned around the rules and timings of your new building. We do not recommend or sell retirement properties, so the choice stays with you. Details and pricing are on our [retirement village and retirement home moving service](/retirement-village-moving-service/) page. For wider context, see our [guide to senior move managers](/senior-move-manager-uk/) and [downsizing help for elderly people](/downsizing-help-for-elderly/), or book a [Discovery Consultation](/discovery/) (from £150) to plan the move.
+Chayce Properties helps with the move itself: sorting, packing, insured removals and setting up the new home, planned around the rules and timings of your new building. We do not recommend or sell retirement properties, so the choice stays with you. Details and pricing are on our [retirement village and retirement home moving service](/retirement-village-removals/) page. For wider context, see our [guide to elderly move managers](/elderly-move-manager-uk/) and [downsizing help for elderly people](/downsizing-help-for-elderly/), or book a [Discovery Consultation](/discovery/) (from £150) to plan the move.
 
 If you are looking at a care home rather than independent housing, our separate [care home move checklist](/blog/moving-an-elderly-person-into-a-care-home-checklist/) covers that.
 

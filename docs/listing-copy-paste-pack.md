@@ -66,8 +66,8 @@ Thank you for trusting us with your move. If you were happy with our service, a 
 | Brownbook | https://www.brownbook.net/business/55572255/chayce-properties-ltd | 2026-10-07 | Claimed |
 | Hotfrog | https://www.hotfrog.co.uk/company/AaEVT9cfcqWPhdn2aAu_cA/chayce-properties-ltd/northampton/moving-storage | 2026-10-07 | Claimed |
 
-## Senior move manager description (for later-life directories)
-Chayce Properties is a Northampton-based senior move manager serving the whole UK. One dedicated coordinator plans and manages the move: sorting and decluttering, packing, a fully insured removal, estate agent and solicitor liaison, and settling in. Our own vetted team delivers every service, package prices are published on our website, and packages start at 995 pounds. Call or WhatsApp 07708 925432.
+## Elderly move manager description (for later-life directories)
+Chayce Properties is a Northampton-based elderly move manager serving the whole UK. One dedicated coordinator plans and manages the move: sorting and decluttering, packing, a fully insured removal, estate agent and solicitor liaison, and settling in. Our own vetted team delivers every service, package prices are published on our website, and packages start at 995 pounds. Call or WhatsApp 07708 925432.
 
 ## Service areas to add on Google Business Profile
 Northampton, Kettering, Wellingborough and Daventry. Add each as a service area, and keep the NAP exactly as above.
@@ -90,15 +90,15 @@ Chayce Properties, a later-life moving and downsizing service, has opened in Nor
 Rules: do not put keywords in the business name (it must stay "Chayce Properties Ltd", otherwise Google can suspend the profile). Keep text plain, with no links, HTML or all-caps.
 
 Short description (140 characters, limit 250):
-Senior move manager in Northampton. Downsizing help, packing, insured removals and storage for older people across the UK. DBS-checked team.
+Elderly move manager in Northampton. Downsizing help, packing, insured removals and storage for older people across the UK. DBS-checked team.
 
 Long description (507 characters, limit 750):
-Chayce Properties is a Northampton-based senior move manager and later-life moving service. We help older people and their families with downsizing, packing, fully insured removals, storage between moves, estate agent and solicitor liaison, and settling in, anywhere in the UK. Our DBS-checked team and one dedicated coordinator look after the whole move. Packages start from £995 and a one-hour Discovery Consultation is £150. Serving Northampton, Kettering, Wellingborough, Daventry and the East Midlands.
+Chayce Properties is a Northampton-based elderly move manager and later-life moving service. We help older people and their families with downsizing, packing, fully insured removals, storage between moves, estate agent and solicitor liaison, and settling in, anywhere in the UK. Our DBS-checked team and one dedicated coordinator look after the whole move. Packages start from £995 and a one-hour Discovery Consultation is £150. Serving Northampton, Kettering, Wellingborough, Daventry and the East Midlands.
 
 ## GBP services with keyword-rich names and descriptions
 | Service name | Description |
 |---|---|
-| Senior move manager | One dedicated coordinator plans and manages a later-life move for older people, from first call to settling in. |
+| Elderly move manager | One dedicated coordinator plans and manages a later-life move for older people, from first call to settling in. |
 | Downsizing help for older people | Sorting, decluttering and deciding what to keep, sell or pass on when moving to a smaller home. |
 | Removals for the elderly | Careful packing and a fully insured removal, carried out by our own DBS-checked team. |
 | Storage between house moves | Secure, insured storage booked and arranged by Chayce when your sale and new home do not line up. |
@@ -110,6 +110,6 @@ Chayce Properties is a Northampton-based senior move manager and later-life movi
 2. Moving an elderly parent: five questions to ask before you start. Button: Learn more, https://chayceproperties.com/moving-elderly-parent/
 3. Storage between house moves: when your sale and new home dates do not line up. Button: Learn more, https://chayceproperties.com/storage-during-your-move/
 4. DBS-checked team, insured removals: how we protect clients. Button: Learn more, https://chayceproperties.com/trust-and-safeguarding/
-5. Senior movers for Kettering, Wellingborough and Daventry. Button: Learn more, https://chayceproperties.com/senior-movers-kettering/
+5. Elderly removals for Kettering, Wellingborough and Daventry. Button: Learn more, https://chayceproperties.com/elderly-removals-kettering/
 Do not repeat the same post, and never post stock photos or claims you cannot back up.
 

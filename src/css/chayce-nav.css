@@ -121,3 +121,22 @@
 @media(max-width:480px){
   .chayce-footer .footer-grid{grid-template-columns:1fr 1fr;column-gap:16px}
 }
+
+/* Dropdown items: label with a one-line description */
+.site-nav-drop-menu{min-width:320px;padding:10px 0}
+.site-nav-drop-menu a{display:flex;flex-direction:column;gap:2px;padding:11px 22px;border-left:2px solid transparent;white-space:normal}
+.site-nav-drop-menu a b{font-weight:500;font-size:14.5px;color:#fff}
+.site-nav-drop-menu a small{font-size:12.5px;line-height:1.4;color:#a9abb5;font-weight:400}
+.site-nav-drop-menu a:hover{border-left-color:var(--gold);background:rgba(255,255,255,.05)}
+.site-nav-drop-menu a:hover b{color:var(--gold-lighter)}
+@media(max-width:900px){.site-nav-drop-menu a small{display:none}.site-nav-drop-menu a{padding:8px 0;border-left:0}.site-nav-drop-menu a b{font-weight:400;color:#cfd0d4}}
+/* phones: "Get Started" and "Contact" share one row */
+@media(max-width:991px){
+  .chayce-footer .footer-grid>div:nth-child(4),
+  .chayce-footer .footer-grid>div:nth-child(5){grid-column:auto}
+  .chayce-footer .f-contact li{gap:9px;margin-bottom:12px}
+  .chayce-footer .f-contact a,.chayce-footer .f-contact .f-hours span,.chayce-footer .f-contact address{font-size:13.5px}
+  .chayce-footer .f-contact a[href^="mailto:"]{white-space:normal;word-break:normal;overflow-wrap:anywhere}
+  .chayce-footer .f-contact svg{flex-basis:16px;width:16px;height:16px}
+}
+@media(max-width:600px){.chayce-footer .f-contact a[href^="mailto:"]{font-size:12.4px;letter-spacing:-.1px}}

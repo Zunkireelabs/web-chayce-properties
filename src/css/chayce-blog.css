@@ -20,7 +20,7 @@
 .news-card h5{margin:8px 0;font-family:'Playfair Display',serif;font-size:19px}
 .news-card h5 a{color:var(--ink);text-decoration:none}
 .news-card h5 a:hover{color:var(--gold)}
-.news-card p{color:var(--grey-mid);font-size:15px;line-height:1.75}
+.news-card p{color:#555;font-size:16px;line-height:1.7}
 
 .quote-block{border-left:4px solid var(--gold);padding:20px 28px;background:var(--bg-cream);font-style:italic;font-size:17px;color:var(--slate);margin:30px 0;font-family:'Playfair Display',serif}
 
@@ -36,10 +36,12 @@
    long-form prose) — kept in the same gold/navy/Playfair/Poppins system.
    Sized to fill their own column now (two-column layout, main + sidebar),
    not a fixed centered width — see blog-post.njk. */
-.blog-post-body{color:#444;font-size:16px;line-height:1.8}
+.blog-post-body{color:#555;font-size:16px;line-height:1.8}
 .blog-post-body h2{color:var(--ink);font-family:'Playfair Display',serif;font-size:28px;margin:40px 0 16px}
 .blog-post-body h3{color:var(--ink);font-family:'Playfair Display',serif;font-size:22px;margin:32px 0 14px}
 .blog-post-body p{margin:0 0 20px}
+/* The opening paragraph is each post's short answer: set it apart as a lead. */
+.blog-post-body>p:first-child{font-size:18px;line-height:1.8;color:var(--ink);padding-top:22px;border-top:1px solid var(--border-warm);margin-bottom:30px}
 .blog-post-body a{color:var(--gold);text-decoration:underline}
 .blog-post-body a:hover{color:var(--ink)}
 .blog-post-body ul,.blog-post-body ol{margin:0 0 20px;padding-left:24px}
@@ -50,12 +52,13 @@
    separate, invented visual language for the same idea. */
 .blog-post-body blockquote{border-left:4px solid var(--gold);padding:20px 28px;background:var(--bg-cream);font-style:italic;font-size:19px;color:var(--slate);margin:36px 0;font-family:'Playfair Display',serif}
 .blog-post-body blockquote p{margin:0}
-.blog-post-hero-image{display:block;width:100%;height:360px;object-fit:cover;margin-bottom:0;border:1px solid var(--border-light)}
-.blog-post-meta{margin:0 0 20px;display:flex;justify-content:space-between;align-items:center;color:var(--gold);font-size:13px;letter-spacing:1px;text-transform:uppercase}
+.blog-post-hero-image{display:block;width:100%;height:360px;object-fit:cover;margin-bottom:34px;border:0}
+.blog-post-meta{margin:0 0 22px;display:flex;flex-wrap:wrap;align-items:center;gap:6px 22px;color:var(--gold-dark);font-size:12.5px;letter-spacing:1.5px;text-transform:uppercase}
+.blog-post-meta span+span::before{content:'';display:inline-block;width:1px;height:12px;background:var(--border-warm);margin-right:22px;vertical-align:-1px}
 
 /* Sidebar CTA — same card-box/btn-chayce components /news/ and every
    package page already use, just composed into a sticky rail. */
 .blog-sidebar{position:sticky;top:110px}
-.blog-sidebar .card-box{text-align:center}
-.blog-sidebar .card-box .btn-chayce{width:100%;box-sizing:border-box}
+.blog-sidebar .card-box{text-align:left;background:none;border:0;border-top:1px solid var(--border-warm);padding:24px 0 0;height:auto;margin-bottom:0}
+.blog-sidebar .card-box .btn-chayce{display:inline-block;padding:10px 22px;font-size:12px;letter-spacing:1.4px}
 @media(max-width:991px){.blog-sidebar{position:static;margin-top:40px}}

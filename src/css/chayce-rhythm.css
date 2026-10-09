@@ -1,0 +1,187 @@
+/* The ornate Playfair "&" is swapped for the Poppins "&" used in body text, on every heading. */
+@font-face{font-family:'Playfair Display';font-style:normal;font-weight:400;font-display:swap;src:url(/fonts/poppins-amp-400.woff2) format('woff2');unicode-range:U+26}
+@font-face{font-family:'Playfair Display';font-style:normal;font-weight:600;font-display:swap;src:url(/fonts/poppins-amp-500.woff2) format('woff2');unicode-range:U+26}
+@font-face{font-family:'Playfair Display';font-style:normal;font-weight:700;font-display:swap;src:url(/fonts/poppins-amp-500.woff2) format('woff2');unicode-range:U+26}
+@font-face{font-family:'Playfair Display';font-style:normal;font-weight:800;font-display:swap;src:url(/fonts/poppins-amp-500.woff2) format('woff2');unicode-range:U+26}
+@font-face{font-family:'Playfair Display';font-style:normal;font-weight:900;font-display:swap;src:url(/fonts/poppins-amp-500.woff2) format('woff2');unicode-range:U+26}
+@font-face{font-family:'Playfair Display';font-style:italic;font-weight:500;font-display:swap;src:url(/fonts/poppins-amp-400.woff2) format('woff2');unicode-range:U+26}
+@font-face{font-family:'Playfair Display';font-style:italic;font-weight:600;font-display:swap;src:url(/fonts/poppins-amp-400.woff2) format('woff2');unicode-range:U+26}
+
+/* One reading style for running text on every page:
+   16px / 1.75 / #555 for body copy and FAQ answers, 17px for intro lines,
+   15px for small card text. Loaded last so page <style> blocks cannot override. */
+body .rx-points p,body .rx-where,body .rx-line p,body .rx-cap,body .rx-prices p,body .rx-tips p,body .rx-note,
+body .gd-facts dd,body .svc-desc,body .svc-points li,
+body details p,body .pg-faq p,body .faq-item p,body .pkg-faq p,body .hiw-faq p,body .home-faq details p,
+body .why-start-item p,body .dc-step p{font-size:16px;line-height:1.75;color:#555}
+body .gd-sub,body .promise-lead,body .home-intro,body .rx-sub,body .dc-lead{font-size:17px;line-height:1.75;color:#555}
+body .svc-points li,body .gd-facts dd,body .rx-points p{line-height:1.7}
+body .svc-points li small,body .svc-card small,body details.svc-row small{font-size:15px;line-height:1.65;color:#555}
+body .stage-nav p,body .pkg-close-cta p,body .final-cta p,body .container > p.svc-closing{font-size:16px;line-height:1.75;color:#555}
+body details small,body .svc-row small,body .svc-list small,body main small{font-size:15px;line-height:1.65;color:#555}
+body .panel p{font-size:16px;line-height:1.75;color:#555}
+
+/* One heading style: every section title is Playfair 34px with an italic gold highlight;
+   every item title is Poppins 18px. */
+body .gd-head h2,body .gd-split h2,body .rx-copy h2,body .rx-band h2,body .gd-dark h2,
+body .pkg-faq-band h2,body .pkg-close-cta h2,body .pkg-journey h3,body .promise h2,body .pkg-teaser h2{font-family:'Playfair Display',serif;font-size:34px;font-weight:500;line-height:1.25}
+body .pkg-faq-band h2 em,body .pkg-close-cta h2 em,body .pkg-journey h3 em,body .promise h2 em,body .pkg-teaser h2 em{font-style:italic;color:var(--gold-dark)}
+body .rx-points h3,body .rx-line h3,body .rx-prices h3,body .rx-tips h3,body .gd-steps h3{font-family:'Poppins',sans-serif;font-size:18px;font-weight:500;line-height:1.4}
+@media(max-width:700px){
+  body .gd-head h2,body .gd-split h2,body .rx-copy h2,body .rx-band h2,body .gd-dark h2,
+  body .pkg-faq-band h2,body .pkg-close-cta h2,body .pkg-journey h3,body .promise h2,body .pkg-teaser h2{font-size:27px}
+}
+body .lede,body .csx-intro-lead,body .pkg-detail-sub{font-size:17px;line-height:1.75;color:#555}
+body .pg-note,body .rx-cap,body .rx-where{font-size:16px;line-height:1.75}
+body .svc-tile p,body .start-item p,body .pkg-preview-item p,body .csx-row p,body .csx-legend p,body .gd-list li,body .cf-item p,body .month-step p,body .rx-more p,body .gd-fine{font-size:16px;line-height:1.75;color:#555}
+
+/* Headings: the gold highlight is colour only, never italic */
+body h1 em,body h2 em,body h3 em,body h4 em,body .gd-head em,body .rx-copy em,body .rx-band em,body .gd-dark em{font-style:normal!important}
+body em,body cite,body blockquote,body blockquote p,body .breadcrumb em{font-style:normal!important}
+body .contact-quote,body .pull{font-style:normal!important}
+
+/* ===== Phones: one tight, even rhythm (40px between sections) ===== */
+@media(max-width:767px){
+  body .gd-sec,body .gd-dark,body .pkg-teaser,body .final-cta,body .ac-intro,body .tc-band,
+  body .csx-intro,body .csx-band,body .who-block,body .stages-block,body .month-block,body .process-band,
+  body .quote-break,body .faq-block,body .split-cta,body .story-solo,body .journey,body .quote-panel,body .story-panel,
+  body .home-section,body .pkg-band,body .dc-band,body .page-section,body .pkg-faq-band,body .pkg-close-cta,body .promise{padding-top:34px!important;padding-bottom:34px!important}
+  body .rx-band{padding-top:48px!important;padding-bottom:48px!important}
+  body .sa-block{padding-top:28px!important;padding-bottom:4px!important}
+  body .home-section.contact-top{padding-top:104px!important;padding-bottom:20px!important}
+  body .gd-head,body .tc-head,body .pkg-sec-head{margin-bottom:26px!important}
+  body .rx-lead{gap:26px!important}
+  body .rx-photo img{height:250px!important}
+  body .rx-points,body .rx-tips,body .gd-steps{gap:24px!important}
+  body .gd-split{gap:22px!important}
+  body .gd-sec .container>:last-child,body .page-section .container>:last-child{margin-bottom:0}
+  body .gd-head h2,body .gd-split h2,body .rx-copy h2,body .rx-band h2,body .gd-dark h2{font-size:26px}
+  body .rx-sub,body .gd-sub{font-size:16px}
+  body .pkg-teaser .panel{padding:8px 0!important}
+  body .pkg-detail-head{margin-bottom:24px!important}
+  body .dc-quote{padding-top:24px!important;padding-bottom:24px!important}
+  body .rail{padding-bottom:10px!important}
+  body .contact-quote,body .pull{padding-top:20px;padding-bottom:20px}
+  body .stages-more{margin-top:26px!important}
+  body .month-head,body .process-head,body .stages-head{margin-bottom:24px!important}
+  body .process-footnote{margin-top:22px!important;padding-top:20px!important}
+  body .next-card{padding:22px 20px!important;margin-bottom:26px!important}
+  body .faq-block .container>.reveal{margin-bottom:26px!important}
+  body .path-band .row>*{padding-top:26px!important;padding-bottom:26px!important}
+  body .home-final,body .final-cta.home-final{padding-top:44px!important;padding-bottom:44px!important}
+  body .blog-post-body table{display:block;max-width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch}
+  body .ar-stats{grid-template-columns:1fr 1fr!important;gap:22px 0!important}
+  body .ar-stats div{padding:4px 12px!important;min-width:0}
+  body .ar-stats strong{font-size:30px!important}
+  body .ar-stats span{font-size:11.5px!important;letter-spacing:1.2px!important}
+}
+
+/* Phone hero: the photo sits in its own frame at the top (so people and houses are not cropped away),
+   the headline and buttons sit on dark underneath. */
+@media(max-width:767px){
+  body .home-hero{min-height:0!important;display:block!important;background:var(--ink)!important;padding-bottom:40px}
+  body .home-hero .hero-slide{inset:0 0 auto 0!important;height:420px}
+  body #heroSlider .hero-slide:nth-child(1){background-position:62% center!important}
+  body #heroSlider .hero-slide:nth-child(2){background-position:42% center!important}
+  body #heroSlider .hero-slide:nth-child(3){background-position:72% center!important}
+  body .home-hero::before{inset:0 0 auto 0!important;height:420px;background:linear-gradient(180deg,rgba(18,20,26,.55) 0,rgba(18,20,26,0) 28%,rgba(18,20,26,.15) 62%,#12141a 100%)!important}
+  body .home-hero .container{margin-top:0!important;padding-top:404px}
+  body .value-heading{flex:none!important;padding-left:16px!important;border-left-width:2px}
+  body .value-columns{gap:18px!important}
+  body .value-cta-bar{max-width:none!important;width:100%;margin-top:26px!important;gap:12px!important}
+  body .value-cta-bar a{display:block;width:100%;box-sizing:border-box;text-align:center;padding:10px 12px!important;font-size:11.5px!important;letter-spacing:1.2px!important}
+  body .value-copy .body-copy{margin:0 0 14px!important}
+  body .rx-prices li{align-items:center;text-align:center}
+  body .rx-prices a{align-self:center!important}
+  body .pkg-close-cta .btn-row,body .final-cta:not(.home-final) .btn-row{display:flex!important;flex-direction:row!important;flex-wrap:nowrap!important;gap:10px!important;justify-content:center}
+  body .pkg-close-cta .btn-row a,body .final-cta:not(.home-final) .btn-row a{flex:1 1 0;min-width:0;display:flex;align-items:center;justify-content:center;text-align:center;width:auto!important;padding:12px 8px!important;font-size:11px!important;letter-spacing:.8px!important;line-height:1.35;margin:0!important}
+  body .pkg-close-cta .btn-row a:first-child,body .final-cta:not(.home-final) .btn-row a:first-child{flex:1.5 1 0}
+  /* Packages page, phone: open (no tinted box, no side stripes) */
+  body .pkg-intro-panel{display:block!important;background:none!important;border:0!important;border-top:1px solid var(--border-warm)!important;border-bottom:1px solid var(--border-warm)!important;padding:22px 0!important;margin:0 0 22px!important}
+  body .pkg-intro-main{font-size:16px!important;line-height:1.75!important}
+  body .pkg-facts{display:grid!important;grid-template-columns:repeat(3,1fr)!important;gap:10px!important;margin:18px 0 0!important;padding:16px 0 0!important;border:0!important;border-top:1px solid var(--border-warm)!important}
+  body .pkg-facts li{border:0!important;padding:0!important;text-align:center}
+  body .pkg-facts li strong,body .pkg-facts li b{font-size:15px!important;line-height:1.3}
+  body .pkg-facts li span{font-size:10.5px!important;letter-spacing:1px!important;line-height:1.4}
+  body .pkg-guide{gap:18px!important}
+  body .pkg-guide-card{background:none!important;border:0!important;border-top:1px solid var(--border-warm)!important;padding:18px 0 0!important}
+  body .pkg-jump .container{flex-wrap:nowrap!important;overflow-x:auto;justify-content:flex-start!important;gap:8px!important;padding-left:16px;padding-right:16px;-webkit-overflow-scrolling:touch;scrollbar-width:none}
+  body .pkg-jump .container::-webkit-scrollbar{display:none}
+  body .pkg-jump a{flex:0 0 auto;white-space:nowrap}
+  body .pkg-choose-head{gap:14px!important}
+  body .pkg-choose-head .head-text{flex:none!important}
+  body .pkg-choose-head .head-text h3{font-family:'Poppins',sans-serif;font-weight:500!important;font-size:20px!important;line-height:1.4!important}
+  body .compare-hint{display:none!important}
+  body .pkg-band .compare-wrap{overflow:visible!important;border:0!important;box-shadow:none!important;background:none!important;padding:0!important;margin-top:0!important}
+  body table.pkg-compare{min-width:0!important;width:100%!important;table-layout:fixed}
+  body table.pkg-compare th,body table.pkg-compare td{padding:9px 4px!important;font-size:12px!important;letter-spacing:0!important;line-height:1.35;text-align:center}
+  body table.pkg-compare th:first-child,body table.pkg-compare td:first-child{width:36%;text-align:left;padding-left:8px!important}
+  body table.pkg-compare thead th{font-size:10.5px!important;letter-spacing:.2px!important}
+  body table.pkg-compare tr.grp td{text-align:left;font-size:10.5px!important;letter-spacing:1px!important}
+  body .pkg-guide{margin-top:6px!important}
+  body .pkg-choose-head{margin-bottom:0!important}
+  body .page-section>.container>.pkg-sec-head,body #packages .pkg-detail-head{margin-bottom:22px!important}
+  /* numbered steps: the number sits beside the text, not above it */
+  body .gd-steps li{display:grid;grid-template-columns:38px 1fr;column-gap:14px;align-items:start}
+  body .gd-steps li .gd-num{grid-row:1/span 3;margin:2px 0 0}
+  body .gd-steps li>*:not(.gd-num){grid-column:2}
+  body .gd-steps li a{justify-self:start}
+  body .path-band .cell{display:grid!important;grid-template-columns:40px 1fr;column-gap:16px;text-align:left!important;align-items:start;padding:20px 20px!important;min-width:0}
+  body .path-band .cell .num{grid-row:1/span 2;margin:0!important}
+  body .path-band .cell .t,body .path-band .cell .l{grid-column:2;text-align:left}
+  body .path-band .cell .t{font-size:17px}
+  body .path-band .cell .l{margin-top:4px}
+  body .start-item{display:grid;grid-template-columns:44px 1fr;column-gap:14px;text-align:left!important;padding:0 0 22px!important}
+  body .start-item .num{grid-row:1/span 2;margin:0!important}
+  body .start-item h4,body .start-item p{grid-column:2;text-align:left}
+  body .start-item h4{margin:0 0 4px!important}
+  /* closing call-to-action: photo first, then the text, no floating card */
+  body .home-final .panel,body .split-cta .panel{display:flex!important;flex-direction:column!important;background:none!important;box-shadow:none!important;border-radius:0!important}
+  body .home-final .panel .img,body .split-cta .panel .img{order:-1;width:100%;min-height:210px!important;height:210px;flex:none}
+  body .home-final .panel .txt,body .split-cta .panel .text{padding:0}
+  body .split-cta .text .inner,body .home-final .txt{padding:22px 0 0!important;max-width:none!important;text-align:center}
+  body .home-final .btn-row,body .split-cta .btn-row{display:flex!important;flex-direction:row!important;flex-wrap:nowrap!important;gap:10px!important;justify-content:center}
+  body .home-final .btn-row a,body .split-cta .btn-row a{flex:1 1 0;min-width:0;text-align:center;padding:12px 8px!important;font-size:11.5px!important;letter-spacing:1px!important;white-space:normal!important}
+  body .home-final .txt h2,body .home-final .txt p{text-align:center!important}
+  body .home-final .txt h2{font-size:26px}
+  body .start-item{min-width:0;box-sizing:border-box;padding-right:8px!important}
+  body .start-item p,body .start-item h4{min-width:0;overflow-wrap:anywhere}
+  /* Prepare / Move / Settle: three across */
+  body .svc-tile-grid{display:grid!important;grid-template-columns:repeat(3,1fr)!important;gap:0!important}
+  body .svc-tile{padding:20px 10px!important;text-align:center;border-right:1px solid var(--border-warm)!important;border-bottom:0!important;min-width:0}
+  body .svc-tile:last-child{border-right:0!important}
+  body .svc-tile .num{width:36px!important;height:36px!important;font-size:13px!important;margin:0 auto 12px!important}
+  body .svc-tile h4{font-size:15.5px!important;margin:0 0 6px!important}
+  body .svc-tile p{font-size:12.5px!important;line-height:1.55!important}
+  /* hero chips: one row */
+  body .pg-chips{display:flex!important;flex-wrap:nowrap!important;gap:6px!important;margin-top:16px!important}
+  body .pg-chips span{flex:1 1 0;min-width:0;display:flex!important;flex-direction:column;align-items:center;justify-content:center;gap:5px;text-align:center;white-space:normal;padding:9px 6px!important;font-size:11px!important;line-height:1.3!important;letter-spacing:0!important;border-radius:14px!important}
+  body .pg-chips span svg{width:15px!important;height:15px!important;margin:0!important}
+  /* dark "how it works" band: centred, price facts in one row */
+  body .gd-dark .lead{font-size:16px!important;margin-bottom:26px!important;text-align:center}
+  body .gd-dark .gd-facts{display:grid!important;grid-template-columns:repeat(3,1fr)!important;gap:0!important;margin:0 0 26px!important}
+  body .gd-dark .gd-facts div{border:0!important;border-left:1px solid rgba(255,255,255,.2)!important;padding:4px 8px!important;text-align:center;min-width:0}
+  body .gd-dark .gd-facts div:first-child{border-left:0!important}
+  body .gd-dark .gd-facts strong{display:block;font-size:19px!important;white-space:nowrap;line-height:1.2!important;margin-bottom:6px}
+  body .gd-dark .gd-facts span{display:block;font-size:10px!important;letter-spacing:.9px!important;line-height:1.45!important}
+  body .gd-dark .gd-next{text-align:center}
+  body .gd-dark .gd-next a{margin:4px 8px!important;font-size:14px!important}
+  /* no trailing space inside the last item of a section */
+  body section>.container>:last-child,body section>.container>:last-child>:last-child{margin-bottom:0!important}
+  body .svc-tile:last-child,body .start-item:last-child,body .why-point:last-child,body .pkg-preview-item:last-child,body .month-step:last-child,
+  body .who-card,body .coord-card,body .dc-step:last-child,body .csx-q:last-child,body .sc-byline,body .home-section .container>:last-child{padding-bottom:0!important}
+  body .stage-cta{margin-top:20px!important}
+  body .start-band{padding-top:30px!important;padding-bottom:30px!important}
+  body .journey-head,body .csx-sec-head{margin-bottom:26px!important}
+  body .csx-q{padding-top:28px!important;padding-bottom:28px!important}
+  body .rx-points li,body .rx-tips li,body .gd-steps li{padding-bottom:0!important}
+  body .rx-points,body .rx-tips,body .gd-steps{gap:22px!important}
+  body .rx-points li{padding-top:18px!important}
+  body .gs-wrap{padding-bottom:20px!important}
+  body .page-section.grey,body .page-section.dc-top,body #packages{padding-top:34px!important;padding-bottom:34px!important}
+  body .rx-points{margin-top:18px!important}
+  body .pkg-order-card .pkg-cross-link{margin-bottom:0}
+  body .ab-hero{padding-bottom:36px!important}
+  body .home-section .container>.ai-teaser-box{padding:24px 20px!important}
+  body .ai-teaser-form{margin-bottom:0}
+}
