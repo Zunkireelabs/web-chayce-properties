@@ -1,5 +1,5 @@
 {% macro navLink(href, label, key, activeKey, extraClass) %}<a href="{{ href }}"{% if extraClass or key == activeKey %} class="{{ extraClass }}{% if key == activeKey %}{% if extraClass %} {% endif %}active{% endif %}"{% endif %}>{{ label }}</a>{% endmacro %}
-{% macro navDropdown(label, key, activeKey, items) %}<div class="site-nav-drop{% if key == activeKey %} active{% endif %}"><span class="site-nav-drop-label">{{ label }}</span><div class="site-nav-drop-menu">{% for item in items %}<a href="{{ item.href }}">{{ item.label }}</a>{% endfor %}</div></div>{% endmacro %}
+{% macro navDropdown(label, key, activeKey, items) %}<div class="site-nav-drop{% if key == activeKey %} active{% endif %}"><span class="site-nav-drop-label">{{ label }}</span><div class="site-nav-drop-menu">{% for item in items %}<a href="{{ item.href }}"><b>{{ item.label }}</b>{% if item.desc %}<small>{{ item.desc }}</small>{% endif %}</a>{% endfor %}</div></div>{% endmacro %}
 <nav class="site-nav{% if navGlassy %} site-nav--glassy{% endif %}">
   <div class="site-nav-inner">
     <a href="/" class="site-nav-logo">
@@ -11,26 +11,26 @@
     <div class="site-nav-links">
         {{ navLink("/how-it-works/", "How It Works", "how-it-works", activeKey) }}
         {{ navDropdown("Services", "services", activeKey, [
-          {"href": "/services/", "label": "Our Services"},
-          {"href": "/downsizing-help-for-elderly/", "label": "Downsizing Help"},
-          {"href": "/moving-elderly-parent/", "label": "Moving an Elderly Parent"},
-          {"href": "/retirement-village-moving-service/", "label": "Retirement Moves"},
-          {"href": "/discovery/", "label": "Discovery Consultation"}
+          {"href": "/services/", "label": "Our Services", "desc": "Sorting, packing, removals and settling in"},
+          {"href": "/downsizing-help-for-elderly/", "label": "Downsizing Help", "desc": "Declutter, pack and move to a smaller home"},
+          {"href": "/moving-elderly-parent/", "label": "Moving an Elderly Parent", "desc": "Support for families arranging a move"},
+          {"href": "/retirement-village-removals/", "label": "Retirement Moves", "desc": "Villages, flats and bungalows across the UK"},
+          {"href": "/discovery/", "label": "Discovery Consultation", "desc": "A one-hour plan, timeline and budget"}
         ]) }}
         {{ navDropdown("Packages", "packages", activeKey, [
-          {"href": "/packages/", "label": "Compare All Packages"},
-          {"href": "/bronze-essentials/", "label": "Bronze Essentials"},
-          {"href": "/silver-comfort/", "label": "Silver Comfort"},
-          {"href": "/gold-prestige/", "label": "Gold Prestige"},
-          {"href": "/platinum-bespoke/", "label": "Platinum Bespoke"}
+          {"href": "/packages/", "label": "Compare All Packages", "desc": "Prices and inclusions side by side"},
+          {"href": "/bronze-essentials/", "label": "Bronze Essentials", "desc": "Packing and removals, from £" + ((site.packages | findByKey("bronze")).price | gbp)},
+          {"href": "/silver-comfort/", "label": "Silver Comfort", "desc": "Full service with a coordinator, from £" + ((site.packages | findByKey("silver")).price | gbp)},
+          {"href": "/gold-prestige/", "label": "Gold Prestige", "desc": "Viewings, staging and legal coordination, from £" + ((site.packages | findByKey("gold")).price | gbp)},
+          {"href": "/platinum-bespoke/", "label": "Platinum Bespoke", "desc": "A fully bespoke relocation, from £" + ((site.packages | findByKey("platinum")).price | gbp)}
         ]) }}
         {{ navDropdown("Areas We Cover", "areas", activeKey, [
-          {"href": "/areas-we-cover/", "label": "All Areas We Cover"},
-          {"href": "/northampton/", "label": "Northampton & Northamptonshire"},
-          {"href": "/london-south-east/", "label": "London & South East"},
-          {"href": "/home-counties/", "label": "Home Counties"},
-          {"href": "/south-west-coast/", "label": "South West & Coast"},
-          {"href": "/cotswolds-midlands/", "label": "Cotswolds & Rural Midlands"}
+          {"href": "/areas-we-cover/", "label": "All Areas We Cover", "desc": "Every region and town guide"},
+          {"href": "/elderly-removals-northampton/", "label": "Northampton & Northamptonshire", "desc": "Our home base"},
+          {"href": "/elderly-removals-london-south-east/", "label": "London & South East", "desc": "Leasehold flats and city access"},
+          {"href": "/elderly-removals-home-counties/", "label": "Home Counties", "desc": "Villages and rural homes"},
+          {"href": "/elderly-removals-south-west-coast/", "label": "South West & Coast", "desc": "Retirement developments and coastal towns"},
+          {"href": "/elderly-removals-cotswolds-midlands/", "label": "Cotswolds & Rural Midlands", "desc": "Period homes and rural lanes"}
         ]) }}
         {% if homeNav %}
         {{ navLink("/contact/", "Contact", "contact", activeKey, "site-nav-contact") }}
@@ -46,4 +46,4 @@
     </div>
   </div>
 </nav>
-<script src="/js/chayce-nav.js" defer></script>
+<script src="/js/chayce-nav.js?v={{ build.version }}" defer></script>

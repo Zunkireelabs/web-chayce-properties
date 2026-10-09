@@ -123,7 +123,7 @@ A few things are particularly worth planning for if you are selling a home you h
 - **Care and support.** If you may need extra help later, consider how the new home would work for that, without assuming it is covered.
 - **Equity release and similar products.** These are complex and outside the scope of this article. If you are considering one, seek advice from a regulated adviser, and consider involving family members and a solicitor.
 
-Our guide to [senior move costs](/blog/senior-move-cost-uk/) explains what is involved in the practical side and how relocation support is priced.
+Our guide to [senior move costs](/blog/elderly-removals-cost-uk/) explains what is involved in the practical side and how relocation support is priced.
 
 ## Where Chayce Properties fits in
 

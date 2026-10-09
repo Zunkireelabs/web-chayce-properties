@@ -1,6 +1,6 @@
 [
  {
-  "slug": "london-south-east",
+  "slug": "elderly-removals-london-south-east",
   "name": "London & the South East",
   "short": "London & South East",
   "img": "chayce-uk-london.jpg",
@@ -24,10 +24,24 @@
    }
   ],
   "note": "Your coordinator can manage the move remotely and in person as needed, including viewings, staging visits and moving day, wherever in the region you are moving from or to.",
-  "n": "01"
+  "n": "01",
+  "faqs": [
+   {
+    "q": "Do you offer elderly removals in London and the South East?",
+    "a": "Yes. Chayce is based in Northampton and arranges elderly removals, downsizing help and settling-in support across London and the South East, with one coordinator managing the whole move."
+   },
+   {
+    "q": "Does the Congestion Charge or ULEZ affect a removal in London?",
+    "a": "They can. Central London moves may involve the Congestion Charge, ULEZ, parking suspensions and loading restrictions. We plan around these before moving day and check building rules on lift booking and vehicle access."
+   },
+   {
+    "q": "Can you help if I am moving out of a leasehold flat?",
+    "a": "We can plan the move around service charges, managing agent rules and lift bookings. We do not give legal or financial advice, so your solicitor should advise on lease questions."
+   }
+  ]
  },
  {
-  "slug": "home-counties",
+  "slug": "elderly-removals-home-counties",
   "name": "The Home Counties",
   "short": "Home Counties",
   "img": "chayce-uk-homecounties.jpg",
@@ -51,10 +65,24 @@
    }
   ],
   "note": "Northampton is within practical road reach of much of the Home Counties, so viewings and moving day can be planned with realistic travel times.",
-  "n": "02"
+  "n": "02",
+  "faqs": [
+   {
+    "q": "Do you cover villages and rural properties in the Home Counties?",
+    "a": "Yes. We plan for long driveways, narrow lanes and limited parking from the first conversation, so the removal vehicle and crew size suit the property."
+   },
+   {
+    "q": "How far is the Home Counties from your Northampton base?",
+    "a": "Northampton is within practical road reach of much of the Home Counties, so viewings and moving day can be planned with realistic travel times."
+   },
+   {
+    "q": "Can you help me downsize from a large family home in the Home Counties?",
+    "a": "Yes. We help with sorting, decluttering, packing, the removal and settling in, and can coordinate with your estate agent and solicitor so dates stay in step."
+   }
+  ]
  },
  {
-  "slug": "south-west-coast",
+  "slug": "elderly-removals-south-west-coast",
   "name": "The South West & the coast",
   "short": "South West & Coast",
   "img": "chayce-uk-coast.jpg",
@@ -78,10 +106,24 @@
    }
   ],
   "note": "Given the distance from Northampton, viewings and key moving-day tasks can be scheduled together where possible, with your coordinator managing the rest remotely.",
-  "n": "03"
+  "n": "03",
+  "faqs": [
+   {
+    "q": "Do you arrange removals for older people moving to the South West or the coast?",
+    "a": "Yes. We arrange elderly removals to and from the South West and England's coastal towns, with viewings and key moving-day tasks scheduled together where possible and the rest managed remotely."
+   },
+   {
+    "q": "Can you help with moving into a retirement development in the South West?",
+    "a": "We can plan the move around the application steps, service charges and access rules a retirement development involves. See our retirement village removals page for more."
+   },
+   {
+    "q": "Is the summer a harder time to move in a coastal town?",
+    "a": "It can be. Summer traffic and tighter vehicle availability in popular coastal towns mean moving dates often benefit from being planned around the season."
+   }
+  ]
  },
  {
-  "slug": "cotswolds-midlands",
+  "slug": "elderly-removals-cotswolds-midlands",
   "name": "The Cotswolds & rural Midlands",
   "short": "Cotswolds & Rural Midlands",
   "img": "chayce-uk-cotswolds.jpg",
@@ -100,6 +142,20 @@
    }
   ],
   "note": "The Midlands are the closest part of the country to our Northampton base, so travel for viewings, staging visits and moving day is shortest here. We still work with clients across the whole UK.",
-  "n": "04"
+  "n": "04",
+  "faqs": [
+   {
+    "q": "Do you handle period and listed homes in the Cotswolds?",
+    "a": "Yes. Stone cottages, converted barns and farmhouses can have narrow doorways, uneven access and conservation-area restrictions, so we flag these early and plan the crew and timing around them."
+   },
+   {
+    "q": "Is the Midlands closest to your Northampton office?",
+    "a": "Yes. The Midlands are the part of the country closest to our Northampton base, so travel for viewings, staging visits and moving day is shortest here."
+   },
+   {
+    "q": "What if my rural property has a long carry to the removal vehicle?",
+    "a": "Tell us during your Discovery Consultation. A longer carry from a farmhouse or a cottage down a shared track affects crew size and timing, and we plan for it in advance."
+   }
+  ]
  }
 ]

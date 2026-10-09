@@ -62,7 +62,10 @@ if (/^(www\.)?chayceproperties\.com$/.test(location.hostname)) {
 <link rel="stylesheet" href="/css/chayce-sticky-cta.css?v={{ build.version }}">
 <link rel="stylesheet" href="/css/chayce-mobile-spacing.css?v={{ build.version }}">
 <link rel="stylesheet" href="/css/chayce-pages.css?v={{ build.version }}">
-{{ headExtra | replace('.css"', '.css?v=' + build.version + '"') | safe }}
+<link rel="stylesheet" href="/css/chayce-open.css?v={{ build.version }}">
+<link rel="stylesheet" href="/css/chayce-guide.css?v={{ build.version }}">
+<link rel="stylesheet" href="/css/chayce-rhythm.css?v={{ build.version }}">
+{{ headExtra | replace('{{ build.version }}', build.version) | replace('.css"', '.css?v=' + build.version + '"') | safe }}
 {% if page.url != "/" %}{% include "schema-org.njk" %}{% endif %}
 <!-- SEOAI:HEAD:START --><!-- SEOAI:HEAD:END -->
 </head>
@@ -86,5 +89,5 @@ document.addEventListener('click', function (e) {
   gtag('event', 'contact_click', { method: method, page_path: location.pathname });
 });
 </script>
-{{ footScripts | safe }}
+{{ footScripts | replace('{{ build.version }}', build.version) | safe }}
 </body></html>

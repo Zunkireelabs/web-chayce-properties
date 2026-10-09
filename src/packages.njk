@@ -1,7 +1,7 @@
 ---
 modified: "2026-10-04"
-title: "Senior Moving Packages & Prices UK, From £995 | Chayce"
-description: "Compare senior moving packages from £995: packing and removals, full-service moves, premium relocation and bespoke concierge. Based in Northampton."
+title: "Elderly Removals & Downsizing Packages UK, From £995 | Chayce"
+description: "Compare elderly removals and downsizing packages from £995: packing and removals, full-service moves, premium relocation and bespoke concierge. Based in Northampton."
 bodyClass: "page-template page-loaded"
 homeNav: false
 layout: base.njk
@@ -81,9 +81,17 @@ headExtra: |
   .pkg-card .pkg-level{font-size:13px;letter-spacing:1.5px;text-transform:uppercase;color:var(--grey-light);margin-bottom:14px;min-height:28px;line-height:1.4}
   .pkg-card h4{font-family:'Poppins',sans-serif;font-weight:500;font-size:22px;color:var(--ink);margin:0 0 10px;line-height:1.25}
   .pkg-card .pkg-price{font-size:20px;font-weight:500;color:var(--gold);margin-bottom:16px}
-  .pkg-card .pkg-desc{font-size:15.5px;color:var(--grey-mid);line-height:1.7;flex:1;margin-bottom:26px}
+  .pkg-card .pkg-desc{font-size:15.5px;color:var(--grey-mid);line-height:1.7;margin-bottom:16px}
+  .pkg-who{flex:1;margin:0 0 26px;font-size:14.5px;line-height:1.65;color:#555}
+  .pkg-who b{display:block;font-size:11.5px;letter-spacing:1.6px;text-transform:uppercase;color:var(--gold-dark);font-weight:500;margin:10px 0 3px}
   .pkg-card .btn-chayce{width:100%;text-align:center;padding:13px 10px;font-size:14px;margin:0 0 12px;box-sizing:border-box}
   .pkg-card .pkg-detail-link{display:block;width:100%;text-align:center;font-size:14.5px;color:var(--slate);text-decoration:underline;text-underline-offset:3px;background:none;border:0;cursor:pointer;font-family:'Poppins',sans-serif;padding:4px 0;margin-top:auto}
+  @media(min-width:901px){
+    .pkg-grid{grid-template-rows:auto auto auto auto 1fr auto auto}
+    .pkg-card{display:grid;grid-row:span 7;grid-template-rows:subgrid;row-gap:0}
+    .pkg-card .pkg-level{min-height:0}
+    .pkg-card .pkg-detail-link{margin-top:0}
+  }
   .pkg-card .pkg-detail-link:hover{color:var(--gold)}
   /* ===== Package detail card — sits in normal flow below the grid, centered, pushes the quote note down ===== */
   .pkg-modal-overlay{display:none;width:min(640px,94%);margin:28px auto 0}
@@ -161,7 +169,7 @@ headExtra: |
   .pkg-jump .container{display:flex;gap:6px;flex-wrap:wrap;justify-content:center;padding-top:14px;padding-bottom:14px}
   .pkg-jump a{font-family:'Poppins',sans-serif;font-size:14px;letter-spacing:.5px;color:var(--slate);text-decoration:none;padding:7px 18px;border:1px solid var(--border-warm);border-radius:999px;transition:.2s}
   .pkg-jump a:hover{background:var(--ink);border-color:var(--ink);color:#fff}
-  #packages,#compare,#who-for,#example,#faq{scroll-margin-top:20px}
+  #packages,#compare,#example,#faq{scroll-margin-top:20px}
   .pkg-intro-panel{display:grid;grid-template-columns:1.6fr 1fr;gap:40px;align-items:center;max-width:1100px;margin:0 auto 18px;background:var(--bg-cream);border-left:3px solid var(--gold);padding:34px 40px}
   .pkg-intro-main{margin:0;color:#555;font-size:16.5px;line-height:1.85}
   .pkg-facts{list-style:none;margin:0;padding:0;display:grid;gap:14px}
@@ -222,7 +230,7 @@ footScripts: |
     <p style="color:#ccc;margin-top:10px;font-size:16px;">Five levels of support, from a &pound;150 consultation to a fully bespoke relocation</p>
   </div>
 </div>
-<nav class="pkg-jump" aria-label="On this page"><div class="container"><a href="#packages">Packages</a><a href="#compare">Compare</a><a href="#who-for">Who it&rsquo;s for</a><a href="#example">Example</a><a href="#faq">FAQ</a></div></nav>
+<nav class="pkg-jump" aria-label="On this page"><div class="container"><a href="#packages">Packages</a><a href="#compare">Compare</a><a href="#example">Example</a><a href="#faq">FAQ</a></div></nav>
 <section class="page-section" id="packages">
   <div class="container">
     <div class="pkg-intro-panel">
@@ -256,6 +264,7 @@ footScripts: |
         <h4>Discovery Consultation</h4>
         <div class="pkg-price">From £150</div>
         <p class="pkg-desc">Expert guidance &amp; a personalised move plan.</p>
+        <p class="pkg-who"><b>Best suited to</b>Unsure what help you need, before committing.<b>Not included</b>No packing or removals. You get a plan, timeline &amp; budget.</p>
         <a href="/get-started/?package=Discovery%20Consultation%20%E2%80%94%20%C2%A3150" class="btn-chayce">Get Started</a>
         <button type="button" class="pkg-detail-link" data-pkg="discovery">Full details</button>
       </div>
@@ -264,6 +273,7 @@ footScripts: |
         <h4>Bronze Essentials</h4>
         <div class="pkg-price">From £995</div>
         <p class="pkg-desc">Packing, removals and light cleaning.</p>
+        <p class="pkg-who"><b>Best suited to</b>Destination confirmed; you mainly need the move handled.<b>Not included</b>Sorting, staging, utilities, deep clean, unpacking, viewings, agent &amp; solicitor liaison, storage.</p>
         <a href="/get-started/?package=Bronze%20Essentials%20%E2%80%94%20%C2%A3995" class="btn-chayce">Get Started</a>
         <button type="button" class="pkg-detail-link" data-pkg="bronze">Full details</button>
       </div>
@@ -272,6 +282,7 @@ footScripts: |
         <h4>Silver Comfort</h4>
         <div class="pkg-price">From £1,850</div>
         <p class="pkg-desc">Full-service move with a dedicated coordinator.</p>
+        <p class="pkg-who"><b>Best suited to</b>A managed move with one coordinator, including sorting &amp; preparing the home.<b>Not included</b>Chauffeur viewings, agent &amp; solicitor liaison, storage, white-glove unpacking.</p>
         <a href="/get-started/?package=Silver%20Comfort%20%E2%80%94%20%C2%A31%2C850" class="btn-chayce">Get Started</a>
         <button type="button" class="pkg-detail-link" data-pkg="silver">Full details</button>
       </div>
@@ -280,6 +291,7 @@ footScripts: |
         <h4>Gold Prestige</h4>
         <div class="pkg-price">From £3,250</div>
         <p class="pkg-desc">Chauffeur viewings, staging, legal coordination &amp; more.</p>
+        <p class="pkg-who"><b>Best suited to</b>Also finding a home, selling, or coordinating the legal side.<b>Not included</b>Lifestyle concierge, interior designer, area orientation, post-move support.</p>
         <a href="/get-started/?package=Gold%20Prestige%20%E2%80%94%20%C2%A33%2C250" class="btn-chayce">Get Started</a>
         <button type="button" class="pkg-detail-link" data-pkg="gold">Full details</button>
       </div>
@@ -287,7 +299,8 @@ footScripts: |
         <span class="pkg-level">Level 4 &mdash; Complete Bespoke / White-Glove</span>
         <h4>Platinum Bespoke</h4>
         <div class="pkg-price">From £6,500</div>
-        <p class="pkg-desc">Fully bespoke relocation with a dedicated senior coordinator and 3 months of post-move support.</p>
+        <p class="pkg-desc">Bespoke relocation with a senior coordinator &amp; 3 months&rsquo; post-move support.</p>
+        <p class="pkg-who"><b>Best suited to</b>Complex moves with scope agreed individually, plus support after.<b>Not included</b>Scope agreed with your coordinator. No legal, financial or medical advice.</p>
         <a href="/get-started/?package=Platinum%20Bespoke%20%E2%80%94%20%C2%A36%2C500" class="btn-chayce">Get Started</a>
         <button type="button" class="pkg-detail-link" data-pkg="platinum">Full details</button>
       </div>
@@ -347,49 +360,6 @@ footScripts: |
         </tbody>
       </table>
       <p class="compare-note">Not sure which level of support you need? A <a href="/discovery/">Discovery Consultation</a> (from &pound;150) is a standalone assessment that helps you choose &mdash; it isn&rsquo;t one of the four tiers above.</p>
-    </div>
-  </div>
-</section>
-
-<section class="page-section" id="who-for">
-  <div class="container">
-    <div class="pkg-sec-head"><span class="pkg-eyebrow">Who it&rsquo;s for</span><h2>Who each package is for</h2><p>What each package is built for, what it does not cover, and what to do next.</p></div>
-    <div class="pkg-fit-grid">
-      <div class="pkg-fit-card">
-        <h3><a href="/discovery/">Discovery Consultation</a></h3>
-        <div class="pkg-fit-price">&pound;{{ (site.packages | findByKey("discovery")).price | gbp }}</div>
-        <h4>Best suited to</h4><p>Anyone unsure what help they need, or how a move would work, before committing.</p>
-        <h4>Not included</h4><p>No packing, removals or moving services. It produces a plan, timeline and budget.</p>
-        <a class="pkg-fit-link" href="/discovery/">Book a consultation</a>
-      </div>
-      <div class="pkg-fit-card">
-        <h3><a href="/bronze-essentials/">Bronze Essentials</a></h3>
-        <div class="pkg-fit-price">from &pound;{{ (site.packages | findByKey("bronze")).price | gbp }}</div>
-        <h4>Best suited to</h4><p>A straightforward move where the destination is already confirmed and you mainly need the physical move handled.</p>
-        <h4>Not included</h4><p>Sorting and declutter help, staging, utility transfers, deep clean (light clean only), unpacking and setup, viewings, agent and solicitor coordination, storage.</p>
-        <a class="pkg-fit-link" href="/bronze-essentials/">See Bronze Essentials</a>
-      </div>
-      <div class="pkg-fit-card">
-        <h3><a href="/silver-comfort/">Silver Comfort</a></h3>
-        <div class="pkg-fit-price">from &pound;{{ (site.packages | findByKey("silver")).price | gbp }}</div>
-        <h4>Best suited to</h4><p>A managed move where you want help sorting and preparing the home, with one coordinator running the whole process.</p>
-        <h4>Not included</h4><p>Chauffeur-driven viewings, estate agent liaison, solicitor coordination, storage, white-glove unpacking.</p>
-        <a class="pkg-fit-link" href="/silver-comfort/">See Silver Comfort</a>
-      </div>
-      <div class="pkg-fit-card">
-        <h3><a href="/gold-prestige/">Gold Prestige</a></h3>
-        <div class="pkg-fit-price">from &pound;{{ (site.packages | findByKey("gold")).price | gbp }}</div>
-        <h4>Best suited to</h4><p>A move that also involves finding a home, selling the current one, or coordinating the legal side.</p>
-        <h4>Not included</h4><p>Personal lifestyle concierge, interior designer consultation, new-area orientation, post-move concierge support.</p>
-        <a class="pkg-fit-link" href="/gold-prestige/">See Gold Prestige</a>
-      </div>
-      <div class="pkg-fit-card">
-        <h3><a href="/platinum-bespoke/">Platinum Bespoke</a></h3>
-        <div class="pkg-fit-price">from &pound;{{ (site.packages | findByKey("platinum")).price | gbp }}</div>
-        <h4>Best suited to</h4><p>A complex or high-support move where the scope is agreed individually, with support continuing after the move.</p>
-        <h4>Not included</h4><p>Scope is agreed with your coordinator. Chayce does not give legal, financial or medical advice.</p>
-        <a class="pkg-fit-link" href="/platinum-bespoke/">See Platinum Bespoke</a>
-      </div>
     </div>
   </div>
 </section>

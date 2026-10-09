@@ -49,7 +49,7 @@ headExtra: |
   <div class="container">
     <p class="breadcrumb"><a href="/">Home</a> / <a href="/blog/">Blog</a> / <em>{{ title | truncate(40) }}</em></p>
     <h1>{{ title }}</h1>
-    {% if description %}<p style="color:var(--grey-mid);margin-top:10px;font-size:16px;max-width:640px">{{ description }}</p>{% endif %}
+    {% if description %}<p style="color:#555;margin-top:10px;font-size:16px;line-height:1.8;max-width:640px">{{ description }}</p>{% endif %}
   </div>
 </div>
 
@@ -76,7 +76,7 @@ headExtra: |
           <h2 style="color:var(--ink);font-family:'Playfair Display',serif;font-size:28px;margin:44px 0 18px">Common questions</h2>
           {% for item in faq %}
           <h3 style="color:var(--ink);font-family:'Poppins',sans-serif;font-weight:500;font-size:18px;margin:22px 0 8px">{{ item.q }}</h3>
-          <p style="color:#444;font-size:16px;line-height:1.8;margin:0">{{ item.a }}</p>
+          <p style="color:#555;font-size:16px;line-height:1.8;margin:0">{{ item.a }}</p>
           {% endfor %}
         </div>
         {% endif %}
@@ -86,7 +86,7 @@ headExtra: |
         <div class="blog-sidebar">
           <div class="card-box">
             <h4>Planning a <em>move?</em></h4>
-            <p>Chayce Properties is a Northampton-based later-life moving service. New here? See <a href="/senior-move-manager-uk/">what a senior move manager does</a>, <a href="/downsizing-help-for-elderly/">downsizing help for older people</a>, or <a href="/moving-elderly-parent/">moving an elderly parent</a>. Prices are on the <a href="/packages/">packages page</a>.</p>
+            <p>Chayce Properties is a Northampton-based later-life moving service. New here? See <a href="/elderly-move-manager-uk/">what an elderly move manager does</a>, <a href="/downsizing-help-for-elderly/">downsizing help for older people</a>, or <a href="/moving-elderly-parent/">moving an elderly parent</a>. Prices are on the <a href="/packages/">packages page</a>.</p>
             <a href="/discovery/" class="btn-chayce">Book a Discovery Consultation</a>
           </div>
         </div>

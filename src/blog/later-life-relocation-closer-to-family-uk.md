@@ -26,7 +26,7 @@ Moving to be nearer family isn't driven by a job or a bigger garden — it's dri
 
 ## Bring the Family In From the Start
 
-The people you're moving closer to are often the best source of local knowledge — about the area, the services nearby, and what day-to-day life will actually look like. Bringing them into the planning early, rather than presenting a finished decision, tends to make the whole move easier. If family is based in a particular part of the country, it's worth knowing what that region tends to involve logistically — we've written specific guides for moves to the [Home Counties](/home-counties/) and the [Cotswolds & rural Midlands](/cotswolds-midlands/), two areas we support especially often.
+The people you're moving closer to are often the best source of local knowledge — about the area, the services nearby, and what day-to-day life will actually look like. Bringing them into the planning early, rather than presenting a finished decision, tends to make the whole move easier. If family is based in a particular part of the country, it's worth knowing what that region tends to involve logistically — we've written specific guides for moves to the [Home Counties](/elderly-removals-home-counties/) and the [Cotswolds & rural Midlands](/elderly-removals-cotswolds-midlands/), two areas we support especially often.
 
 ## Timing It Around What Matters, Not a Deadline
 

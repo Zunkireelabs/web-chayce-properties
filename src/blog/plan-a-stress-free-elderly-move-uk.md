@@ -1,5 +1,5 @@
 ---
-title: "How to Plan a Stress-Free Senior Move"
+title: "How to Plan a Stress-Free Move for an Older Person (UK)"
 description: "Practical steps and expert advice for planning a smooth, dignified relocation — from first consultation to final unpack."
 date: "2026-09-17"
 dateModified: "2026-09-24"

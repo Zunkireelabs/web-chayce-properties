@@ -1,5 +1,5 @@
 ---
-title: "What Does a Full-Service Moving Company Actually Do?"
+title: "What Does a Full-Service Removals Company Actually Do?"
 description: "What a full-service relocation company covers beyond a standard removal — packing, coordination, storage and settling in — and who it's actually for."
 date: "2026-09-23"
 dateModified: "2026-09-24"
