@@ -3,8 +3,6 @@ title: "Moving Into Retirement Housing in the UK: Your Options"
 description: "How retirement villages, retirement flats and sheltered housing differ in the UK, what to ask before you commit, and a practical checklist for the move."
 date: "2026-09-22"
 dateModified: "2026-10-04"
-featuredImage: "https://images.pexels.com/photos/7728055/pexels-photo-7728055.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
-featuredImageAlt: "A senior couple spending time together outdoors on a sunny day."
 featuredImageCredit: "Photo via Pexels"
 about:
   - name: "Retirement home"
@@ -23,9 +21,11 @@ faq:
     a: "Ask what the service charge covers and how it can change, what fees apply when you sell or leave, what the lease says, whether care can be added on site, and what the moving-in rules are. Get answers in writing."
   - q: "How long before the move should I start planning?"
     a: "Ideally eight weeks or more. Moves into retirement housing often have fixed move-in dates, and sorting belongings for a smaller home takes longer than most people expect."
+featuredImage: "https://images.pexels.com/photos/8847448/pexels-photo-8847448.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+featuredImageAlt: "An older couple embracing in a comfortable, elegantly furnished living room."
 ---
 
-Short answer: retirement villages, retirement flats and sheltered housing all let older people live independently in their own home, but they differ in size, services, ownership and cost. Work out which type suits you, ask detailed questions about charges and rules before committing, and plan the move around the building's access and move-in dates. This guide covers all three and ends with a checklist.
+Short answer: in the UK, retirement villages, retirement flats and sheltered housing all let older people live independently in their own home, but they differ in size, services, ownership and cost. Work out which type suits you, ask detailed questions about charges and rules before committing, and plan the move around the building's access and move-in dates. This guide covers all three and ends with a checklist.
 
 This is general information, not legal or financial advice. Before buying, renting or signing a lease, take advice from a solicitor and, where relevant, a financial adviser.
 

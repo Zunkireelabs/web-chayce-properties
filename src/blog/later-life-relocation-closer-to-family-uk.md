@@ -1,5 +1,5 @@
 ---
-title: "Moving Closer to Family: A Later-Life Relocation Guide"
+title: "Moving Closer to Family: A UK Later-Life Relocation Guide"
 description: "How to plan a later-life move closer to family in the UK — timing it well, involving the people who matter, and making the new area feel like home."
 date: "2026-09-19"
 dateModified: "2026-09-24"
@@ -22,7 +22,7 @@ faq:
 
 ## A Different Kind of Move
 
-Moving to be nearer family isn't driven by a job or a bigger garden — it's driven by wanting to be close to the people who matter most. [Age UK's guidance on relationships and family in later life](https://www.ageuk.org.uk/information-advice/health-wellbeing/relationships-family/) highlights just how much regular contact with loved ones matters for wellbeing — which is exactly why this kind of move changes what a good relocation looks like, and what support actually helps.
+Moving to be nearer family in the UK isn't driven by a job or a bigger garden — it's driven by wanting to be close to the people who matter most. [Age UK's guidance on relationships and family in later life](https://www.ageuk.org.uk/information-advice/health-wellbeing/relationships-family/) highlights just how much regular contact with loved ones matters for wellbeing — which is exactly why this kind of move changes what a good relocation looks like, and what support actually helps.
 
 ## Bring the Family In From the Start
 

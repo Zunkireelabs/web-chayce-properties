@@ -1,6 +1,6 @@
 ---
-title: "What to Look for in a Smaller Home When You Downsize in the UK"
-description: "How to choose a smaller home: location, step-free access, storage, running costs, leasehold questions and a viewing checklist to compare your options."
+title: "What to Look for in a Smaller Home When Downsizing (UK)"
+description: "How to choose a smaller home in the UK: location, step-free access, storage, running costs, leasehold questions and a viewing checklist."
 date: "2026-10-04"
 dateModified: "2026-10-04"
 featuredImage: "https://images.pexels.com/photos/6312357/pexels-photo-6312357.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
@@ -17,7 +17,7 @@ faq:
     a: "Yes. Our Gold Prestige and Platinum Bespoke packages include chauffeur-driven property viewings and estate agent liaison. A Discovery Consultation, £150, is a good first step if you would like a plan before you start."
 ---
 
-**Short answer:** choose a smaller home for the life you expect to lead over the next five to ten years, not just for today. Look at location, step-free access, storage, ongoing costs and room for future needs, visit more than once, and compare two or three options in the same way so the decision is calm rather than rushed.
+**Short answer:** when downsizing in the UK, choose a smaller home for the life you expect to lead over the next five to ten years, not just for today. Look at location, step-free access, storage, ongoing costs and room for future needs, visit more than once, and compare two or three options in the same way so the decision is calm rather than rushed.
 
 *This is general information, not legal, financial or medical advice. For leasehold and other legal questions, ask a solicitor.*
 

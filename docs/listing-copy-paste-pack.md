@@ -113,3 +113,13 @@ Chayce Properties is a Northampton-based elderly move manager and later-life mov
 5. Elderly removals for Kettering, Wellingborough and Daventry. Button: Learn more, https://chayceproperties.com/elderly-removals-kettering/
 Do not repeat the same post, and never post stock photos or claims you cannot back up.
 
+
+## housingcare.org (Elderly Accommodation Counsel) and Autumna
+Apply as a "home moving service" / "moving home support" provider. Use the core details above exactly. Check each site's current form and any fees before submitting. Do not claim memberships or accreditations Chayce does not hold.
+
+- Service type: Moving home support / later-life move management
+- Area covered: Northamptonshire, East Midlands and the whole UK
+- Short description: Later-life moving and downsizing service for older people. One dedicated coordinator manages sorting, packing, a fully insured removal and settling in. DBS-checked staff. Based in Northampton, arranging moves across the UK.
+- Longer description: Chayce Properties is a Northampton-based later-life moving and downsizing service. We help older people and their families move home anywhere in the UK, including into retirement housing, a smaller home, closer to family or a care home. One dedicated coordinator plans and manages the move: sorting and decluttering with the owner's agreement, careful packing, a fully insured removal and unpacking at the new home. We are not a house clearance firm and do not give legal, financial or care advice. Packages start at £995 and a one-hour Discovery Consultation costs £150.
+- Pages to link, where a site allows: https://chayceproperties.com/elderly-move-manager-uk/ , https://chayceproperties.com/downsizing-help-for-elderly/ , https://chayceproperties.com/care-home-removals/
+- After approval: add each live profile URL to `sameAs` in `src/_data/site.json`.

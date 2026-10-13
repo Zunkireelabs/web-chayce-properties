@@ -3,8 +3,6 @@ title: "How to Choose a Removals Company for an Elderly Person (UK)"
 description: "How to choose removals for an elderly person in the UK: questions to ask on insurance, packing, pricing and timing, and when a relocation partner suits better."
 date: "2026-10-01"
 dateModified: "2026-10-04"
-featuredImage: "https://images.pexels.com/photos/4489417/pexels-photo-4489417.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
-featuredImageAlt: "Removal porters carrying boxes from a moving truck."
 featuredImageCredit: "Photo via Pexels"
 faq:
   - q: "What should I look for in a removals company for an elderly person?"
@@ -15,9 +13,11 @@ faq:
     a: "A removals company moves your belongings between two addresses. A relocation partner also helps with sorting, coordination with estate agents and solicitors, and settling in, so the family is not left to manage those parts."
   - q: "What if the moving date changes?"
     a: "Ask before booking. Sale and purchase dates often shift, so check what notice the company needs and whether it charges for changes."
+featuredImage: "https://images.pexels.com/photos/7464684/pexels-photo-7464684.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+featuredImageAlt: "A removals company van parked outside a house with the driver standing beside it."
 ---
 
-**Short answer:** for an older person, choose a provider that puts insurance in writing, includes packing, gives you one person to deal with and works at an unhurried pace. Price matters, but a cheap quote that leaves out packing and settling in can cost more in stress. Get every answer in writing.
+**Short answer:** for an older person in the UK, choose a provider that puts insurance in writing, includes packing, gives you one person to deal with and works at an unhurried pace. Price matters, but a cheap quote that leaves out packing and settling in can cost more in stress. Get every answer in writing.
 
 *General information, not legal or financial advice.*
 
@@ -52,7 +52,7 @@ If the company is a member of a trade body, such as the [British Association of 
 
 ## Removals company or relocation partner?
 
-A standard removals firm collects and delivers. A relocation partner also covers sorting, estate agent and solicitor liaison, cleaning and settling in. Neither is better in every case: a simple local move with family on hand may need only good removals, while a move involving a house sale, downsizing or a parent living at a distance often benefits from one coordinated service. Our guide to [what a full-service removals company does](/blog/what-does-a-full-service-removals-company-do/) explains the difference. For the cost side, see [what a senior move costs](/blog/elderly-removals-cost-uk/).
+A standard removals firm collects and delivers. A relocation partner also covers sorting, estate agent and solicitor liaison, cleaning and settling in. Neither is better in every case: a simple local move with family on hand may need only good removals, while a move involving a house sale, downsizing or a parent living at a distance often benefits from one coordinated service. Our guide to [what a full-service removals company does](/blog/what-does-a-full-service-removals-company-do/) explains the difference. For the cost side, see [what an elderly move costs](/blog/elderly-removals-cost-uk/).
 
 ## Where Chayce Properties fits
 

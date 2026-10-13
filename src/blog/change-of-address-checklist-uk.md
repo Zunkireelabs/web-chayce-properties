@@ -1,5 +1,5 @@
 ---
-title: "Change of Address Checklist UK: Who to Tell When You Move House"
+title: "Change of Address Checklist UK: Who to Tell When Moving"
 description: "A practical UK change of address checklist: who to tell when you move house, from DVLA, HMRC and banks to utilities, the GP and family."
 date: "2026-10-04"
 dateModified: "2026-10-04"
@@ -17,7 +17,7 @@ faq:
     a: "No. Redirection is a useful safety net for post that still arrives at your old address, but it is not a substitute for telling banks, pension providers, the GP and others directly. Updating each organisation directly means they hold your new address, and you are not relying on a redirection alone."
 ---
 
-**Short answer:** Before you move, make a list of every organisation that writes to you, then work through it in three stages: tell the ones that matter most (DVLA, HMRC, banks, pension providers, insurers, your GP) before or on moving day, sort utilities and post on the day itself, and catch the rest in the first few weeks as letters turn up at the old address. The checklist below groups them so nothing is left until it causes a problem.
+**Short answer:** Before you move house in the UK, make a list of every organisation that writes to you, then work through it in three stages: tell the ones that matter most (DVLA, HMRC, banks, pension providers, insurers, your GP) before or on moving day, sort utilities and post on the day itself, and catch the rest in the first few weeks as letters turn up at the old address. The checklist below groups them so nothing is left until it causes a problem.
 
 ## Start With a List of Who Writes to You
 

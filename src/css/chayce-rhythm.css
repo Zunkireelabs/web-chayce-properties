@@ -24,12 +24,12 @@ body .panel p{font-size:16px;line-height:1.75;color:#555}
 /* One heading style: every section title is Playfair 34px with an italic gold highlight;
    every item title is Poppins 18px. */
 body .gd-head h2,body .gd-split h2,body .rx-copy h2,body .rx-band h2,body .gd-dark h2,
-body .pkg-faq-band h2,body .pkg-close-cta h2,body .pkg-journey h3,body .promise h2,body .pkg-teaser h2{font-family:'Playfair Display',serif;font-size:34px;font-weight:500;line-height:1.25}
+body .pkg-faq-band h2,body .pg-faq-band h2,body .pkg-close-cta h2,body .pkg-journey h3,body .promise h2,body .pkg-teaser h2{font-family:'Playfair Display',serif;font-size:34px;font-weight:500;line-height:1.25}
 body .pkg-faq-band h2 em,body .pkg-close-cta h2 em,body .pkg-journey h3 em,body .promise h2 em,body .pkg-teaser h2 em{font-style:italic;color:var(--gold-dark)}
 body .rx-points h3,body .rx-line h3,body .rx-prices h3,body .rx-tips h3,body .gd-steps h3{font-family:'Poppins',sans-serif;font-size:18px;font-weight:500;line-height:1.4}
 @media(max-width:700px){
   body .gd-head h2,body .gd-split h2,body .rx-copy h2,body .rx-band h2,body .gd-dark h2,
-  body .pkg-faq-band h2,body .pkg-close-cta h2,body .pkg-journey h3,body .promise h2,body .pkg-teaser h2{font-size:27px}
+  body .pkg-faq-band h2,body .pg-faq-band h2,body .pkg-close-cta h2,body .pkg-journey h3,body .promise h2,body .pkg-teaser h2{font-size:27px}
 }
 body .lede,body .csx-intro-lead,body .pkg-detail-sub{font-size:17px;line-height:1.75;color:#555}
 body .pg-note,body .rx-cap,body .rx-where{font-size:16px;line-height:1.75}
@@ -185,3 +185,6 @@ body .contact-quote,body .pull{font-style:normal!important}
   body .home-section .container>.ai-teaser-box{padding:24px 20px!important}
   body .ai-teaser-form{margin-bottom:0}
 }
+
+/* Smaller hero/band image on phones (see imageSet shortcode in .eleventy.js) */
+@media(max-width:768px){[style*="--hero-m"]{background-image:var(--hero-m)!important}}

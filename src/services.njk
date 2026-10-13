@@ -1,7 +1,7 @@
 ---
 modified: "2026-10-04"
-title: "Elderly Removals & Downsizing Services UK | Chayce"
-description: "Sorting, packing, removals, storage and settling-in support for older people moving home in the UK, coordinated by one person from first call to unpack."
+title: "Removals, Packing & Downsizing Services UK | Chayce"
+description: "Sorting, packing, removals, storage and settling-in support for house moves in the UK, designed for older people and open to anyone, with one coordinator."
 bodyClass: "page-template page-loaded svc-topic"
 homeNav: false
 activeKey: "services"
@@ -168,7 +168,7 @@ footScripts: |
     <div class="stage-practice" style="max-width:820px;margin:0 auto"><p><strong>Short answer</strong>Chayce Properties provides elderly removals and downsizing support across the UK: sorting and decluttering, packing, fully insured removals, estate agent and solicitor liaison, storage and settling-in help, all managed by one coordinator. Packages start from &pound;{{ (site.packages | findByKey("bronze")).price | gbp }} and a one-hour Discovery Consultation costs &pound;150.</p></div>
   </div>
 </section>
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","url":"{{ site.url }}{{ page.url }}","inLanguage":"en-GB","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".sa-block .stage-practice p"]}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","url":"{{ site.url }}{{ page.url }}","inLanguage":"en-GB","dateModified":"{{ modified }}","author":{"@id":"{{ site.url }}/#organization"},"speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".sa-block .stage-practice p"]}}</script>
 
 <section class="home-section">
   <div class="container">
@@ -263,6 +263,8 @@ footScripts: |
 </section>
 
 <!-- ============ FAQ — moved up to sit right before the Packages teaser ask, so hesitation is addressed right before the close ============ -->
+{% include "compare-options.njk" %}
+
 <section class="pg-faq-band">
   <div class="container">
     <h2>Elderly Removals &amp; Downsizing: Frequently Asked Questions</h2>

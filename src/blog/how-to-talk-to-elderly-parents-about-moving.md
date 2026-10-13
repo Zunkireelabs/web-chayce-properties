@@ -1,10 +1,8 @@
 ---
-title: "How to Talk to Elderly Parents About Moving"
+title: "How to Talk to Elderly Parents About Moving (UK Guide)"
 description: "How to bring up moving with an elderly parent in the UK, what to do if they say no, and how to support a decision that is theirs to make."
 date: "2026-10-04"
 dateModified: "2026-10-04"
-featuredImage: "https://images.pexels.com/photos/7414919/pexels-photo-7414919.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
-featuredImageAlt: "An adult daughter talking with her elderly mother at a kitchen table."
 featuredImageCredit: "Photo via Pexels"
 about:
   - name: "Age UK"
@@ -22,9 +20,19 @@ faq:
     a: "Earlier than feels necessary. Raising it before a crisis, such as a fall or hospital stay, gives everyone time to think and keeps your parent in control."
   - q: "Can Chayce help if my parent is not ready to decide?"
     a: "Yes. A Discovery Consultation (£150) lets your parent look at options and a personalised plan, timeline and budget without committing to a move."
+  - q: "What should I do if my elderly parent refuses to move?"
+    a: "Do not push. Ask what worries them, listen without arguing, and explore smaller steps such as visiting a place, trying a short stay or making changes at home. Treat the decision as theirs, and come back to it when the moment is calmer."
+  - q: "How do I convince my elderly parents to move?"
+    a: "You usually cannot convince them, but you can help them decide. Focus on what they would gain, such as less upkeep, being nearer family or fewer stairs, rather than what they would lose. Involve them in every choice and let them set the pace."
+  - q: "When is it time for an elderly parent to move?"
+    a: "There is no single sign. Common prompts are a home that has become hard to manage, difficulty with stairs or upkeep, isolation or safety worries. A GP, an occupational therapist or your council can help you judge what support or a different home might suit."
+  - q: "Should my elderly parent move in with me or closer to me?"
+    a: "It depends on their needs, your home and your family. Some people move in with relatives, others prefer their own place nearby with support. Talk it through together and consider what help they need before deciding."
+featuredImage: "https://images.pexels.com/photos/7551592/pexels-photo-7551592.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+featuredImageAlt: "A young adult chatting with an older man in a bright kitchen."
 ---
 
-Short answer: pick a calm moment, ask open questions, listen for the worry behind any resistance, and treat the decision as theirs. If they say no, do not push. Explore smaller steps and come back to it. Most parents need several conversations, not one.
+Short answer: for UK families, pick a calm moment, ask open questions, listen for the worry behind any resistance, and treat the decision as theirs. If they say no, do not push. Explore smaller steps and come back to it. Most parents need several conversations, not one.
 
 ## Start earlier than feels comfortable
 

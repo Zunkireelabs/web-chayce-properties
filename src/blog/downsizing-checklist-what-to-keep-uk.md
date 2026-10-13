@@ -1,10 +1,8 @@
 ---
-title: "Downsizing Your Home in the UK: Step-by-Step Guide and Checklist"
+title: "Downsizing Your Home in the UK: Guide and Checklist"
 description: "A step-by-step UK downsizing guide with a keep, sell, donate and let-go checklist: how to plan, sort belongings, decide what fits and allow enough time."
 date: "2026-09-21"
 dateModified: "2026-10-04"
-featuredImage: "https://images.pexels.com/photos/7203815/pexels-photo-7203815.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
-featuredImageAlt: "A woman sorting belongings into a cardboard box while packing for a move."
 featuredImageCredit: "Photo via Pexels"
 sources:
   - name: "Independent Age: Downsizing"
@@ -18,9 +16,13 @@ faq:
     a: "Both. Start by listing what matters most to you, then check it against the new home's floor plan so you only pack and move things that have a place."
   - q: "Do I have to sort everything myself?"
     a: "No. Chayce's Silver Comfort and Gold Prestige packages include hands-on sorting and decluttering support, and a Discovery Consultation can set a realistic plan first."
+  - q: "Can I afford to downsize in retirement?"
+    a: "Downsizing involves costs, such as stamp duty, estate agent and solicitor fees and removals, and a smaller home is not always cheaper. Add up the costs and compare your options before you commit, and take regulated advice on any money questions."
+featuredImage: "https://images.pexels.com/photos/7217846/pexels-photo-7217846.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+featuredImageAlt: "Hands packing a labelled box of clothes while sorting what to keep."
 ---
 
-**Short answer:** downsize in stages. Decide where you are going, measure what will fit, sort belongings into keep, sell, donate and let-go piles by category, and start 6 to 8 weeks before moving day (longer for a family home). The checklist below follows that order.
+**Short answer:** to downsize your home in the UK, work in stages. Decide where you are going, measure what will fit, sort belongings into keep, sell, donate and let-go piles by category, and start 6 to 8 weeks before moving day (longer for a family home). The checklist below follows that order.
 
 ## Why downsizing feels different from an ordinary move
 

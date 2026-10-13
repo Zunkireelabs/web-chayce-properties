@@ -1,10 +1,8 @@
 ---
-title: "Moving House When a Family Member Has Dementia: Gentle Tips"
-description: "General, practical tips for planning a house move when a family member has dementia: keeping routines, reducing change and involving them calmly."
+title: "Moving House With Dementia in the UK: Gentle Tips"
+description: "General, practical UK tips for planning a house move when a family member has dementia: keeping routines, reducing change and involving them calmly."
 date: "2026-10-01"
 dateModified: "2026-10-01"
-featuredImage: "https://images.pexels.com/photos/4246085/pexels-photo-4246085.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
-featuredImageAlt: "A couple carrying a moving box down the stairs of a family home."
 featuredImageCredit: "Photo via Pexels"
 about:
   - name: "Dementia"
@@ -16,9 +14,11 @@ faq:
     a: "Where possible, yes, in ways that feel comfortable to them. Calm, simple involvement usually helps more than hiding the move."
   - q: "Can Chayce give medical advice?"
     a: "No. We provide general moving support only. For medical or care decisions, speak to the person's GP or care team."
+featuredImage: "https://images.pexels.com/photos/7551671/pexels-photo-7551671.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+featuredImageAlt: "A daughter sitting beside and supporting her elderly father."
 ---
 
-Short answer: this is general moving guidance, not medical advice. Keep routines familiar, change as little as possible at once, set up a recognisable main room first, and ask the person's GP or care team for advice that fits their needs.
+Short answer: this is general UK moving guidance, not medical advice. Keep routines familiar, change as little as possible at once, set up a recognisable main room first, and ask the person's GP or care team for advice that fits their needs.
 
 ## Plan around their routine
 

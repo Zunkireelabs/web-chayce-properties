@@ -1,15 +1,15 @@
 ---
 title: "How to Plan a Stress-Free Move for an Older Person (UK)"
-description: "Practical steps and expert advice for planning a smooth, dignified relocation — from first consultation to final unpack."
+description: "Practical steps for planning a smooth, dignified move for an older person in the UK, from first consultation to final unpack."
 date: "2026-09-17"
 dateModified: "2026-09-24"
 featuredImage: "https://images.pexels.com/photos/7217844/pexels-photo-7217844.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 featuredImageAlt: "A couple taking a break while packing boxes during their move to a new home."
 featuredImageCredit: "Photo by Blue Bird on Pexels"
 faq:
-  - q: "What's the first step in planning a stress-free senior move?"
+  - q: "What's the first step in planning a stress-free move for an older person?"
     a: "A Discovery Consultation, not a moving date. Chayce begins every relocation by walking through the home together to understand what needs to move, what needs to go, and what timeline actually works for the family before a single box is packed."
-  - q: "Do all senior moves need the same level of support?"
+  - q: "Do all later-life moves need the same level of support?"
     a: "No. Chayce's package tiers, from Bronze Essentials through Platinum Bespoke, exist because some families want a light hand with packing and logistics, while others want every detail fully coordinated by a dedicated team."
   - q: "How does a relocation partner handle the emotional side of moving?"
     a: "A good relocation partner works at the pace the family sets, rather than rushing decisions about what to keep, donate or pass on — treating it as more than just a logistics problem."
@@ -19,7 +19,7 @@ faq:
 
 ## A Plan Comes Before a Date
 
-Every senior move goes more smoothly when it starts with a clear plan rather than a deadline. Chayce Properties begins every relocation with a Discovery consultation — walking through the home together, understanding what needs to move, what needs to go, and what timeline actually works for the family, before a single box is packed.
+Every move for an older person in the UK goes more smoothly when it starts with a clear plan rather than a deadline. Chayce Properties begins every relocation with a Discovery consultation — walking through the home together, understanding what needs to move, what needs to go, and what timeline actually works for the family, before a single box is packed.
 
 ## Choose the Level of Support That Fits
 

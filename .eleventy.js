@@ -39,9 +39,9 @@ async function bgMetadata(src, width) {
     formats: ["avif", "webp", "jpeg"],
     outputDir: "./_site/images/optimized/",
     urlPath: "/images/optimized/",
-    sharpJpegOptions: { quality: 72 },
-    sharpWebpOptions: { quality: 68 },
-    sharpAvifOptions: { quality: 48 },
+    sharpJpegOptions: { quality: 70 },
+    sharpWebpOptions: { quality: 62 },
+    sharpAvifOptions: { quality: 38 },
   });
 }
 
@@ -73,10 +73,30 @@ async function imageSetShortcode(src, width = 1920) {
   // visibly TILING the hero image instead of covering it. Single quotes
   // avoid the collision without changing anything CSS actually reads
   // differently.
-  return `background-image:image-set(url(${avif}) type('image/avif') 1x,url(${webp}) type('image/webp') 1x,url(${jpeg}) type('image/jpeg') 1x)`;
+  const desktop = `background-image:image-set(url(${avif}) type('image/avif') 1x,url(${webp}) type('image/webp') 1x,url(${jpeg}) type('image/jpeg') 1x)`;
+  if (width <= 900) return desktop;
+  // Smaller copy for phones, swapped in by a media query in chayce-rhythm.css
+  // ([style*="--hero-m"]). Custom property because an inline style cannot
+  // hold a media query. Cuts mobile hero bytes by about two thirds.
+  const m = await bgMetadata(src, 800);
+  return `${desktop};--hero-m:image-set(url(${m.avif[0].url}) type('image/avif') 1x,url(${m.webp[0].url}) type('image/webp') 1x,url(${m.jpeg[0].url}) type('image/jpeg') 1x)`;
 }
 
 module.exports = function (eleventyConfig) {
+  // The hero is a CSS background-image, which the browser only discovers after
+  // the stylesheets load, so it is the LCP element but starts downloading late.
+  // Preload the AVIF the image-set() will pick, as early as possible in <head>.
+  eleventyConfig.addTransform("hero-preload", function (content) {
+    if (!(this.page.outputPath || "").endsWith(".html")) return content;
+    const m = content.match(/<(?:div|header|section)[^>]*class="[^"]*hero[^"]*"[^>]*style="[^"]*?image-set\(url\(([^)]+\.avif)\)/);
+    if (!m) return content;
+    const mm = content.match(/--hero-m:image-set\(url\(([^)]+\.avif)\)/);
+    const tag = mm
+      ? `<link rel="preload" as="image" href="${m[1]}" type="image/avif" media="(min-width:769px)" fetchpriority="high">\n<link rel="preload" as="image" href="${mm[1]}" type="image/avif" media="(max-width:768px)" fetchpriority="high">`
+      : `<link rel="preload" as="image" href="${m[1]}" type="image/avif" fetchpriority="high">`;
+    return content.replace("<link rel=\"preconnect\"", tag + "\n<link rel=\"preconnect\"");
+  });
+
   eleventyConfig.addPassthroughCopy({ "src/css": "css" });
   eleventyConfig.addPassthroughCopy({ "src/js": "js" });
   eleventyConfig.addPassthroughCopy({ "src/images": "images" });

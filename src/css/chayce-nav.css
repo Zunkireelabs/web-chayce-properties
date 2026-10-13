@@ -140,3 +140,5 @@
   .chayce-footer .f-contact svg{flex-basis:16px;width:16px;height:16px}
 }
 @media(max-width:600px){.chayce-footer .f-contact a[href^="mailto:"]{font-size:12.4px;letter-spacing:-.1px}}
+
+/* Sitewide footer link rows (services and areas), for discovery and navigation */

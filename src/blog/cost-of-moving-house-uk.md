@@ -1,6 +1,6 @@
 ---
 title: "Cost of Moving House in the UK: What to Budget For"
-description: "The main costs of selling and buying a home in the UK, what makes each one vary, and a simple way to build a moving budget, with notes for downsizers."
+description: "The cost of moving house in the UK: the main costs of selling and buying, why there is no single average, and a simple moving budget, with notes for downsizers."
 date: "2026-10-04"
 dateModified: "2026-10-04"
 featuredImage: "https://images.pexels.com/photos/5849563/pexels-photo-5849563.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
@@ -27,6 +27,8 @@ faq:
     a: "Some come early (surveys, valuations, preparing the home), many cluster around exchange and completion (legal fees, taxes, removals), and a few arrive afterwards (redirection, final bills, small fixes). A timeline helps you see when the cash is needed."
   - q: "Are there extra costs to think about when downsizing from a long-held family home?"
     a: "Often, yes. Clearing and sorting a lot of belongings, storage while you decide, and the ongoing costs of the new home, such as service charges and ground rent in some retirement properties, are worth checking before you commit."
+  - q: "How much does it cost to move house in the UK?"
+    a: "There is no single figure. Costs include estate agent and solicitor fees, stamp duty if you buy, surveys, removals and storage, and they vary with the property and the move. Our guide breaks the main categories down so you can build a budget."
 ---
 
 **Short answer:** the removal van is usually only one line in a longer list. Moving house in the UK typically involves fees to professionals, taxes, lender charges and a handful of smaller practical costs, and which of these apply depends on whether you are selling, buying, renting or doing a mix. This guide sets out the categories, what makes each one vary, and a simple way to build a budget without nasty surprises.
@@ -123,7 +125,7 @@ A few things are particularly worth planning for if you are selling a home you h
 - **Care and support.** If you may need extra help later, consider how the new home would work for that, without assuming it is covered.
 - **Equity release and similar products.** These are complex and outside the scope of this article. If you are considering one, seek advice from a regulated adviser, and consider involving family members and a solicitor.
 
-Our guide to [senior move costs](/blog/elderly-removals-cost-uk/) explains what is involved in the practical side and how relocation support is priced.
+Our guide to [elderly removals costs](/blog/elderly-removals-cost-uk/) explains what is involved in the practical side and how relocation support is priced.
 
 ## Where Chayce Properties fits in
 

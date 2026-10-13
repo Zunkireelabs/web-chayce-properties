@@ -228,5 +228,143 @@
     "heroImage": "chayce-uk-london.jpg",
     "image": "chayce-uk-homecounties.jpg",
     "image2": "chayce-uk-wellingborough2.jpg"
+  },
+  {
+    "slug": "leicester",
+    "name": "Leicester",
+    "county": "Leicestershire",
+    "council": "Leicester City Council",
+    "postcodes": "LE1 to LE5",
+    "distance": "around 40 miles",
+    "direction": "north",
+    "road": "the M1",
+    "rail": "Leicester station is on the Midland Main Line, with direct trains to London St Pancras",
+    "hospital": "Leicester Royal Infirmary",
+    "context": "Leicester is a large East Midlands city where Victorian terraces near the centre give way to interwar semis and newer estates further out, so no two removals look quite the same.",
+    "planFor": [
+      "Terraced streets near the centre often have limited parking and narrow frontages, so we plan access and parking for the removal vehicle early.",
+      "Family homes in the suburbs often hold decades of belongings, so it is worth allowing time for sorting before packing starts.",
+      "If you are moving closer to family or into retirement housing, the direct rail link to London can make visits easier after the move."
+    ],
+    "faqTitle": "Do you help people moving out of Leicester to other parts of the UK?",
+    "faqAnswer": "Yes. Chayce arranges later-life moves from Leicester to anywhere in the UK, as well as moves within Leicester and the surrounding area. We coordinate sorting, packing, the removal and settling in at the new home.",
+    "heroImage": "chayce-uk-cotswolds.jpg",
+    "image": "chayce-uk-kettering2.jpg",
+    "image2": "chayce-uk-homecounties.jpg"
+  },
+  {
+    "slug": "oxford",
+    "name": "Oxford",
+    "county": "Oxfordshire",
+    "council": "Oxford City Council",
+    "postcodes": "OX1 to OX4",
+    "distance": "around 50 miles",
+    "direction": "south-west",
+    "road": "the A43 and M40",
+    "rail": "Oxford station has direct trains to London Paddington and on to Reading and the Cotswolds",
+    "hospital": "John Radcliffe Hospital",
+    "context": "Oxford is a historic university city where period houses, listed buildings and tightly controlled parking can make a removal harder than the distance suggests.",
+    "planFor": [
+      "Many Oxford streets are narrow, with permit parking and restricted access, so we plan the day around where the removal vehicle can safely stop.",
+      "Period homes often have steep stairs and awkward turns, which affects how furniture is moved and how long the job takes.",
+      "Older homes also tend to hold a great deal of accumulated furniture and books, so building in sorting time early makes the move calmer."
+    ],
+    "faqTitle": "Do you help people moving out of Oxford to other parts of the UK?",
+    "faqAnswer": "Yes. Chayce arranges later-life moves from Oxford to anywhere in the UK, as well as moves within Oxford and the surrounding area. We coordinate sorting, packing, the removal and settling in at the new home.",
+    "heroImage": "chayce-uk-cotswolds.jpg",
+    "image": "chayce-uk-cotswolds.jpg",
+    "image2": "chayce-uk-london.jpg"
+  },
+  {
+    "slug": "cambridge",
+    "name": "Cambridge",
+    "county": "Cambridgeshire",
+    "council": "Cambridge City Council",
+    "postcodes": "CB1 to CB5",
+    "distance": "around 55 miles",
+    "direction": "east",
+    "road": "the A14",
+    "rail": "Cambridge station has direct trains to London King's Cross and London Liverpool Street",
+    "hospital": "Addenbrooke's Hospital",
+    "context": "Cambridge is a university city of period terraces, college streets and newer developments on its edges, and much of the centre has restricted vehicle access.",
+    "planFor": [
+      "Central streets and college areas can have limited vehicle access and cycle-priority routes, so we plan the removal route and timing in advance.",
+      "Terraced homes close to the centre often mean stairs and tight hallways, which affects how large items are moved.",
+      "If you are moving out of the city to be near family, the fast rail links to London can make visits simpler afterwards."
+    ],
+    "faqTitle": "Do you help people moving out of Cambridge to other parts of the UK?",
+    "faqAnswer": "Yes. Chayce arranges later-life moves from Cambridge to anywhere in the UK, as well as moves within Cambridge and the surrounding area. We coordinate sorting, packing, the removal and settling in at the new home.",
+    "heroImage": "chayce-uk-homecounties.jpg",
+    "image": "chayce-uk-london.jpg",
+    "image2": "chayce-uk-homecounties.jpg"
+  },
+  {
+    "slug": "peterborough",
+    "name": "Peterborough",
+    "county": "Cambridgeshire",
+    "council": "Peterborough City Council",
+    "postcodes": "PE1 to PE4",
+    "distance": "around 50 miles",
+    "direction": "north-east",
+    "road": "the A14 and A1",
+    "rail": "Peterborough station is on the East Coast Main Line, with direct trains to London King's Cross",
+    "hospital": "Peterborough City Hospital",
+    "context": "Peterborough is a cathedral city with Victorian streets near the centre and large areas of post-war and newer housing around it, including many bungalows popular with older residents.",
+    "planFor": [
+      "Newer estates often have limited parking and shared drives, so we plan where the removal vehicle will stand on the day.",
+      "Bungalows and smaller family homes are common, which makes a downsize a realistic step for many older residents, so it helps to plan what will fit before you pack.",
+      "The direct rail link to London King's Cross can make family visits easier if you are moving closer to relatives."
+    ],
+    "faqTitle": "Do you help people moving out of Peterborough to other parts of the UK?",
+    "faqAnswer": "Yes. Chayce arranges later-life moves from Peterborough to anywhere in the UK, as well as moves within Peterborough and the surrounding area. We coordinate sorting, packing, the removal and settling in at the new home.",
+    "heroImage": "chayce-uk-homecounties.jpg",
+    "image": "chayce-uk-northampton2.jpg",
+    "image2": "chayce-uk-wellingborough2.jpg"
+  },
+  {
+    "slug": "coventry",
+    "name": "Coventry",
+    "county": "West Midlands",
+    "council": "Coventry City Council",
+    "postcodes": "CV1 to CV6",
+    "distance": "around 35 miles",
+    "direction": "north-west",
+    "road": "the A45",
+    "rail": "Coventry station has direct trains to London Euston and Birmingham",
+    "hospital": "University Hospital Coventry",
+    "context": "Coventry is a city rebuilt in large part after the Second World War, with interwar and post-war housing in many suburbs and a number of bungalows and retirement developments.",
+    "planFor": [
+      "Post-war suburban homes are often easier for access, but drives and parking vary, so we check this before the removal date.",
+      "Long-held family homes often contain several decades of belongings, so building in time for sorting before packing makes the move calmer.",
+      "Retirement flats and bungalows are common choices in the area, so it helps to measure the new space before you decide what to bring."
+    ],
+    "faqTitle": "Do you help people moving out of Coventry to other parts of the UK?",
+    "faqAnswer": "Yes. Chayce arranges later-life moves from Coventry to anywhere in the UK, as well as moves within Coventry and the surrounding area. We coordinate sorting, packing, the removal and settling in at the new home.",
+    "heroImage": "chayce-uk-cotswolds.jpg",
+    "image": "chayce-uk-daventry2.jpg",
+    "image2": "chayce-uk-cotswolds.jpg"
+  },
+  {
+    "slug": "banbury",
+    "name": "Banbury",
+    "county": "Oxfordshire",
+    "council": "Cherwell District Council",
+    "postcodes": "OX15 to OX17",
+    "distance": "around 27 miles",
+    "direction": "south-west",
+    "road": "the A43 and A422",
+    "rail": "Banbury station has direct trains to London Marylebone and Birmingham",
+    "hospital": "Horton General Hospital",
+    "context": "Banbury is a market town on the edge of the Cotswolds, with an older centre, many post-war estates and nearby villages of stone-built homes.",
+    "planFor": [
+      "Villages around Banbury often have narrow lanes and stone cottages, so access for a removal vehicle is worth checking before the day.",
+      "Older stone homes can have steep stairs and low doorways, which affects how furniture is moved.",
+      "If you are moving to be nearer family, the direct trains to London Marylebone and Birmingham can make visits easier."
+    ],
+    "faqTitle": "Do you help people moving out of Banbury to other parts of the UK?",
+    "faqAnswer": "Yes. Chayce arranges later-life moves from Banbury to anywhere in the UK, as well as moves within Banbury and the surrounding area. We coordinate sorting, packing, the removal and settling in at the new home.",
+    "heroImage": "chayce-uk-cotswolds.jpg",
+    "image": "chayce-uk-daventry.jpg",
+    "image2": "chayce-uk-cotswolds.jpg"
   }
 ]

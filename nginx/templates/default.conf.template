@@ -16,7 +16,7 @@ add_header X-Frame-Options "SAMEORIGIN" always;
 add_header X-Content-Type-Options "nosniff" always;
 add_header Referrer-Policy "strict-origin-when-cross-origin" always;
 add_header Strict-Transport-Security "max-age=31536000; includeSubDomains" always;
-add_header Content-Security-Policy-Report-Only "default-src 'self'; report-uri /csp-report" always;
+add_header Content-Security-Policy-Report-Only "default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' data: https://fonts.gstatic.com; img-src 'self' data: https://images.pexels.com https://www.google-analytics.com https://*.googletagmanager.com https://www.googletagmanager.com; media-src 'self'; connect-src 'self' https://www.google-analytics.com https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com; frame-src https://www.google.com; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'; report-uri /csp-report" always;
 # SEOAI:SECURITY-HEADERS:END
 
     # Gzip compression
@@ -47,6 +47,14 @@ add_header Content-Security-Policy-Report-Only "default-src 'self'; report-uri /
         proxy_set_header Content-Type "application/json";
     }
 
+    # CSP violation reports: accept and discard with an empty 204 instead of
+    # falling through to the 410 error page (18 KB per report).
+    location = /csp-report {
+        limit_except POST { deny all; }
+        access_log off;
+        return 204;
+    }
+
     # ---- Legacy URL clean-up (prior site on this domain) -------------------
     # Google keeps retrying a 404 for weeks; a 410 says "permanently gone" and
     # it drops the URL (and the unrelated queries it ranked for) much faster.
@@ -54,7 +62,7 @@ add_header Content-Security-Policy-Report-Only "default-src 'self'; report-uri /
     # existed in this one. Do NOT also Disallow them in robots.txt: a blocked
     # URL can't be recrawled, so Google would never see the 410.
     # Placed before the static-asset block so /shop/x.jpg is also a 410.
-    location ~* ^/(shop|product|products|product-category|product-tag|cart|checkout|my-account|wp-admin|wp-content|wp-includes|wp-json|tag|category|author|feed|comments|sales-team|certificates|photo-gallery|about-chayce-v2)(/|$) {
+    location ~* ^/(shop|product|products|product-category|product-tag|cart|checkout|my-account|wp-admin|wp-content|wp-includes|wp-json|tag|category|author|feed|comments|sales-team|certificates|photo-gallery|about-chayce-v2|contents|casinos-in-scotland)(/|$) {
         return 410;
     }
     location ~* \.php$ {
@@ -115,14 +123,16 @@ add_header Content-Security-Policy-Report-Only "default-src 'self'; report-uri /
 
     # Static assets — cache aggressively
     location ~* \.(js|css|png|jpg|jpeg|gif|ico|svg|woff|woff2|ttf|eot|webp|avif)$ {
-        expires 30d;
         add_header Cache-Control "public, max-age=2592000, immutable";
+        include /etc/nginx/snippets/security-headers.conf;
     }
 
-    # HTML pages — no cache (always serve fresh content)
+    # HTML pages — always revalidate (expires -1 sends "Cache-Control: no-cache"
+    # itself; ETag/Last-Modified give cheap 304s, and unlike no-store this
+    # still lets the browser's back/forward cache work).
     location ~* \.html$ {
         expires -1;
-        add_header Cache-Control "no-cache, no-store, must-revalidate";
+        include /etc/nginx/snippets/security-headers.conf;
     }
 
     # Sitemap and robots — always revalidate, so Google never works from a
@@ -130,7 +140,7 @@ add_header Content-Security-Policy-Report-Only "default-src 'self'; report-uri /
     # at the old URL count). ETag/Last-Modified still give cheap 304s.
     location ~* (sitemap\.xml|robots\.txt)$ {
         expires -1;
-        add_header Cache-Control "no-cache";
+        include /etc/nginx/snippets/security-headers.conf;
     }
 
     # Leftovers from the previous owner of this domain (a casino/spam site):
@@ -141,6 +151,12 @@ add_header Content-Security-Policy-Report-Only "default-src 'self'; report-uri /
     # listed). Answer 410 Gone, not a redirect: these are not our URLs, and
     # 410 gets them dropped from Google's crawl queue far faster than a 301.
     if ($args ~* "(^|&)(h|p|page_id|s|cat|replytocom|transition)=") {
+        return 410;
+    }
+
+    # Bare numeric query strings (/?3301873010280): the old site's tracking
+    # probes. No page here reads a query string that is only digits.
+    if ($args ~ "^[0-9]+$") {
         return 410;
     }
 

@@ -4,7 +4,7 @@ eleventyExcludeFromCollections: true
 ---
 # {{ site.name }}
 
-> {{ site.name }} is a later-life moving, downsizing and relocation service based in Northampton, UK, founded in 2026. One dedicated coordinator manages every stage of a move: sorting and decluttering, packing, removals, estate agent and solicitor liaison, storage, and settling-in support. Services are designed with older people and their families in mind, and are open to anyone who wants a fully managed move. Chayce arranges moves across the UK and is not a network of local branches.
+> {{ site.name }} is a moving, downsizing and relocation service based in Northampton, UK, designed with older people in mind and open to anyone, founded in 2026. One dedicated coordinator manages every stage of a move: sorting and decluttering, packing, removals, estate agent and solicitor liaison, storage, and settling-in support. Services are designed with older people and their families in mind, and are open to anyone who wants a fully managed move. Chayce arranges moves across the UK and is not a network of local branches.
 
 Package prices are published on the website. Every removal is fully insured against loss or damage in transit, with details set out in the service agreement before the move begins. Contact: WhatsApp or phone {{ site.telephoneDisplay }}, email {{ site.email }}.
 
@@ -16,6 +16,7 @@ Package prices are published on the website. Every removal is fully insured agai
 - [Packages and prices]({{ site.url }}/packages/): side-by-side comparison of every package.
 - [Discovery Consultation]({{ site.url }}/discovery/) — £{{ (site.packages | findByKey("discovery")).price | gbp }}: the one-hour consultation (in person or by phone) that produces a personalised move plan, timeline and budget.
 - [Elderly Removals FAQ]({{ site.url }}/elderly-removals-faq/): plain-English answers on costs, removals, packing, downsizing, insurance and opening hours.
+- [Guides by topic]({{ site.url }}/guides/): every guide grouped by topic: downsizing, costs, moving a parent, care homes, packing and settling in.
 - [Case Studies]({{ site.url }}/case-studies/): client case studies and client feedback, shared with permission.
 - [Get Started]({{ site.url }}/get-started/)
 
@@ -28,6 +29,10 @@ Package prices are published on the website. Every removal is fully insured agai
 - [Downsizing Help for Older People]({{ site.url }}/downsizing-help-for-elderly/)
 - [Moving an Elderly Parent]({{ site.url }}/moving-elderly-parent/)
 - [Retirement Village and Retirement Home Moves]({{ site.url }}/retirement-village-removals/)
+- [Care Home Removals]({{ site.url }}/care-home-removals/)
+- [Packing Service for House Moves]({{ site.url }}/packing-service-uk/)
+- [House Clearance Help for the Elderly]({{ site.url }}/house-clearance-for-the-elderly/)
+- [Probate House Clearance and Moving Help]({{ site.url }}/probate-house-clearance/)
 
 ## Areas
 
@@ -35,7 +40,7 @@ Chayce is based in Northampton and arranges moves across the UK.
 
 - [Northampton and Northamptonshire]({{ site.url }}/elderly-removals-northampton/)
 - [Areas We Cover]({{ site.url }}/areas-we-cover/): regional considerations for London and the South East, the Home Counties, the South West and coast, and the Cotswolds and rural Midlands.
-{% for area in localAreas %}- [Elderly removals in {{ area.name }}]({{ site.url }}/elderly-removals-{{ area.slug }}/): local later-life moving help for {{ area.name }}, {{ area.county }}.
+{% for area in localAreas %}- [House removals in {{ area.name }}]({{ site.url }}/elderly-removals-{{ area.slug }}/): house removals and moving help for {{ area.name }}, {{ area.county }}.
 {% endfor %}
 ## Trust and services
 
