@@ -1,5 +1,5 @@
 ---
-title: "Downsizing or Equity Release? What to Know Before You Decide"
+title: "Downsizing or Equity Release in the UK? What to Know"
 description: "A neutral UK comparison of downsizing and equity release: how each frees up money, the costs and trade-offs, and why regulated advice matters."
 date: "2026-10-08"
 dateModified: "2026-10-08"
@@ -22,9 +22,11 @@ faq:
     a: "It can. Interest usually builds up over time, so less of the home's value may be left for others. This is one reason regulated advice matters."
   - q: "Can Chayce advise on money or equity release?"
     a: "No. Chayce arranges the practical side of a move and cannot give financial advice."
+featuredImage: "https://images.pexels.com/photos/8815885/pexels-photo-8815885.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+featuredImageAlt: "A senior couple reviewing and signing paperwork with an adviser."
 ---
 
-**Short answer:** downsizing and equity release are two different ways to use the value in your home. Downsizing means moving to a cheaper property. Equity release means taking money from your home while you keep living in it. Each has costs and trade-offs, so speak to a regulated adviser before you decide. This is general information, not financial advice.
+**Short answer:** in the UK, downsizing and equity release are two different ways to use the value in your home. Downsizing means moving to a cheaper property. Equity release means taking money from your home while you keep living in it. Each has costs and trade-offs, so speak to a regulated adviser before you decide. This is general information, not financial advice.
 
 ## Two ways to free up money from your home
 

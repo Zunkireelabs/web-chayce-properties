@@ -1,10 +1,8 @@
 ---
-title: "What to Do With Sentimental Belongings When You Downsize"
-description: "A gentle way to work through sentimental items when downsizing: what to keep, photograph or pass on, and how to avoid rushed decisions."
+title: "Sentimental Belongings When Downsizing: A UK Guide"
+description: "A gentle UK guide to working through sentimental items when downsizing: what to keep, photograph or pass on, and how to avoid rushed decisions."
 date: "2026-09-24"
 dateModified: "2026-10-04"
-featuredImage: "https://images.pexels.com/photos/7203815/pexels-photo-7203815.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
-featuredImageAlt: "A woman sorting belongings into a cardboard box while packing for a move."
 featuredImageCredit: "Photo via Pexels"
 faq:
   - q: "How long should I allow for sorting sentimental items?"
@@ -13,9 +11,11 @@ faq:
     a: "Yes. Home sorting and declutter support can begin well ahead of a confirmed date, and often should."
   - q: "What happens to items family members don't want and I don't want to throw away?"
     a: "Donation, sale and specialist collection are all options your coordinator can arrange, so nothing has to go straight in a skip because there's no other plan for it."
+featuredImage: "https://images.pexels.com/photos/8848784/pexels-photo-8848784.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+featuredImageAlt: "Hands looking through a family photo album."
 ---
 
-**Short answer:** sort first, decide later. Group sentimental items by category without deciding anything, then go back through each group slowly, ideally starting 2 to 3 months before moving. Photograph what you cannot keep, and ask family early. For the full process, see our [downsizing guide and checklist](/blog/downsizing-checklist-what-to-keep-uk/).
+**Short answer:** when downsizing in the UK, sort first, decide later. Group sentimental items by category without deciding anything, then go back through each group slowly, ideally starting 2 to 3 months before moving. Photograph what you cannot keep, and ask family early. For the full process, see our [downsizing guide and checklist](/blog/downsizing-checklist-what-to-keep-uk/).
 
 ## The Part That Isn't Really About Packing
 

@@ -10,7 +10,7 @@ about:
   - name: "Moving company"
     url: "https://en.wikipedia.org/wiki/Moving_company"
 faq:
-  - q: "How much does a senior move cost in the UK?"
+  - q: "How much does an elderly move cost in the UK?"
     a: "There is no single flat price. The cost depends on the size of the home, the distance, how much sorting and packing is needed, access at both ends and extras such as storage. At Chayce, packing and removals start from £995 and full-service moves from £1,850, with the final price depending on scope."
   - q: "What affects the price of a move for an older person most?"
     a: "The volume of belongings, whether storage is needed, how much sorting, packing and unpacking is done for you, access such as stairs and parking, and whether solicitor or estate agent coordination is part of the service."
@@ -20,7 +20,7 @@ faq:
     a: "A Discovery Consultation, £150, looks at what your move actually involves and produces a plan, timeline and budget, so the recommended package reflects the real scope rather than a guess from a room count."
 ---
 
-**Short answer:** there is no single price for a senior move in the UK. Cost depends on the size of the home, the distance and how much support is needed, from a straightforward removal to a full relocation with sorting, storage and solicitor coordination. At Chayce Properties, packing and removals start from £995 and a full-service move starts from £1,850. The final price depends on scope.
+**Short answer:** there is no single price for an elderly move in the UK. Cost depends on the size of the home, the distance and how much support is needed, from a straightforward removal to a full relocation with sorting, storage and solicitor coordination. At Chayce Properties, packing and removals start from £995 and a full-service move starts from £1,850. The final price depends on scope.
 
 *General information, not financial advice. Your own quotes are what count.*
 

@@ -85,3 +85,11 @@
   .pkg-teaser .panel{padding:38px 24px}
   .final-cta{padding:64px 0 72px}.final-cta h3{font-size:26px}
 }
+
+/* Other areas we cover (town pages) */
+.area-chips{padding:10px 0 34px;text-align:center}
+.area-chips h2{font-family:'Playfair Display',serif;font-size:22px;margin:0 0 16px;color:var(--navy)}
+.area-chips-links{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;max-width:860px;margin:0 auto}
+.area-chips-links a{padding:7px 16px;border:1px solid rgba(27,42,74,.15);border-radius:999px;color:#2a2f3a;text-decoration:none;font-size:14px;transition:border-color .2s,color .2s,background .2s}
+.area-chips-links a:hover{border-color:var(--gold);color:var(--gold-dark);background:#fbf8f1}
+.area-chips-links a.all{border-color:transparent;color:var(--gold-dark);font-weight:600}

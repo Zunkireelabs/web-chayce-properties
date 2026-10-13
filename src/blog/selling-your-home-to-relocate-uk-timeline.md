@@ -3,8 +3,6 @@ title: "Selling Your Home to Relocate: A Realistic UK Timeline"
 description: "How long selling and relocating takes in the UK, what slows it down, and how to plan a later-life move around a realistic timeline."
 date: "2026-09-24"
 dateModified: "2026-09-24"
-featuredImage: "https://images.pexels.com/photos/6474478/pexels-photo-6474478.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
-featuredImageAlt: "A couple reviewing a floor plan together while planning a home move."
 featuredImageCredit: "Photo via Pexels"
 faq:
   - q: "How early should I start planning if I need to sell first?"
@@ -13,11 +11,13 @@ faq:
     a: "Storage is included in Gold Prestige for exactly this situation, bridging the gap between the two dates."
   - q: "What if a link in the chain falls through partway?"
     a: "It's exactly why ongoing estate agent and solicitor liaison matters — having someone tracking the chain daily means a problem gets caught and worked around early, rather than discovered at the last minute."
+featuredImage: "https://images.pexels.com/photos/7937959/pexels-photo-7937959.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+featuredImageAlt: "Hands passing over the keys to a new home."
 ---
 
 ## Why the Timeline Matters More Than the Date
 
-When a move depends on selling first, the actual moving date is often the last thing to become clear — it's set by how the sale progresses, not by a diary entry. Planning around a realistic timeline, rather than a hoped-for date, tends to make the whole process far less stressful.
+When a move in the UK depends on selling first, the actual moving date is often the last thing to become clear — it's set by how the sale progresses, not by a diary entry. Planning around a realistic timeline, rather than a hoped-for date, tends to make the whole process far less stressful.
 
 ## What a UK Sale-and-Move Timeline Usually Involves
 

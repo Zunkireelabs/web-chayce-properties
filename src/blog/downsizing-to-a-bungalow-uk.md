@@ -8,8 +8,6 @@ sources:
     url: "https://propertyportfolioinvestor.co.uk/investment-insights/bungalow-shortage-older-homeowners-downsizing/"
   - name: "Quickmove Properties research on new-build bungalows (27 Nov 2023)"
     url: "https://www.luxuriousmagazine.com/new-build-bungalows-a-rarity/"
-featuredImage: "https://images.pexels.com/photos/6474478/pexels-photo-6474478.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
-featuredImageAlt: "A couple reviewing a floor plan together while planning a home move."
 featuredImageCredit: "Photo via Pexels"
 about:
   - name: "Bungalow"
@@ -27,9 +25,11 @@ faq:
     a: "Measure the new rooms first, then decide which large furniture will fit and sort everything else into keep, sell, donate and let go. Doing this room by room, ahead of the move, avoids last-minute decisions."
   - q: "Can Chayce help me move to a bungalow?"
     a: "Yes. We help with sorting, packing, a fully insured removal and setting up the new home, anywhere in the UK. Packing and removals start at £995."
+featuredImage: "https://images.pexels.com/photos/5389185/pexels-photo-5389185.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+featuredImageAlt: "A small traditional brick cottage with a garden gate and fence."
 ---
 
-Short answer: downsizing to a bungalow works best when you choose the property for how you want to live in five to ten years, measure the rooms before you decide what comes with you, and give yourself time to sort a family home rather than doing it in the final week.
+Short answer: downsizing to a bungalow in the UK works best when you choose the property for how you want to live in five to ten years, measure the rooms before you decide what comes with you, and give yourself time to sort a family home rather than doing it in the final week.
 
 ## Why bungalows are hard to find
 

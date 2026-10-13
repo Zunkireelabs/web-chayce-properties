@@ -1,5 +1,5 @@
 ---
-title: "Settling In: Making Your New Home Feel Like Home After a Move"
+title: "Settling In: Making a New Home Feel Like Home (UK Guide)"
 description: "Practical ways to make a new home feel settled after a UK relocation — from unpacking with intention to finding your footing in a new area."
 date: "2026-09-20"
 featuredImage: "https://images.pexels.com/photos/6969831/pexels-photo-6969831.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
@@ -18,7 +18,7 @@ faq:
 
 ## Moving Day Isn't the Finish Line
 
-It's easy to treat moving day as the end of the process, but a home doesn't start to feel like home the moment the last box comes through the door — it takes a little longer, and a little intention, to get there.
+After a UK house move, it's easy to treat moving day as the end of the process, but a home doesn't start to feel like home the moment the last box comes through the door — it takes a little longer, and a little intention, to get there.
 
 ## Unpack With a Plan, Not Just a Priority Order
 

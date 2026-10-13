@@ -3,8 +3,6 @@ title: "When Is the Right Time to Downsize? Signs and Timing (UK)"
 description: "How to tell when it may be time to downsize your UK home: common signs, why earlier is often easier, and how long to allow for the move."
 date: "2026-10-01"
 dateModified: "2026-10-04"
-featuredImage: "https://images.pexels.com/photos/7728055/pexels-photo-7728055.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
-featuredImageAlt: "A senior couple spending time together outdoors on a sunny day."
 featuredImageCredit: "Photo via Pexels"
 sources:
   - name: "Independent Age: Downsizing"
@@ -16,9 +14,17 @@ faq:
     a: "Rooms you no longer use, a garden that has become hard work, rising upkeep, stairs becoming difficult, or wanting to be closer to family or services."
   - q: "How long should I allow to downsize?"
     a: "Three to six months is comfortable for most family homes, though shorter timescales are possible with a fuller-service package."
+  - q: "Should I downsize in retirement?"
+    a: "It can free up money, cut running costs and give you a home that is easier to manage, but it also costs money to move and means leaving a home you know. Weigh the costs, including stamp duty and moving costs, against what you would gain, and take regulated advice on money questions."
+  - q: "Is it better to downsize before or after retirement?"
+    a: "There is no single answer. Moving earlier can be easier physically and give you more choice, while waiting may suit you if you are happy where you are. A planned move, started three to six months ahead, is usually calmer than a move forced by a crisis."
+  - q: "How do I downsize my house?"
+    a: "Decide where you are going, measure what will fit, then sort belongings room by room into keep, sell, donate and let go. Start three to six months ahead, and ask for help with the heaviest or most emotional parts."
+featuredImage: "https://images.pexels.com/photos/8871427/pexels-photo-8871427.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+featuredImageAlt: "An older couple sitting close together on a sofa at home."
 ---
 
-Short answer: the best time to downsize is when you can still make unhurried decisions. Many people wait for a crisis, but a planned move, started three to six months ahead, is calmer and gives you more choice over where you go and what you keep.
+Short answer: in the UK, the best time to downsize is when you can still make unhurried decisions. Many people wait for a crisis, but a planned move, started three to six months ahead, is calmer and gives you more choice over where you go and what you keep.
 
 ## Common signs it may be time
 

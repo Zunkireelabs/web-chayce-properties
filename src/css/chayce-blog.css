@@ -62,3 +62,45 @@
 .blog-sidebar .card-box{text-align:left;background:none;border:0;border-top:1px solid var(--border-warm);padding:24px 0 0;height:auto;margin-bottom:0}
 .blog-sidebar .card-box .btn-chayce{display:inline-block;padding:10px 22px;font-size:12px;letter-spacing:1.4px}
 @media(max-width:991px){.blog-sidebar{position:static;margin-top:40px}}
+
+/* Printable checklist: button on the moving-checklist post, and a clean print layout */
+.print-checklist{display:flex;flex-wrap:wrap;align-items:center;gap:10px 16px;margin:0 0 28px;padding:16px 18px;background:var(--bg-cream,#faf6ef);border:1px solid var(--border-warm,#e8e2d6)}
+.print-checklist button{background:var(--oxblood,#6b1d2a);color:#fff;border:0;padding:10px 22px;font-family:'Poppins',sans-serif;font-size:13px;letter-spacing:1.2px;text-transform:uppercase;cursor:pointer}
+.print-checklist span{font-size:15px;color:#555}
+@media print{
+  .site-nav,.site-nav-links,.site-nav-scrim,.sticky-cta,.chayce-footer,.blog-sidebar,.print-checklist,.blog-post-hero-image,.blog-post-faq,.pg-hero,.page-hero{display:none!important}
+  body{background:#fff!important;color:#000!important}
+  .blog-post-body{max-width:none!important;width:100%!important}
+  a{color:#000!important;text-decoration:none!important}
+  h2{page-break-after:avoid}
+  p,li{orphans:3;widows:3}
+}
+
+/* Blog index: guides by topic */
+.blog-topics{background:linear-gradient(180deg,#fff 0,#f7f4ee 100%);padding-bottom:70px}
+.blog-topics-head{max-width:720px;margin:0 auto 38px;text-align:center}
+.blog-topics h2{font-family:'Playfair Display',serif;font-size:34px;margin:0 0 12px;color:var(--navy)}
+.blog-topics h2::after{content:"";display:block;width:56px;height:3px;background:var(--gold);margin:14px auto 0;border-radius:2px}
+.blog-topics-intro{color:#555;font-size:16px;line-height:1.7;margin:0}
+.blog-topics-intro a{color:var(--gold-dark);text-decoration:underline;text-underline-offset:3px}
+.topic-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;align-items:stretch}
+.topic-card{display:flex;flex-direction:column;background:#fff;border:1px solid rgba(27,42,74,.09);border-radius:16px;padding:26px 26px 14px;box-shadow:0 2px 16px rgba(27,42,74,.05);transition:box-shadow .25s,transform .25s,border-color .25s}
+.topic-card:hover{box-shadow:0 12px 32px rgba(27,42,74,.12);transform:translateY(-3px);border-color:rgba(200,169,110,.55)}
+.topic-card-head{display:flex;gap:14px;align-items:flex-start;margin:0 0 16px;padding-bottom:16px;border-bottom:1px solid rgba(27,42,74,.08);min-height:92px}
+.topic-count{flex:0 0 auto;width:38px;height:38px;border-radius:50%;background:var(--navy);color:var(--gold-light);font-family:'Playfair Display',serif;font-size:17px;display:flex;align-items:center;justify-content:center;margin-top:2px}
+.topic-card h3{font-family:'Playfair Display',serif;font-size:20px;line-height:1.3;margin:0 0 4px;color:var(--navy)}
+.topic-card-head p{margin:0;font-size:13.5px;line-height:1.5;color:#6b6f78}
+.topic-card ul{list-style:none;margin:0;padding:0;flex:1}
+.topic-card li+li{border-top:1px solid rgba(27,42,74,.06)}
+.topic-card a{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:10px 0;color:#2a2f3a;text-decoration:none;font-size:15px;line-height:1.45;transition:color .2s}
+.topic-card a::after{content:"\2192";color:var(--gold);opacity:0;transform:translateX(-6px);transition:opacity .2s,transform .2s;flex:0 0 auto}
+.topic-card a:hover{color:var(--gold-dark)}
+.topic-card a:hover::after{opacity:1;transform:none}
+@media(max-width:1020px){.topic-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:640px){.topic-grid{grid-template-columns:1fr}.topic-card-head{min-height:0}.blog-topics h2{font-size:28px}.topic-card a::after{opacity:1;transform:none}}
+.guides-cta{display:flex;align-items:center;justify-content:space-between;gap:28px;background:var(--navy);border-radius:16px;padding:30px 36px}
+.guides-cta h2{font-family:'Playfair Display',serif;font-size:24px;margin:0 0 6px;color:#fff}
+.guides-cta p{margin:0;color:#c9cdd6;font-size:15px;line-height:1.6;max-width:620px}
+.guides-cta-btn{flex:0 0 auto;background:var(--gold);color:var(--navy-dark);font-weight:600;font-size:14px;letter-spacing:.5px;text-decoration:none;padding:13px 24px;border-radius:8px;transition:background .2s}
+.guides-cta-btn:hover{background:var(--gold-light)}
+@media(max-width:760px){.guides-cta{flex-direction:column;align-items:flex-start;padding:26px 24px}}

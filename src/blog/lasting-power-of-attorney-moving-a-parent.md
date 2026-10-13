@@ -1,5 +1,5 @@
 ---
-title: "Lasting Power of Attorney and Moving a Parent: What to Know"
+title: "Lasting Power of Attorney and Moving a Parent (UK)"
 description: "How a Lasting Power of Attorney works when an older parent moves home in the UK, which type you need, and when to get legal advice before selling."
 date: "2026-10-08"
 dateModified: "2026-10-08"
@@ -22,6 +22,8 @@ faq:
     a: "In England and Wales you may need to apply to the Court of Protection to be appointed as a deputy, which takes time and cost. Speak to a solicitor early."
   - q: "Do the rules differ in Scotland and Northern Ireland?"
     a: "Yes. Scotland and Northern Ireland have their own systems and terms, so check the rules that apply where your parent lives."
+featuredImage: "https://images.pexels.com/photos/8815837/pexels-photo-8815837.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+featuredImageAlt: "An older woman signing paperwork with a professional helping her."
 ---
 
 **Short answer:** if an older parent can make their own decisions, a move can be planned with their agreement and your help. If they can no longer decide about selling a home or managing money, someone usually needs legal authority to act for them, most often through a registered Lasting Power of Attorney (LPA). This is general information for England and Wales, not legal advice.

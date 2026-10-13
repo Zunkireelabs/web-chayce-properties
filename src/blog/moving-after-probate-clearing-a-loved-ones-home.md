@@ -1,5 +1,5 @@
 ---
-title: "Moving After a Bereavement: Probate and Clearing a Home"
+title: "Moving After a Bereavement: Probate and Clearing (UK)"
 description: "A calm guide for UK families on probate, who can deal with a home after a death, and how to sort and move belongings without making costly mistakes."
 date: "2026-10-08"
 dateModified: "2026-10-08"
@@ -22,9 +22,17 @@ faq:
     a: "List and photograph them before anything is moved, agree with the executor and family who keeps what, and store anything undecided somewhere safe."
   - q: "Is Chayce a house clearance or probate service?"
     a: "No. Chayce helps with sorting, packing and moving belongings, and with moving a surviving partner or relative into a new home. We do not give probate or legal advice."
+  - q: "What happens to a house when a parent dies?"
+    a: "The house forms part of the person's estate. The executor named in the will, or an administrator if there is no will, deals with it, usually through probate. What happens next depends on the will or, without one, on the rules where the person lived, so speak to a solicitor."
+  - q: "Who gets the house when parents die?"
+    a: "It depends on the will. If there is no will, rules set out who inherits and these differ across England, Wales, Scotland and Northern Ireland. A solicitor or GOV.UK can explain what applies in your case."
+  - q: "How do I clear out a deceased parent's house?"
+    a: "First check with the executor or solicitor what can be moved, given away or sold. Then sort room by room, set aside valuables, documents and sentimental items, and keep a record of what leaves. Chayce can help sort, pack and move belongings, but we do not give legal advice or empty properties for disposal."
+featuredImage: "https://images.pexels.com/photos/4394514/pexels-photo-4394514.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+featuredImageAlt: "Old family photographs, daisies and an antique key on a table."
 ---
 
-**Short answer:** after a death, the person who has legal authority over the estate, usually an executor named in the will or an administrator, decides what happens to the home and its contents. Probate is the legal process of confirming that authority. Before clearing or moving anything, check with the executor, make a list of what is there, and take legal advice on timing. This is general information, not legal advice.
+**Short answer:** after a death in the UK, the person who has legal authority over the estate, usually an executor named in the will or an administrator, decides what happens to the home and its contents. Probate is the legal process of confirming that authority. Before clearing or moving anything, check with the executor, make a list of what is there, and take legal advice on timing. This is general information, not legal advice.
 
 ## Why this is hard as well as practical
 
@@ -48,7 +56,7 @@ Often a surviving husband, wife or partner needs to move home at the same time, 
 
 ## Where Chayce fits
 
-Chayce helps older people and their families with sorting, packing, removals and settling in, including moving a surviving partner or relative into a new home. We are not a probate service, a house clearance firm or legal advisers, so for the legal side speak to the solicitor handling the estate. A [Discovery Consultation](/discovery/) can set out a realistic plan for the practical side. To talk it over, [get in touch](/contact/).
+Chayce helps older people and their families with sorting, packing, removals and settling in, including moving a surviving partner or relative into a new home. We are not a probate service, a house clearance firm or legal advisers, so for the legal side speak to the solicitor handling the estate. See our page on [probate and moving help](/probate-house-clearance/), or a [Discovery Consultation](/discovery/) can set out a realistic plan for the practical side. To talk it over, [get in touch](/contact/).
 
 ## Sources
 

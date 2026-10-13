@@ -1,6 +1,6 @@
 ---
-title: "Furniture for a Smaller Home: What Fits and What Next"
-description: "Measure and sketch a floor plan to see which furniture fits a smaller home, then sell, donate, recycle or arrange collection for what doesn't."
+title: "Furniture for a Smaller Home in the UK: What Fits"
+description: "Measure and sketch a floor plan to see which furniture fits a smaller home in the UK, then sell, donate, recycle or arrange collection for the rest."
 date: "2026-10-01"
 dateModified: "2026-10-04"
 featuredImage: "https://images.pexels.com/photos/6474478/pexels-photo-6474478.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
@@ -17,7 +17,7 @@ faq:
     a: "It depends on the item and your timetable. Good-quality pieces may sell, but selling takes effort and not everything sells. Donating is often quicker."
 ---
 
-**Short answer:** measure the new home, sketch it to scale, and place the large pieces first. Whatever has no place becomes a decision: offer it to family, sell it, donate it, recycle it or book a collection. Doing this before packing saves time, money and stress on moving day.
+**Short answer:** when downsizing in the UK, measure the new home, sketch it to scale, and place the large pieces first. Whatever has no place becomes a decision: offer it to family, sell it, donate it, recycle it or book a collection. Doing this before packing saves time, money and stress on moving day.
 
 ## Step 1: measure the new home
 

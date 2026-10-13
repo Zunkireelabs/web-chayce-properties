@@ -50,6 +50,7 @@ eleventyComputed:
   <div class="container"><span class="gd-eyebrow">Getting there from Northampton</span><h2>Planned around <em style="font-style:italic;color:var(--gold-light)">realistic travel times</em></h2><p style="margin-bottom:18px">{{ region.note }}</p><p class="rx-bandlinks">Start with a <a href="/discovery/">Discovery Consultation (&pound;150)</a>, or see <a href="/packages/">packages and prices</a>, <a href="/downsizing-help-for-elderly/">downsizing help</a> and <a href="/areas-we-cover/">all the areas we cover</a>.</p></div>
 </section>
 
+{% include "compare-options.njk" %}
 <section class="pkg-faq-band">
   <div class="container">
     <h2>{{ region.short }}: your questions answered</h2>
@@ -64,8 +65,8 @@ eleventyComputed:
   <div class="container">
     <div class="ac-intro-copy" style="margin-bottom:32px"><span class="ac-eyebrow">Other regions</span><h2>Moving somewhere <em>else?</em></h2></div>
     <div class="ac-tiles">
-      {% for r in regions %}{% if r.slug != region.slug %}<a href="/{{ r.slug }}/" class="ac-tile" style="background-image:url({% imageUrl r.img %})"><span class="ac-tile-n">{{ r.n }}</span><span class="ac-tile-t">{{ r.short }}</span></a>
-      {% endif %}{% endfor %}<a href="/elderly-removals-northampton/" class="ac-tile" style="background-image:url({% imageUrl "chayce-uk-northampton.jpg" %})"><span class="ac-tile-n">HQ</span><span class="ac-tile-t">Northampton</span></a>
+      {% for r in regions %}{% if r.slug != region.slug %}<a href="/{{ r.slug }}/" class="ac-tile" style="background-image:url({% imageUrl r.img, 640 %})"><span class="ac-tile-n">{{ r.n }}</span><span class="ac-tile-t">{{ r.short }}</span></a>
+      {% endif %}{% endfor %}<a href="/elderly-removals-northampton/" class="ac-tile" style="background-image:url({% imageUrl "chayce-uk-northampton.jpg", 640 %})"><span class="ac-tile-n">HQ</span><span class="ac-tile-t">Northampton</span></a>
     </div>
   </div>
 </section>
@@ -83,4 +84,4 @@ eleventyComputed:
 
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"{{ site.url }}/"},{"@type":"ListItem","position":2,"name":"Areas We Cover","item":"{{ site.url }}/areas-we-cover/"},{"@type":"ListItem","position":3,"name":"{{ region.short }}","item":"{{ site.url }}/{{ region.slug }}/"}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{% for f in region.faqs %}{"@type":"Question","name":{{ f.q | dump | safe }},"acceptedAnswer":{"@type":"Answer","text":{{ f.a | dump | safe }}}}{% if not loop.last %},{% endif %}{% endfor %}]}</script>
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","url":"{{ site.url }}{{ page.url }}","inLanguage":"en-GB","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".sa-block p"]}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","url":"{{ site.url }}{{ page.url }}","inLanguage":"en-GB","dateModified":"{{ modified }}","author":{"@id":"{{ site.url }}/#organization"},"speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".sa-block p"]}}</script>
