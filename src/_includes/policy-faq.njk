@@ -10,7 +10,7 @@
   .policy-faq details[open] summary::after{content:'\2212'}
   .legal-body .policy-faq p{color:var(--grey-mid);font-size:16px;line-height:1.85;margin:12px 0 0}
 </style>
-<h2>Frequently Asked Questions</h2>
+<h2>What are the most common questions?</h2>
 <div class="policy-faq">
 {% for item in policyFaq %}  <details><summary>{{ item.q }}</summary><p>{{ item.a }}</p></details>
 {% endfor %}</div>

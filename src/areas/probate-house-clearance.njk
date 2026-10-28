@@ -43,7 +43,7 @@ bodyClass: "page-template page-loaded svc-topic"
 
 <section class="gd-sec grey">
   <div class="container">
-    <div class="gd-head"><span class="gd-eyebrow">Who does what</span><h2>Where Chayce fits, and <em>where it does not</em></h2></div>
+    <div class="gd-head"><span class="gd-eyebrow">Who does what</span><h2>Where does Chayce fit, and <em>where does it not?</em></h2></div>
     <div class="gd-rows">
       <div class="gd-row"><h3>Executor and solicitor</h3><p>Handle probate, the legal duties around the estate and the decisions about who gets what. Chayce does not give legal, tax or probate advice.</p></div>
       <div class="gd-row"><h3>House-clearance firm</h3><p>Empties a property for disposal or sale. Chayce does not do this: we sort, pack and move what the family chooses to keep.</p></div>
@@ -59,21 +59,21 @@ bodyClass: "page-template page-loaded svc-topic"
 
 <section class="gd-sec">
   <div class="container">
-    <div class="gd-head"><span class="gd-eyebrow">Where to start</span><h2>Choose a place to <em>start</em></h2></div>
+    <div class="gd-head"><span class="gd-eyebrow">Where to start</span><h2>Where should you <em>start?</em></h2></div>
     <ul class="rx-prices"><li><div class="rx-pn">&pound;{{ (site.packages | findByKey("discovery")).price | gbp }}</div><h3>Discovery Consultation</h3><p>A one-hour plan and timeline, in person or by phone.</p><a href="/discovery/">See Discovery Consultation &rarr;</a></li><li><div class="rx-pn"><small>from</small>&pound;{{ (site.packages | findByKey("bronze")).price | gbp }}</div><h3>Bronze Essentials</h3><p>Packing, insured removal, furniture reassembly and light cleaning.</p><a href="/bronze-essentials/">See Bronze Essentials &rarr;</a></li><li><div class="rx-pn"><small>from</small>&pound;{{ (site.packages | findByKey("silver")).price | gbp }}</div><h3>Silver Comfort</h3><p>Declutter help, removal, deep clean and unpacking with a coordinator.</p><a href="/silver-comfort/">See Silver Comfort &rarr;</a></li></ul>
   </div>
 </section>
 
 {% from "guide-cards.njk" import guideCards %}<section class="gd-sec grey">
   <div class="container">
-    <div class="gd-head"><span class="gd-eyebrow">Useful guides</span><h2>Read more <em>when you are ready</em></h2></div>
+    <div class="gd-head"><span class="gd-eyebrow">Useful guides</span><h2>What should you <em>read when you are ready?</em></h2></div>
     {{ guideCards(collections.blog, ['/blog/moving-after-probate-clearing-a-loved-ones-home/', '/blog/lasting-power-of-attorney-moving-a-parent/', '/blog/sentimental-belongings-when-downsizing/', '/blog/how-to-declutter-a-parents-house/']) }}
   </div>
 </section>
 
 <section class="pkg-faq-band">
   <div class="container">
-    <h2>Probate House Clearance and Moving Help: Frequently Asked Questions</h2>
+    <h2>What do people ask about probate house clearance and moving help?</h2>
     <div class="pkg-faq">
       <details><summary>Do you do probate house clearance?</summary><p>We help the family sort, pack and move belongings, and move a surviving partner or relative. We are not a probate service or a house clearance firm, so we do not give legal advice or empty a property for disposal.</p></details>
       <details><summary>How much does probate house clearance cost?</summary><p>Prices vary with the size of the property and how much it holds, and clearance firms usually quote by volume, so get at least two or three written quotes. Chayce does not clear properties for disposal, so we do not quote for it, but our sorting, packing and moving help starts at &pound;{{ (site.packages | findByKey("bronze")).price | gbp }}.</p></details>
