@@ -11,13 +11,13 @@ async function imageShortcode(src, alt, sizes = "100vw", cls = "") {
     throw new Error(`Missing alt text for image: ${src}`);
   }
   const metadata = await Image(resolveInput(src), {
-    widths: [400, 800, 1200, 1600, null],
+    widths: [400, 800, 1200],
     formats: ["avif", "webp", "jpeg"],
     outputDir: "./_site/images/optimized/",
     urlPath: "/images/optimized/",
     sharpJpegOptions: { quality: 78 },
     sharpWebpOptions: { quality: 75 },
-    sharpAvifOptions: { quality: 55 },
+    sharpAvifOptions: { quality: 55, effort: 2 },
   });
 
   const imageAttributes = {
@@ -41,7 +41,7 @@ async function bgMetadata(src, width) {
     urlPath: "/images/optimized/",
     sharpJpegOptions: { quality: 70 },
     sharpWebpOptions: { quality: 62 },
-    sharpAvifOptions: { quality: 38 },
+    sharpAvifOptions: { quality: 38, effort: 2 },
   });
 }
 
