@@ -24,7 +24,7 @@ jobs:
             set -e
             DIR="/home/websites/joyce-prod"
             cd "$DIR"
-            git fetch origin
+            git fetch --prune origin
             git checkout main
             git reset --hard origin/main
             git clean -fd
