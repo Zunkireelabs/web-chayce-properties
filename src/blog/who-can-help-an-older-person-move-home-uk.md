@@ -13,11 +13,9 @@ sources:
     url: "https://www.independentage.org/"
   - name: "housingcare.org (Elderly Accommodation Counsel)"
     url: "https://housingcare.org/"
-  - name: "Autumna"
-    url: "https://www.autumna.co.uk/"
 faq:
   - q: "Are there organisations that help older people move home in the UK?"
-    a: "Yes. Your local council can advise on housing and adult social care, charities such as Age UK and Independent Age give information and advice, and directories such as housingcare.org and Autumna list retirement housing and moving-home services."
+    a: "Yes. Your local council can advise on housing and adult social care, charities such as Age UK and Independent Age give information and advice, and directories such as housingcare.org list retirement housing and moving-home services."
   - q: "What does a later-life move specialist do?"
     a: "A later-life move specialist, sometimes called a move manager or downsizing specialist, plans and coordinates the whole move: sorting, packing, the removal and settling in at the new home, usually with one named coordinator."
   - q: "What is the best relocation service for elderly people in the UK?"
@@ -47,7 +45,6 @@ Age UK and Independent Age provide free information and advice on housing, money
 If you are looking at retirement housing, directories can help you compare options and find services:
 
 - [housingcare.org](https://housingcare.org/), run by the Elderly Accommodation Counsel, lists housing and care options and moving-home services across the UK.
-- [Autumna](https://www.autumna.co.uk/) lists later-living housing and moving-home support.
 
 Our guide to [moving into retirement housing](/blog/moving-into-a-retirement-village-uk-guide/) explains the main types of housing and what to check.
 
