@@ -3,7 +3,7 @@ title: "Settling In: Making a New Home Feel Like Home (UK Guide)"
 description: "Practical ways to make a new home feel settled after a UK relocation — from unpacking with intention to finding your footing in a new area."
 date: "2026-09-20"
 dateModified: "2026-11-04"
-featuredImage: "/images/blog/settling-in-after-your-move.jpg"
+featuredImage: "https://images.pexels.com/photos/6969831/pexels-photo-6969831.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 featuredImageAlt: "A furnished living room with two upholstered armchairs in a new home."
 featuredImageCredit: "Photo via Pexels"
 about:

@@ -27,7 +27,7 @@ faq:
     a: "No. Chayce's Silver Comfort and Gold Prestige packages include hands-on sorting and decluttering support, and a Discovery Consultation can set a realistic plan first."
   - q: "Can I afford to downsize in retirement?"
     a: "Downsizing involves costs, such as stamp duty, estate agent and solicitor fees and removals, and a smaller home is not always cheaper. Add up the costs and compare your options before you commit, and take regulated advice on any money questions."
-featuredImage: "/images/blog/downsizing-checklist-what-to-keep-uk.jpg"
+featuredImage: "https://images.pexels.com/photos/7217846/pexels-photo-7217846.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 featuredImageAlt: "Hands packing a labelled box of clothes while sorting what to keep."
 ---
 

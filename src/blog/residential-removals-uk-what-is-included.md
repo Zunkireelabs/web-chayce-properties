@@ -1,7 +1,7 @@
 ---
 title: "Residential Removals in the UK: What Is Included and What to Ask"
 description: "Residential removals explained: what a UK house removal usually includes, what can cost extra, and how to compare quotes for a home move."
-featuredImage: "/images/blog/residential-removals-uk-what-is-included.jpg"
+featuredImage: "https://images.pexels.com/photos/6169177/pexels-photo-6169177.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 featuredImageAlt: "Courier loading cardboard boxes into a delivery van outside a warehouse"
 date: "2026-10-27"
 dateModified: "2026-11-04"

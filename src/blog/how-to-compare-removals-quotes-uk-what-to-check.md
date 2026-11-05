@@ -25,7 +25,7 @@ faq:
     a: "Ask about goods in transit cover, which protects your belongings while they are moved, and public liability cover, which covers damage to property or injury. Ask for the details in writing and check what is excluded."
   - q: "What are red flags in a removals quote?"
     a: "A price given without any detail of your home, no mention of insurance, a large cash deposit, no written terms, or a company that will not say who will do the work."
-featuredImage: "/images/blog/how-to-compare-removals-quotes-uk-what-to-check.jpg"
+featuredImage: "https://images.pexels.com/photos/7464730/pexels-photo-7464730.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 featuredImageAlt: "A removals worker checking an inventory list among packed boxes."
 ---
 

@@ -3,7 +3,7 @@ title: "What to Do After Moving House in the UK: First Week"
 description: "What to do after moving house in the UK: day-one checks, unpacking order, who to tell, mail redirection, council tax and settling in during the first week."
 date: "2026-10-12"
 dateModified: "2026-11-04"
-featuredImage: "/images/blog/what-to-do-after-moving-house-uk-first-week-checklist.jpg"
+featuredImage: "https://images.pexels.com/photos/7414919/pexels-photo-7414919.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 featuredImageAlt: "A family sitting together on the floor surrounded by moving boxes in their new home."
 featuredImageCredit: "Photo via Pexels"
 about:

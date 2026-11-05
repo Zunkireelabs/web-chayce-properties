@@ -29,7 +29,7 @@ faq:
     a: "There is no single answer. Moving earlier can be easier physically and give you more choice, while waiting may suit you if you are happy where you are. A planned move, started three to six months ahead, is usually calmer than a move forced by a crisis."
   - q: "How do I downsize my house?"
     a: "Decide where you are going, measure what will fit, then sort belongings room by room into keep, sell, donate and let go. Start three to six months ahead, and ask for help with the heaviest or most emotional parts."
-featuredImage: "/images/blog/when-to-downsize-uk.jpg"
+featuredImage: "https://images.pexels.com/photos/8871427/pexels-photo-8871427.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 featuredImageAlt: "An older couple sitting close together on a sofa at home."
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Removals in Milton Keynes, Bedford and Rugby: What to Plan"
 description: "Planning a house move in Milton Keynes, Bedford or Rugby? What to check on access, parking and rail links, and how a full-service removals team helps."
-featuredImage: "/images/blog/removals-milton-keynes-bedford-rugby-what-to-plan.jpg"
+featuredImage: "https://images.pexels.com/photos/4971275/pexels-photo-4971275.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 featuredImageAlt: "Smiling couple indoors holding keys, moving into a new home"
 date: "2026-10-28"
 dateModified: "2026-11-04"

@@ -1,7 +1,7 @@
 ---
 title: "Removals for Older People Near Me: What to Look For (UK)"
 description: "Looking for a removals company for older people near you? What a good UK firm should offer, questions to ask, and how to compare local and national options."
-featuredImage: "/images/blog/removals-company-for-older-people-near-me-what-to-look-for.jpg"
+featuredImage: "https://images.pexels.com/photos/7464724/pexels-photo-7464724.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 featuredImageAlt: "A couple carrying moving boxes indoors, settling into their new flat"
 date: "2026-10-27"
 dateModified: "2026-11-04"

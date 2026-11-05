@@ -23,7 +23,7 @@ faq:
     a: "You cannot claim first-time buyer relief, so the standard residential rates apply to the whole purchase. A £510,000 home, for example, costs £15,500 in Stamp Duty."
   - q: "Who counts as a first-time buyer?"
     a: "You and anyone you are buying with must all be first-time buyers. If one buyer has owned a home before, the relief does not apply to the purchase."
-featuredImage: "/images/blog/stamp-duty-for-first-time-buyers-england-worked-examples.jpg"
+featuredImage: "https://images.pexels.com/photos/7579206/pexels-photo-7579206.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 featuredImageAlt: "New homeowners smiling as they are handed the keys to their first home."
 ---
 

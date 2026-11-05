@@ -1,7 +1,7 @@
 ---
 title: "Longer-Distance Removals: Leicester, Coventry, Oxford, Cambridge"
 description: "Moving 35 to 55 miles from Northampton? What to plan for a longer-distance house move to Leicester, Coventry, Oxford, Cambridge or Peterborough."
-featuredImage: "/images/blog/removals-leicester-coventry-oxford-cambridge-peterborough-longer-moves.jpg"
+featuredImage: "https://images.pexels.com/photos/9754798/pexels-photo-9754798.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 featuredImageAlt: "A red lorry transports a blue cargo container on a scenic, tree-lined road"
 date: "2026-10-28"
 dateModified: "2026-11-04"

@@ -3,7 +3,7 @@ title: "What to Look for in a Smaller Home When Downsizing (UK)"
 description: "How to choose a smaller home in the UK: location, step-free access, storage, running costs, leasehold questions and a viewing checklist."
 date: "2026-10-04"
 dateModified: "2026-11-04"
-featuredImage: "/images/blog/what-to-look-for-in-a-smaller-home-uk.jpg"
+featuredImage: "https://images.pexels.com/photos/6312357/pexels-photo-6312357.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 featuredImageAlt: "A bright living room with a sofa and two armchairs in a smaller home."
 featuredImageCredit: "Photo via Pexels"
 about:

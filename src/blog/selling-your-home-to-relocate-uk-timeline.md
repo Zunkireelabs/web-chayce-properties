@@ -21,7 +21,7 @@ faq:
     a: "Storage is included in Gold Prestige for exactly this situation, bridging the gap between the two dates."
   - q: "What if a link in the chain falls through partway?"
     a: "It's exactly why ongoing estate agent and solicitor liaison matters — having someone tracking the chain daily means a problem gets caught and worked around early, rather than discovered at the last minute."
-featuredImage: "/images/blog/selling-your-home-to-relocate-uk-timeline.jpg"
+featuredImage: "https://images.pexels.com/photos/7937959/pexels-photo-7937959.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 featuredImageAlt: "Hands passing over the keys to a new home."
 ---
 

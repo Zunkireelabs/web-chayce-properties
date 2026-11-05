@@ -1,7 +1,7 @@
 ---
 title: "Removals in Kettering, Corby and Wellingborough: What to Plan For"
 description: "Moving in or out of Kettering, Corby or Wellingborough? What to plan for in each Northamptonshire town, from access and parking to timing and sorting."
-featuredImage: "/images/blog/removals-kettering-corby-wellingborough-what-to-plan.jpg"
+featuredImage: "https://images.pexels.com/photos/4246267/pexels-photo-4246267.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 featuredImageAlt: "Young diverse male and female in modern casual outfits with cardboard boxes in hands watching step while moving out of old house on summer day"
 date: "2026-10-27"
 dateModified: "2026-11-04"

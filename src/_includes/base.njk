@@ -44,7 +44,7 @@ if (/^(www\.)?chayceproperties\.com$/.test(location.hostname)) {
 <meta property="og:title" content="{{ ogTitle or title | safe }}">
 {% if description %}<meta property="og:description" content="{{ description | safe }}">{% endif %}
 <meta property="og:url" content="{{ canonicalUrl or (site.url + page.url) }}">
-<meta property="og:image" content="{{ ogImage or ((featuredImage | blogOgImage(site.url)) if featuredImage else site.defaultOgImage) }}">
+<meta property="og:image" content="{{ ogImage or featuredImage or site.defaultOgImage }}">
 {% if not ogImage and not featuredImage %}<meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="Chayce Properties: later-life moving and downsizing across the UK">
@@ -52,7 +52,7 @@ if (/^(www\.)?chayceproperties\.com$/.test(location.hostname)) {
 <meta property="article:modified_time" content="{{ dateModified or (page.date | isoDate) }}">
 {% endif %}
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="{{ ogImage or ((featuredImage | blogOgImage(site.url)) if featuredImage else site.defaultOgImage) }}">
+<meta name="twitter:image" content="{{ ogImage or featuredImage or site.defaultOgImage }}">
 <meta name="twitter:title" content="{{ ogTitle or title | safe }}">
 {% if description %}<meta name="twitter:description" content="{{ description | safe }}">{% endif %}
 <link rel="stylesheet" href="/css/wp-content_themes_hompark_css_bundle.min.css">

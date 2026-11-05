@@ -1,7 +1,7 @@
 ---
 title: "DBS-Checked Removals Firms UK: What to Ask Before You Book"
 description: "What a DBS check means for a removals firm, what to ask any removals firm about staff vetting, and why it matters when moving an older or vulnerable person."
-featuredImage: "/images/blog/dbs-checked-removals-uk-what-to-ask.jpg"
+featuredImage: "https://images.pexels.com/photos/8069564/pexels-photo-8069564.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 featuredImageAlt: "Two men carrying boxes in a warehouse environment, demonstrating teamwork"
 date: "2026-10-27"
 dateModified: "2026-11-04"

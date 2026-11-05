@@ -3,7 +3,7 @@ title: "The UK House Moving Checklist: 10 Steps for a Smooth Move"
 description: "A practical, step-by-step UK house moving checklist — from 8 weeks out to moving day itself — for anyone planning a home move."
 date: "2026-09-24"
 dateModified: "2026-11-04"
-featuredImage: "/images/blog/uk-house-moving-checklist.jpg"
+featuredImage: "https://images.pexels.com/photos/4246085/pexels-photo-4246085.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 featuredImageAlt: "A couple carrying boxes down the stairs on moving day."
 featuredImageCredit: "Photo via Pexels"
 about:

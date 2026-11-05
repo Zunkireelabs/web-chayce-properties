@@ -1,7 +1,7 @@
 ---
 title: "How to Downsize a Family Home in the UK: A Step-by-Step Plan"
 description: "A practical step-by-step plan for downsizing a family home in the UK: deciding, measuring, sorting, selling, packing and moving, with links to trusted advice."
-featuredImage: "/images/blog/how-to-downsize-a-family-home-uk-step-by-step.jpg"
+featuredImage: "https://images.pexels.com/photos/8580739/pexels-photo-8580739.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 featuredImageAlt: "Decluttering concept using labelled boxes for sorting clothes in a home setting"
 date: "2026-10-28"
 dateModified: "2026-11-04"

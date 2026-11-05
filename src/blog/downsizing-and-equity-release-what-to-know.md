@@ -28,7 +28,7 @@ faq:
     a: "It can. Interest usually builds up over time, so less of the home's value may be left for others. This is one reason regulated advice matters."
   - q: "Can Chayce advise on money or equity release?"
     a: "No. Chayce arranges the practical side of a move and cannot give financial advice."
-featuredImage: "/images/blog/downsizing-and-equity-release-what-to-know.jpg"
+featuredImage: "https://images.pexels.com/photos/8815885/pexels-photo-8815885.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 featuredImageAlt: "An older couple reviewing and signing paperwork with an adviser."
 ---
 

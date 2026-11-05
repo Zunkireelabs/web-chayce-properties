@@ -1,7 +1,7 @@
 ---
 title: "Retirement Home Moving Service in the UK: What to Expect"
 description: "What a retirement home moving service does in the UK: planning around your new property, packing, removal, settling in and questions to ask."
-featuredImage: "/images/blog/retirement-home-moving-service-uk-what-to-expect.jpg"
+featuredImage: "https://images.pexels.com/photos/8860920/pexels-photo-8860920.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 featuredImageAlt: "Sophisticated elderly woman sitting in a classic living room, exuding elegance and tranquility"
 date: "2026-10-27"
 dateModified: "2026-11-04"

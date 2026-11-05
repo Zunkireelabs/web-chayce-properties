@@ -31,7 +31,7 @@ faq:
     a: "Ask what the service charge covers and how it can change, what fees apply when you sell or leave, what the lease says, whether care can be added on site, and what the moving-in rules are. Get answers in writing."
   - q: "How long before the move should I start planning?"
     a: "Ideally eight weeks or more. Moves into retirement housing often have fixed move-in dates, and sorting belongings for a smaller home takes longer than most people expect."
-featuredImage: "/images/blog/moving-into-a-retirement-village-uk-guide.jpg"
+featuredImage: "https://images.pexels.com/photos/8847448/pexels-photo-8847448.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 featuredImageAlt: "An older couple embracing in a comfortable, elegantly furnished living room."
 ---
 

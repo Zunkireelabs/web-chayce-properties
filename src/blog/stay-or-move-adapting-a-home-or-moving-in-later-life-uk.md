@@ -23,7 +23,7 @@ faq:
     a: "Common signs include a home that is too large to manage, steep stairs that cannot be adapted, being far from family or services, or running costs that are hard to meet. Each person's situation is different."
   - q: "Can Chayce help if I decide to move?"
     a: "Yes. Chayce provides one coordinator for sorting, packing, a fully insured removal and settling in, across the UK. We do not give care, legal or financial advice."
-featuredImage: "/images/blog/stay-or-move-adapting-a-home-or-moving-in-later-life-uk.jpg"
+featuredImage: "https://images.pexels.com/photos/8847319/pexels-photo-8847319.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 featuredImageAlt: "An older couple relaxing together, one reading a newspaper, at home."
 ---
 

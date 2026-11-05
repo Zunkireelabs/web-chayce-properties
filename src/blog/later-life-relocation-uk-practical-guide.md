@@ -1,7 +1,7 @@
 ---
 title: "Later-Life Relocation UK: A Practical Guide to Moving Home"
 description: "Later-life relocation in the UK explained: how to plan a later-life move, who can help, what to sort first and how to keep the move calm and manageable."
-featuredImage: "/images/blog/later-life-relocation-uk-practical-guide.jpg"
+featuredImage: "https://images.pexels.com/photos/7217937/pexels-photo-7217937.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 featuredImageAlt: "A couple carrying labelled kitchen boxes while moving into a new home outdoors"
 date: "2026-10-27"
 dateModified: "2026-11-04"

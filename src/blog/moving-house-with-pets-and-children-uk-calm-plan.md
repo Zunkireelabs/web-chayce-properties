@@ -25,7 +25,7 @@ faq:
     a: "Tell them early, let them help pack their own things, visit the new area if you can, and unpack their bedroom first so there is somewhere familiar to settle on the first night."
   - q: "Should children and pets be at home on moving day?"
     a: "Often it is calmer if they are with a trusted adult elsewhere for the loading, because doors are open and people are carrying large items. If they stay, give each a safe, closed-off room with something familiar."
-featuredImage: "/images/blog/moving-house-with-pets-and-children-uk-calm-plan.jpg"
+featuredImage: "https://images.pexels.com/photos/5481539/pexels-photo-5481539.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 featuredImageAlt: "A couple sitting among packing boxes with their dog during a house move."
 ---
 

@@ -23,7 +23,7 @@ faq:
     a: "Gold adds chauffeur-driven viewings, estate agent and solicitor liaison, full staging with photography, up to 6 weeks of storage and white-glove unpacking and styling."
   - q: "Which package should I choose?"
     a: "If you are unsure, start with a Discovery Consultation at £150. It gives you a plan, timeline and budget, so you can choose the right level of help."
-featuredImage: "/images/blog/chayce-packages-explained-what-each-includes.jpg"
+featuredImage: "https://images.pexels.com/photos/7203849/pexels-photo-7203849.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 featuredImageAlt: "Hands carefully packing belongings into a cardboard box."
 ---
 

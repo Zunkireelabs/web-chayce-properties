@@ -3,7 +3,7 @@ title: "Change of Address Checklist UK: Who to Tell When Moving"
 description: "A practical UK change of address checklist: who to tell when you move house, from DVLA, HMRC and banks to utilities, the GP and family."
 date: "2026-10-04"
 dateModified: "2026-11-04"
-featuredImage: "/images/blog/change-of-address-checklist-uk.jpg"
+featuredImage: "https://images.pexels.com/photos/4554242/pexels-photo-4554242.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 featuredImageAlt: "Neatly stacked and labelled cardboard boxes ready for moving day."
 featuredImageCredit: "Photo via Pexels"
 about:

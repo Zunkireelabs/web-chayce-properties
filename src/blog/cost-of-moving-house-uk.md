@@ -3,7 +3,7 @@ title: "Cost of Moving House in the UK: What to Budget For"
 description: "The cost of moving house in the UK: the main costs of selling and buying, why there is no single average, and a simple moving budget, with notes for downsizers."
 date: "2026-10-04"
 dateModified: "2026-11-04"
-featuredImage: "/images/blog/cost-of-moving-house-uk.jpg"
+featuredImage: "https://images.pexels.com/photos/5849563/pexels-photo-5849563.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 featuredImageAlt: "Calculator, cash and paperwork laid out on a table while planning the costs of buying a home."
 featuredImageCredit: "Photo via Pexels"
 about:
