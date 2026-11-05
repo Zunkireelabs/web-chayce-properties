@@ -2,8 +2,18 @@
 title: "Packing Services in London: What to Expect and Cost"
 description: "Packing services in London: what a packing service does, what affects the price, access and parking issues, and how to choose a firm you can trust."
 date: "2026-10-12"
-dateModified: "2026-10-12"
+dateModified: "2026-11-04"
 featuredImageCredit: "Photo via Pexels"
+about:
+  - name: "Removals company"
+    url: "https://en.wikipedia.org/wiki/Moving_company"
+sources:
+  - name: "British Association of Removers"
+    url: "https://bar.co.uk/"
+  - name: "Citizens Advice: Consumer rights"
+    url: "https://www.citizensadvice.org.uk/consumer/"
+  - name: "Transport for London: Ultra Low Emission Zone"
+    url: "https://tfl.gov.uk/modes/driving/ultra-low-emission-zone"
 faq:
   - q: "What does a packing service in London do?"
     a: "A packing service wraps and boxes your belongings, labels boxes by destination room and prepares furniture for the removal. Some firms also unpack at the new home, so check what is included before you book."
@@ -17,7 +27,7 @@ featuredImage: "https://images.pexels.com/photos/7464689/pexels-photo-7464689.jp
 featuredImageAlt: "Two removals staff loading a van on a city street."
 ---
 
-Short answer: a packing service in London wraps, boxes and labels your belongings so you do not have to, and the price depends on the size of the home, how much is packed and how easy it is to reach. Ask for a written quote that says exactly what is included.
+**Short answer:** a packing service in London wraps, boxes and labels your belongings so you do not have to, and the price depends on the size of the home, how much is packed and how easy it is to reach. Ask for a written quote that says exactly what is included.
 
 ## What a packing service does
 

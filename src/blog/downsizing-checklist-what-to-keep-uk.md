@@ -2,11 +2,20 @@
 title: "Downsizing Your Home in the UK: Guide and Checklist"
 description: "A step-by-step UK downsizing guide with a keep, sell, donate and let-go checklist: how to plan, sort belongings, decide what fits and allow enough time."
 date: "2026-09-21"
-dateModified: "2026-10-04"
+dateModified: "2026-11-04"
 featuredImageCredit: "Photo via Pexels"
+about:
+  - name: "Decluttering"
+    url: "https://en.wikipedia.org/wiki/Decluttering"
 sources:
   - name: "Independent Age: Downsizing"
     url: "https://www.independentage.org/get-advice/housing/housing-options/downsizing"
+  - name: "Age UK"
+    url: "https://www.ageuk.org.uk/"
+  - name: "Independent Age: Housing advice"
+    url: "https://www.independentage.org/get-advice/housing"
+  - name: "NHS: Social care and support guide"
+    url: "https://www.nhs.uk/conditions/social-care-and-support-guide/"
 faq:
   - q: "How long should I give myself to declutter before a move?"
     a: "Ideally 6 to 8 weeks for sorting alone, and longer for a large family home. Work through one category at a time rather than clearing everything in a single weekend."

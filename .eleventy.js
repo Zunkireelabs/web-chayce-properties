@@ -1,5 +1,6 @@
 const Image = require("@11ty/eleventy-img");
 const path = require("path");
+const fs = require("fs");
 
 function resolveInput(src) {
   return path.join("./src/images/", src.replace(/^\/?images\//, ""));
@@ -134,6 +135,15 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addNunjucksFilter("gbp", (n) =>
     Number(n).toLocaleString("en-GB")
   );
+
+  // One stylesheet instead of nine small ones: fewer requests on every page.
+  // Same files, same order as before, so the cascade is unchanged. Keep this
+  // list in step with the files' original order (tokens must stay early).
+  eleventyConfig.on("eleventy.after", () => {
+    const parts = ["seoai-content", "chayce-tokens", "chayce-hero-variants", "chayce-sticky-cta", "chayce-mobile-spacing", "chayce-pages", "chayce-open", "chayce-guide", "chayce-rhythm"];
+    const css = parts.map((n) => fs.readFileSync(path.join("./src/css", n + ".css"), "utf8")).join("\n");
+    fs.writeFileSync("./_site/css/chayce-all.css", css);
+  });
 
   eleventyConfig.addNunjucksAsyncShortcode("image", imageShortcode);
   eleventyConfig.addNunjucksAsyncShortcode("imageUrl", imageUrlShortcode);

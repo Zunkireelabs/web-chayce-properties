@@ -1,10 +1,13 @@
 ---
-title: "Longer-Distance Removals to Leicester, Coventry, Oxford, Cambridge and Peterborough"
+title: "Longer-Distance Removals: Leicester, Coventry, Oxford, Cambridge"
 description: "Moving 35 to 55 miles from Northampton? What to plan for a longer-distance house move to Leicester, Coventry, Oxford, Cambridge or Peterborough."
 featuredImage: "https://images.pexels.com/photos/9754798/pexels-photo-9754798.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
-featuredImageAlt: "A red truck transports a blue cargo container on a scenic, tree-lined road"
+featuredImageAlt: "A red lorry transports a blue cargo container on a scenic, tree-lined road"
 date: "2026-10-28"
-dateModified: "2026-10-28"
+dateModified: "2026-11-04"
+about:
+  - name: "Removals company"
+    url: "https://en.wikipedia.org/wiki/Moving_company"
 sources:
   - name: "Age UK"
     url: "https://www.ageuk.org.uk/"
@@ -12,6 +15,8 @@ sources:
     url: "https://www.independentage.org/"
   - name: "British Association of Removers"
     url: "https://bar.co.uk/"
+  - name: "Citizens Advice: Consumer rights"
+    url: "https://www.citizensadvice.org.uk/consumer/"
 faq:
   - q: "Do you do longer-distance removals from Northampton?"
     a: "Yes. We cover Leicester, Coventry, Oxford, Cambridge and Peterborough, and move clients across the UK."
@@ -23,7 +28,7 @@ faq:
     a: "Yes. Post-move settling-in support is part of our full-service approach."
 ---
 
-Short answer: a move of 35 to 55 miles is a full day with more to coordinate than a local one. Plan the timing, the access at both ends and the first week in the new home before you pack.
+**Short answer:** a move of 35 to 55 miles is a full day with more to coordinate than a local one. Plan the timing, the access at both ends and the first week in the new home before you pack.
 
 ## The cities and the distances
 

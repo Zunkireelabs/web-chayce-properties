@@ -2,10 +2,20 @@
 title: "What to Look for in a Smaller Home When Downsizing (UK)"
 description: "How to choose a smaller home in the UK: location, step-free access, storage, running costs, leasehold questions and a viewing checklist."
 date: "2026-10-04"
-dateModified: "2026-10-04"
+dateModified: "2026-11-04"
 featuredImage: "https://images.pexels.com/photos/6312357/pexels-photo-6312357.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 featuredImageAlt: "A bright living room with a sofa and two armchairs in a smaller home."
 featuredImageCredit: "Photo via Pexels"
+about:
+  - name: "Leasehold estate"
+    url: "https://en.wikipedia.org/wiki/Leasehold_estate"
+sources:
+  - name: "Independent Age: Housing advice"
+    url: "https://www.independentage.org/get-advice/housing"
+  - name: "GOV.UK: Disabled Facilities Grants"
+    url: "https://www.gov.uk/disabled-facilities-grants"
+  - name: "Age UK"
+    url: "https://www.ageuk.org.uk/"
 faq:
   - q: "What should I look for when choosing a smaller home?"
     a: "Start with location (family, friends, GP, shops and transport), then step-free access and layout, space and storage, running costs, and whether the home will still suit you if your needs change. Visit more than once and compare two or three options side by side."

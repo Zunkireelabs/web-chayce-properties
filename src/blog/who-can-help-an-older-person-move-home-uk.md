@@ -2,8 +2,11 @@
 title: "Who Can Help an Older Person Move Home in the UK?"
 description: "Family, councils, charities, directories and later-life move specialists: who can help an older person move home in the UK, and what to ask each one."
 date: "2026-10-12"
-dateModified: "2026-10-12"
+dateModified: "2026-11-04"
 featuredImageCredit: "Photo via Pexels"
+about:
+  - name: "Elderly care"
+    url: "https://en.wikipedia.org/wiki/Elderly_care"
 sources:
   - name: "GOV.UK: Find your local council"
     url: "https://www.gov.uk/find-local-council"
@@ -13,6 +16,8 @@ sources:
     url: "https://www.independentage.org/"
   - name: "housingcare.org (Elderly Accommodation Counsel)"
     url: "https://housingcare.org/"
+  - name: "Elderly Accommodation Counsel: housingcare.org"
+    url: "https://www.housingcare.org/"
 faq:
   - q: "Are there organisations that help older people move home in the UK?"
     a: "Yes. Your local council can advise on housing and adult social care, charities such as Age UK and Independent Age give information and advice, and directories such as housingcare.org list retirement housing and moving-home services."
@@ -26,7 +31,7 @@ featuredImage: "https://images.pexels.com/photos/18429571/pexels-photo-18429571.
 featuredImageAlt: "A carer preparing a warm drink for an older person at home."
 ---
 
-Short answer: an older person can get help moving from family and friends, their local council, charities such as Age UK and Independent Age, housing directories, solicitors and estate agents, and later-life move specialists who coordinate the whole move. Which you need depends on how much of the move you want taken off your hands.
+**Short answer:** an older person can get help moving from family and friends, their local council, charities such as Age UK and Independent Age, housing directories, solicitors and estate agents, and later-life move specialists who coordinate the whole move. Which you need depends on how much of the move you want taken off your hands.
 
 ## Family and friends
 

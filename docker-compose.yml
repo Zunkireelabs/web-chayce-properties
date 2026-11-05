@@ -26,6 +26,7 @@ services:
       - "traefik.http.routers.chayce-web-prod-http.entrypoints=web"
       - "traefik.http.routers.chayce-web-prod-http.middlewares=chayce-web-prod-redirect"
       - "traefik.http.middlewares.chayce-web-prod-redirect.redirectscheme.scheme=https"
+      - "traefik.http.middlewares.chayce-web-prod-redirect.redirectscheme.permanent=true"
       - "traefik.http.routers.chayce-web-prod-www.rule=Host(`www.chayceproperties.com`)"
       - "traefik.http.routers.chayce-web-prod-www.entrypoints=websecure"
       - "traefik.http.routers.chayce-web-prod-www.tls=true"

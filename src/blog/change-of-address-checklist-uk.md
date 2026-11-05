@@ -2,10 +2,22 @@
 title: "Change of Address Checklist UK: Who to Tell When Moving"
 description: "A practical UK change of address checklist: who to tell when you move house, from DVLA, HMRC and banks to utilities, the GP and family."
 date: "2026-10-04"
-dateModified: "2026-10-04"
+dateModified: "2026-11-04"
 featuredImage: "https://images.pexels.com/photos/4554242/pexels-photo-4554242.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 featuredImageAlt: "Neatly stacked and labelled cardboard boxes ready for moving day."
 featuredImageCredit: "Photo via Pexels"
+about:
+  - name: "House moving"
+    url: "https://en.wikipedia.org/wiki/Moving_house"
+sources:
+  - name: "GOV.UK: Change your address on your driving licence"
+    url: "https://www.gov.uk/change-address-driving-licence"
+  - name: "GOV.UK: Tell HMRC about a change of details"
+    url: "https://www.gov.uk/tell-hmrc-change-of-details"
+  - name: "GOV.UK: Register to vote"
+    url: "https://www.gov.uk/register-to-vote"
+  - name: "GOV.UK: Council Tax"
+    url: "https://www.gov.uk/council-tax"
 faq:
   - q: "Do I have to tell DVLA when I move house?"
     a: "Yes. On its change of address pages, GOV.UK says you can be fined up to £1,000 if you do not tell DVLA when your address changes. This covers your driving licence and, if you are the registered keeper, your vehicle log book (V5C). Changing the address on your licence is free."

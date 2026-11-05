@@ -64,3 +64,16 @@ Still open, in priority order: Bing Places, Apple Business Connect, Facebook, Li
 - nginx: bare-number query strings and `/contents/` now return 410, on top of the existing spam clean-up. Do not block these paths in `robots.txt`.
 - Still needs Chayce data: regional price differences and typical move durations, so no cost-by-region or timeline pages yet.
 - Search Console baseline before deploy (3 months): 6 clicks, 196 impressions, average position 11.4; about 1.57M URLs not indexed (inherited spam), 7.76k indexed. Re-check 2 to 4 weeks after deploy.
+
+## Status, 4 Nov 2026 (branch `fix/blogs`, local, not yet deployed)
+- UK wording: "movers", "moving company" and "senior" (as a label for older people) removed from titles, headings, body copy, FAQ, alt text and schema `serviceType`. Kept on purpose: "senior move manager" (a search term, in `/elderly-move-manager-uk/`), "senior coordinator" (seniority), "retirement apartment".
+- Three blog URLs renamed with 301s in `nginx/templates/default.conf.template`: `dbs-checked-removals-uk-what-to-ask`, `removals-company-for-older-people-near-me-what-to-look-for`, `later-life-relocation-uk-practical-guide`. Request indexing for the new URLs after deploy.
+- Town pages now read "Elderly & House Removals in [town]" (matching the `/elderly-removals-[town]/` URL), and their schema links each town to its Wikipedia page via `sameAs` (`wikipedia` field in `src/_data/localAreas.json`).
+- Every blog post now has the same building blocks: `**Short answer:**` lead, at least 1 `about` entity, at least 3 `sources` (shown on the page as "Sources and further reading" and in `citation` schema), at least 3 FAQ items, `dateModified` and `featuredImageAlt`. The blog layout also prints a byline and adds `speakable` and `isPartOf` to the Article schema.
+- Source URLs were checked for HTTP 200 on 4 Nov 2026. MoneyHelper, Royal Mail and the Law Society block automated checks, so they were not added as new sources.
+- `npm run build && npm run check:content` enforces the blog standard and the wording rules above. Run it before every PR.
+- Companies House record added to `sameAs`.
+
+## Open items for the owner
+- Resolved 4 Nov 2026: the owner confirmed Chayce was founded in 2021 (Companies House: Chayce Properties Ltd, 13523724, incorporated 21 July 2021). The site, llms files, `chayce-facts.json` and schema `foundingDate` now say 2021. Still open: Companies House lists the registered office as 9 Jersey Court, Northampton NN3 9TB, while the site trades from Unit F2B Barratt House, NN2 6EZ. Make sure the citations and listings use the trading address consistently, and keep the registered office on Companies House only.
+- Still manual: Bing Places, Apple Business Connect, Facebook, LinkedIn, housingcare.org, Autumna, and real Google and Trustpilot reviews.

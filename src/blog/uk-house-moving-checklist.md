@@ -2,10 +2,22 @@
 title: "The UK House Moving Checklist: 10 Steps for a Smooth Move"
 description: "A practical, step-by-step UK house moving checklist — from 8 weeks out to moving day itself — for anyone planning a home move."
 date: "2026-09-24"
-dateModified: "2026-09-24"
+dateModified: "2026-11-04"
 featuredImage: "https://images.pexels.com/photos/4246085/pexels-photo-4246085.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 featuredImageAlt: "A couple carrying boxes down the stairs on moving day."
 featuredImageCredit: "Photo via Pexels"
+about:
+  - name: "House moving"
+    url: "https://en.wikipedia.org/wiki/Moving_house"
+sources:
+  - name: "GOV.UK: Change your address on your driving licence"
+    url: "https://www.gov.uk/change-address-driving-licence"
+  - name: "GOV.UK: Council Tax"
+    url: "https://www.gov.uk/council-tax"
+  - name: "GOV.UK: Register to vote"
+    url: "https://www.gov.uk/register-to-vote"
+  - name: "British Association of Removers"
+    url: "https://bar.co.uk/"
 faq:
   - q: "How far ahead should I start planning a house move in the UK?"
     a: "Start about eight weeks ahead. That gives you time to book a removals company, sort belongings, start the paperwork and arrange mail redirection before moving day."
@@ -39,6 +51,8 @@ howTo:
     - name: "Moving Day: Keep It Simple"
       text: "Do a final walkthrough of the old property, checking cupboards, lofts and outdoor spaces are genuinely empty. Take meter readings before you leave. Keep important documents, keys and valuables with you rather than on the van."
 ---
+
+**Short answer:** start about eight weeks before moving day. Book your removals firm, sort and pack non-essentials, tell your lender or landlord, redirect your post and update your address, confirm the details in writing, and keep essentials with you on the day.
 
 <p class="print-checklist"><button type="button" onclick="window.print()">Print this checklist</button> <span>Printable UK house moving checklist. For who to tell, see our <a href="/blog/change-of-address-checklist-uk/">change of address checklist</a>.</span></p>
 

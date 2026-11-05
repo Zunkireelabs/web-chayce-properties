@@ -2,8 +2,20 @@
 title: "How to Declutter a Parent's House Before a Move (UK Guide)"
 description: "A gentle, practical UK guide to decluttering a parent's house before a move: where to start, how to handle sentimental items and when to ask for help."
 date: "2026-10-01"
-dateModified: "2026-10-04"
+dateModified: "2026-11-04"
 featuredImageCredit: "Photo via Pexels"
+about:
+  - name: "Decluttering"
+    url: "https://en.wikipedia.org/wiki/Decluttering"
+sources:
+  - name: "Age UK"
+    url: "https://www.ageuk.org.uk/"
+  - name: "Independent Age: Housing advice"
+    url: "https://www.independentage.org/get-advice/housing"
+  - name: "NHS: Social care and support guide"
+    url: "https://www.nhs.uk/conditions/social-care-and-support-guide/"
+  - name: "GOV.UK: Find your local council"
+    url: "https://www.gov.uk/find-local-council"
 faq:
   - q: "Where do I start when decluttering a parent's house?"
     a: "Start with the least emotional rooms, such as the spare room, garage or loft, to build momentum. Leave photographs, letters and sentimental items until later."
@@ -17,7 +29,7 @@ featuredImage: "https://images.pexels.com/photos/7218505/pexels-photo-7218505.jp
 featuredImageAlt: "Labelled boxes being packed while sorting through a family home."
 ---
 
-Short answer: to declutter a parent's house in the UK, start with the least emotional rooms, work in short sessions, let your parent make the decisions, and keep photographs and sentimental items until the end. Rushing the job is the most common reason it goes badly.
+**Short answer:** to declutter a parent's house in the UK, start with the least emotional rooms, work in short sessions, let your parent make the decisions, and keep photographs and sentimental items until the end. Rushing the job is the most common reason it goes badly.
 
 ## A simple approach that works
 

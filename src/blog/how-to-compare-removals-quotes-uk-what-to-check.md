@@ -2,8 +2,18 @@
 title: "How to Compare Removals Quotes in the UK: What to Check"
 description: "How to compare removals quotes in the UK like for like: what a quote should list, the questions to ask about insurance and extras, and red flags to avoid."
 date: "2026-10-13"
-dateModified: "2026-10-13"
+dateModified: "2026-11-04"
 featuredImageCredit: "Photo via Pexels"
+about:
+  - name: "Removals company"
+    url: "https://en.wikipedia.org/wiki/Moving_company"
+sources:
+  - name: "British Association of Removers"
+    url: "https://bar.co.uk/"
+  - name: "Citizens Advice: Consumer rights"
+    url: "https://www.citizensadvice.org.uk/consumer/"
+  - name: "Which?"
+    url: "https://www.which.co.uk/"
 faq:
   - q: "How many removals quotes should I get?"
     a: "Getting at least three written quotes for the same job lets you compare like for like and spot a quote that is unusually high or low. Give each company the same details so the prices mean the same thing."

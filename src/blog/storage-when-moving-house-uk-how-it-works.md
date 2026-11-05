@@ -2,8 +2,18 @@
 title: "Storage When Moving House in the UK: How It Works"
 description: "Storage when moving house in the UK: when you need it, how long, what it costs to plan for, and how to keep furniture safe between sale and move."
 date: "2026-10-12"
-dateModified: "2026-10-12"
+dateModified: "2026-11-04"
 featuredImageCredit: "Photo via Pexels"
+about:
+  - name: "Self storage"
+    url: "https://en.wikipedia.org/wiki/Self_storage"
+sources:
+  - name: "Which?"
+    url: "https://www.which.co.uk/"
+  - name: "Citizens Advice: Consumer rights"
+    url: "https://www.citizensadvice.org.uk/consumer/"
+  - name: "British Association of Removers"
+    url: "https://bar.co.uk/"
 faq:
   - q: "When do you need storage when moving house?"
     a: "You may need storage if your sale and purchase complete on different dates, if your new home is smaller, or if work on the new home is not finished. Storage holds your belongings until you can move them in."
@@ -17,7 +27,7 @@ featuredImage: "https://images.pexels.com/photos/7217904/pexels-photo-7217904.jp
 featuredImageAlt: "Labelled boxes of summer clothes packed and ready for storage."
 ---
 
-Short answer: storage lets you move out of one home and into the next on different dates, or keep furniture that will not fit a smaller home, without rushing either decision. In the UK it is most often used for a few weeks between a sale and a purchase.
+**Short answer:** storage lets you move out of one home and into the next on different dates, or keep furniture that will not fit a smaller home, without rushing either decision. In the UK it is most often used for a few weeks between a sale and a purchase.
 
 ## When storage helps
 

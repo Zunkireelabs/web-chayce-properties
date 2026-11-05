@@ -2,7 +2,7 @@
 title: "Moving After a Bereavement: Probate and Clearing (UK)"
 description: "A calm guide for UK families on probate, who can deal with a home after a death, and how to sort and move belongings without making costly mistakes."
 date: "2026-10-08"
-dateModified: "2026-10-08"
+dateModified: "2026-11-04"
 about:
   - name: "Probate"
     url: "https://en.wikipedia.org/wiki/Probate"

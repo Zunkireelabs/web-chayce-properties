@@ -2,8 +2,11 @@
 title: "Stay or Move? Adapting a Home vs Moving in Later Life (UK)"
 description: "Should you adapt your home or move in later life? A neutral UK guide to home adaptations, grants, the costs of moving and how to decide."
 date: "2026-10-12"
-dateModified: "2026-10-12"
+dateModified: "2026-11-04"
 featuredImageCredit: "Photo via Pexels"
+about:
+  - name: "Elderly care"
+    url: "https://en.wikipedia.org/wiki/Elderly_care"
 sources:
   - name: "GOV.UK: Disabled Facilities Grants"
     url: "https://www.gov.uk/disabled-facilities-grants"
@@ -24,7 +27,7 @@ featuredImage: "https://images.pexels.com/photos/8847319/pexels-photo-8847319.jp
 featuredImageAlt: "An older couple relaxing together, one reading a newspaper, at home."
 ---
 
-Short answer: in the UK, staying put with adaptations suits people who like their home and area and whose home can be changed to fit their needs. Moving suits people whose home is too large, too costly or too hard to adapt, or who want to be closer to family or services. Compare both honestly, and ask for an assessment before deciding.
+**Short answer:** in the UK, staying put with adaptations suits people who like their home and area and whose home can be changed to fit their needs. Moving suits people whose home is too large, too costly or too hard to adapt, or who want to be closer to family or services. Compare both honestly, and ask for an assessment before deciding.
 
 ## Why adapting a home can work
 

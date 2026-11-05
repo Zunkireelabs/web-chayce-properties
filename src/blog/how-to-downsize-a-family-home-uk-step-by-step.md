@@ -2,9 +2,12 @@
 title: "How to Downsize a Family Home in the UK: A Step-by-Step Plan"
 description: "A practical step-by-step plan for downsizing a family home in the UK: deciding, measuring, sorting, selling, packing and moving, with links to trusted advice."
 featuredImage: "https://images.pexels.com/photos/8580739/pexels-photo-8580739.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
-featuredImageAlt: "Decluttering concept using labeled boxes for sorting clothes in a home setting"
+featuredImageAlt: "Decluttering concept using labelled boxes for sorting clothes in a home setting"
 date: "2026-10-28"
-dateModified: "2026-10-28"
+dateModified: "2026-11-04"
+about:
+  - name: "Decluttering"
+    url: "https://en.wikipedia.org/wiki/Decluttering"
 sources:
   - name: "Age UK"
     url: "https://www.ageuk.org.uk/"
@@ -12,6 +15,8 @@ sources:
     url: "https://www.independentage.org/"
   - name: "GOV.UK: Find your local council"
     url: "https://www.gov.uk/find-local-council"
+  - name: "Independent Age: Housing advice"
+    url: "https://www.independentage.org/get-advice/housing"
 faq:
   - q: "Where do I start when downsizing a family home?"
     a: "Decide where you are going, measure the new space, then sort room by room, starting with rooms you rarely use."
@@ -23,7 +28,7 @@ faq:
     a: "Offer them to family first, then consider donation or sale. Your local council can advise on bulky waste."
 ---
 
-Short answer: downsizing works best in a fixed order. Decide where you are going, measure it, sort what fits, then pack and move. Starting with the destination makes every keep or let-go decision easier.
+**Short answer:** downsizing works best in a fixed order. Decide where you are going, measure it, sort what fits, then pack and move. Starting with the destination makes every keep or let-go decision easier.
 
 ## Step 1: choose the destination
 

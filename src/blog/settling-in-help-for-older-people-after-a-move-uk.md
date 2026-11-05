@@ -2,10 +2,20 @@
 title: "Settling In Help for Older People After a Move (UK)"
 description: "Help settling in after moving home in later life: unpacking, setting up, routines, meeting neighbours and who can support you in the first weeks in the UK."
 date: "2026-10-12"
-dateModified: "2026-10-12"
+dateModified: "2026-11-04"
 featuredImage: "https://images.pexels.com/photos/7728055/pexels-photo-7728055.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 featuredImageAlt: "An older couple spending time together outdoors on a sunny day."
 featuredImageCredit: "Photo via Pexels"
+about:
+  - name: "Elderly care"
+    url: "https://en.wikipedia.org/wiki/Elderly_care"
+sources:
+  - name: "Age UK"
+    url: "https://www.ageuk.org.uk/"
+  - name: "Independent Age: Housing advice"
+    url: "https://www.independentage.org/get-advice/housing"
+  - name: "NHS: Social care and support guide"
+    url: "https://www.nhs.uk/conditions/social-care-and-support-guide/"
 faq:
   - q: "How can an older person settle in after moving home?"
     a: "Unpack the bedroom, kitchen and bathroom first, put familiar items where they can be seen, keep routines such as meals and walks, and meet neighbours gradually. Take the first weeks slowly."
@@ -17,7 +27,7 @@ faq:
     a: "Yes. Silver Comfort at £1,850 includes unpacking and setup at the new home, and Gold Prestige at £3,250 includes white-glove unpacking and styling."
 ---
 
-Short answer: settling in after a move in later life goes best when the home is set up before you arrive, familiar belongings are visible straight away, daily routines carry on, and someone is on hand in the first few weeks.
+**Short answer:** settling in after a move in later life goes best when the home is set up before you arrive, familiar belongings are visible straight away, daily routines carry on, and someone is on hand in the first few weeks.
 
 ## Set up the home first
 

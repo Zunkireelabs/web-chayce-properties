@@ -2,13 +2,20 @@
 title: "Elderly Removals Cost UK: What Affects the Price?"
 description: "What drives the cost of elderly removals or a later-life move in the UK, how to compare quotes fairly, and Chayce's published package prices."
 date: "2026-09-18"
-dateModified: "2026-10-04"
+dateModified: "2026-11-04"
 featuredImage: "https://images.pexels.com/photos/4498136/pexels-photo-4498136.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 featuredImageAlt: "Close-up of hands taping up a cardboard moving box."
 featuredImageCredit: "Photo via Pexels"
 about:
-  - name: "Moving company"
+  - name: "Removals company"
     url: "https://en.wikipedia.org/wiki/Moving_company"
+sources:
+  - name: "British Association of Removers"
+    url: "https://bar.co.uk/"
+  - name: "Citizens Advice: Consumer rights"
+    url: "https://www.citizensadvice.org.uk/consumer/"
+  - name: "Which?"
+    url: "https://www.which.co.uk/"
 faq:
   - q: "How much does an elderly move cost in the UK?"
     a: "There is no single flat price. The cost depends on the size of the home, the distance, how much sorting and packing is needed, access at both ends and extras such as storage. At Chayce, packing and removals start from £995 and full-service moves from £1,850, with the final price depending on scope."

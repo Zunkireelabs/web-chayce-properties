@@ -2,20 +2,28 @@
 title: "Cost of Moving House in the UK: What to Budget For"
 description: "The cost of moving house in the UK: the main costs of selling and buying, why there is no single average, and a simple moving budget, with notes for downsizers."
 date: "2026-10-04"
-dateModified: "2026-10-04"
+dateModified: "2026-11-04"
 featuredImage: "https://images.pexels.com/photos/5849563/pexels-photo-5849563.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 featuredImageAlt: "Calculator, cash and paperwork laid out on a table while planning the costs of buying a home."
 featuredImageCredit: "Photo via Pexels"
 about:
   - name: "Stamp duty land tax"
     url: "https://en.wikipedia.org/wiki/Stamp_duty_land_tax"
-  - name: "Moving company"
+  - name: "Removals company"
     url: "https://en.wikipedia.org/wiki/Moving_company"
+  - name: "House moving"
+    url: "https://en.wikipedia.org/wiki/Moving_house"
 sources:
   - name: "GOV.UK: Stamp Duty Land Tax residential rates"
     url: "https://www.gov.uk/stamp-duty-land-tax/residential-property-rates"
   - name: "GOV.UK: Buying and selling your home"
     url: "https://www.gov.uk/buy-sell-your-home"
+  - name: "GOV.UK: Stamp Duty Land Tax"
+    url: "https://www.gov.uk/stamp-duty-land-tax"
+  - name: "Citizens Advice: Housing"
+    url: "https://www.citizensadvice.org.uk/housing/"
+  - name: "HM Land Registry"
+    url: "https://www.gov.uk/government/organisations/hm-land-registry"
 faq:
   - q: "How much Stamp Duty will I pay when downsizing in England?"
     a: "On GOV.UK's published residential rates (checked 4 October 2026), you pay 0% up to £125,000, 2% on £125,001 to £250,000, 5% on £250,001 to £925,000, 10% on £925,001 to £1.5 million and 12% above that. So a £300,000 purchase costs £5,000 and a £400,000 purchase costs £10,000. Check the GOV.UK calculator for your own case."
@@ -120,7 +128,7 @@ The GOV.UK [guide to buying and selling your home](https://www.gov.uk/buy-sell-y
 
 A few things are particularly worth planning for if you are selling a home you have lived in for many years:
 
-- **Volume.** Decades of belongings mean sorting, clearing and possibly storage costs that a younger mover might not face. Starting earlier spreads both the effort and the expense.
+- **Volume.** Decades of belongings mean sorting, clearing and possibly storage costs that a younger household might not face. Starting earlier spreads both the effort and the expense.
 - **Ongoing costs of the new home.** Retirement properties and flats can carry service charges, ground rent or management fees. Ask for the full annual figures, and what increases are allowed, before you commit.
 - **Care and support.** If you may need extra help later, consider how the new home would work for that, without assuming it is covered.
 - **Equity release and similar products.** These are complex and outside the scope of this article. If you are considering one, seek advice from a regulated adviser, and consider involving family members and a solicitor.

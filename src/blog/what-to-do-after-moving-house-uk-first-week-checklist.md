@@ -2,15 +2,24 @@
 title: "What to Do After Moving House in the UK: First Week"
 description: "What to do after moving house in the UK: day-one checks, unpacking order, who to tell, mail redirection, council tax and settling in during the first week."
 date: "2026-10-12"
-dateModified: "2026-10-12"
+dateModified: "2026-11-04"
 featuredImage: "https://images.pexels.com/photos/7414919/pexels-photo-7414919.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 featuredImageAlt: "A family sitting together on the floor surrounded by moving boxes in their new home."
 featuredImageCredit: "Photo via Pexels"
+about:
+  - name: "House moving"
+    url: "https://en.wikipedia.org/wiki/Moving_house"
 sources:
   - name: "GOV.UK: Find your local council"
     url: "https://www.gov.uk/find-local-council"
   - name: "Royal Mail"
     url: "https://www.royalmail.com/"
+  - name: "GOV.UK: Council Tax"
+    url: "https://www.gov.uk/council-tax"
+  - name: "GOV.UK: Register to vote"
+    url: "https://www.gov.uk/register-to-vote"
+  - name: "GOV.UK: Change your address on your driving licence"
+    url: "https://www.gov.uk/change-address-driving-licence"
 faq:
   - q: "What should I do first when I move into a new house in the UK?"
     a: "Take meter readings, check the smoke and carbon monoxide alarms, find the stopcock, fuse box and boiler controls, and unpack the bed, kitchen basics and bathroom first so the first night is comfortable."
@@ -22,7 +31,7 @@ faq:
     a: "Yes. Tell your old council you have left and your new council you have moved in, so council tax is billed correctly, and update the electoral register so you are registered to vote at your new address."
 ---
 
-Short answer: after moving house in the UK, check meter readings, alarms and the stopcock on day one, unpack the bed, kitchen and bathroom first, then use the first week to tell everyone your new address, redirect your post, sort council tax and register with local services. A short list helps, because there is more to remember than you expect.
+**Short answer:** after moving house in the UK, check meter readings, alarms and the stopcock on day one, unpack the bed, kitchen and bathroom first, then use the first week to tell everyone your new address, redirect your post, sort council tax and register with local services. A short list helps, because there is more to remember than you expect.
 
 ## Day one
 

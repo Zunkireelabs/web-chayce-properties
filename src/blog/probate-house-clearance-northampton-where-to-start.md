@@ -1,10 +1,15 @@
 ---
 title: "Probate House Clearance in Northampton: Where to Start"
-description: "Dealing with a loved one's home in Northampton after a death? What to sort first, who decides, and where Chayce can help with sorting, packing and moving. Not legal advice."
+description: "Dealing with a loved one's home in Northampton after a death? What to sort first, who decides, and where Chayce can help. Not legal advice."
 featuredImage: "https://images.pexels.com/photos/7415093/pexels-photo-7415093.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 featuredImageAlt: "A family moving into their new home, carrying boxes and belongings indoors"
 date: "2026-10-27"
-dateModified: "2026-10-27"
+dateModified: "2026-11-04"
+about:
+  - name: "Probate"
+    url: "https://en.wikipedia.org/wiki/Probate"
+  - name: "Northampton"
+    url: "https://en.wikipedia.org/wiki/Northampton"
 sources:
   - name: "GOV.UK: Wills, probate and inheritance"
     url: "https://www.gov.uk/wills-probate-inheritance"
@@ -12,6 +17,8 @@ sources:
     url: "https://www.gov.uk/browse/births-deaths-marriages/death"
   - name: "Age UK"
     url: "https://www.ageuk.org.uk/"
+  - name: "GOV.UK: Applying for probate"
+    url: "https://www.gov.uk/applying-for-probate"
 faq:
   - q: "What is probate house clearance?"
     a: "It is the practical process of sorting and dealing with a home and its belongings after a death, usually led by the executor. It is separate from the legal probate process itself."
@@ -23,7 +30,7 @@ faq:
     a: "Chayce can help with the practical side: sorting belongings with the family, packing and moving what is being kept, and relocating a surviving partner. We do not give legal advice."
 ---
 
-Short answer: after a death, take things in order. Understand your role and the legal steps first, then sort belongings room by room with the family, and only then pack and move what is being kept. Chayce helps with the practical side in Northampton and across the UK, but does not give legal advice.
+**Short answer:** after a death, take things in order. Understand your role and the legal steps first, then sort belongings room by room with the family, and only then pack and move what is being kept. Chayce helps with the practical side in Northampton and across the UK, but does not give legal advice.
 
 ## Start with the legal side, not the house
 

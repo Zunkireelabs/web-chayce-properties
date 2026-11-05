@@ -2,8 +2,20 @@
 title: "Challenges of Moving an Older Person in the UK: How to Cope"
 description: "The common challenges of moving an older person in the UK, from tiredness and emotional attachment to paperwork and timing, and practical ways to handle each."
 date: "2026-10-12"
-dateModified: "2026-10-12"
+dateModified: "2026-11-04"
 featuredImageCredit: "Photo via Pexels"
+about:
+  - name: "Elderly care"
+    url: "https://en.wikipedia.org/wiki/Elderly_care"
+sources:
+  - name: "Age UK: Care and support"
+    url: "https://www.ageuk.org.uk/information-advice/care/"
+  - name: "NHS: Social care and support guide"
+    url: "https://www.nhs.uk/conditions/social-care-and-support-guide/"
+  - name: "Independent Age"
+    url: "https://www.independentage.org/"
+  - name: "GOV.UK: Find your local council"
+    url: "https://www.gov.uk/find-local-council"
 faq:
   - q: "What are the biggest challenges when moving an older person?"
     a: "The most common are tiredness and limited mobility, emotional attachment to belongings, deciding what fits in a smaller space, paperwork and legal arrangements, tight timescales and settling in at the new home."
@@ -17,7 +29,7 @@ featuredImage: "https://images.pexels.com/photos/6942736/pexels-photo-6942736.jp
 featuredImageAlt: "An older woman packing a bag in her living room ahead of a move."
 ---
 
-Short answer: when moving an older person in the UK, the main challenges are physical tiredness, emotional attachment to belongings, fitting a lifetime into less space, paperwork, tight timescales and settling in afterwards. Most are manageable with early planning, short working sessions, the person's own decisions at the centre, and one coordinator for the whole move.
+**Short answer:** when moving an older person in the UK, the main challenges are physical tiredness, emotional attachment to belongings, fitting a lifetime into less space, paperwork, tight timescales and settling in afterwards. Most are manageable with early planning, short working sessions, the person's own decisions at the centre, and one coordinator for the whole move.
 
 ## 1. Tiredness and limited mobility
 

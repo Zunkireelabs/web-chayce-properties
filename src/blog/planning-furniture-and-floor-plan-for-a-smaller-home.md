@@ -2,10 +2,20 @@
 title: "Furniture for a Smaller Home in the UK: What Fits"
 description: "Measure and sketch a floor plan to see which furniture fits a smaller home in the UK, then sell, donate, recycle or arrange collection for the rest."
 date: "2026-10-01"
-dateModified: "2026-10-04"
+dateModified: "2026-11-04"
 featuredImage: "https://images.pexels.com/photos/6474478/pexels-photo-6474478.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 featuredImageAlt: "A couple reviewing a floor plan together while planning a home move."
 featuredImageCredit: "Photo via Pexels"
+about:
+  - name: "Decluttering"
+    url: "https://en.wikipedia.org/wiki/Decluttering"
+sources:
+  - name: "Age UK"
+    url: "https://www.ageuk.org.uk/"
+  - name: "Independent Age: Housing advice"
+    url: "https://www.independentage.org/get-advice/housing"
+  - name: "GOV.UK: Find your local council"
+    url: "https://www.gov.uk/find-local-council"
 faq:
   - q: "How do I work out what furniture will fit in a smaller home?"
     a: "Measure each room and each large piece, sketch a simple floor plan to scale, and place the big items first. Whatever does not fit becomes a decision: pass on, sell, donate or recycle."

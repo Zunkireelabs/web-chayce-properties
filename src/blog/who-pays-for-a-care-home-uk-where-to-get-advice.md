@@ -2,8 +2,11 @@
 title: "Who Pays for a Care Home in the UK? Where to Get Advice"
 description: "Who pays for a care home in the UK, how councils and the NHS can be involved, and where to get free, independent advice before you decide."
 date: "2026-10-12"
-dateModified: "2026-10-12"
+dateModified: "2026-11-04"
 featuredImageCredit: "Photo via Pexels"
+about:
+  - name: "Care home"
+    url: "https://en.wikipedia.org/wiki/Care_home"
 sources:
   - name: "GOV.UK: Find your local council"
     url: "https://www.gov.uk/find-local-council"
@@ -15,6 +18,10 @@ sources:
     url: "https://www.citizensadvice.org.uk/"
   - name: "NHS"
     url: "https://www.nhs.uk/"
+  - name: "Age UK: Paying for care"
+    url: "https://www.ageuk.org.uk/information-advice/care/paying-for-care/"
+  - name: "NHS: Care homes"
+    url: "https://www.nhs.uk/conditions/social-care-and-support-guide/care-services-equipment-and-care-homes/care-homes/"
 faq:
   - q: "Who pays for a care home in the UK?"
     a: "It depends on the person's care needs and finances. Some people pay for their own care, some receive help from their local council after an assessment, and a few qualify for NHS-funded care. The rules differ in England, Scotland, Wales and Northern Ireland."
@@ -32,7 +39,7 @@ featuredImage: "https://images.pexels.com/photos/6975208/pexels-photo-6975208.jp
 featuredImageAlt: "An older couple going through important documents at their kitchen table."
 ---
 
-Short answer: in the UK, who pays for a care home depends on the person's care needs, their savings and property, and where they live. Some people pay for their own care, some get help from their local council after an assessment, and a few qualify for NHS-funded care. The rules differ across England, Scotland, Wales and Northern Ireland, so start with your council and independent advice, not with a price list.
+**Short answer:** in the UK, who pays for a care home depends on the person's care needs, their savings and property, and where they live. Some people pay for their own care, some get help from their local council after an assessment, and a few qualify for NHS-funded care. The rules differ across England, Scotland, Wales and Northern Ireland, so start with your council and independent advice, not with a price list.
 
 This guide only points you to the right places. It is not financial, legal or care advice, and it does not set out current thresholds or rules, which change.
 

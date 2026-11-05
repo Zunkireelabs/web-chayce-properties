@@ -2,10 +2,20 @@
 title: "How to Plan a Stress-Free Move for an Older Person (UK)"
 description: "Practical steps for planning a smooth, dignified move for an older person in the UK, from first consultation to final unpack."
 date: "2026-09-17"
-dateModified: "2026-09-24"
+dateModified: "2026-11-04"
 featuredImage: "https://images.pexels.com/photos/7217844/pexels-photo-7217844.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 featuredImageAlt: "A couple taking a break while packing boxes during their move to a new home."
 featuredImageCredit: "Photo by Blue Bird on Pexels"
+about:
+  - name: "Elderly care"
+    url: "https://en.wikipedia.org/wiki/Elderly_care"
+sources:
+  - name: "Age UK: Care and support"
+    url: "https://www.ageuk.org.uk/information-advice/care/"
+  - name: "Independent Age: Housing advice"
+    url: "https://www.independentage.org/get-advice/housing"
+  - name: "NHS: Social care and support guide"
+    url: "https://www.nhs.uk/conditions/social-care-and-support-guide/"
 faq:
   - q: "What's the first step in planning a stress-free move for an older person?"
     a: "A Discovery Consultation, not a moving date. Chayce begins every relocation by walking through the home together to understand what needs to move, what needs to go, and what timeline actually works for the family before a single box is packed."
@@ -16,6 +26,8 @@ faq:
   - q: "What should moving day itself feel like?"
     a: "Close to uneventful. With everything already planned, boxes already labelled and every detail agreed in advance, a dedicated relocation coordinator aims to make moving day feel like a formality rather than a scramble."
 ---
+
+**Short answer:** a stress-free move for an older person starts with a plan, not a date: an early consultation to agree what moves, what goes and the timeline, the right level of support, and a pace the family sets so decisions about belongings are never rushed.
 
 ## A Plan Comes Before a Date
 
@@ -33,6 +45,6 @@ Moving out of a long-time family home is rarely just a logistics problem — it'
 
 ## What Happens on Moving Day
 
-By the time moving day arrives, the goal is for it to feel almost uneventful: everything already planned, every box already labeled, every detail already agreed on in advance. That's the difference a [dedicated relocation coordinator](/services/) makes.
+By the time moving day arrives, the goal is for it to feel almost uneventful: everything already planned, every box already labelled, every detail already agreed on in advance. That's the difference a [dedicated relocation coordinator](/services/) makes.
 
 However early or late you are in the process, [get in touch](/contact/) and we'll help you work out the right next step.

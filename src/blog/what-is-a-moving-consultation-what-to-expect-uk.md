@@ -2,8 +2,18 @@
 title: "Moving Consultation UK: What to Expect and How to Prepare"
 description: "What a moving or downsizing consultation covers, what you take away, and how to prepare, with the Chayce Discovery Consultation (£150) as an example."
 date: "2026-10-13"
-dateModified: "2026-10-13"
+dateModified: "2026-11-04"
 featuredImageCredit: "Photo via Pexels"
+about:
+  - name: "Removals company"
+    url: "https://en.wikipedia.org/wiki/Moving_company"
+sources:
+  - name: "Companies House: Chayce Properties Ltd (13523724)"
+    url: "https://find-and-update.company-information.service.gov.uk/company/13523724"
+  - name: "British Association of Removers"
+    url: "https://bar.co.uk/"
+  - name: "Citizens Advice: Consumer rights"
+    url: "https://www.citizensadvice.org.uk/consumer/"
 faq:
   - q: "What is a moving consultation?"
     a: "A moving consultation is a planning session before you move. You talk through your home, your dates and what is driving the move, and leave with a plan, a timeline and a budget, so you know what support you need before you commit to anything."
