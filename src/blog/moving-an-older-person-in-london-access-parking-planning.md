@@ -2,11 +2,18 @@
 title: "Moving an Older Person in London, UK: Access and Parking"
 description: "Planning a move for an older person in London, UK: parking bay suspensions, leasehold flats, lifts, stairs and access, and how to plan the day."
 date: "2026-10-12"
-dateModified: "2026-10-12"
+dateModified: "2026-11-04"
 featuredImageCredit: "Photo via Pexels"
+about:
+  - name: "Ultra Low Emission Zone"
+    url: "https://en.wikipedia.org/wiki/Ultra_Low_Emission_Zone"
 sources:
   - name: "GOV.UK: Find your local council"
     url: "https://www.gov.uk/find-local-council"
+  - name: "Transport for London: Ultra Low Emission Zone"
+    url: "https://tfl.gov.uk/modes/driving/ultra-low-emission-zone"
+  - name: "Transport for London: Congestion Charge"
+    url: "https://tfl.gov.uk/modes/driving/congestion-charge"
 faq:
   - q: "Do I need permission to park a removals van in London?"
     a: "Often, yes. Many London streets have controlled parking, and the borough council can suspend a bay for a removal if you apply in advance. Check your borough's rules and how much notice it needs."
@@ -16,11 +23,11 @@ faq:
     a: "Yes. Chayce is based in Northampton and arranges later-life moves to, from and within London and the South East, with one coordinator managing sorting, packing, the removal and settling in."
   - q: "How early should I plan a move in London?"
     a: "Start at least eight weeks ahead. Parking suspensions, lift bookings and managing agent approval all take time, and they can limit which days a move is possible."
-featuredImage: "https://images.pexels.com/photos/16375856/pexels-photo-16375856.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+featuredImage: "/images/blog/moving-an-older-person-in-london-access-parking-planning.jpg"
 featuredImageAlt: "A row of London terraced houses with steps up to the front doors."
 ---
 
-Short answer: a move in London, UK, is usually about access. Parking, narrow streets, stairs, lifts and building rules shape the day more than the distance does, so plan them early and book anything that needs notice, such as a parking suspension or a lift, well ahead.
+**Short answer:** a move in London, UK, is usually about access. Parking, narrow streets, stairs, lifts and building rules shape the day more than the distance does, so plan them early and book anything that needs notice, such as a parking suspension or a lift, well ahead.
 
 ## Parking and the removals van
 

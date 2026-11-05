@@ -1,10 +1,13 @@
 ---
-title: "Removals in Milton Keynes, Bedford and Rugby: What to Plan Before You Move"
+title: "Removals in Milton Keynes, Bedford and Rugby: What to Plan"
 description: "Planning a house move in Milton Keynes, Bedford or Rugby? What to check on access, parking and rail links, and how a full-service removals team helps."
-featuredImage: "https://images.pexels.com/photos/4971275/pexels-photo-4971275.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+featuredImage: "/images/blog/removals-milton-keynes-bedford-rugby-what-to-plan.jpg"
 featuredImageAlt: "Smiling couple indoors holding keys, moving into a new home"
 date: "2026-10-28"
-dateModified: "2026-10-28"
+dateModified: "2026-11-04"
+about:
+  - name: "Removals company"
+    url: "https://en.wikipedia.org/wiki/Moving_company"
 sources:
   - name: "Age UK"
     url: "https://www.ageuk.org.uk/"
@@ -12,6 +15,8 @@ sources:
     url: "https://www.gov.uk/find-local-council"
   - name: "British Association of Removers"
     url: "https://bar.co.uk/"
+  - name: "Citizens Advice: Consumer rights"
+    url: "https://www.citizensadvice.org.uk/consumer/"
 faq:
   - q: "Do you offer residential removals in Milton Keynes, Bedford and Rugby?"
     a: "Yes. We cover all three from our Northampton base, around 16 miles to Milton Keynes, 22 to Bedford and 20 to Rugby."
@@ -23,7 +28,7 @@ faq:
     a: "Call 07708 925432 or use the get started page. A one-hour Discovery Consultation costs £150."
 ---
 
-Short answer: Milton Keynes, Bedford and Rugby are all within about 16 to 22 miles of our Northampton base, so a move between them and Northampton is straightforward. What changes from town to town is access, parking and the type of home, so plan those first.
+**Short answer:** Milton Keynes, Bedford and Rugby are all within about 16 to 22 miles of our Northampton base, so a move between them and Northampton is straightforward. What changes from town to town is access, parking and the type of home, so plan those first.
 
 ## Milton Keynes
 
@@ -42,7 +47,7 @@ Victorian and Edwardian homes often have steep stairs and narrow hallways, so we
 - Confirm parking or a permit for the removal vehicle with your [local council](https://www.gov.uk/find-local-council) if the street is restricted.
 - Measure the new home before deciding what to bring. Our [downsizing checklist](/blog/downsizing-checklist-what-to-keep-uk/) helps.
 - Keep your sale and purchase dates in step. We liaise with your estate agent and solicitor.
-- Ask any mover for written confirmation of insurance and staff vetting. See [DBS-checked movers](/blog/dbs-checked-movers-uk-what-to-ask/).
+- Ask any removals firm for written confirmation of insurance and staff vetting. See [DBS-checked removals firms](/blog/dbs-checked-removals-uk-what-to-ask/).
 
 [Age UK](https://www.ageuk.org.uk/) has practical advice for older people planning a move, and the [British Association of Removers](https://bar.co.uk/) lists member firms.
 

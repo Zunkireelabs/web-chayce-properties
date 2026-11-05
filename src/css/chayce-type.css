@@ -1,0 +1,26 @@
+/* One type scale for the whole site. Loaded last (after each page's own
+   <style>) so every page uses the same sizes. Change sizes here only.
+   Desktop: H1 44 / H2 34 / H3 18 / body 17 / lead 18.
+   Mobile (<=767px): H1 34 / H2 27 / H3 18 / body 16 / lead 17. */
+body h1{font-size:44px!important;line-height:1.15!important}
+body h2{font-size:34px!important;line-height:1.25!important}
+body h3{font-size:18px!important;line-height:1.4!important}
+body .container>p,body .gd-head p,body .rx-sub,body .pkg-intro p{font-size:17px!important;line-height:1.75!important}
+body .lead,body .pg-hero p.lead{font-size:18px!important;line-height:1.65!important}
+/* Blog articles keep a tighter article hierarchy */
+body .page-hero--article h1{font-size:40px!important}
+body .blog-post-body h2{font-size:28px!important}
+body .blog-post-body h3{font-size:21px!important}
+body .blog-post-body p,body .blog-post-body li{font-size:17px!important;line-height:1.8!important}
+/* Blog and guide listing cards */
+body .news-card h2,body .news-card h3{font-size:20px!important}
+@media(max-width:767px){
+  body h1{font-size:34px!important}
+  body h2{font-size:27px!important}
+  body .container>p,body .gd-head p,body .rx-sub,body .pkg-intro p{font-size:16px!important}
+  body .lead,body .pg-hero p.lead{font-size:17px!important}
+  body .page-hero--article h1{font-size:30px!important}
+  body .blog-post-body h2{font-size:24px!important}
+  body .blog-post-body h3{font-size:19px!important}
+  body .blog-post-body p,body .blog-post-body li{font-size:16px!important}
+}

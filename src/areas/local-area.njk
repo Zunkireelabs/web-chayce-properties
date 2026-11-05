@@ -5,15 +5,15 @@ pagination:
   alias: area
   addAllPagesToCollections: true
 permalink: "/elderly-removals-{{ area.slug }}/"
-modified: "2026-10-08"
+modified: "2026-11-04"
 eleventyComputed:
-  title: "House Removals in {{ area.name }} | Chayce"
-  description: "House removals in {{ area.name }}: packing, downsizing help and insured removals from £995, for older people and anyone wanting one coordinator. {{ site.telephoneDisplay }}"
+  title: "Elderly & House Removals in {{ area.name }} | Chayce"
+  description: "Elderly and house removals in {{ area.name }}, {{ area.county }}: packing, downsizing help and insured removals from £995, with one coordinator. {{ site.telephoneDisplay }}"
 ---
 <div class="pg-hero" style="background-image:url({% imageUrl area.heroImage %});{% imageSet area.heroImage %}">
   <div class="container">
     <p class="breadcrumb"><a href="/">Home</a> / <a href="/areas-we-cover/">Areas We Cover</a> / <em>{{ area.name }}</em></p>
-    <h1>House Removals in <em>{{ area.name }}</em>: Packing, Downsizing &amp; Full-Service Moves</h1>
+    <h1>Elderly &amp; House Removals in <em>{{ area.name }}</em>: Packing, Downsizing &amp; Full-Service Moves</h1>
     <p class="lead">Moving support for {{ area.name }} and {{ area.county }}, with extra care for older people, from our Northampton base</p>
     <div class="pg-chips">
       <span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.2-7-11a7 7 0 0114 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>{{ area.distance }} from our office</span>
@@ -112,7 +112,7 @@ eleventyComputed:
   "url": "{{ site.url }}/elderly-removals-{{ area.slug }}/",
   "provider": { "@id": "{{ site.url }}/#organization" },
   "areaServed": [
-    { "@type": "City", "name": "{{ area.name }}" },
+    { "@type": "City", "name": "{{ area.name }}", "sameAs": "{{ area.wikipedia }}" },
     { "@type": "AdministrativeArea", "name": "{{ area.county }}" }
   ]
 }

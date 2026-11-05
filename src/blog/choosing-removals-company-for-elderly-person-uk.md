@@ -2,8 +2,20 @@
 title: "How to Choose a Removals Company for an Elderly Person (UK)"
 description: "How to choose removals for an elderly person in the UK: questions to ask on insurance, packing, pricing and timing, and when a relocation partner suits better."
 date: "2026-10-01"
-dateModified: "2026-10-04"
+dateModified: "2026-11-04"
 featuredImageCredit: "Photo via Pexels"
+about:
+  - name: "Removals company"
+    url: "https://en.wikipedia.org/wiki/Moving_company"
+sources:
+  - name: "British Association of Removers"
+    url: "https://bar.co.uk/"
+  - name: "Citizens Advice: Consumer rights"
+    url: "https://www.citizensadvice.org.uk/consumer/"
+  - name: "Which?"
+    url: "https://www.which.co.uk/"
+  - name: "GOV.UK: Disclosure and Barring Service"
+    url: "https://www.gov.uk/government/organisations/disclosure-and-barring-service"
 faq:
   - q: "What should I look for in a removals company for an elderly person?"
     a: "Insurance details in writing, packing included, a single point of contact, flexibility on timing, and staff who are patient and explain what is happening. Get a written quote and service agreement before booking."
@@ -13,7 +25,7 @@ faq:
     a: "A removals company moves your belongings between two addresses. A relocation partner also helps with sorting, coordination with estate agents and solicitors, and settling in, so the family is not left to manage those parts."
   - q: "What if the moving date changes?"
     a: "Ask before booking. Sale and purchase dates often shift, so check what notice the company needs and whether it charges for changes."
-featuredImage: "https://images.pexels.com/photos/7464684/pexels-photo-7464684.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+featuredImage: "/images/blog/choosing-removals-company-for-elderly-person-uk.jpg"
 featuredImageAlt: "A removals company van parked outside a house with the driver standing beside it."
 ---
 

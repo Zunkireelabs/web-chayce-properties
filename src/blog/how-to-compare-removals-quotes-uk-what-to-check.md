@@ -2,8 +2,18 @@
 title: "How to Compare Removals Quotes in the UK: What to Check"
 description: "How to compare removals quotes in the UK like for like: what a quote should list, the questions to ask about insurance and extras, and red flags to avoid."
 date: "2026-10-13"
-dateModified: "2026-10-13"
+dateModified: "2026-11-04"
 featuredImageCredit: "Photo via Pexels"
+about:
+  - name: "Removals company"
+    url: "https://en.wikipedia.org/wiki/Moving_company"
+sources:
+  - name: "British Association of Removers"
+    url: "https://bar.co.uk/"
+  - name: "Citizens Advice: Consumer rights"
+    url: "https://www.citizensadvice.org.uk/consumer/"
+  - name: "Which?"
+    url: "https://www.which.co.uk/"
 faq:
   - q: "How many removals quotes should I get?"
     a: "Getting at least three written quotes for the same job lets you compare like for like and spot a quote that is unusually high or low. Give each company the same details so the prices mean the same thing."
@@ -15,7 +25,7 @@ faq:
     a: "Ask about goods in transit cover, which protects your belongings while they are moved, and public liability cover, which covers damage to property or injury. Ask for the details in writing and check what is excluded."
   - q: "What are red flags in a removals quote?"
     a: "A price given without any detail of your home, no mention of insurance, a large cash deposit, no written terms, or a company that will not say who will do the work."
-featuredImage: "https://images.pexels.com/photos/7464730/pexels-photo-7464730.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+featuredImage: "/images/blog/how-to-compare-removals-quotes-uk-what-to-check.jpg"
 featuredImageAlt: "A removals worker checking an inventory list among packed boxes."
 ---
 

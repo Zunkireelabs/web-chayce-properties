@@ -2,11 +2,18 @@
 title: "Moving House With Dementia in the UK: Gentle Tips"
 description: "General, practical UK tips for planning a house move when a family member has dementia: keeping routines, reducing change and involving them calmly."
 date: "2026-10-01"
-dateModified: "2026-10-01"
+dateModified: "2026-11-04"
 featuredImageCredit: "Photo via Pexels"
 about:
   - name: "Dementia"
     url: "https://en.wikipedia.org/wiki/Dementia"
+sources:
+  - name: "NHS: Dementia"
+    url: "https://www.nhs.uk/conditions/dementia/"
+  - name: "Alzheimer's Society"
+    url: "https://www.alzheimers.org.uk/"
+  - name: "Age UK: Care and support"
+    url: "https://www.ageuk.org.uk/information-advice/care/"
 faq:
   - q: "How can I make a move easier for someone with dementia?"
     a: "Keep routines familiar, change as little as possible at once, set up their main room first with familiar items, and avoid long days of packing around them. Ask their GP or care team for advice specific to their needs."
@@ -14,11 +21,11 @@ faq:
     a: "Where possible, yes, in ways that feel comfortable to them. Calm, simple involvement usually helps more than hiding the move."
   - q: "Can Chayce give medical advice?"
     a: "No. We provide general moving support only. For medical or care decisions, speak to the person's GP or care team."
-featuredImage: "https://images.pexels.com/photos/7551671/pexels-photo-7551671.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+featuredImage: "/images/blog/moving-house-with-dementia-in-the-family.jpg"
 featuredImageAlt: "A daughter sitting beside and supporting her elderly father."
 ---
 
-Short answer: this is general UK moving guidance, not medical advice. Keep routines familiar, change as little as possible at once, set up a recognisable main room first, and ask the person's GP or care team for advice that fits their needs.
+**Short answer:** this is general UK moving guidance, not medical advice. Keep routines familiar, change as little as possible at once, set up a recognisable main room first, and ask the person's GP or care team for advice that fits their needs.
 
 ## Plan around their routine
 

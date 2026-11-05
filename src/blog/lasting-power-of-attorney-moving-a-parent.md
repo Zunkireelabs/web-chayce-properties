@@ -2,10 +2,12 @@
 title: "Lasting Power of Attorney and Moving a Parent (UK)"
 description: "How a Lasting Power of Attorney works when an older parent moves home in the UK, which type you need, and when to get legal advice before selling."
 date: "2026-10-08"
-dateModified: "2026-10-08"
+dateModified: "2026-11-04"
 about:
   - name: "Power of attorney"
     url: "https://en.wikipedia.org/wiki/Power_of_attorney"
+  - name: "Lasting power of attorney"
+    url: "https://en.wikipedia.org/wiki/Lasting_power_of_attorney"
 sources:
   - name: "GOV.UK: Make, register or end a lasting power of attorney"
     url: "https://www.gov.uk/power-of-attorney"
@@ -13,6 +15,10 @@ sources:
     url: "https://www.gov.uk/power-of-attorney/make-lasting-power"
   - name: "GOV.UK: Become a deputy"
     url: "https://www.gov.uk/become-deputy"
+  - name: "GOV.UK: Office of the Public Guardian"
+    url: "https://www.gov.uk/government/organisations/office-of-the-public-guardian"
+  - name: "Solicitors Regulation Authority: Information for consumers"
+    url: "https://www.sra.org.uk/consumers/"
 faq:
   - q: "Do I need a Lasting Power of Attorney to help my parent move?"
     a: "Not if your parent has capacity and is making their own decisions with your help. A Lasting Power of Attorney matters if they can no longer make certain decisions themselves, for example selling their home or managing money."
@@ -22,7 +28,7 @@ faq:
     a: "In England and Wales you may need to apply to the Court of Protection to be appointed as a deputy, which takes time and cost. Speak to a solicitor early."
   - q: "Do the rules differ in Scotland and Northern Ireland?"
     a: "Yes. Scotland and Northern Ireland have their own systems and terms, so check the rules that apply where your parent lives."
-featuredImage: "https://images.pexels.com/photos/8815837/pexels-photo-8815837.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+featuredImage: "/images/blog/lasting-power-of-attorney-moving-a-parent.jpg"
 featuredImageAlt: "An older woman signing paperwork with a professional helping her."
 ---
 

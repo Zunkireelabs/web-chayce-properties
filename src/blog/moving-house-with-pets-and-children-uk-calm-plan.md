@@ -2,11 +2,18 @@
 title: "Moving House With Pets and Children in the UK: A Calm Plan"
 description: "A practical plan for moving house with children and pets in the UK: what to prepare, how to handle moving day, and the microchip update every pet owner needs."
 date: "2026-10-13"
-dateModified: "2026-10-13"
+dateModified: "2026-11-04"
 featuredImageCredit: "Photo via Pexels"
+about:
+  - name: "House moving"
+    url: "https://en.wikipedia.org/wiki/Moving_house"
 sources:
   - name: "GOV.UK: Get your dog or cat microchipped"
     url: "https://www.gov.uk/get-your-dog-microchipped"
+  - name: "Citizens Advice: Consumer rights"
+    url: "https://www.citizensadvice.org.uk/consumer/"
+  - name: "British Association of Removers"
+    url: "https://bar.co.uk/"
 faq:
   - q: "How do I move house with a dog or cat in the UK?"
     a: "Keep your pet's routine as normal as you can, put them in a quiet, closed room or with a trusted friend on moving day, pack their food, bed and bowls to unpack first, and update their microchip details with the database once you have your new address."
@@ -18,7 +25,7 @@ faq:
     a: "Tell them early, let them help pack their own things, visit the new area if you can, and unpack their bedroom first so there is somewhere familiar to settle on the first night."
   - q: "Should children and pets be at home on moving day?"
     a: "Often it is calmer if they are with a trusted adult elsewhere for the loading, because doors are open and people are carrying large items. If they stay, give each a safe, closed-off room with something familiar."
-featuredImage: "https://images.pexels.com/photos/5481539/pexels-photo-5481539.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+featuredImage: "/images/blog/moving-house-with-pets-and-children-uk-calm-plan.jpg"
 featuredImageAlt: "A couple sitting among packing boxes with their dog during a house move."
 ---
 

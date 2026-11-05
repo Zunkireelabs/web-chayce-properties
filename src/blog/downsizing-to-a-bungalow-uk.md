@@ -3,15 +3,17 @@ title: "Downsizing to a Bungalow in the UK: What to Check and Plan"
 description: "Why bungalows are so hard to find in the UK, what to check before you buy one, and how to plan a downsize without rushing. Includes sourced figures."
 date: "2026-10-01"
 dateModified: "2026-10-04"
+featuredImageCredit: "Photo via Pexels"
+about:
+  - name: "Bungalow"
+    url: "https://en.wikipedia.org/wiki/Bungalow"
 sources:
   - name: "HomeOwners Alliance survey of 2,000 adults, reported by Property Portfolio Investor (23 Sept 2025)"
     url: "https://propertyportfolioinvestor.co.uk/investment-insights/bungalow-shortage-older-homeowners-downsizing/"
   - name: "Quickmove Properties research on new-build bungalows (27 Nov 2023)"
     url: "https://www.luxuriousmagazine.com/new-build-bungalows-a-rarity/"
-featuredImageCredit: "Photo via Pexels"
-about:
-  - name: "Bungalow"
-    url: "https://en.wikipedia.org/wiki/Bungalow"
+  - name: "Independent Age: Housing advice"
+    url: "https://www.independentage.org/get-advice/housing"
 faq:
   - q: "Why are bungalows so hard to find in the UK?"
     a: "Far fewer are being built. Research by Quickmove Properties found bungalows fell from 6.9% of new-build completions in 2000 to 1.2% in 2020, while a HomeOwners Alliance survey found 38% of over-55s would prefer to move into one. Demand outstrips supply, so good ones sell quickly and often at a premium."
@@ -25,11 +27,11 @@ faq:
     a: "Measure the new rooms first, then decide which large furniture will fit and sort everything else into keep, sell, donate and let go. Doing this room by room, ahead of the move, avoids last-minute decisions."
   - q: "Can Chayce help me move to a bungalow?"
     a: "Yes. We help with sorting, packing, a fully insured removal and setting up the new home, anywhere in the UK. Packing and removals start at £995."
-featuredImage: "https://images.pexels.com/photos/5389185/pexels-photo-5389185.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+featuredImage: "/images/blog/downsizing-to-a-bungalow-uk.jpg"
 featuredImageAlt: "A small traditional brick cottage with a garden gate and fence."
 ---
 
-Short answer: downsizing to a bungalow in the UK works best when you choose the property for how you want to live in five to ten years, measure the rooms before you decide what comes with you, and give yourself time to sort a family home rather than doing it in the final week.
+**Short answer:** downsizing to a bungalow in the UK works best when you choose the property for how you want to live in five to ten years, measure the rooms before you decide what comes with you, and give yourself time to sort a family home rather than doing it in the final week.
 
 ## Why bungalows are hard to find
 

@@ -2,10 +2,20 @@
 title: "How to Pack for a House Move in the UK: Room by Room"
 description: "How to pack for moving house in the UK: when to start, what you need, a room-by-room order, what removals firms cannot carry and when to get help."
 date: "2026-10-12"
-dateModified: "2026-10-12"
-featuredImage: "https://images.pexels.com/photos/7203815/pexels-photo-7203815.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+dateModified: "2026-11-04"
+featuredImage: "/images/blog/how-to-pack-for-a-house-move-uk-room-by-room.jpg"
 featuredImageAlt: "A woman sorting belongings into a cardboard box while packing for a move."
 featuredImageCredit: "Photo via Pexels"
+about:
+  - name: "House moving"
+    url: "https://en.wikipedia.org/wiki/Moving_house"
+sources:
+  - name: "British Association of Removers"
+    url: "https://bar.co.uk/"
+  - name: "Citizens Advice: Consumer rights"
+    url: "https://www.citizensadvice.org.uk/consumer/"
+  - name: "Which?"
+    url: "https://www.which.co.uk/"
 faq:
   - q: "How far ahead should I start packing for a house move?"
     a: "Start about four weeks before moving day with things you will not need, such as out-of-season clothes, books and decorations. Pack everyday items in the final week, and keep a first night box to hand."
@@ -17,7 +27,7 @@ faq:
     a: "It depends on the size of the home and how much is packed. At Chayce, packing and an insured removal start at £995 with Bronze Essentials, and a one-hour Discovery Consultation costs £150."
 ---
 
-Short answer: to pack for a house move in the UK, start about four weeks ahead, pack the things you will not need first, work room by room, label every box by its destination room, and keep a first night box of essentials. If time or strength is short, a packing service can do it for you.
+**Short answer:** to pack for a house move in the UK, start about four weeks ahead, pack the things you will not need first, work room by room, label every box by its destination room, and keep a first night box of essentials. If time or strength is short, a packing service can do it for you.
 
 ## What you need
 

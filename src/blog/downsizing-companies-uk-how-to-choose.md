@@ -1,10 +1,13 @@
 ---
-title: "Downsizing Companies in the UK: What They Do and How to Choose One"
+title: "Downsizing Companies UK: What They Do and How to Choose"
 description: "Downsizing companies in the UK explained: what services they offer, what to ask before hiring one, and how they differ from a standard removals firm."
-featuredImage: "https://images.pexels.com/photos/6942739/pexels-photo-6942739.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
-featuredImageAlt: "Two senior women packing belongings in a cozy living room setting"
+featuredImage: "/images/blog/downsizing-companies-uk-how-to-choose.jpg"
+featuredImageAlt: "Two older women packing belongings in a cosy living room setting"
 date: "2026-10-27"
-dateModified: "2026-10-27"
+dateModified: "2026-11-04"
+about:
+  - name: "Removals company"
+    url: "https://en.wikipedia.org/wiki/Moving_company"
 sources:
   - name: "Age UK"
     url: "https://www.ageuk.org.uk/"
@@ -12,6 +15,10 @@ sources:
     url: "https://www.citizensadvice.org.uk/"
   - name: "British Association of Removers"
     url: "https://bar.co.uk/"
+  - name: "Citizens Advice: Consumer rights"
+    url: "https://www.citizensadvice.org.uk/consumer/"
+  - name: "Independent Age: Housing advice"
+    url: "https://www.independentage.org/get-advice/housing"
 faq:
   - q: "What does a downsizing company do?"
     a: "A downsizing company helps you move to a smaller home. Services can include sorting and decluttering, packing, the removal, selling or clearing items and setting up the new home. What is included varies, so ask for it in writing."
@@ -23,7 +30,7 @@ faq:
     a: "Yes. Chayce Properties helps older people downsize across the UK, with packages from £995 for packing and removals and £1,850 for a full-service move."
 ---
 
-Short answer: a downsizing company helps with the whole move to a smaller home, not just the van. Choose one by asking exactly what is included, how the removal is insured, who your single point of contact is and whether staff are DBS-checked.
+**Short answer:** a downsizing company helps with the whole move to a smaller home, not just the van. Choose one by asking exactly what is included, how the removal is insured, who your single point of contact is and whether staff are DBS-checked.
 
 ## What downsizing companies usually offer
 

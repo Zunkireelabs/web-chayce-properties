@@ -38,15 +38,15 @@
   "legalName": "{{ site.legalName }}",
   "alternateName": "{{ site.legalName }}",
   "hasMap": "{{ site.gbpUrl or ('https://www.google.com/maps?q=' + site.geo.latitude + ',' + site.geo.longitude) }}",
-  "foundingDate": "2026",
+  "foundingDate": "2021-07-21",
   "slogan": "House removals, packing and downsizing across the UK",
   "knowsLanguage": "en-GB",
   "contactPoint": { "@type": "ContactPoint", "telephone": "{{ site.telephone }}", "email": "{{ site.email }}", "contactType": "customer service", "areaServed": "GB", "availableLanguage": "English" },
   "areaServed": [
-    { "@type": "City", "name": "Northampton" },
+    { "@type": "City", "name": "Northampton", "sameAs": "https://en.wikipedia.org/wiki/Northampton" },
     { "@type": "AdministrativeArea", "name": "Northamptonshire" },
     { "@type": "AdministrativeArea", "name": "East Midlands" },{% for area in localAreas %}
-    { "@type": "City", "name": "{{ area.name }}" },{% endfor %}
+    { "@type": "City", "name": "{{ area.name }}", "sameAs": "{{ area.wikipedia }}" },{% endfor %}
     { "@type": "Country", "name": "United Kingdom" }
   ],
   "knowsAbout": ["House removals", "Removals for older people", "Elderly removals", "Downsizing help for older people", "Moving an elderly parent", "Later-life moving", "Retirement village moves", "Packing service", "Estate agent liaison", "Property staging", "Storage between house moves"],
