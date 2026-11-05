@@ -16,7 +16,7 @@ add_header X-Frame-Options "SAMEORIGIN" always;
 add_header X-Content-Type-Options "nosniff" always;
 add_header Referrer-Policy "strict-origin-when-cross-origin" always;
 add_header Strict-Transport-Security "max-age=31536000; includeSubDomains" always;
-add_header Content-Security-Policy-Report-Only "default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' data: https://fonts.gstatic.com; img-src 'self' data: https://images.pexels.com https://www.google-analytics.com https://*.googletagmanager.com https://www.googletagmanager.com; media-src 'self'; connect-src 'self' https://www.google-analytics.com https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com; frame-src https://www.google.com; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'; report-uri /csp-report" always;
+add_header Content-Security-Policy-Report-Only "default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' data: https://fonts.gstatic.com; img-src 'self' data: https://www.google-analytics.com https://*.googletagmanager.com https://www.googletagmanager.com; media-src 'self'; connect-src 'self' https://www.google-analytics.com https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com; frame-src https://www.google.com; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'; report-uri /csp-report" always;
 # SEOAI:SECURITY-HEADERS:END
 
     # Gzip compression
@@ -112,6 +112,9 @@ add_header Content-Security-Policy-Report-Only "default-src 'self'; script-src '
     location ~ ^/blog/senior-move-cost-uk/?$ { return 301 https://$host/blog/elderly-removals-cost-uk/; }
     location ~ ^/blog/how-to-plan-a-stress-free-senior-move/?$ { return 301 https://$host/blog/plan-a-stress-free-elderly-move-uk/; }
     location ~ ^/blog/what-does-full-service-moving-company-do/?$ { return 301 https://$host/blog/what-does-a-full-service-removals-company-do/; }
+    location ~ ^/blog/dbs-checked-movers-uk-what-to-ask/?$ { return 301 https://$host/blog/dbs-checked-removals-uk-what-to-ask/; }
+    location ~ ^/blog/moving-company-for-seniors-near-me-what-to-look-for/?$ { return 301 https://$host/blog/removals-company-for-older-people-near-me-what-to-look-for/; }
+    location ~ ^/blog/senior-relocation-uk-practical-guide/?$ { return 301 https://$host/blog/later-life-relocation-uk-practical-guide/; }
 
     # Duplicate-URL consolidation: try_files below also serves /page.html and
     # /page/index.html, so the same page was reachable at several URLs.

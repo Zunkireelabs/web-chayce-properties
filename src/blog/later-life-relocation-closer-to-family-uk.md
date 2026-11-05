@@ -2,13 +2,22 @@
 title: "Moving Closer to Family: A UK Later-Life Relocation Guide"
 description: "How to plan a later-life move closer to family in the UK — timing it well, involving the people who matter, and making the new area feel like home."
 date: "2026-09-19"
-dateModified: "2026-09-24"
-featuredImage: "https://images.pexels.com/photos/4569340/pexels-photo-4569340.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+dateModified: "2026-11-04"
+featuredImage: "/images/blog/later-life-relocation-closer-to-family-uk.jpg"
 featuredImageAlt: "A family unpacking moving boxes together in their new home."
 featuredImageCredit: "Photo via Pexels"
+about:
+  - name: "Elderly care"
+    url: "https://en.wikipedia.org/wiki/Elderly_care"
 sources:
   - name: "Independent Age: Downsizing"
     url: "https://www.independentage.org/get-advice/housing/housing-options/downsizing"
+  - name: "Age UK"
+    url: "https://www.ageuk.org.uk/"
+  - name: "Independent Age: Housing advice"
+    url: "https://www.independentage.org/get-advice/housing"
+  - name: "GOV.UK: Find your local council"
+    url: "https://www.gov.uk/find-local-council"
 faq:
   - q: "Should family be involved early when planning a later-life relocation?"
     a: "Yes. The people you're moving closer to are often the best source of local knowledge, about the area, nearby services and day-to-day life — bringing them into the planning early tends to make the whole move easier than presenting a finished decision."
@@ -19,6 +28,8 @@ faq:
   - q: "Does support end once the move is complete?"
     a: "No. Chayce's Platinum Bespoke package includes ongoing concierge support after the move, to help the new home and the new area start to feel familiar."
 ---
+
+**Short answer:** a later-life move closer to family goes best when family are involved from the start, the timing is built around what matters rather than a deadline (ideally three to six months ahead), and one coordinator looks after the logistics so everyone can focus on the people involved.
 
 ## A Different Kind of Move
 

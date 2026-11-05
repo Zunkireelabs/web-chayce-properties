@@ -2,7 +2,7 @@
 title: "Moving After a Bereavement: Probate and Clearing (UK)"
 description: "A calm guide for UK families on probate, who can deal with a home after a death, and how to sort and move belongings without making costly mistakes."
 date: "2026-10-08"
-dateModified: "2026-10-08"
+dateModified: "2026-11-04"
 about:
   - name: "Probate"
     url: "https://en.wikipedia.org/wiki/Probate"
@@ -28,7 +28,7 @@ faq:
     a: "It depends on the will. If there is no will, rules set out who inherits and these differ across England, Wales, Scotland and Northern Ireland. A solicitor or GOV.UK can explain what applies in your case."
   - q: "How do I clear out a deceased parent's house?"
     a: "First check with the executor or solicitor what can be moved, given away or sold. Then sort room by room, set aside valuables, documents and sentimental items, and keep a record of what leaves. Chayce can help sort, pack and move belongings, but we do not give legal advice or empty properties for disposal."
-featuredImage: "https://images.pexels.com/photos/4394514/pexels-photo-4394514.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+featuredImage: "/images/blog/moving-after-probate-clearing-a-loved-ones-home.jpg"
 featuredImageAlt: "Old family photographs, daisies and an antique key on a table."
 ---
 

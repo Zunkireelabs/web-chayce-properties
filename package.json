@@ -6,7 +6,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "eleventy",
     "start": "eleventy --serve",
-    "check:mobile": "node scripts/check-mobile.mjs"
+    "check:mobile": "node scripts/check-mobile.mjs",
+    "check:content": "node scripts/check-content.js"
   },
   "keywords": [],
   "author": "",

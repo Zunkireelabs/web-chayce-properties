@@ -2,8 +2,20 @@
 title: "Moving an Elderly Person Into a Care Home: UK Checklist"
 description: "A practical, non-medical checklist for the logistics of moving an elderly person into a care home in the UK: what to ask, pack, label and arrange."
 date: "2026-10-01"
-dateModified: "2026-10-01"
+dateModified: "2026-11-04"
 featuredImageCredit: "Photo via Pexels"
+about:
+  - name: "Care home"
+    url: "https://en.wikipedia.org/wiki/Care_home"
+sources:
+  - name: "NHS: Care homes"
+    url: "https://www.nhs.uk/conditions/social-care-and-support-guide/care-services-equipment-and-care-homes/care-homes/"
+  - name: "Age UK: Care homes"
+    url: "https://www.ageuk.org.uk/information-advice/care/arranging-care/care-homes/"
+  - name: "Care Quality Commission"
+    url: "https://www.cqc.org.uk/"
+  - name: "GOV.UK: Find your local council"
+    url: "https://www.gov.uk/find-local-council"
 faq:
   - q: "What should I pack for a move into a care home?"
     a: "Ask the home what it provides and what you can bring. Usually that means clothing labelled with the person's name, toiletries, favourite photographs and a few familiar items that make the room feel like theirs."
@@ -19,11 +31,11 @@ faq:
     a: "Yes. People do move between care homes. Speak to the new home, the person's family and, where relevant, their social worker or care team, and plan the practical move gently, as change can be unsettling."
   - q: "Can someone go into a care home temporarily?"
     a: "Yes. Some care homes offer short stays, often called respite care. Ask the home or your local council's adult social care team what is available and how it is arranged."
-featuredImage: "https://images.pexels.com/photos/18509794/pexels-photo-18509794.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+featuredImage: "/images/blog/moving-an-elderly-person-into-a-care-home-checklist.jpg"
 featuredImageAlt: "An older woman sitting in an armchair in a warm, welcoming care home room."
 ---
 
-Short answer: this UK guide covers the practical side only. Once the decision about a care home has been made with the right professionals, plan the move around ordinary routines, keep the room familiar, and give yourselves more time than you think you need.
+**Short answer:** this UK guide covers the practical side only. Once the decision about a care home has been made with the right professionals, plan the move around ordinary routines, keep the room familiar, and give yourselves more time than you think you need.
 
 ## Before the move
 

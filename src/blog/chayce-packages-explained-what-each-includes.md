@@ -2,8 +2,18 @@
 title: "Chayce Packages Explained: What Each One Includes"
 description: "A plain breakdown of Chayce packages from £150 to £6,500: what Discovery, Bronze, Silver, Gold and Platinum include, and how to choose between them."
 date: "2026-10-12"
-dateModified: "2026-10-12"
+dateModified: "2026-11-04"
 featuredImageCredit: "Photo via Pexels"
+about:
+  - name: "Removals company"
+    url: "https://en.wikipedia.org/wiki/Moving_company"
+sources:
+  - name: "Companies House: Chayce Properties Ltd (13523724)"
+    url: "https://find-and-update.company-information.service.gov.uk/company/13523724"
+  - name: "British Association of Removers"
+    url: "https://bar.co.uk/"
+  - name: "Citizens Advice: Consumer rights"
+    url: "https://www.citizensadvice.org.uk/consumer/"
 faq:
   - q: "How much do Chayce packages cost?"
     a: "A Discovery Consultation is £150. Bronze Essentials is £995, Silver Comfort £1,850, Gold Prestige £3,250 and Platinum Bespoke £6,500."
@@ -13,11 +23,11 @@ faq:
     a: "Gold adds chauffeur-driven viewings, estate agent and solicitor liaison, full staging with photography, up to 6 weeks of storage and white-glove unpacking and styling."
   - q: "Which package should I choose?"
     a: "If you are unsure, start with a Discovery Consultation at £150. It gives you a plan, timeline and budget, so you can choose the right level of help."
-featuredImage: "https://images.pexels.com/photos/7203849/pexels-photo-7203849.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+featuredImage: "/images/blog/chayce-packages-explained-what-each-includes.jpg"
 featuredImageAlt: "Hands carefully packing belongings into a cardboard box."
 ---
 
-Short answer: Chayce has five levels. A £150 Discovery Consultation gives you a plan, Bronze Essentials (£995) covers packing and an insured removal, Silver Comfort (£1,850) adds sorting, staging and unpacking, Gold Prestige (£3,250) adds property search and sale support, and Platinum Bespoke (£6,500) is a fully bespoke concierge move.
+**Short answer:** Chayce has five levels. A £150 Discovery Consultation gives you a plan, Bronze Essentials (£995) covers packing and an insured removal, Silver Comfort (£1,850) adds sorting, staging and unpacking, Gold Prestige (£3,250) adds property search and sale support, and Platinum Bespoke (£6,500) is a fully bespoke concierge move.
 
 ## At a glance
 

@@ -1,10 +1,13 @@
 ---
-title: "Packing Service for Older People in the UK: What It Covers and When to Book"
+title: "Packing Service for Older People UK: What It Covers"
 description: "What a professional packing service involves for an older person's move, what to ask about materials and insurance, and how far ahead to book."
-featuredImage: "https://images.pexels.com/photos/7309889/pexels-photo-7309889.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+featuredImage: "/images/blog/packing-service-for-elderly-uk-what-it-covers.jpg"
 featuredImageAlt: "Close-up of hands holding bubble wrap at home. Ideal for packing or moving themes"
 date: "2026-10-28"
-dateModified: "2026-10-28"
+dateModified: "2026-11-04"
+about:
+  - name: "Removals company"
+    url: "https://en.wikipedia.org/wiki/Moving_company"
 sources:
   - name: "Age UK"
     url: "https://www.ageuk.org.uk/"
@@ -12,6 +15,8 @@ sources:
     url: "https://bar.co.uk/"
   - name: "Citizens Advice"
     url: "https://www.citizensadvice.org.uk/"
+  - name: "Citizens Advice: Consumer rights"
+    url: "https://www.citizensadvice.org.uk/consumer/"
 faq:
   - q: "What does a packing service include?"
     a: "Usually packing materials, wrapping fragile and valuable items, and labelling boxes by room. Ask for the exact list in writing."
@@ -23,7 +28,7 @@ faq:
     a: "Ask any firm to confirm in writing what is covered. Chayce removals are fully insured."
 ---
 
-Short answer: a packing service means trained staff pack your belongings for you, so an older person or their family does not have to. Ask what materials are included, how fragile items are handled, and what the insurance covers.
+**Short answer:** a packing service means trained staff pack your belongings for you, so an older person or their family does not have to. Ask what materials are included, how fragile items are handled, and what the insurance covers.
 
 ## What to expect
 
@@ -34,7 +39,7 @@ Professional packers bring boxes and wrapping, pack room by room and label what 
 - What materials are included, and what costs extra?
 - How are fragile and sentimental items wrapped and labelled?
 - Is the packing covered by your insurance?
-- Are staff DBS-checked? See [DBS-checked movers](/blog/dbs-checked-movers-uk-what-to-ask/).
+- Are staff DBS-checked? See [DBS-checked removals firms](/blog/dbs-checked-removals-uk-what-to-ask/).
 
 ## Packing with Chayce
 

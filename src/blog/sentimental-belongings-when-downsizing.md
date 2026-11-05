@@ -2,8 +2,18 @@
 title: "Sentimental Belongings When Downsizing: A UK Guide"
 description: "A gentle UK guide to working through sentimental items when downsizing: what to keep, photograph or pass on, and how to avoid rushed decisions."
 date: "2026-09-24"
-dateModified: "2026-10-04"
+dateModified: "2026-11-04"
 featuredImageCredit: "Photo via Pexels"
+about:
+  - name: "Decluttering"
+    url: "https://en.wikipedia.org/wiki/Decluttering"
+sources:
+  - name: "Age UK"
+    url: "https://www.ageuk.org.uk/"
+  - name: "Independent Age: Housing advice"
+    url: "https://www.independentage.org/get-advice/housing"
+  - name: "NHS: Social care and support guide"
+    url: "https://www.nhs.uk/conditions/social-care-and-support-guide/"
 faq:
   - q: "How long should I allow for sorting sentimental items?"
     a: "Longer than feels necessary — starting 2 to 3 months before a move gives enough room to make considered decisions rather than rushed ones."
@@ -11,7 +21,7 @@ faq:
     a: "Yes. Home sorting and declutter support can begin well ahead of a confirmed date, and often should."
   - q: "What happens to items family members don't want and I don't want to throw away?"
     a: "Donation, sale and specialist collection are all options your coordinator can arrange, so nothing has to go straight in a skip because there's no other plan for it."
-featuredImage: "https://images.pexels.com/photos/8848784/pexels-photo-8848784.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+featuredImage: "/images/blog/sentimental-belongings-when-downsizing.jpg"
 featuredImageAlt: "Hands looking through a family photo album."
 ---
 

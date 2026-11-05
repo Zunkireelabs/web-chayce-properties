@@ -1,10 +1,13 @@
 ---
 title: "Retirement Home Moving Service in the UK: What to Expect"
-description: "What a retirement home moving service does in the UK: planning around your new property, packing, removal and settling in, plus questions to ask before you book."
-featuredImage: "https://images.pexels.com/photos/8860920/pexels-photo-8860920.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+description: "What a retirement home moving service does in the UK: planning around your new property, packing, removal, settling in and questions to ask."
+featuredImage: "/images/blog/retirement-home-moving-service-uk-what-to-expect.jpg"
 featuredImageAlt: "Sophisticated elderly woman sitting in a classic living room, exuding elegance and tranquility"
 date: "2026-10-27"
-dateModified: "2026-10-27"
+dateModified: "2026-11-04"
+about:
+  - name: "Retirement community"
+    url: "https://en.wikipedia.org/wiki/Retirement_community"
 sources:
   - name: "Age UK"
     url: "https://www.ageuk.org.uk/"
@@ -12,6 +15,10 @@ sources:
     url: "https://www.independentage.org/"
   - name: "GOV.UK: Find your local council"
     url: "https://www.gov.uk/find-local-council"
+  - name: "Elderly Accommodation Counsel: housingcare.org"
+    url: "https://www.housingcare.org/"
+  - name: "Independent Age: Housing advice"
+    url: "https://www.independentage.org/get-advice/housing"
 faq:
   - q: "What is a retirement home moving service?"
     a: "A service that helps you move into a retirement property, such as a retirement village, apartment or bungalow. It can include sorting, packing, the removal and setting up the new home."
@@ -23,7 +30,7 @@ faq:
     a: "Yes. We help with moves into retirement villages, retirement apartments and smaller homes across the UK, from £995."
 ---
 
-Short answer: a retirement home moving service handles the practical side of moving into a retirement village, apartment or bungalow, from sorting and packing to the removal and setting up. Plan around the new property's access and space, and start early.
+**Short answer:** a retirement home moving service handles the practical side of moving into a retirement village, apartment or bungalow, from sorting and packing to the removal and setting up. Plan around the new property's access and space, and start early.
 
 ## What the service usually covers
 

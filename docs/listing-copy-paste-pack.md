@@ -12,7 +12,7 @@ Paste these exactly. Do not reformat the name, address or phone on any site.
 - Email: info@chayceproperties.com
 - Website: https://chayceproperties.com/
 - Opening hours: Mon to Fri 09:00 to 17:30. Closed Saturday and Sunday.
-- Year founded: 2026
+- Year founded: 2021
 - Service area: Northampton, Northamptonshire, East Midlands and the whole UK
 
 ## Categories

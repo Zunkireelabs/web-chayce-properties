@@ -44,7 +44,7 @@ if (/^(www\.)?chayceproperties\.com$/.test(location.hostname)) {
 <meta property="og:title" content="{{ ogTitle or title | safe }}">
 {% if description %}<meta property="og:description" content="{{ description | safe }}">{% endif %}
 <meta property="og:url" content="{{ canonicalUrl or (site.url + page.url) }}">
-<meta property="og:image" content="{{ ogImage or featuredImage or site.defaultOgImage }}">
+<meta property="og:image" content="{{ ogImage or ((featuredImage | blogOgImage(site.url)) if featuredImage else site.defaultOgImage) }}">
 {% if not ogImage and not featuredImage %}<meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="Chayce Properties: later-life moving and downsizing across the UK">
@@ -52,7 +52,7 @@ if (/^(www\.)?chayceproperties\.com$/.test(location.hostname)) {
 <meta property="article:modified_time" content="{{ dateModified or (page.date | isoDate) }}">
 {% endif %}
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="{{ ogImage or featuredImage or site.defaultOgImage }}">
+<meta name="twitter:image" content="{{ ogImage or ((featuredImage | blogOgImage(site.url)) if featuredImage else site.defaultOgImage) }}">
 <meta name="twitter:title" content="{{ ogTitle or title | safe }}">
 {% if description %}<meta name="twitter:description" content="{{ description | safe }}">{% endif %}
 <link rel="stylesheet" href="/css/wp-content_themes_hompark_css_bundle.min.css">
@@ -60,16 +60,9 @@ if (/^(www\.)?chayceproperties\.com$/.test(location.hostname)) {
 <link rel="stylesheet" href="/css/wp-content_themes_hompark_css_style.css">
 <link rel="stylesheet" href="/css/wp-content_themes_hompark_css_fontawesome.min.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;0,900;1,500;1,600&display=optional">
-<link rel="stylesheet" href="/css/seoai-content.css?v={{ build.version }}">
-<link rel="stylesheet" href="/css/chayce-tokens.css?v={{ build.version }}">
-<link rel="stylesheet" href="/css/chayce-hero-variants.css?v={{ build.version }}">
-<link rel="stylesheet" href="/css/chayce-sticky-cta.css?v={{ build.version }}">
-<link rel="stylesheet" href="/css/chayce-mobile-spacing.css?v={{ build.version }}">
-<link rel="stylesheet" href="/css/chayce-pages.css?v={{ build.version }}">
-<link rel="stylesheet" href="/css/chayce-open.css?v={{ build.version }}">
-<link rel="stylesheet" href="/css/chayce-guide.css?v={{ build.version }}">
-<link rel="stylesheet" href="/css/chayce-rhythm.css?v={{ build.version }}">
+<link rel="stylesheet" href="/css/chayce-all.css?v={{ build.version }}">
 {{ headExtra | replace('{{ build.version }}', build.version) | replace('.css"', '.css?v=' + build.version + '"') | safe }}
+<link rel="stylesheet" href="/css/chayce-type.css?v={{ build.version }}">
 {% if page.url != "/" %}{% include "schema-org.njk" %}{% endif %}
 <!-- SEOAI:HEAD:START --><!-- SEOAI:HEAD:END -->
 </head>

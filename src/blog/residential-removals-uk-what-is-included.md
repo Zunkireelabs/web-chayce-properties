@@ -1,10 +1,13 @@
 ---
 title: "Residential Removals in the UK: What Is Included and What to Ask"
 description: "Residential removals explained: what a UK house removal usually includes, what can cost extra, and how to compare quotes for a home move."
-featuredImage: "https://images.pexels.com/photos/6169177/pexels-photo-6169177.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+featuredImage: "/images/blog/residential-removals-uk-what-is-included.jpg"
 featuredImageAlt: "Courier loading cardboard boxes into a delivery van outside a warehouse"
 date: "2026-10-27"
-dateModified: "2026-10-27"
+dateModified: "2026-11-04"
+about:
+  - name: "Removals company"
+    url: "https://en.wikipedia.org/wiki/Moving_company"
 sources:
   - name: "Citizens Advice"
     url: "https://www.citizensadvice.org.uk/"
@@ -12,6 +15,8 @@ sources:
     url: "https://bar.co.uk/"
   - name: "Age UK"
     url: "https://www.ageuk.org.uk/"
+  - name: "Citizens Advice: Consumer rights"
+    url: "https://www.citizensadvice.org.uk/consumer/"
 faq:
   - q: "What are residential removals?"
     a: "Residential removals are moves of a household's belongings from one home to another, as opposed to commercial or office moves."
@@ -23,7 +28,7 @@ faq:
     a: "Yes. Chayce Properties is based in Northampton and arranges residential removals across the UK, with one coordinator and a fully insured removal."
 ---
 
-Short answer: residential removals are home moves, and what is included varies a lot between firms. Ask for packing, furniture dismantling, insurance and any storage to be listed separately so you can compare like with like.
+**Short answer:** residential removals are home moves, and what is included varies a lot between firms. Ask for packing, furniture dismantling, insurance and any storage to be listed separately so you can compare like with like.
 
 ## What residential removals cover
 

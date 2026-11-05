@@ -2,13 +2,24 @@
 title: "How to Talk to Elderly Parents About Moving (UK Guide)"
 description: "How to bring up moving with an elderly parent in the UK, what to do if they say no, and how to support a decision that is theirs to make."
 date: "2026-10-04"
-dateModified: "2026-10-04"
+dateModified: "2026-11-04"
 featuredImageCredit: "Photo via Pexels"
 about:
   - name: "Age UK"
     url: "https://en.wikipedia.org/wiki/Age_UK"
   - name: "Retirement home"
     url: "https://en.wikipedia.org/wiki/Retirement_home"
+  - name: "Elderly care"
+    url: "https://en.wikipedia.org/wiki/Elderly_care"
+sources:
+  - name: "Age UK: Care and support"
+    url: "https://www.ageuk.org.uk/information-advice/care/"
+  - name: "Independent Age: Housing advice"
+    url: "https://www.independentage.org/get-advice/housing"
+  - name: "NHS: Social care and support guide"
+    url: "https://www.nhs.uk/conditions/social-care-and-support-guide/"
+  - name: "Alzheimer's Society"
+    url: "https://www.alzheimers.org.uk/"
 faq:
   - q: "How do I start the conversation about moving with an elderly parent?"
     a: "Choose a calm, private moment, start with what they enjoy and what worries them about the home, and ask open questions rather than presenting a plan. Several short conversations usually work better than one big one."
@@ -28,11 +39,11 @@ faq:
     a: "There is no single sign. Common prompts are a home that has become hard to manage, difficulty with stairs or upkeep, isolation or safety worries. A GP, an occupational therapist or your council can help you judge what support or a different home might suit."
   - q: "Should my elderly parent move in with me or closer to me?"
     a: "It depends on their needs, your home and your family. Some people move in with relatives, others prefer their own place nearby with support. Talk it through together and consider what help they need before deciding."
-featuredImage: "https://images.pexels.com/photos/7551592/pexels-photo-7551592.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+featuredImage: "/images/blog/how-to-talk-to-elderly-parents-about-moving.jpg"
 featuredImageAlt: "A young adult chatting with an older man in a bright kitchen."
 ---
 
-Short answer: for UK families, pick a calm moment, ask open questions, listen for the worry behind any resistance, and treat the decision as theirs. If they say no, do not push. Explore smaller steps and come back to it. Most parents need several conversations, not one.
+**Short answer:** for UK families, pick a calm moment, ask open questions, listen for the worry behind any resistance, and treat the decision as theirs. If they say no, do not push. Explore smaller steps and come back to it. Most parents need several conversations, not one.
 
 ## Start earlier than feels comfortable
 

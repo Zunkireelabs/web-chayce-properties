@@ -12,6 +12,8 @@ sources:
     url: "https://www.gov.uk/stamp-duty-land-tax/residential-property-rates"
   - name: "GOV.UK: Stamp Duty Land Tax"
     url: "https://www.gov.uk/stamp-duty-land-tax"
+  - name: "GOV.UK: Stamp Duty Land Tax for first-time buyers"
+    url: "https://www.gov.uk/stamp-duty-land-tax/first-time-buyers"
 faq:
   - q: "Do first-time buyers pay Stamp Duty in England?"
     a: "Not up to £300,000. On the rates shown on GOV.UK on 13 October 2026, first-time buyer relief means no Stamp Duty Land Tax up to £300,000 and 5% on the portion from £300,001 to £500,000. Above £500,000 the relief cannot be claimed."
@@ -21,7 +23,7 @@ faq:
     a: "You cannot claim first-time buyer relief, so the standard residential rates apply to the whole purchase. A £510,000 home, for example, costs £15,500 in Stamp Duty."
   - q: "Who counts as a first-time buyer?"
     a: "You and anyone you are buying with must all be first-time buyers. If one buyer has owned a home before, the relief does not apply to the purchase."
-featuredImage: "https://images.pexels.com/photos/7579206/pexels-photo-7579206.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+featuredImage: "/images/blog/stamp-duty-for-first-time-buyers-england-worked-examples.jpg"
 featuredImageAlt: "New homeowners smiling as they are handed the keys to their first home."
 ---
 

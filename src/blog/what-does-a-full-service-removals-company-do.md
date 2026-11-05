@@ -2,10 +2,20 @@
 title: "What Does a Full-Service Removals Company Do in the UK?"
 description: "What a full-service removals company in the UK covers beyond a standard removal: packing, coordination, storage and settling in, and who it suits."
 date: "2026-09-23"
-dateModified: "2026-09-24"
-featuredImage: "https://images.pexels.com/photos/4489417/pexels-photo-4489417.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
-featuredImageAlt: "Removal porters carrying boxes from a moving truck."
+dateModified: "2026-11-04"
+featuredImage: "/images/blog/what-does-a-full-service-removals-company-do.jpg"
+featuredImageAlt: "Removal porters carrying boxes from a removals van."
 featuredImageCredit: "Photo via Pexels"
+about:
+  - name: "Removals company"
+    url: "https://en.wikipedia.org/wiki/Moving_company"
+sources:
+  - name: "British Association of Removers"
+    url: "https://bar.co.uk/"
+  - name: "Citizens Advice: Consumer rights"
+    url: "https://www.citizensadvice.org.uk/consumer/"
+  - name: "Which?"
+    url: "https://www.which.co.uk/"
 faq:
   - q: "Is full-service moving only for large or complicated moves?"
     a: "No — even a straightforward move benefits from not managing packing, coordination and logistics yourself; the scope of support can be matched to what's actually needed."
@@ -14,6 +24,8 @@ faq:
   - q: "How do I know which level of support I need?"
     a: "A Discovery Consultation (from £150) assesses your specific situation and recommends the right level of support, rather than assuming the biggest package is always the right one."
 ---
+
+**Short answer:** a full-service removals company manages the whole move, not just the van: professional packing, a fully insured removal, coordination with estate agents and solicitors, storage when dates do not line up, and help settling in at the new home.
 
 ## More Than a Van and Two People
 

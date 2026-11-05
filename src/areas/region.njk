@@ -5,10 +5,10 @@ pagination:
   alias: region
   addAllPagesToCollections: true
 permalink: "/{{ region.slug }}/"
-modified: "2026-10-08"
+modified: "2026-11-04"
 eleventyComputed:
-  title: "Elderly Removals in {{ region.short }} | Chayce"
-  description: "Elderly removals, downsizing help and later-life moving in {{ region.short }}, arranged from Northampton with one coordinator. Packages from £995."
+  title: "Elderly Removals in {{ region.name | replace('The ', 'the ') }} | Chayce"
+  description: "Elderly removals, downsizing help and later-life moving in {{ region.name | replace('The ', 'the ') }}, arranged from Northampton with one coordinator. From £995."
 ---
 <div class="pg-hero" style="background-image:url({% imageUrl region.img %});{% imageSet region.img %}">
   <div class="container">
