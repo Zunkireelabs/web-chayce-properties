@@ -1,7 +1,7 @@
 ---
 title: "Downsizing Companies UK: What They Do and How to Choose"
 description: "Downsizing companies in the UK explained: what services they offer, what to ask before hiring one, and how they differ from a standard removals firm."
-featuredImage: "/images/blog/downsizing-companies-uk-how-to-choose.jpg"
+featuredImage: "https://images.pexels.com/photos/6942739/pexels-photo-6942739.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 featuredImageAlt: "Two older women packing belongings in a cosy living room setting"
 date: "2026-10-27"
 dateModified: "2026-11-04"

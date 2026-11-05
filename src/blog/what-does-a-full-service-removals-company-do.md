@@ -3,7 +3,7 @@ title: "What Does a Full-Service Removals Company Do in the UK?"
 description: "What a full-service removals company in the UK covers beyond a standard removal: packing, coordination, storage and settling in, and who it suits."
 date: "2026-09-23"
 dateModified: "2026-11-04"
-featuredImage: "/images/blog/what-does-a-full-service-removals-company-do.jpg"
+featuredImage: "https://images.pexels.com/photos/4489417/pexels-photo-4489417.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 featuredImageAlt: "Removal porters carrying boxes from a removals van."
 featuredImageCredit: "Photo via Pexels"
 about:

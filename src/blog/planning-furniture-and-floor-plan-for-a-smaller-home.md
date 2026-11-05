@@ -3,7 +3,7 @@ title: "Furniture for a Smaller Home in the UK: What Fits"
 description: "Measure and sketch a floor plan to see which furniture fits a smaller home in the UK, then sell, donate, recycle or arrange collection for the rest."
 date: "2026-10-01"
 dateModified: "2026-11-04"
-featuredImage: "/images/blog/planning-furniture-and-floor-plan-for-a-smaller-home.jpg"
+featuredImage: "https://images.pexels.com/photos/6474478/pexels-photo-6474478.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 featuredImageAlt: "A couple reviewing a floor plan together while planning a home move."
 featuredImageCredit: "Photo via Pexels"
 about:

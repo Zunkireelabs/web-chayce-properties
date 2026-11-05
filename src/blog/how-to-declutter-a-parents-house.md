@@ -25,7 +25,7 @@ faq:
     a: "Yes. Our coordinators help sort room by room into keep, sell, donate and let go, and family can take part in person or remotely."
   - q: "How do I clear out my parent's house?"
     a: "Work room by room, starting with the least emotional rooms, and sort into keep, sell, donate and let go. Involve your parent at every step, and leave photographs and papers until last."
-featuredImage: "/images/blog/how-to-declutter-a-parents-house.jpg"
+featuredImage: "https://images.pexels.com/photos/7218505/pexels-photo-7218505.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 featuredImageAlt: "Labelled boxes being packed while sorting through a family home."
 ---
 

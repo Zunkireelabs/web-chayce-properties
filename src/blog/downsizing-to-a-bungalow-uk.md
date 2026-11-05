@@ -27,7 +27,7 @@ faq:
     a: "Measure the new rooms first, then decide which large furniture will fit and sort everything else into keep, sell, donate and let go. Doing this room by room, ahead of the move, avoids last-minute decisions."
   - q: "Can Chayce help me move to a bungalow?"
     a: "Yes. We help with sorting, packing, a fully insured removal and setting up the new home, anywhere in the UK. Packing and removals start at £995."
-featuredImage: "/images/blog/downsizing-to-a-bungalow-uk.jpg"
+featuredImage: "https://images.pexels.com/photos/5389185/pexels-photo-5389185.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 featuredImageAlt: "A small traditional brick cottage with a garden gate and fence."
 ---
 

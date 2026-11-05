@@ -21,7 +21,7 @@ faq:
     a: "Yes. Home sorting and declutter support can begin well ahead of a confirmed date, and often should."
   - q: "What happens to items family members don't want and I don't want to throw away?"
     a: "Donation, sale and specialist collection are all options your coordinator can arrange, so nothing has to go straight in a skip because there's no other plan for it."
-featuredImage: "/images/blog/sentimental-belongings-when-downsizing.jpg"
+featuredImage: "https://images.pexels.com/photos/8848784/pexels-photo-8848784.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 featuredImageAlt: "Hands looking through a family photo album."
 ---
 

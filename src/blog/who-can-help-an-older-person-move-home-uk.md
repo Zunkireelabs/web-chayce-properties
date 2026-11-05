@@ -27,7 +27,7 @@ faq:
     a: "There is no single best service. Look for DBS-checked staff, insurance, a written quote, clear information on what is included and reviews from real clients, then choose the one that matches the help you actually need."
   - q: "How much does help moving an older person cost?"
     a: "It depends on the home and the help needed. Chayce packages start at £995 for packing and an insured removal, with full-service moves from £1,850 and a one-hour Discovery Consultation at £150."
-featuredImage: "/images/blog/who-can-help-an-older-person-move-home-uk.jpg"
+featuredImage: "https://images.pexels.com/photos/18429571/pexels-photo-18429571.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 featuredImageAlt: "A carer preparing a warm drink for an older person at home."
 ---
 

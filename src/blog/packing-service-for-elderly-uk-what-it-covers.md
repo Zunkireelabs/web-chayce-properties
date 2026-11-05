@@ -1,7 +1,7 @@
 ---
 title: "Packing Service for Older People UK: What It Covers"
 description: "What a professional packing service involves for an older person's move, what to ask about materials and insurance, and how far ahead to book."
-featuredImage: "/images/blog/packing-service-for-elderly-uk-what-it-covers.jpg"
+featuredImage: "https://images.pexels.com/photos/7309889/pexels-photo-7309889.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 featuredImageAlt: "Close-up of hands holding bubble wrap at home. Ideal for packing or moving themes"
 date: "2026-10-28"
 dateModified: "2026-11-04"

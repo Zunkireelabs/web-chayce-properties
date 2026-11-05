@@ -3,7 +3,7 @@ title: "Elderly Removals Cost UK: What Affects the Price?"
 description: "What drives the cost of elderly removals or a later-life move in the UK, how to compare quotes fairly, and Chayce's published package prices."
 date: "2026-09-18"
 dateModified: "2026-11-04"
-featuredImage: "/images/blog/elderly-removals-cost-uk.jpg"
+featuredImage: "https://images.pexels.com/photos/4498136/pexels-photo-4498136.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 featuredImageAlt: "Close-up of hands taping up a cardboard moving box."
 featuredImageCredit: "Photo via Pexels"
 about:

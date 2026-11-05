@@ -3,7 +3,7 @@ title: "Settling In Help for Older People After a Move (UK)"
 description: "Help settling in after moving home in later life: unpacking, setting up, routines, meeting neighbours and who can support you in the first weeks in the UK."
 date: "2026-10-12"
 dateModified: "2026-11-04"
-featuredImage: "/images/blog/settling-in-help-for-older-people-after-a-move-uk.jpg"
+featuredImage: "https://images.pexels.com/photos/7728055/pexels-photo-7728055.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 featuredImageAlt: "An older couple spending time together outdoors on a sunny day."
 featuredImageCredit: "Photo via Pexels"
 about:

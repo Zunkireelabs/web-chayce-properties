@@ -28,7 +28,7 @@ faq:
     a: "In England and Wales you may need to apply to the Court of Protection to be appointed as a deputy, which takes time and cost. Speak to a solicitor early."
   - q: "Do the rules differ in Scotland and Northern Ireland?"
     a: "Yes. Scotland and Northern Ireland have their own systems and terms, so check the rules that apply where your parent lives."
-featuredImage: "/images/blog/lasting-power-of-attorney-moving-a-parent.jpg"
+featuredImage: "https://images.pexels.com/photos/8815837/pexels-photo-8815837.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 featuredImageAlt: "An older woman signing paperwork with a professional helping her."
 ---
 

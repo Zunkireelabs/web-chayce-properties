@@ -3,7 +3,7 @@ title: "Moving Closer to Family: A UK Later-Life Relocation Guide"
 description: "How to plan a later-life move closer to family in the UK — timing it well, involving the people who matter, and making the new area feel like home."
 date: "2026-09-19"
 dateModified: "2026-11-04"
-featuredImage: "/images/blog/later-life-relocation-closer-to-family-uk.jpg"
+featuredImage: "https://images.pexels.com/photos/4569340/pexels-photo-4569340.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 featuredImageAlt: "A family unpacking moving boxes together in their new home."
 featuredImageCredit: "Photo via Pexels"
 about:

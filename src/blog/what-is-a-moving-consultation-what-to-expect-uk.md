@@ -25,7 +25,7 @@ faq:
     a: "A personalised move plan document, a recommended timeline and a budget breakdown, written down rather than given as a verbal estimate."
   - q: "Do I have to book a package after the consultation?"
     a: "No. It is a standalone consultation. If you do go on to book a package, the consultant will confirm how the £150 fee applies."
-featuredImage: "/images/blog/what-is-a-moving-consultation-what-to-expect-uk.jpg"
+featuredImage: "https://images.pexels.com/photos/8439698/pexels-photo-8439698.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 featuredImageAlt: "An older couple working through paperwork at a table with a laptop."
 ---
 

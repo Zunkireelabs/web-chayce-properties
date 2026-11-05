@@ -39,7 +39,7 @@ faq:
     a: "There is no single sign. Common prompts are a home that has become hard to manage, difficulty with stairs or upkeep, isolation or safety worries. A GP, an occupational therapist or your council can help you judge what support or a different home might suit."
   - q: "Should my elderly parent move in with me or closer to me?"
     a: "It depends on their needs, your home and your family. Some people move in with relatives, others prefer their own place nearby with support. Talk it through together and consider what help they need before deciding."
-featuredImage: "/images/blog/how-to-talk-to-elderly-parents-about-moving.jpg"
+featuredImage: "https://images.pexels.com/photos/7551592/pexels-photo-7551592.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 featuredImageAlt: "A young adult chatting with an older man in a bright kitchen."
 ---
 

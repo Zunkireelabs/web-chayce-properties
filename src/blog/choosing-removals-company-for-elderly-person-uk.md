@@ -25,7 +25,7 @@ faq:
     a: "A removals company moves your belongings between two addresses. A relocation partner also helps with sorting, coordination with estate agents and solicitors, and settling in, so the family is not left to manage those parts."
   - q: "What if the moving date changes?"
     a: "Ask before booking. Sale and purchase dates often shift, so check what notice the company needs and whether it charges for changes."
-featuredImage: "/images/blog/choosing-removals-company-for-elderly-person-uk.jpg"
+featuredImage: "https://images.pexels.com/photos/7464684/pexels-photo-7464684.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 featuredImageAlt: "A removals company van parked outside a house with the driver standing beside it."
 ---
 

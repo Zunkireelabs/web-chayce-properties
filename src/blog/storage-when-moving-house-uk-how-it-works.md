@@ -23,7 +23,7 @@ faq:
     a: "Not automatically. Ask the storage provider what cover applies, and check your own contents insurance. Ask for the details in writing."
   - q: "Does Chayce offer storage?"
     a: "Gold Prestige at £3,250 includes storage for up to 6 weeks if your move dates do not line up. See our storage page for how it works."
-featuredImage: "/images/blog/storage-when-moving-house-uk-how-it-works.jpg"
+featuredImage: "https://images.pexels.com/photos/7217904/pexels-photo-7217904.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 featuredImageAlt: "Labelled boxes of summer clothes packed and ready for storage."
 ---
 

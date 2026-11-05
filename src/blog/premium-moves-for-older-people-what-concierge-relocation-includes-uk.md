@@ -23,7 +23,7 @@ faq:
     a: "It suits people with a larger or more valuable home, a tight or complex timetable, a sale and purchase to coordinate, or no family nearby to help. A standard package is often enough for a simpler move."
   - q: "Is a premium move worth it?"
     a: "It can be, if the extras replace work you would otherwise have to arrange yourself, such as viewings, solicitor liaison, staging and settling in. Compare what is included against what you actually need."
-featuredImage: "/images/blog/premium-moves-for-older-people-what-concierge-relocation-includes-uk.jpg"
+featuredImage: "https://images.pexels.com/photos/7231071/pexels-photo-7231071.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 featuredImageAlt: "An older couple enjoying coffee and reading in a sunlit room."
 ---
 

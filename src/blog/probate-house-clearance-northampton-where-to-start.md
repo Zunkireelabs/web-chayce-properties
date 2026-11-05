@@ -1,7 +1,7 @@
 ---
 title: "Probate House Clearance in Northampton: Where to Start"
 description: "Dealing with a loved one's home in Northampton after a death? What to sort first, who decides, and where Chayce can help. Not legal advice."
-featuredImage: "/images/blog/probate-house-clearance-northampton-where-to-start.jpg"
+featuredImage: "https://images.pexels.com/photos/7415093/pexels-photo-7415093.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 featuredImageAlt: "A family moving into their new home, carrying boxes and belongings indoors"
 date: "2026-10-27"
 dateModified: "2026-11-04"

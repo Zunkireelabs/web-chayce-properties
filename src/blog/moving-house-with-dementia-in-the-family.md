@@ -21,7 +21,7 @@ faq:
     a: "Where possible, yes, in ways that feel comfortable to them. Calm, simple involvement usually helps more than hiding the move."
   - q: "Can Chayce give medical advice?"
     a: "No. We provide general moving support only. For medical or care decisions, speak to the person's GP or care team."
-featuredImage: "/images/blog/moving-house-with-dementia-in-the-family.jpg"
+featuredImage: "https://images.pexels.com/photos/7551671/pexels-photo-7551671.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 featuredImageAlt: "A daughter sitting beside and supporting her elderly father."
 ---
 

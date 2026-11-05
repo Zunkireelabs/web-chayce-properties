@@ -3,7 +3,7 @@ title: "How to Pack for a House Move in the UK: Room by Room"
 description: "How to pack for moving house in the UK: when to start, what you need, a room-by-room order, what removals firms cannot carry and when to get help."
 date: "2026-10-12"
 dateModified: "2026-11-04"
-featuredImage: "/images/blog/how-to-pack-for-a-house-move-uk-room-by-room.jpg"
+featuredImage: "https://images.pexels.com/photos/7203815/pexels-photo-7203815.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 featuredImageAlt: "A woman sorting belongings into a cardboard box while packing for a move."
 featuredImageCredit: "Photo via Pexels"
 about:

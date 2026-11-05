@@ -23,7 +23,7 @@ faq:
     a: "Yes. Chayce is based in Northampton and arranges later-life moves to, from and within London and the South East, with one coordinator managing sorting, packing, the removal and settling in."
   - q: "How early should I plan a move in London?"
     a: "Start at least eight weeks ahead. Parking suspensions, lift bookings and managing agent approval all take time, and they can limit which days a move is possible."
-featuredImage: "/images/blog/moving-an-older-person-in-london-access-parking-planning.jpg"
+featuredImage: "https://images.pexels.com/photos/16375856/pexels-photo-16375856.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 featuredImageAlt: "A row of London terraced houses with steps up to the front doors."
 ---
 

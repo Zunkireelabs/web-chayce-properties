@@ -83,31 +83,6 @@ async function imageSetShortcode(src, width = 1920) {
   return `${desktop};--hero-m:image-set(url(${m.avif[0].url}) type('image/avif') 1x,url(${m.webp[0].url}) type('image/webp') 1x,url(${m.jpeg[0].url}) type('image/jpeg') 1x)`;
 }
 
-// Blog photos live in src/images/blog and are converted once per build to
-// avif/webp/jpeg at two widths. The options below are shared by the build-time
-// generator and the synchronous filters, so both always agree on file names.
-const BLOG_IMG_OPTS = {
-  widths: [480, 940],
-  formats: ["avif", "webp", "jpeg"],
-  outputDir: "./_site/images/optimized/",
-  urlPath: "/images/optimized/",
-  sharpJpegOptions: { quality: 78 },
-  sharpWebpOptions: { quality: 75 },
-  sharpAvifOptions: { quality: 55 },
-};
-
-// <picture> for a blog photo. Sync on purpose: it can run inside a Nunjucks
-// macro, and the files themselves are created by the eleventy.before hook.
-function blogPicture(src, alt, sizes = "100vw", cls = "", eager = false) {
-  if (!alt) throw new Error(`Missing alt text for image: ${src}`);
-  const metadata = Image.statsSync(resolveInput(src), BLOG_IMG_OPTS);
-  const attrs = { alt, sizes, decoding: "async" };
-  if (eager) attrs.fetchpriority = "high";
-  else attrs.loading = "lazy";
-  if (cls) attrs.class = cls;
-  return Image.generateHTML(metadata, attrs);
-}
-
 module.exports = function (eleventyConfig) {
   // The hero is a CSS background-image, which the browser only discovers after
   // the stylesheets load, so it is the LCP element but starts downloading late.
@@ -160,22 +135,6 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addNunjucksFilter("gbp", (n) =>
     Number(n).toLocaleString("en-GB")
   );
-
-  eleventyConfig.on("eleventy.before", async () => {
-    const dir = "./src/images/blog/";
-    if (!fs.existsSync(dir)) return;
-    for (const f of fs.readdirSync(dir).filter((n) => /\.(jpe?g|png)$/i.test(n))) {
-      await Image(path.join(dir, f), BLOG_IMG_OPTS);
-    }
-  });
-
-  eleventyConfig.addNunjucksFilter("blogPicture", blogPicture);
-  // Absolute jpeg URL for og:image / twitter:image / schema (social crawlers
-  // do not reliably read avif or webp).
-  eleventyConfig.addNunjucksFilter("blogOgImage", (src, siteUrl) => {
-    const m = Image.statsSync(resolveInput(src), BLOG_IMG_OPTS);
-    return siteUrl + m.jpeg[m.jpeg.length - 1].url;
-  });
 
   // One stylesheet instead of nine small ones: fewer requests on every page.
   // Same files, same order as before, so the cascade is unchanged. Keep this

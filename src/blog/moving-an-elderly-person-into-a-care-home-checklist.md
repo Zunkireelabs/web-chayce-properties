@@ -31,7 +31,7 @@ faq:
     a: "Yes. People do move between care homes. Speak to the new home, the person's family and, where relevant, their social worker or care team, and plan the practical move gently, as change can be unsettling."
   - q: "Can someone go into a care home temporarily?"
     a: "Yes. Some care homes offer short stays, often called respite care. Ask the home or your local council's adult social care team what is available and how it is arranged."
-featuredImage: "/images/blog/moving-an-elderly-person-into-a-care-home-checklist.jpg"
+featuredImage: "https://images.pexels.com/photos/18509794/pexels-photo-18509794.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 featuredImageAlt: "An older woman sitting in an armchair in a warm, welcoming care home room."
 ---
 

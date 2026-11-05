@@ -3,7 +3,7 @@ title: "How to Plan a Stress-Free Move for an Older Person (UK)"
 description: "Practical steps for planning a smooth, dignified move for an older person in the UK, from first consultation to final unpack."
 date: "2026-09-17"
 dateModified: "2026-11-04"
-featuredImage: "/images/blog/plan-a-stress-free-elderly-move-uk.jpg"
+featuredImage: "https://images.pexels.com/photos/7217844/pexels-photo-7217844.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 featuredImageAlt: "A couple taking a break while packing boxes during their move to a new home."
 featuredImageCredit: "Photo by Blue Bird on Pexels"
 about:

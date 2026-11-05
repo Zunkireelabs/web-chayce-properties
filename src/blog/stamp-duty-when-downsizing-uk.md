@@ -26,7 +26,7 @@ faq:
     a: "On the standard residential rates shown on GOV.UK on 13 October 2026, buying a £300,000 home in England costs £5,000 in Stamp Duty Land Tax: nothing on the first £125,000, 2% on the next £125,000 and 5% on the last £50,000. If the 5% additional-property surcharge applies, add £15,000."
   - q: "Is the tax different in Scotland and Wales?"
     a: "Yes. England and Northern Ireland use Stamp Duty Land Tax, Scotland uses Land and Buildings Transaction Tax and Wales uses Land Transaction Tax, each with its own rates and rules."
-featuredImage: "/images/blog/stamp-duty-when-downsizing-uk.jpg"
+featuredImage: "https://images.pexels.com/photos/8293654/pexels-photo-8293654.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 featuredImageAlt: "A handshake with house keys changing hands on a home purchase."
 ---
 

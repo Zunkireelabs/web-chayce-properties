@@ -23,7 +23,7 @@ faq:
     a: "Yes. Chayce is based in Northampton and arranges packing, insured removals and settling-in support across the UK, including London and the South East, with one coordinator for the whole move."
   - q: "What makes packing in London different?"
     a: "Narrow streets, parking restrictions, congestion zones, lifts and upper floors can all affect timing and cost, so give your removals firm full access details when you ask for a quote."
-featuredImage: "/images/blog/packing-services-london-what-to-expect-uk.jpg"
+featuredImage: "https://images.pexels.com/photos/7464689/pexels-photo-7464689.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 featuredImageAlt: "Two removals staff loading a van on a city street."
 ---
 

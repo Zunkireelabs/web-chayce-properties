@@ -25,7 +25,7 @@ faq:
     a: "Three to six months is ideal for sorting a family home, though shorter timescales are possible with more hands-on help."
   - q: "Can Chayce help with a difficult or urgent move?"
     a: "Chayce helps older people and their families with the practical side of a move, with one coordinator for sorting, packing, the removal and settling in. Please call to talk through your timescale."
-featuredImage: "/images/blog/challenges-moving-an-older-person-and-how-to-handle-them-uk.jpg"
+featuredImage: "https://images.pexels.com/photos/6942736/pexels-photo-6942736.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 featuredImageAlt: "An older woman packing a bag in her living room ahead of a move."
 ---
 
