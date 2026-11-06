@@ -55,19 +55,51 @@ eleventyComputed:
 <section class="gd-sec">
   <div class="container">
     <div class="gd-head"><span class="gd-eyebrow">Planning your move</span><h2>How do you plan elderly removals <em>in {{ area.name }}?</em></h2></div>
-    <ol class="rx-tips" style="grid-template-columns:repeat(3,1fr);gap:36px">
+    <ol class="rx-tips lh-plan">
       {% for item in area.planFor %}<li><span class="rx-tn">0{{ loop.index }}</span><p>{{ item }}</p></li>
       {% endfor %}
     </ol>
-    <p class="rx-cap" style="text-align:center;max-width:820px">A move in {{ area.name }} falls under {{ area.council }}. You can find your local council, and its adult social care services, on <a href="https://www.gov.uk/find-local-council" rel="noopener">GOV.UK</a>.</p>
+    <p class="rx-cap lh-plan-note">A move in {{ area.name }} falls under {{ area.council }}. You can find your local council, and its adult social care services, on <a href="https://www.gov.uk/find-local-council" rel="noopener">GOV.UK</a>.</p>
+    {% if not area.localFaqs %}
     <p class="rx-cap" style="text-align:center;max-width:820px;margin-top:10px">Where to start: <a href="/downsizing-help-for-elderly/">downsizing help for older people</a>, <a href="/storage-during-your-move/">storage between house moves</a>, <a href="/moving-elderly-parent/">moving an elderly parent</a>, <a href="/care-home-removals/">care home removals</a>, <a href="/house-clearance-for-the-elderly/">help clearing a family home</a>, <a href="/elderly-move-manager-uk/">what an elderly move manager does</a> and our <a href="/services/">services</a>. See also <a href="/elderly-removals-northampton/">elderly removals in Northampton</a> and <a href="/areas-we-cover/">all the areas we cover</a>.</p>
+    {% endif %}
   </div>
 </section>
 
-<section class="pkg-faq-band">
+{% if area.moves %}
+<section class="lh-band">
   <div class="container">
-    <h2>What do people ask about elderly removals <em>in {{ area.name }}?</em></h2>
+    <div class="gd-head"><span class="gd-eyebrow">Client story &middot; {{ area.name }}</span><h2>A real move <em>in {{ area.name }}</em></h2></div>
+    <div class="lh-stories">
+      <article class="lh-story"><span class="lh-tag">{{ area.moves.package }}</span><h3>{{ area.moves.title }}</h3><p>{{ area.moves.text }}</p><a class="lh-more" href="/case-studies/#{{ area.moves.anchor }}">Read the full client story &rarr;</a></article>
+    </div>
+    <p class="lh-note">Shared with the client&rsquo;s permission, including naming the town. No names are used on this page.</p>
+  </div>
+</section>
+{% endif %}
+
+{% if area.localHelp %}
+<section class="gd-sec lh-help-sec">
+  <div class="container">
+    <div class="gd-head"><span class="gd-eyebrow">Local help and information</span><h2>Where to find <em>support in {{ area.name }}</em></h2></div>
+    <div class="lh-help">
+      {% for item in area.localHelp %}<a class="lh-card" href="{{ item.url }}" rel="noopener"><b>{{ item.label }}</b><span>{{ item.note }}</span></a>
+      {% endfor %}
+    </div>
+    <p class="lh-note">These are independent organisations, listed for information. Chayce has no commercial link with them and does not give care, financial or legal advice. Links checked on 6 November 2026.</p>
+  </div>
+</section>
+{% endif %}
+
+<section class="pkg-faq-band lh-faq">
+  <div class="container">
+    <div class="gd-head"><span class="gd-eyebrow">Questions</span><h2>Elderly removals <em>in {{ area.name }}</em></h2></div>
     <div class="pkg-faq">
+      {% if area.localFaqs %}
+      {% for f in area.localFaqs %}<details><summary>{{ f.q }}</summary><p>{{ f.a }}{% if f.url %} <a href="{{ f.url }}"{% if f.ext %} rel="noopener"{% endif %}>{{ f.linkText }}</a>.{% endif %}</p></details>
+      {% endfor %}
+      <details><summary>How much do removals in {{ area.name }} cost?</summary><p>Packages start at &pound;{{ (site.packages | findByKey("bronze")).price | gbp }} for packing and removals, with full-service moves from &pound;{{ (site.packages | findByKey("silver")).price | gbp }}. A Discovery Consultation costs &pound;{{ (site.packages | findByKey("discovery")).price | gbp }} and gives you a personalised plan, timeline and budget before you commit to anything.</p></details>
+      {% else %}
       <details><summary>{{ area.faqTitle }}</summary><p>{{ area.faqAnswer }}</p></details>
       <details><summary>Do you offer downsizing help for older people in {{ area.name }}?</summary><p>Yes. We help older people in {{ area.name }} decide what to keep, sell or pass on, pack with care, arrange the removal and settle in at the new home.</p></details>
       <details><summary>How much do removals in {{ area.name }} cost?</summary><p>Packages start at &pound;{{ (site.packages | findByKey("bronze")).price | gbp }} for packing and removals, with full-service moves from &pound;{{ (site.packages | findByKey("silver")).price | gbp }}. A Discovery Consultation costs &pound;{{ (site.packages | findByKey("discovery")).price | gbp }} and gives you a personalised plan, timeline and budget before you commit to anything.</p></details>
@@ -76,31 +108,30 @@ eleventyComputed:
       <details><summary>Do you offer removals for elderly people in {{ area.name }}?</summary><p>Yes. Removals for older people are part of our service in {{ area.name }}. Every removal is fully insured against loss or damage in transit, and a dedicated coordinator looks after the whole move.</p></details>
       <details><summary>Do you offer residential removals in {{ area.name }}?</summary><p>Yes. Chayce arranges residential removals in {{ area.name }} and across the UK: packing, a fully insured removal and settling in, with one dedicated coordinator. Packages start at &pound;995, and you can start with a Discovery Consultation.</p></details>
       <details><summary>Are your staff DBS-checked?</summary><p>Yes. See our <a href="/trust-and-safeguarding/">trust and safeguarding page</a> for how we protect clients.</p></details>
+      {% endif %}
     </div>
   </div>
 </section>
 
-<section class="pkg-teaser">
+<section class="gd-sec">
   <div class="container">
-    <div class="panel">
-      <span class="home-eyebrow">Our packages</span>
-      <h2>Choose the <em>level of removals and downsizing help</em> you need</h2>
-      <p>From an hour&rsquo;s planning to a complete, coordinated move, with packages starting from &pound;{{ (site.packages | findByKey("bronze")).price | gbp }}.</p>
-      <ul class="pkg-links"><li><a href="/discovery/">Discovery Consultation</a></li><li><a href="/bronze-essentials/">Bronze Essentials</a></li><li><a href="/silver-comfort/">Silver Comfort</a></li></ul>
-      <a class="explore" href="/packages/">Compare all packages &rarr;</a>
-    </div>
+    <div class="gd-head"><span class="gd-eyebrow">Our packages</span><h2>Choose the <em>level of help</em> you need</h2></div>
+    <ul class="rx-prices"><li><div class="rx-pn">&pound;{{ (site.packages | findByKey("discovery")).price | gbp }}</div><h3>Discovery Consultation</h3><p>An hour with us, in person in Northampton or by phone, to plan your move, timeline and budget.</p><a href="/discovery/">See Discovery Consultation &rarr;</a></li><li><div class="rx-pn"><small>from</small>&pound;{{ (site.packages | findByKey("bronze")).price | gbp }}</div><h3>Bronze Essentials</h3><p>Packing, removals and light cleaning for a straightforward move.</p><a href="/bronze-essentials/">See Bronze Essentials &rarr;</a></li><li><div class="rx-pn"><small>from</small>&pound;{{ (site.packages | findByKey("silver")).price | gbp }}</div><h3>Silver Comfort</h3><p>A full-service move with a dedicated coordinator, from sorting to unpacking.</p><a href="/silver-comfort/">See Silver Comfort &rarr;</a></li></ul>
+    <p style="text-align:center;margin:44px 0 0"><a class="lh-more" href="/packages/">Compare all packages &rarr;</a></p>
   </div>
 </section>
 
-<section class="area-chips">
+<section class="lh-band">
   <div class="container">
-    <h2>Other areas we cover</h2>
-    <p class="area-chips-links"><a href="/elderly-removals-northampton/">Northampton</a>{% for other in localAreas %}{% if other.slug != area.slug %}<a href="/elderly-removals-{{ other.slug }}/">{{ other.name }}</a>{% endif %}{% endfor %}<a class="all" href="/areas-we-cover/">All areas &rarr;</a></p>
+    <div class="gd-head"><span class="gd-eyebrow">Areas we cover</span><h2>Other towns <em>we help in</em></h2></div>
+    <ul class="tw-list">
+      <li><a href="/elderly-removals-northampton/"><b>Northampton</b><small>Northamptonshire &middot; our office</small><i>&rarr;</i></a></li>
+      {% for other in localAreas %}{% if other.slug != area.slug %}<li><a href="/elderly-removals-{{ other.slug }}/"><b>{{ other.name }}</b><small>{{ other.county }} &middot; {{ other.distance }}</small><i>&rarr;</i></a></li>
+      {% endif %}{% endfor %}
+    </ul>
+    <p style="text-align:center;margin:44px 0 0"><a class="lh-more" href="/areas-we-cover/">All areas we cover &rarr;</a></p>
   </div>
 </section>
-
-<p class="pg-note">Our office is at Unit F2B Barratt House, Kingsthorpe Road, Northampton NN2 6EZ, open {{ site.openingHoursText }}. Call <a href="tel:+447708925432">{{ site.telephoneDisplay }}</a> or email {{ site.email }} to arrange a phone consultation or a visit.</p>
-
 <script type="application/ld+json">{"@type":"BreadcrumbList","@context":"https://schema.org","itemListElement":[{"item":"{{ site.url }}/","name":"Home","@type":"ListItem","position":1},{"item":"{{ site.url }}/areas-we-cover/","name":"Areas We Cover","@type":"ListItem","position":2},{"item":"{{ site.url }}/elderly-removals-{{ area.slug }}/","name":"{{ area.name }}","@type":"ListItem","position":3}]}</script>
 <script type="application/ld+json">
 {
@@ -117,4 +148,8 @@ eleventyComputed:
   ]
 }
 </script>
+{% if area.localFaqs %}
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{% for f in area.localFaqs %}{"@type": "Question", "name": {{ f.q | dump | safe }}, "acceptedAnswer": {"@type": "Answer", "text": {{ f.a | dump | safe }}}}, {% endfor %}{"@type": "Question", "name": "How much do removals in {{ area.name }} cost?", "acceptedAnswer": {"@type": "Answer", "text": "Packages start at £{{ (site.packages | findByKey('bronze')).price | gbp }} for packing and removals, with full-service moves from £{{ (site.packages | findByKey('silver')).price | gbp }}. A Discovery Consultation costs £{{ (site.packages | findByKey('discovery')).price | gbp }} and gives you a personalised plan, timeline and budget before you commit to anything."}}]}</script>
+{% else %}
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "{{ area.faqTitle }}", "acceptedAnswer": {"@type": "Answer", "text": "{{ area.faqAnswer }}"}}, {"@type": "Question", "name": "How much do removals in {{ area.name }} cost?", "acceptedAnswer": {"@type": "Answer", "text": "Packages start at £{{ (site.packages | findByKey('bronze')).price | gbp }} for packing and removals, with full-service moves from £{{ (site.packages | findByKey('silver')).price | gbp }}. A Discovery Consultation costs £{{ (site.packages | findByKey('discovery')).price | gbp }} and gives you a personalised plan, timeline and budget before you commit to anything."}}, {"@type": "Question", "name": "Do you offer downsizing help for older people in {{ area.name }}?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. We help older people in {{ area.name }} decide what to keep, sell or pass on, pack with care, arrange the removal and settle in at the new home."}}, {"@type": "Question", "name": "What does an elderly move manager do in {{ area.name }}?", "acceptedAnswer": {"@type": "Answer", "text": "An elderly move manager plans and coordinates a later-life move from start to finish. In {{ area.name }}, Chayce provides this with one dedicated coordinator for sorting, packing, the removal and settling in."}}, {"@type": "Question", "name": "Do you offer house removals in {{ area.name }} for people of any age?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Our service is designed with older people in mind, but anyone who wants a fully managed move is welcome. We provide one coordinator for packing, a fully insured removal and settling in, and you choose how much of the move we take on."}}, {"@type": "Question", "name": "Do you offer removals for elderly people in {{ area.name }}?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Removals for older people are part of our service in {{ area.name }}. Every removal is fully insured against loss or damage in transit, and a dedicated coordinator looks after the whole move."}}, {"@type": "Question", "name": "Do you offer residential removals in {{ area.name }}?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Chayce arranges residential removals in {{ area.name }} and across the UK: packing, a fully insured removal and settling in, with one dedicated coordinator. Packages start at £995, and you can start with a Discovery Consultation."}}, {"@type": "Question", "name": "Are your staff DBS-checked?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. See our trust and safeguarding page for how we protect clients."}}]}</script>
+{% endif %}

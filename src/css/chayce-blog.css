@@ -37,7 +37,7 @@
    Sized to fill their own column now (two-column layout, main + sidebar),
    not a fixed centered width — see blog-post.njk. */
 .blog-post-body{color:#555;font-size:16px;line-height:1.8}
-.blog-post-body h2{color:var(--ink);font-family:'Playfair Display',serif;font-size:28px;margin:40px 0 16px}
+.blog-post-body h2{color:var(--ink);font-family:'Playfair Display',serif;font-size:28px;margin:64px 0 18px;padding-top:32px;border-top:1px solid var(--border-light)}
 .blog-post-body h3{color:var(--ink);font-family:'Playfair Display',serif;font-size:22px;margin:32px 0 14px}
 .blog-post-body p{margin:0 0 20px}
 /* The opening paragraph is each post's short answer: set it apart as a lead. */
@@ -113,3 +113,13 @@
 .guides-cta-btn{flex:0 0 auto;background:var(--gold);color:var(--navy-dark);font-weight:600;font-size:14px;letter-spacing:.5px;text-decoration:none;padding:13px 24px;border-radius:8px;transition:background .2s}
 .guides-cta-btn:hover{background:var(--gold-light)}
 @media(max-width:760px){.guides-cta{flex-direction:column;align-items:flex-start;padding:26px 24px}}
+
+/* Long-read rhythm: clearer breaks between sections, open FAQ list, sidebar that follows the reader */
+.blog-post-faq{margin-top:64px}
+.blog-post-faq h2{padding-top:32px;border-top:1px solid var(--border-light);margin-top:0!important}
+.blog-post-faq h3{margin:0!important;padding:22px 0 8px;border-top:1px solid var(--border-light)}
+.blog-post-faq h3:first-of-type{border-top:0}
+.blog-post-faq p{padding-bottom:22px}
+.blog-post-sources{margin-top:64px;padding-top:32px;border-top:1px solid var(--border-light)}
+.blog-post-sources h2{margin-top:0!important}
+@media(min-width:992px){.blog-sidebar{position:sticky;top:110px}}

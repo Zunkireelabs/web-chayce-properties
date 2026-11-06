@@ -48,7 +48,36 @@ Thinking about downsizing? A one-hour Discovery Consultation gives you a persona
 Logo (square), cover image, exterior of the Kingsthorpe Road office, team at work on a real move, packed and unpacked rooms. Do not use stock photos.
 
 ## Review request message (send to real clients after each move)
-Thank you for trusting us with your move. If you were happy with our service, a short Google review would help other families find us: [paste your Google review link here]
+Get the link once: Google Business Profile > "Ask for reviews" (or "Read reviews" > "Get more reviews") > copy the short link. Paste it into each message below.
+
+Rules (Google and Trustpilot both enforce these): ask every client, not only the happy ones; never offer a discount, gift or prize for a review; never write reviews for clients or post them from staff accounts; reply to every review, good or bad, within a few days.
+
+**When:** 2 to 3 days after the move, once they have had time to settle. If there is no reply, send one reminder a week later, then stop.
+
+**WhatsApp or text (to the client or the family member who booked):**
+Hi [name], it's [your name] from Chayce. I hope [Mum / you] is settling in well at [new place]. If you have two minutes, a short Google review would really help other families who are planning a move like this find us: [link]. Thank you so much for trusting us.
+
+**Email:**
+Subject: How is [name] settling in?
+
+Hi [name],
+
+I hope [the move went smoothly and] everyone is settling in at [new place].
+
+Most families find us by searching online, and reviews from people like you are what help them decide. If you have a couple of minutes, would you leave us a short Google review? [link]
+
+It helps if you mention what you needed help with, for example downsizing, moving into a care home or the town you moved from or to, but write whatever feels right.
+
+Thank you again,
+[your name]
+Chayce Properties, 07708 925432
+
+**Reminder (one week later, only once):**
+Hi [name], just a gentle reminder in case it got buried: [link]. No worries at all if you'd rather not. Thank you again.
+
+**Reply templates:**
+- Positive: Thank you, [name]. It was a pleasure helping [Mum / you] move to [place]. We hope [the new home] feels like home very soon.
+- Negative: Thank you for telling us, [name]. I'm sorry [issue]. I'd like to put this right; please call me directly on 07708 925432. [your name]
 
 ## Where to submit, in order
 1. Google Business Profile: business.google.com
