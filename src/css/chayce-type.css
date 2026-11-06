@@ -7,6 +7,9 @@ body h2{font-size:34px!important;line-height:1.25!important}
 body h3{font-size:18px!important;line-height:1.4!important}
 body .container>p,body .gd-head p,body .rx-sub,body .pkg-intro p{font-size:17px!important;line-height:1.75!important}
 body .lead,body .pg-hero p.lead{font-size:18px!important;line-height:1.65!important}
+/* Search-keyword label inside a page's H1, above the slogan (same look as .kicker) */
+body h1 .h1-kicker{display:block;font-family:'Poppins',sans-serif;font-size:13.5px!important;line-height:1.4!important;letter-spacing:3px;text-transform:uppercase;font-weight:500;font-style:normal;color:var(--gold);text-shadow:none;margin:0 0 14px}
+body .home-hero h1 .h1-kicker,body .svc-hero h1 .h1-kicker,body .hiw-hero h1 .h1-kicker,body .page-hero--left h1 .h1-kicker{color:var(--gold-light)}
 /* Blog articles keep a tighter article hierarchy */
 body .page-hero--article h1{font-size:40px!important}
 body .blog-post-body h2{font-size:28px!important}
@@ -24,3 +27,21 @@ body .news-card h2,body .news-card h3{font-size:20px!important}
   body .blog-post-body h3{font-size:19px!important}
   body .blog-post-body p,body .blog-post-body li{font-size:16px!important}
 }
+/* Town page story-card titles */
+body .lh-story h3{font-size:23px!important;line-height:1.3!important}
+/* Blog: the opening short answer stays a larger lead paragraph */
+body .blog-post-body>p:first-child{font-size:19px!important;line-height:1.75!important;color:var(--ink)}
+@media(max-width:767px){body .blog-post-body>p:first-child{font-size:17.5px!important}}
+/* Town pages: one grid, one grey, one heading style */
+body .lh-faq{background:var(--bg-cream);padding-top:84px!important;padding-bottom:84px!important}
+body .lh-faq .container{max-width:1100px}
+body .lh-faq .gd-head{margin-bottom:44px}
+body .lh-faq .pkg-faq{max-width:760px;margin:0 auto}
+body .gd-sec + .lh-help-sec{padding-top:8px!important}
+@media(max-width:767px){body .lh-faq{padding-top:56px!important;padding-bottom:56px!important}}
+/* Packages teaser ("Need more complete support?"): a boxed panel on the grey band */
+body .pkg-teaser{padding-top:64px!important;padding-bottom:72px!important}
+body .pkg-teaser .panel{background:#fff!important;border:1px solid rgba(200,169,110,.35)!important;border-radius:0!important;box-shadow:0 26px 60px rgba(26,26,26,.08)!important;padding:56px 52px!important}
+@media(max-width:767px){body .pkg-teaser .panel{padding:40px 24px!important}body .pkg-teaser{padding-top:44px!important;padding-bottom:48px!important}}
+/* Balanced line breaks in section headings (no single-word last lines) */
+body .pkg-teaser h2,body .gd-head h2,body .pkg-faq-band h2,body .pkg-close-cta h2{text-wrap:balance}

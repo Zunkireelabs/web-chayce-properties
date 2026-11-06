@@ -136,6 +136,7 @@ footScripts: |
       body: JSON.stringify(body)
     }).then(function(res){
       if (!res.ok) throw new Error('submit failed: ' + res.status);
+      if (typeof gtag === 'function') gtag('event', 'generate_lead', { form: 'contact', interested_package: pkg || '' });
       panel.innerHTML =
         '<h3>Thank you &mdash; we&rsquo;ve got it.</h3>' +
         '<p>Someone from the Chayce team will be in touch shortly. If it&rsquo;s easier to talk sooner, call us on ' +
@@ -173,8 +174,7 @@ footScripts: |
 <section class="home-section grey contact-top">
   <div class="container">
     <div class="contact-intro">
-      <span class="home-eyebrow">Get In Touch</span>
-      <h1>Let&rsquo;s start a <em>conversation.</em></h1>
+      <h1><span class="h1-kicker">Contact Our Northampton Removals Team</span>Let&rsquo;s start a <em>conversation.</em></h1>
       <p>Whether you&rsquo;re ready to book or just exploring your options, our team is here to answer any questions and guide you through the process.</p>
     </div>
     <div class="contact-wrap">
