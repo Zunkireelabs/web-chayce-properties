@@ -21,7 +21,63 @@
     "heroImage": "chayce-gallery1.jpg",
     "image": "chayce-uk-kettering.jpg",
     "image2": "chayce-uk-kettering2.jpg",
-    "wikipedia": "https://en.wikipedia.org/wiki/Kettering"
+    "wikipedia": "https://en.wikipedia.org/wiki/Kettering",
+    "localHelp": [
+      {
+        "label": "North Northamptonshire Council adult social care",
+        "url": "https://www.northnorthants.gov.uk/adult-social-care",
+        "note": "Care assessments, support at home and independent living for people living in the council area."
+      },
+      {
+        "label": "Paying for care",
+        "url": "https://www.northnorthants.gov.uk/paying-adult-social-care",
+        "note": "How the council explains care costs and contributions."
+      },
+      {
+        "label": "Kettering General Hospital",
+        "url": "https://www.kgh.nhs.uk/",
+        "note": "The nearest large acute hospital to Kettering."
+      },
+      {
+        "label": "Age UK Northamptonshire",
+        "url": "https://www.ageuk.org.uk/northamptonshire/",
+        "note": "A local charity offering advice and support for older people."
+      },
+      {
+        "label": "Care Quality Commission (CQC)",
+        "url": "https://www.cqc.org.uk/care-services",
+        "note": "Search inspection reports for any care home or home care provider before you choose one."
+      }
+    ],
+    "moves": {
+      "title": "Packing, removals and cleaning once the sale was done",
+      "package": "Bronze Essentials",
+      "anchor": "story-2",
+      "text": "A Kettering client had already sold their home and secured their next property. They did not need help with the sale, only with the physical move. Chayce organised the packing, removals and cleaning, so they could move without weeks of boxes, lifting furniture or coordinating several different providers."
+    },
+    "localFaqs": [
+      {
+        "q": "How far is Kettering from your Northampton office?",
+        "a": "Kettering is around 16 miles north-east of our Kingsthorpe Road office in Northampton, reached via the A43. We can arrange a Discovery Consultation in person or by phone, whichever you prefer."
+      },
+      {
+        "q": "Have you helped anyone move in Kettering?",
+        "a": "Yes. A Kettering client had already sold their home and secured their next property, and wanted the physical move handled properly. We organised the packing, removals and cleaning for them.",
+        "url": "/case-studies/#story-2",
+        "linkText": "Read the client story"
+      },
+      {
+        "q": "Which council covers Kettering, and where can I ask about care assessments?",
+        "a": "Kettering is in the North Northamptonshire Council area. Its adult social care pages explain care assessments, support at home and how care costs are worked out. Chayce does not give care, financial or legal advice, but we can plan a move around the decisions you make.",
+        "url": "https://www.northnorthants.gov.uk/adult-social-care",
+        "linkText": "North Northamptonshire Council adult social care",
+        "ext": true
+      },
+      {
+        "q": "Which hospital and railway station serve Kettering?",
+        "a": "Kettering General Hospital is in the town, and Kettering station is on the Midland Main Line, with direct trains to London St Pancras."
+      }
+    ]
   },
   {
     "slug": "wellingborough",
@@ -45,7 +101,68 @@
     "heroImage": "chayce-platinum-hero.jpg",
     "image": "chayce-uk-wellingborough.jpg",
     "image2": "chayce-uk-wellingborough2.jpg",
-    "wikipedia": "https://en.wikipedia.org/wiki/Wellingborough"
+    "wikipedia": "https://en.wikipedia.org/wiki/Wellingborough",
+    "localHelp": [
+      {
+        "label": "North Northamptonshire Council adult social care",
+        "url": "https://www.northnorthants.gov.uk/adult-social-care",
+        "note": "Care assessments, support at home and independent living for people living in the council area."
+      },
+      {
+        "label": "Paying for care",
+        "url": "https://www.northnorthants.gov.uk/paying-adult-social-care",
+        "note": "How the council explains care costs and contributions."
+      },
+      {
+        "label": "Kettering General Hospital",
+        "url": "https://www.kgh.nhs.uk/",
+        "note": "One of the two hospitals within easy reach of Wellingborough."
+      },
+      {
+        "label": "Northampton General Hospital",
+        "url": "https://www.northamptongeneral.nhs.uk/",
+        "note": "The other hospital within easy reach, close to our Northampton office."
+      },
+      {
+        "label": "Age UK Northamptonshire",
+        "url": "https://www.ageuk.org.uk/northamptonshire/",
+        "note": "A local charity offering advice and support for older people."
+      },
+      {
+        "label": "Care Quality Commission (CQC)",
+        "url": "https://www.cqc.org.uk/care-services",
+        "note": "Search inspection reports for any care home or home care provider before you choose one."
+      }
+    ],
+    "moves": {
+      "title": "Downsizing from a home of more than 30 years",
+      "package": "Silver Comfort",
+      "anchor": "story-3",
+      "text": "A couple in Wellingborough were downsizing from a family home of more than 30 years. They had already decided where they were moving, but the number of things to organise had become too much. Their Chayce coordinator took responsibility for the whole process, managing the packing, removals, cleaning, utility transfers and the practical details around moving day, so they dealt with one person instead of several companies."
+    },
+    "localFaqs": [
+      {
+        "q": "How far is Wellingborough from your Northampton office?",
+        "a": "Wellingborough is around 11 miles east of our Kingsthorpe Road office in Northampton, reached via the A45. That makes it one of our closest towns, so a Discovery Consultation can be in person or by phone."
+      },
+      {
+        "q": "Have you helped anyone move in Wellingborough?",
+        "a": "Yes. A Wellingborough couple were downsizing from a family home of more than 30 years and had already decided where to move. Their coordinator managed the packing, removals, cleaning, utility transfers and the practical details of moving day.",
+        "url": "/case-studies/#story-3",
+        "linkText": "Read the client story"
+      },
+      {
+        "q": "Which council covers Wellingborough, and where can I ask about care assessments?",
+        "a": "Wellingborough is in the North Northamptonshire Council area. Its adult social care pages explain care assessments, support at home and how care costs are worked out. Chayce does not give care, financial or legal advice, but we can plan a move around the decisions you make.",
+        "url": "https://www.northnorthants.gov.uk/adult-social-care",
+        "linkText": "North Northamptonshire Council adult social care",
+        "ext": true
+      },
+      {
+        "q": "Which hospitals and railway station are near Wellingborough?",
+        "a": "Kettering General Hospital and Northampton General Hospital are both within easy reach of Wellingborough. Wellingborough station is on the Midland Main Line, with direct trains to London St Pancras."
+      }
+    ]
   },
   {
     "slug": "daventry",
@@ -93,7 +210,55 @@
     "heroImage": "chayce-uk-kettering.jpg",
     "image": "chayce-uk-kettering2.jpg",
     "image2": "chayce-uk-northampton.jpg",
-    "wikipedia": "https://en.wikipedia.org/wiki/Corby"
+    "wikipedia": "https://en.wikipedia.org/wiki/Corby",
+    "localHelp": [
+      {
+        "label": "North Northamptonshire Council adult social care",
+        "url": "https://www.northnorthants.gov.uk/adult-social-care",
+        "note": "Care assessments, support at home and independent living for people living in the council area."
+      },
+      {
+        "label": "Paying for care",
+        "url": "https://www.northnorthants.gov.uk/paying-adult-social-care",
+        "note": "How the council explains care costs and contributions."
+      },
+      {
+        "label": "Kettering General Hospital",
+        "url": "https://www.kgh.nhs.uk/",
+        "note": "The nearest large acute hospital to Corby."
+      },
+      {
+        "label": "Age UK Northamptonshire",
+        "url": "https://www.ageuk.org.uk/northamptonshire/",
+        "note": "A local charity offering advice and support for older people."
+      },
+      {
+        "label": "Care Quality Commission (CQC)",
+        "url": "https://www.cqc.org.uk/care-services",
+        "note": "Search inspection reports for any care home or home care provider before you choose one."
+      }
+    ],
+    "localFaqs": [
+      {
+        "q": "How far is Corby from your Northampton office?",
+        "a": "Corby is around 22 miles north-east of our Kingsthorpe Road office in Northampton, reached via the A43. We can arrange a Discovery Consultation by phone or in person, and plan the move around travel time."
+      },
+      {
+        "q": "What should I plan for when moving out of a Corby home?",
+        "a": "Corby grew around steelmaking and expanded as a post-war new town, so many homes are post-war houses and maisonettes. We check access, parking and stairs before a removal is planned, and build decluttering time in for long-term residents with decades of belongings."
+      },
+      {
+        "q": "Which council covers Corby, and where can I ask about care assessments?",
+        "a": "Corby is in the North Northamptonshire Council area. Its adult social care pages explain care assessments, support at home and how care costs are worked out. Chayce does not give care, financial or legal advice, but we can plan a move around the decisions you make.",
+        "url": "https://www.northnorthants.gov.uk/adult-social-care",
+        "linkText": "North Northamptonshire Council adult social care",
+        "ext": true
+      },
+      {
+        "q": "Which hospital and railway station serve Corby?",
+        "a": "Kettering General Hospital is the nearest large acute hospital to Corby, and Corby station has direct trains to London St Pancras."
+      }
+    ]
   },
   {
     "slug": "rushden",

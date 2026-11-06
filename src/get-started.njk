@@ -446,6 +446,7 @@ footScripts: |
       body: JSON.stringify(body)
     }).then(function(res){
       if (!res.ok) throw new Error('submit failed: ' + res.status);
+      if (typeof gtag === 'function') gtag('event', 'generate_lead', { form: 'get_started', recommendation: state.recommendation ? state.recommendation.key : '' });
       go('done');
     }).catch(function(){
       if (submitBtn) { submitBtn.disabled = false; submitBtn.textContent = originalLabel; }
