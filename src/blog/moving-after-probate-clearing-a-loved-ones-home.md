@@ -1,8 +1,8 @@
 ---
-title: "Moving After a Bereavement: Probate and Clearing (UK)"
-description: "A calm guide for UK families on probate, who can deal with a home after a death, and how to sort and move belongings without making costly mistakes."
+title: "Clearing a Parent's House After a Death: Probate and Steps (UK)"
+description: "A calm UK guide to clearing a home after a death: who is in charge, what you need to start probate, the steps in order, what it costs and who can help."
 date: "2026-10-08"
-dateModified: "2026-11-04"
+dateModified: "2026-11-18"
 about:
   - name: "Probate"
     url: "https://en.wikipedia.org/wiki/Probate"
@@ -13,7 +13,17 @@ sources:
     url: "https://www.gov.uk/applying-for-probate"
   - name: "GOV.UK: Find your local council"
     url: "https://www.gov.uk/find-local-council"
+  - name: "GOV.UK: Valuing the estate of someone who's died"
+    url: "https://www.gov.uk/valuing-estate-of-someone-who-died"
+  - name: "Environment Agency: public register of waste carriers"
+    url: "https://environment.data.gov.uk/public-register/view/search-waste-carriers-brokers"
 faq:
+  - q: "What do I need to start probate in England and Wales?"
+    a: "Usually the original will if there is one, the death certificate and a valuation of the estate, including whether Inheritance Tax is due. GOV.UK sets out the full steps and current fees. Scotland and Northern Ireland have their own processes."
+  - q: "How much does it cost to clear a house after a death?"
+    a: "It depends on the size of the home, how much is kept, access and whether items are sold, donated, recycled or thrown away. Get at least two written quotes. At Chayce, sorting, packing and moving what the family keeps starts at £995."
+  - q: "Are there companies that specialise in clearing probate properties?"
+    a: "Yes. House clearance firms empty a property and dispose of what is left; check they are registered waste carriers. Chayce does the other part: sorting with the family and packing and moving what is being kept, including a surviving partner's move."
   - q: "Can I clear my parent's house before probate is granted?"
     a: "Be careful. The executor named in the will, or the person applying to administer the estate, is responsible for the estate. Check with them before removing, selling or giving away anything, and keep a record of what is in the home."
   - q: "Do I need probate before selling the property?"
@@ -49,6 +59,24 @@ Dealing with a loved one's home combines grief with a long list of practical dec
 - **Keep the home secure and insured.** Check with the solicitor or insurer about cover for an empty property.
 - **Check what happens to council tax.** Rules and exemptions for an unoccupied property vary, so check with the [local council](https://www.gov.uk/find-local-council).
 - **Agree who keeps what.** Do this as a family where you can, and store undecided items safely.
+
+## What you need to start probate
+
+In England and Wales you will usually need the original will (if there is one), the death certificate and a valuation of the estate, including whether Inheritance Tax is due. GOV.UK explains [how to value the estate](https://www.gov.uk/valuing-estate-of-someone-who-died) and [how to apply for probate](https://www.gov.uk/applying-for-probate), including the current application fee. Not every estate needs probate, so check with GOV.UK or the solicitor first.
+
+## Clearing the house: the steps in order
+
+1. **Agree with the executor** who decides what, and when the house can be cleared.
+2. **Secure the home** and check the insurance for an empty property.
+3. **Find the paperwork**: the will, bank and pension letters, deeds and policies.
+4. **List and photograph** valuables and sentimental items before anything moves.
+5. **Let the family choose** what they want to keep, then decide what to sell, donate or recycle.
+6. **Pack and move** what is being kept, or put it into storage.
+7. **Clear what is left** using a registered house clearance firm, then clean the property ready for sale or handover.
+
+## What it costs
+
+There is no standard price. The cost depends on the size of the home, how much is being kept, access and parking, and how the rest is sold, donated, recycled or disposed of. Get at least two written quotes that say exactly what is included. If a firm takes items away, check it is a registered waste carrier on the [Environment Agency public register](https://environment.data.gov.uk/public-register/view/search-waste-carriers-brokers) (in England). At Chayce, sorting with the family and packing and moving what is being kept starts at £995; see our [packages](/packages/).
 
 ## When a partner or relative also needs to move
 

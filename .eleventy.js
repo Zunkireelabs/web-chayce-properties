@@ -132,6 +132,14 @@ module.exports = function (eleventyConfig) {
   });
 
   // "1850" -> "1,850" so prices read the same everywhere they are generated.
+  // v2 pages: replace {bronze} {silver} {gold} {platinum} {discovery} with real prices from site.json
+  eleventyConfig.addNunjucksFilter("fillPrices", (text, site) => {
+    if (!text) return text;
+    return String(text).replace(/\{(bronze|silver|gold|platinum|discovery)\}/g, (m, k) => {
+      const p = (site.packages || []).find((x) => x.key === k);
+      return p ? "£" + Number(p.price).toLocaleString("en-GB") : m;
+    });
+  });
   eleventyConfig.addNunjucksFilter("gbp", (n) =>
     Number(n).toLocaleString("en-GB")
   );
@@ -140,7 +148,7 @@ module.exports = function (eleventyConfig) {
   // Same files, same order as before, so the cascade is unchanged. Keep this
   // list in step with the files' original order (tokens must stay early).
   eleventyConfig.on("eleventy.after", () => {
-    const parts = ["seoai-content", "chayce-tokens", "chayce-hero-variants", "chayce-sticky-cta", "chayce-mobile-spacing", "chayce-pages", "chayce-open", "chayce-guide", "chayce-rhythm"];
+    const parts = ["seoai-content", "chayce-tokens", "chayce-hero-variants", "chayce-sticky-cta", "chayce-mobile-spacing", "chayce-pages", "chayce-open", "chayce-guide", "chayce-sections", "chayce-v2", "chayce-rhythm"];
     const css = parts.map((n) => fs.readFileSync(path.join("./src/css", n + ".css"), "utf8")).join("\n");
     fs.writeFileSync("./_site/css/chayce-all.css", css);
   });
@@ -194,7 +202,11 @@ module.exports = function (eleventyConfig) {
   // individual post's own front matter, so a generated post never needs to
   // remember to add it itself.
   eleventyConfig.addCollection("blog", (collectionApi) =>
-    collectionApi.getFilteredByTag("blog").sort((a, b) => b.date - a.date)
+    collectionApi.getFilteredByTag("blog").sort((a, b) =>
+      (b.date - a.date) ||
+      String(b.data.dateModified || "").localeCompare(String(a.data.dateModified || "")) ||
+      a.fileSlug.localeCompare(b.fileSlug)
+    )
   );
 
   return {

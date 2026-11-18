@@ -109,6 +109,10 @@ headExtra: |
   </div>
 </section>
 
+{% set ctaHeading = "Planning a move like this?" %}
+{% set ctaLine = "If you would rather not manage it alone, Chayce can plan and handle the sorting, packing, removal and settling in, with one coordinator and published prices. No obligation." %}
+{% include "enquiry-cta.njk" %}
+
 {% set relatedPosts = collections.blog | relatedPosts(page.url, 3) %}
 {% if relatedPosts.length > 0 %}
 <section class="page-section grey">

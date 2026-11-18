@@ -1,0 +1,163 @@
+---
+modified: '2026-11-17'
+layout: v2-page.njk
+activeKey: about-chayce
+bodyClass: page-template page-loaded v2
+title: 'Refer a Client: Later-Life Moves in Northampton | Chayce'
+description: 'For care homes, retirement villages, solicitors, estate agents and social workers: how to refer an older client to Chayce for a fully managed move.'
+permalink: /for-professionals/
+hero:
+  kicker: For Professionals
+  kickerMore: Refer a client
+  title: Referring an older client
+  titleEm: for a move.
+  lead: For care homes, retirement villages, solicitors, estate agents and social workers in and around Northampton.
+  image: chayce-gallery2.jpg
+intro:
+  eyebrow: Short answer
+  h2: Refer a client for a
+  h2em: later-life move
+  answer: If an older person you work with needs to move home, into retirement living or into a care home, you can refer them or their family to Chayce.
+  answerMore: 'One coordinator plans and manages the practical move: sorting, packing, a fully insured removal, cleaning and settling in. We do not give legal, financial, medical or care advice, and we are not a house clearance firm.'
+faqs:
+- q: Do you only help older people?
+  a: Our service is designed with older people and their families in mind, but anyone who wants a fully managed move is welcome.
+- q: Can you help with a move into a care home?
+  a: 'Yes. We help with the practical side: sorting what comes with the person, packing, the removal and setting up the room. See <a href="/care-home-removals/">care home removals</a>. We do not give care advice.'
+- q: Do you do house clearance or probate?
+  a: No. We sort, pack and move, and help the family decide what to keep, sell or pass on. We are not a clearance firm and we do not give legal advice. See <a href="/probate-house-clearance/">probate and moving help</a>.
+- q: Where do you work?
+  a: We are based in Northampton and work across Northamptonshire, and we arrange moves across the UK. See <a href="/areas-we-cover/">areas we cover</a>.
+faqTitle: What do professionals ask
+faqTitleEm: before referring?
+final:
+  title: Prefer to
+  titleEm: talk it through?
+crumbs:
+- - /for-professionals/
+  - For Professionals
+---
+<div class="v2-legacy">
+<section class="pro-who">
+  <div class="container">
+    <p class="pro-who-label">Who refers to us</p>
+    <ul class="pro-who-list">
+      <li><i class="fas fa-hand-holding-heart" aria-hidden="true"></i>Care homes</li>
+      <li><i class="fas fa-home" aria-hidden="true"></i>Retirement villages</li>
+      <li><i class="fas fa-file-signature" aria-hidden="true"></i>Solicitors</li>
+      <li><i class="fas fa-key" aria-hidden="true"></i>Estate agents</li>
+      <li><i class="fas fa-user-friends" aria-hidden="true"></i>Social workers</li>
+    </ul>
+  </div>
+</section>
+<section class="gd-sec">
+  <div class="container">
+    <div class="rx-lead">
+      <div class="rx-photo">{% image "chayce-about2.jpg", "A calm, comfortable family living room" %}<div class="rx-tag">one<strong>coordinator</strong>for the whole move</div></div>
+      <div class="rx-copy">
+        <span class="gd-eyebrow" style="text-align:left">For professionals</span>
+        <h2>What we do, and <em>what we leave to you</em></h2>
+        <p class="rx-sub">You know the person and their situation. We take on the practical side of the move so that you, the family and the person moving are not left to arrange it alone.</p>
+        <ul class="rx-points">
+          <li><i class="fas fa-box-open" aria-hidden="true"></i><h3>What we do</h3><p>Sorting and decluttering, packing, a fully insured removal, cleaning the old home, and unpacking and setting up the new one. Our packages and their starting prices are <a href="/packages/">published on our website</a>.</p></li>
+          <li><i class="fas fa-user-shield" aria-hidden="true"></i><h3>Who comes into the home</h3><p>Our own team, DBS-checked to {{ site.trust.dbsLevel }} level{% if site.trust.dbsBarredList %} including the barred list check{% endif %}. See <a href="/trust-and-safeguarding/">trust and safeguarding</a>.</p></li>
+          <li><i class="fas fa-ban" aria-hidden="true"></i><h3>What we do not do</h3><p>We do not give legal, financial, medical or care advice, and we do not empty a property as a clearance firm would. Decisions about care stay with the person, their family and their professionals.</p></li>
+          <li><i class="fas fa-hands-helping" aria-hidden="true"></i><h3>Decision-makers</h3><p>If someone holds a Lasting Power of Attorney or is helping to make decisions, we work with them from the start.</p></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ref-sec" id="refer">
+  <div class="container ref-grid">
+    <div class="ref-side">
+      <span class="gd-eyebrow" style="text-align:left">Refer a client</span>
+      <h2>How do I <em>refer someone?</em></h2>
+      <ol class="ref-steps">
+        <li><span>1</span><div><b>Ask first</b>Check that the person, or the family member helping them, is happy for you to pass on their details.</div></li>
+        <li><span>2</span><div><b>Send the form</b>It takes a minute. Share only what they have agreed to.</div></li>
+        <li><span>3</span><div><b>We get in touch</b>We contact the person or their family and talk through what they need, with no obligation.</div></li>
+      </ol>
+      <div class="ref-call">
+        <i class="fas fa-phone" aria-hidden="true"></i>
+        <div><b>Prefer to talk it through?</b><a href="tel:{{ site.telephone }}">{{ site.telephoneDisplay }}</a><small>Monday to Friday, {{ site.openingHours.opens }} to {{ site.openingHours.closes }}</small></div>
+      </div>
+    </div>
+    <div class="ref-form-panel">
+      <h3 class="ref-form-title">Referral form</h3>
+      <form id="refForm" class="ref-form">
+        <div class="ref-row">
+          <div class="form-group"><label for="rf-name">Your name</label><input id="rf-name" type="text" required autocomplete="name"></div>
+          <div class="form-group"><label for="rf-org">Organisation</label><input id="rf-org" type="text" required autocomplete="organization"></div>
+        </div>
+        <div class="ref-row">
+          <div class="form-group"><label for="rf-role">Your role</label>
+            <select id="rf-role" required>
+              <option value="">Choose one</option>
+              <option value="care_home">Care home</option>
+              <option value="retirement_village">Retirement village or housing</option>
+              <option value="solicitor">Solicitor</option>
+              <option value="estate_agent">Estate agent</option>
+              <option value="social_worker">Social worker or discharge team</option>
+              <option value="charity_or_community">Charity or community group</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          <div class="form-group"><label for="rf-phone">Your phone</label><input id="rf-phone" type="tel" autocomplete="tel"></div>
+        </div>
+        <div class="form-group"><label for="rf-email">Your email</label><input id="rf-email" type="email" required autocomplete="email"></div>
+        <div class="form-group"><label for="rf-message">About the move</label><textarea id="rf-message" placeholder="Where they are moving from and to, rough timing, and the best way to reach them or their family. Please only share what they have agreed to." required></textarea></div>
+        <div class="form-check"><input id="rf-consent" type="checkbox" required><label for="rf-consent">The person, or the family member helping them, has agreed that I can share these details with Chayce.</label></div>
+        <button type="submit" class="ref-submit">Send referral</button>
+        <p class="form-hint">We use these details only to contact the person about their move. See our <a href="/privacy-policy/">privacy policy</a>.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+
+<script>
+(function(){
+  var form = document.getElementById('refForm');
+  if (!form) return;
+  function splitName(full){
+    var parts = full.trim().replace(/\s+/g, ' ').split(' ');
+    return { first_name: parts[0] || '', last_name: parts.length > 1 ? parts.slice(1).join(' ') : '' };
+  }
+  form.addEventListener('submit', function(e){
+    e.preventDefault();
+    var name = splitName(document.getElementById('rf-name').value);
+    var role = document.getElementById('rf-role').value;
+    var body = {
+      first_name: name.first_name,
+      last_name: name.last_name,
+      email: document.getElementById('rf-email').value.trim(),
+      phone: document.getElementById('rf-phone').value.trim(),
+      custom_fields: {
+        lead_source: 'professional_referral',
+        heard_about_us: 'professional_referral',
+        referrer_organisation: document.getElementById('rf-org').value.trim(),
+        referrer_role: role,
+        message: document.getElementById('rf-message').value.trim()
+      },
+      idempotency_key: (window.crypto && crypto.randomUUID) ? crypto.randomUUID() : (Date.now() + '-' + Math.random().toString(36).slice(2))
+    };
+    var btn = form.querySelector('.ref-submit');
+    btn.disabled = true; btn.textContent = 'Sending…';
+    fetch('/api/lead/contact-us', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body) })
+      .then(function(res){
+        if (!res.ok) throw new Error('submit failed: ' + res.status);
+        if (typeof gtag === 'function') gtag('event', 'generate_lead', { form: 'professional_referral', referrer_role: role });
+        form.parentNode.innerHTML = '<h3>Thank you, we have your referral.</h3><p>We will get in touch with the person or their family during office hours ({{ site.openingHoursText }}). If it is urgent, call us on <a href="tel:{{ site.telephone }}">{{ site.telephoneDisplay }}</a>.</p>';
+      })
+      .catch(function(){
+        btn.disabled = false; btn.textContent = 'Send referral';
+        var err = form.querySelector('.form-error');
+        if (!err) { err = document.createElement('p'); err.className = 'form-error'; form.insertBefore(err, btn); }
+        err.innerHTML = 'Something went wrong sending this. Please try again, or call us on <a href="tel:{{ site.telephone }}">{{ site.telephoneDisplay }}</a>.';
+      });
+  });
+})();
+</script>
+</div>

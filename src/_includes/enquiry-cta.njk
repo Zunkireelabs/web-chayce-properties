@@ -1,0 +1,19 @@
+{#- Shared enquiry block. Optional: set ctaHeading / ctaLine before including. -#}
+<section class="enq-cta" aria-labelledby="enq-cta-h">
+  <div class="container">
+    <div class="enq-cta-copy">
+      <span class="enq-cta-eyebrow">Talk to Chayce</span>
+      <h2 id="enq-cta-h">{{ ctaHeading or "Ready to talk about your move?" }}</h2>
+      <p>{{ ctaLine or "Tell us what is happening and we will explain the options plainly, with no obligation. One coordinator, published prices, and a DBS-checked team." }}</p>
+      <p class="enq-cta-hours"><i class="fas fa-clock" aria-hidden="true"></i>Monday to Friday, {{ site.openingHours.opens }} to {{ site.openingHours.closes }}</p>
+    </div>
+    <div class="enq-cta-actions">
+      <a class="enq-btn enq-btn-primary" href="tel:{{ site.telephone }}"><i class="fas fa-phone" aria-hidden="true"></i>Call {{ site.telephoneDisplay }}</a>
+      <a class="enq-btn enq-btn-light" href="/contact/?callback=1" data-cta="callback">Request a callback</a>
+      <div class="enq-cta-row">
+        <a class="enq-btn" href="{{ site.whatsapp }}" rel="noopener">WhatsApp</a>
+        <a class="enq-btn" href="/get-started/">Get started</a>
+      </div>
+    </div>
+  </div>
+</section>

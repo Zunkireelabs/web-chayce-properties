@@ -2,7 +2,7 @@
 title: "Cost of Moving House in the UK: What to Budget For"
 description: "The cost of moving house in the UK: the main costs of selling and buying, why there is no single average, and a simple moving budget, with notes for downsizers."
 date: "2026-10-04"
-dateModified: "2026-11-04"
+dateModified: "2026-11-18"
 featuredImage: "https://images.pexels.com/photos/5849563/pexels-photo-5849563.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 featuredImageAlt: "Calculator, cash and paperwork laid out on a table while planning the costs of buying a home."
 featuredImageCredit: "Photo via Pexels"
@@ -26,7 +26,7 @@ sources:
     url: "https://www.gov.uk/government/organisations/hm-land-registry"
 faq:
   - q: "How much Stamp Duty will I pay when downsizing in England?"
-    a: "On GOV.UK's published residential rates (checked 4 October 2026), you pay 0% up to £125,000, 2% on £125,001 to £250,000, 5% on £250,001 to £925,000, 10% on £925,001 to £1.5 million and 12% above that. So a £300,000 purchase costs £5,000 and a £400,000 purchase costs £10,000. Check the GOV.UK calculator for your own case."
+    a: "On GOV.UK's published residential rates (checked 18 November 2026), you pay 0% up to £125,000, 2% on £125,001 to £250,000, 5% on £250,001 to £925,000, 10% on £925,001 to £1.5 million and 12% above that. So a £300,000 purchase costs £5,000 and a £400,000 purchase costs £10,000. Check the GOV.UK calculator for your own case."
   - q: "What costs are easy to forget when moving house?"
     a: "Searches and surveys, early repayment charges on a mortgage, cleaning, storage if dates do not line up, overlapping utility bills and small repairs before sale are the ones that most often get left off the first budget."
   - q: "Who pays Stamp Duty when moving house?"
@@ -37,9 +37,13 @@ faq:
     a: "Often, yes. Clearing and sorting a lot of belongings, storage while you decide, and the ongoing costs of the new home, such as service charges and ground rent in some retirement properties, are worth checking before you commit."
   - q: "How much does it cost to move house in the UK?"
     a: "There is no single figure. Costs include estate agent and solicitor fees, stamp duty if you buy, surveys, removals and storage, and they vary with the property and the move. Our guide breaks the main categories down so you can build a budget."
+  - q: "What is the average cost of moving house in the UK?"
+    a: "There is no single reliable average. Published estimates differ because they assume different house prices, include different costs (some count Stamp Duty and estate agent fees, some only the removal) and come from different dates. Work out your own figure from the categories in this guide, using written quotes."
+  - q: "How much do removals cost in the UK?"
+    a: "It depends on the volume of belongings, the distance, access such as stairs and parking, whether packing is included and the time of year. Get at least three written quotes based on the same details. Chayce's published packages for older people start at £995; see our guide to what an elderly move costs."
 ---
 
-**Short answer:** the removal van is usually only one line in a longer list. Moving house in the UK typically involves fees to professionals, taxes, lender charges and a handful of smaller practical costs, and which of these apply depends on whether you are selling, buying, renting or doing a mix. This guide sets out the categories, what makes each one vary, and a simple way to build a budget without nasty surprises.
+**Short answer:** the removal van is usually only one line in a longer list. Moving house in the UK typically involves fees to professionals, taxes, lender charges and a handful of smaller practical costs, and which of these apply depends on whether you are selling, buying, renting or doing a mix. This guide sets out the categories, what makes each one vary, and a simple way to build a budget without nasty surprises. Published estimates differ widely, because each assumes a different house price and a different mix of costs, so build your own figure from the categories below.
 
 ## The main categories of cost
 
@@ -67,6 +71,18 @@ faq:
 - **New-home costs.** Curtains, flooring, small repairs, locks and the odd item that does not fit.
 
 If you are renting rather than buying, swap the tax and mortgage lines for a deposit, referencing or agent fees where applicable, and rent paid in advance. Check the current rules for your part of the UK.
+
+## Why the Figures You See Online Differ
+
+Search for the average cost of moving house and you will find very different numbers. Each estimate assumes a different house price, a different mix of costs (some include Stamp Duty and estate agent fees, some only the removal) and a different date, and many come from businesses in the moving industry. Treat any single figure as a rough guide, and build your own from the categories above using real quotes.
+
+## How to Work Out Your Own Figure
+
+1. **Decide which costs apply:** selling, buying, or both.
+2. **Get at least three written removals quotes** from the same details. See [how to compare removals quotes](/blog/how-to-compare-removals-quotes-uk-what-to-check/) and [what an elderly move costs](/blog/elderly-removals-cost-uk/).
+3. **Use the official Stamp Duty calculator on GOV.UK** if you are buying in England or Northern Ireland.
+4. **Ask your solicitor and estate agent for written fee estimates.**
+5. **Add the costs that are easy to forget:** searches and surveys, early repayment charges, cleaning, storage and overlapping bills.
 
 ## A simple budget table
 
@@ -145,5 +161,5 @@ Related reading: [downsizing or equity release](/blog/downsizing-and-equity-rele
 
 ## Sources
 
-- [GOV.UK: Stamp Duty Land Tax residential rates](https://www.gov.uk/stamp-duty-land-tax/residential-property-rates), checked 4 October 2026.
+- [GOV.UK: Stamp Duty Land Tax residential rates](https://www.gov.uk/stamp-duty-land-tax/residential-property-rates), checked 18 November 2026.
 - [GOV.UK: Buying and selling your home](https://www.gov.uk/buy-sell-your-home).

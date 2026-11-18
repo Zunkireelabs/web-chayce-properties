@@ -19,7 +19,7 @@ sources:
     url: "https://www.citizensadvice.org.uk/consumer/"
 faq:
   - q: "Do you offer residential removals in Milton Keynes, Bedford and Rugby?"
-    a: "Yes. We cover all three from our Northampton base, around 16 miles to Milton Keynes, 22 to Bedford and 20 to Rugby."
+    a: "Yes. We cover all three from our Northampton base, and arrange moves across the whole UK."
   - q: "What should I check before a removal in these towns?"
     a: "Parking and access for the removal vehicle, stairs and hallway widths, and the dates of any house sale or purchase."
   - q: "Can you help if I am downsizing?"
@@ -28,7 +28,7 @@ faq:
     a: "Call 07708 925432 or use the get started page. A one-hour Discovery Consultation costs £150."
 ---
 
-**Short answer:** Milton Keynes, Bedford and Rugby are all within about 16 to 22 miles of our Northampton base, so a move between them and Northampton is straightforward. What changes from town to town is access, parking and the type of home, so plan those first.
+**Short answer:** Milton Keynes, Bedford and Rugby are all within reach of our Northampton base, so a move between them and Northampton is straightforward. What changes from town to town is access, parking and the type of home, so plan those first.
 
 ## Milton Keynes
 

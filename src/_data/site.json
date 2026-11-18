@@ -84,5 +84,12 @@
   },
   "legalName": "Chayce Properties Ltd",
   "registeredCountry": "England and Wales",
-  "lastReviewed": "2026-10-08"
+  "lastReviewed": "2026-11-17",
+  "summary": "Chayce Properties is a later-life moving and downsizing service based in Northampton, UK, founded in 2021. One coordinator manages sorting and decluttering, packing, a fully insured removal, cleaning and settling in, for older people and their families across Northamptonshire and the rest of the UK. Package prices are published on the website.",
+  "notOffered": [
+    "Estate agency (we liaise with your estate agent but do not sell homes)",
+    "House clearance as a clearance firm (we sort, pack and move, and help decide what to keep, sell or pass on)",
+    "Legal, financial, medical or care advice",
+    "International or overseas moves (we move people within the UK only)"
+  ]
 }

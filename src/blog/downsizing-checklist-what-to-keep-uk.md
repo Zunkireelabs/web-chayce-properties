@@ -1,8 +1,8 @@
 ---
-title: "Downsizing Your Home in the UK: Guide and Checklist"
-description: "A step-by-step UK downsizing guide with a keep, sell, donate and let-go checklist: how to plan, sort belongings, decide what fits and allow enough time."
+title: "Downsizing Checklist UK: What to Keep, Sell, Donate or Let Go"
+description: "A free UK downsizing checklist: what to keep, sell, donate or let go, how to measure what fits the smaller home, and how long to allow, step by step."
 date: "2026-09-21"
-dateModified: "2026-11-04"
+dateModified: "2026-11-18"
 featuredImageCredit: "Photo via Pexels"
 about:
   - name: "Decluttering"
@@ -27,6 +27,10 @@ faq:
     a: "No. Chayce's Silver Comfort and Gold Prestige packages include hands-on sorting and decluttering support, and a Discovery Consultation can set a realistic plan first."
   - q: "Can I afford to downsize in retirement?"
     a: "Downsizing involves costs, such as stamp duty, estate agent and solicitor fees and removals, and a smaller home is not always cheaper. Add up the costs and compare your options before you commit, and take regulated advice on any money questions."
+  - q: "Where do I start when downsizing?"
+    a: "Start with where you are going and when. Knowing the type and size of the new home gives every later decision a purpose. Then get the floor plan, measure the rooms, set a timeline of at least 6 to 8 weeks and sort by category rather than room."
+  - q: "What is the downsizing process?"
+    a: "Decide where you are going, get the floor plan, list what matters most, set a timeline, sort by category into keep, sell, donate and let-go piles, deal with sentimental items separately, arrange sale and donation, then pack by destination room. The step-by-step checklist above sets this out in order."
 featuredImage: "https://images.pexels.com/photos/7217846/pexels-photo-7217846.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 featuredImageAlt: "Hands packing a labelled box of clothes while sorting what to keep."
 ---
@@ -62,6 +66,8 @@ Downsizing a long-time family home is about deciding what comes with you into th
 
 If you haven't used or thought about an item in the last 12 months, it is usually a candidate for sell, donate or let go. The exceptions are seasonal items, hobby equipment and things with sentimental weight such as photographs, letters and inherited pieces. Those deserve their own pass, not a rushed decision the week before moving.
 
+For the legal checks before furniture leaves the house, see [what to do with furniture when downsizing](/blog/what-to-do-with-furniture-when-downsizing-uk/).
+
 ## Furniture and bulky items
 
 Place large furniture on paper first, then decide what leaves. Offer pieces to family before selling, and choose between sale, donation and collection based on how much time you have. Our guide on [planning furniture and a floor plan](/blog/planning-furniture-and-floor-plan-for-a-smaller-home/) covers the options for what does not fit.
@@ -73,6 +79,18 @@ Keep important papers such as deeds, insurance, pension and identity documents i
 ## Check the money before you sort
 
 Before you start clearing, it helps to know the financial picture. [Independent Age](https://www.independentage.org/get-advice/housing/housing-options/downsizing) notes that moving costs can be high, that tax may be payable when you buy, and that proceeds from selling your home can affect means-tested benefits. Independent Age also suggests checking storage space for your belongings, how easily family and friends can visit, and the local facilities and transport at the new home.
+
+## Where to Start: Your First Week
+
+If the whole job feels too big, the first week can be small:
+
+- **Day 1.** Write down where you are going and roughly when.
+- **Day 2.** Get the new home's floor plan and measure the main rooms.
+- **Day 3.** List the ten things that matter most to you.
+- **Day 4.** Choose one category, such as books or kitchenware, and sort only that.
+- **Day 5.** Book a date for a first donation or collection, so the pile has somewhere to go.
+
+Then continue with the checklist above, one category at a time.
 
 ## When to get support
 

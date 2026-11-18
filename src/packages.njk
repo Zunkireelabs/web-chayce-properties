@@ -1,8 +1,8 @@
 ---
-modified: "2026-11-06"
-title: "Removals & Downsizing Packages, From £995 | Chayce"
-description: "Compare elderly removals and downsizing packages from £995, with fixed prices from our Northampton team: packing and removals up to full concierge moves."
-bodyClass: "page-template page-loaded"
+modified: "2026-11-17"
+title: "Removals Prices & Packages, Northampton | Chayce"
+description: "Removals prices from £995, published in full: compare Chayce packages from our Northampton team, from packing and removals to a fully managed move."
+bodyClass: "page-template page-loaded v2"
 homeNav: false
 layout: base.njk
 activeKey: "packages"
@@ -222,7 +222,7 @@ headExtra: |
 ---
 <div class="page-hero--left" style="background-image:url({% imageUrl "chayce-packages-hero-uk.jpg" %});{% imageSet "chayce-packages-hero-uk.jpg" %};background-size:cover;background-position:center;">
   <div class="container">
-    <h1><span class="h1-kicker">Removals &amp; Downsizing Packages</span><em>Our</em> Relocation Packages</h1>
+    <h1><span class="h1-kicker">Removals Prices &amp; Packages</span><em>Our</em> Relocation Packages</h1>
     <p style="color:#ccc;margin-top:10px;font-size:16px;">Five levels of support, from a &pound;150 consultation to a fully bespoke relocation</p>
   </div>
 </div>
@@ -301,6 +301,7 @@ headExtra: |
         <button type="button" class="pkg-detail-link" data-pkg="platinum">Full details</button>
       </div>
     </div>
+    <p class="pkg-price-note">Prices shown are starting prices. Your final price depends on the size of the home, the distance, how much sorting is needed and any weeks of storage, and we confirm it in writing before you book.</p>
 
     <!-- ============ PACKAGE DETAIL CARD — normal flow, below the grid, centered ============ -->
     <div class="pkg-modal-overlay" id="pkgModalOverlay">
@@ -360,139 +361,82 @@ headExtra: |
   </div>
 </section>
 
-<section class="pkg-band pkg-band--cream" id="example">
-  <div class="container">
-    <div class="pkg-example">
-      <span style="display:inline-block;font-size:12.5px;letter-spacing:2px;text-transform:uppercase;font-weight:500;color:var(--gold-dark);margin-bottom:10px">Example scenario &middot; illustrative, not a real client</span>
-      <p style="color:#555;font-size:17px;line-height:1.8;margin:0 0 12px">A couple are moving from a four-bedroom family home to a smaller bungalow and have not decided how much help they need. They begin with a Discovery Consultation (&pound;{{ (site.packages | findByKey("discovery")).price | gbp }}) to agree what the move involves. If they mainly want sorting, packing and a managed move, Silver Comfort (from &pound;{{ (site.packages | findByKey("silver")).price | gbp }}) is the package built for that; if they also need the sale and legal side coordinated, Gold Prestige (from &pound;{{ (site.packages | findByKey("gold")).price | gbp }}) adds it.</p>
-      <p style="color:#555;font-size:17px;line-height:1.8;margin:0">The final price depends on the scope agreed. See genuine <a href="/case-studies/" style="color:var(--gold-dark);text-decoration:underline">client stories and examples</a> on our case studies page.</p>
+<section class="v2-sec grey" id="example">
+  <div class="v2-wrap">
+    <div class="v2-intro">
+      <div><span class="v2-eyebrow">Example scenario</span><h2 class="v2-h2">How a family might <em>choose a package</em></h2><p class="v2-note" style="margin-top:14px">Illustrative, not a real client.</p></div>
+      <div class="sa-answer">
+        <p>A couple are moving from a four-bedroom family home to a smaller bungalow and have not decided how much help they need. They begin with a Discovery Consultation (&pound;{{ (site.packages | findByKey("discovery")).price | gbp }}) to agree what the move involves. If they mainly want sorting, packing and a managed move, Silver Comfort (from &pound;{{ (site.packages | findByKey("silver")).price | gbp }}) is the package built for that; if they also need the sale and legal side coordinated, Gold Prestige (from &pound;{{ (site.packages | findByKey("gold")).price | gbp }}) adds it.</p>
+        <p>The final price depends on the scope agreed. See genuine <a href="/case-studies/" style="color:var(--gold-dark);text-decoration:underline">client stories and examples</a> on our case studies page.</p>
+      </div>
     </div>
   </div>
 </section>
 
-
-<script>
-(function(){
-  var PKG_DATA = {
-    discovery: {
-      name: 'Discovery Consultation', level: 'Not Sure Where to Start?', price: 'From £150',
-      desc: 'Expert guidance & a personalised move plan.',
-      cta: 'Book a Consultation', ctaHref: '../get-started/?package=Discovery%20Consultation%20%E2%80%94%20%C2%A3150',
-      fullHref: '../discovery/index.html',
-      features: ['1-hour telephone or in-person consultation','Full assessment of your relocation needs','Personalised move plan document','Recommended timeline and budget breakdown','Priority access to our full-service packages']
-    },
-    bronze: {
-      name: 'Bronze Essentials', level: 'Level 1 — Straightforward Move', price: 'From £995',
-      desc: 'Packing, removals and light cleaning.',
-      cta: 'Book a Consultation', ctaHref: '../get-started/?package=Bronze%20Essentials%20%E2%80%94%20%C2%A3995',
-      fullHref: '../bronze-essentials/index.html',
-      features: ['Professional packing of all rooms','Fully insured removal to your new home','Furniture reassembly at destination','Light cleaning of vacated property','Dedicated move coordinator']
-    },
-    silver: {
-      name: 'Silver Comfort', level: 'Level 2 — Managed / Full-Service Move', price: 'From £1,850',
-      desc: 'Full-service move with a dedicated coordinator.',
-      cta: 'Book a Consultation', ctaHref: '../get-started/?package=Silver%20Comfort%20%E2%80%94%20%C2%A31%2C850',
-      fullHref: '../silver-comfort/index.html',
-      features: ['Everything in Bronze Essentials','Home sorting and declutter assistance','Property staging for sale','Utility transfer management','Deep clean of vacated property','Post-move unpacking and setup']
-    },
-    gold: {
-      name: 'Gold Prestige', level: 'Level 3 — Broader Relocation & Property Support', price: 'From £3,250',
-      desc: 'Chauffeur viewings, staging, legal coordination & more.',
-      cta: 'Book a Consultation', ctaHref: '../get-started/?package=Gold%20Prestige%20%E2%80%94%20%C2%A33%2C250',
-      fullHref: '../gold-prestige/index.html',
-      features: ['Everything in Silver Comfort','Chauffeur-driven property viewings','Estate agent liaison','Solicitor coordination','Full home staging with photography','Storage solutions (up to 6 weeks)','White-glove unpacking & styling']
-    },
-    platinum: {
-      name: 'Platinum Bespoke', level: 'Level 4 — Complete Bespoke / White-Glove', price: 'From £6,500',
-      desc: 'Fully bespoke relocation with a dedicated senior coordinator and 3 months of post-move support.',
-      cta: 'Book a Consultation', ctaHref: '../get-started/?package=Platinum%20Bespoke%20%E2%80%94%20%C2%A36%2C500',
-      fullHref: '../platinum-bespoke/index.html',
-      features: ['Everything in Gold Prestige','Fully bespoke & unlimited scope','Personal lifestyle concierge','New area orientation & introductions','Interior designer consultation','Ongoing post-move concierge support (3 months)','Dedicated senior coordinator throughout']
-    }
-  };
-  var checkIcon = '<svg viewBox="0 0 24 24"><path d="M4 12l5 5L20 6"/></svg>';
-
-  var overlay = document.getElementById('pkgModalOverlay');
-  var elName = document.getElementById('pkgModalName');
-  var elCta = document.getElementById('pkgModalCta');
-  var elReadMore = document.getElementById('pkgModalReadMore');
-  var elList = document.getElementById('pkgModalList');
-
-  function render(id){
-    var d = PKG_DATA[id];
-    if(!d) return;
-    elName.textContent = d.name;
-    elCta.textContent = d.cta;
-    elCta.href = d.ctaHref;
-    elReadMore.href = d.fullHref;
-    elList.innerHTML = d.features.map(function(f){
-      return '<li><span class="ico-wrap">'+checkIcon+'</span><span>'+f+'</span></li>';
-    }).join('');
-    var modalEl = overlay.querySelector('.pkg-modal');
-    if(modalEl) modalEl.scrollTop = 0;
-  }
-
-  function setActiveCard(btn){
-    document.querySelectorAll('.pkg-card.active').forEach(function(c){ c.classList.remove('active'); });
-    if(btn){
-      var card = btn.closest('.pkg-card');
-      if(card) card.classList.add('active');
-    }
-  }
-
-  function openModal(id, btn){
-    render(id);
-    overlay.classList.add('open');
-    setActiveCard(btn);
-    overlay.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-  }
-  function closeModal(){
-    overlay.classList.remove('open');
-    setActiveCard(null);
-  }
-
-  document.querySelectorAll('.pkg-detail-link[data-pkg]').forEach(function(btn){
-    btn.addEventListener('click', function(e){
-      e.stopPropagation();
-      openModal(btn.getAttribute('data-pkg'), btn);
-    });
-  });
-  document.getElementById('pkgModalClose').addEventListener('click', closeModal);
-  document.addEventListener('keydown', function(e){ if(e.key === 'Escape' && overlay.classList.contains('open')) closeModal(); });
-  document.addEventListener('click', function(e){
-    if(!overlay.classList.contains('open')) return;
-    if(overlay.contains(e.target)) return;
-    if(e.target.closest('.pkg-detail-link[data-pkg]')) return;
-    closeModal();
-  });
-})();
-</script>
-
-{% include "promise.njk" %}
-{% include "compare-options.njk" %}
-
-<section class="pg-faq-band" id="faq">
-  <div class="container">
-    <h2>What are the most common questions?</h2>
-    <div class="pg-faq">
-      <details><summary>How do I know which package is right for me?</summary><p>Start with a Discovery Consultation (from £150) — a personalised assessment that helps determine the right level of support for your situation, with no obligation to book anything further.</p></details>
-      <details><summary>Are all packages fully insured?</summary><p>Yes. All removals carried out by Chayce are fully insured, regardless of which package you choose.</p></details>
-              <details><summary>Can I book individual services instead of a full package?</summary><p>Our packages are designed to give you the best value and experience, but we can discuss bespoke requirements. Contact us to find out more.</p></details>
-          <details><summary>What's the difference between the packages?</summary><p>Packages are additive — each tier includes everything in the one below it, plus more support. Bronze covers a straightforward move; Platinum is a fully bespoke, unlimited-scope service.</p></details>
-          <details><summary>Do you offer a consultation before I commit to a package?</summary><p>Yes. A Discovery Consultation (from £150) assesses your situation before you choose a package.</p></details>
-</div>
+<section class="v2-sec">
+  <div class="v2-wrap">
+    <div class="v2-head c"><span class="v2-eyebrow">Our promise</span><h2 class="v2-h2">What can you expect from <em>Chayce?</em></h2><p class="v2-lede">Four things we commit to before you commit to anything, each with a page where you can check it.</p></div>
+    <div class="v2-tips">
+      <div class="v2-tip"><i class="fas fa-user-shield" aria-hidden="true"></i><h3>Our own vetted team</h3><p>The work is done by our own DBS-checked people, not outsourced. <a href="/trust-and-safeguarding/">Trust &amp; safeguarding</a></p></div>
+      <div class="v2-tip"><i class="fas fa-shield-alt" aria-hidden="true"></i><h3>Every removal insured</h3><p>Covered against loss or damage in transit, with the details in your service agreement. <a href="/terms-of-service/">Our terms</a></p></div>
+      <div class="v2-tip"><i class="fas fa-tags" aria-hidden="true"></i><h3>Prices published</h3><p>Every package and its starting price is on our website, so you can compare before you speak to us.</p></div>
+      <div class="v2-tip"><i class="fas fa-user-check" aria-hidden="true"></i><h3>One coordinator</h3><p>One named person from your first call to settling in. <a href="/how-it-works/">How it works</a></p></div>
+    </div>
   </div>
 </section>
 
+<section class="v2-sec grey" id="faq">
+  <div class="v2-wrap">
+    <div class="v2-head c"><span class="v2-eyebrow">Questions</span><h2 class="v2-h2">What do people ask about <em>our packages?</em></h2></div>
+    <div class="v2-faq">
+      <details><summary>How do I know which package is right for me?</summary><p>Start with a Discovery Consultation (from £150) — a personalised assessment that helps determine the right level of support for your situation, with no obligation to book anything further.</p></details>
+      <details><summary>Are all packages fully insured?</summary><p>Yes. All removals carried out by Chayce are fully insured, regardless of which package you choose.</p></details>
+      <details><summary>Can I book individual services instead of a full package?</summary><p>Our packages are designed to give you the best value and experience, but we can discuss bespoke requirements. Contact us to find out more.</p></details>
+      <details><summary>What's the difference between the packages?</summary><p>Packages are additive — each tier includes everything in the one below it, plus more support. Bronze covers a straightforward move; Platinum is a fully bespoke, unlimited-scope service.</p></details>
+      <details><summary>Do you offer a consultation before I commit to a package?</summary><p>Yes. A Discovery Consultation (from £150) assesses your situation before you choose a package.</p></details>
+    </div>
+  </div>
+</section>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How do I know which package is right for me?", "acceptedAnswer": {"@type": "Answer", "text": "Start with a Discovery Consultation (from \u00a3150) \u2014 a personalised assessment that helps determine the right level of support for your situation, with no obligation to book anything further."}}, {"@type": "Question", "name": "Are all packages fully insured?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. All removals carried out by Chayce are fully insured, regardless of which package you choose."}}, {"@type": "Question", "name": "Can I book individual services instead of a full package?", "acceptedAnswer": {"@type": "Answer", "text": "Our packages are designed to give you the best value and experience, but we can discuss bespoke requirements. Contact us to find out more."}}, {"@type": "Question", "name": "What's the difference between the packages?", "acceptedAnswer": {"@type": "Answer", "text": "Packages are additive \u2014 each tier includes everything in the one below it, plus more support. Bronze covers a straightforward move; Platinum is a fully bespoke, unlimited-scope service."}}, {"@type": "Question", "name": "Do you offer a consultation before I commit to a package?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. A Discovery Consultation (from \u00a3150) assesses your situation before you choose a package."}}]}</script>
 
-<section class="pkg-close-cta">
-  <div class="container">
-    <h2>Ready to find the right level of support?</h2>
-    <p>Tell us a little about your situation and we&rsquo;ll help you find the right next step.</p>
-    <div class="btn-row">
-      <a href="/get-started/" class="primary">Get Started</a>
-      <a href="/contact/" class="ghost">Contact Us</a>
+<section class="v2-sec">
+  <div class="v2-wrap">
+    <div class="v2-head c"><span class="v2-eyebrow">Keep exploring</span><h2 class="v2-h2">Related help and <em>nearby areas</em></h2></div>
+    <div class="v2-related">
+      <div>
+        <h3>Related help</h3>
+        <ul class="v2-list">
+          <li><a href="/services/">Our services<i>&rarr;</i></a></li>
+          <li><a href="/how-it-works/">How it works<i>&rarr;</i></a></li>
+          <li><a href="/downsizing-help-for-elderly/">Downsizing help<i>&rarr;</i></a></li>
+          <li><a href="/care-home-removals/">Care home removals<i>&rarr;</i></a></li>
+          <li><a href="/moving-elderly-parent/">Moving an elderly parent<i>&rarr;</i></a></li>
+          <li><a href="/case-studies/">Client stories<i>&rarr;</i></a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Moves near you</h3>
+        <ul class="v2-list">
+          <li><a href="/elderly-removals-northampton/">Northampton<small>our office</small><i>&rarr;</i></a></li>
+          {% for a in localAreas %}{% if a.slug in ["kettering","wellingborough","corby","daventry","towcester"] %}<li><a href="/elderly-removals-{{ a.slug }}/">{{ a.name }}<i>&rarr;</i></a></li>{% endif %}
+          {% endfor %}
+        </ul>
+        <a class="v2-all" href="/areas-we-cover/">All areas we cover &rarr;</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="v2-final">
+  <div class="v2-wrap">
+    <div class="panel">
+      <div class="txt">
+        <h2 class="v2-h2">Ready to find <em>the right level of support?</em></h2>
+        <p>Tell us a little about your situation and we&rsquo;ll help you find the right next step, with no obligation.</p>
+        <div class="btn-row"><a href="/get-started/" class="v2-btn primary">Get Started</a><a href="/contact/?callback=1" class="v2-btn ghost">Request a Callback</a></div>
+        <span class="tel">Or call <a href="tel:{{ site.telephone }}">{{ site.telephoneDisplay }}</a>, Monday to Friday, {{ site.openingHours.opens }} to {{ site.openingHours.closes }}</span>
+      </div>
+      <div class="img" style="background-image:url({% imageUrl 'chayce-hero2.jpg', 900 %})"></div>
     </div>
   </div>
 </section>

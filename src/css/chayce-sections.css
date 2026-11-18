@@ -1,0 +1,75 @@
+/* ===== Shared page sections (FAQ band, closing CTA, steps) =====
+   One set of building blocks for landing pages. FAQ + closing CTA rules
+   were only inside src/areas/areas.json; copied here so any page can use them. */
+.pkg-faq-band{background:var(--bg-warm);padding:80px 0}
+.pkg-faq-band .container{max-width:760px}
+.pkg-faq-band h2{font-family:'Playfair Display',serif;font-size:28px;color:var(--ink);margin:0 0 30px;text-align:center}
+.pkg-faq{margin:0}
+.pkg-faq details{border-bottom:1px solid var(--border-warm-2);padding:20px 0}
+.pkg-faq details:first-child{border-top:1px solid var(--border-warm-2)}
+.pkg-faq summary{list-style:none;cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:18px;font-family:'Poppins',sans-serif;font-weight:500;font-size:17px;color:var(--ink)}
+.pkg-faq summary::-webkit-details-marker{display:none}
+.pkg-faq summary::after{content:'+';flex-shrink:0;font-family:'Poppins',sans-serif;font-size:19px;font-weight:400;color:var(--gold-dark)}
+.pkg-faq details[open] summary::after{content:'\2212'}
+.pkg-faq p{color:var(--grey-mid);font-size:17px;line-height:1.8;margin:12px 0 0}
+.pkg-close-cta{background:#fff;padding:70px 0;text-align:center}.pkg-close-cta h2{font-family:'Playfair Display',serif;font-size:28px;color:var(--ink);margin:0 0 12px}.pkg-close-cta p{color:var(--grey-mid);font-size:17px;margin:0 0 26px}.pkg-close-cta .btn-row{display:flex;gap:16px;flex-wrap:wrap;justify-content:center}.pkg-close-cta .btn-row a{display:inline-block;padding:15px 32px;font-size:15px;font-weight:500;letter-spacing:1.5px;text-transform:uppercase;text-decoration:none;border-radius:2px}.pkg-close-cta .btn-row .primary{background:var(--oxblood);color:#fff}.pkg-close-cta .btn-row .primary:hover{background:var(--oxblood-dark)}.pkg-close-cta .btn-row .ghost{background:transparent;color:var(--ink);border:1px solid var(--ink)}.pkg-close-cta .btn-row .ghost:hover{background:var(--ink);color:#fff}@media(max-width:480px){.pkg-close-cta .btn-row{flex-direction:column}.pkg-close-cta .btn-row a{width:100%;box-sizing:border-box}}
+
+/* Steps: one numbered process, open layout (no boxes), circles joined by a thin line */
+.cs-steps-sec{background:#fff;padding:88px 0}
+.cs-steps{list-style:none;margin:0 auto;padding:0;max-width:1200px;display:grid;grid-template-columns:repeat(4,1fr);gap:0 40px;position:relative}
+.cs-steps::before{content:'';position:absolute;top:26px;left:26px;right:calc((100% - 120px)/4 - 26px);height:1px;background:#e2d6bd}
+.cs-step{position:relative;display:grid;grid-row:span 5;grid-template-rows:subgrid;row-gap:0}
+.cs-step-body{display:contents}
+.cs-step-num{position:relative;z-index:1;width:52px;height:52px;border-radius:50%;background:#fff;border:1px solid var(--gold);color:var(--gold-dark);font-family:'Poppins',sans-serif;font-size:17px;display:flex;align-items:center;justify-content:center;margin-bottom:24px}
+.cs-step-when{display:block;font-family:'Poppins',sans-serif;font-size:12.5px;font-weight:500;letter-spacing:2px;text-transform:uppercase;color:var(--gold-dark);margin-bottom:8px}
+.cs-step-body h3{font-family:'Poppins',sans-serif!important;font-size:21px!important;font-weight:500;color:var(--ink);margin:0 0 10px;line-height:1.35}
+.cs-step-body p{color:#555;font-size:16px;line-height:1.75;margin:0 0 14px}
+.cs-step-body p.cs-step-get{align-self:start;color:var(--ink);font-size:15px;line-height:1.65;margin:0}
+.cs-step-body p.cs-step-get b{color:var(--gold-dark);font-weight:500}
+.cs-note{max-width:880px;margin:48px auto 0;text-align:center;color:var(--grey-mid);font-size:16px;line-height:1.7}
+.cs-note a{color:var(--gold-dark)}
+@media(max-width:1000px){.cs-steps{grid-template-columns:1fr 1fr;gap:44px 40px}.cs-steps::before{display:none}}
+@media(max-width:1000px){.cs-step{display:block;grid-row:auto}.cs-step-body{display:block}}
+@media(max-width:640px){.cs-steps-sec{padding:60px 0}.cs-steps{grid-template-columns:1fr;gap:0}.cs-step{display:grid;grid-template-columns:52px 1fr;gap:0 20px;padding-bottom:32px}.cs-step-body{display:block}.cs-step:not(:last-child)::after{content:'';position:absolute;left:26px;top:52px;bottom:0;width:1px;background:#e2d6bd}.cs-step-num{margin-bottom:0}}
+
+.cs-steps--3{grid-template-columns:repeat(3,1fr);max-width:1100px}
+.cs-steps--3::before{right:calc((100% - 80px)/3 - 26px)}
+.cs-step-get a{color:var(--gold-dark);font-weight:500;text-decoration:none}
+.cs-step-get a:hover{color:var(--ink)}
+@media(max-width:1000px){.cs-steps--3{grid-template-columns:1fr 1fr}}
+@media(max-width:640px){.cs-steps--3{grid-template-columns:1fr}}
+
+/* Clean landing hero: centred, one message, two actions (matches the home hero) */
+.lp-hero{position:relative;min-height:560px;display:flex;align-items:center;background-size:cover;background-position:center;text-align:center;padding:150px 0 90px;color:#fff}
+.lp-hero::before{content:'';position:absolute;inset:0;background:linear-gradient(180deg,rgba(20,23,34,.72),rgba(20,23,34,.66))}
+.lp-hero h1,.lp-hero .lead{text-shadow:0 2px 14px rgba(0,0,0,.35)}
+.lp-hero .container{position:relative;max-width:860px}
+.lp-hero h1{text-wrap:balance;font-family:'Playfair Display',serif;font-weight:500;font-size:clamp(34px,4.2vw,50px);line-height:1.15;color:#fff;margin:0 0 18px}
+.lp-hero h1 em{color:var(--gold-light);font-style:normal}
+body .lp-hero h1 .h1-kicker{color:var(--gold-light)}
+.lp-hero .lead{text-wrap:balance;font-size:17px;line-height:1.75;color:rgba(255,255,255,.88);max-width:620px;margin:0 auto 30px}
+.lp-hero-actions{display:flex;gap:28px;justify-content:center;align-items:center;flex-wrap:wrap}
+.lp-btn{display:inline-block;background:var(--navy,#1b2a4a);color:#fff!important;text-decoration:none!important;font-family:'Poppins',sans-serif;font-size:16px;font-weight:500;letter-spacing:1.5px;text-transform:uppercase;padding:17px 36px;border-radius:2px}
+.lp-btn:hover{background:var(--gold);color:var(--ink)!important}
+.lp-link{display:inline-flex;align-items:center;gap:10px;color:#fff!important;text-decoration:none!important;font-family:'Poppins',sans-serif;font-size:16px}
+.lp-link:hover{color:var(--gold-light)!important}
+@media(max-width:640px){.lp-hero{min-height:480px;padding:120px 0 64px}.lp-hero .lead{text-wrap:balance;font-size:16px}}
+
+/* ===== .lp: shared landing-page layout, matched to the home page type scale =====
+   Home: eyebrow 13.5px/3px, H2 34px Playfair, body 16px/1.8, card titles Poppins 500,
+   sections ~56px top / 80px bottom. Add "lp" to a page's bodyClass to use it. */
+.lp .gd-eyebrow{font-size:13.5px;letter-spacing:3px}
+.lp .gd-head{margin-bottom:44px}
+.lp .gd-head p,.lp .rx-sub,.lp .cs-note{font-size:16px;line-height:1.8}
+.lp .gd-sec,.lp .cs-steps-sec{padding:64px 0 80px}
+.lp .sa-block+script+.gd-sec{padding-top:56px}
+.lp .rx-points li h3{font-family:'Poppins',sans-serif!important;font-size:19px!important;font-weight:500}
+.lp .rx-band{padding:88px 0}
+.lp .pkg-faq-band{padding:64px 0 80px}
+.lp .pkg-faq-band h2,.lp .pkg-close-cta h2{font-size:34px;line-height:1.25;font-weight:500}
+.lp .pkg-faq summary{font-size:17px}
+.lp .pkg-faq p{font-size:16px;line-height:1.8}
+.lp .pkg-close-cta{padding:64px 0 80px;background:var(--bg-cream,#faf7f2)}
+.lp .pkg-close-cta p{font-size:16px;line-height:1.8;max-width:760px;margin-left:auto;margin-right:auto}
+.lp .pkg-close-cta .btn-row a{font-size:16px;letter-spacing:1px;padding:16px 34px}
+@media(max-width:640px){.lp .gd-sec,.lp .cs-steps-sec,.lp .pkg-faq-band,.lp .pkg-close-cta{padding:48px 0 56px}.lp .pkg-faq-band h2,.lp .pkg-close-cta h2{font-size:28px}}

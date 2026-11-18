@@ -27,7 +27,7 @@ featuredImage: "https://images.pexels.com/photos/7231071/pexels-photo-7231071.jp
 featuredImageAlt: "An older couple enjoying coffee and reading in a sunlit room."
 ---
 
-**Short answer:** a premium or concierge move for an older person in the UK covers far more than packing and a van. It adds coordination of the sale and purchase, viewings, staging, storage, unpacking and, at the top end, help settling into a new area. It suits larger, more complex moves. For a simple move, a standard package is usually enough.
+**Short answer:** a premium or concierge move for an older person in the UK (what American sites call luxury senior relocation) covers far more than packing and a van. It adds coordination of the sale and purchase, viewings, staging, storage, unpacking and, at the top end, help settling into a new area. It suits larger, more complex moves. For a simple move, a standard package is usually enough.
 
 ## What makes a move premium
 

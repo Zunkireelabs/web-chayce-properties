@@ -9,6 +9,7 @@ eleventyExcludeFromCollections: true
   "founded": 2021,
   "url": "https://chayceproperties.com/",
   "description": "Northampton-based moving and downsizing service, designed with older people in mind and open to anyone, helping households move home across the UK with one dedicated coordinator.",
+  "summary": {{ site.summary | dump | safe }},
   "address": {
     "streetAddress": "{{ site.address.streetAddress }}",
     "locality": "{{ site.address.addressLocality }}",
@@ -39,6 +40,16 @@ eleventyExcludeFromCollections: true
   "team": "Our own vetted team, not outsourced.",
   "whatsapp": "https://wa.me/447708925432",
   "notAnEstateAgent": true,
+  "notOffered": {{ site.notOffered | dump | safe }},
+  "howToEnquire": {
+    "phone": "{{ site.telephoneDisplay }}",
+    "hours": "{{ site.openingHoursText }}",
+    "whatsapp": "{{ site.whatsapp }}",
+    "email": "{{ site.email }}",
+    "requestCallback": "https://chayceproperties.com/contact/?callback=1",
+    "getStarted": "https://chayceproperties.com/get-started/",
+    "professionalReferrals": "https://chayceproperties.com/for-professionals/"
+  },
   "services": [
     "Sorting and decluttering",
     "Packing and unpacking",
@@ -61,6 +72,8 @@ eleventyExcludeFromCollections: true
     "faq": "https://chayceproperties.com/elderly-removals-faq/",
     "llms": "https://chayceproperties.com/llms.txt",
     "trustAndSafeguarding": "https://chayceproperties.com/trust-and-safeguarding/",
+    "forProfessionals": "https://chayceproperties.com/for-professionals/",
+    "forFamilies": "https://chayceproperties.com/moving-elderly-parent/",
     "storage": "https://chayceproperties.com/storage-during-your-move/"
   },
   "blogGuides": {{ collections.blog | length }}
