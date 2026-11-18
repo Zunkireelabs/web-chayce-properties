@@ -49,7 +49,7 @@
     { "@type": "City", "name": "{{ area.name }}", "sameAs": "{{ area.wikipedia }}" },{% endfor %}
     { "@type": "Country", "name": "United Kingdom" }
   ],
-  "knowsAbout": ["House removals", "Removals for older people", "Elderly removals", "Downsizing help for older people", "Moving an elderly parent", "Later-life moving", "Retirement village moves", "Packing service", "Estate agent liaison", "Property staging", "Storage between house moves"],
+  "knowsAbout": ["House removals", "Removals for older people", "Elderly removals", "Downsizing help for older people", "Moving an elderly parent", "Later-life moving", "Retirement village moves", "Packing service", "Estate agent liaison", "Property staging", "Storage between house moves", "Care home moves", "Later-life move management", "Decluttering"],
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
     "name": "Relocation packages",
@@ -57,7 +57,7 @@
       { "@type": "Offer", "priceCurrency": "GBP", "priceSpecification": { "@type": "PriceSpecification", "priceCurrency": "GBP", "minPrice": "{{ p.price }}" }, "itemOffered": { "@type": "Service", "name": "{{ p.name }}", "url": "{{ site.url }}{{ p.url }}/" } }{% if not loop.last %},{% endif %}{% endfor %}
     ]
   },
-  "description": "Full-service relocation partner across the UK, based in Northampton — packing, removals, legal coordination, storage and post-move settling-in support, designed with older clients in mind but open to anyone planning a fully-managed move."
+  "description": {{ site.summary | dump | safe }}
 }
 </script>
 <script type="application/ld+json">

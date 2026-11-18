@@ -1,8 +1,8 @@
 ---
-title: "Change of Address Checklist UK: Who to Tell When Moving"
-description: "A practical UK change of address checklist: who to tell when you move house, from DVLA, HMRC and banks to utilities, the GP and family."
+title: "Who to Tell When You Move House: UK Change of Address List"
+description: "Who to tell when you move house in the UK: DVLA, HMRC, banks, utilities, the GP and family, in the order to do it, plus tips for helping a parent."
 date: "2026-10-04"
-dateModified: "2026-11-04"
+dateModified: "2026-11-18"
 featuredImage: "https://images.pexels.com/photos/4554242/pexels-photo-4554242.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 featuredImageAlt: "Neatly stacked and labelled cardboard boxes ready for moving day."
 featuredImageCredit: "Photo via Pexels"
@@ -27,6 +27,8 @@ faq:
     a: "Start with a list of everything that is sent to their current address, including bank statements, pension letters, medical appointments and prescriptions. If you manage any of their affairs, check what authority you hold, such as a power of attorney, before contacting organisations on their behalf. Many will want to speak to your parent, or see proof of authority."
   - q: "Is Royal Mail redirection enough on its own?"
     a: "No. Redirection is a useful safety net for post that still arrives at your old address, but it is not a substitute for telling banks, pension providers, the GP and others directly. Updating each organisation directly means they hold your new address, and you are not relying on a redirection alone."
+  - q: "Who do I need to inform when I move house?"
+    a: "Tell the organisations that write to you: your bank, insurers, employer, GP, utility and broadband providers and your council. Update DVLA, HMRC and the electoral register, and set up Royal Mail redirection as a safety net while everyone catches up. This checklist puts them in order."
 ---
 
 **Short answer:** Before you move house in the UK, make a list of every organisation that writes to you, then work through it in three stages: tell the ones that matter most (DVLA, HMRC, banks, pension providers, insurers, your GP) before or on moving day, sort utilities and post on the day itself, and catch the rest in the first few weeks as letters turn up at the old address. The checklist below groups them so nothing is left until it causes a problem.
@@ -89,6 +91,8 @@ A move later in life often means more organisations, and sometimes more people i
 - **Hospital appointments.** Make a list of upcoming appointments and tell each clinic about the move. If the new home is a long way from the hospital, ask whether appointments can be moved.
 - **Scam awareness.** Moves can prompt unexpected letters, calls and emails claiming to be from "official" bodies asking for details. If in doubt, contact the organisation using a number from your own paperwork, not one in the message.
 - **Share the list.** One written list, kept by the person moving and one trusted relative, with each item ticked as it is done, avoids duplication and gaps.
+
+Moving within Northamptonshire? See [which council to tell, Council Tax and local services](/blog/moving-in-northamptonshire-councils-council-tax/).
 
 ## A Note on This Guide
 

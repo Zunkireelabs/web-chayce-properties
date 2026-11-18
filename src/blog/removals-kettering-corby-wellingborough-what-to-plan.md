@@ -20,15 +20,15 @@ sources:
 faq:
   - q: "Do you offer removals in Kettering, Corby and Wellingborough?"
     a: "Yes. Chayce Properties is based in Northampton and arranges house removals in all three towns, with packing, a fully insured removal and one coordinator."
-  - q: "How far are these towns from Northampton?"
-    a: "Wellingborough is around 11 miles east, Kettering around 16 miles north-east and Corby around 22 miles north-east."
+  - q: "Which direction are these towns from your Northampton base?"
+    a: "Wellingborough is east of our Northampton base, and Kettering and Corby are north-east. We arrange moves in all three, and across the whole UK."
   - q: "What should I check before a removal in an older Northamptonshire home?"
     a: "Stairs, narrow doorways and parking. These affect how a removal is planned, so check them early."
   - q: "Do you help people moving out of these towns to elsewhere in the UK?"
     a: "Yes. We arrange moves from all three towns to anywhere in the UK, from £995."
 ---
 
-**Short answer:** Kettering, Corby and Wellingborough are all within about 22 miles of Chayce's Northampton base, and each has its own planning points: access in older streets, decades of belongings to sort, and timing around a sale. Plan for those first.
+**Short answer:** Kettering, Corby and Wellingborough are all close to Chayce's Northampton base, and each has its own planning points: access in older streets, decades of belongings to sort, and timing around a sale. Plan for those first.
 
 ## Kettering
 

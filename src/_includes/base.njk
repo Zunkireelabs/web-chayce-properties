@@ -79,10 +79,15 @@ if (/^(www\.)?chayceproperties\.com$/.test(location.hostname)) {
 </div>
 <script>
 document.addEventListener('click', function (e) {
-  var a = e.target.closest && e.target.closest('a[href^="tel:"],a[href*="wa.me/"],a[href="/get-started/"]');
+  var a = e.target.closest && e.target.closest('a[href^="tel:"],a[href*="wa.me/"],a[href^="/get-started/"],a[href^="mailto:"],a[href^="/contact/"]');
   if (!a || typeof gtag !== 'function') return;
   var h = a.getAttribute('href');
-  var method = h.indexOf('tel:') === 0 ? 'call' : (h.indexOf('wa.me') > -1 ? 'whatsapp' : 'get_started');
+  var method = h.indexOf('tel:') === 0 ? 'call'
+    : h.indexOf('wa.me') > -1 ? 'whatsapp'
+    : h.indexOf('mailto:') === 0 ? 'email'
+    : h.indexOf('/contact/?callback=1') === 0 ? 'callback'
+    : h.indexOf('/contact/') === 0 ? 'contact_page'
+    : 'get_started';
   gtag('event', 'contact_click', { method: method, page_path: location.pathname });
 });
 </script>

@@ -38,6 +38,8 @@ When a move in the UK depends on selling first, the actual moving date is often 
 - **Under offer to exchange** — the stage most likely to see delays, particularly where a chain is involved.
 - **Exchange to completion** — usually the most predictable part of the process, once everything above it is settled.
 
+Preparing the home to sell? See [home staging before you sell](/home-staging-before-you-sell/).
+
 ## Where Chains Add Uncertainty
 
 A chain means your sale depends on someone else's purchase, which depends on someone else's sale — and any one link slowing down affects everyone behind it. This is one of the main reasons moves that involve both a sale and a purchase benefit from broader coordination, not just a removal booking.

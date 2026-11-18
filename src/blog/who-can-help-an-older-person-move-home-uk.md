@@ -2,7 +2,7 @@
 title: "Who Can Help an Older Person Move Home in the UK?"
 description: "Family, councils, charities, directories and later-life move specialists: who can help an older person move home in the UK, and what to ask each one."
 date: "2026-10-12"
-dateModified: "2026-11-04"
+dateModified: "2026-11-18"
 featuredImageCredit: "Photo via Pexels"
 about:
   - name: "Elderly care"
@@ -16,11 +16,11 @@ sources:
     url: "https://www.independentage.org/"
   - name: "housingcare.org (Elderly Accommodation Counsel)"
     url: "https://housingcare.org/"
-  - name: "Elderly Accommodation Counsel: housingcare.org"
-    url: "https://www.housingcare.org/"
 faq:
   - q: "Are there organisations that help older people move home in the UK?"
     a: "Yes. Your local council can advise on housing and adult social care, charities such as Age UK and Independent Age give information and advice, and directories such as housingcare.org list retirement housing and moving-home services."
+  - q: "Can someone refer me to a later-life move specialist?"
+    a: "Yes. Your local Age UK, the council's adult social care team, care home and retirement village managers, and the solicitor handling a sale or an estate often know local providers, and housingcare.org lists moving services. Ask how they know the provider and still make your own checks."
   - q: "What does a later-life move specialist do?"
     a: "A later-life move specialist, sometimes called a move manager or downsizing specialist, plans and coordinates the whole move: sorting, packing, the removal and settling in at the new home, usually with one named coordinator."
   - q: "What is the best relocation service for elderly people in the UK?"
@@ -57,6 +57,8 @@ Our guide to [moving into retirement housing](/blog/moving-into-a-retirement-vil
 
 A move usually involves a sale, a purchase or a tenancy, so you will probably need a solicitor or conveyancer and, if selling, an estate agent. If you are thinking about releasing money from your home, take regulated advice first. Our guide to [downsizing or equity release](/blog/downsizing-and-equity-release-what-to-know/) sets out the questions to ask.
 
+Moving a parent into your own home? See our [UK checklist](/blog/moving-an-elderly-parent-into-your-home-uk/).
+
 ## Later-life move specialists
 
 Some businesses specialise in moving older people and take on the practical side. You may see them called a move manager, a downsizing specialist or a later-life relocation service, or find the service described as moving home support. They usually offer:
@@ -67,7 +69,9 @@ Some businesses specialise in moving older people and take on the practical side
 - Unpacking and setting up the new home.
 - A single named coordinator, so you are not managing several companies.
 
-This is different from a general removals company, which moves your belongings, and from a house clearance firm, which empties a property. Our page on [what an elderly move manager does](/elderly-move-manager-uk/) explains the difference in more detail.
+This is different from a general removals company, which moves your belongings, and from a house clearance firm, which empties a property. You may also see the American terms senior relocation service or senior move manager; in the UK they describe the same kind of help.
+
+For a recommendation, ask your local Age UK, the council's adult social care team, the manager of the care home or retirement village you are moving to, or the solicitor handling the sale. They often know which local providers families have been happy with. Our page on [what an elderly move manager does](/elderly-move-manager-uk/) explains the difference in more detail.
 
 ## Questions to ask any provider
 
@@ -80,4 +84,4 @@ This is different from a general removals company, which moves your belongings, 
 
 ## Where Chayce fits
 
-Chayce Properties is a Northampton-based later-life moving service. We provide one dedicated coordinator for sorting, packing, a fully insured removal and settling in, across the UK. We do not give legal, financial or care advice, and we are not a house clearance firm. A [Discovery Consultation](/discovery/), £150, gives you a plan, timeline and budget, and our [packages](/packages/) start at £995. To talk it over, [get in touch](/contact/).
+Chayce Properties is a Northampton-based later-life moving service. We provide one dedicated coordinator for sorting, packing, a fully insured removal and settling in, across the UK. We do not give legal, financial or care advice, and we are not a house clearance firm. A [Discovery Consultation](/discovery/), £150, gives you a plan, timeline and budget, and our [packages](/packages/) start at £995. Care homes, retirement villages, solicitors, estate agents and social workers can [refer a client to us](/for-professionals/). To talk it over, [get in touch](/contact/).

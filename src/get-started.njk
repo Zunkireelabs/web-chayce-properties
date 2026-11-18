@@ -1,5 +1,5 @@
 ---
-modified: "2026-10-04"
+modified: "2026-11-17"
 title: "Get an Elderly Removals & Downsizing Plan | Chayce"
 description: "Start a no-pressure conversation about moving or downsizing. Tell us your situation and we'll suggest the right package. Northampton and UK-wide."
 bodyClass: "page-template page-loaded"
@@ -12,7 +12,7 @@ headExtra: |
   .navbar .container .upper-side .logo{margin-left:80px!important}
   @media(max-width:767px){.navbar .container .upper-side .logo{margin-left:0!important}}
   /* ===== Get Started — guided consultation, not a form. Hero matches homepage home-hero language ===== */
-  .gs-hero{position:relative;min-height:520px;display:flex;align-items:center;background:var(--ink) url(/images/chayce-welcome-hero.jpg) center/cover no-repeat;overflow:hidden}
+  .gs-hero{position:relative;min-height:520px;display:flex;align-items:center;background:var(--ink) url(/images/chayce-cottage.jpg) center/cover no-repeat;overflow:hidden}
   .gs-hero::before{content:'';position:absolute;inset:0;background:linear-gradient(100deg,rgba(18,20,26,.82) 0%,rgba(18,20,26,.56) 48%,rgba(18,20,26,.24) 100%)}
   .gs-hero .container{position:relative;z-index:2;padding-top:170px;padding-bottom:50px}
   .gs-hero .breadcrumb{display:block;color:var(--gold-light);font-family:'Poppins',sans-serif;font-size:15px;letter-spacing:3px;text-transform:uppercase;font-weight:500;margin-bottom:20px}
@@ -416,11 +416,22 @@ footScripts: |
     return { first_name: parts[0] || '', last_name: parts.length > 1 ? parts.slice(1).join(' ') : '' };
   }
 
+  if (new URLSearchParams(window.location.search).get('callback') === '1') { var cb = document.getElementById('gs-callback'); if (cb) cb.checked = true; }
+  document.getElementById('gs-phone').addEventListener('input', function(){ this.setCustomValidity(''); });
   document.getElementById('gsForm').addEventListener('submit', function(e){
     e.preventDefault();
     var form = this;
     var name = splitName(document.getElementById('gs-name').value);
     var info = document.getElementById('gs-info').value.trim();
+    var heard = document.getElementById('gs-heard').value;
+    var callback = document.getElementById('gs-callback').checked;
+    var phoneEl = document.getElementById('gs-phone');
+    if (callback && !phoneEl.value.trim()) {
+      phoneEl.setCustomValidity('Please add a phone number so we can call you back.');
+      phoneEl.reportValidity();
+      return;
+    }
+    phoneEl.setCustomValidity('');
 
     var body = {
       first_name: name.first_name,
@@ -435,6 +446,8 @@ footScripts: |
       idempotency_key: (window.crypto && crypto.randomUUID) ? crypto.randomUUID() : (Date.now() + '-' + Math.random().toString(36).slice(2))
     };
     if (info) body.custom_fields.additional_information = info;
+    if (heard) body.custom_fields.heard_about_us = heard;
+    if (callback) body.custom_fields.callback_requested = 'yes';
 
     var submitBtn = form.querySelector('[type="submit"]');
     var originalLabel = submitBtn ? submitBtn.textContent : '';
@@ -446,7 +459,8 @@ footScripts: |
       body: JSON.stringify(body)
     }).then(function(res){
       if (!res.ok) throw new Error('submit failed: ' + res.status);
-      if (typeof gtag === 'function') gtag('event', 'generate_lead', { form: 'get_started', recommendation: state.recommendation ? state.recommendation.key : '' });
+      if (typeof gtag === 'function') gtag('event', 'generate_lead', { form: 'get_started', recommendation: state.recommendation ? state.recommendation.key : '', heard_about_us: heard || '', callback_requested: callback ? 'yes' : 'no' });
+      if (callback) { var dp = document.getElementById('gsDoneText'); if (dp) dp.innerHTML = dp.getAttribute('data-callback'); }
       go('done');
     }).catch(function(){
       if (submitBtn) { submitBtn.disabled = false; submitBtn.textContent = originalLabel; }
@@ -482,7 +496,7 @@ footScripts: |
   })();
   </script>
 ---
-<style>.gs-hero{background-image:url({% imageUrl "chayce-welcome-hero.jpg" %});{% imageSet "chayce-welcome-hero.jpg" %}}</style>
+<style>.gs-hero{background-image:url({% imageUrl "chayce-cottage.jpg" %});{% imageSet "chayce-cottage.jpg" %}}</style>
 <header class="gs-hero">
   <div class="container">
     <span class="breadcrumb"><a href="/">Home</a> / Get Started</span>
@@ -553,6 +567,18 @@ footScripts: |
       <div class="form-group"><label for="gs-email">Email</label><input id="gs-email" type="email" placeholder="you@email.com" required></div>
       <div class="form-group"><label for="gs-phone">Phone</label><input id="gs-phone" type="tel" placeholder="07700 900000"></div>
       <div class="form-group"><label for="gs-info">Additional information</label><textarea id="gs-info" placeholder="Anything else it would help Chayce to know?"></textarea></div>
+      <div class="form-group"><label for="gs-heard">How did you hear about us? (optional)</label><select id="gs-heard">
+          <option value="">Prefer not to say</option>
+          <option value="google_search">Google search</option>
+          <option value="google_maps">Google Maps</option>
+          <option value="ai_assistant">An AI assistant (such as ChatGPT)</option>
+          <option value="care_home_or_retirement_village">A care home or retirement village</option>
+          <option value="solicitor_or_estate_agent">A solicitor or estate agent</option>
+          <option value="friend_or_family">A friend or family member</option>
+          <option value="facebook">Facebook</option>
+          <option value="other">Somewhere else</option>
+        </select></div>
+      <div class="form-check"><input id="gs-callback" type="checkbox"><label for="gs-callback">Please call me back. We call during office hours ({{ site.openingHoursText }}).</label></div>
       <input type="hidden" id="gs-situation-field" name="situation">
       <input type="hidden" id="gs-services-field" name="services">
       <input type="hidden" id="gs-package-field" name="package_suggestion">
@@ -567,7 +593,7 @@ footScripts: |
   <section class="gs-step gs-done" data-step="done" hidden>
     <div class="icon"><i class="fas fa-check"></i></div>
     <h2>Thank you &mdash; we&rsquo;ve got it.</h2>
-    <p>Someone from the Chayce team will be in touch shortly to talk through your situation and the support that&rsquo;s right for you. If it&rsquo;s easier to talk sooner, call us on <a href="tel:07708925432" style="color:var(--gold);font-weight:500;text-decoration:none">07708&nbsp;925&nbsp;432</a>.</p>
+    <p id="gsDoneText" data-callback="We&rsquo;ll call you back during office hours ({{ site.openingHoursText }}) to talk through your situation. If it&rsquo;s easier to talk sooner, call us on &lt;a href=&quot;tel:07708925432&quot; style=&quot;color:var(--gold);font-weight:500;text-decoration:none&quot;&gt;07708&amp;nbsp;925&amp;nbsp;432&lt;/a&gt;.">Someone from the Chayce team will be in touch shortly to talk through your situation and the support that&rsquo;s right for you. If it&rsquo;s easier to talk sooner, call us on <a href="tel:07708925432" style="color:var(--gold);font-weight:500;text-decoration:none">07708&nbsp;925&nbsp;432</a>.</p>
   </section>
 </div>
 
