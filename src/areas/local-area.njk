@@ -5,96 +5,107 @@ pagination:
   alias: area
   addAllPagesToCollections: true
 permalink: "/elderly-removals-{{ area.slug }}/"
-modified: "2026-11-04"
+modified: "2026-11-17"
+bodyClass: "page-template page-loaded svc-topic v2"
+activeKey: "areas"
+headExtra: |
+  <link rel="stylesheet" href="/css/chayce-nav.css?v={{ build.version }}">
 eleventyComputed:
-  title: "Elderly & House Removals in {{ area.name }} | Chayce"
-  description: "Elderly and house removals in {{ area.name }}, {{ area.county }}: packing, downsizing help and insured removals from £995, with one coordinator. {{ site.telephoneDisplay }}"
+  title: "House Removals {{ area.name }}: Elderly Moves | Chayce"
+  description: "House and elderly removals in {{ area.name }}, {{ area.county }}: packing, downsizing help and insured removals from £995, with one coordinator."
 ---
-<div class="pg-hero" style="background-image:url({% imageUrl area.heroImage %});{% imageSet area.heroImage %}">
-  <div class="container">
-    <p class="breadcrumb"><a href="/">Home</a> / <a href="/areas-we-cover/">Areas We Cover</a> / <em>{{ area.name }}</em></p>
-    <h1>Elderly &amp; House Removals in <em>{{ area.name }}</em>: Packing, Downsizing &amp; Full-Service Moves</h1>
-    <p class="lead">Moving support for {{ area.name }} and {{ area.county }}, with extra care for older people, from our Northampton base</p>
-    <div class="pg-chips">
-      <span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.2-7-11a7 7 0 0114 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>{{ area.distance }} from our office</span>
-      <span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l7 3v5c0 4.5-3 8-7 10-4-2-7-5.5-7-10V6l7-3z"/><path d="M9 12l2 2 4-4"/></svg>DBS-checked staff</span>
-      <span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 8l9-5 9 5v8l-9 5-9-5V8z"/><path d="M3 8l9 5 9-5M12 13v8"/></svg>Fully insured removals</span>
-    </div>
+<header class="v2-hero" style="background-image:url({% imageUrl area.heroImage %});{% imageSet area.heroImage %}">
+  <div class="v2-wrap">
+    <h1><span class="h1-kicker">House Removals {{ area.name }}<span class="v2-kick-more"> &middot; {{ area.county }}</span></span>Elderly &amp; House Removals in <em>{{ area.name }}</em></h1>
+    <p class="v2-lead">Packing, downsizing help and fully insured removals for {{ area.name }}, coordinated from our Northampton office.</p>
+    <div class="v2-actions"><a class="v2-btn primary" href="/get-started/">Get Started</a><a class="v2-tel" href="tel:{{ site.telephone }}"><i class="fas fa-phone" aria-hidden="true"></i>{{ site.telephoneDisplay }}</a></div>
   </div>
-</div>
+</header>
 
-{% set fac = [["County", area.county],["Council", area.council],["Postcodes", area.postcodes],["From our office", area.distance + " " + area.direction + ", via " + area.road],["Hospital", area.hospital],["Getting around", area.rail]] %}
-<section class="sa-block" style="padding:48px 0 12px;background:#fff">
-  <div class="container">
-    <div class="stage-practice" style="max-width:820px;margin:0 auto"><p><strong>Short answer</strong>Chayce Properties arranges downsizing help, careful packing, fully insured removals and settling-in support in {{ area.name }}, {{ area.county }}, designed for older people and open to anyone, with one dedicated coordinator. We are based in Northampton, and {{ area.name }} is {{ area.distance }} {{ area.direction }} of our office. Packages start from &pound;{{ (site.packages | findByKey("bronze")).price | gbp }}.</p></div>
-  </div>
-</section>
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","url":"{{ site.url }}{{ page.url }}","inLanguage":"en-GB","dateModified":"{{ modified }}","author":{"@id":"{{ site.url }}/#organization"},"speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".sa-block .stage-practice p"]}}</script>
+<div class="v2-trust"><div class="v2-wrap">
+  <span class="v2-pill"><i class="fas fa-user-shield" aria-hidden="true"></i>DBS-Checked Team</span>
+  <span class="v2-pill"><i class="fas fa-shield-alt" aria-hidden="true"></i>Fully Insured</span>
+  <span class="v2-pill"><i class="fas fa-user-check" aria-hidden="true"></i>One Coordinator</span>
+  <span class="v2-pill"><i class="fas fa-landmark" aria-hidden="true"></i>Since 2021</span>
+</div></div>
 
-<section class="gd-sec">
-  <div class="container">
-    <div class="rx-lead">
-      <div class="rx-photo">{% image area.image, "Homes and interiors in and around " + area.name %}<div class="rx-tag">from our office<strong>{{ area.distance | replace("around ", "") }}</strong>{{ area.direction }}</div></div>
-      <div class="rx-copy">
-        <span class="gd-eyebrow" style="text-align:left">{{ area.name }} &middot; {{ area.county }}</span>
-        <h2>Need downsizing help and elderly removals <em>in {{ area.name }}?</em></h2>
-        <p class="rx-sub">{{ area.context }}</p>
-        <dl class="gd-facts">
-          {% for row in fac %}<div><dt>{{ row[0] }}</dt><dd>{{ row[1] }}</dd></div>
-          {% endfor %}
-        </dl>
+<section class="v2-sec grey">
+  <div class="v2-wrap">
+    <div class="v2-intro">
+      <div><span class="v2-eyebrow">{{ area.name }} &middot; {{ area.county }}</span><h2 class="v2-h2">House removals and downsizing help in <em>{{ area.name }}</em></h2></div>
+      <div class="sa-answer">
+        <p><strong>Chayce Properties arranges downsizing help, careful packing, fully insured removals and settling-in support in {{ area.name }}, {{ area.county }}, designed for older people and open to anyone, with one dedicated coordinator.</strong> We are based in Northampton, and {{ area.name }} lies {{ area.direction }} of our office.</p>
+        <p>{{ area.context }}</p>
       </div>
     </div>
   </div>
 </section>
 
-<section class="rx-band" style="background-image:url({% imageUrl area.heroImage %});{% imageSet area.heroImage %}">
-  <div class="container"><span class="gd-eyebrow">One coordinator</span><h2>Your move in {{ area.name }}, <em font-style:italic;color:var(--gold-light)>looked after from start to finish.</em></h2><p>We help older people and their families with downsizing, packing, removals and settling in when leaving a long-held home, whether that is a move within {{ area.name }} or to another part of the UK. One dedicated coordinator looks after the whole journey, so you are not juggling several separate companies.</p></div>
+<section class="v2-sec">
+  <div class="v2-wrap">
+    <div class="v2-head"><span class="v2-eyebrow">Local facts</span><h2 class="v2-h2">Moving home in <em>{{ area.name }}</em></h2><p class="v2-lede">One coordinator looks after the whole move, so you are not juggling several separate companies.</p></div>
+    <div class="v2-incl">
+      <div>
+        <dl class="v2-facts">
+          <div><dt>County</dt><dd>{{ area.county }}</dd></div>
+          <div><dt>Council</dt><dd>{{ area.council }}</dd></div>
+          <div><dt>Postcodes</dt><dd>{{ area.postcodes }}</dd></div>
+          <div><dt>From our office</dt><dd>{{ area.direction | capitalize }}, via {{ area.road }}</dd></div>
+          <div><dt>Hospital</dt><dd>{{ area.hospital }}</dd></div>
+          <div><dt>Getting around</dt><dd>{{ area.rail }}</dd></div>
+        </dl>
+      </div>
+      <aside class="v2-price" aria-label="Prices">
+        {% for r in [["bronze","from","Packing, insured removal, furniture reassembly and light cleaning."],["silver","from","Adds declutter help, a deep clean and unpacking, with a coordinator."],["discovery","one-off","Not sure yet? A one-hour plan, timeline and budget."]] %}{% set pk = site.packages | findByKey(r[0]) %}<div class="pr"><span class="amt"><small>{{ r[1] }}</small>&pound;{{ pk.price | gbp }}</span><span class="nm">{{ pk.name }}</span><p>{{ r[2] }}</p></div>
+        {% endfor %}
+        <a class="v2-btn primary" href="/packages/">Compare packages</a>
+        <p class="fine">Final price confirmed in writing before you book.</p>
+      </aside>
+    </div>
+  </div>
 </section>
 
-<section class="gd-sec">
-  <div class="container">
-    <div class="gd-head"><span class="gd-eyebrow">Planning your move</span><h2>How do you plan elderly removals <em>in {{ area.name }}?</em></h2></div>
-    <ol class="rx-tips lh-plan">
-      {% for item in area.planFor %}<li><span class="rx-tn">0{{ loop.index }}</span><p>{{ item }}</p></li>
+<section class="v2-sec grey">
+  <div class="v2-wrap">
+    <div class="v2-head c"><span class="v2-eyebrow">Planning your move</span><h2 class="v2-h2">What to plan for <em>in {{ area.name }}</em></h2></div>
+    <ol class="v2-steps{% if area.planFor.length == 3 %} v2-steps--3{% endif %}">
+      {% for item in area.planFor %}<li><span class="n">0{{ loop.index }}</span><p>{{ item }}</p></li>
       {% endfor %}
     </ol>
-    <p class="rx-cap lh-plan-note">A move in {{ area.name }} falls under {{ area.council }}. You can find your local council, and its adult social care services, on <a href="https://www.gov.uk/find-local-council" rel="noopener">GOV.UK</a>.</p>
-    {% if not area.localFaqs %}
-    <p class="rx-cap" style="text-align:center;max-width:820px;margin-top:10px">Where to start: <a href="/downsizing-help-for-elderly/">downsizing help for older people</a>, <a href="/storage-during-your-move/">storage between house moves</a>, <a href="/moving-elderly-parent/">moving an elderly parent</a>, <a href="/care-home-removals/">care home removals</a>, <a href="/house-clearance-for-the-elderly/">help clearing a family home</a>, <a href="/elderly-move-manager-uk/">what an elderly move manager does</a> and our <a href="/services/">services</a>. See also <a href="/elderly-removals-northampton/">elderly removals in Northampton</a> and <a href="/areas-we-cover/">all the areas we cover</a>.</p>
-    {% endif %}
+    <p class="v2-steps-note">A move in {{ area.name }} falls under {{ area.council }}. Find your council&rsquo;s adult social care services on <a href="https://www.gov.uk/find-local-council" rel="noopener">GOV.UK</a>.</p>
   </div>
 </section>
 
 {% if area.moves %}
-<section class="lh-band">
-  <div class="container">
-    <div class="gd-head"><span class="gd-eyebrow">Client story &middot; {{ area.name }}</span><h2>A real move <em>in {{ area.name }}</em></h2></div>
-    <div class="lh-stories">
-      <article class="lh-story"><span class="lh-tag">{{ area.moves.package }}</span><h3>{{ area.moves.title }}</h3><p>{{ area.moves.text }}</p><a class="lh-more" href="/case-studies/#{{ area.moves.anchor }}">Read the full client story &rarr;</a></article>
-    </div>
-    <p class="lh-note">Shared with the client&rsquo;s permission, including naming the town. No names are used on this page.</p>
+<section class="v2-sec">
+  <div class="v2-wrap">
+    <div class="v2-head c"><span class="v2-eyebrow">Client story &middot; {{ area.name }}</span><h2 class="v2-h2">A real move <em>in {{ area.name }}</em></h2></div>
+    <div class="v2-stories"><article class="v2-story"><span class="v2-story-tag">{{ area.moves.package }}</span><h3>{{ area.moves.title }}</h3><p>{{ area.moves.text }}</p><a href="/case-studies/#{{ area.moves.anchor }}">Read the full client story &rarr;</a></article></div>
+    <p class="v2-steps-note">Shared with the client&rsquo;s permission, including naming the town. No names are used on this page.</p>
   </div>
 </section>
 {% endif %}
 
 {% if area.localHelp %}
-<section class="gd-sec lh-help-sec">
-  <div class="container">
-    <div class="gd-head"><span class="gd-eyebrow">Local help and information</span><h2>Where to find <em>support in {{ area.name }}</em></h2></div>
-    <div class="lh-help">
-      {% for item in area.localHelp %}<a class="lh-card" href="{{ item.url }}" rel="noopener"><b>{{ item.label }}</b><span>{{ item.note }}</span></a>
+<section class="v2-sec grey">
+  <div class="v2-wrap v2-local">
+    <div>
+      <span class="v2-eyebrow">Local help</span>
+      <h2 class="v2-h2">Where to find support in <em>{{ area.name }}</em></h2>
+      <p class="v2-lede">Independent organisations, listed for information. Chayce has no commercial link with them and does not give care, financial or legal advice.</p>
+    </div>
+    <div class="v2-links">
+      {% for item in area.localHelp %}<a href="{{ item.url }}" rel="noopener">{{ item.label }}<span>{{ item.note }}</span></a>
       {% endfor %}
     </div>
-    <p class="lh-note">These are independent organisations, listed for information. Chayce has no commercial link with them and does not give care, financial or legal advice. Links checked on 6 November 2026.</p>
   </div>
 </section>
 {% endif %}
 
-<section class="pkg-faq-band lh-faq">
-  <div class="container">
-    <div class="gd-head"><span class="gd-eyebrow">Questions</span><h2>Elderly removals <em>in {{ area.name }}</em></h2></div>
-    <div class="pkg-faq">
+<section class="v2-sec">
+  <div class="v2-wrap">
+    <div class="v2-head c"><span class="v2-eyebrow">Questions</span><h2 class="v2-h2">House removals <em>in {{ area.name }}</em></h2></div>
+    <div class="v2-faq">
       {% if area.localFaqs %}
       {% for f in area.localFaqs %}<details><summary>{{ f.q }}</summary><p>{{ f.a }}{% if f.url %} <a href="{{ f.url }}"{% if f.ext %} rel="noopener"{% endif %}>{{ f.linkText }}</a>.{% endif %}</p></details>
       {% endfor %}
@@ -113,25 +124,49 @@ eleventyComputed:
   </div>
 </section>
 
-<section class="gd-sec">
-  <div class="container">
-    <div class="gd-head"><span class="gd-eyebrow">Our packages</span><h2>Choose the <em>level of help</em> you need</h2></div>
-    <ul class="rx-prices"><li><div class="rx-pn">&pound;{{ (site.packages | findByKey("discovery")).price | gbp }}</div><h3>Discovery Consultation</h3><p>An hour with us, in person in Northampton or by phone, to plan your move, timeline and budget.</p><a href="/discovery/">See Discovery Consultation &rarr;</a></li><li><div class="rx-pn"><small>from</small>&pound;{{ (site.packages | findByKey("bronze")).price | gbp }}</div><h3>Bronze Essentials</h3><p>Packing, removals and light cleaning for a straightforward move.</p><a href="/bronze-essentials/">See Bronze Essentials &rarr;</a></li><li><div class="rx-pn"><small>from</small>&pound;{{ (site.packages | findByKey("silver")).price | gbp }}</div><h3>Silver Comfort</h3><p>A full-service move with a dedicated coordinator, from sorting to unpacking.</p><a href="/silver-comfort/">See Silver Comfort &rarr;</a></li></ul>
-    <p style="text-align:center;margin:44px 0 0"><a class="lh-more" href="/packages/">Compare all packages &rarr;</a></p>
+<section class="v2-sec" style="border-top:1px solid var(--border-light)">
+  <div class="v2-wrap">
+    <div class="v2-head c"><span class="v2-eyebrow">Keep exploring</span><h2 class="v2-h2">Related help and <em>nearby towns</em></h2></div>
+    <div class="v2-related">
+      <div>
+        <h3>Help with your move</h3>
+        <ul class="v2-list">
+          <li><a href="/downsizing-help-for-elderly/">Downsizing help<i>&rarr;</i></a></li>
+          <li><a href="/moving-elderly-parent/">Moving an elderly parent<i>&rarr;</i></a></li>
+          <li><a href="/care-home-removals/">Care home removals<i>&rarr;</i></a></li>
+          <li><a href="/packing-service-uk/">Packing service<i>&rarr;</i></a></li>
+          <li><a href="/storage-during-your-move/">Storage between moves<i>&rarr;</i></a></li>
+          <li><a href="/elderly-move-manager-uk/">What a move manager does<i>&rarr;</i></a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Other towns we help in</h3>
+        <ul class="v2-list">
+          <li><a href="/elderly-removals-northampton/">Northampton<small>our office</small><i>&rarr;</i></a></li>
+          {% set shown = 0 %}{% for other in localAreas %}{% if other.slug != area.slug and loop.index0 < 7 %}<li><a href="/elderly-removals-{{ other.slug }}/">{{ other.name }}<i>&rarr;</i></a></li>{% endif %}
+          {% endfor %}
+        </ul>
+        <a class="v2-all" href="/areas-we-cover/">All areas we cover &rarr;</a>
+      </div>
+    </div>
   </div>
 </section>
 
-<section class="lh-band">
-  <div class="container">
-    <div class="gd-head"><span class="gd-eyebrow">Areas we cover</span><h2>Other towns <em>we help in</em></h2></div>
-    <ul class="tw-list">
-      <li><a href="/elderly-removals-northampton/"><b>Northampton</b><small>Northamptonshire &middot; our office</small><i>&rarr;</i></a></li>
-      {% for other in localAreas %}{% if other.slug != area.slug %}<li><a href="/elderly-removals-{{ other.slug }}/"><b>{{ other.name }}</b><small>{{ other.county }} &middot; {{ other.distance }}</small><i>&rarr;</i></a></li>
-      {% endif %}{% endfor %}
-    </ul>
-    <p style="text-align:center;margin:44px 0 0"><a class="lh-more" href="/areas-we-cover/">All areas we cover &rarr;</a></p>
+<section class="v2-final">
+  <div class="v2-wrap">
+    <div class="panel">
+      <div class="txt">
+        <h2 class="v2-h2">Planning a move in <em>{{ area.name }}?</em></h2>
+        <p>Tell us what is happening and we&rsquo;ll explain the options plainly, with no obligation.</p>
+        <div class="btn-row"><a href="/get-started/" class="v2-btn primary">Get Started</a><a href="/contact/?callback=1" class="v2-btn ghost">Request a Callback</a></div>
+        <span class="tel">Or call <a href="tel:{{ site.telephone }}">{{ site.telephoneDisplay }}</a>, Monday to Friday, {{ site.openingHours.opens }} to {{ site.openingHours.closes }}</span>
+      </div>
+      <div class="img" style="background-image:url({% imageUrl 'chayce-hero2.jpg', 900 %})"></div>
+    </div>
   </div>
 </section>
+
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","url":"{{ site.url }}{{ page.url }}","inLanguage":"en-GB","dateModified":"{{ modified }}","author":{"@id":"{{ site.url }}/#organization"},"speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".sa-answer p"]}}</script>
 <script type="application/ld+json">{"@type":"BreadcrumbList","@context":"https://schema.org","itemListElement":[{"item":"{{ site.url }}/","name":"Home","@type":"ListItem","position":1},{"item":"{{ site.url }}/areas-we-cover/","name":"Areas We Cover","@type":"ListItem","position":2},{"item":"{{ site.url }}/elderly-removals-{{ area.slug }}/","name":"{{ area.name }}","@type":"ListItem","position":3}]}</script>
 <script type="application/ld+json">
 {

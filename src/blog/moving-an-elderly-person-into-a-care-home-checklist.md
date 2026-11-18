@@ -2,7 +2,7 @@
 title: "Moving an Elderly Person Into a Care Home: UK Checklist"
 description: "A practical, non-medical checklist for the logistics of moving an elderly person into a care home in the UK: what to ask, pack, label and arrange."
 date: "2026-10-01"
-dateModified: "2026-11-04"
+dateModified: "2026-11-18"
 featuredImageCredit: "Photo via Pexels"
 about:
   - name: "Care home"
@@ -16,6 +16,10 @@ sources:
     url: "https://www.cqc.org.uk/"
   - name: "GOV.UK: Find your local council"
     url: "https://www.gov.uk/find-local-council"
+  - name: "Age UK: Leaving hospital"
+    url: "https://www.ageuk.org.uk/information-advice/health-wellbeing/health-services/leaving-hospital/"
+  - name: "Age UK: Support moving into a care home"
+    url: "https://www.ageuk.org.uk/information-advice/care/arranging-care/care-homes/moving-into-care-home/"
 faq:
   - q: "What should I pack for a move into a care home?"
     a: "Ask the home what it provides and what you can bring. Usually that means clothing labelled with the person's name, toiletries, favourite photographs and a few familiar items that make the room feel like theirs."
@@ -31,6 +35,10 @@ faq:
     a: "Yes. People do move between care homes. Speak to the new home, the person's family and, where relevant, their social worker or care team, and plan the practical move gently, as change can be unsettling."
   - q: "Can someone go into a care home temporarily?"
     a: "Yes. Some care homes offer short stays, often called respite care. Ask the home or your local council's adult social care team what is available and how it is arranged."
+  - q: "Can someone move into a care home straight from hospital?"
+    a: "It can happen, but hospital staff usually assess needs first. Age UK explains that if there is a possibility of living in a care home permanently, staff should assess needs and consider whether intermediate care or reablement could help first. Rules and costs can differ by area, so ask the hospital team and your council's adult social care team."
+  - q: "Who should I tell when someone moves into a care home?"
+    a: "Tell the organisations that write to them, such as the bank, pension provider, utility companies, the GP and the council. Ask the council or Age UK whether benefits or Council Tax are affected by the move. Our change of address checklist lists who to tell."
 featuredImage: "https://images.pexels.com/photos/18509794/pexels-photo-18509794.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 featuredImageAlt: "An older woman sitting in an armchair in a warm, welcoming care home room."
 ---
@@ -44,6 +52,10 @@ featuredImageAlt: "An older woman sitting in an armchair in a warm, welcoming ca
 - Decide who will help on the day, and keep the number of people in the room small and calm.
 - Check what needs to happen to the person's current home, such as a sale, a rental or keeping it for a while.
 
+## If the move follows a hospital stay
+
+Age UK explains that many hospitals now use a "discharge to assess" approach: an initial assessment makes sure the person leaves safely, and an assessment of long-term needs follows after a period of recovery. If there is a possibility of living in a care home permanently, staff should assess needs and consider whether intermediate care or reablement could help first. Age UK says these services should be free for up to 6 weeks if the person is eligible, and advises checking the cost of any service on offer, as rules can differ by area. Ask the hospital team and your council's adult social care team what applies. See [Age UK on leaving hospital](https://www.ageuk.org.uk/information-advice/health-wellbeing/health-services/leaving-hospital/) and our guide to [moving into a care home from hospital](/blog/moving-into-a-care-home-from-hospital-uk/).
+
 ## What to bring
 
 - Clothing in good condition, labelled with the person's name.
@@ -54,6 +66,10 @@ featuredImageAlt: "An older woman sitting in an armchair in a warm, welcoming ca
 ## Moving day
 
 Set up the room first so it feels familiar: bed made, photographs in place, favourite chair positioned. Keep the day unhurried, and plan time for the person to settle before anyone leaves.
+
+## The first days
+
+Age UK suggests a few things that help someone settle in: bring photos and soft furnishings to make the room their own, ask whether favourite furniture can come, tell staff about their routine and interests so they can fit in with them, and keep in touch with family and friends, for example by phone or tablet. See [Age UK on moving into a care home](https://www.ageuk.org.uk/information-advice/care/arranging-care/care-homes/moving-into-care-home/).
 
 ## The home they are leaving
 

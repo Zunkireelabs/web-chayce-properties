@@ -1,6 +1,6 @@
 ---
 title: "Long-Distance Removals: Leicester, Coventry, Oxford & More"
-description: "Moving 35 to 55 miles from Northampton? What to plan for a longer-distance house move to Leicester, Coventry, Oxford, Cambridge or Peterborough."
+description: "Moving a longer distance from Northampton? What to plan for a house move to Leicester, Coventry, Oxford, Cambridge or Peterborough."
 featuredImage: "https://images.pexels.com/photos/9754798/pexels-photo-9754798.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 featuredImageAlt: "A red lorry transports a blue cargo container on a scenic, tree-lined road"
 date: "2026-10-28"
@@ -20,19 +20,19 @@ sources:
 faq:
   - q: "Do you do longer-distance removals from Northampton?"
     a: "Yes. We cover Leicester, Coventry, Oxford, Cambridge and Peterborough, and move clients across the UK."
-  - q: "How far are these cities from Northampton?"
-    a: "Roughly 40 miles to Leicester, 35 to Coventry, 50 to Oxford, 55 to Cambridge and 50 to Peterborough."
+  - q: "Which cities do you move people to and from?"
+    a: "We are based in Northampton and arrange moves to and from Leicester, Coventry, Oxford, Cambridge and Peterborough, and across the whole UK."
   - q: "What is different about a longer move?"
     a: "Timing matters more: a clear start time, a longer day, and a plan for keys, utilities and settling in at the other end."
   - q: "Can you help me settle in after a long move?"
     a: "Yes. Post-move settling-in support is part of our full-service approach."
 ---
 
-**Short answer:** a move of 35 to 55 miles is a full day with more to coordinate than a local one. Plan the timing, the access at both ends and the first week in the new home before you pack.
+**Short answer:** a longer-distance move is a full day with more to coordinate than a local one. Plan the timing, the access at both ends and the first week in the new home before you pack.
 
-## The cities and the distances
+## The cities
 
-From our Northampton base the distances are roughly: [Coventry](/elderly-removals-coventry/) 35 miles, [Leicester](/elderly-removals-leicester/) 40, [Oxford](/elderly-removals-oxford/) 50, [Peterborough](/elderly-removals-peterborough/) 50 and [Cambridge](/elderly-removals-cambridge/) 55.
+From our Northampton base we arrange moves to and from [Coventry](/elderly-removals-coventry/), [Leicester](/elderly-removals-leicester/), [Oxford](/elderly-removals-oxford/), [Peterborough](/elderly-removals-peterborough/) and [Cambridge](/elderly-removals-cambridge/).
 
 ## Access at each end
 

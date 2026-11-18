@@ -114,6 +114,15 @@ footScripts: |
     var name = splitName(document.getElementById('ct-name').value);
     var pkg = document.getElementById('ct-package').value;
     var message = document.getElementById('ct-message').value.trim();
+    var heard = document.getElementById('ct-heard').value;
+    var callback = document.getElementById('ct-callback').checked;
+    var phoneEl = document.getElementById('ct-phone');
+    if (callback && !phoneEl.value.trim()) {
+      phoneEl.setCustomValidity('Please add a phone number so we can call you back.');
+      phoneEl.reportValidity();
+      return;
+    }
+    phoneEl.setCustomValidity('');
 
     var body = {
       first_name: name.first_name,
@@ -125,6 +134,8 @@ footScripts: |
     };
     if (pkg) body.custom_fields.interested_package = pkg;
     if (message) body.custom_fields.message = message;
+    if (heard) body.custom_fields.heard_about_us = heard;
+    if (callback) body.custom_fields.callback_requested = 'yes';
 
     var submitBtn = form.querySelector('.btn-submit');
     submitBtn.disabled = true;
@@ -136,10 +147,11 @@ footScripts: |
       body: JSON.stringify(body)
     }).then(function(res){
       if (!res.ok) throw new Error('submit failed: ' + res.status);
-      if (typeof gtag === 'function') gtag('event', 'generate_lead', { form: 'contact', interested_package: pkg || '' });
+      if (typeof gtag === 'function') gtag('event', 'generate_lead', { form: 'contact', interested_package: pkg || '', heard_about_us: heard || '', callback_requested: callback ? 'yes' : 'no' });
       panel.innerHTML =
         '<h3>Thank you &mdash; we&rsquo;ve got it.</h3>' +
-        '<p>Someone from the Chayce team will be in touch shortly. If it&rsquo;s easier to talk sooner, call us on ' +
+        (callback ? '<p>We&rsquo;ll call you back during office hours (Monday to Friday, 09:00 to 17:30). If it&rsquo;s easier to talk sooner, call us on ' :
+        '<p>Someone from the Chayce team will be in touch shortly. If it&rsquo;s easier to talk sooner, call us on ') +
         '<a href="tel:07708925432" style="color:var(--gold);font-weight:500;text-decoration:none">07708&nbsp;925&nbsp;432</a>.</p>';
     }).catch(function(){
       submitBtn.disabled = false;
@@ -159,6 +171,10 @@ footScripts: |
   (function(){
     var params = new URLSearchParams(window.location.search);
     var pkg = params.get('package');
+    if (params.get('callback') === '1') {
+      document.getElementById('ct-callback').checked = true;
+    }
+    document.getElementById('ct-phone').addEventListener('input', function(){ this.setCustomValidity(''); });
     if (pkg) {
       var sel = document.getElementById('ct-package');
       var opt = Array.prototype.find.call(sel.options, function(o){
@@ -228,6 +244,24 @@ footScripts: |
               </div>
             </div>
             <div class="form-group"><label for="ct-message">Message</label><textarea id="ct-message" placeholder="How can we help you?"></textarea></div>
+            <div class="form-group">
+              <label for="ct-heard">How did you hear about us? <span style="font-weight:400;color:#999;text-transform:none;letter-spacing:0">(optional)</span></label>
+              <select id="ct-heard">
+                  <option value="">Prefer not to say</option>
+                  <option value="google_search">Google search</option>
+                  <option value="google_maps">Google Maps</option>
+                  <option value="ai_assistant">An AI assistant (such as ChatGPT)</option>
+                  <option value="care_home_or_retirement_village">A care home or retirement village</option>
+                  <option value="solicitor_or_estate_agent">A solicitor or estate agent</option>
+                  <option value="friend_or_family">A friend or family member</option>
+                  <option value="facebook">Facebook</option>
+                  <option value="other">Somewhere else</option>
+              </select>
+            </div>
+            <div class="form-check">
+              <input id="ct-callback" type="checkbox">
+              <label for="ct-callback">Please call me back. We call during office hours ({{ site.openingHoursText }}).</label>
+            </div>
             <button type="submit" class="btn-submit">Send Enquiry</button>
           </form>
         </div>

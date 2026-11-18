@@ -6,7 +6,19 @@ bodyClass: "page-template page-loaded"
 homeNav: false
 navGlassy: false
 layout: base.njk
-permalink: "/blog/"
+pagination:
+  data: collections.blog
+  size: 10
+  alias: posts
+permalink: "{% if pagination.pageNumber == 0 %}/blog/{% else %}/blog/page/{{ pagination.pageNumber + 1 }}/{% endif %}"
+eleventyComputed:
+  title: "{% if pagination.pageNumber == 0 %}Downsizing & Later-Life Moving Advice UK | Chayce Blog{% else %}Downsizing & Later-Life Moving Advice UK, Page {{ pagination.pageNumber + 1 }} | Chayce Blog{% endif %}"
+  description: "{% if pagination.pageNumber == 0 %}Practical UK guides on downsizing, moving an elderly parent, retirement villages, moving costs and settling in, from the Chayce team in Northampton.{% else %}Page {{ pagination.pageNumber + 1 }} of Chayce's practical UK guides on downsizing, moving an elderly parent, retirement villages and moving costs.{% endif %}"
+  headExtra: |
+    <link rel="stylesheet" href="/css/chayce-nav.css?v={{ build.version }}">
+    <link rel="stylesheet" href="/css/chayce-blog.css?v={{ build.version }}">
+    {% if pagination.href.previous %}<link rel="prev" href="https://chayceproperties.com{{ pagination.href.previous }}">{% endif %}
+    {% if pagination.href.next %}<link rel="next" href="https://chayceproperties.com{{ pagination.href.next }}">{% endif %}
 tags: []
 eleventyExcludeFromCollections: true
 policyFaq:
@@ -18,9 +30,6 @@ policyFaq:
     a: "No. They are general information. For legal, tax or funding questions, speak to a solicitor or an independent adviser."
   - q: "Can Chayce help me with my own move?"
     a: "Yes. Call 07708 925432 or book a one-hour Discovery Consultation for £150."
-headExtra: |
-  <link rel="stylesheet" href="/css/chayce-nav.css?v={{ build.version }}">
-  <link rel="stylesheet" href="/css/chayce-blog.css?v={{ build.version }}">
 ---
 {# Real /blog/ listing — separate from /news/, which stays exactly as it is
    today (3 static teasers, no real post pages). Same page-hero + news-card
@@ -29,10 +38,10 @@ headExtra: |
 <script type="application/ld+json">
 {"@type":"BreadcrumbList","@context":"https://schema.org","itemListElement":[{"item":"https://chayceproperties.com/","name":"Home","@type":"ListItem","position":1},{"item":"https://chayceproperties.com/blog/","name":"Blog","@type":"ListItem","position":2}]}
 </script>
-{% if collections.blog.length > 0 %}
+{% if posts.length > 0 %}
 {# CollectionPage + ItemList generated from the same collection that renders the cards below, so the markup can never list a post the page doesn't show. #}
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"CollectionPage","name":{{ title | dump | safe }},"description":{{ description | dump | safe }},"url":"https://chayceproperties.com/blog/","mainEntity":{"@type":"ItemList","itemListElement":[{% for post in collections.blog | reverse %}{"@type":"ListItem","position":{{ loop.index }},"url":"https://chayceproperties.com{{ post.url }}","name":{{ post.data.title | dump | safe }}}{% if not loop.last %},{% endif %}{% endfor %}]}}
+{"@context":"https://schema.org","@type":"CollectionPage","name":{{ title | dump | safe }},"description":{{ description | dump | safe }},"url":"https://chayceproperties.com{{ page.url }}","mainEntity":{"@type":"ItemList","itemListElement":[{% for post in posts %}{"@type":"ListItem","position":{{ loop.index + pagination.pageNumber * 10 }},"url":"https://chayceproperties.com{{ post.url }}","name":{{ post.data.title | dump | safe }}}{% if not loop.last %},{% endif %}{% endfor %}]}}
 </script>
 {% endif %}
 <div class="page-hero" style="background-image:url({% imageUrl "chayce-blog-hero.webp" %});{% imageSet "chayce-blog-hero.webp" %};background-size:cover;background-position:center;">
@@ -45,10 +54,10 @@ headExtra: |
 
 <section class="page-section">
   <div class="container">
-    <h2 style="font-family:'Playfair Display',serif;color:var(--navy);font-size:28px;margin:0 0 28px">What can you read on the Chayce blog?</h2>
-    {% if collections.blog.length > 0 %}
+    <h2 id="guides" style="font-family:'Playfair Display',serif;color:var(--navy);font-size:28px;margin:0 0 28px">What can you read on the Chayce blog?</h2>
+    {% if posts.length > 0 %}
     <div class="row">
-      {% for post in collections.blog | reverse %}
+      {% for post in posts %}
       <div class="col-md-4">
         <div class="news-card" style="margin-bottom:40px">
           {% if post.data.featuredImage %}
@@ -62,6 +71,13 @@ headExtra: |
       </div>
       {% endfor %}
     </div>
+    {% if pagination.pages.length > 1 %}
+    <nav class="blog-pager" aria-label="Blog pages">
+      {% if pagination.href.previous %}<a class="blog-pager-btn is-prev" rel="prev" href="{{ pagination.href.previous }}#guides"><span aria-hidden="true">&larr;</span> Previous</a>{% endif %}
+      <p class="blog-pager-count">Page {{ pagination.pageNumber + 1 }} of {{ pagination.pages.length }}</p>
+      {% if pagination.href.next %}<a class="blog-pager-btn is-next" rel="next" href="{{ pagination.href.next }}#guides">Next <span aria-hidden="true">&rarr;</span></a>{% endif %}
+    </nav>
+    {% endif %}
     {% else %}
     <p style="color:#666;text-align:center;">New posts are coming soon.</p>
     {% endif %}
@@ -82,7 +98,7 @@ headExtra: |
 
 <section class="page-section" style="padding-top:0">
   <div class="container legal-body" style="max-width:820px">
-{% include "policy-faq.njk" %}
+{% if pagination.pageNumber == 0 %}{% include "policy-faq.njk" %}{% endif %}
   </div>
 </section>
 

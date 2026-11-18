@@ -5,7 +5,6 @@
     "county": "Northamptonshire",
     "council": "North Northamptonshire Council",
     "postcodes": "NN15 or NN16",
-    "distance": "around 16 miles",
     "direction": "north-east",
     "road": "the A43",
     "rail": "Kettering station is on the Midland Main Line, with direct trains to London St Pancras",
@@ -57,8 +56,8 @@
     },
     "localFaqs": [
       {
-        "q": "How far is Kettering from your Northampton office?",
-        "a": "Kettering is around 16 miles north-east of our Kingsthorpe Road office in Northampton, reached via the A43. We can arrange a Discovery Consultation in person or by phone, whichever you prefer."
+        "q": "Do you cover Kettering from your Northampton office?",
+        "a": "Yes. Kettering lies north-east of our Kingsthorpe Road office in Northampton, reached via the A43. We can arrange a Discovery Consultation in person or by phone, whichever you prefer."
       },
       {
         "q": "Have you helped anyone move in Kettering?",
@@ -85,7 +84,6 @@
     "county": "Northamptonshire",
     "council": "North Northamptonshire Council",
     "postcodes": "NN8",
-    "distance": "around 11 miles",
     "direction": "east",
     "road": "the A45",
     "rail": "Wellingborough station is on the Midland Main Line, with direct trains to London St Pancras",
@@ -97,7 +95,7 @@
       "If your move depends on a house sale, we liaise with your estate agent and solicitor so dates stay in step."
     ],
     "faqTitle": "How close is Chayce to Wellingborough?",
-    "faqAnswer": "Our office is in Northampton, around 11 miles from Wellingborough, so we can arrange an in-person Discovery Consultation locally or by phone, whichever you prefer.",
+    "faqAnswer": "Our office is in Northampton so we can arrange an in-person Discovery Consultation locally or by phone, whichever you prefer.",
     "heroImage": "chayce-platinum-hero.jpg",
     "image": "chayce-uk-wellingborough.jpg",
     "image2": "chayce-uk-wellingborough2.jpg",
@@ -142,8 +140,8 @@
     },
     "localFaqs": [
       {
-        "q": "How far is Wellingborough from your Northampton office?",
-        "a": "Wellingborough is around 11 miles east of our Kingsthorpe Road office in Northampton, reached via the A45. That makes it one of our closest towns, so a Discovery Consultation can be in person or by phone."
+        "q": "Do you cover Wellingborough from your Northampton office?",
+        "a": "Yes. Wellingborough lies east of our Kingsthorpe Road office in Northampton, reached via the A45. We can arrange a Discovery Consultation in person or by phone, whichever you prefer."
       },
       {
         "q": "Have you helped anyone move in Wellingborough?",
@@ -170,7 +168,6 @@
     "county": "Northamptonshire",
     "council": "West Northamptonshire Council",
     "postcodes": "NN11",
-    "distance": "around 13 miles",
     "direction": "west",
     "road": "the A45 and A361",
     "rail": "Daventry has no railway station; the nearest stations include Long Buckby and Northampton",
@@ -186,7 +183,86 @@
     "heroImage": "chayce-contact.jpg",
     "image": "chayce-uk-daventry.jpg",
     "image2": "chayce-uk-daventry2.jpg",
-    "wikipedia": "https://en.wikipedia.org/wiki/Daventry"
+    "wikipedia": "https://en.wikipedia.org/wiki/Daventry",
+    "localHelp": [
+      {
+        "label": "West Northamptonshire Council adult social care",
+        "url": "https://www.westnorthants.gov.uk/adult-social-care-and-wellbeing",
+        "note": "Care assessments, support at home and independent living for people living in the council area."
+      },
+      {
+        "label": "West Northamptonshire Council Council Tax",
+        "url": "https://www.westnorthants.gov.uk/council-tax/change-address",
+        "note": "How to tell the council about a move into, out of or within its area."
+      },
+      {
+        "label": "Northampton General Hospital",
+        "url": "https://www.northamptongeneral.nhs.uk/",
+        "note": "The nearest large acute hospital for much of south and central Northamptonshire."
+      },
+      {
+        "label": "Age UK Northamptonshire",
+        "url": "https://www.ageuk.org.uk/northamptonshire/",
+        "note": "The local Age UK, offering information and advice for older people."
+      },
+      {
+        "label": "Care Quality Commission (CQC)",
+        "url": "https://www.cqc.org.uk/care-services",
+        "note": "Search inspection reports for any care home or home care provider before you choose one."
+      }
+    ],
+    "localFaqs": [
+      {
+        "q": "Do you cover Daventry from your Northampton office?",
+        "a": "Yes. Daventry lies west of our Kingsthorpe Road office in Northampton, reached via the A45 and A361. We can arrange a Discovery Consultation in person or by phone, whichever you prefer."
+      },
+      {
+        "q": "Which council covers Daventry, and where can I ask about care assessments?",
+        "a": "Daventry is in the West Northamptonshire Council area. Its adult social care pages explain how to get care and support. Chayce does not give care, financial or legal advice, but we can plan a move around the decisions you make. See",
+        "url": "https://www.westnorthants.gov.uk/adult-social-care-and-wellbeing",
+        "linkText": "the West Northamptonshire Council adult social care pages",
+        "ext": true
+      },
+      {
+        "q": "Which council do I tell when I move to or from Daventry?",
+        "a": "West Northamptonshire Council deals with Council Tax for Daventry. Tell it about your move through its Council Tax pages, and tell the council for your old or new area too if it is different. See",
+        "url": "https://www.westnorthants.gov.uk/council-tax/change-address",
+        "linkText": "the West Northamptonshire Council Council Tax pages",
+        "ext": true
+      },
+      {
+        "q": "Who else do I need to tell when I move in Daventry?",
+        "a": "Besides your council, tell your GP, the electoral register, DVLA, your bank and everyone who writes to you. Our guide to moving in Northamptonshire lists them in order. See",
+        "url": "/blog/moving-in-northamptonshire-councils-council-tax/",
+        "linkText": "Moving in Northamptonshire: councils, Council Tax and who to tell"
+      },
+      {
+        "q": "Where is the nearest hospital to Daventry?",
+        "a": "Danetre Hospital is in the town, and Northampton General Hospital is the nearest large acute hospital. For services and visiting information, see",
+        "url": "https://www.northamptongeneral.nhs.uk/",
+        "linkText": "the Northampton General Hospital website",
+        "ext": true
+      },
+      {
+        "q": "Where can older people in Daventry get local advice?",
+        "a": "Age UK Northamptonshire is the local Age UK for the area, offering information and advice for older people. Chayce has no commercial link with it. See",
+        "url": "https://www.ageuk.org.uk/northamptonshire/",
+        "linkText": "Age UK Northamptonshire",
+        "ext": true
+      },
+      {
+        "q": "Do you offer downsizing help for older people in Daventry?",
+        "a": "Yes. We help older people in Daventry decide what to keep, sell or pass on, pack with care, arrange the removal and settle in at the new home."
+      },
+      {
+        "q": "Do you offer removals for elderly people in Daventry?",
+        "a": "Yes. Removals for older people are part of our service in Daventry. Every removal is fully insured against loss or damage in transit, and a dedicated coordinator looks after the whole move."
+      },
+      {
+        "q": "Do you cover villages around Daventry?",
+        "a": "Yes. We work in Daventry and the surrounding villages as well as across the rest of Northamptonshire and the UK. Tell us your postcode when you contact us and we will confirm the details."
+      }
+    ]
   },
   {
     "slug": "corby",
@@ -194,7 +270,6 @@
     "county": "Northamptonshire",
     "council": "North Northamptonshire Council",
     "postcodes": "NN17 or NN18",
-    "distance": "around 22 miles",
     "direction": "north-east",
     "road": "the A43",
     "rail": "Corby station has direct trains to London St Pancras",
@@ -240,8 +315,8 @@
     ],
     "localFaqs": [
       {
-        "q": "How far is Corby from your Northampton office?",
-        "a": "Corby is around 22 miles north-east of our Kingsthorpe Road office in Northampton, reached via the A43. We can arrange a Discovery Consultation by phone or in person, and plan the move around travel time."
+        "q": "Do you cover Corby from your Northampton office?",
+        "a": "Yes. Corby lies north-east of our Kingsthorpe Road office in Northampton, reached via the A43. We can arrange a Discovery Consultation in person or by phone, whichever you prefer."
       },
       {
         "q": "What should I plan for when moving out of a Corby home?",
@@ -266,7 +341,6 @@
     "county": "Northamptonshire",
     "council": "North Northamptonshire Council",
     "postcodes": "NN10",
-    "distance": "around 14 miles",
     "direction": "east",
     "road": "the A45",
     "rail": "Rushden has no railway station; the nearest stations include Wellingborough and Bedford",
@@ -282,7 +356,91 @@
     "heroImage": "chayce-uk-wellingborough.jpg",
     "image": "chayce-uk-wellingborough2.jpg",
     "image2": "chayce-uk-northampton2.jpg",
-    "wikipedia": "https://en.wikipedia.org/wiki/Rushden"
+    "wikipedia": "https://en.wikipedia.org/wiki/Rushden",
+    "localHelp": [
+      {
+        "label": "North Northamptonshire Council adult social care",
+        "url": "https://www.northnorthants.gov.uk/adult-social-care",
+        "note": "Care assessments, support at home and independent living for people living in the council area."
+      },
+      {
+        "label": "North Northamptonshire Council Council Tax",
+        "url": "https://www.northnorthants.gov.uk/counciltax/moving-home",
+        "note": "How to tell the council about a move into, out of or within its area."
+      },
+      {
+        "label": "Kettering General Hospital",
+        "url": "https://www.kgh.nhs.uk/",
+        "note": "A large acute hospital serving the north of the county."
+      },
+      {
+        "label": "Northampton General Hospital",
+        "url": "https://www.northamptongeneral.nhs.uk/",
+        "note": "The nearest large acute hospital for much of south and central Northamptonshire."
+      },
+      {
+        "label": "Age UK Northamptonshire",
+        "url": "https://www.ageuk.org.uk/northamptonshire/",
+        "note": "The local Age UK, offering information and advice for older people."
+      },
+      {
+        "label": "Care Quality Commission (CQC)",
+        "url": "https://www.cqc.org.uk/care-services",
+        "note": "Search inspection reports for any care home or home care provider before you choose one."
+      }
+    ],
+    "localFaqs": [
+      {
+        "q": "Do you cover Rushden from your Northampton office?",
+        "a": "Yes. Rushden lies east of our Kingsthorpe Road office in Northampton, reached via the A45. We can arrange a Discovery Consultation in person or by phone, whichever you prefer."
+      },
+      {
+        "q": "Which council covers Rushden, and where can I ask about care assessments?",
+        "a": "Rushden is in the North Northamptonshire Council area. Its adult social care pages explain how to get care and support. Chayce does not give care, financial or legal advice, but we can plan a move around the decisions you make. See",
+        "url": "https://www.northnorthants.gov.uk/adult-social-care",
+        "linkText": "the North Northamptonshire Council adult social care pages",
+        "ext": true
+      },
+      {
+        "q": "Which council do I tell when I move to or from Rushden?",
+        "a": "North Northamptonshire Council deals with Council Tax for Rushden. Tell it about your move through its Council Tax pages, and tell the council for your old or new area too if it is different. See",
+        "url": "https://www.northnorthants.gov.uk/counciltax/moving-home",
+        "linkText": "the North Northamptonshire Council Council Tax pages",
+        "ext": true
+      },
+      {
+        "q": "Who else do I need to tell when I move in Rushden?",
+        "a": "Besides your council, tell your GP, the electoral register, DVLA, your bank and everyone who writes to you. Our guide to moving in Northamptonshire lists them in order. See",
+        "url": "/blog/moving-in-northamptonshire-councils-council-tax/",
+        "linkText": "Moving in Northamptonshire: councils, Council Tax and who to tell"
+      },
+      {
+        "q": "Where is the nearest hospital to Rushden?",
+        "a": "Kettering General Hospital and Northampton General Hospital are the nearest large acute hospitals. For services and visiting information, see",
+        "url": "https://www.kgh.nhs.uk/",
+        "linkText": "the Kettering General Hospital website",
+        "ext": true
+      },
+      {
+        "q": "Where can older people in Rushden get local advice?",
+        "a": "Age UK Northamptonshire is the local Age UK for the area, offering information and advice for older people. Chayce has no commercial link with it. See",
+        "url": "https://www.ageuk.org.uk/northamptonshire/",
+        "linkText": "Age UK Northamptonshire",
+        "ext": true
+      },
+      {
+        "q": "Do you offer downsizing help for older people in Rushden?",
+        "a": "Yes. We help older people in Rushden decide what to keep, sell or pass on, pack with care, arrange the removal and settle in at the new home."
+      },
+      {
+        "q": "Do you offer removals for elderly people in Rushden?",
+        "a": "Yes. Removals for older people are part of our service in Rushden. Every removal is fully insured against loss or damage in transit, and a dedicated coordinator looks after the whole move."
+      },
+      {
+        "q": "Do you help people moving out of Rushden to other parts of the UK?",
+        "a": "Yes. Chayce arranges later-life moves from Rushden to anywhere in the UK, as well as moves within Rushden and the surrounding area. Tell us your postcode when you contact us and we will confirm the details."
+      }
+    ]
   },
   {
     "slug": "towcester",
@@ -290,7 +448,6 @@
     "county": "Northamptonshire",
     "council": "West Northamptonshire Council",
     "postcodes": "NN12",
-    "distance": "around 9 miles",
     "direction": "south-west",
     "road": "the A5 and A43",
     "rail": "Towcester has no railway station; the nearest stations include Northampton and Milton Keynes",
@@ -306,7 +463,494 @@
     "heroImage": "chayce-uk-daventry.jpg",
     "image": "chayce-uk-daventry2.jpg",
     "image2": "chayce-uk-northampton.jpg",
-    "wikipedia": "https://en.wikipedia.org/wiki/Towcester"
+    "wikipedia": "https://en.wikipedia.org/wiki/Towcester",
+    "localHelp": [
+      {
+        "label": "West Northamptonshire Council adult social care",
+        "url": "https://www.westnorthants.gov.uk/adult-social-care-and-wellbeing",
+        "note": "Care assessments, support at home and independent living for people living in the council area."
+      },
+      {
+        "label": "West Northamptonshire Council Council Tax",
+        "url": "https://www.westnorthants.gov.uk/council-tax/change-address",
+        "note": "How to tell the council about a move into, out of or within its area."
+      },
+      {
+        "label": "Northampton General Hospital",
+        "url": "https://www.northamptongeneral.nhs.uk/",
+        "note": "The nearest large acute hospital for much of south and central Northamptonshire."
+      },
+      {
+        "label": "Age UK Northamptonshire",
+        "url": "https://www.ageuk.org.uk/northamptonshire/",
+        "note": "The local Age UK, offering information and advice for older people."
+      },
+      {
+        "label": "Care Quality Commission (CQC)",
+        "url": "https://www.cqc.org.uk/care-services",
+        "note": "Search inspection reports for any care home or home care provider before you choose one."
+      }
+    ],
+    "localFaqs": [
+      {
+        "q": "Do you cover Towcester from your Northampton office?",
+        "a": "Yes. Towcester lies south-west of our Kingsthorpe Road office in Northampton, reached via the A5 and A43. We can arrange a Discovery Consultation in person or by phone, whichever you prefer."
+      },
+      {
+        "q": "Which council covers Towcester, and where can I ask about care assessments?",
+        "a": "Towcester is in the West Northamptonshire Council area. Its adult social care pages explain how to get care and support. Chayce does not give care, financial or legal advice, but we can plan a move around the decisions you make. See",
+        "url": "https://www.westnorthants.gov.uk/adult-social-care-and-wellbeing",
+        "linkText": "the West Northamptonshire Council adult social care pages",
+        "ext": true
+      },
+      {
+        "q": "Which council do I tell when I move to or from Towcester?",
+        "a": "West Northamptonshire Council deals with Council Tax for Towcester. Tell it about your move through its Council Tax pages, and tell the council for your old or new area too if it is different. See",
+        "url": "https://www.westnorthants.gov.uk/council-tax/change-address",
+        "linkText": "the West Northamptonshire Council Council Tax pages",
+        "ext": true
+      },
+      {
+        "q": "Who else do I need to tell when I move in Towcester?",
+        "a": "Besides your council, tell your GP, the electoral register, DVLA, your bank and everyone who writes to you. Our guide to moving in Northamptonshire lists them in order. See",
+        "url": "/blog/moving-in-northamptonshire-councils-council-tax/",
+        "linkText": "Moving in Northamptonshire: councils, Council Tax and who to tell"
+      },
+      {
+        "q": "Where is the nearest hospital to Towcester?",
+        "a": "Northampton General Hospital is the nearest large acute hospital. For services and visiting information, see",
+        "url": "https://www.northamptongeneral.nhs.uk/",
+        "linkText": "the Northampton General Hospital website",
+        "ext": true
+      },
+      {
+        "q": "Where can older people in Towcester get local advice?",
+        "a": "Age UK Northamptonshire is the local Age UK for the area, offering information and advice for older people. Chayce has no commercial link with it. See",
+        "url": "https://www.ageuk.org.uk/northamptonshire/",
+        "linkText": "Age UK Northamptonshire",
+        "ext": true
+      },
+      {
+        "q": "Do you offer downsizing help for older people in Towcester?",
+        "a": "Yes. We help older people in Towcester decide what to keep, sell or pass on, pack with care, arrange the removal and settle in at the new home."
+      },
+      {
+        "q": "Do you offer removals for elderly people in Towcester?",
+        "a": "Yes. Removals for older people are part of our service in Towcester. Every removal is fully insured against loss or damage in transit, and a dedicated coordinator looks after the whole move."
+      },
+      {
+        "q": "Do you help people moving out of Towcester to other parts of the UK?",
+        "a": "Yes. Chayce arranges later-life moves from Towcester to anywhere in the UK, as well as moves within Towcester and the surrounding area. We also cover the villages around the town."
+      }
+    ]
+  },
+  {
+    "slug": "brixworth",
+    "name": "Brixworth",
+    "county": "Northamptonshire",
+    "council": "West Northamptonshire Council",
+    "postcodes": "NN6",
+    "direction": "north",
+    "road": "the A508",
+    "rail": "The nearest railway stations are at Northampton, Kettering and Market Harborough",
+    "hospital": "Northampton General Hospital is the nearest large acute hospital",
+    "context": "Brixworth is a large village in West Northamptonshire, north of Northampton beside the A508, and is known for its Anglo-Saxon All Saints' Church.",
+    "planFor": [
+      "Village homes can have narrow roads, limited parking and long driveways, so access is checked in advance.",
+      "Brixworth is a short drive from our Northampton office, so visits in person are straightforward to arrange.",
+      "Moving from a larger village home into a smaller property is a common reason families ask for downsizing support."
+    ],
+    "faqTitle": "Do you help people moving out of Brixworth to other parts of the UK?",
+    "faqAnswer": "Yes. Chayce arranges later-life moves from Brixworth to anywhere in the UK, as well as moves within Brixworth and the surrounding villages.",
+    "heroImage": "chayce-uk-northampton.jpg",
+    "image": "chayce-uk-northampton2.jpg",
+    "image2": "chayce-uk-daventry.jpg",
+    "wikipedia": "https://en.wikipedia.org/wiki/Brixworth",
+    "localHelp": [
+      {
+        "label": "West Northamptonshire Council adult social care",
+        "url": "https://www.westnorthants.gov.uk/adult-social-care-and-wellbeing",
+        "note": "Care assessments, support at home and independent living for people living in the council area."
+      },
+      {
+        "label": "West Northamptonshire Council Council Tax",
+        "url": "https://www.westnorthants.gov.uk/council-tax/change-address",
+        "note": "How to tell the council about a move into, out of or within its area."
+      },
+      {
+        "label": "Northampton General Hospital",
+        "url": "https://www.northamptongeneral.nhs.uk/",
+        "note": "The nearest large acute hospital for much of south and central Northamptonshire."
+      },
+      {
+        "label": "Age UK Northamptonshire",
+        "url": "https://www.ageuk.org.uk/northamptonshire/",
+        "note": "The local Age UK, offering information and advice for older people."
+      },
+      {
+        "label": "Care Quality Commission (CQC)",
+        "url": "https://www.cqc.org.uk/care-services",
+        "note": "Search inspection reports for any care home or home care provider before you choose one."
+      }
+    ],
+    "localFaqs": [
+      {
+        "q": "Do you cover Brixworth from your Northampton office?",
+        "a": "Yes. Brixworth lies north of our Kingsthorpe Road office in Northampton, reached via the A508. We can arrange a Discovery Consultation in person or by phone, whichever you prefer."
+      },
+      {
+        "q": "Which council covers Brixworth, and where can I ask about care assessments?",
+        "a": "Brixworth is in the West Northamptonshire Council area. Its adult social care pages explain how to get care and support. Chayce does not give care, financial or legal advice, but we can plan a move around the decisions you make. See",
+        "url": "https://www.westnorthants.gov.uk/adult-social-care-and-wellbeing",
+        "linkText": "the West Northamptonshire Council adult social care pages",
+        "ext": true
+      },
+      {
+        "q": "Which council do I tell when I move to or from Brixworth?",
+        "a": "West Northamptonshire Council deals with Council Tax for Brixworth. Tell it about your move through its Council Tax pages, and tell the council for your old or new area too if it is different. See",
+        "url": "https://www.westnorthants.gov.uk/council-tax/change-address",
+        "linkText": "the West Northamptonshire Council Council Tax pages",
+        "ext": true
+      },
+      {
+        "q": "Who else do I need to tell when I move in Brixworth?",
+        "a": "Besides your council, tell your GP, the electoral register, DVLA, your bank and everyone who writes to you. Our guide to moving in Northamptonshire lists them in order. See",
+        "url": "/blog/moving-in-northamptonshire-councils-council-tax/",
+        "linkText": "Moving in Northamptonshire: councils, Council Tax and who to tell"
+      },
+      {
+        "q": "Where is the nearest hospital to Brixworth?",
+        "a": "Northampton General Hospital is the nearest large acute hospital. For services and visiting information, see",
+        "url": "https://www.northamptongeneral.nhs.uk/",
+        "linkText": "the Northampton General Hospital website",
+        "ext": true
+      },
+      {
+        "q": "Where can older people in Brixworth get local advice?",
+        "a": "Age UK Northamptonshire is the local Age UK for the area, offering information and advice for older people. Chayce has no commercial link with it. See",
+        "url": "https://www.ageuk.org.uk/northamptonshire/",
+        "linkText": "Age UK Northamptonshire",
+        "ext": true
+      },
+      {
+        "q": "Do you offer downsizing help for older people in Brixworth?",
+        "a": "Yes. We help older people in Brixworth decide what to keep, sell or pass on, pack with care, arrange the removal and settle in at the new home."
+      },
+      {
+        "q": "Do you offer removals for elderly people in Brixworth?",
+        "a": "Yes. Removals for older people are part of our service in Brixworth. Every removal is fully insured against loss or damage in transit, and a dedicated coordinator looks after the whole move."
+      },
+      {
+        "q": "Do you help people moving out of Brixworth to other parts of the UK?",
+        "a": "Yes. Chayce arranges later-life moves from Brixworth to anywhere in the UK, as well as moves within Brixworth and the surrounding villages."
+      }
+    ]
+  },
+  {
+    "slug": "brackley",
+    "name": "Brackley",
+    "county": "Northamptonshire",
+    "council": "West Northamptonshire Council",
+    "postcodes": "NN13",
+    "direction": "south-west",
+    "road": "the A43 and A422",
+    "rail": "The nearest railway stations are at Kings Sutton, about 6 miles west of the town, and Banbury, around 8 miles away, and a bus service links Brackley to Banbury station",
+    "hospital": "Horton General Hospital in Banbury is the nearest large acute hospital",
+    "context": "Brackley is a historic market town in West Northamptonshire, on the borders with Oxfordshire and Buckinghamshire, south-west of Northampton.",
+    "planFor": [
+      "Brackley is on the borders with Oxfordshire and Buckinghamshire, so moves can run to or from either county as well as Northamptonshire.",
+      "Historic market-town streets can be narrow with limited parking, so access is checked in advance.",
+      "The nearest railway stations are at Kings Sutton and Banbury, so family visiting by train should plan the last leg by bus or car."
+    ],
+    "faqTitle": "Do you help people moving out of Brackley to other parts of the UK?",
+    "faqAnswer": "Yes. Chayce arranges later-life moves from Brackley to anywhere in the UK, as well as moves within Brackley and the surrounding villages.",
+    "heroImage": "chayce-uk-daventry.jpg",
+    "image": "chayce-uk-daventry2.jpg",
+    "image2": "chayce-uk-northampton.jpg",
+    "wikipedia": "https://en.wikipedia.org/wiki/Brackley",
+    "localHelp": [
+      {
+        "label": "West Northamptonshire Council adult social care",
+        "url": "https://www.westnorthants.gov.uk/adult-social-care-and-wellbeing",
+        "note": "Care assessments, support at home and independent living for people living in the council area."
+      },
+      {
+        "label": "West Northamptonshire Council Council Tax",
+        "url": "https://www.westnorthants.gov.uk/council-tax/change-address",
+        "note": "How to tell the council about a move into, out of or within its area."
+      },
+      {
+        "label": "Horton General Hospital",
+        "url": "https://www.ouh.nhs.uk/hospitals/horton/",
+        "note": "The hospital in Banbury, the nearest large acute hospital to Brackley."
+      },
+      {
+        "label": "Age UK Northamptonshire",
+        "url": "https://www.ageuk.org.uk/northamptonshire/",
+        "note": "The local Age UK, offering information and advice for older people."
+      },
+      {
+        "label": "Care Quality Commission (CQC)",
+        "url": "https://www.cqc.org.uk/care-services",
+        "note": "Search inspection reports for any care home or home care provider before you choose one."
+      }
+    ],
+    "localFaqs": [
+      {
+        "q": "Do you cover Brackley from your Northampton office?",
+        "a": "Yes. Brackley lies south-west of our Kingsthorpe Road office in Northampton, reached via the A43 and A422. We can arrange a Discovery Consultation in person or by phone, whichever you prefer."
+      },
+      {
+        "q": "Which council covers Brackley, and where can I ask about care assessments?",
+        "a": "Brackley is in the West Northamptonshire Council area. Its adult social care pages explain how to get care and support. Chayce does not give care, financial or legal advice, but we can plan a move around the decisions you make. See",
+        "url": "https://www.westnorthants.gov.uk/adult-social-care-and-wellbeing",
+        "linkText": "the West Northamptonshire Council adult social care pages",
+        "ext": true
+      },
+      {
+        "q": "Which council do I tell when I move to or from Brackley?",
+        "a": "West Northamptonshire Council deals with Council Tax for Brackley. Tell it about your move through its Council Tax pages, and tell the council for your old or new area too if it is different. See",
+        "url": "https://www.westnorthants.gov.uk/council-tax/change-address",
+        "linkText": "the West Northamptonshire Council Council Tax pages",
+        "ext": true
+      },
+      {
+        "q": "Who else do I need to tell when I move in Brackley?",
+        "a": "Besides your council, tell your GP, the electoral register, DVLA, your bank and everyone who writes to you. Our guide to moving in Northamptonshire lists them in order. See",
+        "url": "/blog/moving-in-northamptonshire-councils-council-tax/",
+        "linkText": "Moving in Northamptonshire: councils, Council Tax and who to tell"
+      },
+      {
+        "q": "Where is the nearest hospital to Brackley?",
+        "a": "Horton General Hospital in Banbury is the nearest large acute hospital. For services and visiting information, see",
+        "url": "https://www.ouh.nhs.uk/hospitals/horton/",
+        "linkText": "the Horton General Hospital website",
+        "ext": true
+      },
+      {
+        "q": "Where can older people in Brackley get local advice?",
+        "a": "Age UK Northamptonshire is the local Age UK for the area, offering information and advice for older people. Chayce has no commercial link with it. See",
+        "url": "https://www.ageuk.org.uk/northamptonshire/",
+        "linkText": "Age UK Northamptonshire",
+        "ext": true
+      },
+      {
+        "q": "Do you offer downsizing help for older people in Brackley?",
+        "a": "Yes. We help older people in Brackley decide what to keep, sell or pass on, pack with care, arrange the removal and settle in at the new home."
+      },
+      {
+        "q": "Do you offer removals for elderly people in Brackley?",
+        "a": "Yes. Removals for older people are part of our service in Brackley. Every removal is fully insured against loss or damage in transit, and a dedicated coordinator looks after the whole move."
+      },
+      {
+        "q": "Do you help people moving out of Brackley to other parts of the UK?",
+        "a": "Yes. Chayce arranges later-life moves from Brackley to anywhere in the UK, as well as moves within Brackley and the surrounding villages."
+      }
+    ]
+  },
+  {
+    "slug": "desborough",
+    "name": "Desborough",
+    "county": "Northamptonshire",
+    "council": "North Northamptonshire Council",
+    "postcodes": "NN14",
+    "direction": "north",
+    "road": "the A6",
+    "rail": "Desborough has no railway station today, as its station closed in 1968, but Kettering and Market Harborough, on either side of the town, both have stations",
+    "hospital": "Kettering General Hospital is the nearest large acute hospital",
+    "context": "Desborough is a town in North Northamptonshire, in the Ise Valley between Market Harborough and Kettering, with a history in weaving, shoe-making and the Co-operative movement.",
+    "planFor": [
+      "Desborough lies between Market Harborough and Kettering, so we can help with moves in either direction.",
+      "Older terraced and village homes can have steep stairs and limited parking, so access is checked in advance.",
+      "The A6 Rothwell to Desborough bypass, opened in 2003, takes through traffic around the town."
+    ],
+    "faqTitle": "Do you help people moving out of Desborough to other parts of the UK?",
+    "faqAnswer": "Yes. Chayce arranges later-life moves from Desborough to anywhere in the UK, as well as moves within Desborough and the surrounding villages.",
+    "heroImage": "chayce-uk-kettering.jpg",
+    "image": "chayce-uk-kettering2.jpg",
+    "image2": "chayce-uk-northampton.jpg",
+    "wikipedia": "https://en.wikipedia.org/wiki/Desborough",
+    "localHelp": [
+      {
+        "label": "North Northamptonshire Council adult social care",
+        "url": "https://www.northnorthants.gov.uk/adult-social-care",
+        "note": "Care assessments, support at home and independent living for people living in the council area."
+      },
+      {
+        "label": "North Northamptonshire Council Council Tax",
+        "url": "https://www.northnorthants.gov.uk/counciltax/moving-home",
+        "note": "How to tell the council about a move into, out of or within its area."
+      },
+      {
+        "label": "Kettering General Hospital",
+        "url": "https://www.kgh.nhs.uk/",
+        "note": "A large acute hospital serving the north of the county."
+      },
+      {
+        "label": "Age UK Northamptonshire",
+        "url": "https://www.ageuk.org.uk/northamptonshire/",
+        "note": "The local Age UK, offering information and advice for older people."
+      },
+      {
+        "label": "Care Quality Commission (CQC)",
+        "url": "https://www.cqc.org.uk/care-services",
+        "note": "Search inspection reports for any care home or home care provider before you choose one."
+      }
+    ],
+    "localFaqs": [
+      {
+        "q": "Do you cover Desborough from your Northampton office?",
+        "a": "Yes. Desborough lies north of our Kingsthorpe Road office in Northampton, reached via the A6. We can arrange a Discovery Consultation in person or by phone, whichever you prefer."
+      },
+      {
+        "q": "Which council covers Desborough, and where can I ask about care assessments?",
+        "a": "Desborough is in the North Northamptonshire Council area. Its adult social care pages explain how to get care and support. Chayce does not give care, financial or legal advice, but we can plan a move around the decisions you make. See",
+        "url": "https://www.northnorthants.gov.uk/adult-social-care",
+        "linkText": "the North Northamptonshire Council adult social care pages",
+        "ext": true
+      },
+      {
+        "q": "Which council do I tell when I move to or from Desborough?",
+        "a": "North Northamptonshire Council deals with Council Tax for Desborough. Tell it about your move through its Council Tax pages, and tell the council for your old or new area too if it is different. See",
+        "url": "https://www.northnorthants.gov.uk/counciltax/moving-home",
+        "linkText": "the North Northamptonshire Council Council Tax pages",
+        "ext": true
+      },
+      {
+        "q": "Who else do I need to tell when I move in Desborough?",
+        "a": "Besides your council, tell your GP, the electoral register, DVLA, your bank and everyone who writes to you. Our guide to moving in Northamptonshire lists them in order. See",
+        "url": "/blog/moving-in-northamptonshire-councils-council-tax/",
+        "linkText": "Moving in Northamptonshire: councils, Council Tax and who to tell"
+      },
+      {
+        "q": "Where is the nearest hospital to Desborough?",
+        "a": "Kettering General Hospital is the nearest large acute hospital. For services and visiting information, see",
+        "url": "https://www.kgh.nhs.uk/",
+        "linkText": "the Kettering General Hospital website",
+        "ext": true
+      },
+      {
+        "q": "Where can older people in Desborough get local advice?",
+        "a": "Age UK Northamptonshire is the local Age UK for the area, offering information and advice for older people. Chayce has no commercial link with it. See",
+        "url": "https://www.ageuk.org.uk/northamptonshire/",
+        "linkText": "Age UK Northamptonshire",
+        "ext": true
+      },
+      {
+        "q": "Do you offer downsizing help for older people in Desborough?",
+        "a": "Yes. We help older people in Desborough decide what to keep, sell or pass on, pack with care, arrange the removal and settle in at the new home."
+      },
+      {
+        "q": "Do you offer removals for elderly people in Desborough?",
+        "a": "Yes. Removals for older people are part of our service in Desborough. Every removal is fully insured against loss or damage in transit, and a dedicated coordinator looks after the whole move."
+      },
+      {
+        "q": "Do you help people moving out of Desborough to other parts of the UK?",
+        "a": "Yes. Chayce arranges later-life moves from Desborough to anywhere in the UK, as well as moves within Desborough and the surrounding villages."
+      }
+    ]
+  },
+  {
+    "slug": "olney",
+    "name": "Olney",
+    "county": "Buckinghamshire",
+    "council": "Milton Keynes City Council",
+    "postcodes": "MK46",
+    "direction": "south-east",
+    "road": "the A509 and A428",
+    "rail": "Olney's own station is closed to passengers; the nearest station is at Wolverton, about 8 miles away, with inter-city services from Milton Keynes Central and Bedford, each about 11 miles away",
+    "hospital": "Milton Keynes University Hospital, Northampton General Hospital and Bedford Hospital are all within about 10 miles",
+    "context": "Olney is a market town in the City of Milton Keynes area of Buckinghamshire, known for the Olney Hymns by William Cowper and John Newton and for its historic Pancake Race.",
+    "planFor": [
+      "Olney is in the City of Milton Keynes area, so Council Tax and local services are dealt with by Milton Keynes City Council, not a Northamptonshire council.",
+      "As a former coaching town with many historic inns, its central streets can be tight, so access and parking are checked in advance.",
+      "Moves from Olney can run to Milton Keynes, Bedford, Northampton or anywhere in the UK, and we arrange them from our Northampton base."
+    ],
+    "faqTitle": "Do you help people moving out of Olney to other parts of the UK?",
+    "faqAnswer": "Yes. Chayce arranges later-life moves from Olney to anywhere in the UK, as well as moves within Olney and the surrounding villages.",
+    "heroImage": "chayce-uk-wellingborough.jpg",
+    "image": "chayce-uk-wellingborough2.jpg",
+    "image2": "chayce-uk-northampton.jpg",
+    "wikipedia": "https://en.wikipedia.org/wiki/Olney,_Buckinghamshire",
+    "localHelp": [
+      {
+        "label": "Milton Keynes City Council adult social care",
+        "url": "https://www.milton-keynes.gov.uk/adult-social-care",
+        "note": "Care assessments, support at home and independent living for people living in the council area."
+      },
+      {
+        "label": "Milton Keynes City Council Council Tax",
+        "url": "https://www.milton-keynes.gov.uk/council-tax",
+        "note": "How to tell the council about a move into, out of or within its area."
+      },
+      {
+        "label": "Milton Keynes University Hospital",
+        "url": "https://www.mkuh.nhs.uk/",
+        "note": "The main acute hospital for Milton Keynes."
+      },
+      {
+        "label": "Age UK Milton Keynes",
+        "url": "https://www.ageuk.org.uk/miltonkeynes/",
+        "note": "The local Age UK, offering information and advice for older people."
+      },
+      {
+        "label": "Care Quality Commission (CQC)",
+        "url": "https://www.cqc.org.uk/care-services",
+        "note": "Search inspection reports for any care home or home care provider before you choose one."
+      }
+    ],
+    "localFaqs": [
+      {
+        "q": "Do you cover Olney from your Northampton office?",
+        "a": "Yes. Olney lies south-east of our Kingsthorpe Road office in Northampton, reached via the A509 and A428. We can arrange a Discovery Consultation in person or by phone, whichever you prefer."
+      },
+      {
+        "q": "Which council covers Olney, and where can I ask about care assessments?",
+        "a": "Olney is in the Milton Keynes City Council area. Its adult social care pages explain how to get care and support. Chayce does not give care, financial or legal advice, but we can plan a move around the decisions you make. See",
+        "url": "https://www.milton-keynes.gov.uk/adult-social-care",
+        "linkText": "the Milton Keynes City Council adult social care pages",
+        "ext": true
+      },
+      {
+        "q": "Which council do I tell when I move to or from Olney?",
+        "a": "Milton Keynes City Council deals with Council Tax for Olney. Tell it about your move through its Council Tax pages, and tell the council for your old or new area too if it is different. See",
+        "url": "https://www.milton-keynes.gov.uk/council-tax",
+        "linkText": "the Milton Keynes City Council Council Tax pages",
+        "ext": true
+      },
+      {
+        "q": "Who else do I need to tell when I move in Olney?",
+        "a": "Besides your council, tell your GP, the electoral register, DVLA, your bank and everyone who writes to you. Our change of address checklist lists them in order. See",
+        "url": "/blog/change-of-address-checklist-uk/",
+        "linkText": "our change of address checklist"
+      },
+      {
+        "q": "Where is the nearest hospital to Olney?",
+        "a": "Milton Keynes University Hospital, Northampton General Hospital and Bedford Hospital are all within about 10 miles. For services and visiting information, see",
+        "url": "https://www.mkuh.nhs.uk/",
+        "linkText": "the Milton Keynes University Hospital website",
+        "ext": true
+      },
+      {
+        "q": "Where can older people in Olney get local advice?",
+        "a": "Age UK Milton Keynes is the local Age UK for the area, offering information and advice for older people. Chayce has no commercial link with it. See",
+        "url": "https://www.ageuk.org.uk/miltonkeynes/",
+        "linkText": "Age UK Milton Keynes",
+        "ext": true
+      },
+      {
+        "q": "Do you offer downsizing help for older people in Olney?",
+        "a": "Yes. We help older people in Olney decide what to keep, sell or pass on, pack with care, arrange the removal and settle in at the new home."
+      },
+      {
+        "q": "Do you offer removals for elderly people in Olney?",
+        "a": "Yes. Removals for older people are part of our service in Olney. Every removal is fully insured against loss or damage in transit, and a dedicated coordinator looks after the whole move."
+      },
+      {
+        "q": "Do you help people moving out of Olney to other parts of the UK?",
+        "a": "Yes. Chayce arranges later-life moves from Olney to anywhere in the UK, as well as moves within Olney and the surrounding villages."
+      }
+    ]
   },
   {
     "slug": "market-harborough",
@@ -314,7 +958,6 @@
     "county": "Leicestershire",
     "council": "Harborough District Council",
     "postcodes": "LE16",
-    "distance": "around 17 miles",
     "direction": "north",
     "road": "the A508",
     "rail": "Market Harborough station is on the Midland Main Line, with direct trains to London St Pancras",
@@ -330,7 +973,62 @@
     "heroImage": "chayce-uk-cotswolds.jpg",
     "image": "chayce-uk-kettering2.jpg",
     "image2": "chayce-uk-homecounties.jpg",
-    "wikipedia": "https://en.wikipedia.org/wiki/Market_Harborough"
+    "wikipedia": "https://en.wikipedia.org/wiki/Market_Harborough",
+    "localHelp": [
+      {
+        "label": "Harborough District Council Council Tax",
+        "url": "https://www.harborough.gov.uk/council-tax",
+        "note": "How to tell the council about a move into, out of or within its area."
+      },
+      {
+        "label": "Kettering General Hospital",
+        "url": "https://www.kgh.nhs.uk/",
+        "note": "A large acute hospital serving the north of the county."
+      },
+      {
+        "label": "Care Quality Commission (CQC)",
+        "url": "https://www.cqc.org.uk/care-services",
+        "note": "Search inspection reports for any care home or home care provider before you choose one."
+      }
+    ],
+    "localFaqs": [
+      {
+        "q": "Do you cover Market Harborough from your Northampton office?",
+        "a": "Yes. Market Harborough lies north of our Kingsthorpe Road office in Northampton, reached via the A508. We can arrange a Discovery Consultation in person or by phone, whichever you prefer."
+      },
+      {
+        "q": "Which council do I tell when I move to or from Market Harborough?",
+        "a": "Harborough District Council deals with Council Tax for Market Harborough. Tell it about your move through its Council Tax pages, and tell the council for your old or new area too if it is different. See",
+        "url": "https://www.harborough.gov.uk/council-tax",
+        "linkText": "the Harborough District Council Council Tax pages",
+        "ext": true
+      },
+      {
+        "q": "Who else do I need to tell when I move in Market Harborough?",
+        "a": "Besides your council, tell your GP, the electoral register, DVLA, your bank and everyone who writes to you. Our change of address checklist lists them in order. See",
+        "url": "/blog/change-of-address-checklist-uk/",
+        "linkText": "our change of address checklist"
+      },
+      {
+        "q": "Where is the nearest hospital to Market Harborough?",
+        "a": "Kettering General Hospital and Leicester Royal Infirmary are the nearest large acute hospitals. For services and visiting information, see",
+        "url": "https://www.kgh.nhs.uk/",
+        "linkText": "the Kettering General Hospital website",
+        "ext": true
+      },
+      {
+        "q": "Do you offer downsizing help for older people in Market Harborough?",
+        "a": "Yes. We help older people in Market Harborough decide what to keep, sell or pass on, pack with care, arrange the removal and settle in at the new home."
+      },
+      {
+        "q": "Do you offer removals for elderly people in Market Harborough?",
+        "a": "Yes. Removals for older people are part of our service in Market Harborough. Every removal is fully insured against loss or damage in transit, and a dedicated coordinator looks after the whole move."
+      },
+      {
+        "q": "Do you help people moving out of Market Harborough to other parts of the UK?",
+        "a": "Yes. Chayce arranges later-life moves from Market Harborough to anywhere in the UK, as well as moves within Market Harborough and the surrounding area. We coordinate sorting, packing, the removal and settling in at the new home."
+      }
+    ]
   },
   {
     "slug": "rugby",
@@ -338,7 +1036,6 @@
     "county": "Warwickshire",
     "council": "Rugby Borough Council",
     "postcodes": "CV21, CV22 or CV23",
-    "distance": "around 20 miles",
     "direction": "north-west",
     "road": "the A5 and A45",
     "rail": "Rugby station is on the West Coast Main Line, with direct trains to London Euston",
@@ -354,7 +1051,66 @@
     "heroImage": "chayce-uk-homecounties.jpg",
     "image": "chayce-uk-daventry2.jpg",
     "image2": "chayce-uk-cotswolds.jpg",
-    "wikipedia": "https://en.wikipedia.org/wiki/Rugby,_Warwickshire"
+    "wikipedia": "https://en.wikipedia.org/wiki/Rugby,_Warwickshire",
+    "localHelp": [
+      {
+        "label": "Rugby Borough Council Council Tax",
+        "url": "https://www.rugby.gov.uk/w/council-tax-register-to-pay-or-tell-us-you-have-changed-your-address",
+        "note": "How to tell the council about a move into, out of or within its area."
+      },
+      {
+        "label": "Age UK Coventry & Warwickshire",
+        "url": "https://www.ageuk.org.uk/coventryandwarwickshire/",
+        "note": "The local Age UK, offering information and advice for older people."
+      },
+      {
+        "label": "Care Quality Commission (CQC)",
+        "url": "https://www.cqc.org.uk/care-services",
+        "note": "Search inspection reports for any care home or home care provider before you choose one."
+      }
+    ],
+    "localFaqs": [
+      {
+        "q": "Do you cover Rugby from your Northampton office?",
+        "a": "Yes. Rugby lies north-west of our Kingsthorpe Road office in Northampton, reached via the A5 and A45. We can arrange a Discovery Consultation in person or by phone, whichever you prefer."
+      },
+      {
+        "q": "Which council do I tell when I move to or from Rugby?",
+        "a": "Rugby Borough Council deals with Council Tax for Rugby. Tell it about your move through its Council Tax pages, and tell the council for your old or new area too if it is different. See",
+        "url": "https://www.rugby.gov.uk/w/council-tax-register-to-pay-or-tell-us-you-have-changed-your-address",
+        "linkText": "the Rugby Borough Council Council Tax pages",
+        "ext": true
+      },
+      {
+        "q": "Who else do I need to tell when I move in Rugby?",
+        "a": "Besides your council, tell your GP, the electoral register, DVLA, your bank and everyone who writes to you. Our change of address checklist lists them in order. See",
+        "url": "/blog/change-of-address-checklist-uk/",
+        "linkText": "our change of address checklist"
+      },
+      {
+        "q": "Where is the nearest hospital to Rugby?",
+        "a": "Hospital of St Cross is in the town."
+      },
+      {
+        "q": "Where can older people in Rugby get local advice?",
+        "a": "Age UK Coventry & Warwickshire is the local Age UK for the area, offering information and advice for older people. Chayce has no commercial link with it. See",
+        "url": "https://www.ageuk.org.uk/coventryandwarwickshire/",
+        "linkText": "Age UK Coventry & Warwickshire",
+        "ext": true
+      },
+      {
+        "q": "Do you offer downsizing help for older people in Rugby?",
+        "a": "Yes. We help older people in Rugby decide what to keep, sell or pass on, pack with care, arrange the removal and settle in at the new home."
+      },
+      {
+        "q": "Do you offer removals for elderly people in Rugby?",
+        "a": "Yes. Removals for older people are part of our service in Rugby. Every removal is fully insured against loss or damage in transit, and a dedicated coordinator looks after the whole move."
+      },
+      {
+        "q": "Do you help people moving out of Rugby to other parts of the UK?",
+        "a": "Yes. Chayce arranges later-life moves from Rugby to anywhere in the UK, as well as moves within Rugby and the surrounding area. Tell us your postcode when you contact us and we will confirm the details."
+      }
+    ]
   },
   {
     "slug": "milton-keynes",
@@ -362,7 +1118,6 @@
     "county": "Buckinghamshire",
     "council": "Milton Keynes City Council",
     "postcodes": "MK postcodes",
-    "distance": "around 16 miles",
     "direction": "south",
     "road": "the A508 and M1",
     "rail": "Milton Keynes Central is on the West Coast Main Line, with direct trains to London Euston",
@@ -378,7 +1133,86 @@
     "heroImage": "chayce-uk-homecounties.jpg",
     "image": "chayce-uk-london.jpg",
     "image2": "chayce-uk-northampton2.jpg",
-    "wikipedia": "https://en.wikipedia.org/wiki/Milton_Keynes"
+    "wikipedia": "https://en.wikipedia.org/wiki/Milton_Keynes",
+    "localHelp": [
+      {
+        "label": "Milton Keynes City Council adult social care",
+        "url": "https://www.milton-keynes.gov.uk/adult-social-care",
+        "note": "Care assessments, support at home and independent living for people living in the council area."
+      },
+      {
+        "label": "Milton Keynes City Council Council Tax",
+        "url": "https://www.milton-keynes.gov.uk/council-tax",
+        "note": "How to tell the council about a move into, out of or within its area."
+      },
+      {
+        "label": "Milton Keynes University Hospital",
+        "url": "https://www.mkuh.nhs.uk/",
+        "note": "The main acute hospital for Milton Keynes."
+      },
+      {
+        "label": "Age UK Milton Keynes",
+        "url": "https://www.ageuk.org.uk/miltonkeynes/",
+        "note": "The local Age UK, offering information and advice for older people."
+      },
+      {
+        "label": "Care Quality Commission (CQC)",
+        "url": "https://www.cqc.org.uk/care-services",
+        "note": "Search inspection reports for any care home or home care provider before you choose one."
+      }
+    ],
+    "localFaqs": [
+      {
+        "q": "Do you cover Milton Keynes from your Northampton office?",
+        "a": "Yes. Milton Keynes lies south of our Kingsthorpe Road office in Northampton, reached via the A508 and M1. We can arrange a Discovery Consultation in person or by phone, whichever you prefer."
+      },
+      {
+        "q": "Which council covers Milton Keynes, and where can I ask about care assessments?",
+        "a": "Milton Keynes is in the Milton Keynes City Council area. Its adult social care pages explain how to get care and support. Chayce does not give care, financial or legal advice, but we can plan a move around the decisions you make. See",
+        "url": "https://www.milton-keynes.gov.uk/adult-social-care",
+        "linkText": "the Milton Keynes City Council adult social care pages",
+        "ext": true
+      },
+      {
+        "q": "Which council do I tell when I move to or from Milton Keynes?",
+        "a": "Milton Keynes City Council deals with Council Tax for Milton Keynes. Tell it about your move through its Council Tax pages, and tell the council for your old or new area too if it is different. See",
+        "url": "https://www.milton-keynes.gov.uk/council-tax",
+        "linkText": "the Milton Keynes City Council Council Tax pages",
+        "ext": true
+      },
+      {
+        "q": "Who else do I need to tell when I move in Milton Keynes?",
+        "a": "Besides your council, tell your GP, the electoral register, DVLA, your bank and everyone who writes to you. Our change of address checklist lists them in order. See",
+        "url": "/blog/change-of-address-checklist-uk/",
+        "linkText": "our change of address checklist"
+      },
+      {
+        "q": "Where is the nearest hospital to Milton Keynes?",
+        "a": "Milton Keynes University Hospital is in the city. For services and visiting information, see",
+        "url": "https://www.mkuh.nhs.uk/",
+        "linkText": "the Milton Keynes University Hospital website",
+        "ext": true
+      },
+      {
+        "q": "Where can older people in Milton Keynes get local advice?",
+        "a": "Age UK Milton Keynes is the local Age UK for the area, offering information and advice for older people. Chayce has no commercial link with it. See",
+        "url": "https://www.ageuk.org.uk/miltonkeynes/",
+        "linkText": "Age UK Milton Keynes",
+        "ext": true
+      },
+      {
+        "q": "Do you offer downsizing help for older people in Milton Keynes?",
+        "a": "Yes. We help older people in Milton Keynes decide what to keep, sell or pass on, pack with care, arrange the removal and settle in at the new home."
+      },
+      {
+        "q": "Do you offer removals for elderly people in Milton Keynes?",
+        "a": "Yes. Removals for older people are part of our service in Milton Keynes. Every removal is fully insured against loss or damage in transit, and a dedicated coordinator looks after the whole move."
+      },
+      {
+        "q": "Do you help people moving out of Milton Keynes to other parts of the UK?",
+        "a": "Yes. Chayce arranges later-life moves from Milton Keynes to anywhere in the UK, as well as moves within Milton Keynes and the surrounding area. We coordinate sorting, packing, the removal and settling in at the new home."
+      }
+    ]
   },
   {
     "slug": "bedford",
@@ -386,7 +1220,6 @@
     "county": "Bedfordshire",
     "council": "Bedford Borough Council",
     "postcodes": "MK40 to MK45",
-    "distance": "around 22 miles",
     "direction": "south-east",
     "road": "the A428",
     "rail": "Bedford station has Thameslink and Midland Main Line trains to London",
@@ -402,7 +1235,86 @@
     "heroImage": "chayce-uk-london.jpg",
     "image": "chayce-uk-homecounties.jpg",
     "image2": "chayce-uk-wellingborough2.jpg",
-    "wikipedia": "https://en.wikipedia.org/wiki/Bedford"
+    "wikipedia": "https://en.wikipedia.org/wiki/Bedford",
+    "localHelp": [
+      {
+        "label": "Bedford Borough Council adult social care",
+        "url": "https://www.bedford.gov.uk/social-care-and-health",
+        "note": "Care assessments, support at home and independent living for people living in the council area."
+      },
+      {
+        "label": "Bedford Borough Council Council Tax",
+        "url": "https://www.bedford.gov.uk/council-tax",
+        "note": "How to tell the council about a move into, out of or within its area."
+      },
+      {
+        "label": "Bedford Hospital",
+        "url": "https://www.bedfordhospital.nhs.uk/",
+        "note": "The hospital in Bedford."
+      },
+      {
+        "label": "Age UK Bedfordshire",
+        "url": "https://www.ageuk.org.uk/bedfordshire/",
+        "note": "The local Age UK, offering information and advice for older people."
+      },
+      {
+        "label": "Care Quality Commission (CQC)",
+        "url": "https://www.cqc.org.uk/care-services",
+        "note": "Search inspection reports for any care home or home care provider before you choose one."
+      }
+    ],
+    "localFaqs": [
+      {
+        "q": "Do you cover Bedford from your Northampton office?",
+        "a": "Yes. Bedford lies south-east of our Kingsthorpe Road office in Northampton, reached via the A428. We can arrange a Discovery Consultation in person or by phone, whichever you prefer."
+      },
+      {
+        "q": "Which council covers Bedford, and where can I ask about care assessments?",
+        "a": "Bedford is in the Bedford Borough Council area. Its adult social care pages explain how to get care and support. Chayce does not give care, financial or legal advice, but we can plan a move around the decisions you make. See",
+        "url": "https://www.bedford.gov.uk/social-care-and-health",
+        "linkText": "the Bedford Borough Council adult social care pages",
+        "ext": true
+      },
+      {
+        "q": "Which council do I tell when I move to or from Bedford?",
+        "a": "Bedford Borough Council deals with Council Tax for Bedford. Tell it about your move through its Council Tax pages, and tell the council for your old or new area too if it is different. See",
+        "url": "https://www.bedford.gov.uk/council-tax",
+        "linkText": "the Bedford Borough Council Council Tax pages",
+        "ext": true
+      },
+      {
+        "q": "Who else do I need to tell when I move in Bedford?",
+        "a": "Besides your council, tell your GP, the electoral register, DVLA, your bank and everyone who writes to you. Our change of address checklist lists them in order. See",
+        "url": "/blog/change-of-address-checklist-uk/",
+        "linkText": "our change of address checklist"
+      },
+      {
+        "q": "Where is the nearest hospital to Bedford?",
+        "a": "Bedford Hospital is in the town. For services and visiting information, see",
+        "url": "https://www.bedfordhospital.nhs.uk/",
+        "linkText": "the Bedford Hospital website",
+        "ext": true
+      },
+      {
+        "q": "Where can older people in Bedford get local advice?",
+        "a": "Age UK Bedfordshire is the local Age UK for the area, offering information and advice for older people. Chayce has no commercial link with it. See",
+        "url": "https://www.ageuk.org.uk/bedfordshire/",
+        "linkText": "Age UK Bedfordshire",
+        "ext": true
+      },
+      {
+        "q": "Do you offer downsizing help for older people in Bedford?",
+        "a": "Yes. We help older people in Bedford decide what to keep, sell or pass on, pack with care, arrange the removal and settle in at the new home."
+      },
+      {
+        "q": "Do you offer removals for elderly people in Bedford?",
+        "a": "Yes. Removals for older people are part of our service in Bedford. Every removal is fully insured against loss or damage in transit, and a dedicated coordinator looks after the whole move."
+      },
+      {
+        "q": "Do you help people moving out of Bedford to other parts of the UK?",
+        "a": "Yes. Chayce arranges later-life moves from Bedford to anywhere in the UK, as well as moves within Bedford and the surrounding area. Tell us your postcode when you contact us and we will confirm the details."
+      }
+    ]
   },
   {
     "slug": "leicester",
@@ -410,7 +1322,6 @@
     "county": "Leicestershire",
     "council": "Leicester City Council",
     "postcodes": "LE1 to LE5",
-    "distance": "around 40 miles",
     "direction": "north",
     "road": "the M1",
     "rail": "Leicester station is on the Midland Main Line, with direct trains to London St Pancras",
@@ -434,7 +1345,6 @@
     "county": "Oxfordshire",
     "council": "Oxford City Council",
     "postcodes": "OX1 to OX4",
-    "distance": "around 50 miles",
     "direction": "south-west",
     "road": "the A43 and M40",
     "rail": "Oxford station has direct trains to London Paddington and on to Reading and the Cotswolds",
@@ -458,7 +1368,6 @@
     "county": "Cambridgeshire",
     "council": "Cambridge City Council",
     "postcodes": "CB1 to CB5",
-    "distance": "around 55 miles",
     "direction": "east",
     "road": "the A14",
     "rail": "Cambridge station has direct trains to London King's Cross and London Liverpool Street",
@@ -482,7 +1391,6 @@
     "county": "Cambridgeshire",
     "council": "Peterborough City Council",
     "postcodes": "PE1 to PE4",
-    "distance": "around 50 miles",
     "direction": "north-east",
     "road": "the A14 and A1",
     "rail": "Peterborough station is on the East Coast Main Line, with direct trains to London King's Cross",
@@ -506,7 +1414,6 @@
     "county": "West Midlands",
     "council": "Coventry City Council",
     "postcodes": "CV1 to CV6",
-    "distance": "around 35 miles",
     "direction": "north-west",
     "road": "the A45",
     "rail": "Coventry station has direct trains to London Euston and Birmingham",
@@ -530,7 +1437,6 @@
     "county": "Oxfordshire",
     "council": "Cherwell District Council",
     "postcodes": "OX15 to OX17",
-    "distance": "around 27 miles",
     "direction": "south-west",
     "road": "the A43 and A422",
     "rail": "Banbury station has direct trains to London Marylebone and Birmingham",

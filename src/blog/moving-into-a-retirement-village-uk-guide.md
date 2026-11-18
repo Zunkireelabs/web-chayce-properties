@@ -39,6 +39,8 @@ featuredImageAlt: "An older couple embracing in a comfortable, elegantly furnish
 
 This is general information, not legal or financial advice. Before buying, renting or signing a lease, take advice from a solicitor and, where relevant, a financial adviser.
 
+For how retirement housing compares with assisted living and care homes, see our [UK comparison](/blog/care-home-assisted-living-sheltered-housing-or-staying-put-uk/). Looking in Northampton? See [retirement housing in Northampton](/blog/retirement-housing-in-northampton-uk-guide/).
+
 ## The three main types at a glance
 
 | | Retirement village | Retirement flat or apartment | Sheltered housing |

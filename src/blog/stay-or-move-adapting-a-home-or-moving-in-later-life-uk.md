@@ -53,6 +53,8 @@ In England, a means-tested [Disabled Facilities Grant](https://www.gov.uk/disabl
 4. How important is the area, my neighbours and being near family?
 5. What would I look for in a smaller home? See [what to look for in a smaller home](/blog/what-to-look-for-in-a-smaller-home-uk/).
 
+Comparing the options for where to live next? See [care home, assisted living, sheltered housing or staying put](/blog/care-home-assisted-living-sheltered-housing-or-staying-put-uk/).
+
 ## When the answer is to move
 
 If you decide to move, start early. Our [downsizing guide and checklist](/blog/downsizing-checklist-what-to-keep-uk/) covers the steps, and our guide to [when is the right time to downsize](/blog/when-to-downsize-uk/) helps with timing.

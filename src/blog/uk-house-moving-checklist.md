@@ -1,8 +1,8 @@
 ---
-title: "The UK House Moving Checklist: 10 Steps for a Smooth Move"
-description: "A practical, step-by-step UK house moving checklist — from 8 weeks out to moving day itself — for anyone planning a home move."
+title: "Moving House Checklist UK: 8-Week Printable Timeline"
+description: "A printable UK moving house checklist: what to do 8, 6, 4, 3, 2 and 1 weeks before and on moving day, plus who to tell and what to pack last."
 date: "2026-09-24"
-dateModified: "2026-11-04"
+dateModified: "2026-11-18"
 featuredImage: "https://images.pexels.com/photos/4246085/pexels-photo-4246085.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 featuredImageAlt: "A couple carrying boxes down the stairs on moving day."
 featuredImageCredit: "Photo via Pexels"
@@ -18,6 +18,10 @@ sources:
     url: "https://www.gov.uk/register-to-vote"
   - name: "British Association of Removers"
     url: "https://bar.co.uk/"
+  - name: "GOV.UK: Selling a home"
+    url: "https://www.gov.uk/selling-a-home"
+  - name: "GOV.UK: Buying a home"
+    url: "https://www.gov.uk/buying-a-home"
 faq:
   - q: "How far ahead should I start planning a house move in the UK?"
     a: "Start about eight weeks ahead. That gives you time to book a removals company, sort belongings, start the paperwork and arrange mail redirection before moving day."
@@ -30,11 +34,17 @@ faq:
   - q: "What do I need to do before moving house in the UK?"
     a: "Book removals early, tell your lender or landlord, sort and pack non-essentials, arrange mail redirection and update your address with banks, insurers and your GP, then confirm details in writing and prepare a first night box."
   - q: "How long does it take to move house in the UK?"
-    a: "From an accepted offer to completion usually takes several months, and the time varies with the chain and the paperwork. The move itself is normally a day, but planning should start about eight weeks ahead."
+    a: "GOV.UK says buying or selling a home takes about 5 months on average, and longer if you are part of a chain of buyers and sellers. The move itself is normally a day, but planning should start about eight weeks ahead."
   - q: "What is the best time to move house in the UK?"
     a: "Removals firms are often busiest at weekends, month ends and school holidays, so a mid-week or mid-month date can be easier to book. Your completion date, chain and circumstances matter more than the calendar."
+  - q: "What is the process of moving house in the UK?"
+    a: "In England and Wales, GOV.UK sets out the steps: agree a price and an offer, choose a solicitor or conveyancer, exchange contracts, then complete and move out. If you are buying you also arrange a mortgage and choose a property first. The checklist on this page covers the practical tasks from eight weeks before moving day. Scotland and Northern Ireland have different processes."
+  - q: "What do I need to change when I move house?"
+    a: "Tell your bank, insurers, employer, GP, utility and broadband providers and your council. Update your driving licence with DVLA, register to vote at the new address, tell HMRC and set up Royal Mail redirection. Our change of address checklist puts them in order."
+  - q: "What are the main things to think about when moving house?"
+    a: "Your budget, the timeline for the sale and purchase, how you will get your belongings moved, what to do with things you no longer need, and who to tell about your new address. Planning about eight weeks ahead keeps these from landing on top of each other."
 howTo:
-  name: "UK House Moving Checklist: 10 Steps for a Smooth Move"
+  name: "Moving House Checklist UK: 8-Week Timeline"
   steps:
     - name: "8 Weeks Before: Get the Big Decisions Sorted"
       text: "Book your removal company or van early — the good ones get booked up, especially around weekends and the end of the month. This is also the point to start sorting through belongings, since knowing roughly what you're moving helps you get an accurate quote rather than a guess."
@@ -59,6 +69,17 @@ howTo:
 ## Why a Timeline Beats a To-Do List
 
 Most house-moving stress in the UK comes from things landing on top of each other at the last minute — bookings, paperwork and packing all colliding in the final week. Spreading the same tasks across a timeline, starting well before moving day, makes each individual step manageable.
+
+## The Moving House Process in Order
+
+The checklist below covers the practical tasks. Alongside it runs the legal process of selling and buying, which GOV.UK says takes about 5 months on average, and longer if you are part of a chain. In England and Wales the main steps are:
+
+1. **Agree a price and an offer.** When selling, accept or negotiate an offer. When buying, choose a property and make one, after arranging a mortgage if you need one.
+2. **Choose a solicitor or conveyancer** to do the legal work of transferring ownership.
+3. **Exchange contracts.**
+4. **Complete.** Ownership transfers and you move out.
+
+Scotland and Northern Ireland have their own processes. See GOV.UK on [selling a home](https://www.gov.uk/selling-a-home) and [buying a home](https://www.gov.uk/buying-a-home), and our guide to [selling your home to relocate](/blog/selling-your-home-to-relocate-uk-timeline/) for how chains add uncertainty.
 
 ## 8 Weeks Before: Get the Big Decisions Sorted
 
@@ -87,6 +108,27 @@ Pack everything except what you'll need for the final few days. Defrost and clea
 ## Moving Day: Keep It Simple
 
 Do a final walkthrough of the old property, checking cupboards, lofts and outdoor spaces are genuinely empty. Take meter readings before you leave. Keep important documents, keys and valuables with you rather than on the van.
+
+## What Do I Need to Change When I Move House?
+
+Most people forget at least one of these, so write the list early:
+
+- **Your council**, so Council Tax and local services are dealt with. See [Council Tax on GOV.UK](https://www.gov.uk/council-tax).
+- **DVLA**, to [change the address on your driving licence](https://www.gov.uk/change-address-driving-licence).
+- **The electoral register**, to [register to vote](https://www.gov.uk/register-to-vote) at your new address.
+- **HMRC**, banks, insurers, your employer, your GP and your utility and broadband providers.
+- **Royal Mail**, to redirect post while you update everyone else.
+
+Our [change of address checklist](/blog/change-of-address-checklist-uk/) lists everyone in the order to tell them.
+
+## Things to Think About Before You Start
+
+- **The budget.** See the [cost of moving house in the UK](/blog/cost-of-moving-house-uk/).
+- **Removals quotes.** See [how to compare removals quotes](/blog/how-to-compare-removals-quotes-uk-what-to-check/).
+- **Belongings you no longer need.** See [what to do with furniture when downsizing](/blog/what-to-do-with-furniture-when-downsizing-uk/).
+- **Helping an older relative.** See our [moving checklist for older people](/blog/moving-checklist-for-older-people-uk/) and [how to plan a stress-free move for an older person](/blog/plan-a-stress-free-elderly-move-uk/).
+- **Moving day itself.** See our [moving day checklist](/blog/moving-day-checklist-uk/), which you can print.
+- **The legal side.** See [the moving house process, step by step](/blog/moving-house-process-uk-step-by-step/).
 
 ## What Actually Makes the Biggest Difference
 

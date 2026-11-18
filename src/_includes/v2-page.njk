@@ -1,0 +1,175 @@
+---
+layout: base.njk
+---
+{#- v2 inner landing page (approved design, 17 Nov 2026).
+    Every section is driven by the page's front matter, so all pages share one design
+    and each keeps its own keywords and content. Prices: write {bronze} {silver} {gold}
+    {platinum} {discovery} and they are filled from site.json. Sections with no data are skipped. -#}
+{%- set P = site -%}{%- set heroImg = hero.image or 'chayce-about2.jpg' -%}
+<header class="v2-hero" style="background-image:url({% imageUrl heroImg %});{% imageSet heroImg %}">
+  <div class="v2-wrap">
+    <h1><span class="h1-kicker">{{ hero.kicker | safe }}{% if hero.kickerMore %}<span class="v2-kick-more"> &middot; {{ hero.kickerMore | safe }}</span>{% endif %}</span>{{ hero.title | safe }}{% if hero.titleEm %} <em>{{ hero.titleEm | safe }}</em>{% endif %}</h1>
+    <p class="v2-lead">{{ hero.lead | fillPrices(P) | safe }}</p>
+    <div class="v2-actions"><a class="v2-btn primary" href="/get-started/">Get Started</a><a class="v2-tel" href="tel:{{ site.telephone }}"><i class="fas fa-phone" aria-hidden="true"></i>{{ site.telephoneDisplay }}</a></div>
+  </div>
+</header>
+
+<div class="v2-trust"><div class="v2-wrap">
+  <span class="v2-pill"><i class="fas fa-user-shield" aria-hidden="true"></i>DBS-Checked Team</span>
+  <span class="v2-pill"><i class="fas fa-shield-alt" aria-hidden="true"></i>Fully Insured</span>
+  <span class="v2-pill"><i class="fas fa-user-check" aria-hidden="true"></i>One Coordinator</span>
+  <span class="v2-pill"><i class="fas fa-landmark" aria-hidden="true"></i>Since 2021</span>
+</div></div>
+
+{% if intro %}
+<section class="v2-sec grey">
+  <div class="v2-wrap">
+    <div class="v2-intro">
+      <div><span class="v2-eyebrow">{{ intro.eyebrow | safe }}</span><h2 class="v2-h2">{{ intro.h2 | safe }}{% if intro.h2em %} <em>{{ intro.h2em | safe }}</em>{% endif %}</h2></div>
+      <div class="sa-answer">
+        <p><strong>{{ intro.answer | fillPrices(P) | safe }}</strong>{% if intro.answerMore %} {{ intro.answerMore | fillPrices(P) | safe }}{% endif %}</p>
+        {% if intro.extra %}<p>{{ intro.extra | fillPrices(P) | safe }}</p>{% endif %}
+      </div>
+    </div>
+  </div>
+</section>
+{% endif %}
+
+{% if included %}
+<section class="v2-sec">
+  <div class="v2-wrap">
+    <div class="v2-head"><span class="v2-eyebrow">{{ (included.eyebrow or "What&rsquo;s included") | safe }}</span><h2 class="v2-h2">{{ included.h2 | safe }}{% if included.h2em %} <em>{{ included.h2em | safe }}</em>{% endif %}</h2>{% if included.lede %}<p class="v2-lede">{{ included.lede | fillPrices(P) | safe }}</p>{% endif %}</div>
+    <div class="v2-incl{% if included.noPrices %} v2-incl--full{% endif %}">
+      <div>
+        <div class="v2-points">
+          {% for pt in included.points %}<div class="v2-point"><i class="fas fa-{{ pt.icon or 'check' }}" aria-hidden="true"></i><div><h3>{{ pt.title | safe }}</h3><p>{{ pt.text | fillPrices(P) | safe }}</p></div></div>
+          {% endfor %}
+        </div>
+        {% if included.note %}<p class="v2-note">{{ included.note | fillPrices(P) | safe }}</p>{% endif %}
+      </div>
+      {% if not included.noPrices %}
+      {% set rows = included.prices or [["bronze","from","Packing, insured removal, furniture reassembly and light cleaning."],["silver","from","Adds declutter help, a deep clean and unpacking, with a coordinator."],["discovery","one-off","Not sure yet? A one-hour plan, timeline and budget."]] %}
+      <aside class="v2-price" aria-label="Prices">
+        {% for r in rows %}{% set pk = site.packages | findByKey(r[0]) %}<div class="pr"><span class="amt"><small>{{ r[1] }}</small>&pound;{{ pk.price | gbp }}</span><span class="nm">{{ pk.name }}</span><p>{{ r[2] | safe }}</p></div>
+        {% endfor %}
+        <a class="v2-btn primary" href="/packages/">Compare packages</a>
+        <p class="fine">Final price confirmed in writing before you book.</p>
+      </aside>
+      {% endif %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+{% if steps %}
+<section class="v2-sec grey">
+  <div class="v2-wrap">
+    <div class="v2-head c"><span class="v2-eyebrow">{{ steps.eyebrow or "How it works" }}</span><h2 class="v2-h2">{{ (steps.h2 or "From first call to") | safe }} <em>{{ (steps.h2em or "settled in") | safe }}</em></h2>{% if steps.lede %}<p class="v2-lede">{{ steps.lede | safe }}</p>{% endif %}</div>
+    <ol class="v2-steps{% if steps.items.length == 3 %} v2-steps--3{% endif %}">
+      {% for st in steps.items %}<li><span class="n">0{{ loop.index }}</span>{% if st.when %}<span class="v2-when">{{ st.when }}</span>{% endif %}<h3>{{ st.title | safe }}</h3><p>{{ st.text | fillPrices(P) | safe }}</p></li>
+      {% endfor %}
+    </ol>
+    {% if steps.note %}<p class="v2-steps-note">{{ steps.note | safe }}</p>{% endif %}
+  </div>
+</section>
+{% endif %}
+
+{% if stories %}
+<section class="v2-sec">
+  <div class="v2-wrap">
+    <div class="v2-head c"><span class="v2-eyebrow">{{ storiesEyebrow or "Client stories" }}</span><h2 class="v2-h2">{{ (storiesTitle or "Real moves") | safe }} <em>{{ (storiesTitleEm or "") | safe }}</em></h2></div>
+    <div class="v2-stories">
+      {% for st in stories %}<article class="v2-story"><span class="v2-story-tag">{{ st.tag }}</span><h3>{{ st.title | safe }}</h3><p>{{ st.text | safe }}</p>{% if st.href %}<a href="{{ st.href }}">Read the full client story &rarr;</a>{% endif %}</article>
+      {% endfor %}
+    </div>
+    <p class="v2-steps-note">{{ (storiesNote or "Shared with the clients&rsquo; permission. No names are used on this page.") | safe }}</p>
+  </div>
+</section>
+{% endif %}
+
+{{ content | safe }}
+
+{% if tips %}
+<section class="v2-sec">
+  <div class="v2-wrap">
+    <div class="v2-head c"><span class="v2-eyebrow">{{ tips.eyebrow | safe }}</span><h2 class="v2-h2">{{ tips.h2 | safe }} <em>{{ tips.h2em | safe }}</em></h2></div>
+    <div class="v2-tips">
+      {% for t in tips.items %}<div class="v2-tip"><i class="fas fa-{{ t.icon or 'check' }}" aria-hidden="true"></i><h3>{{ t.title | safe }}</h3><p>{{ t.text | safe }}</p></div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+{% if local %}
+<section class="v2-sec grey">
+  <div class="v2-wrap v2-local">
+    <div>
+      <span class="v2-eyebrow">{{ local.eyebrow or "Near you" }}</span>
+      <h2 class="v2-h2">{{ local.h2 | safe }} <em>{{ local.h2em | safe }}</em></h2>
+      <p class="v2-lede">{{ local.lede | safe }}</p>
+    </div>
+    <div class="v2-links">
+      {% for l in local.links %}<a href="{{ l.href }}"{% if l.href.indexOf('http') == 0 %} rel="noopener"{% endif %}>{{ l.title | safe }}<span>{{ l.text | safe }}</span></a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+{% if faqs %}
+<section class="v2-sec">
+  <div class="v2-wrap">
+    <div class="v2-head c"><span class="v2-eyebrow">Questions</span><h2 class="v2-h2">{{ (faqTitle or "What do people") | safe }} <em>{{ (faqTitleEm or "ask?") | safe }}</em></h2></div>
+    <div class="v2-faq">
+      {% for f in faqs %}<details><summary>{{ f.q | safe }}</summary><p>{{ f.a | fillPrices(P) | safe }}</p></details>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+<section class="v2-sec" style="border-top:1px solid var(--border-light)">
+  <div class="v2-wrap">
+    <div class="v2-head c"><span class="v2-eyebrow">Keep exploring</span><h2 class="v2-h2">Related help and <em>nearby areas</em></h2></div>
+    <div class="v2-related">
+      <div>
+        <h3>Related help</h3>
+        <ul class="v2-list">
+          {% set rel = related or [["/downsizing-help-for-elderly/","Downsizing help"],["/moving-elderly-parent/","Moving an elderly parent"],["/care-home-removals/","Care home removals"],["/probate-house-clearance/","Probate and moving help"],["/packing-service-uk/","Packing service"],["/storage-during-your-move/","Storage between moves"]] %}
+          {% for r in rel %}{% if r[0] != page.url %}<li><a href="{{ r[0] }}">{{ r[1] }}<i>&rarr;</i></a></li>{% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+      <div>
+        <h3>{{ areasTitle or "Moves near you" }}</h3>
+        <ul class="v2-list">
+          {% if page.url != "/elderly-removals-northampton/" %}<li><a href="/elderly-removals-northampton/">Northampton<small>our office</small><i>&rarr;</i></a></li>{% endif %}
+          {% set nearSlugs = nearAreas or ["kettering","wellingborough","corby","daventry","towcester"] %}
+          {% for a in localAreas %}{% if a.slug in nearSlugs and ("/elderly-removals-" + a.slug + "/") != page.url %}<li><a href="/elderly-removals-{{ a.slug }}/">{{ a.name }}<i>&rarr;</i></a></li>{% endif %}
+          {% endfor %}
+        </ul>
+        <a class="v2-all" href="/areas-we-cover/">All areas we cover &rarr;</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="v2-final">
+  <div class="v2-wrap">
+    <div class="panel">
+      <div class="txt">
+        <h2 class="v2-h2">{{ (final.title or "Ready to talk about") | safe }} <em>{{ (final.titleEm or "your move?") | safe }}</em></h2>
+        <p>{{ (final.text or "Tell us what is happening and we&rsquo;ll explain the options plainly, with no obligation.") | safe }}</p>
+        <div class="btn-row"><a href="/get-started/" class="v2-btn primary">Get Started</a><a href="/contact/?callback=1" class="v2-btn ghost">Request a Callback</a></div>
+        <span class="tel">Or call <a href="tel:{{ site.telephone }}">{{ site.telephoneDisplay }}</a>, Monday to Friday, {{ site.openingHours.opens }} to {{ site.openingHours.closes }}</span>
+      </div>
+      <div class="img" style="background-image:url({% imageUrl 'chayce-hero2.jpg', 900 %})"></div>
+    </div>
+  </div>
+</section>
+
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","url":"{{ site.url }}{{ page.url }}","inLanguage":"en-GB","dateModified":"{{ modified }}","author":{"@id":"{{ site.url }}/#organization"},"speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".sa-answer p"]}}</script>
+{% if crumbs %}<script type="application/ld+json">{"@type":"BreadcrumbList","@context":"https://schema.org","itemListElement":[{"item":"{{ site.url }}/","name":"Home","@type":"ListItem","position":1}{% for c in crumbs %},{"item":"{{ site.url }}{{ c[0] }}","name":{{ c[1] | dump | safe }},"@type":"ListItem","position":{{ loop.index + 1 }}}{% endfor %}]}</script>{% endif %}
+{% if service %}<script type="application/ld+json">{"@context":"https://schema.org","@type":"Service","serviceType":{{ service.type | dump | safe }},"name":{{ service.name | dump | safe }},"description":{{ description | dump | safe }},"url":"{{ site.url }}{{ page.url }}","provider":{"@id":"{{ site.url }}/#organization"},"areaServed":[{% if service.town %}{"@type":"City","name":{{ service.town | dump | safe }}{% if service.townWiki %},"sameAs":"{{ service.townWiki }}"{% endif %}},{% endif %}{% if service.town != "Northampton" %}{"@type":"City","name":"Northampton","sameAs":"https://en.wikipedia.org/wiki/Northampton"},{% endif %}{"@type":"AdministrativeArea","name":"Northamptonshire"},{"@type":"Country","name":"United Kingdom"}],"offers":{"@type":"Offer","priceCurrency":"GBP","price":"{{ (site.packages | findByKey(service.priceKey or 'bronze')).price }}","description":"From this price"}}</script>{% endif %}
+{% if faqs %}<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{% for f in faqs %}{"@type":"Question","name":{{ f.q | striptags(false) | dump | safe }},"acceptedAnswer":{"@type":"Answer","text":{{ f.a | fillPrices(P) | striptags(false) | replace("&rsquo;","’") | replace("&amp;","&") | replace("&pound;","£") | dump | safe }}}}{% if not loop.last %},{% endif %}{% endfor %}]}</script>{% endif %}
