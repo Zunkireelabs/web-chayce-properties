@@ -33,6 +33,8 @@ faq:
 
 **Short answer:** Before you move house in the UK, make a list of every organisation that writes to you, then work through it in three stages: tell the ones that matter most (DVLA, HMRC, banks, pension providers, insurers, your GP) before or on moving day, sort utilities and post on the day itself, and catch the rest in the first few weeks as letters turn up at the old address. The checklist below groups them so nothing is left until it causes a problem.
 
+<div class="post-help"><strong>Helping an older person move?</strong><p>Chayce can handle the practical side of a later-life move, from sorting and packing to the removal and settling in, with one coordinator. Packages start from £995.</p><p class="post-help-links"><a href="/discovery/">Book a Discovery Consultation</a> <a href="/contact/?callback=1">Request a callback</a> <a href="tel:+447708925432">Call 07708 925432</a></p></div>
+
 ## Start With a List of Who Writes to You
 
 The easiest way to miss someone is to rely on memory. For a week or two before the move, keep a note of every letter, email and statement that arrives. Look at your bank statements as well: standing orders, direct debits and subscriptions show organisations you might not think of. Ask other people in the household for theirs too.
