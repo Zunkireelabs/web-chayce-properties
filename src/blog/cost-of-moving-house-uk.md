@@ -45,6 +45,8 @@ faq:
 
 **Short answer:** the removal van is usually only one line in a longer list. Moving house in the UK typically involves fees to professionals, taxes, lender charges and a handful of smaller practical costs, and which of these apply depends on whether you are selling, buying, renting or doing a mix. This guide sets out the categories, what makes each one vary, and a simple way to build a budget without nasty surprises. Published estimates differ widely, because each assumes a different house price and a different mix of costs, so build your own figure from the categories below.
 
+<div class="post-help"><strong>Moving an older parent or relative, or downsizing yourself?</strong><p>Chayce publishes its prices: a Discovery Consultation is £150 and packing and removals start from £995. We explain what is included before you commit.</p><p class="post-help-links"><a href="/discovery/">Book a Discovery Consultation</a> <a href="/contact/?callback=1">Request a callback</a> <a href="tel:+447708925432">Call 07708 925432</a></p></div>
+
 ## The main categories of cost
 
 ### When you sell

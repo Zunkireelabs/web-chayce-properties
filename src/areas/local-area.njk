@@ -11,7 +11,7 @@ activeKey: "areas"
 headExtra: |
   <link rel="stylesheet" href="/css/chayce-nav.css?v={{ build.version }}">
 eleventyComputed:
-  title: "House Removals {{ area.name }}: Elderly Moves | Chayce"
+  title: "{% if area.seoTitle %}{{ area.seoTitle }}{% else %}House Removals {{ area.name }}: Elderly Moves | Chayce{% endif %}"
   description: "House and elderly removals in {{ area.name }}, {{ area.county }}: packing, downsizing help and insured removals from £995, with one coordinator."
 ---
 <header class="v2-hero" style="background-image:url({% imageUrl area.heroImage %});{% imageSet area.heroImage %}">

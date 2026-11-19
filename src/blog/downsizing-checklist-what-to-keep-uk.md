@@ -37,6 +37,8 @@ featuredImageAlt: "Hands packing a labelled box of clothes while sorting what to
 
 **Short answer:** to downsize your home in the UK, work in stages. Decide where you are going, measure what will fit, sort belongings into keep, sell, donate and let-go piles by category, and start 6 to 8 weeks before moving day (longer for a family home). The checklist below follows that order.
 
+<div class="post-help"><strong>Want someone to do this with you?</strong><p>Chayce helps with the sorting, packing, removal and settling in, with one dedicated coordinator. A Discovery Consultation (£150, in person or by phone) gives you a plan, timeline and budget first.</p><p class="post-help-links"><a href="/discovery/">Book a Discovery Consultation</a> <a href="/contact/?callback=1">Request a callback</a> <a href="tel:+447708925432">Call 07708 925432</a></p></div>
+
 ## Why downsizing feels different from an ordinary move
 
 Downsizing a long-time family home is about deciding what comes with you into the next chapter. That decision often carries more emotional weight than the move itself, and it is the part that is hardest to fit around a fixed removal date. Most problems come from having a date but no sequence of steps, so a checklist helps more than a deadline.

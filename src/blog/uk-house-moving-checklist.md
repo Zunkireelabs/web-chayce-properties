@@ -1,6 +1,6 @@
 ---
 title: "Moving House Checklist UK: 8-Week Printable Timeline"
-description: "A printable UK moving house checklist: what to do 8, 6, 4, 3, 2 and 1 weeks before and on moving day, plus who to tell and what to pack last."
+description: "Free printable UK moving house checklist: what to do 8 weeks to 1 week before, on moving day, and who to tell. Includes help if you are moving an older parent."
 date: "2026-09-24"
 dateModified: "2026-11-18"
 featuredImage: "https://images.pexels.com/photos/4246085/pexels-photo-4246085.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
@@ -63,6 +63,8 @@ howTo:
 ---
 
 **Short answer:** start about eight weeks before moving day. Book your removals firm, sort and pack non-essentials, tell your lender or landlord, redirect your post and update your address, confirm the details in writing, and keep essentials with you on the day.
+
+<div class="post-help"><strong>Moving an older parent or relative?</strong><p>If this move is for an older person, Chayce can plan and run it with you: sorting, packing, an insured removal and settling in, with one DBS-checked coordinator. Packages start from £995.</p><p class="post-help-links"><a href="/discovery/">Book a Discovery Consultation</a> <a href="/contact/?callback=1">Request a callback</a> <a href="tel:+447708925432">Call 07708 925432</a></p></div>
 
 <p class="print-checklist"><button type="button" onclick="window.print()">Print this checklist</button> <span>Printable UK house moving checklist. For who to tell, see our <a href="/blog/change-of-address-checklist-uk/">change of address checklist</a>.</span></p>
 
