@@ -142,3 +142,10 @@
   .blog-pager-btn.is-next{grid-column:2}
   .blog-pager-btn.is-prev:only-of-type,.blog-pager-btn.is-next:only-of-type{grid-column:1/-1}
 }
+
+/* In-article help box: turns general moving-house readers into enquiries */
+.post-help{margin:1.5rem 0;padding:1.1rem 1.25rem;border:1px solid rgba(200,169,110,.55);border-left:4px solid var(--gold,#c8a96e);border-radius:10px;background:#fbf8f1}
+.post-help strong{display:block;margin-bottom:.3rem;color:var(--navy,#16243a)}
+.post-help p{margin:0 0 .6rem}
+.post-help .post-help-links{display:flex;flex-wrap:wrap;gap:.5rem 1rem;margin:0;font-weight:600}
+.post-help .post-help-links a{white-space:nowrap}
