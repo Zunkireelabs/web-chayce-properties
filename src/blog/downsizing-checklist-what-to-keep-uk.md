@@ -1,6 +1,6 @@
 ---
-title: "Downsizing Checklist UK: What to Keep, Sell, Donate or Let Go"
-description: "A free UK downsizing checklist: what to keep, sell, donate or let go, how to measure what fits the smaller home, and how long to allow, step by step."
+title: "Downsizing Checklist UK: Keep, Sell, Donate or Let Go" # SEOAI:TITLE
+description: "Free UK downsizing checklist: sort belongings into keep, sell, donate or let go piles. Measure what fits your smaller home. Start 6-8 weeks before moving." # SEOAI:METADESCRIPTION
 date: "2026-09-21"
 dateModified: "2026-11-18"
 featuredImageCredit: "Photo via Pexels"
