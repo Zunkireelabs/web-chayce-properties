@@ -1,6 +1,6 @@
 ---
-title: "Downsizing or Equity Release in the UK? What to Know"
-description: "A neutral UK comparison of downsizing and equity release: how each frees up money, the costs and trade-offs, and why regulated advice matters."
+title: "Downsizing or Equity Release in the UK? What to Know" # SEOAI:TITLE
+description: "A neutral UK comparison of downsizing and equity release: how each frees up money, the costs and trade-offs, and why regulated advice matters." # SEOAI:METADESCRIPTION
 date: "2026-10-08"
 dateModified: "2026-11-04"
 about:
@@ -65,3 +65,9 @@ Chayce arranges the practical side of a later-life move: sorting, packing, the r
 - [Financial Conduct Authority](https://www.fca.org.uk)
 
 Products, rules and tax change. This article is general information, not financial advice.
+<!-- SEOAI:FAQ:START --><!-- SEOAI:FAQ:END -->
+<!-- SEOAI:SCHEMA:START --><!-- SEOAI:SCHEMA:END -->
+<!-- SEOAI:INTERNALLINKS:START --><!-- SEOAI:INTERNALLINKS:END -->
+<!-- SEOAI:EXPANDEDCONTENT:START --><!-- SEOAI:EXPANDEDCONTENT:END -->
+<!-- SEOAI:QACONTENT:START --><!-- SEOAI:QACONTENT:END -->
+<!-- SEOAI:BREADCRUMBSCHEMA:START --><!-- SEOAI:BREADCRUMBSCHEMA:END -->

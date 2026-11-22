@@ -1,6 +1,6 @@
 ---
-title: "How to Talk to Elderly Parents About Moving (UK Guide)"
-description: "How to bring up moving with an elderly parent in the UK, what to do if they say no, and how to support a decision that is theirs to make."
+title: "How to Talk to Elderly Parents About Moving (UK Guide)" # SEOAI:TITLE
+description: "How to bring up moving with an elderly parent in the UK, what to do if they say no, and how to support a decision that is theirs to make." # SEOAI:METADESCRIPTION
 date: "2026-10-04"
 dateModified: "2026-11-04"
 featuredImageCredit: "Photo via Pexels"
@@ -94,3 +94,9 @@ The thought of sorting, packing and organising a move is often what holds people
 - If you live far away, you can stay involved by phone or video. See our guide to [moving an elderly parent](/moving-elderly-parent/).
 
 If your parent has memory problems, see our guide to [moving house with dementia in the family](/blog/moving-house-with-dementia-in-the-family/). This article is general information, not legal, financial or medical advice.
+<!-- SEOAI:FAQ:START --><!-- SEOAI:FAQ:END -->
+<!-- SEOAI:SCHEMA:START --><!-- SEOAI:SCHEMA:END -->
+<!-- SEOAI:INTERNALLINKS:START --><!-- SEOAI:INTERNALLINKS:END -->
+<!-- SEOAI:EXPANDEDCONTENT:START --><!-- SEOAI:EXPANDEDCONTENT:END -->
+<!-- SEOAI:QACONTENT:START --><!-- SEOAI:QACONTENT:END -->
+<!-- SEOAI:BREADCRUMBSCHEMA:START --><!-- SEOAI:BREADCRUMBSCHEMA:END -->

@@ -1,6 +1,6 @@
 ---
-title: "Elderly Removals Cost UK: What Affects the Price?"
-description: "What drives the cost of elderly removals or a later-life move in the UK, how to compare quotes fairly, and Chayce's published package prices."
+title: "Elderly Removals Cost UK: What Affects the Price?" # SEOAI:TITLE
+description: "What drives the cost of elderly removals or a later-life move in the UK, how to compare quotes fairly, and Chayce's published package prices." # SEOAI:METADESCRIPTION
 date: "2026-09-18"
 dateModified: "2026-11-04"
 featuredImage: "https://images.pexels.com/photos/4498136/pexels-photo-4498136.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
@@ -83,3 +83,9 @@ The [packages page](/packages/) puts these side by side. "From" means the starti
 ## Getting a number you can rely on
 
 The right package is not the cheapest or the most comprehensive one. It is the one that matches the support your move needs. The clearest route to an accurate figure is a [Discovery Consultation](/discovery/), which looks at your situation before any package is recommended. If you would rather ask a question first, [get in touch](/contact/).
+<!-- SEOAI:FAQ:START --><!-- SEOAI:FAQ:END -->
+<!-- SEOAI:SCHEMA:START --><!-- SEOAI:SCHEMA:END -->
+<!-- SEOAI:INTERNALLINKS:START --><!-- SEOAI:INTERNALLINKS:END -->
+<!-- SEOAI:EXPANDEDCONTENT:START --><!-- SEOAI:EXPANDEDCONTENT:END -->
+<!-- SEOAI:QACONTENT:START --><!-- SEOAI:QACONTENT:END -->
+<!-- SEOAI:BREADCRUMBSCHEMA:START --><!-- SEOAI:BREADCRUMBSCHEMA:END -->

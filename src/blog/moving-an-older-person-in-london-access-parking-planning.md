@@ -1,6 +1,6 @@
 ---
-title: "Moving an Older Person in London, UK: Access and Parking"
-description: "Planning a move for an older person in London, UK: parking bay suspensions, leasehold flats, lifts, stairs and access, and how to plan the day."
+title: "Moving an Older Person in London, UK: Access and Parking" # SEOAI:TITLE
+description: "Planning a move for an older person in London, UK: parking bay suspensions, leasehold flats, lifts, stairs and access, and how to plan the day." # SEOAI:METADESCRIPTION
 date: "2026-10-12"
 dateModified: "2026-11-04"
 featuredImageCredit: "Photo via Pexels"
@@ -57,3 +57,9 @@ If you are downsizing to a smaller flat, measure the new space before you decide
 ## Where Chayce fits
 
 Chayce is based in Northampton and arranges later-life moves to, from and within London and the South East. One coordinator manages sorting, packing, a fully insured removal and settling in. See our page on [elderly removals in London and the South East](/elderly-removals-london-south-east/). A [Discovery Consultation](/discovery/), £150, gives you a plan, timeline and budget, and our [packages](/packages/) start at £995. To talk it over, [get in touch](/contact/).
+<!-- SEOAI:FAQ:START --><!-- SEOAI:FAQ:END -->
+<!-- SEOAI:SCHEMA:START --><!-- SEOAI:SCHEMA:END -->
+<!-- SEOAI:INTERNALLINKS:START --><!-- SEOAI:INTERNALLINKS:END -->
+<!-- SEOAI:EXPANDEDCONTENT:START --><!-- SEOAI:EXPANDEDCONTENT:END -->
+<!-- SEOAI:QACONTENT:START --><!-- SEOAI:QACONTENT:END -->
+<!-- SEOAI:BREADCRUMBSCHEMA:START --><!-- SEOAI:BREADCRUMBSCHEMA:END -->

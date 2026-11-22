@@ -1,6 +1,6 @@
 ---
-title: "Cost of Moving House in the UK: What to Budget For"
-description: "The cost of moving house in the UK: the main costs of selling and buying, why there is no single average, and a simple moving budget, with notes for downsizers."
+title: "Cost of Moving House in the UK: What to Budget For" # SEOAI:TITLE
+description: "The cost of moving house in the UK: the main costs of selling and buying, why there is no single average, and a simple moving budget, with notes for downsizers." # SEOAI:METADESCRIPTION
 date: "2026-10-04"
 dateModified: "2026-11-18"
 featuredImage: "https://images.pexels.com/photos/5849563/pexels-photo-5849563.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
@@ -165,3 +165,9 @@ Related reading: [downsizing or equity release](/blog/downsizing-and-equity-rele
 
 - [GOV.UK: Stamp Duty Land Tax residential rates](https://www.gov.uk/stamp-duty-land-tax/residential-property-rates), checked 18 November 2026.
 - [GOV.UK: Buying and selling your home](https://www.gov.uk/buy-sell-your-home).
+<!-- SEOAI:FAQ:START --><!-- SEOAI:FAQ:END -->
+<!-- SEOAI:SCHEMA:START --><!-- SEOAI:SCHEMA:END -->
+<!-- SEOAI:INTERNALLINKS:START --><!-- SEOAI:INTERNALLINKS:END -->
+<!-- SEOAI:EXPANDEDCONTENT:START --><!-- SEOAI:EXPANDEDCONTENT:END -->
+<!-- SEOAI:QACONTENT:START --><!-- SEOAI:QACONTENT:END -->
+<!-- SEOAI:BREADCRUMBSCHEMA:START --><!-- SEOAI:BREADCRUMBSCHEMA:END -->

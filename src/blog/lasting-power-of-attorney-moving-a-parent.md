@@ -1,6 +1,6 @@
 ---
-title: "Lasting Power of Attorney and Moving a Parent (UK)"
-description: "How a Lasting Power of Attorney works when an older parent moves home in the UK, which type you need, and when to get legal advice before selling."
+title: "Lasting Power of Attorney and Moving a Parent (UK)" # SEOAI:TITLE
+description: "How a Lasting Power of Attorney works when an older parent moves home in the UK, which type you need, and when to get legal advice before selling." # SEOAI:METADESCRIPTION
 date: "2026-10-08"
 dateModified: "2026-11-04"
 about:
@@ -67,3 +67,9 @@ Chayce coordinates the practical side of a later-life move: sorting, packing, th
 - [GOV.UK: Become a deputy](https://www.gov.uk/become-deputy)
 
 Rules and fees can change. This article is general information, not legal advice. Speak to a solicitor about your parent's circumstances.
+<!-- SEOAI:FAQ:START --><!-- SEOAI:FAQ:END -->
+<!-- SEOAI:SCHEMA:START --><!-- SEOAI:SCHEMA:END -->
+<!-- SEOAI:INTERNALLINKS:START --><!-- SEOAI:INTERNALLINKS:END -->
+<!-- SEOAI:EXPANDEDCONTENT:START --><!-- SEOAI:EXPANDEDCONTENT:END -->
+<!-- SEOAI:QACONTENT:START --><!-- SEOAI:QACONTENT:END -->
+<!-- SEOAI:BREADCRUMBSCHEMA:START --><!-- SEOAI:BREADCRUMBSCHEMA:END -->

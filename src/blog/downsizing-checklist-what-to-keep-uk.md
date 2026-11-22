@@ -1,6 +1,6 @@
 ---
-title: "Downsizing Checklist UK: What to Keep, Sell, Donate or Let Go"
-description: "A free UK downsizing checklist: what to keep, sell, donate or let go, how to measure what fits the smaller home, and how long to allow, step by step."
+title: "Downsizing Checklist UK: What to Keep, Sell, Donate or Let Go" # SEOAI:TITLE
+description: "A free UK downsizing checklist: what to keep, sell, donate or let go, how to measure what fits the smaller home, and how long to allow, step by step." # SEOAI:METADESCRIPTION
 date: "2026-09-21"
 dateModified: "2026-11-18"
 featuredImageCredit: "Photo via Pexels"
@@ -105,3 +105,9 @@ Sorting decades of belongings is rarely a one-person job, physically or emotiona
 - [Independent Age: Downsizing](https://www.independentage.org/get-advice/housing/housing-options/downsizing)
 
 Figures and advice are summarised from these sources as published and may change. This article is general information, not financial or legal advice.
+<!-- SEOAI:FAQ:START --><!-- SEOAI:FAQ:END -->
+<!-- SEOAI:SCHEMA:START --><!-- SEOAI:SCHEMA:END -->
+<!-- SEOAI:INTERNALLINKS:START --><!-- SEOAI:INTERNALLINKS:END -->
+<!-- SEOAI:EXPANDEDCONTENT:START --><!-- SEOAI:EXPANDEDCONTENT:END -->
+<!-- SEOAI:QACONTENT:START --><!-- SEOAI:QACONTENT:END -->
+<!-- SEOAI:BREADCRUMBSCHEMA:START --><!-- SEOAI:BREADCRUMBSCHEMA:END -->

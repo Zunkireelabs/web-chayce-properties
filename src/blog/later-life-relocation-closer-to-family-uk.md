@@ -1,6 +1,6 @@
 ---
-title: "Moving Closer to Family: A UK Later-Life Relocation Guide"
-description: "How to plan a later-life move closer to family in the UK — timing it well, involving the people who matter, and making the new area feel like home."
+title: "Moving Closer to Family: A UK Later-Life Relocation Guide" # SEOAI:TITLE
+description: "How to plan a later-life move closer to family in the UK — timing it well, involving the people who matter, and making the new area feel like home." # SEOAI:METADESCRIPTION
 date: "2026-09-19"
 dateModified: "2026-11-04"
 featuredImage: "https://images.pexels.com/photos/4569340/pexels-photo-4569340.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
@@ -64,3 +64,9 @@ A move like this deserves proper planning, not a rush job — [book a Discovery 
 - [Independent Age: Downsizing](https://www.independentage.org/get-advice/housing/housing-options/downsizing)
 
 Figures and advice are summarised from these sources as published and may change. This article is general information, not financial or legal advice.
+<!-- SEOAI:FAQ:START --><!-- SEOAI:FAQ:END -->
+<!-- SEOAI:SCHEMA:START --><!-- SEOAI:SCHEMA:END -->
+<!-- SEOAI:INTERNALLINKS:START --><!-- SEOAI:INTERNALLINKS:END -->
+<!-- SEOAI:EXPANDEDCONTENT:START --><!-- SEOAI:EXPANDEDCONTENT:END -->
+<!-- SEOAI:QACONTENT:START --><!-- SEOAI:QACONTENT:END -->
+<!-- SEOAI:BREADCRUMBSCHEMA:START --><!-- SEOAI:BREADCRUMBSCHEMA:END -->

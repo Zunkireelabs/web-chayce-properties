@@ -1,6 +1,6 @@
 ---
-title: "Stamp Duty When Downsizing: England, Scotland and Wales"
-description: "How Stamp Duty, LBTT and Land Transaction Tax apply when you downsize in the UK, the extra charge for a second property, and where to check current rates."
+title: "Stamp Duty When Downsizing: England, Scotland and Wales" # SEOAI:TITLE
+description: "How Stamp Duty, LBTT and Land Transaction Tax apply when you downsize in the UK, the extra charge for a second property, and where to check current rates." # SEOAI:METADESCRIPTION
 date: "2026-10-08"
 dateModified: "2026-10-13"
 about:
@@ -79,3 +79,9 @@ Chayce coordinates the practical side of a later-life move and liaises with your
 - [Revenue Scotland: Land and Buildings Transaction Tax](https://revenue.scot/taxes/land-buildings-transaction-tax)
 
 Rates, thresholds and rules change. This article is general information, not tax or legal advice.
+<!-- SEOAI:FAQ:START --><!-- SEOAI:FAQ:END -->
+<!-- SEOAI:SCHEMA:START --><!-- SEOAI:SCHEMA:END -->
+<!-- SEOAI:INTERNALLINKS:START --><!-- SEOAI:INTERNALLINKS:END -->
+<!-- SEOAI:EXPANDEDCONTENT:START --><!-- SEOAI:EXPANDEDCONTENT:END -->
+<!-- SEOAI:QACONTENT:START --><!-- SEOAI:QACONTENT:END -->
+<!-- SEOAI:BREADCRUMBSCHEMA:START --><!-- SEOAI:BREADCRUMBSCHEMA:END -->

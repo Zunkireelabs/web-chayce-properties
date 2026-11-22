@@ -1,6 +1,6 @@
 ---
-title: "Moving House Checklist UK: 8-Week Printable Timeline"
-description: "Free printable UK moving house checklist: what to do 8 weeks to 1 week before, on moving day, and who to tell. Includes help if you are moving an older parent."
+title: "Moving House Checklist UK: 8-Week Printable Timeline" # SEOAI:TITLE
+description: "Free printable UK moving house checklist: what to do 8 weeks to 1 week before, on moving day, and who to tell. Includes help if you are moving an older parent." # SEOAI:METADESCRIPTION
 date: "2026-09-24"
 dateModified: "2026-11-18"
 featuredImage: "https://images.pexels.com/photos/4246085/pexels-photo-4246085.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
@@ -147,3 +147,9 @@ Related: [questions to ask a removals company](/blog/choosing-removals-company-f
 **Related:** once the move is booked, use our [change of address checklist](/blog/change-of-address-checklist-uk/) to make sure everyone knows where you are.
 
 For the packing itself, see [how to pack for a house move in the UK, room by room](/blog/how-to-pack-for-a-house-move-uk-room-by-room/). For the days after, see [what to do after moving house in the UK](/blog/what-to-do-after-moving-house-uk-first-week-checklist/).
+<!-- SEOAI:FAQ:START --><!-- SEOAI:FAQ:END -->
+<!-- SEOAI:SCHEMA:START --><!-- SEOAI:SCHEMA:END -->
+<!-- SEOAI:INTERNALLINKS:START --><!-- SEOAI:INTERNALLINKS:END -->
+<!-- SEOAI:EXPANDEDCONTENT:START --><!-- SEOAI:EXPANDEDCONTENT:END -->
+<!-- SEOAI:QACONTENT:START --><!-- SEOAI:QACONTENT:END -->
+<!-- SEOAI:BREADCRUMBSCHEMA:START --><!-- SEOAI:BREADCRUMBSCHEMA:END -->

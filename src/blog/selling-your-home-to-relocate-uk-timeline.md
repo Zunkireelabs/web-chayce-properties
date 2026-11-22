@@ -1,6 +1,6 @@
 ---
-title: "Selling Your Home to Relocate: A Realistic UK Timeline"
-description: "How long selling and relocating takes in the UK, what slows it down, and how to plan a later-life move around a realistic timeline."
+title: "Selling Your Home to Relocate: A Realistic UK Timeline" # SEOAI:TITLE
+description: "How long selling and relocating takes in the UK, what slows it down, and how to plan a later-life move around a realistic timeline." # SEOAI:METADESCRIPTION
 date: "2026-09-24"
 dateModified: "2026-11-04"
 featuredImageCredit: "Photo via Pexels"
@@ -64,3 +64,9 @@ It's exactly why ongoing estate agent and solicitor liaison matters — having s
 A realistic timeline starts with an honest conversation — [get in touch](/contact/) or head straight to a [Discovery Consultation](/discovery/).
 
 **Related:** see [the cost of moving house in the UK](/blog/cost-of-moving-house-uk/) for what to budget alongside the timeline.
+<!-- SEOAI:FAQ:START --><!-- SEOAI:FAQ:END -->
+<!-- SEOAI:SCHEMA:START --><!-- SEOAI:SCHEMA:END -->
+<!-- SEOAI:INTERNALLINKS:START --><!-- SEOAI:INTERNALLINKS:END -->
+<!-- SEOAI:EXPANDEDCONTENT:START --><!-- SEOAI:EXPANDEDCONTENT:END -->
+<!-- SEOAI:QACONTENT:START --><!-- SEOAI:QACONTENT:END -->
+<!-- SEOAI:BREADCRUMBSCHEMA:START --><!-- SEOAI:BREADCRUMBSCHEMA:END -->

@@ -1,6 +1,6 @@
 ---
-title: "What to Do After Moving House in the UK: First Week"
-description: "What to do after moving house in the UK: day-one checks, unpacking order, who to tell, mail redirection, council tax and settling in during the first week."
+title: "What to Do After Moving House in the UK: First Week" # SEOAI:TITLE
+description: "What to do after moving house in the UK: day-one checks, unpacking order, who to tell, mail redirection, council tax and settling in during the first week." # SEOAI:METADESCRIPTION
 date: "2026-10-12"
 dateModified: "2026-11-04"
 featuredImage: "https://images.pexels.com/photos/7414919/pexels-photo-7414919.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
@@ -70,3 +70,9 @@ Unpack the things that make the house yours early: photographs, favourite chairs
 ## Where Chayce fits
 
 Chayce provides settling-in support as part of its full-service packages, including unpacking and setting up your new home, from Silver Comfort at £1,850. Our service is designed with older people in mind and is open to anyone. A [Discovery Consultation](/discovery/), £150, gives you a plan. To talk it over, [get in touch](/contact/).
+<!-- SEOAI:FAQ:START --><!-- SEOAI:FAQ:END -->
+<!-- SEOAI:SCHEMA:START --><!-- SEOAI:SCHEMA:END -->
+<!-- SEOAI:INTERNALLINKS:START --><!-- SEOAI:INTERNALLINKS:END -->
+<!-- SEOAI:EXPANDEDCONTENT:START --><!-- SEOAI:EXPANDEDCONTENT:END -->
+<!-- SEOAI:QACONTENT:START --><!-- SEOAI:QACONTENT:END -->
+<!-- SEOAI:BREADCRUMBSCHEMA:START --><!-- SEOAI:BREADCRUMBSCHEMA:END -->
