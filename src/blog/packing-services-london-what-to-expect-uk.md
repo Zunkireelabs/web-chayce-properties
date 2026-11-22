@@ -1,6 +1,6 @@
 ---
-title: "Packing Services in London: What to Expect and Cost"
-description: "Packing services in London: what a packing service does, what affects the price, access and parking issues, and how to choose a firm you can trust."
+title: "Packing Services in London: What to Expect and Cost" # SEOAI:TITLE
+description: "Packing services in London: what a packing service does, what affects the price, access and parking issues, and how to choose a firm you can trust." # SEOAI:METADESCRIPTION
 date: "2026-10-12"
 dateModified: "2026-11-04"
 featuredImageCredit: "Photo via Pexels"
@@ -58,3 +58,9 @@ Our guide to [moving in London](/blog/moving-an-older-person-in-london-access-pa
 ## Where Chayce fits
 
 Chayce is based in Northampton and provides packing, a fully insured removal and settling-in support across the UK, including London and the South East, with one coordinator for the whole move. Packing is included from Bronze Essentials at £995. See our [packing service for house moves](/packing-service-uk/). Our service is designed with older people in mind and is open to anyone. A [Discovery Consultation](/discovery/), £150, gives you a plan, timeline and budget. To talk it over, [get in touch](/contact/).
+<!-- SEOAI:FAQ:START --><!-- SEOAI:FAQ:END -->
+<!-- SEOAI:SCHEMA:START --><!-- SEOAI:SCHEMA:END -->
+<!-- SEOAI:INTERNALLINKS:START --><!-- SEOAI:INTERNALLINKS:END -->
+<!-- SEOAI:EXPANDEDCONTENT:START --><!-- SEOAI:EXPANDEDCONTENT:END -->
+<!-- SEOAI:QACONTENT:START --><!-- SEOAI:QACONTENT:END -->
+<!-- SEOAI:BREADCRUMBSCHEMA:START --><!-- SEOAI:BREADCRUMBSCHEMA:END -->

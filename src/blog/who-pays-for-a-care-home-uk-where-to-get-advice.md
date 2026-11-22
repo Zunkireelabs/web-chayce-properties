@@ -1,6 +1,6 @@
 ---
-title: "Who Pays for a Care Home in the UK? Where to Get Advice"
-description: "Who pays for a care home in the UK, how councils and the NHS can be involved, and where to get free, independent advice before you decide."
+title: "Who Pays for a Care Home in the UK? Where to Get Advice" # SEOAI:TITLE
+description: "Who pays for a care home in the UK, how councils and the NHS can be involved, and where to get free, independent advice before you decide." # SEOAI:METADESCRIPTION
 date: "2026-10-12"
 dateModified: "2026-11-04"
 featuredImageCredit: "Photo via Pexels"
@@ -68,3 +68,9 @@ When the decision about a care home has been made with the right professionals, 
 ## Where Chayce fits
 
 Chayce helps with the practical side of a care home move: sorting what comes with the person, careful packing, a fully insured removal and setting up their new room, with one coordinator across the UK. We do not give funding, care, legal or financial advice. See our [care home removals](/care-home-removals/) page. A [Discovery Consultation](/discovery/), £150, gives you a plan and timeline, and our [packages](/packages/) start at £995. To talk it over, [get in touch](/contact/).
+<!-- SEOAI:FAQ:START --><!-- SEOAI:FAQ:END -->
+<!-- SEOAI:SCHEMA:START --><!-- SEOAI:SCHEMA:END -->
+<!-- SEOAI:INTERNALLINKS:START --><!-- SEOAI:INTERNALLINKS:END -->
+<!-- SEOAI:EXPANDEDCONTENT:START --><!-- SEOAI:EXPANDEDCONTENT:END -->
+<!-- SEOAI:QACONTENT:START --><!-- SEOAI:QACONTENT:END -->
+<!-- SEOAI:BREADCRUMBSCHEMA:START --><!-- SEOAI:BREADCRUMBSCHEMA:END -->

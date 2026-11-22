@@ -1,6 +1,6 @@
 ---
-title: "Retirement Home Moving Service in the UK: What to Expect"
-description: "What a retirement home moving service does in the UK: planning around your new property, packing, removal, settling in and questions to ask."
+title: "Retirement Home Moving Service in the UK: What to Expect" # SEOAI:TITLE
+description: "What a retirement home moving service does in the UK: planning around your new property, packing, removal, settling in and questions to ask." # SEOAI:METADESCRIPTION
 featuredImage: "https://images.pexels.com/photos/8860920/pexels-photo-8860920.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 featuredImageAlt: "Sophisticated elderly woman sitting in a classic living room, exuding elegance and tranquility"
 date: "2026-10-27"
@@ -52,3 +52,9 @@ Dates can shift while a sale completes or an application is finalised, so choose
 We help with moves into retirement villages, retirement apartments, bungalows and smaller homes across the UK from our base in Northampton. See our [retirement village moving service](/retirement-village-removals/) for details. Packing and removals start at £995, and a [Discovery Consultation](/discovery/) gives you a plan, timeline and budget.
 
 **Related:** [what to look for in a smaller home](/blog/what-to-look-for-in-a-smaller-home-uk/).
+<!-- SEOAI:FAQ:START --><!-- SEOAI:FAQ:END -->
+<!-- SEOAI:SCHEMA:START --><!-- SEOAI:SCHEMA:END -->
+<!-- SEOAI:INTERNALLINKS:START --><!-- SEOAI:INTERNALLINKS:END -->
+<!-- SEOAI:EXPANDEDCONTENT:START --><!-- SEOAI:EXPANDEDCONTENT:END -->
+<!-- SEOAI:QACONTENT:START --><!-- SEOAI:QACONTENT:END -->
+<!-- SEOAI:BREADCRUMBSCHEMA:START --><!-- SEOAI:BREADCRUMBSCHEMA:END -->

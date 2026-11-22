@@ -1,6 +1,6 @@
 ---
-title: "Who Can Help an Older Person Move Home in the UK?"
-description: "Family, councils, charities, directories and later-life move specialists: who can help an older person move home in the UK, and what to ask each one."
+title: "Who Can Help an Older Person Move Home in the UK?" # SEOAI:TITLE
+description: "Family, councils, charities, directories and later-life move specialists: who can help an older person move home in the UK, and what to ask each one." # SEOAI:METADESCRIPTION
 date: "2026-10-12"
 dateModified: "2026-11-18"
 featuredImageCredit: "Photo via Pexels"
@@ -85,3 +85,9 @@ For a recommendation, ask your local Age UK, the council's adult social care tea
 ## Where Chayce fits
 
 Chayce Properties is a Northampton-based later-life moving service. We provide one dedicated coordinator for sorting, packing, a fully insured removal and settling in, across the UK. We do not give legal, financial or care advice, and we are not a house clearance firm. A [Discovery Consultation](/discovery/), £150, gives you a plan, timeline and budget, and our [packages](/packages/) start at £995. Care homes, retirement villages, solicitors, estate agents and social workers can [refer a client to us](/for-professionals/). To talk it over, [get in touch](/contact/).
+<!-- SEOAI:FAQ:START --><!-- SEOAI:FAQ:END -->
+<!-- SEOAI:SCHEMA:START --><!-- SEOAI:SCHEMA:END -->
+<!-- SEOAI:INTERNALLINKS:START --><!-- SEOAI:INTERNALLINKS:END -->
+<!-- SEOAI:EXPANDEDCONTENT:START --><!-- SEOAI:EXPANDEDCONTENT:END -->
+<!-- SEOAI:QACONTENT:START --><!-- SEOAI:QACONTENT:END -->
+<!-- SEOAI:BREADCRUMBSCHEMA:START --><!-- SEOAI:BREADCRUMBSCHEMA:END -->

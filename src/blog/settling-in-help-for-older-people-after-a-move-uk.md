@@ -1,6 +1,6 @@
 ---
-title: "Settling In Help for Older People After a Move (UK)"
-description: "Help settling in after moving home in later life: unpacking, setting up, routines, meeting neighbours and who can support you in the first weeks in the UK."
+title: "Settling In Help for Older People After a Move (UK)" # SEOAI:TITLE
+description: "Help settling in after moving home in later life: unpacking, setting up, routines, meeting neighbours and who can support you in the first weeks in the UK." # SEOAI:METADESCRIPTION
 date: "2026-10-12"
 dateModified: "2026-11-04"
 featuredImage: "https://images.pexels.com/photos/7728055/pexels-photo-7728055.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
@@ -52,3 +52,9 @@ If you are worried about how someone is coping after a move, talk to their GP or
 ## Where Chayce fits
 
 Silver Comfort, £1,850, includes unpacking and setup at the new home, and Gold Prestige, £3,250, includes white-glove unpacking and styling. We do not give care or medical advice. Our service is designed with older people in mind and is open to anyone. A [Discovery Consultation](/discovery/), £150, gives you a plan. To talk it over, [get in touch](/contact/).
+<!-- SEOAI:FAQ:START --><!-- SEOAI:FAQ:END -->
+<!-- SEOAI:SCHEMA:START --><!-- SEOAI:SCHEMA:END -->
+<!-- SEOAI:INTERNALLINKS:START --><!-- SEOAI:INTERNALLINKS:END -->
+<!-- SEOAI:EXPANDEDCONTENT:START --><!-- SEOAI:EXPANDEDCONTENT:END -->
+<!-- SEOAI:QACONTENT:START --><!-- SEOAI:QACONTENT:END -->
+<!-- SEOAI:BREADCRUMBSCHEMA:START --><!-- SEOAI:BREADCRUMBSCHEMA:END -->

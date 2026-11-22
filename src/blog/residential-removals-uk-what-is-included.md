@@ -1,6 +1,6 @@
 ---
-title: "Residential Removals UK: What's Included and What to Ask"
-description: "Residential removals explained: what a UK house removal usually includes, what can cost extra, and how to compare quotes for a home move."
+title: "Residential Removals UK: What's Included and What to Ask" # SEOAI:TITLE
+description: "Residential removals explained: what a UK house removal usually includes, what can cost extra, and how to compare quotes for a home move." # SEOAI:METADESCRIPTION
 featuredImage: "https://images.pexels.com/photos/6169177/pexels-photo-6169177.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 featuredImageAlt: "Courier loading cardboard boxes into a delivery van outside a warehouse"
 date: "2026-10-27"
@@ -49,3 +49,9 @@ Stairs, parking restrictions and long carries can add time, and so can unpacking
 [Age UK](https://www.ageuk.org.uk/) and others stress that a later-life move can be tiring and stressful. Chayce Properties arranges residential removals with one coordinator for sorting, packing, a fully insured removal and settling in, across the UK and from our base in Northampton. Packing and removals start at £995. See our [town pages](/areas-we-cover/) for where we work, or start with a [Discovery Consultation](/discovery/).
 
 **Related:** [UK house moving checklist](/blog/uk-house-moving-checklist/).
+<!-- SEOAI:FAQ:START --><!-- SEOAI:FAQ:END -->
+<!-- SEOAI:SCHEMA:START --><!-- SEOAI:SCHEMA:END -->
+<!-- SEOAI:INTERNALLINKS:START --><!-- SEOAI:INTERNALLINKS:END -->
+<!-- SEOAI:EXPANDEDCONTENT:START --><!-- SEOAI:EXPANDEDCONTENT:END -->
+<!-- SEOAI:QACONTENT:START --><!-- SEOAI:QACONTENT:END -->
+<!-- SEOAI:BREADCRUMBSCHEMA:START --><!-- SEOAI:BREADCRUMBSCHEMA:END -->

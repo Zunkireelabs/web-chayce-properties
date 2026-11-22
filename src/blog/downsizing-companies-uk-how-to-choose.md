@@ -1,6 +1,6 @@
 ---
-title: "Downsizing Companies UK: What They Do and How to Choose"
-description: "Downsizing companies in the UK explained: what services they offer, what to ask before hiring one, and how they differ from a standard removals firm."
+title: "Downsizing Companies UK: What They Do and How to Choose" # SEOAI:TITLE
+description: "Downsizing companies in the UK explained: what services they offer, what to ask before hiring one, and how they differ from a standard removals firm." # SEOAI:METADESCRIPTION
 featuredImage: "https://images.pexels.com/photos/6942739/pexels-photo-6942739.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 featuredImageAlt: "Two older women packing belongings in a cosy living room setting"
 date: "2026-10-27"
@@ -59,3 +59,9 @@ Our guide to [what a full-service removals company does](/blog/what-does-a-full-
 Chayce is a UK downsizing company for older people, based in Northampton. We provide one coordinator for [sorting and decluttering](/downsizing-help-for-elderly/), packing, a fully insured removal and settling in. Packing and removals start at £995 and a full-service move with declutter support starts at £1,850. Start with a [Discovery Consultation](/discovery/).
 
 **Related:** [downsizing checklist](/blog/downsizing-checklist-what-to-keep-uk/) and [when to downsize](/blog/when-to-downsize-uk/).
+<!-- SEOAI:FAQ:START --><!-- SEOAI:FAQ:END -->
+<!-- SEOAI:SCHEMA:START --><!-- SEOAI:SCHEMA:END -->
+<!-- SEOAI:INTERNALLINKS:START --><!-- SEOAI:INTERNALLINKS:END -->
+<!-- SEOAI:EXPANDEDCONTENT:START --><!-- SEOAI:EXPANDEDCONTENT:END -->
+<!-- SEOAI:QACONTENT:START --><!-- SEOAI:QACONTENT:END -->
+<!-- SEOAI:BREADCRUMBSCHEMA:START --><!-- SEOAI:BREADCRUMBSCHEMA:END -->

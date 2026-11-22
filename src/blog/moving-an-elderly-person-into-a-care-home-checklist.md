@@ -1,6 +1,6 @@
 ---
-title: "Moving an Elderly Person Into a Care Home: UK Checklist"
-description: "A practical, non-medical checklist for the logistics of moving an elderly person into a care home in the UK: what to ask, pack, label and arrange."
+title: "Moving an Elderly Person Into a Care Home: UK Checklist" # SEOAI:TITLE
+description: "A practical, non-medical checklist for the logistics of moving an elderly person into a care home in the UK: what to ask, pack, label and arrange." # SEOAI:METADESCRIPTION
 date: "2026-10-01"
 dateModified: "2026-11-18"
 featuredImageCredit: "Photo via Pexels"
@@ -78,3 +78,9 @@ Sorting a lifetime of belongings can wait until after the move, and it is easier
 ## Where Chayce Properties helps
 
 We help families with the practical side of a move, including [care home removals](/care-home-removals/), [moving an elderly parent](/moving-elderly-parent/), [packing and unpacking](/downsizing-help-for-elderly/) and a [fully insured removal](/downsizing-help-for-elderly/). We do not provide care, medical or legal advice, and for funding questions see [who pays for a care home in the UK and where to get advice](/blog/who-pays-for-a-care-home-uk-where-to-get-advice/). A [Discovery Consultation](/discovery/), £150, gives you a plan and timeline.
+<!-- SEOAI:FAQ:START --><!-- SEOAI:FAQ:END -->
+<!-- SEOAI:SCHEMA:START --><!-- SEOAI:SCHEMA:END -->
+<!-- SEOAI:INTERNALLINKS:START --><!-- SEOAI:INTERNALLINKS:END -->
+<!-- SEOAI:EXPANDEDCONTENT:START --><!-- SEOAI:EXPANDEDCONTENT:END -->
+<!-- SEOAI:QACONTENT:START --><!-- SEOAI:QACONTENT:END -->
+<!-- SEOAI:BREADCRUMBSCHEMA:START --><!-- SEOAI:BREADCRUMBSCHEMA:END -->

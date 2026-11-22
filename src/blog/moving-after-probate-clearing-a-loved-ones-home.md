@@ -1,6 +1,6 @@
 ---
-title: "Clearing a Parent's House After a Death: Probate and Steps (UK)"
-description: "A calm UK guide to clearing a home after a death: who is in charge, what you need to start probate, the steps in order, what it costs and who can help."
+title: "Clearing a Parent's House After a Death: Probate and Steps (UK)" # SEOAI:TITLE
+description: "A calm UK guide to clearing a home after a death: who is in charge, what you need to start probate, the steps in order, what it costs and who can help." # SEOAI:METADESCRIPTION
 date: "2026-10-08"
 dateModified: "2026-11-18"
 about:
@@ -93,3 +93,9 @@ Chayce helps older people and their families with sorting, packing, removals and
 - [GOV.UK: Find your local council](https://www.gov.uk/find-local-council)
 
 Rules, thresholds and fees change. This article is general information, not legal or financial advice.
+<!-- SEOAI:FAQ:START --><!-- SEOAI:FAQ:END -->
+<!-- SEOAI:SCHEMA:START --><!-- SEOAI:SCHEMA:END -->
+<!-- SEOAI:INTERNALLINKS:START --><!-- SEOAI:INTERNALLINKS:END -->
+<!-- SEOAI:EXPANDEDCONTENT:START --><!-- SEOAI:EXPANDEDCONTENT:END -->
+<!-- SEOAI:QACONTENT:START --><!-- SEOAI:QACONTENT:END -->
+<!-- SEOAI:BREADCRUMBSCHEMA:START --><!-- SEOAI:BREADCRUMBSCHEMA:END -->

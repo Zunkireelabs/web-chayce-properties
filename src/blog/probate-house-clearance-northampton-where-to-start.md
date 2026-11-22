@@ -1,6 +1,6 @@
 ---
-title: "Probate House Clearance in Northampton: Where to Start"
-description: "Dealing with a loved one's home in Northampton after a death? What to sort first, who decides, and where Chayce can help. Not legal advice."
+title: "Probate House Clearance in Northampton: Where to Start" # SEOAI:TITLE
+description: "Dealing with a loved one's home in Northampton after a death? What to sort first, who decides, and where Chayce can help. Not legal advice." # SEOAI:METADESCRIPTION
 featuredImage: "https://images.pexels.com/photos/7415093/pexels-photo-7415093.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 featuredImageAlt: "A family moving into their new home, carrying boxes and belongings indoors"
 date: "2026-10-27"
@@ -49,3 +49,9 @@ Sometimes the practical job is also moving someone who is still living in the ho
 We are based in Northampton. After a death we can help sort belongings with the family, pack and move what is being kept, and relocate a surviving partner, with a fully insured removal and one coordinator. Read about our [probate house clearance and moving help](/probate-house-clearance/), see our [Northampton page](/elderly-removals-northampton/), or book a [Discovery Consultation](/discovery/). Packing and removals start at £995.
 
 **Related:** [lasting power of attorney when moving a parent](/blog/lasting-power-of-attorney-moving-a-parent/).
+<!-- SEOAI:FAQ:START --><!-- SEOAI:FAQ:END -->
+<!-- SEOAI:SCHEMA:START --><!-- SEOAI:SCHEMA:END -->
+<!-- SEOAI:INTERNALLINKS:START --><!-- SEOAI:INTERNALLINKS:END -->
+<!-- SEOAI:EXPANDEDCONTENT:START --><!-- SEOAI:EXPANDEDCONTENT:END -->
+<!-- SEOAI:QACONTENT:START --><!-- SEOAI:QACONTENT:END -->
+<!-- SEOAI:BREADCRUMBSCHEMA:START --><!-- SEOAI:BREADCRUMBSCHEMA:END -->

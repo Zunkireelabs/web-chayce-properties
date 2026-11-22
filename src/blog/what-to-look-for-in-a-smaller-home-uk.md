@@ -1,6 +1,6 @@
 ---
-title: "What to Look for in a Smaller Home When Downsizing (UK)"
-description: "How to choose a smaller home in the UK: location, step-free access, storage, running costs, leasehold questions and a viewing checklist."
+title: "What to Look for in a Smaller Home When Downsizing (UK)" # SEOAI:TITLE
+description: "How to choose a smaller home in the UK: location, step-free access, storage, running costs, leasehold questions and a viewing checklist." # SEOAI:METADESCRIPTION
 date: "2026-10-04"
 dateModified: "2026-11-04"
 featuredImage: "https://images.pexels.com/photos/6312357/pexels-photo-6312357.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
@@ -125,3 +125,9 @@ After each viewing, fill in the same table so you can compare fairly. Use your o
 ## Where Chayce Properties helps
 
 We help older people downsize across the UK, from [sorting and moving](/downsizing-help-for-elderly/) to settling in. Our [Gold Prestige](/gold-prestige/) and [Platinum Bespoke](/platinum-bespoke/) packages include chauffeur-driven property viewings and estate agent liaison. If you would like a plan, timeline and budget first, a [Discovery Consultation](/discovery/), £150, is a good place to start.
+<!-- SEOAI:FAQ:START --><!-- SEOAI:FAQ:END -->
+<!-- SEOAI:SCHEMA:START --><!-- SEOAI:SCHEMA:END -->
+<!-- SEOAI:INTERNALLINKS:START --><!-- SEOAI:INTERNALLINKS:END -->
+<!-- SEOAI:EXPANDEDCONTENT:START --><!-- SEOAI:EXPANDEDCONTENT:END -->
+<!-- SEOAI:QACONTENT:START --><!-- SEOAI:QACONTENT:END -->
+<!-- SEOAI:BREADCRUMBSCHEMA:START --><!-- SEOAI:BREADCRUMBSCHEMA:END -->

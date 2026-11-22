@@ -1,6 +1,6 @@
 ---
-title: "Removals in Milton Keynes, Bedford and Rugby: What to Plan"
-description: "Planning a house move in Milton Keynes, Bedford or Rugby? What to check on access, parking and rail links, and how a full-service removals team helps."
+title: "Removals in Milton Keynes, Bedford and Rugby: What to Plan" # SEOAI:TITLE
+description: "Planning a house move in Milton Keynes, Bedford or Rugby? What to check on access, parking and rail links, and how a full-service removals team helps." # SEOAI:METADESCRIPTION
 featuredImage: "https://images.pexels.com/photos/4971275/pexels-photo-4971275.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 featuredImageAlt: "Smiling couple indoors holding keys, moving into a new home"
 date: "2026-10-28"
@@ -52,3 +52,9 @@ Victorian and Edwardian homes often have steep stairs and narrow hallways, so we
 [Age UK](https://www.ageuk.org.uk/) has practical advice for older people planning a move, and the [British Association of Removers](https://bar.co.uk/) lists member firms.
 
 **Related:** [residential removals: what is included](/blog/residential-removals-uk-what-is-included/) and [areas we cover](/areas-we-cover/).
+<!-- SEOAI:FAQ:START --><!-- SEOAI:FAQ:END -->
+<!-- SEOAI:SCHEMA:START --><!-- SEOAI:SCHEMA:END -->
+<!-- SEOAI:INTERNALLINKS:START --><!-- SEOAI:INTERNALLINKS:END -->
+<!-- SEOAI:EXPANDEDCONTENT:START --><!-- SEOAI:EXPANDEDCONTENT:END -->
+<!-- SEOAI:QACONTENT:START --><!-- SEOAI:QACONTENT:END -->
+<!-- SEOAI:BREADCRUMBSCHEMA:START --><!-- SEOAI:BREADCRUMBSCHEMA:END -->

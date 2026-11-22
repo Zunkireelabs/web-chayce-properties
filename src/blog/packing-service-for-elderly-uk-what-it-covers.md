@@ -1,6 +1,6 @@
 ---
-title: "Packing Service for Older People UK: What It Covers"
-description: "What a professional packing service involves for an older person's move, what to ask about materials and insurance, and how far ahead to book."
+title: "Packing Service for Older People UK: What It Covers" # SEOAI:TITLE
+description: "What a professional packing service involves for an older person's move, what to ask about materials and insurance, and how far ahead to book." # SEOAI:METADESCRIPTION
 featuredImage: "https://images.pexels.com/photos/7309889/pexels-photo-7309889.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 featuredImageAlt: "Close-up of hands holding bubble wrap at home. Ideal for packing or moving themes"
 date: "2026-10-28"
@@ -50,3 +50,9 @@ Professional packers bring boxes and wrapping, pack room by room and label what 
 Sorting comes first. If you are also downsizing, leave time to decide what to keep before the packers arrive. [Age UK](https://www.ageuk.org.uk/) has advice on planning a move, [Citizens Advice](https://www.citizensadvice.org.uk/) explains your consumer rights with a service provider, and the [British Association of Removers](https://bar.co.uk/) lists member firms.
 
 **Related:** [what a full-service removals company does](/blog/what-does-a-full-service-removals-company-do/).
+<!-- SEOAI:FAQ:START --><!-- SEOAI:FAQ:END -->
+<!-- SEOAI:SCHEMA:START --><!-- SEOAI:SCHEMA:END -->
+<!-- SEOAI:INTERNALLINKS:START --><!-- SEOAI:INTERNALLINKS:END -->
+<!-- SEOAI:EXPANDEDCONTENT:START --><!-- SEOAI:EXPANDEDCONTENT:END -->
+<!-- SEOAI:QACONTENT:START --><!-- SEOAI:QACONTENT:END -->
+<!-- SEOAI:BREADCRUMBSCHEMA:START --><!-- SEOAI:BREADCRUMBSCHEMA:END -->

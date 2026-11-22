@@ -1,6 +1,6 @@
 ---
-title: "Moving Into Retirement Housing in the UK: Your Options"
-description: "How retirement villages, retirement flats and sheltered housing differ in the UK, what to ask before you commit, and a practical checklist for the move."
+title: "Moving Into Retirement Housing in the UK: Your Options" # SEOAI:TITLE
+description: "How retirement villages, retirement flats and sheltered housing differ in the UK, what to ask before you commit, and a practical checklist for the move." # SEOAI:METADESCRIPTION
 date: "2026-09-22"
 dateModified: "2026-11-04"
 featuredImageCredit: "Photo via Pexels"
@@ -143,3 +143,9 @@ If you are looking at a care home rather than independent housing, our separate 
 - [Independent Age: Downsizing](https://www.independentage.org/get-advice/housing/housing-options/downsizing)
 
 Figures and advice are summarised from these sources as published and may change. This article is general information, not financial or legal advice.
+<!-- SEOAI:FAQ:START --><!-- SEOAI:FAQ:END -->
+<!-- SEOAI:SCHEMA:START --><!-- SEOAI:SCHEMA:END -->
+<!-- SEOAI:INTERNALLINKS:START --><!-- SEOAI:INTERNALLINKS:END -->
+<!-- SEOAI:EXPANDEDCONTENT:START --><!-- SEOAI:EXPANDEDCONTENT:END -->
+<!-- SEOAI:QACONTENT:START --><!-- SEOAI:QACONTENT:END -->
+<!-- SEOAI:BREADCRUMBSCHEMA:START --><!-- SEOAI:BREADCRUMBSCHEMA:END -->
