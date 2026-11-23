@@ -1,6 +1,6 @@
 ---
-title: "Challenges of Moving an Older Person in the UK: How to Cope"
-description: "The common challenges of moving an older person in the UK, from tiredness and emotional attachment to paperwork and timing, and practical ways to handle each."
+title: "Challenges of Moving an Older Person in the UK: How to Cope" # SEOAI:TITLE
+description: "The common challenges of moving an older person in the UK, from tiredness and emotional attachment to paperwork and timing, and practical ways to handle each." # SEOAI:METADESCRIPTION
 date: "2026-10-12"
 dateModified: "2026-11-04"
 featuredImageCredit: "Photo via Pexels"
@@ -66,3 +66,9 @@ A move is not finished on moving day. Unpack the bedroom and kitchen first, keep
 ## Where Chayce fits
 
 Chayce helps older people and their families with the practical side of a move: one coordinator for sorting, packing, a fully insured removal and settling in, across the UK. We do not give legal, financial or care advice. A [Discovery Consultation](/discovery/), £150, gives you a plan and timeline. To talk it over, [get in touch](/contact/).
+<!-- SEOAI:FAQ:START --><!-- SEOAI:FAQ:END -->
+<!-- SEOAI:SCHEMA:START --><!-- SEOAI:SCHEMA:END -->
+<!-- SEOAI:INTERNALLINKS:START --><!-- SEOAI:INTERNALLINKS:END -->
+<!-- SEOAI:EXPANDEDCONTENT:START --><!-- SEOAI:EXPANDEDCONTENT:END -->
+<!-- SEOAI:QACONTENT:START --><!-- SEOAI:QACONTENT:END -->
+<!-- SEOAI:BREADCRUMBSCHEMA:START --><!-- SEOAI:BREADCRUMBSCHEMA:END -->

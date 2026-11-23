@@ -1,6 +1,6 @@
 ---
-title: "Kettering, Corby & Wellingborough Removals: What to Plan"
-description: "Moving in or out of Kettering, Corby or Wellingborough? What to plan for in each Northamptonshire town, from access and parking to timing and sorting."
+title: "Kettering, Corby & Wellingborough Removals: What to Plan" # SEOAI:TITLE
+description: "Moving in or out of Kettering, Corby or Wellingborough? What to plan for in each Northamptonshire town, from access and parking to timing and sorting." # SEOAI:METADESCRIPTION
 featuredImage: "https://images.pexels.com/photos/4246267/pexels-photo-4246267.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 featuredImageAlt: "Young diverse male and female in modern casual outfits with cardboard boxes in hands watching step while moving out of old house on summer day"
 date: "2026-10-27"
@@ -53,3 +53,9 @@ Your [local council](https://www.gov.uk/find-local-council) covers parking permi
 ## Book a plan
 
 Packing and removals start at £995, with one coordinator for sorting, packing, a fully insured removal and settling in. Start with a [Discovery Consultation](/discovery/).
+<!-- SEOAI:FAQ:START --><!-- SEOAI:FAQ:END -->
+<!-- SEOAI:SCHEMA:START --><!-- SEOAI:SCHEMA:END -->
+<!-- SEOAI:INTERNALLINKS:START --><!-- SEOAI:INTERNALLINKS:END -->
+<!-- SEOAI:EXPANDEDCONTENT:START --><!-- SEOAI:EXPANDEDCONTENT:END -->
+<!-- SEOAI:QACONTENT:START --><!-- SEOAI:QACONTENT:END -->
+<!-- SEOAI:BREADCRUMBSCHEMA:START --><!-- SEOAI:BREADCRUMBSCHEMA:END -->

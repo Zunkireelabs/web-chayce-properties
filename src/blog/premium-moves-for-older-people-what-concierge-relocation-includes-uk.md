@@ -1,6 +1,6 @@
 ---
-title: "Concierge Moves for Older People in the UK: What Is Included"
-description: "What a premium or concierge move for an older person includes in the UK, who it suits, what it costs and how to judge whether it is worth it."
+title: "Concierge Moves for Older People in the UK: What Is Included" # SEOAI:TITLE
+description: "What a premium or concierge move for an older person includes in the UK, who it suits, what it costs and how to judge whether it is worth it." # SEOAI:METADESCRIPTION
 date: "2026-10-12"
 dateModified: "2026-11-04"
 featuredImageCredit: "Photo via Pexels"
@@ -70,3 +70,9 @@ If the move is simple, for example one person moving locally into a retirement f
 ## Where to start
 
 A [Discovery Consultation](/discovery/), £150, gives you a plan, timeline and budget in an hour, in person or by phone, before you choose a package. Chayce does not give legal, financial or care advice. To talk it over, [get in touch](/contact/).
+<!-- SEOAI:FAQ:START --><!-- SEOAI:FAQ:END -->
+<!-- SEOAI:SCHEMA:START --><!-- SEOAI:SCHEMA:END -->
+<!-- SEOAI:INTERNALLINKS:START --><!-- SEOAI:INTERNALLINKS:END -->
+<!-- SEOAI:EXPANDEDCONTENT:START --><!-- SEOAI:EXPANDEDCONTENT:END -->
+<!-- SEOAI:QACONTENT:START --><!-- SEOAI:QACONTENT:END -->
+<!-- SEOAI:BREADCRUMBSCHEMA:START --><!-- SEOAI:BREADCRUMBSCHEMA:END -->

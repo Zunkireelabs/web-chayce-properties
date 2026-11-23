@@ -1,6 +1,6 @@
 ---
-title: "Stamp Duty for First-Time Buyers in England: Worked Examples"
-description: "How first-time buyer relief changes Stamp Duty in England: no tax up to £300,000, 5% to £500,000, with worked examples and what happens above the cap."
+title: "Stamp Duty for First-Time Buyers in England: Worked Examples" # SEOAI:TITLE
+description: "How first-time buyer relief changes Stamp Duty in England: no tax up to £300,000, 5% to £500,000, with worked examples and what happens above the cap." # SEOAI:METADESCRIPTION
 date: "2026-10-13"
 dateModified: "2026-10-13"
 featuredImageCredit: "Photo via Pexels"
@@ -67,3 +67,9 @@ SDLT is one of several costs of moving. Budget for solicitor and survey fees, yo
 Chayce Properties is a moving and relocation service based in Northampton and arranging moves across the UK. Our service is designed with older people in mind and is open to anyone, including first-time buyers. [Bronze Essentials](/bronze-essentials/), £995, covers packing, an insured removal, furniture reassembly and light cleaning. If you want help planning, a [Discovery Consultation](/discovery/), £150, gives you a move plan, timeline and budget. We are not tax advisers. For your own SDLT calculation, speak to your solicitor or use the calculator on GOV.UK. To talk about your move, [get in touch](/contact/).
 
 Rates, thresholds and rules change. This article is general information, not tax or legal advice.
+<!-- SEOAI:FAQ:START --><!-- SEOAI:FAQ:END -->
+<!-- SEOAI:SCHEMA:START --><!-- SEOAI:SCHEMA:END -->
+<!-- SEOAI:INTERNALLINKS:START --><!-- SEOAI:INTERNALLINKS:END -->
+<!-- SEOAI:EXPANDEDCONTENT:START --><!-- SEOAI:EXPANDEDCONTENT:END -->
+<!-- SEOAI:QACONTENT:START --><!-- SEOAI:QACONTENT:END -->
+<!-- SEOAI:BREADCRUMBSCHEMA:START --><!-- SEOAI:BREADCRUMBSCHEMA:END -->

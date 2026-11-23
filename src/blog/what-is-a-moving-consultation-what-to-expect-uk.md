@@ -1,6 +1,6 @@
 ---
-title: "Moving Consultation UK: What to Expect and How to Prepare"
-description: "What a moving or downsizing consultation covers, what you take away, and how to prepare, with the Chayce Discovery Consultation (£150) as an example."
+title: "Moving Consultation UK: What to Expect and How to Prepare" # SEOAI:TITLE
+description: "What a moving or downsizing consultation covers, what you take away, and how to prepare, with the Chayce Discovery Consultation (£150) as an example." # SEOAI:METADESCRIPTION
 date: "2026-10-13"
 dateModified: "2026-11-04"
 featuredImageCredit: "Photo via Pexels"
@@ -67,3 +67,9 @@ A consultation helps if you are unsure which level of support you need, or are m
 ## Where Chayce fits
 
 Chayce is a moving, downsizing and relocation service based in Northampton and arranging moves across the UK. Our service is designed with older people in mind and is open to anyone. The Discovery Consultation is the natural starting point if you are not sure where to begin, with no obligation to book anything further. Read about [what an elderly move manager does](/elderly-move-manager-uk/), see how a [stress-free elderly move](/blog/plan-a-stress-free-elderly-move-uk/) is planned, or [get started](/get-started/) and we will call within one working day to arrange your consultation.
+<!-- SEOAI:FAQ:START --><!-- SEOAI:FAQ:END -->
+<!-- SEOAI:SCHEMA:START --><!-- SEOAI:SCHEMA:END -->
+<!-- SEOAI:INTERNALLINKS:START --><!-- SEOAI:INTERNALLINKS:END -->
+<!-- SEOAI:EXPANDEDCONTENT:START --><!-- SEOAI:EXPANDEDCONTENT:END -->
+<!-- SEOAI:QACONTENT:START --><!-- SEOAI:QACONTENT:END -->
+<!-- SEOAI:BREADCRUMBSCHEMA:START --><!-- SEOAI:BREADCRUMBSCHEMA:END -->

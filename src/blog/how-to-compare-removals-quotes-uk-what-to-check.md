@@ -1,6 +1,6 @@
 ---
-title: "How to Compare Removals Quotes in the UK: What to Check"
-description: "How to compare removals quotes in the UK like for like: what a quote should list, the questions to ask about insurance and extras, and red flags to avoid."
+title: "How to Compare Removals Quotes in the UK: What to Check" # SEOAI:TITLE
+description: "How to compare removals quotes in the UK like for like: what a quote should list, the questions to ask about insurance and extras, and red flags to avoid." # SEOAI:METADESCRIPTION
 date: "2026-10-13"
 dateModified: "2026-11-04"
 featuredImageCredit: "Photo via Pexels"
@@ -89,3 +89,9 @@ Stairs, long carries from the van, parking permits, a second visit, storage and 
 ## Where Chayce fits
 
 Chayce Properties is a moving, downsizing and relocation service based in Northampton and arranging moves across the UK. Our service is designed with older people in mind and is open to anyone. Chayce publishes its package prices: [Bronze Essentials](/bronze-essentials/) from £995 for packing and an insured removal, [Silver Comfort](/silver-comfort/) from £1,850 for a full-service move with a dedicated coordinator, and more on the [packages page](/packages/). Every removal is fully insured against loss or damage in transit, with the details set out in the service agreement before the move begins. If you want a plan and a budget first, a [Discovery Consultation](/discovery/) costs £150. To ask for a quote, [get in touch](/contact/).
+<!-- SEOAI:FAQ:START --><!-- SEOAI:FAQ:END -->
+<!-- SEOAI:SCHEMA:START --><!-- SEOAI:SCHEMA:END -->
+<!-- SEOAI:INTERNALLINKS:START --><!-- SEOAI:INTERNALLINKS:END -->
+<!-- SEOAI:EXPANDEDCONTENT:START --><!-- SEOAI:EXPANDEDCONTENT:END -->
+<!-- SEOAI:QACONTENT:START --><!-- SEOAI:QACONTENT:END -->
+<!-- SEOAI:BREADCRUMBSCHEMA:START --><!-- SEOAI:BREADCRUMBSCHEMA:END -->

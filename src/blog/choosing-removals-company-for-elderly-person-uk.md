@@ -88,3 +88,9 @@ A standard removals firm collects and delivers. A relocation partner also covers
 ## Where Chayce Properties fits
 
 Chayce arranges insured removals and full-service moves for older people, with packing, unpacking and one dedicated coordinator. Every Chayce removal is fully insured, with the details set out in your service agreement before the move begins. [How it works](/how-it-works/) shows the process step by step, and our page on [elderly move managers](/elderly-move-manager-uk/) explains the role. A [Discovery Consultation](/discovery/), £150, gives you a plan and budget before you commit.
+<!-- SEOAI:FAQ:START --><!-- SEOAI:FAQ:END -->
+<!-- SEOAI:SCHEMA:START --><!-- SEOAI:SCHEMA:END -->
+<!-- SEOAI:INTERNALLINKS:START --><!-- SEOAI:INTERNALLINKS:END -->
+<!-- SEOAI:EXPANDEDCONTENT:START --><!-- SEOAI:EXPANDEDCONTENT:END -->
+<!-- SEOAI:QACONTENT:START --><!-- SEOAI:QACONTENT:END -->
+<!-- SEOAI:BREADCRUMBSCHEMA:START --><!-- SEOAI:BREADCRUMBSCHEMA:END -->
