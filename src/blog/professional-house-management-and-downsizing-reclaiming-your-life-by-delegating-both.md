@@ -1,6 +1,9 @@
 ---
 title: "Professional House Management and Downsizing: Reclaiming Your Life by Delegating Both" # SEOAI:TITLE
 description: "Busy households outsource home management to cut complexity. Learn how professional house management and senior downsizing work together to simplify life." # SEOAI:METADESCRIPTION
+featuredImage: "https://images.pexels.com/photos/8580739/pexels-photo-8580739.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+featuredImageAlt: "Decluttering concept using labelled boxes for sorting clothes in a home setting"
+featuredImageCredit: "Photo via Pexels"
 date: "2026-11-21"
 dateModified: "2026-11-21"
 ---

@@ -1,6 +1,9 @@
 ---
 title: "Difference Between Senior Relocation and Downsizing" # SEOAI:TITLE
 description: "Downsizing means moving to a smaller home. Senior relocation is the wider move to a home that suits later life. Here is how they differ." # SEOAI:METADESCRIPTION
+featuredImage: "https://images.pexels.com/photos/7217937/pexels-photo-7217937.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+featuredImageAlt: "A couple carrying labelled kitchen boxes while moving into a new home outdoors"
+featuredImageCredit: "Photo via Pexels"
 date: "2026-11-21"
 dateModified: "2026-11-21"
 ---
