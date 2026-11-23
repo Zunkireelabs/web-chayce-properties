@@ -102,6 +102,18 @@ eleventyComputed:
 </section>
 {% endif %}
 
+{#- Agent-written sections (SuperRank). Text goes in the page's own two-column look; empty entries render nothing. -#}
+{% if area.expandedContent or area.qaContentHtml %}
+<section class="v2-sec grey">
+  <div class="v2-wrap">
+    <div class="action-center-content">
+      {% if area.expandedContent %}{{ area.expandedContent | safe }}{% endif %}
+      {% if area.qaContentHtml %}{{ area.qaContentHtml | safe }}{% endif %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
 <section class="v2-sec">
   <div class="v2-wrap">
     <div class="v2-head c"><span class="v2-eyebrow">Questions</span><h2 class="v2-h2">House removals <em>in {{ area.name }}</em></h2></div>
@@ -151,6 +163,25 @@ eleventyComputed:
     </div>
   </div>
 </section>
+
+{% if area.relatedPosts and area.relatedPosts.length %}
+<section class="v2-sec grey">
+  <div class="v2-wrap">
+    <div class="v2-head c"><span class="v2-eyebrow">Guides</span><h2 class="v2-h2">Related <em>guides</em></h2></div>
+    {#- The agent supplies only a list of { title, href }. Each card (photo, date, title) is drawn here from the post's own data, so the layout cannot drift, and an href that is not a real post draws nothing. -#}
+    <div class="v2-post-cards">
+      {% for rp in area.relatedPosts %}{% for post in collections.blog %}{% if post.url == rp.href %}
+      <article class="news-card">
+        {% if post.data.featuredImage %}<figure><a href="{{ post.url }}" tabindex="-1" aria-hidden="true"><img src="{{ post.data.featuredImage }}" alt="{{ post.data.featuredImageAlt | default(post.data.title) }}" width="940" height="650" loading="lazy"></a></figure>{% endif %}
+        <span>{{ post.date | readableDate }}</span>
+        <h5><a href="{{ post.url }}">{{ post.data.title }}</a></h5>
+      </article>
+      {% endif %}{% endfor %}{% endfor %}
+    </div>
+    <p class="v2-posts-all"><a href="/guides/">Browse all guides &rarr;</a></p>
+  </div>
+</section>
+{% endif %}
 
 <section class="v2-final">
   <div class="v2-wrap">
