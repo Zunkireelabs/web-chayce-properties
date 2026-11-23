@@ -1,6 +1,6 @@
 ---
-title: "Furniture for a Smaller Home in the UK: What Fits"
-description: "Measure and sketch a floor plan to see which furniture fits a smaller home in the UK, then sell, donate, recycle or arrange collection for the rest."
+title: "Furniture for a Smaller Home in the UK: What Fits" # SEOAI:TITLE
+description: "Measure and sketch a floor plan to see which furniture fits a smaller home in the UK, then sell, donate, recycle or arrange collection for the rest." # SEOAI:METADESCRIPTION
 date: "2026-10-01"
 dateModified: "2026-11-04"
 featuredImage: "https://images.pexels.com/photos/6474478/pexels-photo-6474478.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
@@ -62,3 +62,9 @@ Mark which room each box and piece of furniture will go to, so the removal team 
 ## Help with the whole process
 
 Our [downsizing help for older people](/downsizing-help-for-elderly/) covers sorting room by room, and nothing is disposed of without your agreement. A [Discovery Consultation](/discovery/) (£150) gives you a plan and timeline, and you can [compare packages](/packages/). For the wider picture, see [downsizing to a bungalow](/blog/downsizing-to-a-bungalow-uk/).
+<!-- SEOAI:FAQ:START --><!-- SEOAI:FAQ:END -->
+<!-- SEOAI:SCHEMA:START --><!-- SEOAI:SCHEMA:END -->
+<!-- SEOAI:INTERNALLINKS:START --><!-- SEOAI:INTERNALLINKS:END -->
+<!-- SEOAI:EXPANDEDCONTENT:START --><!-- SEOAI:EXPANDEDCONTENT:END -->
+<!-- SEOAI:QACONTENT:START --><!-- SEOAI:QACONTENT:END -->
+<!-- SEOAI:BREADCRUMBSCHEMA:START --><!-- SEOAI:BREADCRUMBSCHEMA:END -->

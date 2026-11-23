@@ -1,6 +1,6 @@
 ---
-title: "Storage When Moving House in the UK: How It Works"
-description: "Storage when moving house in the UK: when you need it, how long, what it costs to plan for, and how to keep furniture safe between sale and move."
+title: "Storage When Moving House in the UK: How It Works" # SEOAI:TITLE
+description: "Storage when moving house in the UK: when you need it, how long, what it costs to plan for, and how to keep furniture safe between sale and move." # SEOAI:METADESCRIPTION
 date: "2026-10-12"
 dateModified: "2026-11-04"
 featuredImageCredit: "Photo via Pexels"
@@ -51,3 +51,9 @@ Pack carefully, label each box with its contents and destination room, and keep 
 ## Where Chayce fits
 
 Gold Prestige, £3,250, includes a fully insured removal with up to 6 weeks of storage if your dates do not line up exactly. See our [storage during your move](/storage-during-your-move/) page. Our service is designed with older people in mind and is open to anyone. A [Discovery Consultation](/discovery/), £150, gives you a plan and timeline. To talk it over, [get in touch](/contact/).
+<!-- SEOAI:FAQ:START --><!-- SEOAI:FAQ:END -->
+<!-- SEOAI:SCHEMA:START --><!-- SEOAI:SCHEMA:END -->
+<!-- SEOAI:INTERNALLINKS:START --><!-- SEOAI:INTERNALLINKS:END -->
+<!-- SEOAI:EXPANDEDCONTENT:START --><!-- SEOAI:EXPANDEDCONTENT:END -->
+<!-- SEOAI:QACONTENT:START --><!-- SEOAI:QACONTENT:END -->
+<!-- SEOAI:BREADCRUMBSCHEMA:START --><!-- SEOAI:BREADCRUMBSCHEMA:END -->

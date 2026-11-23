@@ -64,7 +64,9 @@ if (/^(www\.)?chayceproperties\.com$/.test(location.hostname)) {
 {{ headExtra | replace('{{ build.version }}', build.version) | replace('.css"', '.css?v=' + build.version + '"') | safe }}
 <link rel="stylesheet" href="/css/chayce-type.css?v={{ build.version }}">
 {% if page.url != "/" %}{% include "schema-org.njk" %}{% endif %}
-<!-- SEOAI:HEAD:START --><!-- SEOAI:HEAD:END -->
+<!-- SEOAI:HEAD:START -->
+<!-- SEOAI:ANALYTICSSCRIPTGA4:START --><!-- SEOAI:ANALYTICSSCRIPTGA4:END -->
+<!-- SEOAI:ANALYTICSSCRIPTFACEBOOKPIXEL:START --><!-- SEOAI:ANALYTICSSCRIPTFACEBOOKPIXEL:END --><!-- SEOAI:HEAD:END -->
 </head>
 <body class="{{ bodyClass }}">
 {% include "nav.njk" %}

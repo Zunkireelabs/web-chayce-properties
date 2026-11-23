@@ -1,6 +1,6 @@
 ---
-title: "Stay or Move? Adapting a Home vs Moving in Later Life (UK)"
-description: "Should you adapt your home or move in later life? A neutral UK guide to home adaptations, grants, the costs of moving and how to decide."
+title: "Stay or Move? Adapting a Home vs Moving in Later Life (UK)" # SEOAI:TITLE
+description: "Should you adapt your home or move in later life? A neutral UK guide to home adaptations, grants, the costs of moving and how to decide." # SEOAI:METADESCRIPTION
 date: "2026-10-12"
 dateModified: "2026-11-04"
 featuredImageCredit: "Photo via Pexels"
@@ -62,3 +62,9 @@ If you decide to move, start early. Our [downsizing guide and checklist](/blog/d
 ## Where Chayce fits
 
 Chayce provides one coordinator for sorting, packing, a fully insured removal and settling in, across the UK. We do not give care, legal or financial advice. A [Discovery Consultation](/discovery/), £150, gives you a plan, timeline and budget, whichever way you decide. To talk it over, [get in touch](/contact/).
+<!-- SEOAI:FAQ:START --><!-- SEOAI:FAQ:END -->
+<!-- SEOAI:SCHEMA:START --><!-- SEOAI:SCHEMA:END -->
+<!-- SEOAI:INTERNALLINKS:START --><!-- SEOAI:INTERNALLINKS:END -->
+<!-- SEOAI:EXPANDEDCONTENT:START --><!-- SEOAI:EXPANDEDCONTENT:END -->
+<!-- SEOAI:QACONTENT:START --><!-- SEOAI:QACONTENT:END -->
+<!-- SEOAI:BREADCRUMBSCHEMA:START --><!-- SEOAI:BREADCRUMBSCHEMA:END -->

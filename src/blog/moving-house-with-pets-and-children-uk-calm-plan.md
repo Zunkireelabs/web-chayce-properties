@@ -1,6 +1,6 @@
 ---
-title: "Moving House With Pets and Children in the UK: A Calm Plan"
-description: "A practical plan for moving house with children and pets in the UK: what to prepare, how to handle moving day, and the microchip update every pet owner needs."
+title: "Moving House With Pets and Children in the UK: A Calm Plan" # SEOAI:TITLE
+description: "A practical plan for moving house with children and pets in the UK: what to prepare, how to handle moving day, and the microchip update every pet owner needs." # SEOAI:METADESCRIPTION
 date: "2026-10-13"
 dateModified: "2026-11-04"
 featuredImageCredit: "Photo via Pexels"
@@ -72,3 +72,9 @@ A move with children and animals is easier when you are not also doing all the p
 ## Where Chayce fits
 
 Chayce Properties is a moving and relocation service based in Northampton and arranging moves across the UK. Our service is designed with older people in mind and is open to anyone, including families. [Bronze Essentials](/bronze-essentials/), £995, includes packing, a fully insured removal, furniture reassembly and light cleaning, so you can focus on the children and pets. A [Discovery Consultation](/discovery/), £150, gives you a move plan, timeline and budget. To talk it over, [get in touch](/contact/).
+<!-- SEOAI:FAQ:START --><!-- SEOAI:FAQ:END -->
+<!-- SEOAI:SCHEMA:START --><!-- SEOAI:SCHEMA:END -->
+<!-- SEOAI:INTERNALLINKS:START --><!-- SEOAI:INTERNALLINKS:END -->
+<!-- SEOAI:EXPANDEDCONTENT:START --><!-- SEOAI:EXPANDEDCONTENT:END -->
+<!-- SEOAI:QACONTENT:START --><!-- SEOAI:QACONTENT:END -->
+<!-- SEOAI:BREADCRUMBSCHEMA:START --><!-- SEOAI:BREADCRUMBSCHEMA:END -->

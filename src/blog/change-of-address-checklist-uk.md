@@ -1,6 +1,6 @@
 ---
-title: "Who to Tell When You Move House: UK Change of Address List"
-description: "Who to tell when you move house in the UK: DVLA, HMRC, banks, utilities, the GP and family, in the order to do it, plus tips for helping a parent."
+title: "Who to Tell When You Move House: UK Change of Address List" # SEOAI:TITLE
+description: "Who to tell when you move house in the UK: DVLA, HMRC, banks, utilities, the GP and family, in the order to do it, plus tips for helping a parent." # SEOAI:METADESCRIPTION
 date: "2026-10-04"
 dateModified: "2026-11-18"
 featuredImage: "https://images.pexels.com/photos/4554242/pexels-photo-4554242.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
@@ -103,3 +103,9 @@ This is general information, not legal, financial or tax advice. Requirements ca
 ## Where Chayce Can Help
 
 If you would like the practical side of a move handled for you, Chayce coordinates utility transfers as part of its [Silver Comfort](/silver-comfort/) package and above. If you would first like to talk through what needs doing and when, a [Discovery Consultation](/discovery/) (£150) helps you plan the move. For the wider timeline, see our [UK house moving checklist](/blog/uk-house-moving-checklist/), and for the weeks afterwards, [settling in after your move](/blog/settling-in-after-your-move/).
+<!-- SEOAI:FAQ:START --><!-- SEOAI:FAQ:END -->
+<!-- SEOAI:SCHEMA:START --><!-- SEOAI:SCHEMA:END -->
+<!-- SEOAI:INTERNALLINKS:START --><!-- SEOAI:INTERNALLINKS:END -->
+<!-- SEOAI:EXPANDEDCONTENT:START --><!-- SEOAI:EXPANDEDCONTENT:END -->
+<!-- SEOAI:QACONTENT:START --><!-- SEOAI:QACONTENT:END -->
+<!-- SEOAI:BREADCRUMBSCHEMA:START --><!-- SEOAI:BREADCRUMBSCHEMA:END -->

@@ -1,6 +1,6 @@
 ---
-title: "How to Declutter a Parent's House Before a Move (UK Guide)"
-description: "A gentle, practical UK guide to decluttering a parent's house before a move: where to start, how to handle sentimental items and when to ask for help."
+title: "How to Declutter a Parent's House Before a Move (UK Guide)" # SEOAI:TITLE
+description: "A gentle, practical UK guide to decluttering a parent's house before a move: where to start, how to handle sentimental items and when to ask for help." # SEOAI:METADESCRIPTION
 date: "2026-10-01"
 dateModified: "2026-11-04"
 featuredImageCredit: "Photo via Pexels"
@@ -50,3 +50,9 @@ If the house is large, the timescale is short, or distance makes it hard to be t
 For the full process, see our [downsizing guide and checklist](/blog/downsizing-checklist-what-to-keep-uk/); for furniture that will not fit, see [planning furniture for a smaller home](/blog/planning-furniture-and-floor-plan-for-a-smaller-home/).
 
 A [Discovery Consultation](/discovery/), £150, gives you a sorting plan and timeline. Declutter support is included in Silver Comfort, from £1,850.
+<!-- SEOAI:FAQ:START --><!-- SEOAI:FAQ:END -->
+<!-- SEOAI:SCHEMA:START --><!-- SEOAI:SCHEMA:END -->
+<!-- SEOAI:INTERNALLINKS:START --><!-- SEOAI:INTERNALLINKS:END -->
+<!-- SEOAI:EXPANDEDCONTENT:START --><!-- SEOAI:EXPANDEDCONTENT:END -->
+<!-- SEOAI:QACONTENT:START --><!-- SEOAI:QACONTENT:END -->
+<!-- SEOAI:BREADCRUMBSCHEMA:START --><!-- SEOAI:BREADCRUMBSCHEMA:END -->

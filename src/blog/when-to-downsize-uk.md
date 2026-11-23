@@ -1,6 +1,6 @@
 ---
-title: "When Is the Right Time to Downsize? Signs and Timing (UK)"
-description: "How to tell when it may be time to downsize your UK home: common signs, why earlier is often easier, and how long to allow for the move."
+title: "When Is the Right Time to Downsize? Signs and Timing (UK)" # SEOAI:TITLE
+description: "How to tell when it may be time to downsize your UK home: common signs, why earlier is often easier, and how long to allow for the move." # SEOAI:METADESCRIPTION
 date: "2026-10-01"
 dateModified: "2026-11-04"
 featuredImageCredit: "Photo via Pexels"
@@ -67,3 +67,9 @@ Our [step-by-step downsizing guide and checklist](/blog/downsizing-checklist-wha
 - [Independent Age: Downsizing](https://www.independentage.org/get-advice/housing/housing-options/downsizing)
 
 Figures and advice are summarised from these sources as published and may change. This article is general information, not financial or legal advice.
+<!-- SEOAI:FAQ:START --><!-- SEOAI:FAQ:END -->
+<!-- SEOAI:SCHEMA:START --><!-- SEOAI:SCHEMA:END -->
+<!-- SEOAI:INTERNALLINKS:START --><!-- SEOAI:INTERNALLINKS:END -->
+<!-- SEOAI:EXPANDEDCONTENT:START --><!-- SEOAI:EXPANDEDCONTENT:END -->
+<!-- SEOAI:QACONTENT:START --><!-- SEOAI:QACONTENT:END -->
+<!-- SEOAI:BREADCRUMBSCHEMA:START --><!-- SEOAI:BREADCRUMBSCHEMA:END -->

@@ -1,6 +1,6 @@
 ---
-title: "Moving House With Dementia in the UK: Gentle Tips"
-description: "General, practical UK tips for planning a house move when a family member has dementia: keeping routines, reducing change and involving them calmly."
+title: "Moving House With Dementia in the UK: Gentle Tips" # SEOAI:TITLE
+description: "General, practical UK tips for planning a house move when a family member has dementia: keeping routines, reducing change and involving them calmly." # SEOAI:METADESCRIPTION
 date: "2026-10-01"
 dateModified: "2026-11-04"
 featuredImageCredit: "Photo via Pexels"
@@ -46,3 +46,9 @@ Where it helps, let them do small, familiar tasks, such as choosing a favourite 
 ## Where practical help matters
 
 The sorting, packing, removal and setting up are where families tend to be stretched. Our coordinators handle the practical side, from [packing and unpacking](/downsizing-help-for-elderly/) to a [fully insured removal](/downsizing-help-for-elderly/) and [setting up the new home](/blog/settling-in-after-your-move/), so family can focus on the person. Our guides on [moving a parent](/moving-elderly-parent/) and [moving an elderly parent](/moving-elderly-parent/) cover the wider picture. We do not provide medical or care advice.
+<!-- SEOAI:FAQ:START --><!-- SEOAI:FAQ:END -->
+<!-- SEOAI:SCHEMA:START --><!-- SEOAI:SCHEMA:END -->
+<!-- SEOAI:INTERNALLINKS:START --><!-- SEOAI:INTERNALLINKS:END -->
+<!-- SEOAI:EXPANDEDCONTENT:START --><!-- SEOAI:EXPANDEDCONTENT:END -->
+<!-- SEOAI:QACONTENT:START --><!-- SEOAI:QACONTENT:END -->
+<!-- SEOAI:BREADCRUMBSCHEMA:START --><!-- SEOAI:BREADCRUMBSCHEMA:END -->

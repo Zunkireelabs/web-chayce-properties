@@ -1,6 +1,6 @@
 ---
-title: "How to Plan a Stress-Free Move for an Older Person (UK)"
-description: "Practical steps for planning a smooth, dignified move for an older person in the UK, from first consultation to final unpack."
+title: "How to Plan a Stress-Free Move for an Older Person (UK)" # SEOAI:TITLE
+description: "Practical steps for planning a smooth, dignified move for an older person in the UK, from first consultation to final unpack." # SEOAI:METADESCRIPTION
 date: "2026-09-17"
 dateModified: "2026-11-04"
 featuredImage: "https://images.pexels.com/photos/7217844/pexels-photo-7217844.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
@@ -48,3 +48,9 @@ Moving out of a long-time family home is rarely just a logistics problem — it'
 By the time moving day arrives, the goal is for it to feel almost uneventful: everything already planned, every box already labelled, every detail already agreed on in advance. That's the difference a [dedicated relocation coordinator](/services/) makes.
 
 However early or late you are in the process, [get in touch](/contact/) and we'll help you work out the right next step.
+<!-- SEOAI:FAQ:START --><!-- SEOAI:FAQ:END -->
+<!-- SEOAI:SCHEMA:START --><!-- SEOAI:SCHEMA:END -->
+<!-- SEOAI:INTERNALLINKS:START --><!-- SEOAI:INTERNALLINKS:END -->
+<!-- SEOAI:EXPANDEDCONTENT:START --><!-- SEOAI:EXPANDEDCONTENT:END -->
+<!-- SEOAI:QACONTENT:START --><!-- SEOAI:QACONTENT:END -->
+<!-- SEOAI:BREADCRUMBSCHEMA:START --><!-- SEOAI:BREADCRUMBSCHEMA:END -->

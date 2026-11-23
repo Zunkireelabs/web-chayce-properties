@@ -1,6 +1,6 @@
 ---
-title: "Downsizing to a Bungalow in the UK: What to Check and Plan"
-description: "Why bungalows are so hard to find in the UK, what to check before you buy one, and how to plan a downsize without rushing. Includes sourced figures."
+title: "Downsizing to a Bungalow in the UK: What to Check and Plan" # SEOAI:TITLE
+description: "Why bungalows are so hard to find in the UK, what to check before you buy one, and how to plan a downsize without rushing. Includes sourced figures." # SEOAI:METADESCRIPTION
 date: "2026-10-01"
 dateModified: "2026-10-04"
 featuredImageCredit: "Photo via Pexels"
@@ -77,3 +77,9 @@ We help older people downsize to bungalows, flats and retirement housing across 
 - Quickmove Properties research on new-build bungalows, reported by [Luxurious Magazine](https://www.luxuriousmagazine.com/new-build-bungalows-a-rarity/), 27 November 2023.
 
 Figures are quoted from these sources as published and were not independently verified by Chayce. This article is general information, not financial or legal advice.
+<!-- SEOAI:FAQ:START --><!-- SEOAI:FAQ:END -->
+<!-- SEOAI:SCHEMA:START --><!-- SEOAI:SCHEMA:END -->
+<!-- SEOAI:INTERNALLINKS:START --><!-- SEOAI:INTERNALLINKS:END -->
+<!-- SEOAI:EXPANDEDCONTENT:START --><!-- SEOAI:EXPANDEDCONTENT:END -->
+<!-- SEOAI:QACONTENT:START --><!-- SEOAI:QACONTENT:END -->
+<!-- SEOAI:BREADCRUMBSCHEMA:START --><!-- SEOAI:BREADCRUMBSCHEMA:END -->

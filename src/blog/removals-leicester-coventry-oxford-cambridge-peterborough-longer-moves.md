@@ -1,6 +1,6 @@
 ---
-title: "Long-Distance Removals: Leicester, Coventry, Oxford & More"
-description: "Moving a longer distance from Northampton? What to plan for a house move to Leicester, Coventry, Oxford, Cambridge or Peterborough."
+title: "Long-Distance Removals: Leicester, Coventry, Oxford & More" # SEOAI:TITLE
+description: "Moving a longer distance from Northampton? What to plan for a house move to Leicester, Coventry, Oxford, Cambridge or Peterborough." # SEOAI:METADESCRIPTION
 featuredImage: "https://images.pexels.com/photos/9754798/pexels-photo-9754798.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 featuredImageAlt: "A red lorry transports a blue cargo container on a scenic, tree-lined road"
 date: "2026-10-28"
@@ -50,3 +50,9 @@ From our Northampton base we arrange moves to and from [Coventry](/elderly-remov
 If you are moving to be nearer relatives, [Independent Age](https://www.independentage.org/) and [Age UK](https://www.ageuk.org.uk/) both offer advice for older people. Read our guide to [later-life relocation closer to family](/blog/later-life-relocation-closer-to-family-uk/).
 
 **Related:** [how to compare removals quotes](/blog/how-to-compare-removals-quotes-uk-what-to-check/). Member firms are listed by the [British Association of Removers](https://bar.co.uk/).
+<!-- SEOAI:FAQ:START --><!-- SEOAI:FAQ:END -->
+<!-- SEOAI:SCHEMA:START --><!-- SEOAI:SCHEMA:END -->
+<!-- SEOAI:INTERNALLINKS:START --><!-- SEOAI:INTERNALLINKS:END -->
+<!-- SEOAI:EXPANDEDCONTENT:START --><!-- SEOAI:EXPANDEDCONTENT:END -->
+<!-- SEOAI:QACONTENT:START --><!-- SEOAI:QACONTENT:END -->
+<!-- SEOAI:BREADCRUMBSCHEMA:START --><!-- SEOAI:BREADCRUMBSCHEMA:END -->

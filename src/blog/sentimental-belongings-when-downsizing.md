@@ -1,6 +1,6 @@
 ---
-title: "Sentimental Belongings When Downsizing: A UK Guide"
-description: "A gentle UK guide to working through sentimental items when downsizing: what to keep, photograph or pass on, and how to avoid rushed decisions."
+title: "Sentimental Belongings When Downsizing: A UK Guide" # SEOAI:TITLE
+description: "A gentle UK guide to working through sentimental items when downsizing: what to keep, photograph or pass on, and how to avoid rushed decisions." # SEOAI:METADESCRIPTION
 date: "2026-09-24"
 dateModified: "2026-11-04"
 featuredImageCredit: "Photo via Pexels"
@@ -63,3 +63,9 @@ Yes. Home sorting and declutter support can begin well ahead of a confirmed date
 Donation, sale and specialist collection are all options your coordinator can arrange, so nothing has to go straight in a skip because there's no other plan for it.
 
 If you are helping a parent, [how to declutter a parent's house](/blog/how-to-declutter-a-parents-house/) covers pacing. [Downsizing help for older people](/downsizing-help-for-elderly/) explains how we support this stage. [Get in touch](/contact/) if you'd like to talk this stage through, or book a [Discovery Consultation](/discovery/) to build a proper plan around it.
+<!-- SEOAI:FAQ:START --><!-- SEOAI:FAQ:END -->
+<!-- SEOAI:SCHEMA:START --><!-- SEOAI:SCHEMA:END -->
+<!-- SEOAI:INTERNALLINKS:START --><!-- SEOAI:INTERNALLINKS:END -->
+<!-- SEOAI:EXPANDEDCONTENT:START --><!-- SEOAI:EXPANDEDCONTENT:END -->
+<!-- SEOAI:QACONTENT:START --><!-- SEOAI:QACONTENT:END -->
+<!-- SEOAI:BREADCRUMBSCHEMA:START --><!-- SEOAI:BREADCRUMBSCHEMA:END -->

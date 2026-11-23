@@ -1,6 +1,6 @@
 ---
-title: "Chayce Packages Explained: What Each One Includes"
-description: "A plain breakdown of Chayce packages from £150 to £6,500: what Discovery, Bronze, Silver, Gold and Platinum include, and how to choose between them."
+title: "Chayce Packages Explained: What Each One Includes" # SEOAI:TITLE
+description: "A plain breakdown of Chayce packages from £150 to £6,500: what Discovery, Bronze, Silver, Gold and Platinum include, and how to choose between them." # SEOAI:METADESCRIPTION
 date: "2026-10-12"
 dateModified: "2026-11-04"
 featuredImageCredit: "Photo via Pexels"
@@ -58,3 +58,9 @@ featuredImageAlt: "Hands carefully packing belongings into a cardboard box."
 - Comparing us with other options? See [what a full-service removals company does](/blog/what-does-a-full-service-removals-company-do/) and [how much a move costs in the UK](/blog/cost-of-moving-house-uk/).
 
 Chayce does not give legal, financial or care advice, and is not a house clearance firm. Compare the detail on our [packages](/packages/) page. To talk it over, [get in touch](/contact/).
+<!-- SEOAI:FAQ:START --><!-- SEOAI:FAQ:END -->
+<!-- SEOAI:SCHEMA:START --><!-- SEOAI:SCHEMA:END -->
+<!-- SEOAI:INTERNALLINKS:START --><!-- SEOAI:INTERNALLINKS:END -->
+<!-- SEOAI:EXPANDEDCONTENT:START --><!-- SEOAI:EXPANDEDCONTENT:END -->
+<!-- SEOAI:QACONTENT:START --><!-- SEOAI:QACONTENT:END -->
+<!-- SEOAI:BREADCRUMBSCHEMA:START --><!-- SEOAI:BREADCRUMBSCHEMA:END -->

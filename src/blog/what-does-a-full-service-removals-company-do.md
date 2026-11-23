@@ -1,6 +1,6 @@
 ---
-title: "What Does a Full-Service Removals Company Do in the UK?"
-description: "What a full-service removals company in the UK covers beyond a standard removal: packing, coordination, storage and settling in, and who it suits."
+title: "What Does a Full-Service Removals Company Do in the UK?" # SEOAI:TITLE
+description: "What a full-service removals company in the UK covers beyond a standard removal: packing, coordination, storage and settling in, and who it suits." # SEOAI:METADESCRIPTION
 date: "2026-09-23"
 dateModified: "2026-11-04"
 featuredImage: "https://images.pexels.com/photos/4489417/pexels-photo-4489417.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
@@ -72,3 +72,9 @@ A [Discovery Consultation](/discovery/) (from £150) assesses your specific situ
 ---
 
 The best way to see what this looks like for your own situation is a [Discovery Consultation](/discovery/) — [get in touch](/contact/) first if you have questions.
+<!-- SEOAI:FAQ:START --><!-- SEOAI:FAQ:END -->
+<!-- SEOAI:SCHEMA:START --><!-- SEOAI:SCHEMA:END -->
+<!-- SEOAI:INTERNALLINKS:START --><!-- SEOAI:INTERNALLINKS:END -->
+<!-- SEOAI:EXPANDEDCONTENT:START --><!-- SEOAI:EXPANDEDCONTENT:END -->
+<!-- SEOAI:QACONTENT:START --><!-- SEOAI:QACONTENT:END -->
+<!-- SEOAI:BREADCRUMBSCHEMA:START --><!-- SEOAI:BREADCRUMBSCHEMA:END -->

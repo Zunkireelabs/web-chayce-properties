@@ -1,6 +1,6 @@
 ---
-title: "How to Pack for a House Move in the UK: Room by Room"
-description: "How to pack for moving house in the UK: when to start, what you need, a room-by-room order, what removals firms cannot carry and when to get help."
+title: "How to Pack for a House Move in the UK: Room by Room" # SEOAI:TITLE
+description: "How to pack for moving house in the UK: when to start, what you need, a room-by-room order, what removals firms cannot carry and when to get help." # SEOAI:METADESCRIPTION
 date: "2026-10-12"
 dateModified: "2026-11-04"
 featuredImage: "https://images.pexels.com/photos/7203815/pexels-photo-7203815.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
@@ -72,3 +72,9 @@ Packing a whole home is tiring, and it can be hard if you are short of time, liv
 ## Where Chayce fits
 
 Chayce provides packing, a fully insured removal and settling-in support across the UK, with one coordinator for the whole move. Packing is included from Bronze Essentials at £995. Our service is designed with older people in mind and is open to anyone. A [Discovery Consultation](/discovery/), £150, gives you a plan, timeline and budget. To talk it over, [get in touch](/contact/).
+<!-- SEOAI:FAQ:START --><!-- SEOAI:FAQ:END -->
+<!-- SEOAI:SCHEMA:START --><!-- SEOAI:SCHEMA:END -->
+<!-- SEOAI:INTERNALLINKS:START --><!-- SEOAI:INTERNALLINKS:END -->
+<!-- SEOAI:EXPANDEDCONTENT:START --><!-- SEOAI:EXPANDEDCONTENT:END -->
+<!-- SEOAI:QACONTENT:START --><!-- SEOAI:QACONTENT:END -->
+<!-- SEOAI:BREADCRUMBSCHEMA:START --><!-- SEOAI:BREADCRUMBSCHEMA:END -->
