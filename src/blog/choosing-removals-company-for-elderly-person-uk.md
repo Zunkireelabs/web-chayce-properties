@@ -1,6 +1,6 @@
 ---
-title: "Choosing Removals or a Move Manager for an Elderly Person (UK)"
-description: "How to choose and check a removals firm or later-life move manager in the UK: questions to ask on insurance, packing, price and DBS checks, and how to vet them."
+title: "Senior Relocation UK: Choosing Removals or Move Manager" # SEOAI:TITLE
+description: "Choose a senior relocation service in the UK with written insurance and packing included. Vet removals firms and move managers with our guide." # SEOAI:METADESCRIPTION
 date: "2026-10-01"
 dateModified: "2026-11-18"
 featuredImageCredit: "Photo via Pexels"
