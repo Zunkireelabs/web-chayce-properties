@@ -70,6 +70,26 @@ Rates, thresholds and rules change. This article is general information, not tax
 <!-- SEOAI:FAQ:START --><!-- SEOAI:FAQ:END -->
 <!-- SEOAI:SCHEMA:START --><!-- SEOAI:SCHEMA:END -->
 <!-- SEOAI:INTERNALLINKS:START --><!-- SEOAI:INTERNALLINKS:END -->
-<!-- SEOAI:EXPANDEDCONTENT:START --><!-- SEOAI:EXPANDEDCONTENT:END -->
+<!-- SEOAI:EXPANDEDCONTENT:START -->
+
+## Who counts as a first-time buyer on a joint purchase
+
+First-time buyer relief is all-or-nothing when you buy together. According to GOV.UK on 13 October 2026, you can only claim the relief if you and anyone you are buying with are all first-time buyers. That means if one person on the purchase has owned a home before, the relief is not available and the standard rates apply instead. Before you agree a price with a partner, friend or family member, it is worth confirming that everyone on the purchase qualifies, because it changes the sums shown in the worked examples above.
+
+This is general information rather than tax advice. For your own situation, speak to your solicitor or use the calculator on GOV.UK, and remember that the relief caps out completely above £500,000 regardless of who is buying.
+
+## Why Stamp Duty is charged band by band
+
+A common misunderstanding is that one rate applies to the whole purchase price. It does not. As set out above, SDLT is charged band by band, not on the whole price at one rate. For a single home at standard rates that means 0% up to £125,000, 2% from £125,001 to £250,000, 5% from £250,001 to £925,000, and higher rates above that — each slice taxed at its own rate.
+
+The same logic drives the first-time buyer figures. On the £400,000 example, nothing is due on the first £300,000 and only the remaining £100,000 is taxed at 5%, giving £5,000. Reading each example band by band makes it clear why the saving against standard rates settles at £5,000 across the middle of the range before the relief disappears above £500,000.
+
+## Fitting Stamp Duty into your overall moving budget
+
+SDLT is only one line in the cost of a move, so it helps to see it alongside everything else before you commit to a price. As noted above, you should also budget for solicitor and survey fees, your removals and packing, and the small bills that arrive in the first month. Our guides to the cost of moving house in the UK, the UK house moving checklist, and Stamp Duty when downsizing walk through these in more detail.
+
+If you would rather map it all out in one place, Chayce Properties offers a Discovery Consultation for £150 that gives you a move plan, timeline and budget — useful when you are weighing an SDLT figure against the rest of your moving costs. Bronze Essentials, £995, then covers packing, an insured removal, furniture reassembly and light cleaning. We are not tax advisers, so for the SDLT figure itself, speak to your solicitor or use the calculator on GOV.UK.
+
+<!-- SEOAI:EXPANDEDCONTENT:END -->
 <!-- SEOAI:QACONTENT:START --><!-- SEOAI:QACONTENT:END -->
 <!-- SEOAI:BREADCRUMBSCHEMA:START --><!-- SEOAI:BREADCRUMBSCHEMA:END -->
