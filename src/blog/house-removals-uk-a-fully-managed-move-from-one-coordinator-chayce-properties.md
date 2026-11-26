@@ -3,6 +3,9 @@ templateEngineOverride: "njk, md"
 title: "House Removals UK: A Fully Managed Move From One Coordinator — Chayce Properties"
 description: "House removals in the UK don't have to mean juggling packers, estate agents and van hire alone. Chayce Properties runs the whole move through one coordinator, fully insured, from £995."
 date: "2026-11-26"
+featuredImage: "https://images.pexels.com/photos/34787560/pexels-photo-34787560.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+featuredImageAlt: "Three senior men playing a chess game outdoors, enjoying a sunny day."
+featuredImageCredit: "Photo by Luke Bryan on Pexels"
 ---
 
 <div class="container page-section v2-sec">

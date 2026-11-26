@@ -3,6 +3,9 @@ templateEngineOverride: "njk, md"
 title: "Relocating a Senior: What to Consider Before the Move | Chayce Properties"
 description: "Planning a senior relocation? Chayce Properties explains the emotional, practical and logistical factors to weigh — and why one coordinator makes the move simpler."
 date: "2026-11-26"
+featuredImage: "https://images.pexels.com/photos/35821967/pexels-photo-35821967.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+featuredImageAlt: "Senior man lifting cardboard boxes outdoors on a bright day in Bình Dương, Vietnam."
+featuredImageCredit: "Photo by Vy Van Bui on Pexels"
 ---
 
 <div class="container page-section v2-sec">

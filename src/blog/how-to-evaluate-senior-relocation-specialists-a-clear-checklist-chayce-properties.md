@@ -3,6 +3,9 @@ templateEngineOverride: "njk, md"
 title: "How to Evaluate Senior Relocation Specialists: A Clear Checklist | Chayce Properties"
 description: "Choosing a senior relocation specialist? Chayce Properties explains what to look for — coordination, insurance, planning and nationwide reach — so you decide with confidence."
 date: "2026-11-26"
+featuredImage: "https://images.pexels.com/photos/8441864/pexels-photo-8441864.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+featuredImageAlt: "A business consultant explaining financial options to senior clients, using a laptop for illustration."
+featuredImageCredit: "Photo by Kampus Production on Pexels"
 ---
 
 <div class="container page-section v2-sec">

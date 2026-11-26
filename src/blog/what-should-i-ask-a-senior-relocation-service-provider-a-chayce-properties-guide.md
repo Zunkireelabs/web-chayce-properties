@@ -3,6 +3,9 @@ templateEngineOverride: "njk, md"
 title: "What Should I Ask a Senior Relocation Service Provider? A Chayce Properties Guide"
 description: "Planning a later-life move? Here are the questions to ask any senior relocation service provider — and how Chayce Properties, a fully insured UK mover, answers them."
 date: "2026-11-26"
+featuredImage: "https://images.pexels.com/photos/39191063/pexels-photo-39191063.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+featuredImageAlt: "Senior couple using a laptop and credit card for online shopping at home, smiling and engaging."
+featuredImageCredit: "Photo by Vitaly Gariev on Pexels"
 ---
 
 <div class="container page-section v2-sec">

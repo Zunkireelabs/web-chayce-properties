@@ -3,6 +3,9 @@ templateEngineOverride: "njk, md"
 title: "Luxury Senior Relocation Costs Explained by Chayce Properties"
 description: "What does luxury senior relocation really cost? Chayce Properties breaks down consultations, packages, insurance and extras so you can budget with confidence."
 date: "2026-11-26"
+featuredImage: "https://images.pexels.com/photos/39853088/pexels-photo-39853088.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+featuredImageAlt: "Senior businessman brainstorming with colorful sticky notes on a glass wall in modern office."
+featuredImageCredit: "Photo by Vitaly Gariev on Pexels"
 ---
 
 <div class="container page-section v2-sec">

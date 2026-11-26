@@ -3,6 +3,9 @@ templateEngineOverride: "njk, md"
 title: "Settling In Assistance After Moving: How Chayce Properties Helps You Feel at Home"
 description: "Settling in assistance from Chayce Properties turns a half-unpacked new house into a home that works. Here's what settling-in support really involves and how one coordinator sees it through."
 date: "2026-11-26"
+featuredImage: "https://images.pexels.com/photos/39853100/pexels-photo-39853100.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+featuredImageAlt: "Senior professional multitasking with laptop and phone in a contemporary office setting."
+featuredImageCredit: "Photo by Vitaly Gariev on Pexels"
 ---
 
 <div class="container page-section v2-sec">

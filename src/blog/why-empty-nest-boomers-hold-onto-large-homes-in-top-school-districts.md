@@ -4,6 +4,9 @@ title: "Why Empty-Nest Boomers Hold Onto Large Homes in Top School Districts"
 description: "A Cleveland Fed study shows over-65 households dominate homes in top school districts. Chayce Properties explains what it means for downsizing and relocation."
 date: "2026-11-26"
 category: "Insights"
+featuredImage: "https://images.pexels.com/photos/6156582/pexels-photo-6156582.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+featuredImageAlt: "Empty yellow large school bus parked on asphalt road under cloudy blue sky in daytime"
+featuredImageCredit: "Photo by Laker on Pexels"
 ---
 
 <div class="container page-section v2-sec">

@@ -3,6 +3,9 @@ templateEngineOverride: "njk, md"
 title: "Senior Relocation Expert Referrals: How to Choose"
 description: "Looking for referrals to senior relocation experts? Learn how to vet a mover and why Chayce Properties coordinates fully insured, fully managed moves across the UK."
 date: "2026-11-26"
+featuredImage: "https://images.pexels.com/photos/8730034/pexels-photo-8730034.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+featuredImageAlt: "Confident senior woman entering a modern office setting, holding documents and smiling."
+featuredImageCredit: "Photo by Kampus Production on Pexels"
 ---
 
 <div class="container page-section v2-sec">

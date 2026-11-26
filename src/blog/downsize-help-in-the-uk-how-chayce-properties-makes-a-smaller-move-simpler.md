@@ -3,6 +3,9 @@ templateEngineOverride: "njk, md"
 title: "Downsize Help in the UK: How Chayce Properties Makes a Smaller Move Simpler"
 description: "Looking for downsize help in the UK? Chayce Properties gives you one coordinator for the whole move — sorting, packing, removal and settling in. From £995."
 date: "2026-11-26"
+featuredImage: "https://images.pexels.com/photos/39191604/pexels-photo-39191604.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+featuredImageAlt: "A senior couple opening a cardboard box inside a cozy home setting."
+featuredImageCredit: "Photo by Vitaly Gariev on Pexels"
 ---
 
 <div class="container page-section v2-sec">

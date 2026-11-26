@@ -3,6 +3,9 @@ templateEngineOverride: "njk, md"
 title: "The Process for Relocating an Elderly Family Member, Step by Step"
 description: "A clear, calm guide to relocating an elderly parent or relative in the UK — the stages, the decisions, and how Chayce Properties manages the whole move for you."
 date: "2026-11-26"
+featuredImage: "https://images.pexels.com/photos/7433861/pexels-photo-7433861.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+featuredImageAlt: "Three senior businesswomen in an office working together on a laptop and documents."
+featuredImageCredit: "Photo by Vlada Karpovich on Pexels"
 ---
 
 <div class="container page-section v2-sec">
