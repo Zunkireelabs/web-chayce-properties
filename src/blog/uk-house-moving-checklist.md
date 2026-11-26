@@ -150,6 +150,20 @@ For the packing itself, see [how to pack for a house move in the UK, room by roo
 <!-- SEOAI:FAQ:START --><!-- SEOAI:FAQ:END -->
 <!-- SEOAI:SCHEMA:START --><!-- SEOAI:SCHEMA:END -->
 <!-- SEOAI:INTERNALLINKS:START --><!-- SEOAI:INTERNALLINKS:END -->
-<!-- SEOAI:EXPANDEDCONTENT:START --><!-- SEOAI:EXPANDEDCONTENT:END -->
+<!-- SEOAI:EXPANDEDCONTENT:START -->
+
+## 2 Weeks Before: Confirm Details and Redirect Your Post
+
+With the big bookings behind you, the fortnight before the move is for locking things down in writing. Confirm the date, address and arrival time with your removal firm so there are no surprises on the day, and set up a redirection for your post so nothing important goes to the old address after you leave. This is also the moment to work through who to tell — your lender or landlord will already know your date, but banks, utilities, the council and your GP still need the update; our separate change of address checklist covers exactly who to contact so none of it lands on top of everything else in the final week.
+
+## Moving Day: Keep Your Essentials With You
+
+However well you've packed, keep an essentials box or bag with you on the day rather than loading it onto the van. Kettle and mugs, chargers, medication, important documents, a change of clothes and anything you'd hate to see go astray are all worth carrying yourself. Because you labelled every box with its destination room, your removal team can place things where they belong as they unload, which makes the first evening in the new home far less chaotic than hunting through a wall of identical boxes.
+
+## Help With an Older Parent's Move
+
+An eight-week timeline assumes you can do the sorting, packing and chasing yourself — which isn't always realistic when the move is for an older parent or relative, or when you live some distance away. Chayce can plan and run the whole move with you: sorting and packing, an insured removal, and settling in at the other end, all handled by one DBS-checked coordinator so there's a single point of contact rather than a string of separate suppliers. Packages start from £995. Specialist senior-move providers exist elsewhere in the UK, but Chayce keeps the planning, the physical move and the settling-in under one coordinator for families in Northampton and the surrounding area; you can book a Discovery Consultation, request a callback, or call 07708 925432 to talk it through.
+
+<!-- SEOAI:EXPANDEDCONTENT:END -->
 <!-- SEOAI:QACONTENT:START --><!-- SEOAI:QACONTENT:END -->
 <!-- SEOAI:BREADCRUMBSCHEMA:START --><!-- SEOAI:BREADCRUMBSCHEMA:END -->
