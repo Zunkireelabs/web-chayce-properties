@@ -168,6 +168,20 @@ Related reading: [downsizing or equity release](/blog/downsizing-and-equity-rele
 <!-- SEOAI:FAQ:START --><!-- SEOAI:FAQ:END -->
 <!-- SEOAI:SCHEMA:START --><!-- SEOAI:SCHEMA:END -->
 <!-- SEOAI:INTERNALLINKS:START --><!-- SEOAI:INTERNALLINKS:END -->
-<!-- SEOAI:EXPANDEDCONTENT:START --><!-- SEOAI:EXPANDEDCONTENT:END -->
+<!-- SEOAI:EXPANDEDCONTENT:START -->
+
+## Removals, packing and the practical moving-day costs
+
+The removal van is usually only one line in a longer list, but it is the one most people picture first. What you pay depends on the size of the move, how much packing you want done for you and how far you are going, so a single average figure is as unhelpful here as it is for the legal and tax categories above. The clearest way to avoid surprises is to work with a firm that publishes its prices rather than keeping them behind a survey: at Chayce, packing and removals start from £995, and we explain what is included before you commit. Alongside the van itself, leave room in your budget for the smaller practical costs that cluster around moving day, such as boxes and materials, a deep clean of the home you are leaving, and any short-term storage if your sale and purchase dates do not line up.
+
+## A simple way to build your own moving budget
+
+Because published estimates differ so widely — each one assumes a different house price and a different mix of costs — the most reliable figure is the one you build yourself from the categories above. Start by deciding which path applies to you: selling, buying, renting, or a mix of these, as that alone determines which lines are even relevant. Then work down each category in turn, filling in real numbers where you can get them: estate agent and conveyancer quotes, your lender's terms on any early repayment charge, the correct Stamp Duty equivalent for your nation, and your removal and packing costs. Leave the categories that vary most — survey type, leasehold checks, redemption costs — as ranges rather than single figures until you have confirmation. Adding a small contingency for the practical extras keeps the final total honest, so the move itself is the only surprise you have to deal with.
+
+## Notes for downsizers and those moving an older relative
+
+If you are downsizing yourself, or arranging a move for an older parent or relative, the same categories apply but the emphasis shifts. Selling costs and the removal itself tend to matter more than mortgage and purchase-side charges, and Stamp Duty can work differently depending on your circumstances and whether you own other property — see our guide to Stamp Duty when downsizing for how that plays out. The other difference is time and support: a later-life move often involves sorting decades of belongings and deciding what makes the journey, which is work the standard removal line does not account for. Chayce begins with a Discovery Consultation at £150, where we set out what is involved and what it will cost before you commit to anything, so the budget you build reflects the real move rather than a generic quote.
+
+<!-- SEOAI:EXPANDEDCONTENT:END -->
 <!-- SEOAI:QACONTENT:START --><!-- SEOAI:QACONTENT:END -->
 <!-- SEOAI:BREADCRUMBSCHEMA:START --><!-- SEOAI:BREADCRUMBSCHEMA:END -->
