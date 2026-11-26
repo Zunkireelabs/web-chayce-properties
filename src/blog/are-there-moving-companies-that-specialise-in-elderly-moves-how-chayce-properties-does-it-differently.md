@@ -3,6 +3,9 @@ templateEngineOverride: "njk, md"
 title: "Are There Moving Companies That Specialise in Elderly Moves? How Chayce Properties Does It Differently"
 description: "Yes — specialist elderly movers exist, and they do far more than lift boxes. See how Chayce Properties manages senior moves across the UK with one coordinator from start to finish."
 date: "2026-11-26"
+featuredImage: "https://images.pexels.com/photos/6942741/pexels-photo-6942741.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+featuredImageAlt: "Two senior women packing belongings in boxes, preparing for a move in a cozy living room."
+featuredImageCredit: "Photo by cottonbro studio on Pexels"
 ---
 
 <div class="container page-section v2-sec">

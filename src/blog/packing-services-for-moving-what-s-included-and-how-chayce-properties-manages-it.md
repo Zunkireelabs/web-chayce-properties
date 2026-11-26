@@ -3,6 +3,9 @@ templateEngineOverride: "njk, md"
 title: "Packing Services for Moving: What's Included and How Chayce Properties Manages It"
 description: "A clear guide to packing services for moving in the UK — what's covered, how room-by-room packing works, and how Chayce Properties handles it as part of one fully managed, coordinated move."
 date: "2026-11-26"
+featuredImage: "https://images.pexels.com/photos/3824771/pexels-photo-3824771.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+featuredImageAlt: "Optimistic senior man in elegant formal black suit and eyeglasses standing and showing thumbs up while smiling and looking at camera"
+featuredImageCredit: "Photo by Andrea Piacquadio on Pexels"
 ---
 
 <div class="container page-section v2-sec">

@@ -4,6 +4,9 @@ title: "How Rising Home Maintenance Costs Are Pushing Historic Home Owners Towar
 description: "Chayce Properties explains how climbing insurance and repair costs are pushing longtime homeowners of older and historic homes to reconsider staying put — and how a fully managed, insured move can make relocation a sound financial decision."
 date: "2026-11-26"
 category: "Insights"
+featuredImage: "https://images.pexels.com/photos/6942734/pexels-photo-6942734.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+featuredImageAlt: "Smiling senior woman holds a bag in a cozy living room setting."
+featuredImageCredit: "Photo by cottonbro studio on Pexels"
 ---
 
 <div class="container page-section v2-sec">

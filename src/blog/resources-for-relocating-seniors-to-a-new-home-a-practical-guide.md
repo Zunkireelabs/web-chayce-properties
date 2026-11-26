@@ -3,6 +3,9 @@ templateEngineOverride: "njk, md"
 title: "Resources for Relocating Seniors to a New Home: A Practical Guide"
 description: "Discover the real resources for relocating seniors — from move coordinators to charities and planning tools — and how Chayce Properties manages the whole move for you."
 date: "2026-11-26"
+featuredImage: "https://images.pexels.com/photos/4554377/pexels-photo-4554377.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+featuredImageAlt: "A couple exploring their new home while unpacking boxes and looking at a photo album."
+featuredImageCredit: "Photo by cottonbro studio on Pexels"
 ---
 
 <div class="container page-section v2-sec">

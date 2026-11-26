@@ -3,6 +3,9 @@ templateEngineOverride: "njk, md"
 title: "How to Choose the Right Senior Relocation Service (Chayce Properties Guide)"
 description: "Choosing a senior relocation service? Chayce Properties explains what to look for — one coordinator, full insurance, a plan before you commit — and how to compare options."
 date: "2026-11-26"
+featuredImage: "https://images.pexels.com/photos/6817702/pexels-photo-6817702.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+featuredImageAlt: "A senior couple playing chess on a cozy sofa, embracing leisure and strategy indoors."
+featuredImageCredit: "Photo by Yan Krukau on Pexels"
 ---
 
 <div class="container page-section v2-sec">

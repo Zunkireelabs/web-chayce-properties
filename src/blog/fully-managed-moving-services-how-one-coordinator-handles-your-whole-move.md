@@ -3,6 +3,9 @@ templateEngineOverride: "njk, md"
 title: "Fully Managed Moving Services: How One Coordinator Handles Your Whole Move"
 description: "Chayce Properties offers fully managed moving services across the UK — one coordinator handles sorting, packing, removals and settling in. Packages from £995."
 date: "2026-11-26"
+featuredImage: "https://images.pexels.com/photos/6942732/pexels-photo-6942732.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+featuredImageAlt: "Two senior women folding sheets in a living room, preparing for moving out."
+featuredImageCredit: "Photo by cottonbro studio on Pexels"
 ---
 
 <div class="container page-section v2-sec">
