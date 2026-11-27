@@ -3,7 +3,7 @@ title: "What to Do With Furniture When Downsizing: UK Options"
 description: "Selling, donating, council collections or a clearance firm: your UK options for furniture when downsizing, and the legal checks before anything leaves."
 date: "2026-11-18"
 dateModified: "2026-11-18"
-featuredImageCredit: "Photo via Pexels"
+featuredImageCredit: "Photo by Vitaly Gariev on Pexels"
 about:
   - name: "Furniture"
     url: "https://en.wikipedia.org/wiki/Furniture"
@@ -31,8 +31,8 @@ faq:
     a: "Belongings can form part of the estate, so check with the executor or the solicitor before anything is given away, sold or thrown out. Our guide to clearing a parent's house after a death sets out the steps."
   - q: "Does Chayce take furniture away?"
     a: "No. We help you decide what to keep, sell, donate or let go, then pack and move what is coming with you. We are not a house clearance firm, so we do not empty a property for disposal."
-featuredImage: "https://images.pexels.com/photos/7218505/pexels-photo-7218505.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
-featuredImageAlt: "Boxes being packed while sorting through the contents of a family home."
+featuredImage: "https://images.pexels.com/photos/39191606/pexels-photo-39191606.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+featuredImageAlt: "Smiling senior man excitedly unboxing a package at home."
 ---
 
 **Short answer:** when downsizing in the UK, decide first what fits in the new home, then sell or give away reusable furniture, for example to a charity shop. For anything nobody wants, ask your council about special collections for large items such as sofas, use the recycling centre, or use a private business that is on the register of waste carriers. You can be fined if you give your waste to someone who is not legally allowed to take it.
