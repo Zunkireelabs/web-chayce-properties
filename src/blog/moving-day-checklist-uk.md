@@ -3,7 +3,7 @@ title: "Moving Day Checklist UK: What to Do Hour by Hour"
 description: "A printable UK moving day checklist: the night before, the morning, loading, the final walkthrough and arrival, with extra tips for moving an older person."
 date: "2026-11-18"
 dateModified: "2026-11-18"
-featuredImageCredit: "Photo via Pexels"
+featuredImageCredit: "Photo by Ivan S on Pexels"
 about:
   - name: "Moving house"
     url: "https://en.wikipedia.org/wiki/Moving_house"
@@ -25,8 +25,8 @@ faq:
     a: "GOV.UK says you must leave the property in the state agreed in the contract when you move out. Check what the contract says about fixtures and fittings, and hand over keys as arranged with your estate agent or solicitor."
   - q: "How can I make moving day easier for an older person?"
     a: "Keep medication and papers with them, plan rest breaks, ask a family member or friend to stay with them away from the packing, and set up their bed and favourite chair first at the new home."
-featuredImage: "https://images.pexels.com/photos/7203815/pexels-photo-7203815.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
-featuredImageAlt: "A woman sorting belongings into a cardboard box while packing for a move."
+featuredImage: "https://images.pexels.com/photos/8962688/pexels-photo-8962688.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+featuredImageAlt: "Young adults signing documents on moving day, finalizing new home purchase."
 ---
 
 **Short answer:** on moving day, keep your keys, documents, medication and valuables with you, check every room before the van leaves, take meter readings, hand over keys as agreed and set up a first-night box and the bed first at the new home. Use the checklist below from the night before to the first evening, and print it if that helps.
