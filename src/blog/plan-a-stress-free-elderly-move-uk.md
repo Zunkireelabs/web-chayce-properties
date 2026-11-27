@@ -3,9 +3,9 @@ title: "How to Plan a Stress-Free Move for an Older Person (UK)" # SEOAI:TITLE
 description: "Practical steps for planning a smooth, dignified move for an older person in the UK, from first consultation to final unpack." # SEOAI:METADESCRIPTION
 date: "2026-09-17"
 dateModified: "2026-11-04"
-featuredImage: "https://images.pexels.com/photos/7217844/pexels-photo-7217844.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
-featuredImageAlt: "A couple taking a break while packing boxes during their move to a new home."
-featuredImageCredit: "Photo by Blue Bird on Pexels"
+featuredImage: "https://images.pexels.com/photos/39191605/pexels-photo-39191605.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+featuredImageAlt: "Smiling senior woman unboxing a package at home, indoors with modern decor."
+featuredImageCredit: "Photo by Vitaly Gariev on Pexels"
 about:
   - name: "Elderly care"
     url: "https://en.wikipedia.org/wiki/Elderly_care"

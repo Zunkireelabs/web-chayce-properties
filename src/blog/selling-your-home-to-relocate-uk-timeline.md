@@ -3,7 +3,7 @@ title: "Selling Your Home to Relocate: A Realistic UK Timeline" # SEOAI:TITLE
 description: "How long selling and relocating takes in the UK, what slows it down, and how to plan a later-life move around a realistic timeline." # SEOAI:METADESCRIPTION
 date: "2026-09-24"
 dateModified: "2026-11-04"
-featuredImageCredit: "Photo via Pexels"
+featuredImageCredit: "Photo by Vitaly Gariev on Pexels"
 about:
   - name: "Conveyancing"
     url: "https://en.wikipedia.org/wiki/Conveyancing"
@@ -21,8 +21,8 @@ faq:
     a: "Storage is included in Gold Prestige for exactly this situation, bridging the gap between the two dates."
   - q: "What if a link in the chain falls through partway?"
     a: "It's exactly why ongoing estate agent and solicitor liaison matters — having someone tracking the chain daily means a problem gets caught and worked around early, rather than discovered at the last minute."
-featuredImage: "https://images.pexels.com/photos/7937959/pexels-photo-7937959.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
-featuredImageAlt: "Hands passing over the keys to a new home."
+featuredImage: "https://images.pexels.com/photos/39853109/pexels-photo-39853109.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+featuredImageAlt: "Portrait of a senior adult man with a serious expression in a modern office environment."
 ---
 
 **Short answer:** when a move depends on selling your home, the moving date is set by how the sale progresses, not by a diary entry. Allow three to six months, prepare the property before it is listed, expect chains to cause the most delay, and plan storage or flexible dates to bridge any gap between completions.
