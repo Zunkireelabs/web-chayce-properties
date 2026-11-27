@@ -1,8 +1,8 @@
 ---
 title: "Later-Life Relocation UK: A Practical Guide to Moving Home"
 description: "Later-life relocation in the UK explained: how to plan a later-life move, who can help, what to sort first and how to keep the move calm and manageable."
-featuredImage: "https://images.pexels.com/photos/7217937/pexels-photo-7217937.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
-featuredImageAlt: "A couple carrying labelled kitchen boxes while moving into a new home outdoors"
+featuredImage: "https://images.pexels.com/photos/4553184/pexels-photo-4553184.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+featuredImageAlt: "A couple standing on a box surrounded by moving cartons, symbolizing home relocation."
 date: "2026-10-27"
 dateModified: "2026-11-04"
 about:
@@ -24,6 +24,7 @@ faq:
     a: "Family and friends, your local council, charities such as Age UK and Independent Age, and specialist moving services. Chayce provides one coordinator for sorting, packing, a fully insured removal and settling in."
   - q: "Does Chayce help with later-life relocation?"
     a: "Yes. We are based in Northampton and arrange later-life relocations across the UK, with packing and removals from £995."
+featuredImageCredit: "Photo by cottonbro studio on Pexels"
 ---
 
 **Short answer:** a later-life relocation goes best when you start early, decide what the new home needs to offer, sort belongings before packing, and have one person or service coordinating the practical steps so the move is not left to family alone.

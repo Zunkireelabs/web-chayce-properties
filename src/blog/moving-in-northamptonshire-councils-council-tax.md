@@ -3,7 +3,7 @@ title: "Moving in Northamptonshire: Councils, Council Tax and Who to Tell"
 description: "Moving in Northamptonshire: which council covers your town, how to tell them, bins, GP, voting and DVLA, with notes for helping an older parent move."
 date: "2026-11-18"
 dateModified: "2026-11-18"
-featuredImageCredit: "Photo via Pexels"
+featuredImageCredit: "Photo by Vitaly Gariev on Pexels"
 about:
   - name: "Northamptonshire"
     url: "https://en.wikipedia.org/wiki/Northamptonshire"
@@ -33,8 +33,8 @@ faq:
     a: "Possibly. The NHS says you can register with a GP surgery or change your surgery for free, and you can register with most surgeries online. Most people register near where they live."
   - q: "Can Chayce help an older parent move within Northamptonshire?"
     a: "Yes. Chayce is based in Northampton and helps with sorting, packing, a fully insured removal and settling in across Northamptonshire and the UK. We do not give care, legal or tax advice."
-featuredImage: "https://images.pexels.com/photos/7218668/pexels-photo-7218668.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
-featuredImageAlt: "Two people labelling cardboard moving boxes at home before a move."
+featuredImage: "https://images.pexels.com/photos/39191534/pexels-photo-39191534.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+featuredImageAlt: "Cheerful senior man sitting indoors with colorful geometric wall art."
 ---
 
 **Short answer:** Northamptonshire has two councils: West Northamptonshire Council, which covers Northampton, Daventry, Brackley and Towcester, and North Northamptonshire Council, which covers Corby, Kettering, Wellingborough and Rushden. When you move, tell the council for the area you are leaving and the council for the area you are moving to, then update your GP, the electoral register, DVLA and everyone who writes to you.

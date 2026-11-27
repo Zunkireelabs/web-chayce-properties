@@ -3,7 +3,7 @@ title: "Moving an Elderly Parent Into Your Home: UK Checklist"
 description: "Thinking of a parent moving in with you? What to agree first on care, money, Council Tax and benefits, and what to do if it stops working. UK guide."
 date: "2026-11-18"
 dateModified: "2026-11-18"
-featuredImageCredit: "Photo via Pexels"
+featuredImageCredit: "Photo by Vitaly Gariev on Pexels"
 about:
   - name: "Elderly care"
     url: "https://en.wikipedia.org/wiki/Elderly_care"
@@ -31,8 +31,8 @@ faq:
     a: "Plan for it before you move. Age UK suggests asking what would happen if your parent could no longer live there, for example if it does not work out or they need a care home. Our comparison of care homes, assisted living and sheltered housing sets out the other options."
   - q: "Can Chayce help with the move itself?"
     a: "Yes. We help sort and downsize your parent's home, pack and move what comes, and set up their room in yours, with one coordinator across the UK. We do not give care, legal, tax or financial advice."
-featuredImage: "https://images.pexels.com/photos/4569340/pexels-photo-4569340.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
-featuredImageAlt: "A family unpacking moving boxes together in a new home."
+featuredImage: "https://images.pexels.com/photos/36765194/pexels-photo-36765194.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+featuredImageAlt: "A young couple discussing plans while moving into their new home with a cardboard box."
 ---
 
 **Short answer:** moving an elderly parent into your home can work well in the UK, but agree the practical and financial questions first. Age UK suggests asking what care your parent will need and who will give it, whether the home needs adapting, how it will be paid for, whether benefits or Council Tax are affected, and what happens if it stops working. Get independent legal advice and consider a formal agreement.

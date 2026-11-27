@@ -3,7 +3,7 @@ title: "Stay or Move? Adapting a Home vs Moving in Later Life (UK)" # SEOAI:TITL
 description: "Should you adapt your home or move in later life? A neutral UK guide to home adaptations, grants, the costs of moving and how to decide." # SEOAI:METADESCRIPTION
 date: "2026-10-12"
 dateModified: "2026-11-04"
-featuredImageCredit: "Photo via Pexels"
+featuredImageCredit: "Photo by SHVETS production on Pexels"
 about:
   - name: "Elderly care"
     url: "https://en.wikipedia.org/wiki/Elderly_care"
@@ -23,8 +23,8 @@ faq:
     a: "Common signs include a home that is too large to manage, steep stairs that cannot be adapted, being far from family or services, or running costs that are hard to meet. Each person's situation is different."
   - q: "Can Chayce help if I decide to move?"
     a: "Yes. Chayce provides one coordinator for sorting, packing, a fully insured removal and settling in, across the UK. We do not give care, legal or financial advice."
-featuredImage: "https://images.pexels.com/photos/8847319/pexels-photo-8847319.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
-featuredImageAlt: "An older couple relaxing together, one reading a newspaper, at home."
+featuredImage: "https://images.pexels.com/photos/7545254/pexels-photo-7545254.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+featuredImageAlt: "Close-up of a senior man reaching for a small gift box on a coffee table. Indoors, casual setting."
 ---
 
 **Short answer:** in the UK, staying put with adaptations suits people who like their home and area and whose home can be changed to fit their needs. Moving suits people whose home is too large, too costly or too hard to adapt, or who want to be closer to family or services. Compare both honestly, and ask for an assessment before deciding.

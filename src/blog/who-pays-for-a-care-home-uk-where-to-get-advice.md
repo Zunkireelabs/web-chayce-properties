@@ -3,7 +3,7 @@ title: "Who Pays for a Care Home in the UK? Where to Get Advice" # SEOAI:TITLE
 description: "Who pays for a care home in the UK, how councils and the NHS can be involved, and where to get free, independent advice before you decide." # SEOAI:METADESCRIPTION
 date: "2026-10-12"
 dateModified: "2026-11-04"
-featuredImageCredit: "Photo via Pexels"
+featuredImageCredit: "Photo by Vlada Karpovich on Pexels"
 about:
   - name: "Care home"
     url: "https://en.wikipedia.org/wiki/Care_home"
@@ -35,8 +35,8 @@ faq:
     a: "It can, depending on the person's circumstances and the home. Ask your local council, which can explain any exemptions or discounts that may apply."
   - q: "What if there is no money for a care home?"
     a: "Contact your local council's adult social care team. It can assess care needs and, if the person qualifies, look at whether it can help with the cost. Free advice is available from Age UK, Independent Age and Citizens Advice."
-featuredImage: "https://images.pexels.com/photos/6975208/pexels-photo-6975208.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
-featuredImageAlt: "An older couple going through important documents at their kitchen table."
+featuredImage: "https://images.pexels.com/photos/7433876/pexels-photo-7433876.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+featuredImageAlt: "Three senior women discussing business strategies at a modern office table."
 ---
 
 **Short answer:** in the UK, who pays for a care home depends on the person's care needs, their savings and property, and where they live. Some people pay for their own care, some get help from their local council after an assessment, and a few qualify for NHS-funded care. The rules differ across England, Scotland, Wales and Northern Ireland, so start with your council and independent advice, not with a price list.

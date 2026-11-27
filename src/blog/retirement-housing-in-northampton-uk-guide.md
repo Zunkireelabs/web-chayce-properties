@@ -3,7 +3,7 @@ title: "Retirement Housing in Northampton: How to Find and Choose"
 description: "How to find retirement housing in Northampton: sheltered housing, assisted living and retirement flats, who to ask locally, what to check and the move itself."
 date: "2026-11-18"
 dateModified: "2026-11-18"
-featuredImageCredit: "Photo via Pexels"
+featuredImageCredit: "Photo by Vitaly Gariev on Pexels"
 about:
   - name: "Northampton"
     url: "https://en.wikipedia.org/wiki/Northampton"
@@ -31,8 +31,8 @@ faq:
     a: "Yes. Chayce is based on Kingsthorpe Road in Northampton and helps with the practical move: deciding what fits, packing, a fully insured removal and setting up the new home. We do not recommend or sell retirement properties."
   - q: "Where can I get free advice in Northamptonshire?"
     a: "Age UK Northamptonshire is a local charity helping older people in the county, and West Northamptonshire Council or North Northamptonshire Council can explain adult social care for your area. Age UK also runs a free national advice line."
-featuredImage: "https://images.pexels.com/photos/8847448/pexels-photo-8847448.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
-featuredImageAlt: "An older couple embracing in a comfortable, elegantly furnished living room."
+featuredImage: "https://images.pexels.com/photos/39853132/pexels-photo-39853132.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+featuredImageAlt: "Senior adult businessman looking at smartwatch while sitting at desk in modern office."
 ---
 
 **Short answer:** to find retirement housing in Northampton, start with West Northamptonshire Council and Age UK Northamptonshire for local advice, search listings such as housingcare.org by location, and compare the types: sheltered housing, assisted living (extra care) and retirement flats or villages. Visit more than once, compare every charge and plan the move around the scheme's rules and your move-in date.
